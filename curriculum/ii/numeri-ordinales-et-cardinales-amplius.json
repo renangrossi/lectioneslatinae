@@ -1,0 +1,92 @@
+{
+  "id": "ii-numeri-ordinales-et-cardinales-amplius",
+  "level": "II",
+  "unit": "1",
+  "order": 20,
+  "skill": "vocabularium",
+  "strand": "numeri",
+  "title": "Numeri Ordinales et Cardinales Amplius",
+  "subtitle": "Ab viginti ad mille — et la differentia inter mille et milia.",
+  "prerequisites": ["ii-adverbia"],
+  "objectives": [
+    "Numerare per decades ab viginti ad centum",
+    "Cognoscere centum, ducenti, quingenti, mille",
+    "Distinguere 'mille' (indeclinabile, adiectivum) ab 'milia' (declinabile, substantivum + genetivus)",
+    "Continuare numeros ordinales usque ad vicesimum"
+  ],
+  "content": {
+    "intro": "Congratulātiōnēs — hoc est ultima lēctiō Gradūs II! Complēmus numerōs, deinde in Gradū III ad dēclīnātiōnem tertiam prōgrediēmur.",
+    "explanation": "<p>Post vīgintī, decades sequuntur patrōnum regulārem (-gintā), et omnēs sunt indēclīnābilēs (sīcut 4-100 iam vīdistī in Gradū I) — praeter <em>mīlle</em>, quī speciālis est.</p>",
+    "rules": [
+      {
+        "heading": "a) Decades: 20-100",
+        "body": "<p>20 vīgintī, 30 trīgintā, 40 quadrāgintā, 50 quīnquāgintā, 60 sexāgintā, 70 septuāgintā, 80 octōgintā, 90 nōnāgintā, 100 centum.</p>"
+      },
+      {
+        "heading": "b) Centeni: 200-900",
+        "body": "<p>200 ducentī, -ae, -a (dēclīnābile, plūrāle!), 300 trecentī, 400 quadringentī, 500 quīngentī, 1000 mīlle.</p>"
+      },
+      {
+        "heading": "c) Mille vs. Milia",
+        "body": "<p><strong>mīlle</strong> (1000) est INDĒCLĪNĀBILE ut adiectīvum cum nōminibus singulāribus: <em>mīlle mīlitēs</em> ('a thousand soldiers'). Sed prō numerīs maiōribus, Latīna adhibet <strong>mīlia</strong> (plūrāle substantīvum, tertiae dēclīnātiōnis neutrum, ut in Gradū III discēs) + <strong>genetīvum</strong>: <em>duo mīlia mīlitum</em> ('two thousand [of] soldiers', litt. 'two thousands of-soldiers').</p>"
+      },
+      {
+        "heading": "d) Numeri Ordinales: Undecimus-Vicesimus",
+        "body": "<p>11º ūndecimus, 12º duodecimus, 13º tertius decimus, 20º vīcēsimus (vel vīcēnsimus). Omnēs dēclīnantur ut bonus, -a, -um.</p>"
+      }
+    ],
+    "examples": [
+      "Centum annos vixit. — He lived a hundred years.",
+      "Mille passus ambulavimus. — We walked a thousand paces.",
+      "Duo milia militum venerunt. — Two thousand soldiers came.",
+      "Anno vicesimo regnavit. — He reigned in the twentieth year.",
+      "Quinquaginta libros habeo. — I have fifty books."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Duo mīlia mīlitēs' — accusativus/nominativus adhibitus post mīlia, per analogiam cum mīlle.",
+        "right": "'Duo mīlia mīlitum' — mīlia est substantivum, regens genetivum plurale (mīlitum), non concordans directe.",
+        "why": "'Mīlia' grammaticē se comportat ut nomen ('thousands'), non adiectivum — ergo regit genetivum partitivum, sicut 'pars militum'."
+      },
+      {
+        "wrong": "'Mīlle' declinatur secundum casum et numerum, ut ducentī.",
+        "right": "'Mīlle' (singulare, 1000) est perfecte indeclinabile; solum 'mīlia' (pluralis, 2000+) declinatur.",
+        "why": "Distinctio inter mīlle (indeclinabile) et mīlia (declinabile) est fundamentum systematis numerorum magnorum."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-num2-mc", "type": "multiple-choice", "title": "Numeri Amplius",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "n2-1", "prompt": "Quomodo dicitur '50' Latine?", "options": ["quadraginta", "quinquaginta", "sexaginta"], "answerIndex": 1, "explanation": "quinquaginta = 50." },
+        { "id": "n2-2", "prompt": "'Mille' est:", "options": ["declinabile ut adiectivum normale", "indeclinabile cum nominibus singularibus", "substantivum plurale semper"], "answerIndex": 1, "explanation": "mīlle (1000) est indeclinabile." },
+        { "id": "n2-3", "prompt": "'Duo mīlia mīlitum' litteraliter significat:", "options": ["two thousand soldiers (mīlia concordans)", "two thousands OF soldiers (mīlia + genetivus)", "two soldiers of a thousand"], "answerIndex": 1, "explanation": "mīlia regit genetivum partitivum." },
+        { "id": "n2-4", "prompt": "Quomodo dicitur '100' Latine?", "options": ["decem", "mille", "centum"], "answerIndex": 2, "explanation": "centum = 100." }
+      ]
+    },
+    {
+      "id": "ii-num2-match", "type": "matching", "title": "Iunge Numerum cum Verbo",
+      "instructions": "Iunge quemque numerum cum verbo Latino.",
+      "items": [
+        { "id": "n2-5", "pairs": [
+          { "left": "30", "right": "triginta" },
+          { "left": "60", "right": "sexaginta" },
+          { "left": "90", "right": "nonaginta" },
+          { "left": "500", "right": "quingenti" },
+          { "left": "1000", "right": "mille" }
+        ], "explanation": "Numeri decadum sequuntur patronum -ginta; centeni maiores sunt declinabiles plurales." }
+      ]
+    }
+  ],
+  "summary": [
+    "Decades 20-90: -gintā (vigintī, trigintā...). Centum, ducentī, quingentī.",
+    "Mīlle (1000): indeclinabile, adiectivum. Mīlia (2000+): declinabile, substantivum + genetivus.",
+    "Numeri ordinales continuant: undecimus, duodecimus... vicesimus."
+  ],
+  "related": [
+    { "lessonId": "ii-adverbia", "label": "Adverbia" },
+    { "lessonId": "iii-declinatio-tertia-consonantes", "label": "Declinatio Tertia: Consonantes" }
+  ]
+}

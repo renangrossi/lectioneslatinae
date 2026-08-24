@@ -1,0 +1,86 @@
+{
+  "id": "ii-casus-dativus",
+  "level": "II",
+  "unit": "1",
+  "order": 11,
+  "skill": "grammatica",
+  "strand": "casus",
+  "title": "Casus Dativus",
+  "subtitle": "Obiectum indirectum — datīvus possessionis, et verba speciālia (pāreō, noceō, placeō).",
+  "prerequisites": ["ii-casus-accusativus"],
+  "objectives": [
+    "Recognoscere dativum ut obiectum indirectum",
+    "Uti dativo possessionis pro 'habere'",
+    "Cognoscere verba quae dativum regunt, non accusativum",
+    "Distinguere dativum a genetivo in constructionibus similes"
+  ],
+  "content": {
+    "intro": "Datīvus respondet quaestiōnī 'cui? (to/for whom)' — sed etiam substituit prō verbō 'habēre' in cōnstrūctiōne classicā, et est cāsus quem paucī verba speciālia semper postulant.",
+    "explanation": "<p>Datīvus prīmāriē indicat obiectum indirēctum: <em>Puellae librum dō.</em> ('I give a book to the girl.') Sed duo ūsūs magis surprēndentēs sequuntur.</p>",
+    "rules": [
+      {
+        "heading": "a) Obiectum Indirectum (Recognitio)",
+        "body": "<p><em>Magister discipulō praemium dat.</em> ('The teacher gives a reward to the student.') — discipulō est datīvus.</p>"
+      },
+      {
+        "heading": "b) Dativus Possessionis",
+        "body": "<p>Latīna Classica saepe exprimit possessiōnem PER 'sum' + datīvum, magis quam per 'habēre': <strong>Mihi est liber.</strong> ('I have a book', litt. 'To me there is a book.') <strong>Puellae sunt duo frātrēs.</strong> ('The girl has two brothers.')</p>"
+      },
+      {
+        "heading": "c) Verba Speciālia cum Dativo",
+        "body": "<p>Certa verba Latīna regunt datīvum ubi Anglicē exspectārēs obiectum dīrēctum: <strong>pāreō</strong> (obey), <strong>noceō</strong> (harm), <strong>placeō</strong> (please), <strong>persuādeō</strong> (persuade), <strong>imperō</strong> (command), <strong>crēdō</strong> (believe/trust), <strong>ignōscō</strong> (forgive), <strong>resistō</strong> (resist), <strong>faveō</strong> (favor), <strong>studeō</strong> (be eager for). Exemplum: <em>Servus dominō pāret.</em> ('The slave obeys the master' — dominō est datīvus, nōn accūsātīvus!)</p>"
+      }
+    ],
+    "examples": [
+      "Amīcō epistulam scrībō. — I write a letter to my friend. (obiectum indirectum)",
+      "Mihi est canis. — I have a dog. (dativus possessionis)",
+      "Militēs ducī pārent. — The soldiers obey the leader. (verbum speciale)",
+      "Nēmō tibi nocēbit. — No one will harm you. (verbum speciale)",
+      "Tibi crēdō. — I trust you. (verbum speciale)",
+      "Fēminae sunt trēs fīliae. — The woman has three daughters. (possessio)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Servus dominum pāret' — accusativus adhibitus pro 'obey', per analogiam Anglicam ('obey the master').",
+        "right": "'Servus dominō pāret' — pāreō regit semper dativum in Latina.",
+        "why": "Verba speciālia (pāreō, placeō, persuādeō, crēdō, ignōscō...) regunt dativum, differenter ab Anglico transitivo."
+      },
+      {
+        "wrong": "Discipulus tractat 'mihi est liber' et 'habeō librum' ut grammaticē diversa, unum incorrectum.",
+        "right": "Ambae constructiones sunt correctae et authenticae; 'mihi est' est magis classica/idiomatica pro possessione simplici.",
+        "why": "Latina permittit variās constructiōnēs prō eadem idea; dativus possessionis est genuine classicus, non 'incorrectus'."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-dat-mc", "type": "multiple-choice", "title": "Usus Dativi",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "dat1", "prompt": "'Servus dominō pāret' significat:", "options": ["The slave obeys the master", "The master obeys the slave", "The slave is the master"], "answerIndex": 0, "explanation": "pāreō regit dativum: dominō = 'the master' (obiectum, casu dativo)." },
+        { "id": "dat2", "prompt": "'Mihi est liber' litteraliter significat:", "options": ["I am a book", "To me there is a book (I have a book)", "The book is mine only"], "answerIndex": 1, "explanation": "Constructio classica pro possessione." },
+        { "id": "dat3", "prompt": "Quod verbum regit dativum, non accusativum?", "options": ["videō", "crēdō", "amō"], "answerIndex": 1, "explanation": "crēdō (believe/trust) regit dativum." },
+        { "id": "dat4", "prompt": "Datīvus respondet quaestiōnī:", "options": ["quem/quid?", "cui?", "cuius?"], "answerIndex": 1, "explanation": "Datīvus = 'to/for whom?'." },
+        { "id": "dat5", "prompt": "'Nocēre' significat:", "options": ["to help", "to harm", "to praise"], "answerIndex": 1, "explanation": "noceō = to harm (regit dativum)." }
+      ]
+    },
+    {
+      "id": "ii-dat-fill", "type": "fill-blank", "title": "Comple cum Dativo",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "dat6", "prompt": "Magister ___ librum dat. (to the student — discipulo)", "options": ["discipulus", "discipulum", "discipulō"], "answers": ["discipulō"], "explanation": "Obiectum indirectum: dativus." },
+        { "id": "dat7", "prompt": "Milites duci ___. (obey — pareo)", "options": ["parent", "parant", "parunt"], "answers": ["parent"], "explanation": "3a persona pluralis, secunda coniugatio: parent." },
+        { "id": "dat8", "prompt": "___ sunt multi amici. (Marcus has — Marco)", "options": ["Marcus", "Marcum", "Marcō"], "answers": ["Marcō"], "explanation": "Dativus possessionis: Marcō sunt... = Marcus has..." }
+      ]
+    }
+  ],
+  "summary": [
+    "Dativus: obiectum indirectum ('to/for whom').",
+    "Dativus possessionis: 'mihi est liber' = 'I have a book'.",
+    "Verba speciālia regentia dativum: pāreō, noceō, placeō, persuādeō, imperō, crēdō, ignōscō, resistō, faveō, studeō."
+  ],
+  "related": [
+    { "lessonId": "ii-casus-accusativus", "label": "Casus Accusativus" },
+    { "lessonId": "ii-casus-genitivus", "label": "Casus Genitivus" }
+  ]
+}

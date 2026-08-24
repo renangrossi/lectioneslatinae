@@ -1,0 +1,98 @@
+{
+  "id": "ii-adiectiva-primae-et-secundae-classis",
+  "level": "II",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammatica",
+  "strand": "adiectiva",
+  "title": "Adiectiva Primae et Secundae Classis",
+  "subtitle": "Bonus, -a, -um: concordantia in genere, numero, et casu.",
+  "prerequisites": ["ii-declinatio-secunda-neutra"],
+  "objectives": [
+    "Declinare adiectiva prima/secunda classis (bonus, -a, -um) in omni genere",
+    "Facere adiectivum concordare cum nomine in genere, numero, et casu",
+    "Distinguere inter adiectiva -er quae 'e' servant et quae amittunt",
+    "Intellegere quod concordantia non postulat eandem declinationem, sed eundem genus/numerum/casum"
+  ],
+  "content": {
+    "intro": "Adiectīvum (adjective) dēscrībit nōmen: <em>puella bona</em> ('good girl'), <em>servus bonus</em> ('good slave'). Fōrma adiectīvī mūtātur secundum nōmen quod dēscrībit — hoc vocātur <strong>concordantia</strong> (agreement).",
+    "explanation": "<p>Adiectīva prīmae/secundae classis (ut <em>bonus, -a, -um</em>) habent tria paradigmata: masculīnum sequitur <em>servus</em>, fēminīnum sequitur <em>rosa</em>, neutrum sequitur <em>bellum</em>. Concordantia significat: <strong>eundem genus, eundem numerum, eundem cāsum</strong> — NŌN eandem dēclīnātiōnem. Sīc <em>rēx bonus</em> ('good king') iungit rēgem (tertiae dēclīnātiōnis, ut in Gradū III discēs) cum bonus (secundae) quia ambō sunt māsculīnī singulārēs nōminātīvī.</p>",
+    "rules": [
+      {
+        "heading": "a) Paradigma: bonus, -a, -um",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Cāsus</th><th>Masc.</th><th>Fem.</th><th>Neut.</th></tr></thead><tbody><tr><td>Nōm. sg.</td><td>bon<strong>us</strong></td><td>bon<strong>a</strong></td><td>bon<strong>um</strong></td></tr><tr><td>Gen. sg.</td><td>bon<strong>ī</strong></td><td>bon<strong>ae</strong></td><td>bon<strong>ī</strong></td></tr><tr><td>Dat. sg.</td><td>bon<strong>ō</strong></td><td>bon<strong>ae</strong></td><td>bon<strong>ō</strong></td></tr><tr><td>Acc. sg.</td><td>bon<strong>um</strong></td><td>bon<strong>am</strong></td><td>bon<strong>um</strong></td></tr><tr><td>Abl. sg.</td><td>bon<strong>ō</strong></td><td>bon<strong>ā</strong></td><td>bon<strong>ō</strong></td></tr></tbody></table><p>Plūrālis sequitur eandem logicam: masc. -ī/-ōrum/-īs/-ōs/-īs; fem. -ae/-ārum/-īs/-ās/-īs; neut. -a/-ōrum/-īs/-a/-īs.</p>"
+      },
+      {
+        "heading": "b) Concordantia in Praxī",
+        "body": "<p><em>puella bon<strong>a</strong></em> (nom. fem. sg.), <em>puellam bon<strong>am</strong></em> (acc. fem. sg.), <em>servus bon<strong>us</strong></em> (nom. masc. sg.), <em>bellum bon<strong>um</strong></em> (nom./acc. neut. sg.) — nōta: adiectīvum et nōmen saepe nōn sunt fōrmā identica (puellae bonae vs. servō bonō), quia dēclīnātiōnēs variae fīnēs variōs habent, sed genus/numerus/cāsus semper concordant.</p>"
+      },
+      {
+        "heading": "c) Adiectiva in -er",
+        "body": "<p>Sīcut nōmina, adiectīva -er variant: <strong>pulcher, pulchra, pulchrum</strong> (beautiful) āmittit 'e' praeter masculīnum nōminātīvum/vocātīvum singulārem (sīcut ager); <strong>miser, misera, miserum</strong> (wretched) servat 'e' per omnem fōrmam (sīcut puer).</p>"
+      }
+    ],
+    "examples": [
+      "Puella bona est. — The girl is good.",
+      "Servum bonum video. — I see the good slave.",
+      "Bellum longum et malum est. — The war is long and bad.",
+      "Puella pulchra in horto ambulat. — The beautiful girl walks in the garden.",
+      "Vir miser auxilium petit. — The wretched man seeks help.",
+      "Rex bonus a populo amatur. — The good king is loved by the people."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus putat adiectivum debere habere eandem terminationem litteralem ac nomen (e.g. 'puellae bonus' pro 'puellae bonae').",
+        "right": "'puellae bonae' — adiectivum concordat in genere/numero/casu, non in litteris exactis.",
+        "why": "Concordantia est grammatica (categoriae abstractae), non orthographica (litterae identicae)."
+      },
+      {
+        "wrong": "'rex bonus' consideratur incorrectum quia 'rex' et 'bonus' videntur diversarum declinationum esse.",
+        "right": "'rex bonus' est perfecte correctum: rex (tertia decl.) et bonus (secunda decl.) concordant in genere (m.), numero (sg.), casu (nom.).",
+        "why": "Adiectivum non debet sequi eandem declinationem ac nomen quod modificat — solum genus/numerus/casus."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-adi-fill", "type": "fill-blank", "title": "Comple Adiectivum",
+      "instructions": "Elige formam rectam verbi 'bonus, -a, -um' pro quoque spatio.",
+      "items": [
+        { "id": "adi1", "prompt": "Puella ___ est. (good, f. nom.)", "options": ["bonus", "bona", "bonum"], "answers": ["bona"], "explanation": "Puella est femininum: bona." },
+        { "id": "adi2", "prompt": "Servus ___ est. (good, m. nom.)", "options": ["bonus", "bona", "bonum"], "answers": ["bonus"], "explanation": "Servus est masculinum: bonus." },
+        { "id": "adi3", "prompt": "Bellum ___ est. (bad — malum, n. nom.)", "options": ["malus", "mala", "malum"], "answers": ["malum"], "explanation": "Bellum est neutrum: malum." },
+        { "id": "adi4", "prompt": "Puellam ___ video. (good, f. acc.)", "options": ["bonam", "bonum", "bonus"], "answers": ["bonam"], "explanation": "Accusativus femininum: bonam." },
+        { "id": "adi5", "prompt": "Servos ___ habeo. (good, m. acc. pl.)", "options": ["bonos", "bonas", "bona"], "answers": ["bonos"], "explanation": "Accusativus masculinum plurale: bonos." }
+      ]
+    },
+    {
+      "id": "ii-adi-mc", "type": "multiple-choice", "title": "Concordantia: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "adi6", "prompt": "Adiectivum debet concordare cum nomine in:", "options": ["genere, numero, et casu", "sola declinatione", "sola littera finali"], "answerIndex": 0, "explanation": "Concordantia est grammatica, non orthographica." },
+        { "id": "adi7", "prompt": "Femininum genetivi singularis verbi 'bonus' est:", "options": ["boni", "bonae", "bonas"], "answerIndex": 1, "explanation": "Femininum sequitur primam declinationem: bonae." },
+        { "id": "adi8", "prompt": "Adiectivum 'pulcher' amittit litteram 'e' in formis, excepto:", "options": ["genetivo plurali", "masculino nominativo/vocativo singulari", "ablativo singulari"], "answerIndex": 1, "explanation": "Sicut 'ager', pulcher servat 'e' solum in nom./voc. masc. sg." },
+        { "id": "adi9", "prompt": "Adiectivum 'miser' (wretched) sequitur patronum verbi:", "options": ["servus", "puer (e servatur)", "ager (e amittitur)"], "answerIndex": 1, "explanation": "Miser, misera, miserum servat 'e' per omnem formam." },
+        { "id": "adi10", "prompt": "Potestne adiectivum secundae declinationis concordare cum nomine tertiae declinationis?", "options": ["numquam", "sic, si genus/numerus/casus concordant", "solum in poesi"], "answerIndex": 1, "explanation": "Concordantia grammatica non requirit eandem declinationem." }
+      ]
+    },
+    {
+      "id": "ii-adi-order", "type": "ordering", "title": "Compone Sententiam",
+      "instructions": "Pone verba in ordinem naturalem.",
+      "items": [
+        { "id": "adi11", "prompt": "est / bona / puella", "words": ["Puella", "bona", "est"], "explanation": "Subiectum + adiectivum praedicativum + verbum." },
+        { "id": "adi12", "prompt": "video / bonum / servum", "words": ["Servum", "bonum", "video"], "explanation": "Obiectum + adiectivum + verbum." },
+        { "id": "adi13", "prompt": "et / malum / longum / bellum / est", "words": ["Bellum", "longum", "et", "malum", "est"], "explanation": "Subiectum + duo adiectiva coniuncta + verbum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Bonus, -a, -um: masc. ut servus, fem. ut rosa, neut. ut bellum.",
+    "Concordantia: genus, numerus, casus — non eadem declinatio necessaria.",
+    "Adiectiva -er: pulcher (e amissa, ut ager) vs. miser (e servata, ut puer).",
+    "Adiectivum saepe non est forma identica nomini, sed semper concordat grammatice."
+  ],
+  "related": [
+    { "lessonId": "ii-declinatio-secunda-neutra", "label": "Declinatio Secunda: Neutra" },
+    { "lessonId": "ii-praepositiones-cum-accusativo-et-ablativo", "label": "Praepositiones cum Accusativo et Ablativo" }
+  ]
+}

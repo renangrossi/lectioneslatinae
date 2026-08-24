@@ -1,0 +1,102 @@
+{
+  "id": "ii-coniugatio-secunda",
+  "level": "II",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammatica",
+  "strand": "verba",
+  "title": "Coniugatio Secunda",
+  "subtitle": "Moneo, monere: tempus praesens activum, verba in -ere longum.",
+  "prerequisites": ["ii-coniugatio-prima"],
+  "objectives": [
+    "Recitare tempus praesens activum verbi 'moneo, monere'",
+    "Identificare coniugationem secundam per infinitivum in -ēre (e longum)",
+    "Distinguere coniugationem secundam a tertia per accentum et quantitatem",
+    "Verba frequentia secundae coniugationis uti"
+  ],
+  "content": {
+    "intro": "Secunda coniugātiō, ut prīma, est valdē regulāris — sōlum vōcālis thēmatica mūtātur: <strong>ē</strong> longum prō <strong>ā</strong>.",
+    "explanation": "<p>Īnfīnītīvus secundae coniugātiōnis dēsinit in <strong>-ēre</strong>, cum ē longō et accentū in paenultimā: mo-NĒ-re. Hoc distinguit eam ā tertiā coniugātiōne (-ere, e brevī, accentū in antepaenultimā: MIT-te-re), quam in proximā lēctiōne discēs.</p>",
+    "rules": [
+      {
+        "heading": "a) Paradigma: moneō, monēre 'to warn/advise'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Persona</th><th>Singularis</th><th>Pluralis</th></tr></thead><tbody><tr><td>1ª</td><td>mone<strong>ō</strong> — I warn</td><td>mon<strong>ēmus</strong> — we warn</td></tr><tr><td>2ª</td><td>mon<strong>ēs</strong> — you warn</td><td>mon<strong>ētis</strong> — you (pl.) warn</td></tr><tr><td>3ª</td><td>mon<strong>et</strong> — he/she/it warns</td><td>mon<strong>ent</strong> — they warn</td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Comparatio cum Coniugatione Prima",
+        "body": "<p>Dēsinentiae persōnālēs (-ō/-s/-t/-mus/-tis/-nt) sunt idem per omnēs coniugātiōnēs — sōlum vōcālis thēmatica variat: prīma <strong>-ā-</strong>, secunda <strong>-ē-</strong>. Nōtā tamen: 3ª persōna plūrālis 'mon<strong>ent</strong>' habet 'e' <em>breve</em>, differēns ā vōcālī thēmaticā longā cēterārum fōrmārum.</p>"
+      },
+      {
+        "heading": "c) Verba Frequentia Secundae Coniugationis",
+        "body": "<p>moneō (warn/advise), videō (see), habeō (have), teneō (hold), doceō (teach), respondeō (respond), sedeō (sit), maneō (remain/stay), timeō (fear), dēbeō (owe/ought).</p>"
+      }
+    ],
+    "examples": [
+      "Magister puerōs docet. — The teacher teaches the boys.",
+      "Puellam videō. — I see the girl.",
+      "Servī dominum timent. — The slaves fear the master.",
+      "In casā manēmus. — We stay in the house.",
+      "Discipulī magistrō respondent. — The students respond to the teacher.",
+      "Amīcus mē monet. — The friend warns me."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'monere' pronuntiātur cum accentū in ultimā syllabā vel cum 'e' brevī, confūsum cum tertiā coniugātiōne.",
+        "right": "'monēre' habet accentum in paenultimā (mo-NĒ-re), quia paenultima vocali longā gravis est.",
+        "why": "Quantitas vocalis (ē longum) distinguit secundam coniugationem a tertia (mittere, e breve, accentu in antepaenultima)."
+      },
+      {
+        "wrong": "Discipulus applicat easdem desinentias sed cum vocali -a- pro -e-, confundens cum prima coniugatione.",
+        "right": "Secunda coniugatio semper habet -ē- thematicum: monēmus, non *monāmus.",
+        "why": "Vocalis thematica est signum distinctivum cuiusque coniugationis; memoriā tenenda per infinitivum."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-con2-fill", "type": "fill-blank", "title": "Coniuga Moneo",
+      "instructions": "Comple cum forma recta verbi 'video, videre'.",
+      "items": [
+        { "id": "c2-1", "prompt": "Ego puellam ___. (I see)", "options": ["video", "vides", "videt"], "answers": ["video"], "explanation": "1a persona singularis: video." },
+        { "id": "c2-2", "prompt": "Tu servum ___. (you see)", "options": ["video", "vides", "videmus"], "answers": ["vides"], "explanation": "2a persona singularis: vides." },
+        { "id": "c2-3", "prompt": "Magister discipulos ___. (sees)", "options": ["videt", "vident", "vides"], "answers": ["videt"], "explanation": "3a persona singularis: videt." },
+        { "id": "c2-4", "prompt": "Nos templum ___. (we see)", "options": ["videmus", "videtis", "vident"], "answers": ["videmus"], "explanation": "1a persona pluralis: videmus." },
+        { "id": "c2-5", "prompt": "Puellae puerum ___. (they see)", "options": ["videt", "vident", "videmus"], "answers": ["vident"], "explanation": "3a persona pluralis: vident." }
+      ]
+    },
+    {
+      "id": "ii-con2-mc", "type": "multiple-choice", "title": "Coniugatio Secunda: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "c2-6", "prompt": "Infinitivus verborum secundae coniugationis desinit in:", "options": ["-āre", "-ēre (e longum)", "-ere (e breve)"], "answerIndex": 1, "explanation": "-ēre, e longum, accentu in paenultima." },
+        { "id": "c2-7", "prompt": "'Manētis' significat:", "options": ["I remain", "you (pl.) remain", "they remain"], "answerIndex": 1, "explanation": "2a persona pluralis: -ētis." },
+        { "id": "c2-8", "prompt": "Vocalis thematica secundae coniugationis est:", "options": ["ā", "ē", "ī"], "answerIndex": 1, "explanation": "ē longum distinguit secundam coniugationem." },
+        { "id": "c2-9", "prompt": "'Debeo' pertinet ad quam coniugationem?", "options": ["primam", "secundam", "tertiam"], "answerIndex": 1, "explanation": "dēbeō, dēbēre → secunda coniugatio." },
+        { "id": "c2-10", "prompt": "'Doceo' significat:", "options": ["I learn", "I teach", "I fear"], "answerIndex": 1, "explanation": "doceō = to teach (nota: discipulus 'discit', magister 'docet')." }
+      ]
+    },
+    {
+      "id": "ii-con2-match", "type": "matching", "title": "Iunge Verbum cum Significatione",
+      "instructions": "Iunge quodque verbum secundae coniugationis cum significatione Anglica.",
+      "items": [
+        { "id": "c2-11", "pairs": [
+          { "left": "habeo", "right": "I have" },
+          { "left": "teneo", "right": "I hold" },
+          { "left": "timeo", "right": "I fear" },
+          { "left": "sedeo", "right": "I sit" },
+          { "left": "respondeo", "right": "I respond" }
+        ], "explanation": "Vocabularium frequens secundae coniugationis." }
+      ]
+    }
+  ],
+  "summary": [
+    "Coniugatio secunda: infinitivus -ēre (e longum), accentu in paenultima.",
+    "moneō, monēs, monet, monēmus, monētis, monent.",
+    "Desinentiae personales identicae primae coniugationi; sola vocalis thematica (ē) differt.",
+    "Verba frequentia: videō, habeō, teneō, doceō, respondeō, sedeō, maneō, timeō, dēbeō."
+  ],
+  "related": [
+    { "lessonId": "ii-coniugatio-prima", "label": "Coniugatio Prima" },
+    { "lessonId": "ii-coniugatio-tertia", "label": "Coniugatio Tertia" }
+  ]
+}

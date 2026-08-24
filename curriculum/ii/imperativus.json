@@ -1,0 +1,90 @@
+{
+  "id": "ii-imperativus",
+  "level": "II",
+  "unit": "1",
+  "order": 16,
+  "skill": "grammatica",
+  "strand": "verba",
+  "title": "Imperativus",
+  "subtitle": "Da mihi! Audite! — modus ad imperandum, cum quattuor formis irregularibus.",
+  "prerequisites": ["ii-pronomina-possessiva"],
+  "objectives": [
+    "Formare imperativum praesentis singularem et pluralem, omni coniugatione",
+    "Memorare quattuor verba irregularia (dic, duc, fac, fer)",
+    "Formare prohibitionem (negative command) correcte cum noli/nolite",
+    "Uti imperativo in sententiis simplicibus"
+  ],
+  "content": {
+    "intro": "Imperātīvus est modus quō ōrdinēs damus: 'Venī!' ('Come!'), 'Audīte!' ('Listen! [pl.]'). Fōrmātiō est simplicissima inter omnēs modōs Latīnōs.",
+    "explanation": "<p>Imperātīvus singulāris praesentis = rādīx praesentis (invenitur removendō -re ab īnfīnītīvō). Imperātīvus plūrālis = eadem rādīx + <strong>-te</strong>.</p>",
+    "rules": [
+      {
+        "heading": "a) Formatio per Coniugationem",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Coniugatio</th><th>Infinitivus</th><th>Imp. sg.</th><th>Imp. pl.</th></tr></thead><tbody><tr><td>I</td><td>amāre</td><td>amā!</td><td>amāte!</td></tr><tr><td>II</td><td>monēre</td><td>monē!</td><td>monēte!</td></tr><tr><td>III</td><td>mittere</td><td>mitte!</td><td>mittite!</td></tr><tr><td>III mixta</td><td>capere</td><td>cape!</td><td>capite!</td></tr><tr><td>IV</td><td>audīre</td><td>audī!</td><td>audīte!</td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Quattuor Verba Irregularia",
+        "body": "<p>Quattuor verba frequentissima āmittunt vōcālem fīnālem in imperātīvō singulārī (tertiae coniugātiōnis): <strong>dīc!</strong> (say! — ā dīcō), <strong>dūc!</strong> (lead! — ā dūcō), <strong>fac!</strong> (do/make! — ā faciō), <strong>fer!</strong> (bring/carry! — ā ferō, irregulāre). Plūrālis regulāris manet: dīcite, dūcite, facite, ferte.</p>"
+      },
+      {
+        "heading": "c) Imperativus Verbi Sum",
+        "body": "<p>Es! ('be!', sg.), Este! ('be!', pl.) — irregulāris sed rārō adhibitus.</p>"
+      },
+      {
+        "heading": "d) Prohibitio: Nōlī/Nōlīte + Infinitivum",
+        "body": "<p>Ad ōrdinem NEGATĪVUM (a prohibition) fōrmandum, Latīna NŌN adhibet 'nōn' + imperātīvum, sed <strong>nōlī/nōlīte</strong> (litt. 'be unwilling') + īnfīnītīvum: <strong>Nōlī timēre!</strong> ('Don't be afraid!') <strong>Nōlīte discēdere!</strong> ('Don't leave! [pl.]')</p>"
+      }
+    ],
+    "examples": [
+      "Venī hūc! — Come here!",
+      "Audīte, discipulī! — Listen, students!",
+      "Dīc vērum! — Tell the truth!",
+      "Fac hoc statim! — Do this at once!",
+      "Nōlī flēre! — Don't cry!",
+      "Nōlīte pugnāre! — Don't fight! (pl.)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Prohibitio formatur *'nōn venī!' pro 'don't come!'.",
+        "right": "'Nōlī venīre!' — prohibitio semper per nōlī/nōlīte + infinitivum, numquam 'nōn' + imperativum.",
+        "why": "'nōn' + imperativus non est constructio classica standard pro commands negativis."
+      },
+      {
+        "wrong": "'Dic' scribitur *'dice', servans vocalem finalem ut verba regularia tertiae coniugationis.",
+        "right": "'dīc' amittit 'e' finale — una ex quattuor exceptionibus (dīc, dūc, fac, fer).",
+        "why": "Haec quattuor verba sunt inter frequentissima Latinae, ideoque forma brevior (colloquialis antiqua) in usu perstitit."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-imp-mc", "type": "multiple-choice", "title": "Imperativus: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "imp1", "prompt": "Imperativus singularis verbi 'audire' est:", "options": ["audi", "audis", "audite"], "answerIndex": 0, "explanation": "Radix + nihil (audī!)." },
+        { "id": "imp2", "prompt": "Quod verbum amittit vocalem finalem in imperativo singulari?", "options": ["amāre", "dīcere", "audīre"], "answerIndex": 1, "explanation": "dīcō → dīc! (una ex quattuor exceptionibus)." },
+        { "id": "imp3", "prompt": "'Nōlī flēre!' significat:", "options": ["Cry!", "Don't cry!", "You will not cry"], "answerIndex": 1, "explanation": "nōlī + infinitivum = prohibitio." },
+        { "id": "imp4", "prompt": "Imperativus pluralis verbi 'facere' est:", "options": ["face", "facite", "facere"], "answerIndex": 1, "explanation": "fac! (sg. irregulare) → facite! (pl. regulare)." },
+        { "id": "imp5", "prompt": "Quae quattuor verba amittunt vocalem in imperativo sg.?", "options": ["amō, videō, mittō, audiō", "dīcō, dūcō, faciō, ferō", "sum, possum, volō, eō"], "answerIndex": 1, "explanation": "dīc, dūc, fac, fer — memoranda specialiter." }
+      ]
+    },
+    {
+      "id": "ii-imp-fill", "type": "fill-blank", "title": "Forma Imperativum",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "imp6", "prompt": "___ hoc! (Do this! — fac)", "options": ["face", "fac", "facis"], "answers": ["fac"], "explanation": "Imperativus irregularis: fac!" },
+        { "id": "imp7", "prompt": "___, discipuli! (Listen, students! [pl.] — audite)", "options": ["Audi", "Audite", "Auditis"], "answers": ["Audite"], "explanation": "Imperativus pluralis: audite!" },
+        { "id": "imp8", "prompt": "___ pugnāre! (Don't fight! [sg.] — noli)", "options": ["Non", "Noli", "Nolite"], "answers": ["Noli"], "explanation": "Prohibitio singularis: nōlī + infinitivum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Imperativus sg. = radix praesentis; imperativus pl. = radix + -te.",
+    "Quattuor exceptiones: dīc, dūc, fac, fer (amittunt vocalem finalem in sg.).",
+    "Prohibitio: nōlī/nōlīte + infinitivum, numquam 'nōn' + imperativus."
+  ],
+  "related": [
+    { "lessonId": "ii-pronomina-possessiva", "label": "Pronomina Possessiva" },
+    { "lessonId": "ii-interrogativa", "label": "Interrogativa" }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "ii-interrogativa",
+  "level": "II",
+  "unit": "1",
+  "order": 17,
+  "skill": "grammatica",
+  "strand": "syntaxis",
+  "title": "Interrogativa",
+  "subtitle": "Quis, quid, cur, ubi — verba interrogativa, et -ne/num/nonne.",
+  "prerequisites": ["ii-imperativus"],
+  "objectives": [
+    "Uti pronomine interrogativo quis/quid correcte",
+    "Uti adverbiis interrogativis frequentibus (cur, ubi, quando, quomodo, quot)",
+    "Distinguere inter -ne (neutra), num (expectans 'non'), et nonne (expectans 'ita')",
+    "Formare quaestiones completas in Latina"
+  ],
+  "content": {
+    "intro": "Iam vīdistī -ne suffīxum prō quaestiōnibus sī/nōn. Hodiē discēs pronomen interrogātīvum et vocābula quaestiōnum specifica ('who, what, why, where...').",
+    "explanation": "<p>Latīna, sīcut Anglica, distinguit quaestiōnēs 'sī/nōn' (yes/no questions) ā quaestiōnibus cum verbō interrogātīvō (WH-questions).</p>",
+    "rules": [
+      {
+        "heading": "a) Quis, Quid: Pronomen Interrogativum",
+        "body": "<p><strong>Quis?</strong> (who? — personae) et <strong>quid?</strong> (what? — res) sunt fōrmae substantīvae. Dēclīnantur similiter prōnōminī relātīvō (quī, quae, quod — Gradus III), sed 'quis/quid' sunt fōrmae speciālēs nōminātīvī/accūsātīvī. Exemplum: <em>Quis venit?</em> ('Who comes?') <em>Quid vidēs?</em> ('What do you see?')</p>"
+      },
+      {
+        "heading": "b) Adverbia Interrogativa",
+        "body": "<p><strong>cūr?</strong> (why?), <strong>ubi?</strong> (where?), <strong>quandō?</strong> (when?), <strong>quōmodo?</strong> (how?), <strong>quot?</strong> (how many? — indēclīnābile), <strong>quantum?</strong> (how much?), <strong>unde?</strong> (from where?), <strong>quō?</strong> (to where?).</p>"
+      },
+      {
+        "heading": "c) -ne, Num, Nonne",
+        "body": "<p>Tria particulae fōrmant quaestiōnēs sī/nōn, cum implicātiōnibus dīversīs: <strong>-ne</strong> (suffīxum, neutrum, nūllam respōnsiōnem expectāns): <em>Venīsne?</em> ('Are you coming?') <strong>num</strong> (expectāns respōnsum negātīvum): <em>Num venīs?</em> ('You aren't coming, are you?') <strong>nōnne</strong> (expectāns respōnsum affirmātīvum): <em>Nōnne venīs?</em> ('You are coming, aren't you?')</p>"
+      }
+    ],
+    "examples": [
+      "Quis est ille vir? — Who is that man?",
+      "Cūr flēs? — Why are you crying?",
+      "Ubi habitās? — Where do you live?",
+      "Quot fīliōs habēs? — How many sons do you have?",
+      "Nōnne hoc vidēs? — You see this, don't you?",
+      "Num crās veniēs? — You won't come tomorrow, will you?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'num' et '-ne' tractantur ut identici, sine differentia implicationis.",
+        "right": "'-ne' est neutrum; 'num' implicat responsum negativum exspectatum; 'nōnne' implicat responsum affirmativum exspectatum.",
+        "why": "Optio particulae communicat quid loquens iam credat esse verum, subtilitas perdita si omnes tractantur idem."
+      },
+      {
+        "wrong": "'Quis' adhibetur pro rebus (things), ut Anglicum 'what' informale ('who did you buy?').",
+        "right": "'Quis' est pro personis ('who'); 'quid' est pro rebus ('what').",
+        "why": "Distinctio persona/res est stricta in Latina interrogativa, differenter ab usu colloquiali Anglico."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-int-mc", "type": "multiple-choice", "title": "Interrogativa: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "int1", "prompt": "'Quis venit?' significat:", "options": ["What comes?", "Who comes?", "Where does it come?"], "answerIndex": 1, "explanation": "quis = who (personae)." },
+        { "id": "int2", "prompt": "Quod verbum interrogativum significat 'why'?", "options": ["ubi", "cūr", "quandō"], "answerIndex": 1, "explanation": "cūr = why." },
+        { "id": "int3", "prompt": "'Nōnne hoc vidēs?' implicat responsum:", "options": ["affirmativum ('yes, I see')", "negativum ('no, I don't')", "nullum, est neutrum"], "answerIndex": 0, "explanation": "nōnne exspectat 'ita' (yes)." },
+        { "id": "int4", "prompt": "'Num crās veniēs?' implicat responsum:", "options": ["affirmativum", "negativum ('no, I won't')", "nullum"], "answerIndex": 1, "explanation": "num exspectat 'nōn' (no)." },
+        { "id": "int5", "prompt": "'Quot' significat:", "options": ["how much (mass)", "how many (count)", "how"], "answerIndex": 1, "explanation": "quot = how many (indeclinabile, cum rebus numerabilibus)." }
+      ]
+    },
+    {
+      "id": "ii-int-match", "type": "matching", "title": "Iunge Verbum Interrogativum cum Significatione",
+      "instructions": "Iunge quodque verbum interrogativum cum significatione Anglica.",
+      "items": [
+        { "id": "int6", "pairs": [
+          { "left": "ubi?", "right": "where?" },
+          { "left": "quandō?", "right": "when?" },
+          { "left": "quōmodo?", "right": "how?" },
+          { "left": "unde?", "right": "from where?" },
+          { "left": "quō?", "right": "to where?" }
+        ], "explanation": "Adverbia interrogativa frequentia — nota differentiam inter ubi/unde/quō (loci)." }
+      ]
+    }
+  ],
+  "summary": [
+    "Quis? (who) / quid? (what) — pronomen interrogativum, personae/res.",
+    "Adverbia: cūr, ubi, quandō, quōmodo, quot, unde, quō.",
+    "-ne (neutrum), num (exspectat 'non'), nōnne (exspectat 'ita')."
+  ],
+  "related": [
+    { "lessonId": "ii-imperativus", "label": "Imperativus" },
+    { "lessonId": "ii-coniunctiones", "label": "Coniunctiones" }
+  ]
+}

@@ -46,7 +46,108 @@
       "ty": "lectio-et-auditio-prima"
     }
   ],
-  "elementa": [],
+  "elementa": [
+    {
+      "slug": "declinatio-prima",
+      "title": "Declinatio Prima",
+      "ty": "declinatio-prima"
+    },
+    {
+      "slug": "declinatio-secunda-masculina",
+      "title": "Declinatio Secunda: Masculina",
+      "ty": "declinatio-secunda-masculina"
+    },
+    {
+      "slug": "declinatio-secunda-neutra",
+      "title": "Declinatio Secunda: Neutra",
+      "ty": "declinatio-secunda-neutra"
+    },
+    {
+      "slug": "adiectiva-primae-et-secundae-classis",
+      "title": "Adiectiva Primae et Secundae Classis",
+      "ty": "adiectiva-primae-et-secundae-classis"
+    },
+    {
+      "slug": "praepositiones-cum-accusativo-et-ablativo",
+      "title": "Praepositiones cum Accusativo et Ablativo",
+      "ty": "praepositiones-cum-accusativo-et-ablativo"
+    },
+    {
+      "slug": "coniugatio-prima",
+      "title": "Coniugatio Prima",
+      "ty": "coniugatio-prima"
+    },
+    {
+      "slug": "coniugatio-secunda",
+      "title": "Coniugatio Secunda",
+      "ty": "coniugatio-secunda"
+    },
+    {
+      "slug": "coniugatio-tertia",
+      "title": "Coniugatio Tertia",
+      "ty": "coniugatio-tertia"
+    },
+    {
+      "slug": "coniugatio-quarta",
+      "title": "Coniugatio Quarta",
+      "ty": "coniugatio-quarta"
+    },
+    {
+      "slug": "casus-accusativus",
+      "title": "Casus Accusativus",
+      "ty": "casus-accusativus"
+    },
+    {
+      "slug": "casus-dativus",
+      "title": "Casus Dativus",
+      "ty": "casus-dativus"
+    },
+    {
+      "slug": "casus-genitivus",
+      "title": "Casus Genitivus",
+      "ty": "casus-genitivus"
+    },
+    {
+      "slug": "casus-ablativus",
+      "title": "Casus Ablativus",
+      "ty": "casus-ablativus"
+    },
+    {
+      "slug": "pronomina-demonstrativa",
+      "title": "Pronomina Demonstrativa",
+      "ty": "pronomina-demonstrativa"
+    },
+    {
+      "slug": "pronomina-possessiva",
+      "title": "Pronomina Possessiva",
+      "ty": "pronomina-possessiva"
+    },
+    {
+      "slug": "imperativus",
+      "title": "Imperativus",
+      "ty": "imperativus"
+    },
+    {
+      "slug": "interrogativa",
+      "title": "Interrogativa",
+      "ty": "interrogativa"
+    },
+    {
+      "slug": "coniunctiones",
+      "title": "Coniunctiones",
+      "ty": "coniunctiones"
+    },
+    {
+      "slug": "adverbia",
+      "title": "Adverbia",
+      "ty": "adverbia"
+    },
+    {
+      "slug": "numeri-ordinales-et-cardinales-amplius",
+      "title": "Numeri Ordinales et Cardinales Amplius",
+      "ty": "numeri-ordinales-et-cardinales-amplius"
+    }
+  ],
   "progressus": [],
   "media": [],
   "provectus": [],

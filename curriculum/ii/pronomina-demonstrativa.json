@@ -1,0 +1,86 @@
+{
+  "id": "ii-pronomina-demonstrativa",
+  "level": "II",
+  "unit": "1",
+  "order": 14,
+  "skill": "grammatica",
+  "strand": "pronomina",
+  "title": "Pronomina Demonstrativa",
+  "subtitle": "Hic, ille: 'this' et 'that', per omnes casus.",
+  "prerequisites": ["ii-casus-ablativus"],
+  "objectives": [
+    "Declinare hic, haec, hoc ('this') per omnes casus",
+    "Declinare ille, illa, illud ('that') per omnes casus",
+    "Distinguere usum hic (proximus) ab ille (remotus)",
+    "Uti pronominibus demonstrativis tam adiective quam substantive"
+  ],
+  "content": {
+    "intro": "Pronōmina dēmōnstrātīva indicant proximitātem: <strong>hic</strong> ('this', prope loquentem), <strong>ille</strong> ('that', longē). Ambō possunt adhibērī vel sōla (prōnōmina) vel cum nōmine (adiectīva dēmōnstrātīva): <em>hic vir</em> ('this man').",
+    "explanation": "<p>Haec prōnōmina sunt inter irregulāriōra Latīnae — genetīvus singulāris omnium generum semper -ius, datīvus semper -ī, sine respectu dēclīnātiōnis normālis.</p>",
+    "rules": [
+      {
+        "heading": "a) Hic, haec, hoc 'this'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Cāsus</th><th>Masc.</th><th>Fem.</th><th>Neut.</th></tr></thead><tbody><tr><td>Nōm. sg.</td><td>hic</td><td>haec</td><td>hoc</td></tr><tr><td>Gen. sg.</td><td>huius</td><td>huius</td><td>huius</td></tr><tr><td>Dat. sg.</td><td>huic</td><td>huic</td><td>huic</td></tr><tr><td>Acc. sg.</td><td>hunc</td><td>hanc</td><td>hoc</td></tr><tr><td>Abl. sg.</td><td>hōc</td><td>hāc</td><td>hōc</td></tr><tr><td>Nōm. pl.</td><td>hī</td><td>hae</td><td>haec</td></tr><tr><td>Gen. pl.</td><td>hōrum</td><td>hārum</td><td>hōrum</td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Ille, illa, illud 'that'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Cāsus</th><th>Masc.</th><th>Fem.</th><th>Neut.</th></tr></thead><tbody><tr><td>Nōm. sg.</td><td>ille</td><td>illa</td><td>illud</td></tr><tr><td>Gen. sg.</td><td>illīus</td><td>illīus</td><td>illīus</td></tr><tr><td>Dat. sg.</td><td>illī</td><td>illī</td><td>illī</td></tr><tr><td>Acc. sg.</td><td>illum</td><td>illam</td><td>illud</td></tr><tr><td>Abl. sg.</td><td>illō</td><td>illā</td><td>illō</td></tr><tr><td>Nōm. pl.</td><td>illī</td><td>illae</td><td>illa</td></tr></tbody></table><p>Nōtā: genetīvus/datīvus singulāris omnium trium generum, in ambōbus prōnōminibus, sunt identicī (-īus, -ī) — hoc patrōnum vidēbis iterum in aliīs prōnōminibus/adiectīvīs irregulāribus.</p>"
+      },
+      {
+        "heading": "c) Iste, ista, istud",
+        "body": "<p>Tertium dēmōnstrātīvum, <strong>iste</strong> ('that [of yours]'), sequitur idem patrōnum ac ille, indicāns rem propinquam audītōrī — saepe cum sēnsū dēspicābilī in ōrātōriā ('that [wretched] man of yours').</p>"
+      }
+    ],
+    "examples": [
+      "Hic liber meus est. — This book is mine.",
+      "Illa fēmina magistra est. — That woman is a teacher.",
+      "Huius puellae nōmen Iūlia est. — This girl's name is Julia.",
+      "Illī virī fortēs sunt. — Those men are brave.",
+      "Hoc vidēs? — Do you see this?",
+      "Cum illō amīcō veniō. — I come with that friend."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Genetivus singularis 'hic' formatur *'hici', per analogiam ad declinationem secundam regularem.",
+        "right": "Genetivus est 'huius' — irregularis, idem in omni genere.",
+        "why": "Pronomina demonstrativa non sequuntur paradigmata regularia prima/secunda declinationis in genetivo/dativo singulari."
+      },
+      {
+        "wrong": "'Hic' et 'ille' tractantur ut interscambiabiles sine differentia significationis.",
+        "right": "'Hic' indicat proximitatem (this, near); 'ille' indicat distantiam (that, far) — differentia semantica reālis.",
+        "why": "Optio inter hic/ille communicat perspectivam spatialem vel emotionalem loquentis."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-dem-fill", "type": "fill-blank", "title": "Comple cum Demonstrativo",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "dem1", "prompt": "___ puella discipula est. (This girl — haec)", "options": ["Hic", "Haec", "Hoc"], "answers": ["Haec"], "explanation": "Femininum nominativum singulare: haec." },
+        { "id": "dem2", "prompt": "___ virum videō. (this man — hunc)", "options": ["hic", "hunc", "huius"], "answers": ["hunc"], "explanation": "Accusativus masculinum singulare: hunc." },
+        { "id": "dem3", "prompt": "___ fēminae nōmen Claudia est. (this woman's — huius)", "options": ["haec", "huius", "hanc"], "answers": ["huius"], "explanation": "Genetivus: huius." },
+        { "id": "dem4", "prompt": "___ librī bonī sunt. (Those books — illi)", "options": ["Illa", "Illī", "Illud"], "answers": ["Illī"], "explanation": "Nominativus masculinum plurale: illī." },
+        { "id": "dem5", "prompt": "Cum ___ amīcā veniō. (that friend, f. — illā)", "options": ["illa", "illam", "illā"], "answers": ["illā"], "explanation": "Ablativus femininum singulare: illā." }
+      ]
+    },
+    {
+      "id": "ii-dem-mc", "type": "multiple-choice", "title": "Hic et Ille: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "dem6", "prompt": "Genetivus singularis verbi 'hic' (omni genere) est:", "options": ["hici", "huius", "hoius"], "answerIndex": 1, "explanation": "huius, irregulare, idem in omni genere." },
+        { "id": "dem7", "prompt": "'Hic' indicat proximitatem ad:", "options": ["auditorem", "loquentem", "rem tertiam absentem"], "answerIndex": 1, "explanation": "'hic' = 'this', prope loquentem (speaker)." },
+        { "id": "dem8", "prompt": "Neutrum nominativum/accusativum singulare verbi 'ille' est:", "options": ["illum", "illa", "illud"], "answerIndex": 2, "explanation": "illud, regula neutra universalis." }
+      ]
+    }
+  ],
+  "summary": [
+    "Hic, haec, hoc = 'this' (proximus); ille, illa, illud = 'that' (remotus).",
+    "Genetivus singularis -ius, dativus singularis -ī, idem in omni genere (irregulare).",
+    "Iste, ista, istud sequitur patronum illius, indicans rem propinquam auditori."
+  ],
+  "related": [
+    { "lessonId": "ii-casus-ablativus", "label": "Casus Ablativus" },
+    { "lessonId": "ii-pronomina-possessiva", "label": "Pronomina Possessiva" }
+  ]
+}

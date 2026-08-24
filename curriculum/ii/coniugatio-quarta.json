@@ -1,0 +1,102 @@
+{
+  "id": "ii-coniugatio-quarta",
+  "level": "II",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammatica",
+  "strand": "verba",
+  "title": "Coniugatio Quarta",
+  "subtitle": "Audio, audire: tempus praesens activum — quarta et ultima coniugatio regularis.",
+  "prerequisites": ["ii-coniugatio-tertia"],
+  "objectives": [
+    "Recitare tempus praesens activum verbi 'audio, audire'",
+    "Identificare coniugationem quartam per infinitivum in -ire",
+    "Distinguere quartam coniugationem a verbis mixtis tertiae (-io)",
+    "Recognoscere omnes quattuor coniugationes simul, per infinitivum solum"
+  ],
+  "content": {
+    "intro": "Quārta et ultima coniugātiō regulāris: verba in <strong>-īre</strong>. Post hanc lēctiōnem, poteris quamvis verbum novum identificāre per sōlum īnfīnītīvum eius.",
+    "explanation": "<p>Īnfīnītīvus quārtae coniugātiōnis dēsinit in <strong>-īre</strong>, ī longō. Simillima est tertiae mixtae (capiō, capere) in multīs fōrmīs, sed distinguitur per īnfīnītīvum: <em>audīre</em> (ī longum, quārta) vs. <em>capere</em> (e breve, tertia mixta).</p>",
+    "rules": [
+      {
+        "heading": "a) Paradigma: audiō, audīre 'to hear'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Persona</th><th>Singularis</th><th>Pluralis</th></tr></thead><tbody><tr><td>1ª</td><td>audi<strong>ō</strong> — I hear</td><td>aud<strong>īmus</strong> — we hear</td></tr><tr><td>2ª</td><td>aud<strong>īs</strong> — you hear</td><td>aud<strong>ītis</strong> — you (pl.) hear</td></tr><tr><td>3ª</td><td>aud<strong>it</strong> — he/she/it hears</td><td>audi<strong>unt</strong> — they hear</td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Conspectus: Quattuor Coniugationes per Infinitivum",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Coniugatio</th><th>Infinitivus</th><th>Exemplum</th></tr></thead><tbody><tr><td>I</td><td>-āre</td><td>amāre</td></tr><tr><td>II</td><td>-ēre (longum)</td><td>monēre</td></tr><tr><td>III</td><td>-ere (breve)</td><td>mittere</td></tr><tr><td>III mixta</td><td>-ere (breve, -iō in 1ª sg.)</td><td>capere</td></tr><tr><td>IV</td><td>-īre</td><td>audīre</td></tr></tbody></table>"
+      },
+      {
+        "heading": "c) Verba Frequentia Quartae Coniugationis",
+        "body": "<p>audiō (hear), veniō (come), dormiō (sleep), sentiō (feel/perceive), aperiō (open), inveniō (find), sciō (know), fīniō (finish), pūniō (punish).</p>"
+      }
+    ],
+    "examples": [
+      "Magistrum audiō. — I hear the teacher.",
+      "Puerī dormiunt. — The boys sleep.",
+      "Amīcus meus venit. — My friend comes.",
+      "Nōn scīmus. — We do not know.",
+      "Iānuam aperīs. — You open the door.",
+      "Verum sentiunt. — They perceive the truth."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'audire' confunditur cum 'capere' (tertia mixta), quia ambo habent -iō in prima persona.",
+        "right": "Distingue per infinitivum: audīre (ī longum) vs. capere (e breve) — sonus et accentus differunt.",
+        "why": "1ª persona singularis sola (audiō/capiō) est ambigua; infinitivus semper clarificat coniugationem."
+      },
+      {
+        "wrong": "3a persona pluralis scribitur *'audint', analogice ad 'mittunt'.",
+        "right": "'audiunt' — quarta coniugatio retinet 'i' ante -unt, sicut verba mixta.",
+        "why": "Quarta coniugatio et verba mixta tertiae ambo insertant 'i' ante desinentias -unt/-o."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-con4-fill", "type": "fill-blank", "title": "Coniuga Audio",
+      "instructions": "Comple cum forma recta verbi 'venio, venire'.",
+      "items": [
+        { "id": "c4-1", "prompt": "Ego ad tē ___. (I come)", "options": ["venio", "venis", "venit"], "answers": ["venio"], "explanation": "1a persona singularis: venio." },
+        { "id": "c4-2", "prompt": "Tu cum amico ___. (you come)", "options": ["venio", "venis", "venimus"], "answers": ["venis"], "explanation": "2a persona singularis: venis." },
+        { "id": "c4-3", "prompt": "Magister cras ___. (comes)", "options": ["venit", "veniunt", "venis"], "answers": ["venit"], "explanation": "3a persona singularis: venit." },
+        { "id": "c4-4", "prompt": "Nos in scholam ___. (we come)", "options": ["venimus", "venitis", "veniunt"], "answers": ["venimus"], "explanation": "1a persona pluralis: venimus." },
+        { "id": "c4-5", "prompt": "Amici ___. (they come)", "options": ["venit", "veniunt", "venimus"], "answers": ["veniunt"], "explanation": "3a persona pluralis: veniunt." }
+      ]
+    },
+    {
+      "id": "ii-con4-mc", "type": "multiple-choice", "title": "Quattuor Coniugationes: Recognitio",
+      "instructions": "Elige coniugationem rectam pro quoque infinitivo.",
+      "items": [
+        { "id": "c4-6", "prompt": "'Portāre' pertinet ad coniugationem:", "options": ["primam", "secundam", "tertiam"], "answerIndex": 0, "explanation": "-āre = prima." },
+        { "id": "c4-7", "prompt": "'Docēre' pertinet ad coniugationem:", "options": ["primam", "secundam", "quartam"], "answerIndex": 1, "explanation": "-ēre (longum) = secunda." },
+        { "id": "c4-8", "prompt": "'Scrībere' pertinet ad coniugationem:", "options": ["secundam", "tertiam", "quartam"], "answerIndex": 1, "explanation": "-ere (breve) = tertia." },
+        { "id": "c4-9", "prompt": "'Fīnīre' pertinet ad coniugationem:", "options": ["tertiam mixtam", "quartam", "secundam"], "answerIndex": 1, "explanation": "-īre = quarta." },
+        { "id": "c4-10", "prompt": "'Iacere' (to throw, verbum mixtum) pertinet ad:", "options": ["quartam", "tertiam mixtam", "primam"], "answerIndex": 1, "explanation": "-iō in 1a sg. + -ere breve = tertia mixta." }
+      ]
+    },
+    {
+      "id": "ii-con4-match", "type": "matching", "title": "Iunge Verbum cum Coniugatione",
+      "instructions": "Iunge quodque verbum cum coniugatione sua.",
+      "items": [
+        { "id": "c4-11", "pairs": [
+          { "left": "amāre", "right": "prima" },
+          { "left": "monēre", "right": "secunda" },
+          { "left": "mittere", "right": "tertia" },
+          { "left": "capere", "right": "tertia mixta" },
+          { "left": "audīre", "right": "quarta" }
+        ], "explanation": "Infinitivus solus revelat coniugationem cuiusque verbi." }
+      ]
+    }
+  ],
+  "summary": [
+    "Coniugatio quarta: infinitivus -īre (ī longum).",
+    "audiō, audīs, audit, audīmus, audītis, audiunt.",
+    "Conspectus: -āre (I), -ēre longum (II), -ere breve (III), -ere breve cum -iō (III mixta), -īre (IV).",
+    "Verba frequentia: audiō, veniō, dormiō, sentiō, sciō, fīniō."
+  ],
+  "related": [
+    { "lessonId": "ii-coniugatio-tertia", "label": "Coniugatio Tertia" },
+    { "lessonId": "ii-casus-accusativus", "label": "Casus Accusativus" }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "ii-casus-accusativus",
+  "level": "II",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammatica",
+  "strand": "casus",
+  "title": "Casus Accusativus",
+  "subtitle": "Obiectum directum — et ultra: duratio temporis, extensio spatii, obiectum duplex.",
+  "prerequisites": ["ii-coniugatio-quarta"],
+  "objectives": [
+    "Recognoscere accusativum ut obiectum directum",
+    "Uti accusativo pro duratione temporis (how long) et extensione spatii",
+    "Recognoscere constructionem obiecti duplicis cum verbis ut doceo",
+    "Distinguere accusativum ab aliis casibus in sententiis mixtis"
+  ],
+  "content": {
+    "intro": "Iam accūsātīvum ut obiectum dīrēctum nōvistī. Hodiē vidēbis trēs alterōs ūsūs frequentēs huius cāsūs, quī nūllam praepositiōnem postulant.",
+    "explanation": "<p>Accūsātīvus respondet quaestiōnī 'quem? quid?' post verbum āctīvum trānsitīvum — sed etiam respondet 'quamdiū?' (how long) et 'quam longē?' (how far), sine praepositiōne ūllā.</p>",
+    "rules": [
+      {
+        "heading": "a) Obiectum Directum (Recognitio)",
+        "body": "<p><em>Puella rosam videt.</em> ('The girl sees a rose.') — rosam est obiectum dīrēctum verbī videt.</p>"
+      },
+      {
+        "heading": "b) Duratio Temporis (sine praepositione)",
+        "body": "<p>Accūsātīvus, sine praepositiōne, exprimit per quantum tempus aliquid ēvenit: <em>Multōs annōs Rōmae habitāvit.</em> ('He lived in Rome for many years.') <em>Trēs hōrās labōrāmus.</em> ('We work for three hours.')</p>"
+      },
+      {
+        "heading": "c) Extensio Spatii",
+        "body": "<p>Similiter, accūsātīvus exprimit distantiam: <em>Decem mīlia passuum ambulāvimus.</em> ('We walked ten miles.' litt. 'ten thousand of paces')</p>"
+      },
+      {
+        "heading": "d) Obiectum Duplex",
+        "body": "<p>Paucī verba (praecipuē <strong>doceō</strong> 'teach', <strong>rogō</strong> 'ask', <strong>cēlō</strong> 'hide from') accipiunt DUO accūsātīvōs simul: persōnam ET rem. <em>Magister puerōs linguam docet.</em> ('The teacher teaches the boys [the] language.') — ambō 'puerōs' et 'linguam' sunt accūsātīvī.</p>"
+      }
+    ],
+    "examples": [
+      "Librum legō. — I read a book. (obiectum directum)",
+      "Duōs annōs in Galliā manet. — He stays in Gaul for two years. (duratio)",
+      "Magister discipulōs grammaticam docet. — The teacher teaches the students grammar. (duplex)",
+      "Mīlle passūs cucurrimus. — We ran a thousand paces. (extensio)",
+      "Rogat mē sententiam. — He asks me my opinion. (duplex)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus addit praepositionem 'per' ante omnem expressionem durationis, ut Anglice 'for'.",
+        "right": "Duratio temporis in Latīnā exprimitur SOLO accusativo, sine praepositione: 'multōs annōs', non '*per multōs annōs' (quamvis 'per' quoque possibile sit in aliis contextibus).",
+        "why": "Latina saepe omittit praepositiones quas Anglica requirit — casus ipse sufficit."
+      },
+      {
+        "wrong": "'Doceo' tractatur ut regens solum unum accusativum, sicut verba normalia.",
+        "right": "'Doceo' (et pauca alia) regit DUOS accusativos simul: personam et rem doctam.",
+        "why": "Haec est constructio speciālis, memorāre digna, distincta ā verbīs trānsitīvīs normālibus."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-acc-mc", "type": "multiple-choice", "title": "Usus Accusativi",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "acc1", "prompt": "In 'Multōs annōs manet', 'multōs annōs' exprimit:", "options": ["obiectum directum", "durationem temporis", "locum"], "answerIndex": 1, "explanation": "Accusativus sine praepositione = duration ('for how long')." },
+        { "id": "acc2", "prompt": "'Magister puerōs linguam docet' — quot accusativi sunt in hac sententia?", "options": ["unus", "duo", "tres"], "answerIndex": 1, "explanation": "'puerōs' et 'linguam' ambo accusativi (obiectum duplex)." },
+        { "id": "acc3", "prompt": "Accusativus respondet quaestioni:", "options": ["cuius?", "quem/quid?", "cui?"], "answerIndex": 1, "explanation": "Accusativus = obiectum directum: 'whom/what?'." },
+        { "id": "acc4", "prompt": "'Trēs hōrās legō' significat:", "options": ["I read three books", "I read for three hours", "I read at three o'clock"], "answerIndex": 1, "explanation": "Accusativus temporis: duration, 'for three hours'." },
+        { "id": "acc5", "prompt": "Quod verbum frequenter regit obiectum duplex accusativum?", "options": ["sum", "doceō", "veniō"], "answerIndex": 1, "explanation": "doceō (et rogō, cēlō) accipit duos accusativos." }
+      ]
+    },
+    {
+      "id": "ii-acc-fill", "type": "fill-blank", "title": "Comple cum Accusativo",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "acc6", "prompt": "___ habitat Romae. (for two years — duos annos)", "options": ["Duo anni", "Duōs annōs", "Duōbus annīs"], "answers": ["Duōs annōs"], "explanation": "Duratio: accusativus sine praepositione." },
+        { "id": "acc7", "prompt": "Puer ___ videt. (the master — dominum)", "options": ["dominus", "dominum", "domino"], "answers": ["dominum"], "explanation": "Obiectum directum: accusativus." },
+        { "id": "acc8", "prompt": "Magistra puellas ___ docet. (music — musicam)", "options": ["musica", "musicam", "musicae"], "answers": ["musicam"], "explanation": "Secundus accusativus in constructione duplici." }
+      ]
+    }
+  ],
+  "summary": [
+    "Accusativus: obiectum directum (recognitio); duratio temporis et extensio spatii, sine praepositione.",
+    "Verba ut doceō, rogō regunt obiectum duplex accusativum: persona + res.",
+    "Accusativus respondet 'quem/quid?' post verbum, vel 'quamdiū?/quam longē?' sine verbo transitivo."
+  ],
+  "related": [
+    { "lessonId": "ii-coniugatio-quarta", "label": "Coniugatio Quarta" },
+    { "lessonId": "ii-casus-dativus", "label": "Casus Dativus" }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "ii-adverbia",
+  "level": "II",
+  "unit": "1",
+  "order": 19,
+  "skill": "grammatica",
+  "strand": "adverbia",
+  "title": "Adverbia",
+  "subtitle": "Bene, saepe, hodie — formatio ab adiectivis, et adverbia frequentia.",
+  "prerequisites": ["ii-coniunctiones"],
+  "objectives": [
+    "Formare adverbia ab adiectivis primae/secundae classis (-e)",
+    "Formare adverbia ab adiectivis tertiae classis (-iter)",
+    "Uti adverbiis temporis et frequentiae frequentibus",
+    "Distinguere adverbium ab adiectivo per officium in sententia"
+  ],
+  "content": {
+    "intro": "Adverbium modificat verbum, adiectīvum, vel aliud adverbium — respondēns 'quōmodo?' (how). Multī adverbia dērīvantur regulāriter ab adiectīvīs.",
+    "explanation": "<p>Adverbium, differenter ab adiectīvō, est <strong>indēclīnābile</strong> — nūllam fōrmam mūtat secundum genus/numerus/cāsum.</p>",
+    "rules": [
+      {
+        "heading": "a) Formatio: Adiectiva Primae/Secundae Classis",
+        "body": "<p>Rādīx adiectīvī (invenitur removendō -us/-a/-um) + <strong>-ē</strong>: <em>bonus</em> → <strong>bene</strong> (well — irregulāre! nōn *bonē), <em>longus</em> → <strong>longē</strong> (far/at length), <em>līber</em> → <strong>līberē</strong> (freely). Nōtā: 'bonus' → 'bene' est excepta, sīcut 'malus' → 'male'.</p>"
+      },
+      {
+        "heading": "b) Formatio: Adiectiva Tertiae Classis",
+        "body": "<p>Rādīx + <strong>-iter</strong> (vel -ter sī rādīx in -nt dēsinit): <em>fortis</em> → <strong>fortiter</strong> (bravely), <em>fēlīx</em> → <strong>fēlīciter</strong> (happily), <em>prūdēns</em> → <strong>prūdenter</strong> (wisely).</p>"
+      },
+      {
+        "heading": "c) Adverbia Frequentia (non-derivata)",
+        "body": "<p>Tempus: <strong>hodiē</strong> (today), <strong>crās</strong> (tomorrow), <strong>heri</strong> (yesterday), <strong>nunc</strong> (now), <strong>iam</strong> (already/now), <strong>tum</strong> (then). Frequentia: <strong>semper</strong> (always), <strong>numquam</strong> (never), <strong>saepe</strong> (often), <strong>interdum</strong> (sometimes), <strong>rārō</strong> (rarely). Locus: <strong>hīc</strong> (here), <strong>ibi</strong> (there), <strong>ubīque</strong> (everywhere).</p>"
+      }
+    ],
+    "examples": [
+      "Bene laborat. — He works well.",
+      "Fortiter pugnant. — They fight bravely.",
+      "Hodie venio, cras discedo. — I come today, I leave tomorrow.",
+      "Numquam mentior. — I never lie.",
+      "Saepe librōs legit. — She often reads books.",
+      "Feliciter vivimus. — We live happily."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Adverbium ab 'bonus' formatur *'bonē', per regulam regularem.",
+        "right": "'bene' est forma irregularis (sicut 'male' ab 'malus') — memoranda separatim.",
+        "why": "Duo ex adverbiis frequentissimis (bene, male) sunt irregularia, non sequentia regulam standard -e."
+      },
+      {
+        "wrong": "Adverbium tractatur ut declinabile, mutandum secundum genus nominis quod prope stat.",
+        "right": "Adverbium est SEMPER indeclinabile — una forma sola, sine respectu contextus.",
+        "why": "Differenter ab adiectivo, adverbium modificat verbum/actionem, non nomen — ergo non postulat concordantiam."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-adv-fill", "type": "fill-blank", "title": "Forma Adverbium",
+      "instructions": "Elige adverbium rectum derivatum ab adiectivo dato.",
+      "items": [
+        { "id": "adv1", "prompt": "fortis (brave) → ___ (bravely)", "options": ["fortē", "fortiter", "fortis"], "answers": ["fortiter"], "explanation": "Tertia classis: -iter." },
+        { "id": "adv2", "prompt": "longus (long) → ___ (at length)", "options": ["longē", "longiter", "longus"], "answers": ["longē"], "explanation": "Prima/secunda classis: -ē." },
+        { "id": "adv3", "prompt": "bonus (good) → ___ (well)", "options": ["bonē", "bene", "bonus"], "answers": ["bene"], "explanation": "Irregulare: bene, non bonē." },
+        { "id": "adv4", "prompt": "felix (happy) → ___ (happily)", "options": ["felicē", "feliciter", "felix"], "answers": ["feliciter"], "explanation": "Tertia classis: -iter." }
+      ]
+    },
+    {
+      "id": "ii-adv-mc", "type": "multiple-choice", "title": "Adverbia: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "adv5", "prompt": "Adverbium est:", "options": ["declinabile secundum genus", "indeclinabile, una forma sola", "declinabile solum in plurali"], "answerIndex": 1, "explanation": "Adverbia sunt semper indeclinabilia." },
+        { "id": "adv6", "prompt": "Quod verbum significat 'never'?", "options": ["semper", "saepe", "numquam"], "answerIndex": 2, "explanation": "numquam = never." },
+        { "id": "adv7", "prompt": "Adverbium ab 'malus' est:", "options": ["malē", "male", "malus"], "answerIndex": 1, "explanation": "male, irregulare sicut bene." }
+      ]
+    }
+  ],
+  "summary": [
+    "Adiectiva 1a/2a classis → -ē (longē); excepta: bene, male.",
+    "Adiectiva 3a classis → -iter/-ter (fortiter, prūdenter).",
+    "Adverbia frequentia: hodiē, crās, heri, semper, numquam, saepe.",
+    "Adverbium est semper indeclinabile."
+  ],
+  "related": [
+    { "lessonId": "ii-coniunctiones", "label": "Coniunctiones" },
+    { "lessonId": "ii-numeri-ordinales-et-cardinales-amplius", "label": "Numeri Ordinales et Cardinales Amplius" }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "ii-coniunctiones",
+  "level": "II",
+  "unit": "1",
+  "order": 18,
+  "skill": "grammatica",
+  "strand": "syntaxis",
+  "title": "Coniunctiones",
+  "subtitle": "Et, sed, aut, -que, nam — verba nectentia, incluso -que enclitico.",
+  "prerequisites": ["ii-interrogativa"],
+  "objectives": [
+    "Uti coniunctionibus copulativis (et, -que, atque) correcte",
+    "Distinguere aut vs. vel (disiunctivae)",
+    "Uti coniunctionibus adversativis (sed, tamen) et causalibus (nam, enim)",
+    "Applicare -que ut enclyticum suffixum, non verbum separatum"
+  ],
+  "content": {
+    "intro": "Coniūnctiōnēs nectunt verba, phrasēs, vel sententiās tōtās. Latīna habet varietātem rīcham, cum nuance quam Anglica saepe āmittit.",
+    "explanation": "<p>Coniūnctiōnēs Latīnae dīviduntur in classēs secundum relātiōnem logicam quam exprimunt: additiō, alternātiō, oppositiō, causa.</p>",
+    "rules": [
+      {
+        "heading": "a) Copulativae: Et, -que, Atque/Ac",
+        "body": "<p><strong>et</strong> (and, generalis): <em>puer et puella</em>. <strong>-que</strong> (and, ENCLITICUM — suffigitur secundo verbo, numquam verbum separatum): <em>puer puellaque</em> ('the boy and the girl', litt. 'boy girl-and'). <strong>atque/ac</strong> (and also, cum ēmphasi maiōre): <em>fortis atque sapiēns</em> ('brave and [moreover] wise').</p>"
+      },
+      {
+        "heading": "b) Disiunctivae: Aut vs. Vel",
+        "body": "<p><strong>aut</strong> (or, EXCLUSIVUM — optiōnēs sē mūtuō excludunt): <em>aut vīvēs aut moriēris</em> ('either you will live or you will die' — non ambo simul). <strong>vel</strong> (or, INCLUSIVUM — optiōnēs līberae, fortasse ambae): <em>vīnum vel aquam bibe</em> ('drink wine or water [either is fine]').</p>"
+      },
+      {
+        "heading": "c) Adversativae: Sed, Tamen",
+        "body": "<p><strong>sed</strong> (but, contrāstum dīrēctum): <em>parvus sed fortis</em> ('small but brave'). <strong>tamen</strong> (nevertheless/however, saepe post clausulam concessīvam): <em>fessus erat; tamen labōrāvit</em> ('he was tired; nevertheless he worked').</p>"
+      },
+      {
+        "heading": "d) Causales: Nam, Enim",
+        "body": "<p><strong>nam</strong> et <strong>enim</strong> (for, introducing a reason) — 'enim' est POSTPOSITĪVUM (numquam prīmum verbum clausulae): <em>Venit; fessus enim erat.</em> ('He came; for he was tired.')</p>"
+      }
+    ],
+    "examples": [
+      "Puer puellaque ludunt. — The boy and girl play.",
+      "Fortis atque sapiens erat. — He was brave and [moreover] wise.",
+      "Aut vinces aut morieris. — Either you will conquer or you will die.",
+      "Panem vel poma ede. — Eat bread or fruit [either].",
+      "Parvus sed fortis est. — He is small but brave.",
+      "Non veniet; aeger enim est. — He will not come; for he is sick."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'-que' scribitur ut verbum separatum: 'puer que puella'.",
+        "right": "'-que' est enclyticum, semper suffixum ad finem secundi verbi: 'puerque' vel hic 'puella-que' → 'puer puellaque'.",
+        "why": "Numquam scribitur -que seorsum; est particula ligata, sicut -ne."
+      },
+      {
+        "wrong": "'aut' et 'vel' tractantur ut perfecte synonyma, sine differentia.",
+        "right": "'aut' exprimit optiones sē excludentēs; 'vel' exprimit optiones liberas/inclusivas.",
+        "why": "Distinctio exclusivum/inclusivum, quam Anglicum 'or' nōn semper marcat, est explicita in Latina."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-conj-mc", "type": "multiple-choice", "title": "Coniunctiones: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "conj1", "prompt": "'-que' est:", "options": ["verbum separatum, ante primum verbum", "enclyticum suffixum secundo verbo", "sola in poesi adhibitum"], "answerIndex": 1, "explanation": "-que semper suffigitur, numquam seorsum scribitur." },
+        { "id": "conj2", "prompt": "'Aut vinces aut morieris' implicat:", "options": ["ambae res simul possunt evenire", "solum una ex duabus rebus eveniet, non ambae", "nulla res eveniet"], "answerIndex": 1, "explanation": "aut...aut = exclusivum: only one option." },
+        { "id": "conj3", "prompt": "'Vel' differt ab 'aut' quia:", "options": ["vel est exclusivum, aut inclusivum", "vel est inclusivum, aut exclusivum", "sunt identici sine differentia"], "answerIndex": 1, "explanation": "vel = inclusive or; aut = exclusive or." },
+        { "id": "conj4", "prompt": "'Enim' est particula:", "options": ["semper prima in clausula", "postpositiva (numquam prima)", "solum interrogativa"], "answerIndex": 1, "explanation": "enim numquam incohat clausulam." }
+      ]
+    },
+    {
+      "id": "ii-conj-fill", "type": "fill-blank", "title": "Comple cum Coniunctione",
+      "instructions": "Elige coniunctionem rectam.",
+      "items": [
+        { "id": "conj5", "prompt": "Parvus ___ fortis est. (but)", "options": ["et", "sed", "aut"], "answers": ["sed"], "explanation": "Contrastum: sed." },
+        { "id": "conj6", "prompt": "Fessus erat; ___ laboravit. (nevertheless)", "options": ["nam", "tamen", "vel"], "answers": ["tamen"], "explanation": "Concessio: tamen." },
+        { "id": "conj7", "prompt": "Non veniet; aeger ___ est. (for)", "options": ["enim", "sed", "aut"], "answers": ["enim"], "explanation": "Causa, postpositivum: enim." }
+      ]
+    }
+  ],
+  "summary": [
+    "Copulativae: et, -que (enclyticum), atque/ac.",
+    "Disiunctivae: aut (exclusivum) vs. vel (inclusivum).",
+    "Adversativae: sed, tamen. Causales: nam, enim (postpositivum)."
+  ],
+  "related": [
+    { "lessonId": "ii-interrogativa", "label": "Interrogativa" },
+    { "lessonId": "ii-adverbia", "label": "Adverbia" }
+  ]
+}

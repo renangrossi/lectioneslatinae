@@ -1,0 +1,89 @@
+{
+  "id": "ii-casus-genitivus",
+  "level": "II",
+  "unit": "1",
+  "order": 12,
+  "skill": "grammatica",
+  "strand": "casus",
+  "title": "Casus Genitivus",
+  "subtitle": "Possessio — et genetivus partitivus, genetivus qualitatis.",
+  "prerequisites": ["ii-casus-dativus"],
+  "objectives": [
+    "Recognoscere genetivum ut possessionem ('of')",
+    "Uti genetivo partitivo pro 'parte ex toto'",
+    "Cognoscere genetivum qualitatis pro descriptione",
+    "Distinguere genetivum ab aliis casibus formaliter similibus"
+  ],
+  "content": {
+    "intro": "Genetīvus, saepe versus per 'of' Anglicē, semper describit relātiōnem inter duo nōmina — sed nōn tantum possessiōnem simplicem.",
+    "explanation": "<p>Genetīvus modificat aliud nōmen (numquam verbum dīrēctē), respondēns quaestiōnī 'cuius? (whose/of what)'.</p>",
+    "rules": [
+      {
+        "heading": "a) Possessio (Recognitio)",
+        "body": "<p><em>Liber puellae</em> ('the girl's book'). <em>Domus patris</em> ('the father's house').</p>"
+      },
+      {
+        "heading": "b) Genetivus Partitivus",
+        "body": "<p>Exprimit partem ex tōtō: <strong>pars mīlitum</strong> ('part of the soldiers'), <strong>nēmō nostrum</strong> ('no one of us' — nostrum, genetīvus partitīvus, differt ab nostrī obiectīvō, ut in Gradū I vīdistī), <strong>multum temporis</strong> ('much [of] time').</p>"
+      },
+      {
+        "heading": "c) Genetivus Qualitatis",
+        "body": "<p>Dēscrībit calitātem vel characterem, semper cum adiectīvō concomitante: <strong>vir magnae virtūtis</strong> ('a man of great courage'), <strong>puella decem annōrum</strong> ('a girl of ten years', i.e. ten years old).</p>"
+      },
+      {
+        "heading": "d) Adiectiva cum Genetivo",
+        "body": "<p>Certa adiectīva regunt genetīvum: <strong>cupidus</strong> (desirous of), <strong>plēnus</strong> (full of), <strong>studiōsus</strong> (eager for), <strong>memor</strong> (mindful of). Exemplum: <em>cupidus glōriae</em> ('desirous of glory').</p>"
+      }
+    ],
+    "examples": [
+      "Liber magistrī in mensā est. — The teacher's book is on the table. (possessio)",
+      "Pars puerōrum abest. — Part of the boys are absent. (partitivus)",
+      "Vir magnae sapientiae est. — He is a man of great wisdom. (qualitatis)",
+      "Poculum plēnum vīnī. — A cup full of wine. (adiectivum + genetivus)",
+      "Multī cīvium veniunt. — Many of the citizens come. (partitivus)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Genetivus tractatur ut significans SOLUM possessionem simplicem ('of' = 'owned by').",
+        "right": "Genetivus habet plures usus: possessio, partitivus (pars ex toto), qualitas (descriptio), et complementum adiectivorum specialium.",
+        "why": "Reducere genetivum ad unum solum sensum causat malas versiones in sententiis complexis."
+      },
+      {
+        "wrong": "'plenus aquam' — accusativus adhibitus post 'plenus', per analogiam cum verbis transitivis.",
+        "right": "'plenus aquae' — plenus regit genetivum (vel interdum ablativum), numquam accusativum.",
+        "why": "Adiectiva sicut plenus/cupidus/studiosus regunt genetivum tamquam complementum fixum."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-gen-mc", "type": "multiple-choice", "title": "Usus Genetivi",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "gen1", "prompt": "'Liber puellae' significat:", "options": ["the girl's book", "to the girl, a book", "the girl sees a book"], "answerIndex": 0, "explanation": "Genetivus possessionis: 'of the girl'." },
+        { "id": "gen2", "prompt": "'Pars mīlitum abest' — 'mīlitum' est:", "options": ["genetivus partitivus", "dativus", "accusativus"], "answerIndex": 0, "explanation": "'part of the soldiers' — genetivus partitivus." },
+        { "id": "gen3", "prompt": "'Vir magnae virtūtis' significat:", "options": ["a man who sees great virtue", "a man of great courage/virtue", "a man greater than virtue"], "answerIndex": 1, "explanation": "Genetivus qualitatis, cum adiectivo." },
+        { "id": "gen4", "prompt": "Quod adiectivum regit genetivum ('full of')?", "options": ["bonus", "plēnus", "magnus"], "answerIndex": 1, "explanation": "plēnus + genetivus (vel ablativus): full of." },
+        { "id": "gen5", "prompt": "Genetivus respondet quaestioni:", "options": ["cuius?", "cui?", "quem?"], "answerIndex": 0, "explanation": "Genetivus = 'whose/of what?'." }
+      ]
+    },
+    {
+      "id": "ii-gen-fill", "type": "fill-blank", "title": "Comple cum Genetivo",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "gen6", "prompt": "Domus ___ magna est. (the father's — patris)", "options": ["pater", "patrem", "patris"], "answers": ["patris"], "explanation": "Possessio: genetivus." },
+        { "id": "gen7", "prompt": "Cīvis cupidus ___ est. (of glory — gloriae)", "options": ["gloria", "gloriam", "gloriae"], "answers": ["gloriae"], "explanation": "cupidus regit genetivum." },
+        { "id": "gen8", "prompt": "Multī ___ veniunt. (of the citizens — civium)", "options": ["cives", "civium", "civibus"], "answers": ["civium"], "explanation": "Genetivus partitivus pluralis." }
+      ]
+    }
+  ],
+  "summary": [
+    "Genetivus: possessio ('of'), partitivus (pars ex toto), qualitas (descriptio cum adiectivo).",
+    "Adiectiva speciālia (cupidus, plēnus, studiōsus, memor) regunt genetivum.",
+    "Genetivus semper modificat nomen, numquam verbum directe."
+  ],
+  "related": [
+    { "lessonId": "ii-casus-dativus", "label": "Casus Dativus" },
+    { "lessonId": "ii-casus-ablativus", "label": "Casus Ablativus" }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "ii-pronomina-possessiva",
+  "level": "II",
+  "unit": "1",
+  "order": 15,
+  "skill": "grammatica",
+  "strand": "pronomina",
+  "title": "Pronomina Possessiva",
+  "subtitle": "Meus, tuus, suus, noster, vester — et la differentia crucialis inter suus et eius.",
+  "prerequisites": ["ii-pronomina-demonstrativa"],
+  "objectives": [
+    "Declinare pronomina possessiva sicut adiectiva primae/secundae classis",
+    "Distinguere 'suus' (reflexivum) ab 'eius' (non-reflexivum)",
+    "Uti noster/vester correcte, cum -er pattern (ager)",
+    "Omittere pronomen possessivum ubi contextus iam clarus est, sicut Latina praefert"
+  ],
+  "content": {
+    "intro": "Pronōmina possessīva dēclīnantur sīcut adiectīva ordinaria (bonus, -a, -um) — sed ūnum inter ea, <strong>suus</strong>, portat distīnctiōnem quam Anglica nōn habet.",
+    "explanation": "<p>meus, -a, -um (my), tuus, -a, -um (your, sg.), suus, -a, -um (his/her/its/their OWN — reflexīvum), noster, nostra, nostrum (our), vester, vestra, vestrum (your, pl.).</p>",
+    "rules": [
+      {
+        "heading": "a) Declinatio Regularis",
+        "body": "<p>Omnia sequuntur patrōnum <em>bonus, -a, -um</em>: <em>meus liber, mea puella, meum bellum</em>. <strong>Noster</strong> et <strong>vester</strong> sequuntur patrōnum -er āmittentem 'e' (ut ager): noster, nostra, nostrum (nōn *nosterus).</p>"
+      },
+      {
+        "heading": "b) Suus vs. Eius: Distinctio Crucialis",
+        "body": "<p><strong>suus, -a, -um</strong> est reflexīvum: refert ad subiectum ipsīus sententiae ('his OWN, her OWN'). <strong>eius</strong> (genetīvus dēclīnātus ab is/ea/id, ut in Gradū I vīdistī) refert ad aliam persōnam, NŌN subiectum. Compara: <em>Marcus suum librum legit.</em> ('Marcus reads HIS OWN book' — liber est Marcī ipsīus.) <em>Marcus eius librum legit.</em> ('Marcus reads HIS book' [i.e. of someone else mentioned before] — liber nōn est Marcī.)</p>"
+      },
+      {
+        "heading": "c) Vocativus Meus",
+        "body": "<p>'Meus' fōrmat vocātīvum irregulārem: <strong>mī</strong> (nōn 'mee'): <em>mī fīlī!</em> ('O my son!') — cāsus rārus ubi tam nōmen (fīlī) quam adiectīvum (mī) ambō vocātīvī irregulārēs sunt.</p>"
+      },
+      {
+        "heading": "d) Omissio",
+        "body": "<p>Latīna, contrā Anglicam, saepe OMITTIT prōnōmen possessīvum ubi contextus iam clārus est: <em>Librum legō.</em> sufficit prō 'I read my book' (nōn est ambiguum quod liber tuus sit alicuius aliēnī, nisi contextus id indicet).</p>"
+      }
+    ],
+    "examples": [
+      "Meus pater medicus est. — My father is a doctor.",
+      "Tua māter bona est. — Your mother is good.",
+      "Puella suum canem amat. — The girl loves her own dog. (suus, reflexivum)",
+      "Puella eius canem videt. — The girl sees his/her dog [of someone else]. (eius, non-reflexivum)",
+      "Noster magister sapiēns est. — Our teacher is wise.",
+      "Mī fīlī, venī hūc! — My son, come here!"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Suus' et 'eius' tractantur ut interscambiabiles, ambo significantes 'his/her'.",
+        "right": "'Suus' refert AD SUBIECTUM sententiae ('his own'); 'eius' refert ad ALIAM personam, non subiectum.",
+        "why": "Haec distinctio non exsistit in Anglico ('his/her' ambiguum), sed est fundamentalis in Latina — error hic mutat significationem sententiae."
+      },
+      {
+        "wrong": "'Noster' declinatur *'nosterus, nostera, nosterum', servans 'e' semper.",
+        "right": "'noster, nostra, nostrum' — amittit 'e' extra nominativum/vocativum masculinum singularem, ut ager.",
+        "why": "Noster/vester sequuntur patronum secundae declinationis -er cum e amissa, non e servata."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-poss-mc", "type": "multiple-choice", "title": "Suus vs. Eius",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "poss1", "prompt": "'Marcus suum librum legit' significat:", "options": ["Marcus reads his own book", "Marcus reads someone else's book", "Marcus reads a book about himself"], "answerIndex": 0, "explanation": "suus = reflexivum, refert ad subiectum (Marcus)." },
+        { "id": "poss2", "prompt": "'Marcus eius librum legit' significat:", "options": ["Marcus reads his own book", "Marcus reads his (someone else's) book", "Marcus writes a book"], "answerIndex": 1, "explanation": "eius = non-reflexivum, refert ad aliam personam." },
+        { "id": "poss3", "prompt": "Genetivus singularis verbi 'noster' (feminini generis) est:", "options": ["nostrae", "nosterae", "nostri"], "answerIndex": 0, "explanation": "noster, nostra, nostrum sequitur bonus/-a/-um: fem. gen. sg. = nostrae." },
+        { "id": "poss4", "prompt": "Vocativus verbi 'meus' est:", "options": ["meus", "mee", "mī"], "answerIndex": 2, "explanation": "mī est vocativus irregularis." }
+      ]
+    },
+    {
+      "id": "ii-poss-fill", "type": "fill-blank", "title": "Comple cum Possessivo",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "poss5", "prompt": "___ māter bona est. (My — mea)", "options": ["meus", "mea", "meum"], "answers": ["mea"], "explanation": "Femininum: mea māter." },
+        { "id": "poss6", "prompt": "Puer ___ canem amat. (his own — suum)", "options": ["eius", "suum", "suus"], "answers": ["suum"], "explanation": "Reflexivum, accusativum masculinum singulare: suum." },
+        { "id": "poss7", "prompt": "___ patria pulchra est. (Our — nostra)", "options": ["noster", "nostra", "nostrum"], "answers": ["nostra"], "explanation": "Femininum: nostra patria." }
+      ]
+    }
+  ],
+  "summary": [
+    "meus, tuus, suus, noster, vester — declinantur ut bonus, -a, -um.",
+    "Suus = reflexivum (refert ad subiectum); eius = non-reflexivum (refert ad aliam personam).",
+    "Noster/vester amittunt 'e', ut ager. Vocativus 'meus' est irregulariter 'mī'.",
+    "Latina saepe omittit possessivum ubi contextus iam clarus est."
+  ],
+  "related": [
+    { "lessonId": "ii-pronomina-demonstrativa", "label": "Pronomina Demonstrativa" },
+    { "lessonId": "ii-imperativus", "label": "Imperativus" }
+  ]
+}

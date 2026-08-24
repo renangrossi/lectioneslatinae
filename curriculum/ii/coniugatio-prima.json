@@ -1,0 +1,102 @@
+{
+  "id": "ii-coniugatio-prima",
+  "level": "II",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammatica",
+  "strand": "verba",
+  "title": "Coniugatio Prima",
+  "subtitle": "Amo, amare: tempus praesens activum — prima ex quattuor coniugationibus.",
+  "prerequisites": ["ii-praepositiones-cum-accusativo-et-ablativo"],
+  "objectives": [
+    "Recitare tempus praesens activum verbi 'amo, amare'",
+    "Identificare coniugationem primam per infinitivum in -are",
+    "Formare negationem et interrogationem simplicem",
+    "Verba frequentia primae coniugationis uti in sententiis"
+  ],
+  "content": {
+    "intro": "Verba Latīna dīviduntur in quattuor <strong>coniugātiōnēs</strong> (conjugation groups), cognōscibilēs per īnfīnītīvum. Hodiē incipimus cum prīmā: verba in <strong>-āre</strong>.",
+    "explanation": "<p>Īnfīnītīvus (the infinitive, 'to love') verbī prīmae coniugātiōnis semper dēsinit in <strong>-āre</strong>: <em>amāre</em> ('to love'), <em>laudāre</em> ('to praise'). Fōrma citāta in dictiōnāriīs (1ª persōna singulāris) dēsinit in <strong>-ō</strong>: <em>amō</em>.</p>",
+    "rules": [
+      {
+        "heading": "a) Paradigma: amō, amāre 'to love'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Persona</th><th>Singularis</th><th>Pluralis</th></tr></thead><tbody><tr><td>1ª</td><td>am<strong>ō</strong> — I love</td><td>am<strong>āmus</strong> — we love</td></tr><tr><td>2ª</td><td>am<strong>ās</strong> — you love</td><td>am<strong>ātis</strong> — you (pl.) love</td></tr><tr><td>3ª</td><td>am<strong>at</strong> — he/she/it loves</td><td>am<strong>ant</strong> — they love</td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Structura: Radix + Vocalis Thematica + Desinentia",
+        "body": "<p>Rādīx (stem) <strong>am-</strong> + vōcālis thēmatica <strong>-ā-</strong> (dēfīniēns coniugātiōnem) + dēsinentia persōnālis (-ō/-s/-t/-mus/-tis/-nt). Nōtā: 1ª persōna 'amō' contrahit ā+ō → ō (nōn *amāō).</p>"
+      },
+      {
+        "heading": "c) Verba Frequentia Primae Coniugationis",
+        "body": "<p>amō (love), laudō (praise), vocō (call), dō (give — īnfīnītīvus <em>dare</em>, brevis, irregulāris in ā), portō (carry), parō (prepare), spectō (watch), ambulō (walk), habitō (live/dwell), nō (swim).</p>"
+      },
+      {
+        "heading": "d) Negatio et Interrogatio",
+        "body": "<p>Negātiō: <strong>nōn</strong> ante verbum (<em>nōn amō</em>). Interrogātiō sī/nōn: enclīticum <strong>-ne</strong> suffīgitur prīmō verbō (<em>Amāsne?</em> 'Do you love?'). Interrogātiō expectāns respōnsum negātīvum: <strong>num</strong> (<em>Num amās?</em> 'You don't love, do you?').</p>"
+      }
+    ],
+    "examples": [
+      "Puella rosam amat. — The girl loves the rose.",
+      "Magistrum laudāmus. — We praise the teacher.",
+      "Puerī in agrō ambulant. — The boys walk in the field.",
+      "Nōn amō bellum. — I do not love war.",
+      "Amāsne Rōmam? — Do you love Rome?",
+      "Servus dominum vocat. — The slave calls the master."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'amō' scribitur *'amāō', addens vocalem thematicam explicite ante desinentiam -ō.",
+        "right": "'amō' — ā et ō thematica/desinens contrahuntur in ō sola in prima persona singulari.",
+        "why": "Haec contractio est regularis in omnibus verbis primae coniugationis, sine exceptione."
+      },
+      {
+        "wrong": "Discipulus omittit prorsus subiectum in sententia sine ratione, existimans id semper implicitum sine emphasi.",
+        "right": "Subiectum plerumque omittitur (persona iam clara ex desinentia verbi), sed nomina propria/pronomina emphatica adduntur cum necesse.",
+        "why": "Latina permittit omissionem, non requirit eam semper — usus dependet contextu et emphasi."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-con1-fill", "type": "fill-blank", "title": "Coniuga Amo",
+      "instructions": "Comple cum forma recta verbi 'amo, amare'.",
+      "items": [
+        { "id": "c1-1", "prompt": "Ego rosam ___. (I love)", "options": ["amo", "amas", "amat"], "answers": ["amo"], "explanation": "1a persona singularis: amo." },
+        { "id": "c1-2", "prompt": "Tu magistram ___. (you love)", "options": ["amo", "amas", "amamus"], "answers": ["amas"], "explanation": "2a persona singularis: amas." },
+        { "id": "c1-3", "prompt": "Puella puerum ___. (loves)", "options": ["amant", "amat", "amas"], "answers": ["amat"], "explanation": "3a persona singularis: amat." },
+        { "id": "c1-4", "prompt": "Nos patriam ___. (we love)", "options": ["amamus", "amatis", "amant"], "answers": ["amamus"], "explanation": "1a persona pluralis: amamus." },
+        { "id": "c1-5", "prompt": "Servi dominos ___. (they love)", "options": ["amat", "amant", "amamus"], "answers": ["amant"], "explanation": "3a persona pluralis: amant." }
+      ]
+    },
+    {
+      "id": "ii-con1-mc", "type": "multiple-choice", "title": "Coniugatio Prima: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "c1-6", "prompt": "Infinitivus verborum primae coniugationis desinit in:", "options": ["-are", "-ere", "-ire"], "answerIndex": 0, "explanation": "-are est signum primae coniugationis." },
+        { "id": "c1-7", "prompt": "'Vocatis' significat:", "options": ["I call", "you (pl.) call", "they call"], "answerIndex": 1, "explanation": "2a persona pluralis: -atis." },
+        { "id": "c1-8", "prompt": "Quomodo formatur negatio simplex?", "options": ["nōn ante verbum", "-ne post verbum", "num ante nomen"], "answerIndex": 0, "explanation": "'nōn' + verbum = negatio simplex." },
+        { "id": "c1-9", "prompt": "'Amāsne rosam?' significat:", "options": ["I don't love the rose", "Do you love the rose?", "The rose doesn't love"], "answerIndex": 1, "explanation": "-ne suffixum ad verbum = quaestio simplex." },
+        { "id": "c1-10", "prompt": "Radix verbi 'laudo, laudare' est:", "options": ["laud-", "lauda-", "laudar-"], "answerIndex": 0, "explanation": "Radix + vocalis thematica -ā- + desinentia." }
+      ]
+    },
+    {
+      "id": "ii-con1-order", "type": "ordering", "title": "Compone Sententiam",
+      "instructions": "Pone verba in ordinem naturalem.",
+      "items": [
+        { "id": "c1-11", "prompt": "rosam / puella / amat", "words": ["Puella", "rosam", "amat"], "explanation": "Subiectum + obiectum + verbum." },
+        { "id": "c1-12", "prompt": "non / bellum / amamus", "words": ["Bellum", "non", "amamus"], "explanation": "Obiectum + negatio + verbum." },
+        { "id": "c1-13", "prompt": "magistrum / laudatisne", "words": ["Laudatisne", "magistrum"], "explanation": "Verbum interrogativum (-ne) + obiectum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Coniugatio prima: infinitivus -are; radix + -ā- + desinentia.",
+    "amō, amās, amat, amāmus, amātis, amant.",
+    "Negatio: nōn + verbum. Interrogatio: -ne suffixum primo verbo.",
+    "Verba frequentia: amō, laudō, vocō, dō, portō, parō, spectō, ambulō, habitō."
+  ],
+  "related": [
+    { "lessonId": "ii-praepositiones-cum-accusativo-et-ablativo", "label": "Praepositiones cum Accusativo et Ablativo" },
+    { "lessonId": "ii-coniugatio-secunda", "label": "Coniugatio Secunda" }
+  ]
+}

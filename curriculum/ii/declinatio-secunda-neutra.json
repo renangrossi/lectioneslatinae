@@ -1,0 +1,101 @@
+{
+  "id": "ii-declinatio-secunda-neutra",
+  "level": "II",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammatica",
+  "strand": "declinatio",
+  "title": "Declinatio Secunda: Neutra",
+  "subtitle": "Nomina in -um: bellum, belli — et la regula neutra universalis.",
+  "prerequisites": ["ii-declinatio-secunda-masculina"],
+  "objectives": [
+    "Declinare nomina neutra secundae declinationis (bellum)",
+    "Applicare la regula neutra universalis: nominativus = accusativus = vocativus",
+    "Recognoscere -a tamquam signum nominativi/accusativi/vocativi pluralis neutri, in omni declinatione",
+    "Vocabularium neutrum frequens (bellum, verbum, templum, donum, oppidum, periculum) uti"
+  ],
+  "content": {
+    "intro": "Genus neutrum (neither — nec masculinum nec femininum) sequitur regulam ita simplicem et ita universalem, ut applicetur non solum hic sed in omni declinatione Latina quam discēs.",
+    "explanation": "<p>Nōmina neutra secundae dēclīnātiōnis dēsinunt in -um nōminātīvō: <em>bellum</em> (war), <em>verbum</em> (word), <em>templum</em> (temple).</p>",
+    "rules": [
+      {
+        "heading": "a) Paradigma: bellum, bellī (n.) 'war'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Cāsus</th><th>Singulāris</th><th>Plūrālis</th></tr></thead><tbody><tr><td>Nōm.</td><td>bell<strong>um</strong></td><td>bell<strong>a</strong></td></tr><tr><td>Gen.</td><td>bell<strong>ī</strong></td><td>bell<strong>ōrum</strong></td></tr><tr><td>Dat.</td><td>bell<strong>ō</strong></td><td>bell<strong>īs</strong></td></tr><tr><td>Acc.</td><td>bell<strong>um</strong></td><td>bell<strong>a</strong></td></tr><tr><td>Abl.</td><td>bell<strong>ō</strong></td><td>bell<strong>īs</strong></td></tr><tr><td>Voc.</td><td>bell<strong>um</strong></td><td>bell<strong>a</strong></td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Regula Neutra Universalis",
+        "body": "<p>Duae rēgulae valent prō <strong>omnī</strong> nōmine neutrō, in <strong>omnī</strong> dēclīnātiōne Latīnā (secundā, tertiā...): (1) <strong>nōminātīvus = accūsātīvus = vocātīvus</strong>, semper, in utrōque numerō; (2) plūrālis nōminātīvī/accūsātīvī/vocātīvī semper dēsinit in <strong>-a</strong>, quamvis singulāris dēsinat aliter (in secundā: -um → -a). Discēs hanc eandem rēgulam applicārī tertiae dēclīnātiōnī in Gradū III.</p>"
+      },
+      {
+        "heading": "c) Vocābulārium Neutrum Frequēns",
+        "body": "<p>bellum (war), verbum (word), templum (temple), dōnum (gift), oppidum (town), perīculum (danger), praemium (reward), cōnsilium (plan/advice), studium (zeal/study).</p>"
+      }
+    ],
+    "examples": [
+      "Bellum longum est. — The war is long.",
+      "Templum videō. — I see the temple. (nom. = acc. forma, sed hic 'templum' est obiectum)",
+      "Verba magistri audio. — I hear the teacher's words. (verba = nom./acc. plurale)",
+      "Dona pueris damus. — We give gifts to the boys.",
+      "In oppido habito. — I live in the town.",
+      "Periculum magnum est. — The danger is great."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus quaerit formam accusativi separatam a nominativo in nomine neutro, ut in masculinis/femininis.",
+        "right": "In omni nomine neutro, accusativus est SEMPER identicus nominativo — nulla forma separata exsistit.",
+        "why": "Haec est la regula neutra universalis, sine exceptione in tota lingua Latina."
+      },
+      {
+        "wrong": "'verba' interpretatur ut singulare, quia 'similis' Anglico 'verb' (singular concept).",
+        "right": "'verba' est plurale ('words'); singulare est 'verbum'.",
+        "why": "Falsi amici (false friends) inter Latinum et Anglicum sunt frequentes — semper verifica desinentiam."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-decl3-fill", "type": "fill-blank", "title": "Comple cum Casu Recto",
+      "instructions": "Elige formam rectam verbi 'bellum, -i' pro quoque spatio.",
+      "items": [
+        { "id": "d3-1", "prompt": "___ longum est. (The war is long — nominativus)", "options": ["Bellum", "Belli", "Bella"], "answers": ["Bellum"], "explanation": "Subiectum singulare: bellum." },
+        { "id": "d3-2", "prompt": "Cives ___ timent. (fear the war — accusativus)", "options": ["bellum", "belli", "bello"], "answers": ["bellum"], "explanation": "Neutrum: accusativus = nominativus = bellum." },
+        { "id": "d3-3", "prompt": "___ multa in historia sunt. (Many wars are in history — nominativus pluralis)", "options": ["Bellum", "Bella", "Bellorum"], "answers": ["Bella"], "explanation": "Plurale neutrum: -a." },
+        { "id": "d3-4", "prompt": "Historia ___ narrat. (tells of wars — accusativus pluralis)", "options": ["bella", "bellorum", "bellis"], "answers": ["bella"], "explanation": "Neutrum plurale: accusativus = nominativus = bella." },
+        { "id": "d3-5", "prompt": "Fines ___ magni sunt. (of the war — genetivus)", "options": ["bellum", "belli", "bella"], "answers": ["belli"], "explanation": "Genetivus singularis: belli." }
+      ]
+    },
+    {
+      "id": "ii-decl3-tf", "type": "true-false", "title": "Verum an Falsum: Regula Neutra",
+      "instructions": "Dic utrum vera sit an falsa.",
+      "items": [
+        { "id": "d3-6", "statement": "Nominativus et accusativus sunt semper identici in omni nomine neutro.", "answer": true, "explanation": "Haec est regula neutra universalis." },
+        { "id": "d3-7", "statement": "Nominativus/accusativus/vocativus pluralis neutrus semper desinit in -a.", "answer": true, "explanation": "Verum in omni declinatione, non solum secunda." },
+        { "id": "d3-8", "statement": "'Templum' habet formam separatam pro accusativo singulari, differentem a nominativo.", "answer": false, "explanation": "Neutrum: templum = nominativus = accusativus." },
+        { "id": "d3-9", "statement": "Genetivus singularis verbi 'bellum' est 'bellae'.", "answer": false, "explanation": "Secunda declinatio: genetivus est 'belli', non 'bellae' (illud esset prima declinatio)." }
+      ]
+    },
+    {
+      "id": "ii-decl3-match", "type": "matching", "title": "Iunge Nomen Neutrum cum Significatione",
+      "instructions": "Iunge quodque nomen neutrum cum significatione Anglica.",
+      "items": [
+        { "id": "d3-10", "pairs": [
+          { "left": "bellum", "right": "war" },
+          { "left": "verbum", "right": "word" },
+          { "left": "templum", "right": "temple" },
+          { "left": "donum", "right": "gift" },
+          { "left": "periculum", "right": "danger" }
+        ], "explanation": "Vocabularium neutrum frequens, utile per totum cursum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Bellum, belli (n.): -um nominativo/accusativo/vocativo singulari, -a plurali.",
+    "Regula neutra universalis: nominativus = accusativus = vocativus, semper, in omni declinatione.",
+    "Plurale nominativi/accusativi/vocativi neutri semper -a.",
+    "Vocabularium: bellum, verbum, templum, donum, oppidum, periculum, consilium."
+  ],
+  "related": [
+    { "lessonId": "ii-declinatio-secunda-masculina", "label": "Declinatio Secunda: Masculina" },
+    { "lessonId": "ii-adiectiva-primae-et-secundae-classis", "label": "Adiectiva Primae et Secundae Classis" }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "ii-casus-ablativus",
+  "level": "II",
+  "unit": "1",
+  "order": 13,
+  "skill": "grammatica",
+  "strand": "casus",
+  "title": "Casus Ablativus",
+  "subtitle": "Usus principales: medium, modus, tempus, locus unde — sine praepositione saepe.",
+  "prerequisites": ["ii-casus-genitivus"],
+  "objectives": [
+    "Uti ablativo instrumenti/medii sine praepositione",
+    "Uti ablativo temporis quo/qua (when/within which)",
+    "Distinguere ablativum modi cum et sine 'cum'",
+    "Recognoscere ablativum comparationis sine 'quam'"
+  ],
+  "content": {
+    "intro": "Ablātīvus est cāsus māximē versātilis Latīnae: ūnīca fōrma servit multīs officiīs, ā īnstrūmentō ad tempus ad comparātiōnem.",
+    "explanation": "<p>Nōmen 'ablātīvus' venit ā 'auferre' ('to carry away') — sed cāsus hodiē cumulat trēs cāsūs Indō-Eurōpaeōs antīquōs (ablātīvum, īnstrūmentālem, locātīvum), ergō tot officia dīversa habet.</p>",
+    "rules": [
+      {
+        "heading": "a) Ablativus Instrumenti/Medii (sine praepositione)",
+        "body": "<p>Exprimit īnstrūmentum quō aliquid fit, SINE praepositiōne: <strong>Gladiō pugnat.</strong> ('He fights with a sword.') <strong>Oculīs videmus.</strong> ('We see with [our] eyes.')</p>"
+      },
+      {
+        "heading": "b) Ablativus Modi",
+        "body": "<p>Exprimit modum quō āctiō fit: cum adiectīvō, praepositiō 'cum' saepe omittitur: <strong>Magnā cum cūrā labōrat.</strong> vel <strong>magnā cūrā labōrat.</strong> ('He works with great care.') Sine adiectīvō, 'cum' plērumque manet: <em>cum gaudiō</em> ('with joy').</p>"
+      },
+      {
+        "heading": "c) Ablativus Temporis (sine praepositione)",
+        "body": "<p>Exprimit QUANDO vel INTRĀ QUOD TEMPUS aliquid ēvenit (differt ā duratiōne accūsātīvā!): <strong>Tribus hōrīs veniet.</strong> ('He will come within/in three hours.') <strong>Aestāte calidum est.</strong> ('In summer it is hot.')</p>"
+      },
+      {
+        "heading": "d) Ablativus Loci Unde (cum praepositione)",
+        "body": "<p>Locus ā quō: cum ab/ā, dē, ex/ē (ut in lēctiōne dē praepositiōnibus vīdistī): <em>Ā Rōmā discēdit.</em> ('He departs from Rome.')</p>"
+      },
+      {
+        "heading": "e) Ablativus Comparationis (sine 'quam')",
+        "body": "<p>Post comparātīvum, 'quam' + nōminātīvus PŌTEST substituī ab ablātīvō sōlō: <strong>Mārcus altior Iūliā est.</strong> = <strong>Mārcus altior quam Iūlia est.</strong> ('Marcus is taller than Julia.') Comparātiōnem plēnius in Gradū III discēs.</p>"
+      }
+    ],
+    "examples": [
+      "Manū scribit. — He writes with [his] hand. (instrumenti)",
+      "Magnā vōce clāmat. — He shouts with a loud voice. (modi)",
+      "Nocte veniunt. — They come at night. (temporis)",
+      "Ex urbe fugit. — He flees from the city. (loci unde)",
+      "Leō fortior cane est. — The lion is stronger than the dog. (comparationis)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ablativus instrumenti scribitur cum praepositione 'cum', analogice ad Anglicum 'with'.",
+        "right": "'Gladiō pugnat', SINE 'cum' — 'cum' adhibetur solum pro comitatu personarum ('cum amīcō'), non instrumentis.",
+        "why": "Instrumentum/medium (res, non persona) postulat ablativum solum; comitatus (persona) postulat 'cum' + ablativum."
+      },
+      {
+        "wrong": "Ablativus temporis (tribus horis = within three hours) confunditur cum accusativo durationis (tres horas = for three hours).",
+        "right": "Duo sunt distincta: accusativus = duration ('for X time'); ablativus = point/span within which ('within/at X time').",
+        "why": "Casus ipse portat significationem distinctam — confusio horum duorum causat errores frequentes."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-abl-mc", "type": "multiple-choice", "title": "Usus Ablativi",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "abl1", "prompt": "'Gladiō pugnat' — 'gladiō' exprimit:", "options": ["comitatum (with a friend)", "instrumentum (with a sword)", "tempus"], "answerIndex": 1, "explanation": "Ablativus instrumenti: sine 'cum'." },
+        { "id": "abl2", "prompt": "'Tribus hōrīs veniet' significat:", "options": ["He will come for three hours", "He will come within three hours", "He came three hours ago"], "answerIndex": 1, "explanation": "Ablativus temporis: within/at a specific time." },
+        { "id": "abl3", "prompt": "'Mārcus altior Iūliā est' — 'Iūliā' exprimit:", "options": ["possessionem", "comparationem (than Julia)", "instrumentum"], "answerIndex": 1, "explanation": "Ablativus comparationis, sine 'quam'." },
+        { "id": "abl4", "prompt": "Quando 'cum' manet cum ablativo modi?", "options": ["numquam", "cum nullum adiectivum praesens est", "semper obligatorie"], "answerIndex": 1, "explanation": "Sine adiectivo, 'cum' plerumque manet (cum gaudiō)." },
+        { "id": "abl5", "prompt": "'Aestāte calidum est' significat:", "options": ["It is hot for a summer", "In summer it is hot", "It was hot last summer"], "answerIndex": 1, "explanation": "Ablativus temporis quo: 'in/at summer'." }
+      ]
+    },
+    {
+      "id": "ii-abl-fill", "type": "fill-blank", "title": "Comple cum Ablativo",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "abl6", "prompt": "___ scrībit. (with a pen — stilo)", "options": ["stilus", "stilum", "stilō"], "answers": ["stilō"], "explanation": "Ablativus instrumenti, sine 'cum'." },
+        { "id": "abl7", "prompt": "___ ex urbe fugiunt. (at night — nocte)", "options": ["Noctem", "Nocte", "Noctis"], "answers": ["Nocte"], "explanation": "Ablativus temporis quo." },
+        { "id": "abl8", "prompt": "Leō fortior ___ est. (than the dog — cane)", "options": ["canis", "canem", "cane"], "answers": ["cane"], "explanation": "Ablativus comparationis." }
+      ]
+    }
+  ],
+  "summary": [
+    "Ablativus instrumenti/medii: sine 'cum' (gladiō pugnat).",
+    "Ablativus modi: cum adiectivo, 'cum' optionalis; sine adiectivo, 'cum' manet.",
+    "Ablativus temporis quo/qua: sine praepositione, differt ab accusativo durationis.",
+    "Ablativus comparationis: substituit 'quam' + nominativum (Marcus altior Iuliā = altior quam Iulia)."
+  ],
+  "related": [
+    { "lessonId": "ii-casus-genitivus", "label": "Casus Genitivus" },
+    { "lessonId": "ii-pronomina-demonstrativa", "label": "Pronomina Demonstrativa" }
+  ]
+}

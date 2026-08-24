@@ -1,0 +1,107 @@
+{
+  "id": "ii-praepositiones-cum-accusativo-et-ablativo",
+  "level": "II",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammatica",
+  "strand": "praepositiones",
+  "title": "Praepositiones cum Accusativo et Ablativo",
+  "subtitle": "In, ad, cum, ab, ex — quod casus, motus an quies, semper decidit.",
+  "prerequisites": ["ii-adiectiva-primae-et-secundae-classis"],
+  "objectives": [
+    "Distinguere praepositiones quae accusativum postulant ab iis quae ablativum postulant",
+    "Applicare 'in' correcte utroque casu, secundum motum vel quietem",
+    "Uti formis 'ab/a' et 'ex/e' correcte ante consonantes et vocales",
+    "Sententias cum praepositionibus frequentibus formare"
+  ],
+  "content": {
+    "intro": "Praepositiōnēs Latīnae postulant cāsum fīxum — aut accūsātīvum, aut ablātīvum, numquam utrumque līberē (exceptīs paucīs, ut 'in', ubi cāsus ipse significātiōnem mūtat).",
+    "explanation": "<p>Rēgula generālis: praepositiōnēs indicantēs <strong>mōtum versus</strong> aliquid postulant accūsātīvum; praepositiōnēs indicantēs <strong>locum ubi</strong> (sine mōtū), <strong>medium</strong>, vel <strong>sēparātiōnem</strong> postulant ablātīvum.</p>",
+    "rules": [
+      {
+        "heading": "a) Cum Accusativo (motus, tempus, spatium)",
+        "body": "<p><strong>ad</strong> (to, toward), <strong>in</strong> (into, onto — mōtus!), <strong>per</strong> (through), <strong>ante</strong> (before), <strong>post</strong> (after, behind), <strong>inter</strong> (among, between), <strong>propter</strong> (because of), <strong>trāns</strong> (across), <strong>circum</strong> (around), <strong>contrā</strong> (against), <strong>apud</strong> (at the house of, among).</p><p>Exemplum: <em>Ad urbem eō.</em> ('I go toward the city.') <em>In urbem eō.</em> ('I go into the city' — mōtus!)</p>"
+      },
+      {
+        "heading": "b) Cum Ablativo (locus, medium, separatio)",
+        "body": "<p><strong>in</strong> (in, on — quiēs!), <strong>cum</strong> (with), <strong>ab/ā</strong> (from, by), <strong>dē</strong> (down from, about/concerning), <strong>ex/ē</strong> (out of, from), <strong>sub</strong> (under — quiēs), <strong>prō</strong> (for, on behalf of), <strong>sine</strong> (without).</p><p>Exemplum: <em>In urbe sum.</em> ('I am in the city' — quiēs, nūllus mōtus).</p>"
+      },
+      {
+        "heading": "c) In: Duo Casus, Duae Significationes",
+        "body": "<p>'in' est ūnica praepositiō commūnis quae utrumque cāsum accipit, cum sēnsū distīnctō: <strong>in + accūsātīvum</strong> = mōtus ('into, onto'); <strong>in + ablātīvum</strong> = locus ('in, on', sine mōtū). Compara: <em>in casam eō</em> ('I go into the house') vs. <em>in casā sum</em> ('I am in the house').</p>"
+      },
+      {
+        "heading": "d) Ab/A, Ex/E: Ante Vocales et Consonantes",
+        "body": "<p><strong>ā</strong> et <strong>ē</strong> adhibentur ante cōnsonantem (<em>ā servō</em>); <strong>ab</strong> et <strong>ex</strong> adhibentur ante vōcālem vel līberē utrōque locō (<em>ab amīcō</em>, <em>ex urbe</em>).</p>"
+      }
+    ],
+    "examples": [
+      "Ad templum ambulamus. — We walk to the temple. (motus, acc.)",
+      "In templo sumus. — We are in the temple. (quies, abl.)",
+      "Cum amico venio. — I come with a friend. (abl.)",
+      "Sine timore pugnat. — He fights without fear. (abl.)",
+      "Per silvam currimus. — We run through the forest. (acc.)",
+      "Ab urbe discedo. — I depart from the city. (abl.)",
+      "Puer inter puellas sedet. — The boy sits among the girls. (acc.)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'In urbem sum' — accusativus adhibitus cum verbo quietis 'sum'.",
+        "right": "'In urbe sum' — ablativus, quia 'sum' indicat statum, non motum.",
+        "why": "'in' + accusativus significat SOLUM motum ('into'); cum verbis quietis (sum, sedeo, maneo), semper ablativus."
+      },
+      {
+        "wrong": "'Ab' adhibetur ante omnem verbum, sine respectu litterae initialis.",
+        "right": "'Ā' ante consonantem (ā servō), 'ab' praesertim ante vocalem (ab amīcō).",
+        "why": "Distinctio phonetica antiqua, adhuc in scriptura conservata."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-prep-fill", "type": "fill-blank", "title": "Elige Praepositionem",
+      "instructions": "Elige praepositionem et casum rectos.",
+      "items": [
+        { "id": "prep1", "prompt": "___ silvam ambulamus. (through the forest)", "options": ["per", "in", "cum"], "answers": ["per"], "explanation": "'per' + accusativum = through." },
+        { "id": "prep2", "prompt": "Liber est ___ mensa. (on the table — quies)", "options": ["in mensam", "in mensa", "ad mensam"], "answers": ["in mensa"], "explanation": "'in' + ablativum = location, no motion." },
+        { "id": "prep3", "prompt": "___ urbem eo. (I go into the city — motus)", "options": ["In urbe", "In urbem", "Ex urbe"], "answers": ["In urbem"], "explanation": "'in' + accusativum = motion into." },
+        { "id": "prep4", "prompt": "___ amico venio. (with a friend)", "options": ["Cum", "Sine", "Ab"], "answers": ["Cum"], "explanation": "'cum' + ablativum = with." },
+        { "id": "prep5", "prompt": "___ timore pugnat. (without fear)", "options": ["Cum", "Sine", "Pro"], "answers": ["Sine"], "explanation": "'sine' + ablativum = without." }
+      ]
+    },
+    {
+      "id": "ii-prep-mc", "type": "multiple-choice", "title": "Casus et Praepositiones",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "prep6", "prompt": "Praepositio 'ad' postulat casum:", "options": ["accusativum", "ablativum", "genetivum"], "answerIndex": 0, "explanation": "'ad' semper cum accusativo." },
+        { "id": "prep7", "prompt": "Praepositio 'sine' postulat casum:", "options": ["accusativum", "ablativum", "dativum"], "answerIndex": 1, "explanation": "'sine' semper cum ablativo." },
+        { "id": "prep8", "prompt": "'In' + ablativus significat:", "options": ["motum in aliquid", "quietem, locum sine motu", "possessionem"], "answerIndex": 1, "explanation": "'in' + abl. = location, no movement." },
+        { "id": "prep9", "prompt": "'In' + accusativus significat:", "options": ["motum in/ad aliquid", "quietem", "instrumentum"], "answerIndex": 0, "explanation": "'in' + acc. = motion into/onto." },
+        { "id": "prep10", "prompt": "Quae forma adhibetur ante vocalem: 'ā' an 'ab'?", "options": ["ā semper", "ab (vel ambae, sed ab praesertim)", "nulla differentia"], "answerIndex": 1, "explanation": "'ab' ante vocales, 'ā' ante consonantes." }
+      ]
+    },
+    {
+      "id": "ii-prep-match", "type": "matching", "title": "Iunge Praepositionem cum Casu",
+      "instructions": "Iunge quamque praepositionem cum casu quem postulat.",
+      "items": [
+        { "id": "prep11", "pairs": [
+          { "left": "per", "right": "accusativus" },
+          { "left": "cum", "right": "ablativus" },
+          { "left": "trans", "right": "accusativus" },
+          { "left": "de", "right": "ablativus" },
+          { "left": "propter", "right": "accusativus" }
+        ], "explanation": "Motus/tempus/spatium → accusativus; locus/medium/separatio → ablativus (praeter 'in', quod utrumque accipit)." }
+      ]
+    }
+  ],
+  "summary": [
+    "Motus versus (ad, in+acc, per, trans...) → accusativus.",
+    "Locus/medium/separatio (cum, ab, de, ex, in+abl, sine...) → ablativus.",
+    "'in' est unica praepositio bicasualis: +acc. = motus, +abl. = quies.",
+    "ā/ē ante consonantes; ab/ex praesertim ante vocales."
+  ],
+  "related": [
+    { "lessonId": "ii-adiectiva-primae-et-secundae-classis", "label": "Adiectiva Primae et Secundae Classis" },
+    { "lessonId": "ii-coniugatio-prima", "label": "Coniugatio Prima" }
+  ]
+}

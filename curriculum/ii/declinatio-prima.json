@@ -1,0 +1,97 @@
+{
+  "id": "ii-declinatio-prima",
+  "level": "II",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammatica",
+  "strand": "declinatio",
+  "title": "Declinatio Prima",
+  "subtitle": "Nomina in -a: rosa, rosae — omnes sex casus, singularis et pluralis.",
+  "prerequisites": ["i-lectio-et-auditio-prima"],
+  "objectives": [
+    "Recitare paradigma plenum declinationis primae",
+    "Identificare officium (subiectum, obiectum...) cuiusque casus",
+    "Nomina prima declinatione recte declinare in sententiis novis",
+    "Cognoscere genus feminimum tamquam regulam generalem primae declinationis"
+  ],
+  "content": {
+    "intro": "Cāsus (case) est fōrma nōminis quae officium eius in sententiā indicat. Latīna sex cāsūs habet; hodiē prīmam ex quīnque dēclīnātiōnibus (declension patterns) discēmus: verba ut rosa, quae genetīvō singulārī in -ae dēsinunt.",
+    "explanation": "<p>Dēclīnātiō prīma continet fere omnia nōmina fēminīna dēsinentia in -a nōminātīvō (paucae exceptiōnēs masculīnae exsistunt, ut <em>agricola</em> 'farmer', <em>nauta</em> 'sailor' — persōnae virōrum, quamvis fōrma fēminīna). Rādīx (stem) invenītur removendō -ae ā genetīvō: <em>rosa, rosae</em> → rādīx <strong>ros-</strong>.</p>",
+    "rules": [
+      {
+        "heading": "a) Paradigma: rosa, rosae (f.) 'rose'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Cāsus</th><th>Singulāris</th><th>Plūrālis</th><th>Officium</th></tr></thead><tbody><tr><td>Nōm.</td><td>ros<strong>a</strong></td><td>ros<strong>ae</strong></td><td>subiectum</td></tr><tr><td>Gen.</td><td>ros<strong>ae</strong></td><td>ros<strong>ārum</strong></td><td>possessiō ('of')</td></tr><tr><td>Dat.</td><td>ros<strong>ae</strong></td><td>ros<strong>īs</strong></td><td>obiectum indirēctum ('to/for')</td></tr><tr><td>Acc.</td><td>ros<strong>am</strong></td><td>ros<strong>ās</strong></td><td>obiectum dīrēctum</td></tr><tr><td>Abl.</td><td>ros<strong>ā</strong></td><td>ros<strong>īs</strong></td><td>variī ūsūs</td></tr><tr><td>Voc.</td><td>ros<strong>a</strong></td><td>ros<strong>ae</strong></td><td>appellātiō dīrēcta</td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Nota: Genetivus vs. Ablativus Singularis",
+        "body": "<p>Genetīvus singulāris (rosae) et datīvus singulāris (rosae) sunt formā identicī — contextus distinguit. Nōminātīvus (rosa, a brevis) et ablātīvus (rosā, ā longa) singulāris quoque scrībuntur similiter, sed <strong>quantitāte vocālis</strong> differunt: hoc est cūr macron hīc essentiālis est.</p>"
+      },
+      {
+        "heading": "c) Genus: Fere Semper Femininum",
+        "body": "<p>Paene omnia nōmina prīmae dēclīnātiōnis fēminīna sunt: <em>puella</em> (girl), <em>fēmina</em> (woman), <em>via</em> (road), <em>aqua</em> (water), <em>terra</em> (earth), <em>vīta</em> (life). Exceptiōnēs rārae, māsculīnae propter significātiōnem: <em>agricola</em> (farmer), <em>nauta</em> (sailor), <em>poēta</em> (poet).</p>"
+      }
+    ],
+    "examples": [
+      "Puella rosam videt. — The girl sees a rose. (puella = subiectum, rosam = obiectum)",
+      "Aqua puellae bona est. — The girl's water is good. (puellae = genetivus)",
+      "Magistra puellae librum dat. — The teacher gives a book to the girl. (puellae = dativus)",
+      "Cum puellā ambulō. — I walk with the girl. (puellā = ablativus, cum + abl.)",
+      "Puellae in viā ambulant. — The girls walk on the road. (puellae = nominativus pluralis)",
+      "Agricola in agrō labōrat. — The farmer works in the field. (agricola = masc., 1a decl.)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus putat 'rosae' semper idem significare, sine respectu contextūs.",
+        "right": "'rosae' potest esse genetīvus singulāris ('of the rose'), datīvus singulāris ('to/for the rose'), VEL nōminātīvus/vocātīvus plūrālis ('roses') — contextus (verbum, cētera verba) semper distinguit.",
+        "why": "Ambiguitās fōrmālis est normālis in Latīnā; legere tōtam sententiam, nōn ūnum verbum sōlum, necesse est."
+      },
+      {
+        "wrong": "'Agricola' tractātur ut fēminīnum, quia dēsinit in -a.",
+        "right": "'Agricola' est māsculīnum (dēsignat virum), quamvis fōrmam prīmae dēclīnātiōnis (-a) habeat.",
+        "why": "Dēclīnātiō (fōrma) et genus (gender) sunt duae rēs sēparātae; significātiō nātūrālis (vir vs fēmina) genus vincit fōrmam."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-decl1-fill", "type": "fill-blank", "title": "Comple cum Casu Recto",
+      "instructions": "Elige formam rectam verbi 'puella, -ae' pro quoque spatio.",
+      "items": [
+        { "id": "d1-1", "prompt": "___ in horto ambulat. (The girl walks — nominativus)", "options": ["Puella", "Puellam", "Puellae"], "answers": ["Puella"], "explanation": "Subiectum: nominativus." },
+        { "id": "d1-2", "prompt": "Magister ___ librum dat. (to the girl — dativus)", "options": ["puella", "puellam", "puellae"], "answers": ["puellae"], "explanation": "Obiectum indirectum: dativus." },
+        { "id": "d1-3", "prompt": "Ego ___ video. (I see the girl — accusativus)", "options": ["puella", "puellam", "puellae"], "answers": ["puellam"], "explanation": "Obiectum directum: accusativus." },
+        { "id": "d1-4", "prompt": "Liber ___ est. (the girl's book — genetivus)", "options": ["puella", "puellae", "puellam"], "answers": ["puellae"], "explanation": "Possessio: genetivus." },
+        { "id": "d1-5", "prompt": "Cum ___ ambulo. (with the girl — ablativus)", "options": ["puella", "puellā", "puellam"], "answers": ["puellā"], "explanation": "Ablativus cum praepositione 'cum'." }
+      ]
+    },
+    {
+      "id": "ii-decl1-mc", "type": "multiple-choice", "title": "Declinatio Prima: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "d1-6", "prompt": "Quod genus habent fere omnia nomina primae declinationis?", "options": ["masculinum", "femininum", "neutrum"], "answerIndex": 1, "explanation": "Prima declinatio est praecipue feminina." },
+        { "id": "d1-7", "prompt": "Nominativus pluralis verbi 'rosa' est:", "options": ["rosa", "rosae", "rosam"], "answerIndex": 1, "explanation": "-a → -ae in nominativo plurali." },
+        { "id": "d1-8", "prompt": "Accusativus pluralis verbi 'rosa' est:", "options": ["rosas", "rosarum", "rosis"], "answerIndex": 0, "explanation": "-a → -as in accusativo plurali." },
+        { "id": "d1-9", "prompt": "Quod verbum est exceptio masculina primae declinationis?", "options": ["puella", "agricola", "aqua"], "answerIndex": 1, "explanation": "agricola (farmer) est masculinum propter significationem naturalem." },
+        { "id": "d1-10", "prompt": "Genetivus singularis et dativus singularis primae declinationis:", "options": ["semper differunt in forma", "sunt forma identici (rosae)", "numquam exsistunt simul"], "answerIndex": 1, "explanation": "Ambo sunt 'rosae' — contextus distinguit officium." }
+      ]
+    },
+    {
+      "id": "ii-decl1-order", "type": "ordering", "title": "Compone Sententiam",
+      "instructions": "Pone verba in ordinem naturalem.",
+      "items": [
+        { "id": "d1-11", "prompt": "videt / puella / rosam", "words": ["Puella", "rosam", "videt"], "explanation": "Ordo neutralis Latinus: subiectum, obiectum, verbum (SOV), quamvis variabilis." },
+        { "id": "d1-12", "prompt": "aqua / bona / est", "words": ["Aqua", "bona", "est"], "explanation": "Subiectum + adiectivum praedicativum + sum." },
+        { "id": "d1-13", "prompt": "in / puellae / via / ambulant", "words": ["Puellae", "in", "via", "ambulant"], "explanation": "Subiectum plurale + phrasis praepositionalis + verbum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Declinatio prima: nomina in -a, genetivo -ae; fere semper feminina.",
+    "Sex casus: nominativus, genetivus, dativus, accusativus, ablativus, vocativus.",
+    "Genetivus/dativus singularis identici (rosae); nominativus/ablativus singularis differunt sola quantitate (rosa/rosā).",
+    "Exceptiones masculinae: agricola, nauta, poeta — propter significationem, non formam."
+  ],
+  "related": [
+    { "lessonId": "ii-declinatio-secunda-masculina", "label": "Declinatio Secunda: Masculina" }
+  ]
+}

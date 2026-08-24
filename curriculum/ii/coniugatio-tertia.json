@@ -1,0 +1,97 @@
+{
+  "id": "ii-coniugatio-tertia",
+  "level": "II",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammatica",
+  "strand": "verba",
+  "title": "Coniugatio Tertia",
+  "subtitle": "Mitto, mittere: tempus praesens activum — et verba mixta in -io (capio).",
+  "prerequisites": ["ii-coniugatio-secunda"],
+  "objectives": [
+    "Recitare tempus praesens activum verbi 'mitto, mittere'",
+    "Identificare coniugationem tertiam per infinitivum in -ere breve, accentu antepaenultimo",
+    "Coniugare verba mixta in -io (capio) quae formas tertiae et quartae mixtant",
+    "Distinguere auditu inter secundam et tertiam coniugationem"
+  ],
+  "content": {
+    "intro": "Tertia coniugātiō est māximē irregulāris apparentiā, quia vōcālis thēmatica brevis 'e' variē mūtātur secundum dēsinentiam. Est etiam maxima numerō verbōrum.",
+    "explanation": "<p>Īnfīnītīvus tertiae coniugātiōnis dēsinit in <strong>-ere</strong>, cum e <em>brevī</em>, accentū in antepaenultimā: MIT-te-re (nōn mit-TE-re). Vōcālis thēmatica ipsa mūtātur per persōnās: i, i, i, i, u.</p>",
+    "rules": [
+      {
+        "heading": "a) Paradigma: mittō, mittere 'to send'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Persona</th><th>Singularis</th><th>Pluralis</th></tr></thead><tbody><tr><td>1ª</td><td>mitt<strong>ō</strong> — I send</td><td>mitt<strong>imus</strong> — we send</td></tr><tr><td>2ª</td><td>mitt<strong>is</strong> — you send</td><td>mitt<strong>itis</strong> — you (pl.) send</td></tr><tr><td>3ª</td><td>mitt<strong>it</strong> — he/she/it sends</td><td>mitt<strong>unt</strong> — they send</td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Verba Mixta in -iō (capiō)",
+        "body": "<p>Paucī verba tertiae coniugātiōnis habent 1ª persōnam in <strong>-iō</strong> (ut quārta), sed īnfīnītīvum brevem <strong>-ere</strong> (ut tertia) — ideō 'mixta' vocantur: <strong>capiō, capere</strong> ('to take/capture'): capiō, cap<strong>i</strong>s, cap<strong>i</strong>t, cap<strong>i</strong>mus, cap<strong>i</strong>tis, cap<strong>i</strong>unt. Nōtā 'i' additum ante -unt (capiunt, nōn *capunt).</p>"
+      },
+      {
+        "heading": "c) Verba Frequentia Tertiae Coniugationis",
+        "body": "<p>mittō (send), dūcō (lead), agō (do/drive), regō (rule), scrībō (write), legō (read/gather), currō (run), vincō (conquer), dīcō (say), petō (seek). Mixta: capiō (take), faciō (make/do), fugiō (flee), iaciō (throw).</p>"
+      }
+    ],
+    "examples": [
+      "Epistulam mittō. — I send a letter.",
+      "Puerī currunt. — The boys run.",
+      "Caesar exercitum dūcit. — Caesar leads the army.",
+      "Librum legimus. — We read a book.",
+      "Rōmānī urbem capiunt. — The Romans capture the city.",
+      "Quid facis? — What are you doing?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'mittere' pronuntiatur cum accentu in paenultima (mit-TE-re), confusum cum secunda coniugatione.",
+        "right": "'mittere' habet accentum in antepaenultima (MIT-te-re), quia paenultima 'te' brevis et aperta est.",
+        "why": "Lex paenultimae: paenultima brevis → accentus in antepaenultima. Hoc distinguit tertiam a secunda coniugatione."
+      },
+      {
+        "wrong": "'capiunt' scribitur *'capunt', omissa 'i'.",
+        "right": "'capiunt' — verba mixta in -io retinent 'i' ante -unt (tertia persona pluralis).",
+        "why": "Verba mixta combinant patronum tertiae (accentus, plerique formae) cum patrono quartae (i ubique fere praesens)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-con3-fill", "type": "fill-blank", "title": "Coniuga Mitto",
+      "instructions": "Comple cum forma recta verbi 'duco, ducere'.",
+      "items": [
+        { "id": "c3-1", "prompt": "Ego exercitum ___. (I lead)", "options": ["duco", "ducis", "ducit"], "answers": ["duco"], "explanation": "1a persona singularis: duco." },
+        { "id": "c3-2", "prompt": "Tu servos ___. (you lead)", "options": ["duco", "ducis", "ducimus"], "answers": ["ducis"], "explanation": "2a persona singularis: ducis." },
+        { "id": "c3-3", "prompt": "Caesar milites ___. (leads)", "options": ["ducit", "ducunt", "ducis"], "answers": ["ducit"], "explanation": "3a persona singularis: ducit." },
+        { "id": "c3-4", "prompt": "Nos amicos ___. (we lead)", "options": ["ducimus", "ducitis", "ducunt"], "answers": ["ducimus"], "explanation": "1a persona pluralis: ducimus." },
+        { "id": "c3-5", "prompt": "Duces copias ___. (they lead)", "options": ["ducit", "ducunt", "ducimus"], "answers": ["ducunt"], "explanation": "3a persona pluralis: ducunt." }
+      ]
+    },
+    {
+      "id": "ii-con3-mc", "type": "multiple-choice", "title": "Coniugatio Tertia et Verba Mixta",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "c3-6", "prompt": "Accentus verbi 'mittere' cadit in:", "options": ["ultima", "paenultima", "antepaenultima"], "answerIndex": 2, "explanation": "MIT-te-re: paenultima brevis → accentus in antepaenultima." },
+        { "id": "c3-7", "prompt": "'Capitis' significat:", "options": ["I take", "you (pl.) take", "they take"], "answerIndex": 1, "explanation": "2a persona pluralis: -itis." },
+        { "id": "c3-8", "prompt": "Quod verbum est 'mixtum' (tertia + quarta)?", "options": ["mitto, mittere", "capio, capere", "duco, ducere"], "answerIndex": 1, "explanation": "capiō habet -iō ut quarta, sed -ere breve ut tertia." },
+        { "id": "c3-9", "prompt": "Tertia persona pluralis verbi 'faciō' est:", "options": ["facunt", "faciunt", "facient"], "answerIndex": 1, "explanation": "Verba mixta retinent 'i': faciunt." },
+        { "id": "c3-10", "prompt": "'Scribo' significat:", "options": ["I read", "I write", "I run"], "answerIndex": 1, "explanation": "scrībō = I write." }
+      ]
+    },
+    {
+      "id": "ii-con3-order", "type": "ordering", "title": "Compone Sententiam",
+      "instructions": "Pone verba in ordinem naturalem.",
+      "items": [
+        { "id": "c3-11", "prompt": "mittit / epistulam / Iulia", "words": ["Iulia", "epistulam", "mittit"], "explanation": "Subiectum + obiectum + verbum." },
+        { "id": "c3-12", "prompt": "urbem / capiunt / Romani", "words": ["Romani", "urbem", "capiunt"], "explanation": "Subiectum + obiectum + verbum mixtum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Coniugatio tertia: infinitivus -ere (e breve), accentu in antepaenultima.",
+    "mittō, mittis, mittit, mittimus, mittitis, mittunt.",
+    "Verba mixta (-iō): capiō, faciō, fugiō, iaciō — combinant patronos tertiae et quartae.",
+    "Verba frequentia: mittō, dūcō, agō, scrībō, legō, currō, vincō, dīcō, petō."
+  ],
+  "related": [
+    { "lessonId": "ii-coniugatio-secunda", "label": "Coniugatio Secunda" },
+    { "lessonId": "ii-coniugatio-quarta", "label": "Coniugatio Quarta" }
+  ]
+}

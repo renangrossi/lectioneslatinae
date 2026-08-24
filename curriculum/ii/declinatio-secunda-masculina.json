@@ -1,0 +1,106 @@
+{
+  "id": "ii-declinatio-secunda-masculina",
+  "level": "II",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammatica",
+  "strand": "declinatio",
+  "title": "Declinatio Secunda: Masculina",
+  "subtitle": "Nomina in -us et -er: servus, puer, ager, vir — cum vocativo speciali.",
+  "prerequisites": ["ii-declinatio-prima"],
+  "objectives": [
+    "Declinare nomina secundae declinationis in -us (servus)",
+    "Declinare nomina in -er, distinguendo inter formas quae 'e' servant (puer) et quae eam amittunt (ager)",
+    "Formare vocativum singularem correcte, incluso -e pro -us et -i pro -ius",
+    "Nomina secundae declinationis masculina in sententiis uti"
+  ],
+  "content": {
+    "intro": "Secunda dēclīnātiō continet plūrima nōmina māsculīna (et omnia neutra, quae in proximā lēctiōne vidēbis) — genetīvō in -ī dēsinentia.",
+    "explanation": "<p>Tria sunt subgenera nōminātīvī: <strong>-us</strong> (servus, servī), <strong>-er</strong> quod 'e' per omnem dēclīnātiōnem servat (puer, puerī), et <strong>-er</strong> quod 'e' āmittit praeter nōminātīvum (ager, agrī). Nūlla rēgula praedicit quod verbum 'e' servet — memoriā tenendum est ex genetīvō ipsō.</p>",
+    "rules": [
+      {
+        "heading": "a) Paradigma: servus, servī (m.) 'slave'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Cāsus</th><th>Singulāris</th><th>Plūrālis</th></tr></thead><tbody><tr><td>Nōm.</td><td>serv<strong>us</strong></td><td>serv<strong>ī</strong></td></tr><tr><td>Gen.</td><td>serv<strong>ī</strong></td><td>serv<strong>ōrum</strong></td></tr><tr><td>Dat.</td><td>serv<strong>ō</strong></td><td>serv<strong>īs</strong></td></tr><tr><td>Acc.</td><td>serv<strong>um</strong></td><td>serv<strong>ōs</strong></td></tr><tr><td>Abl.</td><td>serv<strong>ō</strong></td><td>serv<strong>īs</strong></td></tr><tr><td>Voc.</td><td>serv<strong>e</strong></td><td>serv<strong>ī</strong></td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Vocativus: -e, non -us",
+        "body": "<p>Nōmina in -us fōrmant vocātīvum in <strong>-e</strong>: <em>serve!</em>, <em>Brūte!</em> (famōsum: 'Et tū, Brūte?'). Exceptiō: nōmina in <strong>-ius</strong> (et 'fīlius') fōrmant vocātīvum in <strong>-ī</strong> sōlō (nōn -ie): <em>fīlī!</em> ('O son!'), <em>Vergilī!</em> Nōmen <em>deus</em> nūllum vocātīvum distīnctum habet (idem ac nōminātīvus).</p>"
+      },
+      {
+        "heading": "c) Puer, puerī (e servātur)",
+        "body": "<p><strong>puer</strong> (boy): puer, puerī, puerō, puerum, puerō, puer. Vocālis 'e' manet per omnem cāsum. Similiter: <em>vir, virī</em> (man — nūllam vocālem habet ad āmittendum, sed sequitur idem patrōnum sine -us).</p>"
+      },
+      {
+        "heading": "d) Ager, agrī (e āmittitur)",
+        "body": "<p><strong>ager</strong> (field): ager, <strong>agr</strong>ī, agrō, agrum, agrō, ager. Vocālis 'e' cadit praeter nōminātīvum/vocātīvum singulārem. Similiter: <em>liber, librī</em> (book).</p>"
+      }
+    ],
+    "examples": [
+      "Servus dominō pāret. — The slave obeys the master.",
+      "Puer in agrō lūdit. — The boy plays in the field.",
+      "Librum puerō dō. — I give the book to the boy.",
+      "Vir cum servō loquitur. — The man speaks with the slave.",
+      "Et tū, Brūte? — And you, Brutus? (Caesar, secundum traditionem)",
+      "Deus, audī mē! — God, hear me!"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Serve' interpretatur ut error orthographicus prō 'servus'.",
+        "right": "'Serve' est vocātīvus correctus, adhibitus cum servum dīrēctē appellās.",
+        "why": "Vocātīvus est cāsus proprius ad appellandum, cum fōrmā propriā in secundā dēclīnātiōne -us."
+      },
+      {
+        "wrong": "'Puerī' semper vertitur 'boys' (nominativus/vocativus pluralis), sine respectu contextus.",
+        "right": "'Puerī' potest etiam esse genetīvus singulāris ('of the boy') — contextus, nōn sōla fōrma, significātiōnem dat.",
+        "why": "Sīcut in prīmā dēclīnātiōne, fōrmae identicae variīs officiīs serviunt."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ii-decl2-fill", "type": "fill-blank", "title": "Comple cum Casu Recto",
+      "instructions": "Elige formam rectam verbi 'servus, -i' pro quoque spatio.",
+      "items": [
+        { "id": "d2-1", "prompt": "___ laborat. (The slave works — nominativus)", "options": ["Servus", "Servum", "Servo"], "answers": ["Servus"], "explanation": "Subiectum: nominativus." },
+        { "id": "d2-2", "prompt": "Dominus ___ videt. (sees the slave — accusativus)", "options": ["servus", "servum", "servi"], "answers": ["servum"], "explanation": "Obiectum directum: accusativus." },
+        { "id": "d2-3", "prompt": "Liber ___ est. (the slave's book — genetivus)", "options": ["servus", "servi", "servo"], "answers": ["servi"], "explanation": "Possessio: genetivus." },
+        { "id": "d2-4", "prompt": "___! Veni huc! (Slave! Come here! — vocativus)", "options": ["Servus", "Serve", "Servum"], "answers": ["Serve"], "explanation": "Vocativus nominum in -us: -e." },
+        { "id": "d2-5", "prompt": "___ librum legit. (The boy reads a book — nominativus 'puer')", "options": ["Puer", "Pueri", "Puero"], "answers": ["Puer"], "explanation": "'Puer' servat formam suam nominativi, sine desinentia -us." }
+      ]
+    },
+    {
+      "id": "ii-decl2-mc", "type": "multiple-choice", "title": "Servus, Puer, Ager: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "d2-6", "prompt": "Genetivus singularis verbi 'ager' est:", "options": ["ageri", "agri", "ageris"], "answerIndex": 1, "explanation": "'e' cadit: ager → agrī." },
+        { "id": "d2-7", "prompt": "Genetivus singularis verbi 'puer' est:", "options": ["pueri", "pueris", "puri"], "answerIndex": 0, "explanation": "'e' manet: puer → puerī." },
+        { "id": "d2-8", "prompt": "Vocativus singularis verbi 'filius' est:", "options": ["fili", "filie", "filius"], "answerIndex": 0, "explanation": "Nomina in -ius (et filius) formant vocativum in -i, non -ie." },
+        { "id": "d2-9", "prompt": "Nominativus pluralis verbi 'servus' est:", "options": ["servos", "servorum", "servi"], "answerIndex": 2, "explanation": "-us → -i in nominativo plurali secundae declinationis." },
+        { "id": "d2-10", "prompt": "Accusativus pluralis verbi 'servus' est:", "options": ["servos", "servis", "servorum"], "answerIndex": 0, "explanation": "-us → -os in accusativo plurali." }
+      ]
+    },
+    {
+      "id": "ii-decl2-match", "type": "matching", "title": "Iunge Nomen cum Genetivo",
+      "instructions": "Iunge quodque nomen cum genetivo suo singulari.",
+      "items": [
+        { "id": "d2-11", "pairs": [
+          { "left": "servus", "right": "servi" },
+          { "left": "puer", "right": "pueri" },
+          { "left": "ager", "right": "agri" },
+          { "left": "liber", "right": "libri" },
+          { "left": "vir", "right": "viri" }
+        ], "explanation": "Genetivus revelat semper an vocalis 'e' (in -er) servetur an cadat." }
+      ]
+    }
+  ],
+  "summary": [
+    "-us: servus, servi (vocativus speciālis: serve; -ius → -i, ut fili).",
+    "-er cum 'e' servātā: puer, pueri.",
+    "-er cum 'e' āmissā: ager, agri.",
+    "Vir, viri sequitur patronum sine -us, sine vocali ad āmittendum."
+  ],
+  "related": [
+    { "lessonId": "ii-declinatio-prima", "label": "Declinatio Prima" },
+    { "lessonId": "ii-declinatio-secunda-neutra", "label": "Declinatio Secunda: Neutra" }
+  ]
+}
