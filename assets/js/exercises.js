@@ -826,7 +826,7 @@
 
   function buildBlock(container, data) {
     var head = el("div", { class: "exercise-block__head" });
-    head.appendChild(el("span", { class: "exercise-block__type", text: data.type.replace(/-/g, " ") }));
+    head.appendChild(el("span", { class: "exercise-block__type", text: TYPE_LABELS[data.type] || data.type.replace(/-/g, " ") }));
     head.appendChild(el("h3", { class: "exercise-block__title", text: data.title || "Exercitatio" }));
     if (data.instructions) head.appendChild(el("p", { class: "exercise-block__instructions", text: data.instructions }));
     container.appendChild(head);

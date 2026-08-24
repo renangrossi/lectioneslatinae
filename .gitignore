@@ -2,6 +2,11 @@
 __pycache__/
 *.pyc
 
+# Node (ad hoc tooling, e.g. Playwright for local QA)
+node_modules/
+package.json
+package-lock.json
+
 # Local Claude Code session config
 .claude/
 
