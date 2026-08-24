@@ -1,0 +1,83 @@
+{
+  "id": "vii-sallustius-bellum-catilinae",
+  "level": "VII",
+  "unit": "1",
+  "order": 6,
+  "skill": "lectio",
+  "strand": "auctores",
+  "title": "Sallustius: Bellum Catilinae",
+  "subtitle": "Omnis homines...summa ope niti decet — prooemium philosophicum, non narrativum.",
+  "prerequisites": ["vii-vergilius-aeneis"],
+  "objectives": [
+    "Legere prooemium authenticum operis historiographici Sallustiani",
+    "Comparare stilum Sallustianum (brevis, sententiosus) cum Caesariano (clarus, praecisus)",
+    "Identificare argumentum philosophicum quod praecedit narrationem historicam ipsam",
+    "Recognoscere vocabularium arcaizans caracteristicum Sallustii"
+  ],
+  "content": {
+    "intro": "Gaius Sallustius Crispus (86–35 a.C.n.), historicus et quondam adversarius politicus Ciceronis, scripsit De Coniuratione Catilinae — sed, differenter a Caesare, incohat opus suum NON cum facto historico, sed cum meditatione philosophica de natura humana.",
+    "explanation": "<p>Sallustius argumentātur: hominēs differunt ā bēstiīs propter animum (mind/spirit), nōn corpus; ergō glōria vēra vēnit ex ingeniō ('intellectual ability'), nōn ex vīribus physicīs sōlīs.</p>",
+    "rules": [
+      {
+        "heading": "Textus: Bellum Catilinae, Caput 1",
+        "body": "<p class=\"reading-passage-inline\">Omnis homines, qui sese student praestare ceteris animalibus, summa ope niti decet, ne vitam silentio transeant veluti pecora, quae natura prona atque ventri oboedientia finxit. Sed nostra omnis vis in animo et corpore sita est: animi imperio, corporis servitio magis utimur; alterum nobis cum dis, alterum cum beluis commune est. Quo mihi rectius videtur ingeni quam virium opibus gloriam quaerere et, quoniam vita ipsa, qua fruimur, brevis est, memoriam nostri quam maxume longam efficere. Nam divitiarum et formae gloria fluxa atque fragilis est, virtus clara aeternaque habetur.</p><p><em>C. Sallustius Crispus, Bellum Catilinae 1.1&ndash;4 (textus classicus, verificatus)</em></p>"
+      },
+      {
+        "heading": "Vocabularium et Notae",
+        "body": "<p><em>studeō</em> (+ īnf.: to be eager to), <em>ops, opis</em> (f., effort/power — 'summā ope' = 'with the greatest effort'), <em>pecus, pecoris</em> (n., cattle/livestock), <em>prōnus, -a, -um</em> (bent forward/downward — animālia, contrāriē hominibus ērēctīs), <em>venter, ventris</em> (m., belly), <em>bēlua, -ae</em> (f., beast), <em>fluxus, -a, -um</em> (fleeting/transient). Nōtā fōrmās arcaicās: <em>maxume</em> (= maximē), <em>ingenī</em> (= ingeniī, genetīvus contractus).</p>"
+      },
+      {
+        "heading": "Comparatio Stilistica",
+        "body": "<p>Compara cum Caesare (Gradus VII, lēctiō 2): Caesar incohat CUM FACTŌ ('Gallia est omnis dīvīsa...'); Sallustius incohat CUM ARGŪMENTŌ PHILOSOPHICŌ generālī, ante narrātiōnem historicam ipsam. Sallustius quoque praefert vocābula rāriōra/archaica ('maxume' prō 'maximē') et sententiās brevēs, dēnsās, sententiōsās ('virtūs clāra aeternaque habētur' — quasi āphorismus).</p>"
+      }
+    ],
+    "examples": [
+      "Omnis homines...praestare ceteris animalibus — argumentum universale, non specificum ad Romam.",
+      "Animi imperio, corporis servitio magis utimur — antithesis (imperium vs. servitium), chiasmus implicitus.",
+      "Alterum nobis cum dis, alterum cum beluis commune est — parallelismus geminus.",
+      "Quo mihi rectius videtur — comparativus + dativus iudicantis (mihi).",
+      "Virtus clara aeternaque habetur — sententia aphoristica, conclusio argumenti."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus exspectat narrationem historicam immediatam, confusus ab argumento philosophico initiali.",
+        "right": "Sallustius sequitur convenio historiographicam ubi prooemium philosophicum/moralistum praecedit narrationem factorum ipsorum.",
+        "why": "Genus 'monographia historica cum praefatione morali' erat convenio litteraria stabilita, quam Sallustius sequitur deliberate."
+      },
+      {
+        "wrong": "'Maxume' tractatur ut error orthographicus pro 'maximē'.",
+        "right": "'Maxume' est forma archaica authentica (ante mutationem vocalis 'u' → 'i' inter labiales), deliberatē adhibita a Sallustio pro colore stilistico antiquo.",
+        "why": "Sallustius imitabatur deliberatē stilum historicorum antiquiorum (Cato) per formas archaizantes."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vii-sall-rc", "type": "reading-comprehension", "title": "Comprehensio: Bellum Catilinae 1",
+      "instructions": "Lege textum supra, deinde responde.",
+      "passage": "<p>Omnis homines, qui sese student praestare ceteris animalibus, summa ope niti decet, ne vitam silentio transeant veluti pecora. Sed nostra omnis vis in animo et corpore sita est: animi imperio, corporis servitio magis utimur. Nam divitiarum et formae gloria fluxa atque fragilis est, virtus clara aeternaque habetur.</p>",
+      "items": [
+        { "id": "sall1", "prompt": "Secundum Sallustium, quid homines a pecoribus distinguit?", "options": ["forma corporis", "usus animi (mentis), non solum corporis", "divitiae"], "answerIndex": 1, "explanation": "'animi imperio, corporis servitio magis utimur'." },
+        { "id": "sall2", "prompt": "Quae gloria est 'fluxa atque fragilis', secundum textum?", "options": ["gloria virtutis", "gloria divitiarum et formae", "gloria ingenii"], "answerIndex": 1, "explanation": "'dīvitiārum et fōrmae glōria fluxa atque fragilis est'." }
+      ]
+    },
+    {
+      "id": "vii-sall-mc", "type": "multiple-choice", "title": "Stilus Sallustianus",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "sall3", "prompt": "Sallustius incohat opus suum cum:", "options": ["facto historico specifico", "argumento philosophico generali de natura humana"], "answerIndex": 1, "explanation": "Distinctio ab Caesare, qui incohat cum facto." },
+        { "id": "sall4", "prompt": "'Maxume' pro 'maximē' est exemplum:", "options": ["erroris scriptorii", "formae archaicae deliberatae"], "answerIndex": 1, "explanation": "Color stilisticus antiquus, imitans historicos priores." }
+      ]
+    }
+  ],
+  "summary": [
+    "Sallustius (86-35 a.C.n.) scripsit De Coniuratione Catilinae, cum prooemio philosophico distinctivo.",
+    "Argumentum initiale: homines differunt a bestiis propter animum, non corpus solum.",
+    "Stilus: sententiae breves, densae, sententiosae; vocabulum archaizans (maxume).",
+    "Contrasta cum Caesare: narratio immediata vs. meditatio philosophica praevia."
+  ],
+  "related": [
+    { "lessonId": "vii-vergilius-aeneis", "label": "Vergilius: Aeneis" },
+    { "lessonId": "vii-prosodia-et-metrum", "label": "Prosodia et Metrum" }
+  ]
+}

@@ -73,7 +73,7 @@
   // penalizing students on the levels with less standalone content.
   // Kept in sync with the real curriculum by scripts/build_exercise_index.py
   // (see its printed counts) whenever a level's lesson set changes.
-  var LEVEL_EXERCISE_COUNTS = { I: 34, II: 128, III: 46, IV: 46, V: 40, VI: 42, VII: 42 };
+  var LEVEL_EXERCISE_COUNTS = { I: 27, II: 49, III: 27, IV: 35, V: 24, VI: 20, VII: 20 };
   function explorerThreshold(level) {
     var total = LEVEL_EXERCISE_COUNTS[level] || 36;
     return Math.max(6, Math.round(total * 0.3));

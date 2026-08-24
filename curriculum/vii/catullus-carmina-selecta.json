@@ -1,0 +1,84 @@
+{
+  "id": "vii-catullus-carmina-selecta",
+  "level": "VII",
+  "unit": "1",
+  "order": 1,
+  "skill": "lectio",
+  "strand": "auctores",
+  "title": "Catullus: Carmina Selecta",
+  "subtitle": "Vivamus, mea Lesbia — duo carmina authentica, non adaptata, integra.",
+  "prerequisites": ["vi-recognitio-syntaxis-integra"],
+  "objectives": [
+    "Legere duo carmina Catulliana authentica, integra et non adaptata",
+    "Identificare vocabularium et constructiones iam notas in poesi genuina",
+    "Comprehendere contextum biographicum et emotionale carminum",
+    "Citare correcte fontem (Catullus, numerus carminis) secundum conventionem philologicam"
+  ],
+  "content": {
+    "intro": "Gaius Valerius Catullus (c. 84–54 a.C.n.), poeta Veronensis, scripsit carmina brevia et intensē persōnālia, saepe ad Lesbiam (nōmen fictum pro amīcā suā vērā, probābiliter Clōdiam). Hodiē lēctiōnem verba ipsīus poētae, sine ūllā adaptātiōne, prīmum incohās.",
+    "explanation": "<p>Textus īnfrā sunt EXACTĒ ut ā philologīs hodiernīs ēditī (secundum thelatinlibrary.com, cōnferendum cum ēditiōnibus criticīs standard), sine macrōnibus (sīcut in ēditiōnibus imprēssīs plērumque) — ratiōnem prōnūntiātiōnis iam habēs ex Gradū I.</p>",
+    "rules": [
+      {
+        "heading": "Carmen 5: Vivamus, Mea Lesbia (versus 1–6)",
+        "body": "<p class=\"reading-passage-inline\">Vivamus mea Lesbia, atque amemus,<br>rumoresque senum severiorum<br>omnes unius aestimemus assis!<br>soles occidere et redire possunt:<br>nobis cum semel occidit brevis lux,<br>nox est perpetua una dormienda.</p><p><em>Catullus, Carmen 5.1&ndash;6 (thelatinlibrary.com)</em></p>"
+      },
+      {
+        "heading": "Carmen 85: Odi et Amo",
+        "body": "<p class=\"reading-passage-inline\">Odi et amo. quare id faciam, fortasse requiris.<br>nescio, sed fieri sentio et excrucior.</p><p><em>Catullus, Carmen 85 (thelatinlibrary.com), integrum carmen — duo versūs tantum.</em></p>"
+      },
+      {
+        "heading": "Vocabularium et Notae",
+        "body": "<p><em>rūmor, -ōris</em> (m., gossip/rumor), <em>senex, senis</em> (m., old man), <em>sevērus, -a, -um</em> (strict/severe), <em>as, assis</em> (m., a small coin, 'penny' — 'ūnīus assis aestimāre' = 'to value at a single penny', i.e. 'not care at all'), <em>occidō, -ere</em> (hic: 'to set', dē sōle — nōn 'to kill'!), <em>excruciō, -āre</em> (to torture). <strong>Nota Metrica</strong>: Carmen 5 est in hendecasyllabīs (versus ūndecim syllabārum); Carmen 85 est distichon ēlegiacum.</p>"
+      }
+    ],
+    "examples": [
+      "Vivamus atque amemus — hortativus + hortativus, geminatus pro emphasi.",
+      "Soles occidere et redire possunt — infinitivi post 'possunt', metaphora (sol occidit = day ends, but returns; nox nostra non).",
+      "Odi et amo — duo verba contradictoria, sine coniunctione, effectus stilisticus (asyndeton).",
+      "Quare id faciam — interrogatio obliqua, coniunctivus (deliberativus/indirectus).",
+      "Nescio, sed fieri sentio — antithesis: 'I don't know' vs. 'I feel it happening'."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Occidere' vertitur 'to kill' (ab occīdō, -ere), confusum cum verbo simili.",
+        "right": "Hic 'occidere' venit ab occidō, -ere ('to fall/set', dē sōle) — falsus amicus cum occīdō, occīdere ('to kill', vocalis longa ī).",
+        "why": "Duo verba compōsita ab 'cadō'/'caedō' differunt sola quantitate vocalis radicis, sed macron non semper scribitur — contextus (sol) clarificat."
+      },
+      {
+        "wrong": "'Odi et amo' tractatur ut sententia simplex sine profunditate stilistica.",
+        "right": "Asyndeton (absentia coniunctionis 'et' expectata inter duo verba contradictoria breviter iuxtapositos) est instrumentum rhetoricum deliberatum, exprimens conflictum emotionalem intensum.",
+        "why": "Brevitas extrema (duo verba) est ipsa parte significationis: nulla explicatio, sola tensio cruda."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vii-cat-rc", "type": "reading-comprehension", "title": "Comprehensio: Catullus 5",
+      "instructions": "Lege carmen supra, deinde responde.",
+      "passage": "<p>Vivamus mea Lesbia, atque amemus,<br>rumoresque senum severiorum<br>omnes unius aestimemus assis!<br>soles occidere et redire possunt:<br>nobis cum semel occidit brevis lux,<br>nox est perpetua una dormienda.</p>",
+      "items": [
+        { "id": "cat1", "prompt": "Quid poeta Lesbiae suadet in primo versu?", "options": ["ut discedat", "ut vivant et ament", "ut taceat"], "answerIndex": 1, "explanation": "'Vivāmus...atque amēmus' — hortativus." },
+        { "id": "cat2", "prompt": "Quo pretio poeta rumores senum aestimari vult?", "options": ["magno pretio", "uno asse (i.e. nihilo)", "auro"], "answerIndex": 1, "explanation": "'omnēs ūnius aestimēmus assis' = ne curemus." },
+        { "id": "cat3", "prompt": "Quae est differentia inter solem et nostram lucem, secundum poetam?", "options": ["sol numquam occidit", "sol redire potest, sed nostra brevis lux non", "nulla differentia est"], "answerIndex": 1, "explanation": "'sōlēs occidere et redīre possunt', sed nox nostra est 'perpetua'." }
+      ]
+    },
+    {
+      "id": "vii-cat-mc", "type": "multiple-choice", "title": "Catullus: Vocabularium et Stilus",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "cat4", "prompt": "In hoc contextu, 'occidere' significat:", "options": ["to kill", "to set (dē sōle)", "to fall down"], "answerIndex": 1, "explanation": "occidō, -ere (nōn occīdō): to fall/set." },
+        { "id": "cat5", "prompt": "'Odi et amo' est exemplum figurae:", "options": ["hyperboles", "asyndeti (sine coniunctione expectata)", "anaphorae"], "answerIndex": 1, "explanation": "Duo verba iuxtaposita, sine 'sed' explicito." },
+        { "id": "cat6", "prompt": "Carmen 5 est scriptum in metro:", "options": ["hexametro dactylico", "hendecasyllabis"], "answerIndex": 1, "explanation": "Versus undecim syllabarum, metrum favoritum Catulli pro carminibus brevibus." }
+      ]
+    }
+  ],
+  "summary": [
+    "Catullus (c. 84-54 a.C.n.) scripsit carmina brevia, intense personalia, ad Lesbiam.",
+    "Carmen 5 (Vivamus, mea Lesbia) et Carmen 85 (Odi et amo) sunt inter opera eius famosissima.",
+    "Textus hic est authenticus, non adaptatus — prima lectio directa e fonte classico huius cursus.",
+    "Semper cita fontem correcte: 'Catullus, Carmen [numerus], versus [numerus]'."
+  ],
+  "related": [
+    { "lessonId": "vii-caesar-de-bello-gallico", "label": "Caesar: De Bello Gallico" }
+  ]
+}

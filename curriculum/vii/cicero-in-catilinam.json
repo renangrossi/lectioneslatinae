@@ -1,0 +1,83 @@
+{
+  "id": "vii-cicero-in-catilinam",
+  "level": "VII",
+  "unit": "1",
+  "order": 3,
+  "skill": "lectio",
+  "strand": "auctores",
+  "title": "Cicero: In Catilinam",
+  "subtitle": "Quo usque tandem abutere, Catilina, patientia nostra? — verba ipsa, non simplificata.",
+  "prerequisites": ["vii-caesar-de-bello-gallico"],
+  "objectives": [
+    "Legere verba authentica initialia orationis In Catilinam I",
+    "Comparare textum authenticum cum narratione adaptata iam lecta in Gradu VI",
+    "Identificare figuras rhetoricas: interrogatio, anaphora, tricolon",
+    "Recognoscere cur haec oratio est inter opera Latina famosissima"
+  ],
+  "content": {
+    "intro": "In Gradū VI lēgistī nārrātiōnem ADAPTĀTAM dē coniūrātiōne Catilīnae. Nunc verba IPSA Cicerōnis lēgēs — eadem structūra rhētorica quam philologī studeant iam per bis mīlle annōs.",
+    "explanation": "<p>Haec ōrātiō, habita in senātū annō 63 a.C.n., cōram ipsō Catilīnā, est inter exempla clāssica māximē citāta rhētoricae occidentālis.</p>",
+    "rules": [
+      {
+        "heading": "Textus: In Catilinam I, Caput 1 (initium)",
+        "body": "<p class=\"reading-passage-inline\">Quo usque tandem abutere, Catilina, patientia nostra? quam diu etiam furor iste tuus nos eludet? quem ad finem sese effrenata iactabit audacia? Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae, nihil timor populi, nihil concursus bonorum omnium, nihil hic munitissimus habendi senatus locus, nihil horum ora voltusque moverunt? Patere tua consilia non sentis, constrictam iam horum omnium scientia teneri coniurationem tuam non vides? Quid proxima, quid superiore nocte egeris, ubi fueris, quos convocaveris, quid consilii ceperis, quem nostrum ignorare arbitraris? O tempora, o mores!</p><p><em>M. Tullius Cicero, In Catilinam I.1&ndash;2 (thelatinlibrary.com)</em></p>"
+      },
+      {
+        "heading": "Figurae Rhetoricae Identificatae",
+        "body": "<p><strong>Interrogatio rhetorica</strong> (repetita sex vicibus in hoc excerpto: nōn exspectāns respōnsum, sed accūsāns). <strong>Anaphora</strong>: 'nihil...nihil...nihil...nihil...nihil' (repetitio verbi initialis, quinquiēs, prō ēmphasī accumulātā). <strong>Tricolon</strong>: 'quid...egeris, ubi fueris, quōs convocāveris' (tria membra parallēla). <strong>Exclāmātiō</strong>: 'Ō tempora, ō mōrēs!' (vocātīvus emphaticus, sine verbō).</p>"
+      },
+      {
+        "heading": "Vocabularium et Notae",
+        "body": "<p><em>abūtor, -ī</em> (deponens + abl., 'to abuse/exploit'), <em>furor, -ōris</em> (m., madness), <em>effrēnātus, -a, -um</em> (unbridled), <em>audācia, -ae</em> (f., audacity/boldness), <em>praesidium, -ī</em> (n., guard), <em>vigilia, -ae</em> (f., watch/vigil), <em>vultus, -ūs</em> (m., face/expression), <em>patēre</em> ('to be evident/exposed' — impersonāle hīc), <em>cōnstrictus, -a, -um</em> (bound/constricted).</p>"
+      }
+    ],
+    "examples": [
+      "Quo usque tandem abutere, Catilina, patientia nostra? — interrogatio rhetorica initialis, celeberrima.",
+      "Nihilne te...nihil...nihil...moverunt? — anaphora quintuplex, accumulatio emphatica.",
+      "Quid proxima, quid superiore nocte egeris — interrogatio obliqua, coniunctivus.",
+      "O tempora, o mores! — exclamatio, vocativus emphaticus sine verbo.",
+      "Patere tua consilia non sentis — AcI implicitum: 'non sentis [tua consilia] patere'."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus tentat identificare unum 'punctum' logicum specificum in serie interrogationum, sicut quaestio genuina.",
+        "right": "Series interrogationum rhetoricarum functiona ut UNUM instrumentum accusationis cumulativae — effectus est emotionalis/persuasivus, non informativus.",
+        "why": "Rhetorica classica adhibet accumulationem (multae interrogationes/repetitiones) pro impacto psychologico, non pro genuina inquisitione."
+      },
+      {
+        "wrong": "'Abūtere' (secunda persona) interpretatur ut forma imperativa vel indicativa activa normalis.",
+        "right": "'Abūtere' est forma alternativa (arcaica/poetica-oratoria) pro 'abūteris' — secunda persona singularis praesentis indicativi, verbi deponentis abūtor.",
+        "why": "Latina Classica interdum permittit -re pro -ris in secunda persona singulari deponentium/passivorum, forma stilisticē marcata in oratoria."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vii-cic2-rc", "type": "reading-comprehension", "title": "Comprehensio: In Catilinam I",
+      "instructions": "Lege textum supra, deinde responde.",
+      "passage": "<p>Quo usque tandem abutere, Catilina, patientia nostra? quam diu etiam furor iste tuus nos eludet? Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae, nihil timor populi... moverunt? O tempora, o mores!</p>",
+      "items": [
+        { "id": "cic2-1", "prompt": "Quid Cicero Catilinae obicit in prima quaestione?", "options": ["eius pauperiem", "abusum patientiae senatus", "eius ignorantiam"], "answerIndex": 1, "explanation": "'abūtere...patientiā nostrā' = abuti patientia." },
+        { "id": "cic2-2", "prompt": "Quae verba sunt repetita quinquies in hoc excerpto (anaphora)?", "options": ["quid, quid", "nihil, nihil", "quo, quo"], "answerIndex": 1, "explanation": "'nihilne...nihil...nihil...nihil...nihil'." }
+      ]
+    },
+    {
+      "id": "vii-cic2-mc", "type": "multiple-choice", "title": "Figurae Rhetoricae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "cic2-3", "prompt": "'O tempora, o mores!' est exemplum:", "options": ["interrogationis", "exclamationis"], "answerIndex": 1, "explanation": "Vocativus emphaticus, sine verbo." },
+        { "id": "cic2-4", "prompt": "Repetitio quinquies verbi 'nihil' est exemplum:", "options": ["anaphorae", "hyperboli"], "answerIndex": 0, "explanation": "Repetitio verbi initialis in seriebus successivis." }
+      ]
+    }
+  ],
+  "summary": [
+    "In Catilinam I fuit habita a Cicerone in senatu, anno 63 a.C.n., coram ipso Catilina.",
+    "'Quo usque tandem...?' est inter aperturas orationum famosissimas totius historiae.",
+    "Figurae rhetoricae dominantes: interrogatio rhetorica, anaphora, tricolon, exclamatio.",
+    "Compara cum narratione adaptata Gradus VI: eadem historia, sed nunc verba authentica ipsius Ciceronis."
+  ],
+  "related": [
+    { "lessonId": "vii-caesar-de-bello-gallico", "label": "Caesar: De Bello Gallico" },
+    { "lessonId": "vii-ovidius-metamorphoses", "label": "Ovidius: Metamorphoses" }
+  ]
+}

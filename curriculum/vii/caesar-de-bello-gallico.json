@@ -1,0 +1,83 @@
+{
+  "id": "vii-caesar-de-bello-gallico",
+  "level": "VII",
+  "unit": "1",
+  "order": 2,
+  "skill": "lectio",
+  "strand": "auctores",
+  "title": "Caesar: De Bello Gallico",
+  "subtitle": "Gallia est omnis divisa in partes tres — prosa militaris, clara et praecisa.",
+  "prerequisites": ["vii-catullus-carmina-selecta"],
+  "objectives": [
+    "Legere excerptum authenticum, integrum, ex Commentariis de Bello Gallico",
+    "Analysare stilum Caesarianum: clarus, obiectivus, sine ornamento excessivo",
+    "Identificare structuram geographicam/ethnographicam typicam historiographiae antiquae",
+    "Comparare stilum Caesaris cum stilo poetico Catulli iam visto"
+  ],
+  "content": {
+    "intro": "Gaius Iulius Caesar (100–44 a.C.n.), praeter res bellicas et politicas, fuit scriptor eminentissimus prosae Latinae — stilus eius, clarus et sine ornamento, fuit exemplar pro generationibus discipulorum. Hoc excerptum, verbatim ex thelatinlibrary.com (cross-verificatum), est initium ipsius operis.",
+    "explanation": "<p>Caesar scrīpsit Commentāriōs suōs in tertiā persōnā (dē sē ipsō loquēns quasi dē aliō, 'Caesar' nōn 'ego'), tēchnica quae dat impressiōnem obiectīvitātis historicae.</p>",
+    "rules": [
+      {
+        "heading": "Textus: De Bello Gallico, Liber I, Caput 1",
+        "body": "<p class=\"reading-passage-inline\">Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime absunt, minimeque ad eos mercatores saepe commeant atque ea quae ad effeminandos animos pertinent important, proximique sunt Germanis, qui trans Rhenum incolunt, quibuscum continenter bellum gerunt.</p><p><em>C. Iulius Caesar, Commentarii de Bello Gallico 1.1.1&ndash;3 (thelatinlibrary.com)</em></p>"
+      },
+      {
+        "heading": "Vocabularium et Notae",
+        "body": "<p><em>incolō, -ere</em> (to inhabit), <em>īnstitūtum, -ī</em> (custom/institution), <em>flūmen, -inis</em> (n., river), <em>propter-eā quod</em> ('because', litt. 'on account of the fact that'), <em>cultus, -ūs</em> (m., civilization/refinement), <em>mercātor, -ōris</em> (m., merchant), <em>effēminō, -āre</em> (to make effeminate/weaken), <em>continenter</em> (continuously).</p>"
+      },
+      {
+        "heading": "Analysis Stilistica",
+        "body": "<p>Nōtā: (1) sententia prīma est dēfīnītiō geōgraphica simplex, verbum 'est' prope initium (nōn stilus poēticus Catullī, ubi verba ōrdinantur pro sonō/ēmphasī); (2) 'proptereā quod...continenter bellum gerunt' est ūna sententia longa, cum multīs clausulīs causālibus/relātīvīs concatenātīs — typicum Caesaris, quī praefert perīodōs longās sed logicē clārās.</p>"
+      }
+    ],
+    "examples": [
+      "Gallia est omnis divisa in partes tres — definitio geographica initialis, verbum prope initium sententiae.",
+      "Quarum unam incolunt Belgae — pronomen relativum (quarum), genetivus partitivus implicitus.",
+      "Hi omnes lingua, institutis, legibus inter se differunt — tres ablativi respectus, asyndeton (sine 'et').",
+      "Propterea quod...longissime absunt — clausula causalis explicita.",
+      "Quibuscum continenter bellum gerunt — pronomen relativum + cum (quibuscum), ablativus."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus applicat stilum poeticum (ordo liber, pro emphasi) ad prosam Caesarianam, exspectans variationem similem.",
+        "right": "Stilus Caesaris est praecīsus et logicus — ordo verborum reflectit plerumque structuram logicam clausularum, minus 'artem' poeticam.",
+        "why": "Differentia genera litteraria (historia militaris vs. poesis lyrica) exigunt strategias lectionis distinctas."
+      },
+      {
+        "wrong": "'Hi omnes lingua, institutis, legibus inter se differunt' — discipulus quaerit coniunctionem inter tres ablativos, non praesentem in textu.",
+        "right": "Asyndeton (tres ablativi iuxtapositi, sine 'et'): 'lingua, institutis, legibus' — effectus stilisticus de accumulatione.",
+        "why": "Absentia coniunctionis expectata est ipsa deliberata, non lacuna vel error."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vii-caes2-rc", "type": "reading-comprehension", "title": "Comprehensio: De Bello Gallico 1.1",
+      "instructions": "Lege textum supra, deinde responde.",
+      "passage": "<p>Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime absunt.</p>",
+      "items": [
+        { "id": "caes2-1", "prompt": "Secundum Caesarem, cur Belgae fortissimi sunt?", "options": ["quia maximi numero sunt", "quia a cultu provinciae longissime absunt", "quia divites sunt"], "answerIndex": 1, "explanation": "'proptereā quod a cultū atque hūmānitāte prōvinciae longissimē absunt'." },
+        { "id": "caes2-2", "prompt": "Quo nomine se ipsi appellant qui Latine 'Galli' vocantur?", "options": ["Belgae", "Celtae (lingua sua)", "Aquitani"], "answerIndex": 1, "explanation": "'quī ipsōrum linguā Celtae, nostrā Gallī appellantur'." }
+      ]
+    },
+    {
+      "id": "vii-caes2-mc", "type": "multiple-choice", "title": "Analysis: Stilus Caesarianus",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "caes2-3", "prompt": "Caesar scribit de se ipso in qua persona?", "options": ["prima persona ('ego')", "tertia persona ('Caesar')"], "answerIndex": 1, "explanation": "Technica narrativa distinctiva Commentariorum." },
+        { "id": "caes2-4", "prompt": "'Lingua, institutis, legibus' demonstrat figuram:", "options": ["anaphoram", "asyndeton (accumulatio sine coniunctione)"], "answerIndex": 1, "explanation": "Tres ablativi iuxtapositi, sine 'et'." }
+      ]
+    }
+  ],
+  "summary": [
+    "Caesar (100-44 a.C.n.) scripsit prosam militarem clarum, praecisum, in tertia persona.",
+    "'Gallia est omnis divisa in partes tres' est initium famosissimum totius litteraturae Latinae.",
+    "Asyndeton (accumulatio sine coniunctione) et clausulae causales concatenatae sunt characteristica Caesariana.",
+    "Textus est authenticus, verificatus contra thelatinlibrary.com."
+  ],
+  "related": [
+    { "lessonId": "vii-catullus-carmina-selecta", "label": "Catullus: Carmina Selecta" },
+    { "lessonId": "vii-cicero-in-catilinam", "label": "Cicero: In Catilinam" }
+  ]
+}

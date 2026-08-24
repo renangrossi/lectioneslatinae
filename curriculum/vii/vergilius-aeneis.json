@@ -1,0 +1,84 @@
+{
+  "id": "vii-vergilius-aeneis",
+  "level": "VII",
+  "unit": "1",
+  "order": 5,
+  "skill": "lectio",
+  "strand": "auctores",
+  "title": "Vergilius: Aeneis",
+  "subtitle": "Arma virumque cano — versus notissimus, integer et non adaptatus.",
+  "prerequisites": ["vii-ovidius-metamorphoses"],
+  "objectives": [
+    "Legere versus initiales Aeneidos, cum macronibus authenticis",
+    "Comprehendere propositum epicum: virum, fatum, originem Romae",
+    "Identificare structuram proemii epici (invocatio, argumentum, causa irae)",
+    "Recitare de memoria primum versum, versus celeberrimus totius litteraturae Latinae"
+  ],
+  "content": {
+    "intro": "Publius Vergilius Maro (70–19 a.C.n.) scripsit Aeneida, epos nationale Romanum, narrans iter Aeneae ā Troiā dēlētā usque ad Ītaliam, ubi orīgō gentis Rōmānae iacit. Prīmus versus ('Arma virumque canō') est probābiliter versus sōlus notissimus tōtīus litterāturae Latīnae.",
+    "explanation": "<p>Hī septem versūs continent tōtum PROOEMIUM epicum classicum: (1) argūmentum ('arma virumque'), (2) itinerārium ('Trōiae...Lāvīnia lītora'), (3) causa doloris ('saevae memorem Iūnōnis ob īram'), (4) invocātiō Mūsae ('Mūsa, mihī causās memorā').</p>",
+    "rules": [
+      {
+        "heading": "Textus: Aeneis I.1&ndash;7 (cum macronibus authenticis)",
+        "body": "<p class=\"reading-passage-inline\">Arma virumque canō, Trōiae quī prīmus ab ōrīs<br>Ītaliam, fātō profugus, Lāvīniaque vēnit<br>lītora, multum ille et terrīs iactātus et altō<br>vī superum saevae memorem Iūnōnis ob īram;<br>multa quoque et bellō passus, dum conderet urbem,<br>inferretque deōs Latiō, genus unde Latīnum,<br>Albānīque patrēs, atque altae moenia Rōmae.</p><p><em>P. Vergilius Maro, Aeneis 1.1&ndash;7 (thelatinlibrary.com, editio cum macronibus)</em></p>"
+      },
+      {
+        "heading": "Analysis Syntactica",
+        "body": "<p>'Canō' regit duo obiecta: 'arma' et 'virum' ('I sing of arms and the man'). 'Quī prīmus...vēnit' est clausula relātīva dēscrībēns 'virum' (Aenēam, numquam nōminātum in hīs versibus — lēctor dēbet iam nōsse mythum). 'Multum...iactātus' — participium perfectum passīvum, concordāns cum 'ille' (Aenēas), 'multum' hīc adverbiāliter ('greatly'). 'Dum conderet' — cum + coniūnctīvus (temporāle, actiō antīcipāta).</p>"
+      },
+      {
+        "heading": "Vocabularium et Notae",
+        "body": "<p><em>profugus, -a, -um</em> (fugitive, exiled), <em>iactō, -āre</em> (to toss/buffet), <em>superī, -ōrum</em> (m. pl., 'those above' = the gods), <em>memor, -oris</em> (mindful, hic 'unforgetting/persistent' dē īrā), <em>condō, -ere</em> (to found), <em>moenia, -ium</em> (n. pl., city walls — plūrāle tantum).</p>"
+      }
+    ],
+    "examples": [
+      "Arma virumque cano — versus primus, obiecta ante verbum, thema geminum (bellum + heros).",
+      "Fato profugus — ablativus causae/instrumenti: 'exiled by fate'.",
+      "Multum ille et terris iactatus et alto — hyperbaton, 'ille' separatum a participio 'iactatus'.",
+      "Saevae memorem Iunonis ob iram — hyperbaton extremum: 'ob iram' (praepositio) separata longe ab obiecto 'saevae...Iunonis'.",
+      "Dum conderet urbem — cum historicum/anticipatorium implicitum per 'dum' + coniunctivus."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus quaerit nomen 'Aeneas' explicite in his septem versibus, non inveniens id, et confunditur.",
+        "right": "Vergilius numquam nominat Aeneam directe in proemio — 'virum' et 'ille' sufficiunt, quia lector Romanus iam sciebat mythum.",
+        "why": "Poesis epica saepe praesumit scientiam culturalem communem inter auctorem et lectores originales."
+      },
+      {
+        "wrong": "Hyperbaton extremum (verba grammaticē coniuncta longē separata) tractatur ut error vel confusio in ordine.",
+        "right": "Separatio deliberata ('saevae...Iūnōnis', 'ille...iactātus') creat suspensionem et emphasim, technica poetica provecta.",
+        "why": "Metrum hexametricum et effectus stilisticus ambo motivant hanc libertatem ordinis, absente in prosa simplici."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vii-verg-rc", "type": "reading-comprehension", "title": "Comprehensio: Aeneis 1.1-7",
+      "instructions": "Lege textum supra, deinde responde.",
+      "passage": "<p>Arma virumque canō, Trōiae quī prīmus ab ōrīs<br>Ītaliam, fātō profugus, Lāvīniaque vēnit<br>lītora, multum ille et terrīs iactātus et altō<br>vī superum saevae memorem Iūnōnis ob īram.</p>",
+      "items": [
+        { "id": "verg1", "prompt": "Quae duo sunt argumenta ('res') quae poeta canere vult?", "options": ["deos et homines", "arma et virum (bellum et heroem)", "Troiam et Romam"], "answerIndex": 1, "explanation": "'arma virumque canō' — obiecta gemina." },
+        { "id": "verg2", "prompt": "Unde venit vir de quo poeta canit?", "options": ["Roma", "Troia", "Graecia"], "answerIndex": 1, "explanation": "'Trōiae quī prīmus ab ōrīs...vēnit'." },
+        { "id": "verg3", "prompt": "Cuius dei/deae ira causa multorum malorum viri fuit?", "options": ["Iovis", "Iunonis", "Neptuni"], "answerIndex": 1, "explanation": "'saevae memorem Iūnōnis ob īram'." }
+      ]
+    },
+    {
+      "id": "vii-verg-mc", "type": "multiple-choice", "title": "Analysis Poetica",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "verg4", "prompt": "Cur Aeneas non nominatur explicite in his septem versibus?", "options": ["error scriptorius", "poeta praesumit lectorem iam mythum nosse"], "answerIndex": 1, "explanation": "Convenio litteraria epica classica." },
+        { "id": "verg5", "prompt": "'Saevae memorem Iūnōnis ob īram' demonstrat:", "options": ["ordinem verborum simplicem", "hyperbaton (separatio extrema verborum coniunctorum)"], "answerIndex": 1, "explanation": "'ob īram' separatum longe ab 'saevae...Iūnōnis'." }
+      ]
+    }
+  ],
+  "summary": [
+    "Vergilius (70-19 a.C.n.) scripsit Aeneida, epos nationale Romanum.",
+    "'Arma virumque canō' est versus notissimus totius litteraturae Latinae.",
+    "Prooemium epicum classicum: argumentum, itinerarium, causa doloris, invocatio Musae.",
+    "Hyperbaton extremum est technica distinctiva stili Vergiliani, motivata per metrum et emphasim."
+  ],
+  "related": [
+    { "lessonId": "vii-ovidius-metamorphoses", "label": "Ovidius: Metamorphoses" },
+    { "lessonId": "vii-sallustius-bellum-catilinae", "label": "Sallustius: Bellum Catilinae" }
+  ]
+}

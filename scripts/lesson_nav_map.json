@@ -416,5 +416,56 @@
       "ty": "recognitio-syntaxis-integra"
     }
   ],
-  "auctores": []
+  "auctores": [
+    {
+      "slug": "catullus-carmina-selecta",
+      "title": "Catullus: Carmina Selecta",
+      "ty": "catullus-carmina-selecta"
+    },
+    {
+      "slug": "caesar-de-bello-gallico",
+      "title": "Caesar: De Bello Gallico",
+      "ty": "caesar-de-bello-gallico"
+    },
+    {
+      "slug": "cicero-in-catilinam",
+      "title": "Cicero: In Catilinam",
+      "ty": "cicero-in-catilinam"
+    },
+    {
+      "slug": "ovidius-metamorphoses",
+      "title": "Ovidius: Metamorphoses",
+      "ty": "ovidius-metamorphoses"
+    },
+    {
+      "slug": "vergilius-aeneis",
+      "title": "Vergilius: Aeneis",
+      "ty": "vergilius-aeneis"
+    },
+    {
+      "slug": "sallustius-bellum-catilinae",
+      "title": "Sallustius: Bellum Catilinae",
+      "ty": "sallustius-bellum-catilinae"
+    },
+    {
+      "slug": "prosodia-et-metrum",
+      "title": "Prosodia et Metrum",
+      "ty": "prosodia-et-metrum"
+    },
+    {
+      "slug": "rhetorica-ciceroniana",
+      "title": "Rhetorica Ciceroniana: Figurae",
+      "ty": "rhetorica-ciceroniana"
+    },
+    {
+      "slug": "cicero-de-amicitia",
+      "title": "Cicero: De Amicitia",
+      "ty": "cicero-de-amicitia"
+    },
+    {
+      "slug": "recognitio-finalis",
+      "title": "Recognitio Finalis: Lectio Libera",
+      "ty": "recognitio-finalis"
+    }
+  ]
 }

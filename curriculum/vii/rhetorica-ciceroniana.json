@@ -1,0 +1,100 @@
+{
+  "id": "vii-rhetorica-ciceroniana",
+  "level": "VII",
+  "unit": "1",
+  "order": 8,
+  "skill": "lectio",
+  "strand": "auctores",
+  "title": "Rhetorica Ciceroniana: Figurae",
+  "subtitle": "Anaphora, tricolon, chiasmus, climax — nomina Latina pro artibus persuadendi.",
+  "prerequisites": ["vii-prosodia-et-metrum"],
+  "objectives": [
+    "Nominare et definire sex figuras rhetoricas frequentes in prosa classica",
+    "Identificare has figuras in textibus iam lectis (Cicero, Sallustius, Vergilius)",
+    "Comprehendere propositum persuasivum/stilisticum cuiusque figurae",
+    "Applicare vocabularium technicum rhetoricae in analysi textus novi"
+  ],
+  "content": {
+    "intro": "Cicerō nōn sōlum ōrāvit, sed etiam scrīpsit tractātūs dē rhētoricā ipsā (Dē Ōrātōre, Brūtus). Hodiē nōmina technica figūrārum quās iam vīdistī (sine nōmināre eās explicitē) discis, ut textūs futūrōs analysāre possīs professiōnāliter.",
+    "explanation": "<p>Figūra rhētorica est structūra verbōrum dēlīberāta, adhibita nōn prō necessitāte grammaticā, sed prō effectū persuāsīvō vel aesthēticō.</p>",
+    "rules": [
+      {
+        "heading": "a) Anaphora",
+        "body": "<p>Repetītiō verbī initiālis in clausulīs sequentibus: <em>nihil...nihil...nihil...nihil...nihil</em> (Cicerō, In Catilīnam I, iam vīsum). Effectus: accumulātiō ēmphatica.</p>"
+      },
+      {
+        "heading": "b) Tricolon",
+        "body": "<p>Trēs elementa parallēla in sēriē: <em>quid...ēgeris, ubi fuerīs, quōs convocāverīs</em> (Cicerō). Effectus: rhythmus et complētūdō.</p>"
+      },
+      {
+        "heading": "c) Chiasmus",
+        "body": "<p>Ōrdō verbōrum in patrōne A-B-B-A (crucifōrmis): <em>animī imperiō, corporis servitiō</em> (Sallustius — imperium/servitium invertunt ōrdinem respectū animī/corporis). Effectus: ēlegantia, balanceāta antithesis.</p>"
+      },
+      {
+        "heading": "d) Asyndeton",
+        "body": "<p>Absentia coniunctiōnis expectātae inter elementa parallēla: <em>lingua, īnstitūtīs, lēgibus</em> (Caesar). Effectus: vēlōcitās, accumulātiō.</p>"
+      },
+      {
+        "heading": "e) Hyperbaton",
+        "body": "<p>Sēparātiō dēlīberāta verbōrum grammaticē coniūnctōrum: <em>saevae memorem Iūnōnis ob īram</em> (Vergilius). Effectus: suspēnsiō, ēmphasis.</p>"
+      },
+      {
+        "heading": "f) Climax (Gradatio)",
+        "body": "<p>Sēriēs verbōrum crēscentium in intēnsitāte: exemplum classicum (Cicerō, In Verrem II.5.170, verificātum verbātim): <em>Facinus est vincīre cīvem Rōmānum, scelus verberāre, prope parricīdium necāre.</em> ('It is a crime to bind a Roman citizen, a wickedness to flog him, almost a parricide to kill him.') Effectus: intēnsificātiō prōgressīva.</p>"
+      }
+    ],
+    "examples": [
+      "Nihil...nihil...nihil (Cicero) — anaphora.",
+      "Quid egeris, ubi fueris, quos convocaveris (Cicero) — tricolon.",
+      "Animi imperio, corporis servitio (Sallustius) — chiasmus.",
+      "Lingua, institutis, legibus (Caesar) — asyndeton.",
+      "Saevae memorem Iunonis ob iram (Vergilius) — hyperbaton."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus identificat figuram sine explicare propositum eius stilisticum/persuasivum.",
+        "right": "Identificatio figurae debet accompaniari analysi FUNCTIONIS: cur auctor elegit hanc structuram in hoc loco specifico?",
+        "why": "Nomen technicum sine comprehensione functionali est memoria vacua, non analysis vera."
+      },
+      {
+        "wrong": "Chiasmus confunditur cum simplici inversione ordinis, sine patrone A-B-B-A specifico.",
+        "right": "Chiasmus requirit SPECIFICE patronum crucem: duo paria elementorum, secundum par in ordine inverso respectu primi.",
+        "why": "Definitio technica praecisa distinguit chiasmum ab aliis formis variationis ordinis verborum."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vii-rhet-mc", "type": "multiple-choice", "title": "Figurae Rhetoricae: Recognitio",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "rhet1", "prompt": "'Nihil...nihil...nihil' est exemplum:", "options": ["anaphorae", "chiasmi"], "answerIndex": 0, "explanation": "Repetitio verbi initialis." },
+        { "id": "rhet2", "prompt": "'Animi imperio, corporis servitio' est exemplum:", "options": ["asyndeti", "chiasmi (patronus A-B-B-A)"], "answerIndex": 1, "explanation": "Animus/imperium, corpus/servitium: ordo invertitur." },
+        { "id": "rhet3", "prompt": "'Lingua, institutis, legibus' (sine 'et') est exemplum:", "options": ["asyndeti", "climacis"], "answerIndex": 0, "explanation": "Absentia coniunctionis expectatae." },
+        { "id": "rhet4", "prompt": "Climax (gradatio) exprimit:", "options": ["repetitionem simplicem", "seriem crescentem in intensitate"], "answerIndex": 1, "explanation": "Progressio: facinus → scelus → parricidium." }
+      ]
+    },
+    {
+      "id": "vii-rhet-match", "type": "matching", "title": "Iunge Exemplum cum Figura",
+      "instructions": "Iunge quodque exemplum textus iam lecti cum figura sua.",
+      "items": [
+        { "id": "rhet5", "pairs": [
+          { "left": "quid egeris, ubi fueris, quos convocaveris", "right": "tricolon" },
+          { "left": "saevae memorem Iunonis ob iram", "right": "hyperbaton" },
+          { "left": "nihil...nihil...nihil", "right": "anaphora" },
+          { "left": "lingua, institutis, legibus", "right": "asyndeton" }
+        ], "explanation": "Recognitio integra figurarum in textibus authenticis iam lectis." }
+      ]
+    }
+  ],
+  "summary": [
+    "Anaphora: repetitio verbi initialis. Tricolon: tres elementa parallela.",
+    "Chiasmus: patronus A-B-B-A. Asyndeton: absentia coniunctionis expectatae.",
+    "Hyperbaton: separatio deliberata verborum coniunctorum. Climax: series crescens.",
+    "Omnes hae figurae iam visae sunt in textibus Caesaris, Ciceronis, Sallustii, et Vergilii lectis."
+  ],
+  "related": [
+    { "lessonId": "vii-prosodia-et-metrum", "label": "Prosodia et Metrum" },
+    { "lessonId": "vii-cicero-de-amicitia", "label": "Cicero: De Amicitia" }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "vii-prosodia-et-metrum",
+  "level": "VII",
+  "unit": "1",
+  "order": 7,
+  "skill": "pronuntiatio",
+  "strand": "auctores",
+  "title": "Prosodia et Metrum",
+  "subtitle": "Hexameter dactylicus: sex pedes, dactylus et spondeus, cum elisione.",
+  "prerequisites": ["vii-sallustius-bellum-catilinae"],
+  "objectives": [
+    "Definire dactylum et spondeum secundum quantitatem syllabarum",
+    "Scandere versum hexametricum simplicem, identificando sex pedes",
+    "Applicare regulam elisionis inter verba",
+    "Applicare has regulas ad versus Vergilianos et Ovidianos iam lectos"
+  ],
+  "content": {
+    "intro": "Poesis Latina classica non rimatur (Anglicē 'rhyme'), sed sequitur METRUM QUANTITATIVUM — patronum fixum syllabarum longarum et brevium. Hexameter dactylicus, metrum epicum (Vergilius, Ovidius), est fundamentum omnis poesis maioris.",
+    "explanation": "<p>Recorda ex Gradū I: syllaba est gravis (longa) sī vōcālem longam/diphthongum habet, AUT sī clauditur cōnsonante. Metrum aedificātur super hanc distīnctiōnem, applicātam systēmaticē per tōtum versum.</p>",
+    "rules": [
+      {
+        "heading": "a) Dactylus et Spondeus",
+        "body": "<p><strong>Dactylus</strong>: ūna syllaba longa + duae breves (— ⏑ ⏑), ut in verbō 'ārma'. <strong>Spondēus</strong>: duae syllabae longae (— —), ut in verbō 'Rōmae'. Hexameter dactylicus habet SEX pedēs: pedēs 1&ndash;4 possunt esse dactylus VEL spondēus (variābile); pēs 5 est fere semper dactylus; pēs 6 semper duae syllabae (spondēus vel trochaeus).</p>"
+      },
+      {
+        "heading": "b) Exemplum Scansum: Aeneis 1.1",
+        "body": "<p><strong>Ārma vi|rumque ca|nō, Trō|iae quī | prīmus ab | ōrīs</strong><br>Pēs 1: dactylus (Ārma vi) — Pēs 2: dactylus (rumque ca) — Pēs 3: spondēus (nō, Trō) — Pēs 4: spondēus (iae quī) — Pēs 5: dactylus (prīmus ab) — Pēs 6: spondēus (ōrīs, duae syllabae).</p>"
+      },
+      {
+        "heading": "c) Elisio",
+        "body": "<p>Sī verbum dēsinit in vōcālem (vel vōcālem + m) et sequēns verbum incipit in vōcālem, prīma vōcālis (vel -um) NŌN pronūntiātur (ēliditur) in scānsiōne: <strong>mult(um) ille</strong> (Aeneis 1.3, 'multum ille' → duae syllabae tantum, nōn trēs, prō metrō). Elisiō est frequentissima causa cōnfūsiōnis discipulōrum novōrum in scānsiōne.</p>"
+      },
+      {
+        "heading": "d) Caesura",
+        "body": "<p><strong>Caesūra</strong> est pausa nātūrālis intrā pedem (nōn inter pedēs), ubi verbum fīnītur intrā ūnum pedem: locus frequentissimus est in pede tertiō ('caesūra penthēmimeris'). Auxilium ad legendum versum cum ritmō corretō, nōn mera pausa mechanica inter pedēs.</p>"
+      }
+    ],
+    "examples": [
+      "Arma virumque cano — dactylus, dactylus (initium typicum versus epici).",
+      "Multum ille et terris iactatus et alto — elisio: 'mult(um) ille'.",
+      "In nova fert animus mutatas dicere formas — versus Ovidianus, eodem metro.",
+      "Omnia vincit amor — clausula frequens (finis versus), cum spondeo finali.",
+      "Tityre, tu patulae recubans sub tegmine fagi — primus versus Eclogarum Vergilii, alius exemplum hexametri."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus tentat scandere secundum accentum verbi (ut in prosa/lectione normali), non secundum quantitatem syllabarum.",
+        "right": "Metrum est constructum secundum QUANTITATEM (longa/brevis), non accentum tonicum — duo systemata distincta, quamvis interdum coincidant.",
+        "why": "Confusio inter accentum et quantitatem est error fundamentalis discipulorum novorum poesis Latinae."
+      },
+      {
+        "wrong": "Elisio ignoratur, et syllaba elisa pronuntiatur completē, mutans numerum syllabarum versus.",
+        "right": "Vocalis (vel -um) ante verbum sequens incipiens vocali NON pronuntiatur in metro — numerus syllabarum versus semper manet consistens (fere semper 12-17 syllabae in hexametro, secundum combinationem dactylorum/spondeorum).",
+        "why": "Sine applicare elisionem correcte, versus non 'scandit' (non fit hexameter regularis)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vii-metr-mc", "type": "multiple-choice", "title": "Prosodia et Metrum: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "metr1", "prompt": "Dactylus consistit ex:", "options": ["duabus syllabis longis", "una syllaba longa et duabus brevibus"], "answerIndex": 1, "explanation": "— ⏑ ⏑" },
+        { "id": "metr2", "prompt": "Hexameter dactylicus habet quot pedes?", "options": ["quattuor", "quinque", "sex"], "answerIndex": 2, "explanation": "Sex pedes, unde 'hexameter'." },
+        { "id": "metr3", "prompt": "Pes sextus (ultimus) hexametri habet semper:", "options": ["tres syllabas", "duas syllabas", "unam syllabam"], "answerIndex": 1, "explanation": "Spondeus vel trochaeus, semper duae syllabae." },
+        { "id": "metr4", "prompt": "'Mult(um) ille' demonstrat:", "options": ["synizesim", "elisionem"], "answerIndex": 1, "explanation": "Vocalis ante vocalem sequentem non pronuntiatur." }
+      ]
+    },
+    {
+      "id": "vii-metr-fill", "type": "fill-blank", "title": "Applica Regulas Metricas",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "metr5", "prompt": "Metrum quantitativum sequitur ___, non accentum tonicum. (quantity — quantitatem)", "options": ["accentum", "quantitatem", "numerum verborum"], "answers": ["quantitatem"], "explanation": "Fundamentum metri classici." },
+        { "id": "metr6", "prompt": "Pes quintus hexametri est fere semper ___. (dactylus)", "options": ["spondeus", "dactylus", "trochaeus"], "answers": ["dactylus"], "explanation": "Regula standard hexametri classici." }
+      ]
+    }
+  ],
+  "summary": [
+    "Dactylus (— ⏑ ⏑) et spondēus (— —): duo pedes fundamentales hexametri.",
+    "Sex pedes per versum; pes 5 fere semper dactylus; pes 6 semper duae syllabae.",
+    "Elisio: vocalis (vel -um) finalis ante verbum sequens incipiens vocali non pronuntiatur.",
+    "Caesura: pausa naturalis intra pedem, frequentissime in pede tertio."
+  ],
+  "related": [
+    { "lessonId": "vii-sallustius-bellum-catilinae", "label": "Sallustius: Bellum Catilinae" },
+    { "lessonId": "vii-rhetorica-ciceroniana", "label": "Rhetorica Ciceroniana" }
+  ]
+}

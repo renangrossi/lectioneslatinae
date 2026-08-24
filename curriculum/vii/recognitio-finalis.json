@@ -1,0 +1,88 @@
+{
+  "id": "vii-recognitio-finalis",
+  "level": "VII",
+  "unit": "1",
+  "order": 10,
+  "skill": "lectio",
+  "strand": "recognitio",
+  "title": "Recognitio Finalis: Lectio Libera",
+  "subtitle": "Seneca, Epistulae Morales 1.1 — ultimus textus novus, sine ullo auxilio adaptationis.",
+  "prerequisites": ["vii-cicero-de-amicitia"],
+  "objectives": [
+    "Legere textum authenticum novum (Seneca) sine glossario extenso, applicando omnem scientiam collectam",
+    "Recolere septem auctores lecti per totum Gradum VII",
+    "Reflectere de itinere toto: a pronuntiatione Gradus I ad auctores non adaptatos Gradus VII",
+    "Identificare proximos passus pro continuatione studiorum post hunc cursum"
+  ],
+  "content": {
+    "intro": "Pervenisti ad finem! Ab alphabetō et prīmīs salūtātiōnibus Gradūs I usque hūc, ubi verba Senecae philosophī legis sine ūllā adaptātiōne — hoc est testimōnium itineris tuī. Lūcius Annaeus Seneca (c. 4 a.C.n. – 65 p.C.n.), philosophus stōicus et praeceptor Nerōnis imperātōris, scrīpsit Epistulās Mōrālēs ad Lūcīlium, tractātūs philosophicōs in fōrmā epistulārum.",
+    "explanation": "<p>Nūllum glōssārium extēnsum hīc — sōlum notae minimae. Tū iam habēs īnstrūmenta necessāria: grammaticam complētam (Gradūs I&ndash;V), syntaxim prōvectam (Gradus VI), et experientiam quīnque auctōrum classicōrum (Gradus VII).</p>",
+    "rules": [
+      {
+        "heading": "Textus: Epistulae Morales ad Lucilium, I.1 (initium)",
+        "body": "<p class=\"reading-passage-inline\">Ita fac, mi Lucili: vindica te tibi, et tempus quod adhuc aut auferebatur aut subripiebatur aut excidebat collige et serva. Persuade tibi hoc sic esse ut scribo: quaedam tempora eripiuntur nobis, quaedam subducuntur, quaedam effluunt. Turpissima tamen est iactura quae per neglegentiam fit. Et si volueris attendere, magna pars vitae elabitur male agentibus, maxima nihil agentibus, tota vita aliud agentibus.</p><p><em>L. Annaeus Seneca, Epistulae Morales ad Lucilium 1.1&ndash;2 (thelatinlibrary.com)</em></p>"
+      },
+      {
+        "heading": "Notae Minimae (Solum Verba Vere Nova)",
+        "body": "<p><em>vindicō, -āre</em> (hic: to claim/reclaim), <em>subripiō, -ere</em> (to steal away), <em>ēlābor, -ī</em> (deponens: to slip away), <em>iactūra, -ae</em> (f., loss), <em>neglegentia, -ae</em> (f., negligence).</p>"
+      },
+      {
+        "heading": "Recognitio: Septem Auctores, Unum Iter",
+        "body": "<p><strong>Catullus</strong> (poesis lyrica intensa), <strong>Caesar</strong> (prosa historica clara), <strong>Cicero</strong> (rhetorica et philosophia), <strong>Ovidius</strong> (epos mythologicum), <strong>Vergilius</strong> (epos nationale), <strong>Sallustius</strong> (historiographia philosophica), <strong>Seneca</strong> (philosophia stoica) — septem vōcēs distinctae, ūna lingua, ūnum tuum iter.</p>"
+      }
+    ],
+    "examples": [
+      "Vindica te tibi — imperativus + dativus reflexivus, idioma stoicum ('claim yourself for yourself').",
+      "Tempus...aut auferebatur aut subripiebatur aut excidebat — tria verba paene synonyma, gradatio subtilis.",
+      "Turpissima...est iactura quae per neglegentiam fit — superlativus + clausula relativa.",
+      "Magna pars...maxima...tota vita — climax (gradatio): magna, maxima, tota.",
+      "Male agentibus, nihil agentibus, aliud agentibus — tricolon cum participiis, variatio in unitate."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus, coram textu sine glossario extenso, cessat legere ubi verbum unum ignotum occurrit.",
+        "right": "Continua legere per contextum; vocabulum unicum ignotum raro impedit comprehensionem generalem periodi totius.",
+        "why": "Post quinque gradus et dimidium, capacitas inferendi sensum ex contextu est iam instrumentum validum tuum."
+      },
+      {
+        "wrong": "Discipulus tractat hunc cursum ut finem studiorum, non ut fundamentum.",
+        "right": "Gradus VII est initium lectionis liberae authenticae — perge ad textus integros (non excerpta), alios auctores (Livius, Tacitus, Horatius), et lexica completa (Lewis & Short, via Logeion).",
+        "why": "Latinitas Classica est oceanus; hic cursus tibi dedit navem et remos, non finem itineris."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vii-fin-rc", "type": "reading-comprehension", "title": "Comprehensio: Seneca, Epistula 1",
+      "instructions": "Lege textum supra, deinde responde, sine glossario extenso.",
+      "passage": "<p>Ita fac, mi Lucili: vindica te tibi, et tempus quod adhuc aut auferebatur aut subripiebatur aut excidebat collige et serva. Turpissima tamen est iactura quae per neglegentiam fit. Magna pars vitae elabitur male agentibus, maxima nihil agentibus, tota vita aliud agentibus.</p>",
+      "items": [
+        { "id": "fin1", "prompt": "Quid Seneca Lucilium facere hortatur?", "options": ["ut pecuniam colligat", "ut tempus suum sibi vindicet et servet", "ut Romam veniat"], "answerIndex": 1, "explanation": "'vindica te tibi... tempus... collige et serva'." },
+        { "id": "fin2", "prompt": "Quae iactura (perditio) est 'turpissima', secundum Senecam?", "options": ["iactura pecuniae", "iactura quae per neglegentiam fit", "iactura amicorum"], "answerIndex": 1, "explanation": "'Turpissima...est iactura quae per neglegentiam fit'." },
+        { "id": "fin3", "prompt": "Secundum climacem finalem, quanta pars vitae peribit hominibus qui aliud semper agunt?", "options": ["parva pars", "magna pars", "tota vita"], "answerIndex": 2, "explanation": "'magna pars...maxima...tota vita aliud agentibus' — climax." }
+      ]
+    },
+    {
+      "id": "vii-fin-match", "type": "matching", "title": "Recognitio: Septem Auctores",
+      "instructions": "Iunge quemque auctorem cum genere litterario suo.",
+      "items": [
+        { "id": "fin4", "pairs": [
+          { "left": "Catullus", "right": "poesis lyrica" },
+          { "left": "Caesar", "right": "prosa historica militaris" },
+          { "left": "Vergilius", "right": "epos nationale" },
+          { "left": "Ovidius", "right": "epos mythologicum" },
+          { "left": "Seneca", "right": "philosophia stoica (epistulae)" }
+        ], "explanation": "Septem auctores, septem genera, unum cursum completum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Seneca (c. 4 a.C.n. - 65 p.C.n.): philosophus stoicus, Epistulae Morales ad Lucilium.",
+    "'Vindica te tibi' — claim yourself for yourself: tempus est unica res vere nostra.",
+    "Per septem Gradus, ab alphabeto ad auctores authenticos non adaptatos, iter tuum est completum.",
+    "CONGRATULATIONES — Lectiones Latinas complevisti! Perge legere, perge discere: Latinitas est aeterna, et nunc est tua."
+  ],
+  "related": [
+    { "lessonId": "vii-cicero-de-amicitia", "label": "Cicero: De Amicitia" }
+  ]
+}

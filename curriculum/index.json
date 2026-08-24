@@ -393,43 +393,43 @@
           "lessons": [
             {
               "id": "vii-catullus-carmina-selecta",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vii-caesar-de-bello-gallico",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vii-cicero-in-catilinam",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vii-ovidius-metamorphoses",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vii-vergilius-aeneis",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vii-sallustius-bellum-catilinae",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vii-prosodia-et-metrum",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vii-rhetorica-ciceroniana",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vii-cicero-de-amicitia",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vii-recognitio-finalis",
-              "status": "planned"
+              "status": "published"
             }
           ]
         }

@@ -1,0 +1,84 @@
+{
+  "id": "vii-cicero-de-amicitia",
+  "level": "VII",
+  "unit": "1",
+  "order": 9,
+  "skill": "lectio",
+  "strand": "auctores",
+  "title": "Cicero: De Amicitia",
+  "subtitle": "Q. Mucius augur multa narrare de C. Laelio solebat — Cicero philosophus, non orator.",
+  "prerequisites": ["vii-rhetorica-ciceroniana"],
+  "objectives": [
+    "Legere initium authenticum dialogi philosophici Ciceroniani",
+    "Comparare Ciceronem philosophum (De Amicitia) cum Cicerone oratore (In Catilinam)",
+    "Identificare structuram narrativam-in-narrativa (Cicero narrat quod Scaevola narrabat)",
+    "Cognoscere personas historicas mentionatas (Laelius, Scaevola)"
+  ],
+  "content": {
+    "intro": "Praeter ōrātiōnēs pūblicās, Cicerō scrīpsit tractātūs philosophicōs in fōrmā dialogī, imitāns Platōnem. Dē Amīcitiā, scrīptus post mortem fīliae suae Tulliae, explōrat nātūram vērae amīcitiae per persōnam Gāiī Laeliī, philosophī et amīcī Scīpiōnis Āfricānī Minōris.",
+    "explanation": "<p>Structūra initiālis est complexa: Cicerō (auctor) nārrat quod Q. Mūcius Scaevola (persōna in dialogō) solēbat nārrāre dē C. Laeliō (alia persōna, iam mortua tempore scrīptiōnis) — nārrātiō intrā nārrātiōne, tēchnica classica dialogōrum philosophicōrum.</p>",
+    "rules": [
+      {
+        "heading": "Textus: De Amicitia, Caput 1 (initium)",
+        "body": "<p class=\"reading-passage-inline\">Q. Mucius augur multa narrare de C. Laelio socero suo memoriter et iucunde solebat nec dubitare illum in omni sermone appellare sapientem; ego autem a patre ita eram deductus ad Scaevolam sumpta virili toga, ut, quoad possem et liceret, a senis latere numquam discederem; itaque multa ab eo prudenter disputata, multa etiam breviter et commode dicta memoriae mandabam fierique studebam eius prudentia doctior.</p><p><em>M. Tullius Cicero, De Amicitia 1.1 (thelatinlibrary.com)</em></p>"
+      },
+      {
+        "heading": "Vocabularium et Notae",
+        "body": "<p><em>augur, -uris</em> (m., augur, a priest who interpreted omens), <em>socer, -erī</em> (m., father-in-law), <em>memoriter</em> (from memory), <em>iūcundē</em> (pleasantly), <em>sapiēns, -entis</em> (wise [man], hic ut titulus honorificus), <em>toga virīlis</em> (the 'toga of manhood', assumed at approximately age 16), <em>latus, -eris</em> (n., side — 'ā latere' = 'at the side of'), <em>disputō, -āre</em> (to discuss/debate), <em>commodē</em> (fittingly/aptly), <em>mandāre memoriae</em> ('to commit to memory', idiōma).</p>"
+      },
+      {
+        "heading": "Contextus Historicus",
+        "body": "<p><strong>Gāius Laelius</strong> (c. 190–after 129 a.C.n.), cōnsul et philosophus, amīcus intimus Scīpiōnis Āfricānī Minōris — persōna prīncipālis huius dialogī. <strong>Quīntus Mūcius Scaevola</strong>, augur et iūrisperītus, gener (son-in-law) Laeliī, ā quō Cicerō ipse, adulēscēns, multa didicit — Cicerō ipse fuit discipulus Scaevolae, ut hic passus nārrat.</p>"
+      }
+    ],
+    "examples": [
+      "Q. Mucius augur multa narrare...solebat — imperfectum implicitum per 'solebat' + infinitivum.",
+      "Ego autem a patre ita eram deductus — plusquamperfectum passivum, actio prior narrationi.",
+      "Sumpta virili toga — ablativus absolutus, indicans momentum vitae (transitus ad aetatem adultam).",
+      "Ut...numquam discederem — clausula consecutiva/finalis (ut + coniunctivus).",
+      "Fierique studebam eius prudentia doctior — studeo + infinitivum, comparativus (doctior)."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus confundit personas (Cicero, Scaevola, Laelius), perdens filum narrationis.",
+        "right": "Cicero (auctor) narrat de se ipso adulescente, qui audiebat Scaevolam (senem), qui narrabat de Laelio (iam mortuo) — tres gradus temporales/narrativi.",
+        "why": "Dialogi philosophici Ciceroniani frequenter usant hanc structuram 'narratio intra narratione' — clarificatio graduum est essentialis pro comprehensione."
+      },
+      {
+        "wrong": "Stilus philosophicus Ciceronianus (periodi longae, subordinatio densa) tractatur ut identicum stilo oratorio (In Catilinam).",
+        "right": "Dialogi philosophici tendunt ad periodos magis reflexivas et minus emphaticas quam orationes publicae — differentia de genere/proposito.",
+        "why": "Cicero adaptat stilum suum ad contextum: persuasio publica (oratio) vs. reflexio privata (dialogus philosophicus)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vii-amic-rc", "type": "reading-comprehension", "title": "Comprehensio: De Amicitia 1.1",
+      "instructions": "Lege textum supra, deinde responde.",
+      "passage": "<p>Q. Mucius augur multa narrare de C. Laelio socero suo memoriter et iucunde solebat nec dubitare illum in omni sermone appellare sapientem; ego autem a patre ita eram deductus ad Scaevolam sumpta virili toga, ut...a senis latere numquam discederem.</p>",
+      "items": [
+        { "id": "amic1", "prompt": "Quis erat socer Q. Mucii Scaevolae?", "options": ["Cicero", "C. Laelius", "Scipio"], "answerIndex": 1, "explanation": "'dē C. Laeliō sōcerō suō'." },
+        { "id": "amic2", "prompt": "Quo titulo Scaevola semper Laelium appellabat?", "options": ["consulem", "sapientem", "augurem"], "answerIndex": 1, "explanation": "'appellāre sapientem'." },
+        { "id": "amic3", "prompt": "Quando (quo eventu vitae) Cicero coepit sequi Scaevolam?", "options": ["postquam consul factus est", "sumpta toga virili (transitus ad aetatem adultam)", "post mortem patris"], "answerIndex": 1, "explanation": "'sūmptā virīlī togā' — ablativus absolutus." }
+      ]
+    },
+    {
+      "id": "vii-amic-mc", "type": "multiple-choice", "title": "Analysis: Structura Narrativa",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "amic4", "prompt": "Quot gradus narrativos identificas in hoc passu?", "options": ["unum (narratio directa)", "tres (Cicero narrat de Scaevola, qui narrabat de Laelio)"], "answerIndex": 1, "explanation": "Narratio intra narratione, technica dialogi philosophici." },
+        { "id": "amic5", "prompt": "'Sumpta virili toga' est constructio:", "options": ["ablativus absolutus", "genetivus qualitatis"], "answerIndex": 0, "explanation": "Nomen + participium, ambo ablativo." }
+      ]
+    }
+  ],
+  "summary": [
+    "De Amicitia, dialogus philosophicus Ciceronianus, explorat naturam veram amicitiae.",
+    "Structura: Cicero narrat quod Scaevola narrabat de Laelio — tres gradus narrativi.",
+    "Personae historicae: C. Laelius (philosophus, amicus Scipionis), Q. Mucius Scaevola (augur, magister Ciceronis iuvenis).",
+    "Stilus philosophicus differt a stilo oratorio: reflexivus, minus emphaticus."
+  ],
+  "related": [
+    { "lessonId": "vii-rhetorica-ciceroniana", "label": "Rhetorica Ciceroniana: Figurae" },
+    { "lessonId": "vii-recognitio-finalis", "label": "Recognitio Finalis: Lectio Libera" }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "vii-ovidius-metamorphoses",
+  "level": "VII",
+  "unit": "1",
+  "order": 4,
+  "skill": "lectio",
+  "strand": "auctores",
+  "title": "Ovidius: Metamorphoses",
+  "subtitle": "In nova fert animus — initium epicum, cum prima introductione ad hexametrum.",
+  "prerequisites": ["vii-cicero-in-catilinam"],
+  "objectives": [
+    "Legere versus initiales Metamorphoseon, authenticos et integros",
+    "Cognoscere argumentum et propositum totius operis Ovidiani",
+    "Incohare lectionem poesis hexametricae (praeparatio pro lectione metrica plena)",
+    "Comparare stilum Ovidianum cum Vergiliano (lectio proxima)"
+  ],
+  "content": {
+    "intro": "Pūblius Ovidius Nāsō (43 a.C.n. – 17/18 p.C.n.) scrīpsit Metamorphōsēs, epos de mūtātiōnibus fōrmārum, ab orīgine mundī usque ad tempora sua ipsīus — quīndecim libri, plūrimae fābulae mythologicae inter sē contextae.",
+    "explanation": "<p>Prīmī versūs annūntiant propositum tōtīus operis: cantāre 'fōrmās mūtātās in nova corpora', ā prīmā orīgine mundī ('ab orīgine mundī') usque ad 'mea tempora' (aetātem ipsīus Ovidiī).</p>",
+    "rules": [
+      {
+        "heading": "Textus: Metamorphoses I.1&ndash;4",
+        "body": "<p class=\"reading-passage-inline\">In nova fert animus mutatas dicere formas<br>corpora; di, coeptis (nam vos mutastis et illas)<br>adspirate meis primaque ab origine mundi<br>ad mea perpetuum deducite tempora carmen!</p><p><em>P. Ovidius Naso, Metamorphoses 1.1&ndash;4 (thelatinlibrary.com)</em></p>"
+      },
+      {
+        "heading": "Analysis Syntactica",
+        "body": "<p>'Fert animus...dīcere' = 'my mind moves [me] to tell/is inclined to tell' — īnfīnītīvus complēmentārius post 'fert animus' (idiōma poēticum). 'Corpora' pendet ab 'fōrmās mūtātās...in nova corpora' (hyperbaton: 'in nova...corpora' sēparātum per 'fert animus mūtātās dīcere fōrmās'). Parenthesis: '(nam vōs mūtāstis et illās)' — 'mūtāstis' = fōrma syncopāta (contracta) prō 'mūtāvistis'.</p>"
+      },
+      {
+        "heading": "Vocabularium et Notae",
+        "body": "<p><em>fert animus</em> (idiom: 'my spirit inclines/moves [me]'), <em>coeptum, -ī</em> (n., undertaking/beginning), <em>adspīrō, -āre</em> (+dat.: to breathe favor upon, to inspire), <em>orīgō, -inis</em> (f., origin/beginning), <em>dēdūcō, -ere</em> (hic: to 'spin out' [a song/thread], metaphora ā tēxendō).</p>"
+      }
+    ],
+    "examples": [
+      "In nova fert animus mutatas dicere formas — idioma: my mind is moved to tell.",
+      "Di, coeptis...adspirate meis — imperativus (adspirate), invocatio ad deos, typica epici initii.",
+      "Ab origine mundi ad mea...tempora — merisma (ab X ad Y), totalitas temporis indicata per extrema.",
+      "Perpetuum...carmen — 'a continuous/unbroken song', descriptio structurae totius operis.",
+      "Mutastis (= mutavistis) — forma syncopata, frequens in poesi pro metro."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Fert animus' vertitur litteraliter 'the spirit carries', ignorans idioma poeticum standard subiacens.",
+        "right": "'Fert animus + infinitivum' est idioma fixum: 'I am inclined/moved to...' — traductio idiomatica magis naturalis.",
+        "why": "Multae expressiones poeticae Latinae habent traductiones idiomaticas standard, distinctas ab traductione verbum-post-verbum."
+      },
+      {
+        "wrong": "'Mutastis' tractatur ut forma irregularis inexplicabilis vel error scriptorius.",
+        "right": "'Mūtāstis' est syncope regularis (contractio) pro 'mūtāvistis' — perfectum, 2a persona pluralis, cum 'v' et vocali sequenti elisis.",
+        "why": "Syncope perfecti (-avistis → -astis, -evistis → -estis) est frequentissima in poesi, ubi metrum favet formas breviores."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vii-ovid-rc", "type": "reading-comprehension", "title": "Comprehensio: Metamorphoses 1.1-4",
+      "instructions": "Lege textum supra, deinde responde.",
+      "passage": "<p>In nova fert animus mutatas dicere formas<br>corpora; di, coeptis (nam vos mutastis et illas)<br>adspirate meis primaque ab origine mundi<br>ad mea perpetuum deducite tempora carmen!</p>",
+      "items": [
+        { "id": "ovid1", "prompt": "Quid poeta cantare vult, secundum hos versus?", "options": ["bella Troiana", "formas in nova corpora mutatas", "amores suos"], "answerIndex": 1, "explanation": "'fert animus mūtātās dīcere fōrmās...corpora' = mutationes formarum." },
+        { "id": "ovid2", "prompt": "A quo tempore usque ad quod tempus se extendet carmen?", "options": ["ab origine mundi ad sua tempora", "a bello Troiano ad Augustum", "ab urbe condita ad Caesarem"], "answerIndex": 0, "explanation": "'prīmā ab orīgine mundī ad mea...tempora'." },
+        { "id": "ovid3", "prompt": "Quos poeta invocat ut carmini suo faveant?", "options": ["Musas", "deos (di)", "populum Romanum"], "answerIndex": 1, "explanation": "'dī, coeptīs...adspīrāte meīs'." }
+      ]
+    },
+    {
+      "id": "vii-ovid-mc", "type": "multiple-choice", "title": "Vocabularium Poeticum",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "ovid4", "prompt": "'Fert animus' idiomatice significat:", "options": ["the spirit physically carries something", "I am inclined/moved to..."], "answerIndex": 1, "explanation": "Idioma fixum poeticum." },
+        { "id": "ovid5", "prompt": "'Mutastis' est forma syncopata pro:", "options": ["mutavistis", "mutabitis", "mutaretis"], "answerIndex": 0, "explanation": "Perfectum contractum, frequens in poesi." }
+      ]
+    }
+  ],
+  "summary": [
+    "Ovidius (43 a.C.n. - 17/18 p.C.n.) scripsit Metamorphoses, epos de mutationibus formarum, 15 libri.",
+    "Versus initiales annuntiant propositum: ab origine mundi ad tempora Ovidii, carmen perpetuum.",
+    "Syncope (mutastis) est frequens in poesi hexametrica, favente metro.",
+    "Praeparatio directa pro lectione metrica plena (proxima lectio de prosodia)."
+  ],
+  "related": [
+    { "lessonId": "vii-cicero-in-catilinam", "label": "Cicero: In Catilinam" },
+    { "lessonId": "vii-vergilius-aeneis", "label": "Vergilius: Aeneis" }
+  ]
+}
