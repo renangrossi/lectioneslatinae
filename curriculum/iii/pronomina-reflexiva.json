@@ -1,0 +1,82 @@
+{
+  "id": "iii-pronomina-reflexiva",
+  "level": "III",
+  "unit": "1",
+  "order": 12,
+  "skill": "grammatica",
+  "strand": "pronomina",
+  "title": "Pronomina Reflexiva",
+  "subtitle": "Sui, sibi, se — le pronom réfléchi de la tertia persona, sans nominativus.",
+  "prerequisites": ["iii-pronomen-relativum"],
+  "objectives": [
+    "Declinare se/sui, pronomen reflexivum tertiae personae",
+    "Cognoscere quod prima/secunda persona reutuntur pronominibus personalibus normalibus",
+    "Distinguere reflexivum directum (in eadem clausula) ab indirecto (in clausula subordinata)",
+    "Recognoscere quod 'se' caret nominativo, quia numquam est subiectum"
+  ],
+  "content": {
+    "intro": "Prōnōmen reflexīvum refert ad SUBIECTUM eiusdem clausulae — 'himself, herself, itself, themselves'. Latīna habet fōrmam propriam sōlum prō tertiā persōnā.",
+    "explanation": "<p>Prīma et secunda persōna reflexīva REUTUNTUR fōrmīs prōnōminum persōnālium normālium (mē, tē, nōs, vōs) — nūlla fōrma nova discenda: <em>Mē videō in speculō.</em> ('I see myself in the mirror.') Sōlum tertia persōna habet fōrmam propriam: <strong>sē</strong> (et genetīvus <strong>suī</strong>, datīvus <strong>sibi</strong>).</p>",
+    "rules": [
+      {
+        "heading": "a) Declinatio: sui, sibi, se (tertia persona)",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Casus</th><th>Forma</th></tr></thead><tbody><tr><td>Nom.</td><td>&mdash; (numquam exsistit)</td></tr><tr><td>Gen.</td><td>suī</td></tr><tr><td>Dat.</td><td>sibi</td></tr><tr><td>Acc.</td><td>sē (sēsē)</td></tr><tr><td>Abl.</td><td>sē (sēsē)</td></tr></tbody></table><p>ŪNA fōrma sōla prō omnī genere ET numerō (singulārī et plūrālī): <em>sē</em> significat 'himself' AUT 'herself' AUT 'itself' AUT 'themselves', secundum contextum.</p>"
+      },
+      {
+        "heading": "b) Cur Nullus Nominativus?",
+        "body": "<p>'Sē' numquam potest esse subiectum (nōminātīvus), quia prō dēfīnītiōne refert ad subiectum iam exsistēns — nōn potest sē referre ad sē ipsum ut subiectum novum. Logica idem valet Anglicē: numquam dīcimus '*Himself walked.'</p>"
+      },
+      {
+        "heading": "c) Reflexivum Directum vs. Indirectum",
+        "body": "<p><strong>Dīrēctum</strong>: 'sē' refert ad subiectum EIUSDEM clausulae: <em>Puer sē videt.</em> ('The boy sees himself.') <strong>Indirēctum</strong> (magis prōvectum): in clausulā subōrdinātā, 'sē' potest referre ad subiectum clausulae PRĪNCIPĀLIS, nōn subōrdinātae: <em>Dīcit sē fessum esse.</em> ('He says that HE [himself, the same person speaking] is tired.') — hanc cōnstrūctiōnem plēnius in Gradū IV vidēbis (ōrātiō oblīqua).</p>"
+      }
+    ],
+    "examples": [
+      "Puella se in speculo videt. — The girl sees herself in the mirror.",
+      "Milites se defendunt. — The soldiers defend themselves.",
+      "Rex sibi timet. — The king fears for himself.",
+      "Amicus meus semper de se loquitur. — My friend always talks about himself.",
+      "Puer patrem suum amat, non se ipsum. — The boy loves his father, not himself."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Se' adhibetur pro prima vel secunda persona ('I see myself' → *'Se video').",
+        "right": "'Sē' est EXCLUSIVE tertiae personae; prima/secunda persona utuntur 'mē'/'tē': 'Mē videō'.",
+        "why": "Sē est fōrma speciālis reservāta prō 'himself/herself/itself/themselves' tantum."
+      },
+      {
+        "wrong": "Discipulus quaerit formam nominativam *'se' ut subiectum sententiae.",
+        "right": "'Sē' non habet nominativum — grammaticē impossibile, quia semper refert retro ad subiectum iam exsistens.",
+        "why": "Logica reflexiva ipsa exclūdit possibilitatem nominativi."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iii-refl-mc", "type": "multiple-choice", "title": "Pronomen Reflexivum: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "refl1", "prompt": "'Puer se videt' significat:", "options": ["The boy sees him (someone else)", "The boy sees himself", "The boy is seen"], "answerIndex": 1, "explanation": "se = reflexivum, refert ad subiectum 'puer'." },
+        { "id": "refl2", "prompt": "Cur 'se' non habet formam nominativam?", "options": ["Est defectivum sine ratione", "Numquam potest esse subiectum, quia refert ad subiectum iam existens", "Solum plurale habet nominativum"], "answerIndex": 1, "explanation": "Logica reflexiva exclude nominativum." },
+        { "id": "refl3", "prompt": "'Se' pertinet ad quam personam?", "options": ["primam", "secundam", "tertiam"], "answerIndex": 2, "explanation": "Sui/sibi/se sunt exclusive tertiae personae." }
+      ]
+    },
+    {
+      "id": "iii-refl-fill", "type": "fill-blank", "title": "Comple cum Reflexivo",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "refl4", "prompt": "Milites ___ defendunt. (themselves — se)", "options": ["eos", "se", "eis"], "answers": ["se"], "explanation": "Reflexivum tertiae personae pluralis: se." },
+        { "id": "refl5", "prompt": "Ego ___ in aqua video. (myself — me)", "options": ["se", "me", "sui"], "answers": ["me"], "explanation": "Prima persona reflexiva: pronomen personale normale 'me'." }
+      ]
+    }
+  ],
+  "summary": [
+    "Sui, sibi, se, se — reflexivum tertiae personae, una forma pro omni genere/numero.",
+    "Prima/secunda persona reflexiva: reutuntur me/te/nos/vos.",
+    "Nullus nominativus: 'se' numquam potest esse subiectum."
+  ],
+  "related": [
+    { "lessonId": "iii-pronomen-relativum", "label": "Pronomen Relativum" },
+    { "lessonId": "iii-numeri-tempus-et-calendarium", "label": "Numeri, Tempus et Calendarium" }
+  ]
+}

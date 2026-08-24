@@ -1,0 +1,92 @@
+{
+  "id": "iii-comparatio-adiectivorum",
+  "level": "III",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammatica",
+  "strand": "comparatio",
+  "title": "Comparatio Adiectivorum",
+  "subtitle": "Fortior, fortissimus — et sex adiectiva penitus irregularia.",
+  "prerequisites": ["iii-tempus-futurum"],
+  "objectives": [
+    "Formare comparativum regularem (-ior, -ius)",
+    "Formare superlativum regularem (-issimus, -a, -um)",
+    "Memorare formationem specialem pro adiectivis in -er (-rimus)",
+    "Memorare quinque comparationes penitus irregulares (bonus, malus, magnus, parvus, multus)"
+  ],
+  "content": {
+    "intro": "'Bonus, melior, optimus' — sīcut Anglicum 'good, better, best' — comparātiō Latīna habet trēs gradūs: positīvus, comparātīvus, superlātīvus.",
+    "explanation": "<p>Comparātiō regulāris addit suffīxa ad rādīcem adiectīvī (invenītur removendō genetīvī dēsinentiam).</p>",
+    "rules": [
+      {
+        "heading": "a) Comparativus Regularis: -ior, -ius",
+        "body": "<p>Rādīx + <strong>-ior</strong> (masc./fem.) vel <strong>-ius</strong> (neutrum): <em>fortis</em> → <strong>fortior, fortius</strong> ('braver'). Dēclīnātur ut nōmen tertiae dēclīnātiōnis (cōnsonāns pūra, nōn i-stem — genetīvus plūrālis -um, nōn -ium, exceptiō notābilis inter comparātīvōs).</p>"
+      },
+      {
+        "heading": "b) Superlativus Regularis: -issimus, -a, -um",
+        "body": "<p>Rādīx + <strong>-issimus, -a, -um</strong>: <em>fortis</em> → <strong>fortissimus</strong> ('bravest'). Dēclīnātur ut bonus, -a, -um.</p>"
+      },
+      {
+        "heading": "c) Adiectiva in -er: Superlativus in -rimus",
+        "body": "<p>Adiectīva nōminātīvō in -er (utrīusque dēclīnātiōnis) fōrmant superlātīvum in <strong>-rimus</strong>, nōn -issimus: <em>pulcher</em> → pulchrior → <strong>pulcherrimus</strong>; <em>ācer</em> → ācrior → <strong>ācerrimus</strong>.</p>"
+      },
+      {
+        "heading": "d) Quinque Comparationes Penitus Irregulares",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Positivus</th><th>Comparativus</th><th>Superlativus</th></tr></thead><tbody><tr><td>bonus (good)</td><td>melior, melius</td><td>optimus</td></tr><tr><td>malus (bad)</td><td>peior, peius</td><td>pessimus</td></tr><tr><td>magnus (big)</td><td>maior, maius</td><td>maximus</td></tr><tr><td>parvus (small)</td><td>minor, minus</td><td>minimus</td></tr><tr><td>multus (much)</td><td>plūs (n. subst.)</td><td>plūrimus</td></tr></tbody></table>"
+      }
+    ],
+    "examples": [
+      "Marcus fortior quam Iulius est. — Marcus is braver than Julius.",
+      "Haec via longissima est. — This road is the longest.",
+      "Vinum hoc melius est. — This wine is better.",
+      "Roma urbs maxima erat. — Rome was the largest city.",
+      "Pulcherrima omnium est. — She is the most beautiful of all."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'bonus' comparatur regulariter: *bonior, *bonissimus.",
+        "right": "'bonus' est irregulare: melior, melius (comp.); optimus (superl.).",
+        "why": "Quinque adiectiva frequentissima (bonus, malus, magnus, parvus, multus) habent radices omnino diversas in comparativo/superlativo, sicut Anglicum 'good/better/best'."
+      },
+      {
+        "wrong": "Superlativus verbi 'pulcher' formatur *'pulcherissimus', per regulam generalem.",
+        "right": "'pulcherrimus' — adiectiva in -er formant superlativum in -rimus, non -issimus.",
+        "why": "Haec est regula speciālis pro omni adiectivo cuius nominativus masculinus terminat in -er."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iii-comp-mc", "type": "multiple-choice", "title": "Comparatio: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "comp1", "prompt": "Comparativus verbi 'fortis' est:", "options": ["fortior", "fortissimus", "fortē"], "answerIndex": 0, "explanation": "-ior est signum comparativi." },
+        { "id": "comp2", "prompt": "Superlativus verbi 'pulcher' est:", "options": ["pulcherissimus", "pulcherrimus", "pulchrissimus"], "answerIndex": 1, "explanation": "Adiectiva in -er: superlativus -rimus." },
+        { "id": "comp3", "prompt": "Comparativus verbi 'bonus' est:", "options": ["bonior", "melior", "optimus"], "answerIndex": 1, "explanation": "bonus est irregulare: melior (comp.), optimus (superl.)." },
+        { "id": "comp4", "prompt": "Superlativus verbi 'magnus' est:", "options": ["magnissimus", "maior", "maximus"], "answerIndex": 2, "explanation": "magnus → maior → maximus." }
+      ]
+    },
+    {
+      "id": "iii-comp-match", "type": "matching", "title": "Iunge Positivum cum Superlativo",
+      "instructions": "Iunge quodque adiectivum positivum cum superlativo suo.",
+      "items": [
+        { "id": "comp5", "pairs": [
+          { "left": "bonus", "right": "optimus" },
+          { "left": "malus", "right": "pessimus" },
+          { "left": "parvus", "right": "minimus" },
+          { "left": "multus", "right": "plurimus" },
+          { "left": "fortis", "right": "fortissimus" }
+        ], "explanation": "Quinque prima sunt irregularia; fortis sequitur regulam generalem." }
+      ]
+    }
+  ],
+  "summary": [
+    "Comparativus regularis: radix + -ior/-ius. Superlativus: radix + -issimus.",
+    "Adiectiva in -er: superlativus -rimus (pulcherrimus).",
+    "Irregularia: bonus/melior/optimus, malus/peior/pessimus, magnus/maior/maximus, parvus/minor/minimus, multus/plus/plurimus."
+  ],
+  "related": [
+    { "lessonId": "iii-tempus-futurum", "label": "Tempus Futurum" },
+    { "lessonId": "iii-comparatio-adverbiorum", "label": "Comparatio Adverbiorum" }
+  ]
+}

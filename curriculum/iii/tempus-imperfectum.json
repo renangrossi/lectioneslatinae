@@ -1,0 +1,88 @@
+{
+  "id": "iii-tempus-imperfectum",
+  "level": "III",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammatica",
+  "strand": "verba",
+  "title": "Tempus Imperfectum",
+  "subtitle": "Amabam, amabas — actio continua vel habitualis in praeterito.",
+  "prerequisites": ["iii-declinatio-quinta"],
+  "objectives": [
+    "Formare imperfectum activum omnium quattuor coniugationum",
+    "Formare imperfectum irregulare verbi sum (eram)",
+    "Distinguere significationem imperfecti (actio continua/habitualis) a perfecto (actio completa)",
+    "Uti imperfecto in narrationibus simplicibus"
+  ],
+  "content": {
+    "intro": "Imperfectum dēscrībit āctiōnem quae CONTINUābat vel REPETēbātur in praeteritō — 'was doing', 'used to do' — differenter ā perfectō, quod dēscrībit āctiōnem ūnam completam (Gradus IV).",
+    "explanation": "<p>Signum imperfectī āctīvī est <strong>-ba-</strong> īnsertum inter rādīcem et dēsinentiās persōnālēs (quae hīc sunt -m, -s, -t, -mus, -tis, -nt, differentēs leviter ā praesentī).</p>",
+    "rules": [
+      {
+        "heading": "a) Coniugationes I-II: Radix + -bam",
+        "body": "<p><strong>amābam</strong> (I was loving/used to love), amābās, amābat, amābāmus, amābātis, amābant. <strong>monēbam</strong>, monēbās, monēbat, monēbāmus, monēbātis, monēbant.</p>"
+      },
+      {
+        "heading": "b) Coniugationes III-IV: Radix + -ebam",
+        "body": "<p><strong>mittēbam</strong> (I was sending), mittēbās, mittēbat, mittēbāmus, mittēbātis, mittēbant. <strong>audiēbam</strong> (I was hearing), audiēbās, audiēbat, audiēbāmus, audiēbātis, audiēbant.</p>"
+      },
+      {
+        "heading": "c) Sum: Imperfectum Irregulare",
+        "body": "<p><strong>eram</strong> (I was), erās, erat, erāmus, erātis, erant.</p>"
+      },
+      {
+        "heading": "d) Significatio: Continuum, Habituale, Conatum",
+        "body": "<p>Trēs nuancēs frequentēs: (1) āctiō continua ('was doing': <em>legēbam cum vēnistī</em>, 'I was reading when you came'), (2) āctiō habituālis ('used to do': <em>Rōmae saepe ambulābam</em>, 'I used to walk in Rome often'), (3) cōnātus ('was trying to': <em>persuādēbat</em>, 'he was trying to persuade').</p>"
+      }
+    ],
+    "examples": [
+      "Puer in horto ludebat. — The boy was playing in the garden.",
+      "Milites fortiter pugnabant. — The soldiers were fighting bravely.",
+      "Semper verum dicebat. — He always used to tell the truth.",
+      "Cives regem timebant. — The citizens feared the king (habitually/continuously).",
+      "Eramus pueri, cum id vidimus. — We were children, when we saw that."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Imperfectum confunditur cum perfecto, ambo interpretata ut 'simple past' sine distinctione.",
+        "right": "Imperfectum = actio continua/habitualis ('was doing'); perfectum = actio completa una vice ('did').",
+        "why": "Haec distinctio aspectus (continuum vs. completum) est fundamentalis in narrativa Latina, quamvis Anglica saepe utatur eodem 'simple past' pro ambobus."
+      },
+      {
+        "wrong": "'eram' formatur *'esbam', per analogiam regularem cum -bam.",
+        "right": "'eram, eras, erat...' — sum forma penitus irregularem habet in imperfecto.",
+        "why": "Sum, ut verbum frequentissimum, retinet formas antiquas irregulares in multis temporibus."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iii-imperf-fill", "type": "fill-blank", "title": "Forma Imperfectum",
+      "instructions": "Comple cum forma recta imperfecti.",
+      "items": [
+        { "id": "imperf1", "prompt": "Ego librum ___. (I was reading — legebam, legere)", "options": ["legebam", "legebas", "legebat"], "answers": ["legebam"], "explanation": "1a persona sg: legēbam." },
+        { "id": "imperf2", "prompt": "Tu semper ___. (you used to sing — cantabas, cantare)", "options": ["cantabam", "cantabas", "cantabat"], "answers": ["cantabas"], "explanation": "2a persona sg: cantābās." },
+        { "id": "imperf3", "prompt": "Nos pueri ___. (we were — eramus, sum)", "options": ["eram", "eras", "eramus"], "answers": ["eramus"], "explanation": "1a persona pl., sum: erāmus." },
+        { "id": "imperf4", "prompt": "Milites urbem ___. (were defending — defendebant, defendere)", "options": ["defendebat", "defendebant", "defendebamus"], "answers": ["defendebant"], "explanation": "3a persona pl.: dēfendēbant." }
+      ]
+    },
+    {
+      "id": "iii-imperf-mc", "type": "multiple-choice", "title": "Imperfectum: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "imperf5", "prompt": "Signum imperfecti activi est:", "options": ["-ba-/-eba-", "-b-", "-avi-"], "answerIndex": 0, "explanation": "-ba- (I/II) vel -eba- (III/IV) inserta ante desinentias." },
+        { "id": "imperf6", "prompt": "'Puer ludebat' significat:", "options": ["The boy played (once)", "The boy was playing / used to play", "The boy will play"], "answerIndex": 1, "explanation": "Imperfectum: continuum/habituale." },
+        { "id": "imperf7", "prompt": "Imperfectum verbi sum, 3a persona pluralis, est:", "options": ["erant", "sunt", "erunt"], "answerIndex": 0, "explanation": "erant = they were." }
+      ]
+    }
+  ],
+  "summary": [
+    "Coniugationes I-II: radix + -bam (amābam). Coniugationes III-IV: radix + -ēbam (mittēbam, audiēbam).",
+    "Sum: eram, erās, erat, erāmus, erātis, erant (irregulare).",
+    "Significatio: actio continua, habitualis, vel conatus — differt a perfecto (actio completa)."
+  ],
+  "related": [
+    { "lessonId": "iii-declinatio-quinta", "label": "Declinatio Quinta" },
+    { "lessonId": "iii-tempus-futurum", "label": "Tempus Futurum" }
+  ]
+}

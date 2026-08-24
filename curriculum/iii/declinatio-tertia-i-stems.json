@@ -1,0 +1,92 @@
+{
+  "id": "iii-declinatio-tertia-i-stems",
+  "level": "III",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammatica",
+  "strand": "declinatio",
+  "title": "Declinatio Tertia: I-Stems",
+  "subtitle": "Civis, urbs, mare — nomina cum genetivo plurali in -ium.",
+  "prerequisites": ["iii-declinatio-tertia-consonantes"],
+  "objectives": [
+    "Identificare tria signa i-stem: parisyllaba, duae consonantes ante -is, neutra in -e/-al/-ar",
+    "Declinare civis (parisyllabum) et mare (neutrum) correcte",
+    "Applicare genetivum pluralem -ium pro nominibus i-stem",
+    "Applicare ablativum singularem -i pro neutris i-stem"
+  ],
+  "content": {
+    "intro": "Intra tertiam declinationem, subgrex nominum -- vocatus 'i-stems' -- habet fines leviter differentes, praesertim in genetivo plurali.",
+    "explanation": "<p>Nōmina i-stem sunt subgrex tertiae dēclīnātiōnis cuius rādīx orīgināliter in <em>-i-</em> dēsinēbat (nunc plērumque absconditum). Trēs sunt signa ad ea recognōscenda.</p>",
+    "rules": [
+      {
+        "heading": "a) Signum 1: Nomina Parisyllaba",
+        "body": "<p>Sī nōminātīvus et genetīvus habent EUNDEM numerum syllabārum: <em>cīvis, cīvis</em> (m./f., citizen — ambō disyllaba), <em>nūbēs, nūbis</em> (f., cloud). Compara cum 'rex, regis' (rex = 1 syllaba, regis = 2 syllabae — NŌN parisyllabum, ergō cōnsonāns pūra).</p>"
+      },
+      {
+        "heading": "b) Signum 2: Duae Consonantes ante -is",
+        "body": "<p>Sī genetīvus habet duās cōnsonantēs ante -is: <em>urbs, urbis</em> (f., city — 'rb' ante -is), <em>mōns, montis</em> (m., mountain — 'nt'), <em>dēns, dentis</em> (m., tooth).</p>"
+      },
+      {
+        "heading": "c) Signum 3: Neutra in -e, -al, -ar",
+        "body": "<p><em>mare, maris</em> (n., sea), <em>animal, animālis</em> (n., animal), <em>exemplar, exemplāris</em> (n., example, pattern).</p>"
+      },
+      {
+        "heading": "d) Paradigma: cīvis, cīvis (m./f.) 'citizen'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Casus</th><th>Sg.</th><th>Pl.</th></tr></thead><tbody><tr><td>Nom.</td><td>cīvis</td><td>cīv<strong>ēs</strong></td></tr><tr><td>Gen.</td><td>cīv<strong>is</strong></td><td>cīv<strong>ium</strong></td></tr><tr><td>Dat.</td><td>cīv<strong>ī</strong></td><td>cīv<strong>ibus</strong></td></tr><tr><td>Acc.</td><td>cīv<strong>em</strong></td><td>cīv<strong>ēs</strong></td></tr><tr><td>Abl.</td><td>cīv<strong>e</strong></td><td>cīv<strong>ibus</strong></td></tr></tbody></table>"
+      },
+      {
+        "heading": "e) Paradigma: mare, maris (n.) 'sea' — neutrum i-stem",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Casus</th><th>Sg.</th><th>Pl.</th></tr></thead><tbody><tr><td>Nom.</td><td>mare</td><td>mar<strong>ia</strong></td></tr><tr><td>Gen.</td><td>mar<strong>is</strong></td><td>mar<strong>ium</strong></td></tr><tr><td>Dat.</td><td>mar<strong>ī</strong></td><td>mar<strong>ibus</strong></td></tr><tr><td>Acc.</td><td>mare</td><td>mar<strong>ia</strong></td></tr><tr><td>Abl.</td><td>mar<strong>ī</strong></td><td>mar<strong>ibus</strong></td></tr></tbody></table><p>Nōtā DUAS differentiās ā consonantibus purīs: ablātīvus singulāris <strong>-ī</strong> (nōn -e), et nōminātīvus/accūsātīvus plūrālis <strong>-ia</strong> (nōn -a).</p>"
+      }
+    ],
+    "examples": [
+      "Cives urbem defendunt. — The citizens defend the city.",
+      "Multae urbes in Italia sunt. — There are many cities in Italy.",
+      "Mare magnum et periculosum est. — The sea is big and dangerous.",
+      "Animalia in silva vivunt. — Animals live in the forest.",
+      "Milites in montibus pugnant. — The soldiers fight in the mountains."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Genetivus pluralis verbi 'civis' formatur *'civum', per analogiam cum 'regum'.",
+        "right": "'civium' — nomina i-stem habent genetivum pluralem in -ium, non -um.",
+        "why": "Signum i-stem (parisyllabum) mutat desinentiam genetivi pluralis specifice."
+      },
+      {
+        "wrong": "Ablativus singularis verbi 'mare' est *'mare' (identicum nominativo).",
+        "right": "'marī' — neutra i-stem habent ablativum singularem in -ī, differenter a consonantibus puris (quae habent -e).",
+        "why": "Haec est una ex paucis differentiis reales inter i-stems et consonantes puras in tertia declinatione."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iii-istem-mc", "type": "multiple-choice", "title": "I-Stems: Recognitio",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "ist1", "prompt": "'Civis, civis' est i-stem quia:", "options": ["est parisyllabum (idem numerus syllabarum)", "habet duas consonantes ante -is", "est neutrum in -e"], "answerIndex": 0, "explanation": "civis/civis: ambo disyllaba." },
+        { "id": "ist2", "prompt": "'Urbs, urbis' est i-stem quia:", "options": ["est parisyllabum", "habet duas consonantes (rb) ante -is", "est masculinum"], "answerIndex": 1, "explanation": "'rb' ante -is: signum i-stem." },
+        { "id": "ist3", "prompt": "Genetivus pluralis nominum i-stem desinit in:", "options": ["-um", "-ium", "-orum"], "answerIndex": 1, "explanation": "-ium est signum distinctivum i-stem in genetivo plurali." },
+        { "id": "ist4", "prompt": "Ablativus singularis verbi 'mare' (neutrum i-stem) est:", "options": ["mare", "mari", "mares"], "answerIndex": 1, "explanation": "Neutra i-stem: ablativus singularis -ī." },
+        { "id": "ist5", "prompt": "Nominativus/accusativus pluralis verbi 'mare' est:", "options": ["mara", "maria", "mares"], "answerIndex": 1, "explanation": "Neutra i-stem: plurale -ia, non -a." }
+      ]
+    },
+    {
+      "id": "iii-istem-fill", "type": "fill-blank", "title": "Comple cum I-Stem",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "ist6", "prompt": "Multae ___ in Italia sunt. (cities — urbes)", "options": ["urbs", "urbes", "urbium"], "answers": ["urbes"], "explanation": "Nominativus pluralis: urbes." },
+        { "id": "ist7", "prompt": "Numerus ___ magnus est. (of the citizens — civium)", "options": ["civum", "civium", "civibus"], "answers": ["civium"], "explanation": "Genetivus pluralis i-stem: civium." }
+      ]
+    }
+  ],
+  "summary": [
+    "Signa i-stem: parisyllaba (civis/civis), duae consonantes ante -is (urbs/urbis), neutra in -e/-al/-ar (mare).",
+    "Genetivus pluralis i-stem: -ium (non -um).",
+    "Neutra i-stem: ablativus singularis -ī, nominativus/accusativus pluralis -ia."
+  ],
+  "related": [
+    { "lessonId": "iii-declinatio-tertia-consonantes", "label": "Declinatio Tertia: Consonantes" },
+    { "lessonId": "iii-adiectiva-tertiae-declinationis", "label": "Adiectiva Tertiae Declinationis" }
+  ]
+}

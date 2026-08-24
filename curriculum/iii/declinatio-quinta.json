@@ -1,0 +1,88 @@
+{
+  "id": "iii-declinatio-quinta",
+  "level": "III",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammatica",
+  "strand": "declinatio",
+  "title": "Declinatio Quinta",
+  "subtitle": "Res, rei; dies, diei — la minor declinatio, sed frequentissima in usu.",
+  "prerequisites": ["iii-declinatio-quarta"],
+  "objectives": [
+    "Declinare res, rei (thing) per omnes casus",
+    "Declinare dies, diei (day) per omnes casus",
+    "Cognoscere quod fere omnia nomina quintae declinationis sunt feminina, praeter dies",
+    "Reconhecer expressiones frequentes cum 'res' (res publica, res gestae)"
+  ],
+  "content": {
+    "intro": "Quinta dēclīnātiō habet paucissima nōmina — sed inter ea, 'rēs' ('thing') est inter frequentissima tōtīus linguae, praesertim in phrasibus ut <em>rēs pūblica</em> ('the republic', litt. 'public thing').",
+    "explanation": "<p>Nōmina quīntae dēclīnātiōnis dēsinunt in <strong>-ēs</strong> nōminātīvō, genetīvō in <strong>-ēī</strong> (post vōcālem) vel <strong>-eī</strong> (post cōnsonantem).</p>",
+    "rules": [
+      {
+        "heading": "a) Paradigma: res, rei (f.) 'thing'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Casus</th><th>Sg.</th><th>Pl.</th></tr></thead><tbody><tr><td>Nom.</td><td>r<strong>ēs</strong></td><td>r<strong>ēs</strong></td></tr><tr><td>Gen.</td><td>r<strong>eī</strong></td><td>r<strong>ērum</strong></td></tr><tr><td>Dat.</td><td>r<strong>eī</strong></td><td>r<strong>ēbus</strong></td></tr><tr><td>Acc.</td><td>r<strong>em</strong></td><td>r<strong>ēs</strong></td></tr><tr><td>Abl.</td><td>r<strong>ē</strong></td><td>r<strong>ēbus</strong></td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Paradigma: dies, diei (m., interdum f.) 'day'",
+        "body": "<p>Sequitur idem patrōnum: diēs, diēī, diēī, diem, diē (sg.); diēs, diērum, diēbus, diēs, diēbus (pl.). <strong>Diēs</strong> est ūnicum nōmen frequēns quīntae dēclīnātiōnis māsculīnum (interdum fēminīnum cum significat 'diem fīxum', ut in date-context).</p>"
+      },
+      {
+        "heading": "c) Genus: Fere Semper Femininum",
+        "body": "<p>Sīcut prīma dēclīnātiō est fere semper fēminīna, ita quīnta: sōlum 'diēs' (et compositum 'merīdiēs', noon) sunt regulāriter māsculīna.</p>"
+      },
+      {
+        "heading": "d) Phrases Frequentes cum Res",
+        "body": "<p><strong>rēs pūblica</strong> (the republic/state affairs), <strong>rēs gestae</strong> (deeds accomplished, 'things done'), <strong>rēs mīlitāris</strong> (military affairs), <strong>prō rē nātā</strong> (as things stand, litt. 'for the thing born').</p>"
+      }
+    ],
+    "examples": [
+      "Res publica magna est. — The republic is great.",
+      "Dies longus fuit. — The day was long.",
+      "Multae res mihi placent. — Many things please me.",
+      "In eadem re consentimus. — We agree on the same matter.",
+      "Caesar res gestas suas scripsit. — Caesar wrote his deeds/accomplishments."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Dies' tractatur ut semper femininum, per analogiam cum 'res' et ceteris nominibus quintae declinationis.",
+        "right": "'Dies' est regulariter masculinum (interdum femininum in contextu specifico de data), exceptio inter nomina quintae declinationis.",
+        "why": "Haec exceptio est memoranda separatim; cetera nomina quintae declinationis sequuntur regulam feminina generalem."
+      },
+      {
+        "wrong": "'Res publica' tractatur ut una sola verbum indeclinabile.",
+        "right": "Ambo verba declinantur: rei publicae (genetivus), rem publicam (accusativus), etc.",
+        "why": "'Res publica' est phrasis de duobus verbis, ambo mutantia per casum in concordantia."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iii-decl5-mc", "type": "multiple-choice", "title": "Declinatio Quinta: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "d5-1", "prompt": "Genetivus singularis verbi 'res' est:", "options": ["res", "rei", "rerum"], "answerIndex": 1, "explanation": "reī: genetivus quintae declinationis." },
+        { "id": "d5-2", "prompt": "Genus regulare quintae declinationis est:", "options": ["masculinum", "femininum", "neutrum"], "answerIndex": 1, "explanation": "Fere semper femininum, excepto dies." },
+        { "id": "d5-3", "prompt": "'Dies' pertinet regulariter ad genus:", "options": ["masculinum", "femininum", "neutrum"], "answerIndex": 0, "explanation": "dies est exceptio: masculinum." },
+        { "id": "d5-4", "prompt": "'Res publica' significat:", "options": ["a public thing (object)", "the republic / the state", "a famous thing"], "answerIndex": 1, "explanation": "Idioma fixum: 'res publica' = the republic/commonwealth." }
+      ]
+    },
+    {
+      "id": "iii-decl5-fill", "type": "fill-blank", "title": "Comple cum Casu Recto",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "d5-5", "prompt": "___ longus fuit. (The day — dies)", "options": ["Dies", "Diei", "Diem"], "answers": ["Dies"], "explanation": "Nominativus: dies." },
+        { "id": "d5-6", "prompt": "Multae ___ mihi placent. (things — res)", "options": ["res", "rei", "rerum"], "answers": ["res"], "explanation": "Nominativus pluralis: res." }
+      ]
+    }
+  ],
+  "summary": [
+    "Quinta declinatio: -ēs nominativo, -eī/-ēī genetivo.",
+    "res, reī (thing); diēs, diēī (day) — patronum identicum.",
+    "Genus fere semper femininum; dies (masculinum) est exceptio principale.",
+    "Phrases frequentes: rēs pūblica, rēs gestae, rēs mīlitāris."
+  ],
+  "related": [
+    { "lessonId": "iii-declinatio-quarta", "label": "Declinatio Quarta" },
+    { "lessonId": "iii-tempus-imperfectum", "label": "Tempus Imperfectum" }
+  ]
+}

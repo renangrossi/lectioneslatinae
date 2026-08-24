@@ -1,0 +1,88 @@
+{
+  "id": "iii-declinatio-quarta",
+  "level": "III",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammatica",
+  "strand": "declinatio",
+  "title": "Declinatio Quarta",
+  "subtitle": "Manus, manus; cornu, cornus — nomina in -us cum genetivo -us longo.",
+  "prerequisites": ["iii-adiectiva-tertiae-declinationis"],
+  "objectives": [
+    "Declinare nomina quartae declinationis masculina/feminina (manus)",
+    "Declinare nomina quartae declinationis neutra (cornu)",
+    "Distinguere quartam declinationem a secunda per genetivum (-us longum vs. -i)",
+    "Vocabularium frequens quartae declinationis uti"
+  ],
+  "content": {
+    "intro": "Quarta dēclīnātiō, minor numerō quam secunda vel tertia, causat cōnfūsiōnem quia nōminātīvus (-us) similis est secundae dēclīnātiōnī — sed genetīvus (-ūs, longum) revēlat vēritātem.",
+    "explanation": "<p>Māior pars nōminum quārtae dēclīnātiōnis sunt māsculīna in -us (manus, exercitus); paucī sunt neutra in -ū (cornū).</p>",
+    "rules": [
+      {
+        "heading": "a) Paradigma: manus, manūs (f.) 'hand'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Casus</th><th>Sg.</th><th>Pl.</th></tr></thead><tbody><tr><td>Nom.</td><td>man<strong>us</strong></td><td>man<strong>ūs</strong></td></tr><tr><td>Gen.</td><td>man<strong>ūs</strong></td><td>man<strong>uum</strong></td></tr><tr><td>Dat.</td><td>man<strong>uī</strong></td><td>man<strong>ibus</strong></td></tr><tr><td>Acc.</td><td>man<strong>um</strong></td><td>man<strong>ūs</strong></td></tr><tr><td>Abl.</td><td>man<strong>ū</strong></td><td>man<strong>ibus</strong></td></tr></tbody></table><p>Nōtā: 'manus' est FĒMINĪNUM, quamvis dēsinat in -us (exceptiō nōtābilis — sīcut agricola erat exceptiō māsculīna prīmae dēclīnātiōnis).</p>"
+      },
+      {
+        "heading": "b) Paradigma: cornū, cornūs (n.) 'horn'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Casus</th><th>Sg.</th><th>Pl.</th></tr></thead><tbody><tr><td>Nom.</td><td>corn<strong>ū</strong></td><td>corn<strong>ua</strong></td></tr><tr><td>Gen.</td><td>corn<strong>ūs</strong></td><td>corn<strong>uum</strong></td></tr><tr><td>Dat./Abl.</td><td>corn<strong>ū</strong></td><td>corn<strong>ibus</strong></td></tr><tr><td>Acc.</td><td>corn<strong>ū</strong></td><td>corn<strong>ua</strong></td></tr></tbody></table>"
+      },
+      {
+        "heading": "c) Quarta vs. Secunda: Solum Genetivus Distinguit",
+        "body": "<p>'manus' (nōm.) est identicum fōrmā ad multa nōmina secundae dēclīnātiōnis pluralia — sed genetīvus 'manūs' (ū longum) differt ā genetīvō secundae 'servī'. Semper verificā per genetīvum.</p>"
+      },
+      {
+        "heading": "d) Vocabularium Frequens",
+        "body": "<p>manus, -ūs f. (hand/band of men), exercitus, -ūs m. (army), currus, -ūs m. (chariot), senātus, -ūs m. (senate), spīritus, -ūs m. (breath/spirit), frūctus, -ūs m. (fruit/profit), cornū, -ūs n. (horn), genū, -ūs n. (knee).</p>"
+      }
+    ],
+    "examples": [
+      "Manus mea parva est. — My hand is small.",
+      "Exercitus urbem oppugnat. — The army attacks the city.",
+      "Senatus rem publicam regit. — The senate governs the republic.",
+      "Cornua tauri magna sunt. — The bull's horns are big.",
+      "Fructum laboris accipimus. — We receive the fruit of our labor."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'manus' tractatur ut masculinum, per analogiam cum servus, dominus.",
+        "right": "'manus' (hand) est femininum, quamvis dēsinat in -us — exceptio memoranda.",
+        "why": "Genus non semper est praedicibile ex sola desinentia; usus et memoria sunt necessaria."
+      },
+      {
+        "wrong": "Genetivus singularis quartae declinationis scribitur *'manī', per analogiam cum secunda.",
+        "right": "'manūs' — genetivus quartae declinationis est -ūs (longum), identicum nominativo in forma, sed longum.",
+        "why": "Macron hic est essentialis ad distinguendum quartam declinationem a secunda."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iii-decl4-mc", "type": "multiple-choice", "title": "Declinatio Quarta: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "d4-1", "prompt": "Genetivus singularis verbi 'manus' est:", "options": ["mani", "manūs", "manuis"], "answerIndex": 1, "explanation": "-ūs longum, identicum nominativo in scriptura, sed longum in pronuntiatione." },
+        { "id": "d4-2", "prompt": "Genus verbi 'manus' (hand) est:", "options": ["masculinum", "femininum", "neutrum"], "answerIndex": 1, "explanation": "Exceptio: manus est femininum quamvis -us." },
+        { "id": "d4-3", "prompt": "Nominativus/accusativus pluralis verbi 'cornu' (neutrum) est:", "options": ["cornus", "cornua", "cornu"], "answerIndex": 1, "explanation": "Regula neutra: -ua (variante de -a), sicut mare→maria." },
+        { "id": "d4-4", "prompt": "'Exercitus' significat:", "options": ["exercise", "army", "senate"], "answerIndex": 1, "explanation": "exercitus, -ūs m. = army." }
+      ]
+    },
+    {
+      "id": "iii-decl4-fill", "type": "fill-blank", "title": "Comple cum Casu Recto",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "d4-5", "prompt": "___ urbem oppugnat. (The army — exercitus)", "options": ["Exercitus", "Exercitum", "Exercitui"], "answers": ["Exercitus"], "explanation": "Nominativus: exercitus." },
+        { "id": "d4-6", "prompt": "Dux ___ ducit. (the army — exercitum)", "options": ["exercitus", "exercitum", "exercitui"], "answers": ["exercitum"], "explanation": "Accusativus: exercitum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Quarta declinatio: -us masc./fem. (manus), -ū neutrum (cornū).",
+    "Genetivus -ūs (longum) distinguit a secunda declinatione (-ī).",
+    "Manus (hand) est exceptio: femininum quamvis in -us.",
+    "Vocabularium: manus, exercitus, senatus, currus, cornū, genū."
+  ],
+  "related": [
+    { "lessonId": "iii-adiectiva-tertiae-declinationis", "label": "Adiectiva Tertiae Declinationis" },
+    { "lessonId": "iii-declinatio-quinta", "label": "Declinatio Quinta" }
+  ]
+}

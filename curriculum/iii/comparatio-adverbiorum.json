@@ -1,0 +1,86 @@
+{
+  "id": "iii-comparatio-adverbiorum",
+  "level": "III",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammatica",
+  "strand": "comparatio",
+  "title": "Comparatio Adverbiorum",
+  "subtitle": "Fortiter, fortius, fortissime — comparatio derivata ab adiectivis.",
+  "prerequisites": ["iii-comparatio-adiectivorum"],
+  "objectives": [
+    "Formare comparativum adverbii (identicum neutro comparativi adiectivi)",
+    "Formare superlativum adverbii (-e ex superlativo adiectivi)",
+    "Memorare comparationes irregulares adverbiorum bene/male/multum",
+    "Distinguere adverbium comparativum ab adiectivo comparativo neutro"
+  ],
+  "content": {
+    "intro": "Comparātiō adverbiōrum dērīvātur dīrēctē ā comparātiōne adiectīvōrum, quam iam nōvistī — ergō haec lēctiō est brevis sed ūtilis cōnsolidātiō.",
+    "explanation": "<p>Comparātīvus adverbiī est semper identicus fōrmae neutrī sīngulāris comparātīvī adiectīvī; superlātīvus adverbiī fōrmātur removendō -us ā superlātīvō adiectīvī et addendō -ē.</p>",
+    "rules": [
+      {
+        "heading": "a) Comparativus: Neutrum Comparativi Adiectivi",
+        "body": "<p><em>fortiter</em> (bravely) → comparātīvus <strong>fortius</strong> (more bravely) — eadem fōrma ac neutrum comparātīvī adiectīvī 'fortior, fort<strong>ius</strong>'.</p>"
+      },
+      {
+        "heading": "b) Superlativus: Radix Superlativi + -e",
+        "body": "<p><em>fortissimus</em> (adi.) → <strong>fortissimē</strong> (adv., most bravely). Similiter: pulcherrimus → pulcherrimē.</p>"
+      },
+      {
+        "heading": "c) Irregularia Frequentia",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Positivus</th><th>Comparativus</th><th>Superlativus</th></tr></thead><tbody><tr><td>bene (well)</td><td>melius</td><td>optimē</td></tr><tr><td>male (badly)</td><td>peius</td><td>pessimē</td></tr><tr><td>multum (much)</td><td>plūs</td><td>plūrimum</td></tr><tr><td>magnopere (greatly)</td><td>magis</td><td>maximē</td></tr></tbody></table>"
+      }
+    ],
+    "examples": [
+      "Bene cantat, sed melius quam ego. — He sings well, but better than I.",
+      "Optime omnium scripsit. — He wrote best of all.",
+      "Celerius curre! — Run more quickly!",
+      "Pessime hoc egisti. — You did this most badly.",
+      "Magis eam amo quam te. — I love her more than you."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Adverbium comparativum tractatur ut distinctum ab neutro comparativi adiectivi, cum forma propria.",
+        "right": "'fortius' servit ambabus functionibus: adverbium comparativum ET adiectivum comparativum neutrum — identica forma, functio determinata per contextum.",
+        "why": "Haec est simplificatio elegans systematis: nulla forma nova discenda est."
+      },
+      {
+        "wrong": "Superlativus adverbii verbi 'bene' formatur *'benissime'.",
+        "right": "'optimē' — bene est irregulare, sicut bonus/melior/optimus.",
+        "why": "Adverbia irregularia sequuntur eandem irregularitatem ac adiectiva unde derivantur."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iii-compadv-mc", "type": "multiple-choice", "title": "Comparatio Adverbiorum",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "compadv1", "prompt": "Comparativus adverbii 'fortiter' est:", "options": ["fortius", "fortissime", "fortior"], "answerIndex": 0, "explanation": "Identicum neutro comparativi adiectivi." },
+        { "id": "compadv2", "prompt": "Superlativus adverbii 'bene' est:", "options": ["benissime", "melius", "optimē"], "answerIndex": 2, "explanation": "bene → melius → optimē (irregulare)." },
+        { "id": "compadv3", "prompt": "'Celerius curre!' significat:", "options": ["Run quickly!", "Run more quickly!", "Run most quickly!"], "answerIndex": 1, "explanation": "Comparativus: 'more quickly'." }
+      ]
+    },
+    {
+      "id": "iii-compadv-match", "type": "matching", "title": "Iunge Adverbium cum Comparativo",
+      "instructions": "Iunge quodque adverbium positivum cum comparativo suo.",
+      "items": [
+        { "id": "compadv4", "pairs": [
+          { "left": "bene", "right": "melius" },
+          { "left": "male", "right": "peius" },
+          { "left": "multum", "right": "plūs" },
+          { "left": "fortiter", "right": "fortius" }
+        ], "explanation": "Comparatio adverbiorum reflectit exactamente comparationem adiectivorum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Comparativus adverbii = neutrum comparativi adiectivi (fortius).",
+    "Superlativus adverbii = radix superlativi + -ē (fortissimē).",
+    "Irregularia: bene/melius/optimē, male/peius/pessimē, multum/plūs/plūrimum."
+  ],
+  "related": [
+    { "lessonId": "iii-comparatio-adiectivorum", "label": "Comparatio Adiectivorum" },
+    { "lessonId": "iii-vox-passiva-praesens", "label": "Vox Passiva Praesens" }
+  ]
+}

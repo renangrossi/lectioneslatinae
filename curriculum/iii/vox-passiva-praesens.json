@@ -1,0 +1,83 @@
+{
+  "id": "iii-vox-passiva-praesens",
+  "level": "III",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammatica",
+  "strand": "verba",
+  "title": "Vox Passiva Praesens",
+  "subtitle": "Amor, amaris, amatur — et la differentia inter agens et instrumentum.",
+  "prerequisites": ["iii-comparatio-adverbiorum"],
+  "objectives": [
+    "Formare vocem passivam praesentis omnium coniugationum",
+    "Distinguere ablativum agentis (a/ab + persona) ab ablativo instrumenti (res sola)",
+    "Convertere sententias inter vocem activam et passivam",
+    "Reconhecer desinentias passivas ut systema separatum ab activo"
+  ],
+  "content": {
+    "intro": "Vox passīva invertit relātiōnem inter subiectum et āctiōnem: <em>Puella rosam videt</em> (āctīva, 'the girl sees the rose') fit <em>Rosa ā puellā vidētur</em> (passīva, 'the rose is seen by the girl').",
+    "explanation": "<p>Dēsinentiae passīvae praesentis sunt: <strong>-or/-r, -ris(-re), -tur, -mur, -minī, -ntur</strong> — plānē differentēs ab āctīvīs.</p>",
+    "rules": [
+      {
+        "heading": "a) Paradigma: amor, amari 'to be loved'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Persona</th><th>Singularis</th><th>Pluralis</th></tr></thead><tbody><tr><td>1ª</td><td>am<strong>or</strong> — I am loved</td><td>am<strong>āmur</strong> — we are loved</td></tr><tr><td>2ª</td><td>amā<strong>ris</strong> — you are loved</td><td>amā<strong>minī</strong> — you (pl.) are loved</td></tr><tr><td>3ª</td><td>amā<strong>tur</strong> — he/she/it is loved</td><td>ama<strong>ntur</strong> — they are loved</td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Per Coniugationem",
+        "body": "<p>II: moneor, monēris, monētur... III: mittor, mitteris, mittitur... (nōtā vōcālem brevem 'i' ante -tur, ut in āctīvō) IV: audior, audīris, audītur...</p>"
+      },
+      {
+        "heading": "c) Ablativus Agentis vs. Instrumenti",
+        "body": "<p>Cum āctiōnem facit PERSŌNA, adhibētur <strong>ā/ab + ablātīvum</strong> (ablātīvus agentis): <em>Puella ā magistrā laudātur.</em> ('The girl is praised BY the teacher.') Cum āctiōnem facit RES (īnstrūmentum), adhibētur ablātīvus SŌLUS, sine praepositiōne (ablātīvus īnstrūmentī, ut in Gradū II vīdistī): <em>Puella verbīs laudātur.</em> ('The girl is praised WITH words.')</p>"
+      }
+    ],
+    "examples": [
+      "Liber a puero legitur. — The book is read by the boy.",
+      "Urbs a militibus defenditur. — The city is defended by the soldiers.",
+      "Verba magistri audiuntur. — The teacher's words are heard.",
+      "Epistula gladio non scribitur, sed stilo. — A letter is not written with a sword, but with a pen. (instrumentum)",
+      "Amamur et amamus. — We are loved and we love."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Puella a verbis laudatur' — 'a/ab' adhibitum ante ablativum instrumenti (rem, non personam).",
+        "right": "'Puella verbis laudatur' — sine 'a/ab', quia 'verbis' est instrumentum (res), non agens (persona).",
+        "why": "'a/ab' + ablativus est RESERVATUM personis quae actionem faciunt; res/instrumenta adhibent ablativum solum."
+      },
+      {
+        "wrong": "Desinentia -ris interpretatur ut identica activo -is (tertia coniugatio).",
+        "right": "-ris (passivum) vs -is (activum, 2a persona tertiae coniugationis) sunt formae distinctae — mittis (active) vs. mitteris (passive).",
+        "why": "Desinentiae passivae, quamvis similes, sunt semper morphologicē distinctae ab activis."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iii-pass-fill", "type": "fill-blank", "title": "Forma Vocem Passivam",
+      "instructions": "Comple cum forma recta passivi praesentis.",
+      "items": [
+        { "id": "pass1", "prompt": "Ego a magistro ___. (I am praised — laudor, laudare)", "options": ["laudo", "laudor", "laudatur"], "answers": ["laudor"], "explanation": "1a persona sg. passivum: laudor." },
+        { "id": "pass2", "prompt": "Liber ___. (is read — legitur, legere)", "options": ["legit", "legitur", "leguntur"], "answers": ["legitur"], "explanation": "3a persona sg. passivum: legitur." },
+        { "id": "pass3", "prompt": "Nos ___ (we are seen — videmur, videre)", "options": ["videmus", "videmur", "videntur"], "answers": ["videmur"], "explanation": "1a persona pl. passivum: vidēmur." }
+      ]
+    },
+    {
+      "id": "iii-pass-mc", "type": "multiple-choice", "title": "Agens vs. Instrumentum",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "pass4", "prompt": "'Urbs a militibus defenditur' — 'militibus' est:", "options": ["ablativus instrumenti (sine ā)", "ablativus agentis (cum ā), persona", "accusativus"], "answerIndex": 1, "explanation": "Persona quae agit + 'a/ab': agens." },
+        { "id": "pass5", "prompt": "'Epistula stilo scribitur' — 'stilo' est:", "options": ["ablativus agentis", "ablativus instrumenti, sine praepositione", "dativus"], "answerIndex": 1, "explanation": "Res/instrumentum: ablativus solus." },
+        { "id": "pass6", "prompt": "Desinentia passiva 3a persona pluralis est:", "options": ["-ntur", "-nt", "-ntus"], "answerIndex": 0, "explanation": "-ntur: passivum pluralis 3a persona." }
+      ]
+    }
+  ],
+  "summary": [
+    "Desinentiae passivae: -or/-r, -ris, -tur, -mur, -minī, -ntur.",
+    "Ablativus agentis (persona): ā/ab + ablativum. Ablativus instrumenti (res): ablativum solum, sine praepositione.",
+    "amor, amāris, amātur, amāmur, amāminī, amantur."
+  ],
+  "related": [
+    { "lessonId": "iii-comparatio-adverbiorum", "label": "Comparatio Adverbiorum" },
+    { "lessonId": "iii-pronomen-relativum", "label": "Pronomen Relativum" }
+  ]
+}

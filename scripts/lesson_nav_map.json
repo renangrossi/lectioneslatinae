@@ -148,7 +148,73 @@
       "ty": "numeri-ordinales-et-cardinales-amplius"
     }
   ],
-  "progressus": [],
+  "progressus": [
+    {
+      "slug": "declinatio-tertia-consonantes",
+      "title": "Declinatio Tertia: Consonantes",
+      "ty": "declinatio-tertia-consonantes"
+    },
+    {
+      "slug": "declinatio-tertia-i-stems",
+      "title": "Declinatio Tertia: I-Stems",
+      "ty": "declinatio-tertia-i-stems"
+    },
+    {
+      "slug": "adiectiva-tertiae-declinationis",
+      "title": "Adiectiva Tertiae Declinationis",
+      "ty": "adiectiva-tertiae-declinationis"
+    },
+    {
+      "slug": "declinatio-quarta",
+      "title": "Declinatio Quarta",
+      "ty": "declinatio-quarta"
+    },
+    {
+      "slug": "declinatio-quinta",
+      "title": "Declinatio Quinta",
+      "ty": "declinatio-quinta"
+    },
+    {
+      "slug": "tempus-imperfectum",
+      "title": "Tempus Imperfectum",
+      "ty": "tempus-imperfectum"
+    },
+    {
+      "slug": "tempus-futurum",
+      "title": "Tempus Futurum",
+      "ty": "tempus-futurum"
+    },
+    {
+      "slug": "comparatio-adiectivorum",
+      "title": "Comparatio Adiectivorum",
+      "ty": "comparatio-adiectivorum"
+    },
+    {
+      "slug": "comparatio-adverbiorum",
+      "title": "Comparatio Adverbiorum",
+      "ty": "comparatio-adverbiorum"
+    },
+    {
+      "slug": "vox-passiva-praesens",
+      "title": "Vox Passiva Praesens",
+      "ty": "vox-passiva-praesens"
+    },
+    {
+      "slug": "pronomen-relativum",
+      "title": "Pronomen Relativum",
+      "ty": "pronomen-relativum"
+    },
+    {
+      "slug": "pronomina-reflexiva",
+      "title": "Pronomina Reflexiva",
+      "ty": "pronomina-reflexiva"
+    },
+    {
+      "slug": "numeri-tempus-et-calendarium",
+      "title": "Numeri, Tempus et Calendarium",
+      "ty": "numeri-tempus-et-calendarium"
+    }
+  ],
   "media": [],
   "provectus": [],
   "altior": [],

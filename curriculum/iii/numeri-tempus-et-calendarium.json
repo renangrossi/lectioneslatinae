@@ -1,0 +1,92 @@
+{
+  "id": "iii-numeri-tempus-et-calendarium",
+  "level": "III",
+  "unit": "1",
+  "order": 13,
+  "skill": "vocabularium",
+  "strand": "numeri",
+  "title": "Numeri, Tempus et Calendarium",
+  "subtitle": "Semel, bis, ter — et le calendarium Romanum: Kalendae, Nonae, Idus.",
+  "prerequisites": ["iii-pronomina-reflexiva"],
+  "objectives": [
+    "Uti numeris adverbialibus (semel, bis, ter)",
+    "Cognoscere tria puncta fixa calendarii Romani: Kalendae, Nonae, Idus",
+    "Nominare duodecim menses Latine",
+    "Comprehendere formulam 'ante diem' pro datis"
+  ],
+  "content": {
+    "intro": "Ultima lectio Gradus III! Post haec, ad systema perfectum verbi in Gradu IV progredieris — sed prius, tempus est de tempore ipso loqui.",
+    "explanation": "<p>Calendārium Rōmānum nōn numerābat diēs continuē (1, 2, 3...) sīcut hodiē, sed retrō ā tribus punctīs fīxīs quōque mēnsis.</p>",
+    "rules": [
+      {
+        "heading": "a) Numeri Adverbiales",
+        "body": "<p><strong>semel</strong> (once), <strong>bis</strong> (twice), <strong>ter</strong> (three times), <strong>quater</strong> (four times), <strong>quīnquiēs</strong> (five times), <strong>deciēs</strong> (ten times). Exemplum: <em>Bis in diē edō.</em> ('I eat twice a day.')</p>"
+      },
+      {
+        "heading": "b) Tria Puncta Fixa",
+        "body": "<p><strong>Kalendae</strong> (1º diēs mēnsis), <strong>Nōnae</strong> (5º diēs, VEL 7º in Martiō/Maiō/Iūliō/Octōbrī), <strong>Īdūs</strong> (13º diēs, VEL 15º in eīsdem quattuor mēnsibus).</p>"
+      },
+      {
+        "heading": "c) Duodecim Menses",
+        "body": "<p>Iānuārius, Februārius, Mārtius, Aprīlis, Māius, Iūnius, Iūlius (ante Caesarem: Quīntīlis), Augustus (ante Augustum: Sextīlis), September, Octōber, November, December.</p>"
+      },
+      {
+        "heading": "d) Formula 'Ante Diem'",
+        "body": "<p>Datae exprimuntur retrō ā proximō punctō fīxō, numerandō INCLŪSĪVĒ: <strong>ante diem III Kalendās Aprīlēs</strong> ('three days before the Kalends of April', i.e. 30 Mārtiī, quia Rōmānī utrumque extrēmum numerābant). Abbreviātum: <strong>a.d. III Kal. Apr.</strong> Diēs ipse Kalendārum/Nōnārum/Īduum dīcitur simpliciter <em>Kalendīs</em>, <em>Nōnīs</em>, <em>Īdibus</em> (ablātīvus temporis).</p>"
+      }
+    ],
+    "examples": [
+      "Idibus Martiis Caesar necatus est. — Caesar was killed on the Ides of March.",
+      "Bis in anno ad avos visito. — I visit my grandparents twice a year.",
+      "Kalendis Ianuariis annus novus incipit. — The new year begins on the Kalends of January (Jan. 1).",
+      "Ter te vocavi. — I called you three times.",
+      "Mensis Iulius a Iulio Caesare nominatus est. — The month of July is named after Julius Caesar."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Idus Martiae' pronuntiatur tamquam adiectivum feminile singulare.",
+        "right": "'Idus' est substantivum pluralē (quartae declinationis, femininum): 'Idus Martiae' = 'the Ides of March' (litt. 'the March Ides').",
+        "why": "Kalendae, Nonae, Idus sunt omnia substantiva pluralia, non singularia — nulla forma singularis exsistit pro his conceptibus."
+      },
+      {
+        "wrong": "Numerus datae computatur non-inclusive, ut hodie (differentia simplex dierum).",
+        "right": "Romani numerabant INCLUSIVE, incluso et die initiali et die finali in computatione.",
+        "why": "Haec differentia methodologica saepe causat errores off-by-one in conversione datarum Romanarum ad calendarium modernum."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iii-cal-mc", "type": "multiple-choice", "title": "Calendarium: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "cal1", "prompt": "Kalendae sunt semper:", "options": ["dies 15 mensis", "dies 1 mensis", "dies ultimus mensis"], "answerIndex": 1, "explanation": "Kalendae = primus dies mensis." },
+        { "id": "cal2", "prompt": "'Idibus Martiis' refert ad:", "options": ["1 Martii", "15 Martii", "31 Martii"], "answerIndex": 1, "explanation": "Idus in Martio, Maio, Iulio, Octobri: dies 15." },
+        { "id": "cal3", "prompt": "Quomodo dicitur 'twice' Latine?", "options": ["semel", "bis", "ter"], "answerIndex": 1, "explanation": "bis = twice." },
+        { "id": "cal4", "prompt": "Mensis 'Iulius' nominatus est a:", "options": ["Augusto", "Iulio Caesare", "Romulo"], "answerIndex": 1, "explanation": "Quintilis renominatus est Iulius, in honorem Caesaris." }
+      ]
+    },
+    {
+      "id": "iii-cal-match", "type": "matching", "title": "Iunge Mensem cum Nomine",
+      "instructions": "Iunge quemque mensem cum nomine Latino.",
+      "items": [
+        { "id": "cal5", "pairs": [
+          { "left": "January", "right": "Ianuarius" },
+          { "left": "March", "right": "Martius" },
+          { "left": "May", "right": "Maius" },
+          { "left": "August", "right": "Augustus" },
+          { "left": "December", "right": "December" }
+        ], "explanation": "Plures nomina mensium Anglicorum derivantur directe a Latinis." }
+      ]
+    }
+  ],
+  "summary": [
+    "Numeri adverbiales: semel, bis, ter, quater, quinquies...",
+    "Tria puncta fixa: Kalendae (1), Nonae (5/7), Idus (13/15) — omnia substantiva pluralia.",
+    "Formula 'ante diem N Kalendas/Nonas/Idus [Mensis]' exprimit datas, numeratione inclusiva.",
+    "Congratulationes — Gradum III complevisti! Perge ad Gradum IV: Media."
+  ],
+  "related": [
+    { "lessonId": "iii-pronomina-reflexiva", "label": "Pronomina Reflexiva" }
+  ]
+}

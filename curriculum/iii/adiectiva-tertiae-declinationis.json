@@ -1,0 +1,88 @@
+{
+  "id": "iii-adiectiva-tertiae-declinationis",
+  "level": "III",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammatica",
+  "strand": "adiectiva",
+  "title": "Adiectiva Tertiae Declinationis",
+  "subtitle": "Fortis, forte; acer, acris, acre; ingens — omnia sunt i-stem.",
+  "prerequisites": ["iii-declinatio-tertia-i-stems"],
+  "objectives": [
+    "Declinare adiectiva duarum terminationum (fortis, forte)",
+    "Declinare adiectiva trium terminationum (acer, acris, acre)",
+    "Declinare adiectiva unius terminationis (ingens, gen. ingentis)",
+    "Applicare la regula: omnia adiectiva tertiae declinationis sunt i-stem"
+  ],
+  "content": {
+    "intro": "Bona nova: differenter ā nōminibus (ubi i-stem est excepta), OMNIA adiectīva tertiae dēclīnātiōnis sunt i-stem, sine exceptiōne. Ūna rēgula sōla simplificat tōtum systēma.",
+    "explanation": "<p>Adiectīva tertiae dēclīnātiōnis clāssificantur secundum numerum fōrmārum distīnctārum in nōminātīvō singulārī: trium, duārum, vel ūnīus terminātiōnis.</p>",
+    "rules": [
+      {
+        "heading": "a) Duarum Terminationum: fortis, forte 'brave/strong'",
+        "body": "<p>Māsc./fēm. identicī (fortis), neutrum differt (forte). Māxima classis.</p><table class=\"ref-table\"><thead><tr><th>Casus</th><th>M./F.</th><th>N.</th></tr></thead><tbody><tr><td>Nom. sg.</td><td>fortis</td><td>forte</td></tr><tr><td>Gen. sg.</td><td>fortis</td><td>fortis</td></tr><tr><td>Abl. sg.</td><td>fortī</td><td>fortī</td></tr><tr><td>Nom. pl.</td><td>fortēs</td><td>fortia</td></tr><tr><td>Gen. pl.</td><td>fortium</td><td>fortium</td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Trium Terminationum: acer, acris, acre 'sharp/fierce'",
+        "body": "<p>Trēs fōrmae distīnctae nōminātīvō: masc. <strong>acer</strong>, fem. <strong>acris</strong>, neut. <strong>acre</strong>. Cētera cāsūs sequuntur patrōnum 'fortis' (masc. = fem. praeter nōminātīvum).</p>"
+      },
+      {
+        "heading": "c) Unius Terminationis: ingens, gen. ingentis 'huge'",
+        "body": "<p>Ūna fōrma sōla in nōminātīvō, prō omnibus generibus: <strong>ingens</strong> (m./f./n.). Genetīvus revelat rādīcem: ingentis. Cētera cāsūs (incl. abl. sg. -ī, gen. pl. -ium) sequuntur i-stem patrōnum, ut omnia adiectīva tertiae.</p>"
+      },
+      {
+        "heading": "d) I-Stem Semper: Tria Signa",
+        "body": "<p>Omnia adiectīva tertiae dēclīnātiōnis, sine respectu classis, habent: ablātīvum singulārem <strong>-ī</strong>, genetīvum plūrālem <strong>-ium</strong>, nōminātīvum/accūsātīvum neutrum plūrālem <strong>-ia</strong>. Nūlla exceptiō, differenter ā nōminibus.</p>"
+      }
+    ],
+    "examples": [
+      "Vir fortis est. — The man is brave.",
+      "Femina fortis est. — The woman is brave. (eadem forma!)",
+      "Bellum forte... non, bellum est proprium exemplum: consilium forte est. — The plan is strong.",
+      "Gladius acer est. — The sword is sharp.",
+      "Bestia ingens appropinquat. — A huge beast approaches.",
+      "Omnia animalia ingentia sunt. — All the animals are huge."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ablativus singularis adiectivi tertiae declinationis formatur in -e, ut nomina consonantica.",
+        "right": "Omnia adiectiva tertiae declinationis habent ablativum singularem in -ī, quia sunt semper i-stem.",
+        "why": "Adiectiva non sequuntur variationem nominum (consonans pura vs. i-stem) — sunt uniformiter i-stem."
+      },
+      {
+        "wrong": "'ingens' tractatur ut habens formas separatas pro masculino/femininino/neutro in nominativo.",
+        "right": "'ingens' est adiectivum unius terminationis: eadem forma pro omnibus tribus generibus in nominativo.",
+        "why": "Classis 'unius terminationis' significat exactamente hoc: nulla distinctio formalis inter genera in nominativo."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iii-adi3-mc", "type": "multiple-choice", "title": "Adiectiva Tertiae: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "adi3-1", "prompt": "Ablativus singularis omnium adiectivorum tertiae declinationis desinit in:", "options": ["-e", "-ī", "-o"], "answerIndex": 1, "explanation": "Adiectiva tertiae sunt semper i-stem: abl. sg. -ī." },
+        { "id": "adi3-2", "prompt": "'Ingens' est adiectivum:", "options": ["trium terminationum", "duarum terminationum", "unius terminationis"], "answerIndex": 2, "explanation": "Una forma sola pro omni genere in nominativo." },
+        { "id": "adi3-3", "prompt": "Forma feminina nominativi singularis verbi 'acer' est:", "options": ["acer", "acris", "acre"], "answerIndex": 1, "explanation": "acer (m.), acris (f.), acre (n.) — trium terminationum." },
+        { "id": "adi3-4", "prompt": "Genetivus pluralis adiectivorum tertiae declinationis desinit in:", "options": ["-um", "-ium", "-orum"], "answerIndex": 1, "explanation": "I-stem semper: -ium." }
+      ]
+    },
+    {
+      "id": "iii-adi3-fill", "type": "fill-blank", "title": "Comple cum Adiectivo",
+      "instructions": "Elige formam rectam verbi 'fortis, forte'.",
+      "items": [
+        { "id": "adi3-5", "prompt": "Vir ___ est. (brave, m.)", "options": ["fortis", "forte", "fortes"], "answers": ["fortis"], "explanation": "Masc./fem. identici: fortis." },
+        { "id": "adi3-6", "prompt": "Bellum ___ est. (harsh/strong, n.)", "options": ["fortis", "forte", "fortia"], "answers": ["forte"], "explanation": "Neutrum: forte." }
+      ]
+    }
+  ],
+  "summary": [
+    "Trium terminationum (acer/acris/acre), duarum (fortis/forte), unius (ingens).",
+    "Omnia adiectiva tertiae declinationis sunt i-stem, sine exceptione.",
+    "Ablativus singularis -ī, genetivus pluralis -ium, neutrum plurale -ia — semper."
+  ],
+  "related": [
+    { "lessonId": "iii-declinatio-tertia-i-stems", "label": "Declinatio Tertia: I-Stems" },
+    { "lessonId": "iii-declinatio-quarta", "label": "Declinatio Quarta" }
+  ]
+}

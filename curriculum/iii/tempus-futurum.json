@@ -1,0 +1,89 @@
+{
+  "id": "iii-tempus-futurum",
+  "level": "III",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammatica",
+  "strand": "verba",
+  "title": "Tempus Futurum",
+  "subtitle": "Amabo vs. mittam — duo systemata futuri, secundum coniugationem.",
+  "prerequisites": ["iii-tempus-imperfectum"],
+  "objectives": [
+    "Formare futurum activum coniugationum I-II (-bo)",
+    "Formare futurum activum coniugationum III-IV (-am/-es)",
+    "Formare futurum irregulare verbi sum (ero)",
+    "Evitare errorem frequentissimum: confundere -am futuri (III/IV) cum -am subiunctivi"
+  ],
+  "content": {
+    "intro": "Latīna habet DUO systēmata omnīnō distīncta prō futūrō, secundum coniugātiōnem — error frequentissimus discipulōrum novōrum est applicāre ūnum systēma ubīque.",
+    "explanation": "<p>Coniugātiōnēs I-II adhibent signum <strong>-b-</strong> (ut imperfectum, sed sine ā/ē longā ubīque); coniugātiōnēs III-IV adhibent dēsinentiās <strong>-am/-ēs/-et...</strong>, similēs coniūnctīvō praesentī prīmae coniugātiōnis (unde cōnfūsiō orītur — sed contextus semper clārificat).</p>",
+    "rules": [
+      {
+        "heading": "a) Coniugationes I-II: Radix + -bo",
+        "body": "<p><strong>amābō</strong> (I will love), amā<strong>bis</strong>, amā<strong>bit</strong>, amā<strong>bimus</strong>, amā<strong>bitis</strong>, amā<strong>bunt</strong>. <strong>monēbō</strong>, monē<strong>bis</strong>, monē<strong>bit</strong>...</p>"
+      },
+      {
+        "heading": "b) Coniugationes III-IV: Radix + -am/-es/-et",
+        "body": "<p><strong>mittam</strong> (I will send), mitt<strong>ēs</strong>, mitt<strong>et</strong>, mitt<strong>ēmus</strong>, mitt<strong>ētis</strong>, mitt<strong>ent</strong>. <strong>audiam</strong> (I will hear), audi<strong>ēs</strong>, audi<strong>et</strong>, audi<strong>ēmus</strong>, audi<strong>ētis</strong>, audi<strong>ent</strong>.</p>"
+      },
+      {
+        "heading": "c) Sum: Futurum Irregulare",
+        "body": "<p><strong>erō</strong> (I will be), eris, erit, erimus, eritis, erunt.</p>"
+      },
+      {
+        "heading": "d) Distinguendum: Futurum III/IV vs. Coniunctivus",
+        "body": "<p>'mittam' (futūrum, 'I will send') est fōrmā identica alicui fōrmae coniūnctīvī praesentis prīmae coniugātiōnis ('amem' pattern) — sed est TERTIA coniugātiō hīc, futūrum, nōn coniūnctīvum. Contextus (persōna 1ª sōla ambigua; 2ª/3ª persōna cum -ēs/-et clārē futūrum sunt) semper resolvit ambiguitātem.</p>"
+      }
+    ],
+    "examples": [
+      "Cras veniam. — I will come tomorrow.",
+      "Numquam te obliviscar. — I will never forget you.",
+      "Milites urbem defendent. — The soldiers will defend the city.",
+      "Ero tecum semper. — I will be with you always.",
+      "Quid facies? — What will you do?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Futurum verbi tertiae coniugationis formatur *'mittebo', per analogiam cum prima/secunda.",
+        "right": "'mittam' — tertia/quarta coniugatio adhibent -am/-ēs/-et, non -bo.",
+        "why": "Confundere haec duo systemata est error frequentissimus; memoriā tenendum per coniugationem."
+      },
+      {
+        "wrong": "Futurum verbi primae coniugationis formatur *'amam', per analogiam cum tertia.",
+        "right": "'amābō' — prima/secunda coniugatio adhibent -bo/-bis/-bit.",
+        "why": "Systema -bo pertinet exclusive ad coniugationes I-II."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iii-fut-fill", "type": "fill-blank", "title": "Forma Futurum",
+      "instructions": "Comple cum forma recta futuri.",
+      "items": [
+        { "id": "fut1", "prompt": "Ego cras ___. (I will come — veniam, venire)", "options": ["veniebam", "veniam", "venibo"], "answers": ["veniam"], "explanation": "Quarta coniugatio: -am." },
+        { "id": "fut2", "prompt": "Tu semper ___. (you will love — amabis, amare)", "options": ["amabas", "amabis", "ames"], "answers": ["amabis"], "explanation": "Prima coniugatio: -bis." },
+        { "id": "fut3", "prompt": "Nos urbem ___. (we will defend — defendemus, defendere)", "options": ["defendebamus", "defendemus", "defendimus"], "answers": ["defendemus"], "explanation": "Tertia coniugatio: -ēmus." },
+        { "id": "fut4", "prompt": "Milites fortes ___. (will be — erunt, sum)", "options": ["sunt", "erant", "erunt"], "answers": ["erunt"], "explanation": "Futurum verbi sum, 3a pl.: erunt." }
+      ]
+    },
+    {
+      "id": "iii-fut-mc", "type": "multiple-choice", "title": "Futurum: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "fut5", "prompt": "Coniugationes I-II formant futurum cum signo:", "options": ["-bo/-bis/-bit", "-am/-es/-et", "-avi"], "answerIndex": 0, "explanation": "-b- est signum futuri I-II." },
+        { "id": "fut6", "prompt": "Coniugationes III-IV formant futurum cum:", "options": ["-bo/-bis/-bit", "-am/-ēs/-et", "-eram"], "answerIndex": 1, "explanation": "III-IV adhibent -am/-ēs/-et." },
+        { "id": "fut7", "prompt": "'Erō' significat:", "options": ["I was", "I am", "I will be"], "answerIndex": 2, "explanation": "Futurum irregulare verbi sum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Coniugationes I-II: -bo/-bis/-bit/-bimus/-bitis/-bunt (amābō).",
+    "Coniugationes III-IV: -am/-ēs/-et/-ēmus/-ētis/-ent (mittam, audiam).",
+    "Sum: erō, eris, erit, erimus, eritis, erunt.",
+    "Cave confusionem inter futurum III/IV (-am) et coniunctivum praesentem I (-em)."
+  ],
+  "related": [
+    { "lessonId": "iii-tempus-imperfectum", "label": "Tempus Imperfectum" },
+    { "lessonId": "iii-comparatio-adiectivorum", "label": "Comparatio Adiectivorum" }
+  ]
+}
