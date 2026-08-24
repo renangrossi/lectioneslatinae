@@ -1,0 +1,99 @@
+{
+  "id": "iii-declinatio-tertia-consonantes",
+  "level": "III",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammatica",
+  "strand": "declinatio",
+  "title": "Declinatio Tertia: Consonantes",
+  "subtitle": "Rex, regis; nomen, nominis — la maior et la plus varia declinatio.",
+  "prerequisites": ["ii-numeri-ordinales-et-cardinales-amplius"],
+  "objectives": [
+    "Declinare nomina tertiae declinationis a radice consonantica (rex, regis)",
+    "Applicare la regula neutra universalis in nominibus neutris tertiae declinationis",
+    "Cognoscere quod genetivus singularis (-is), non nominativus, revelat radicem",
+    "Memorare vocabularium frequens tertiae declinationis"
+  ],
+  "content": {
+    "intro": "Salvē in Gradum III! Tertia dēclīnātiō est māxima numerō nōminum, et māxime varia in nōminātīvō — sed genetīvus singulāris, semper -is, est fīlum Ariadnēs per hoc labyrinthum.",
+    "explanation": "<p>Nōminātīvus singulāris tertiae dēclīnātiōnis variat immēnsē (rex, cōnsul, virtūs, nōmen, tempus...) — nūlla dēsinentia fīxa. Sed genetīvus SEMPER dēsinit in <strong>-is</strong>, et rādīx (stem) invenītur removendō -is: <em>rēx, rēgis</em> → rādīx <strong>rēg-</strong>. Genus potest esse māsculīnum, fēminīnum, VEL neutrum.</p>",
+    "rules": [
+      {
+        "heading": "a) Paradigma: rex, regis (m.) 'king'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Casus</th><th>Sg.</th><th>Pl.</th></tr></thead><tbody><tr><td>Nom.</td><td>rēx</td><td>rēg<strong>ēs</strong></td></tr><tr><td>Gen.</td><td>rēg<strong>is</strong></td><td>rēg<strong>um</strong></td></tr><tr><td>Dat.</td><td>rēg<strong>ī</strong></td><td>rēg<strong>ibus</strong></td></tr><tr><td>Acc.</td><td>rēg<strong>em</strong></td><td>rēg<strong>ēs</strong></td></tr><tr><td>Abl.</td><td>rēg<strong>e</strong></td><td>rēg<strong>ibus</strong></td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Paradigma: nomen, nominis (n.) 'name'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Casus</th><th>Sg.</th><th>Pl.</th></tr></thead><tbody><tr><td>Nom.</td><td>nōmen</td><td>nōmin<strong>a</strong></td></tr><tr><td>Gen.</td><td>nōmin<strong>is</strong></td><td>nōmin<strong>um</strong></td></tr><tr><td>Dat.</td><td>nōmin<strong>ī</strong></td><td>nōmin<strong>ibus</strong></td></tr><tr><td>Acc.</td><td>nōmen</td><td>nōmin<strong>a</strong></td></tr><tr><td>Abl.</td><td>nōmin<strong>e</strong></td><td>nōmin<strong>ibus</strong></td></tr></tbody></table><p>Nōtā: regula neutra (nōm.=acc., plūrāle -a) applicātur hīc quoque, exactē ut in secundā dēclīnātiōne.</p>"
+      },
+      {
+        "heading": "c) Vocabularium Frequens",
+        "body": "<p>Māsc./Fēm.: rēx, rēgis (king); cōnsul, cōnsulis (consul); virtūs, virtūtis f. (courage); mīles, mīlitis m. (soldier); pater, patris m. (father); māter, mātris f. (mother); homō, hominis m. (human). Neutr.: nōmen, nōminis (name); tempus, temporis (time); corpus, corporis (body); genus, generis (kind/race).</p>"
+      }
+    ],
+    "examples": [
+      "Rex populum regit. — The king rules the people.",
+      "Nomen meum Marcus est. — My name is Marcus.",
+      "Milites fortiter pugnant. — The soldiers fight bravely.",
+      "Tempus fugit. — Time flies.",
+      "Pater filium amat. — The father loves his son.",
+      "Corpus hominis mortale est. — The body of a human is mortal."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus tentat praedicere radicem ex sola nominativo (e.g. supponens 'rex' → 'rexis').",
+        "right": "Radix semper invenitur ex genetivo singulari: rēx, rēg-is → radix rēg-.",
+        "why": "Nominativus tertiae declinationis subit multas mutationes phoneticas historicas (rex < *reg-s); genetivus conservat radicem puram."
+      },
+      {
+        "wrong": "'tempus' declinatur ut si esset secundae declinationis, per similitudinem cum 'templum'.",
+        "right": "'tempus, temporis' est tertiae declinationis neutrum: genetivus temporis, non templi.",
+        "why": "Similitudo superficialis in nominativo (-us/-um) potest fallere; genetivus semper verificat declinationem veram."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iii-decl3c-fill", "type": "fill-blank", "title": "Comple cum Casu Recto",
+      "instructions": "Elige formam rectam verbi 'rex, regis'.",
+      "items": [
+        { "id": "d3c-1", "prompt": "___ populum regit. (The king — nominativus)", "options": ["Rex", "Regis", "Regem"], "answers": ["Rex"], "explanation": "Subiectum: nominativus." },
+        { "id": "d3c-2", "prompt": "Populus ___ videt. (the king — accusativus)", "options": ["rex", "regis", "regem"], "answers": ["regem"], "explanation": "Obiectum directum: accusativus." },
+        { "id": "d3c-3", "prompt": "Domus ___ magna est. (the king's — genetivus)", "options": ["rex", "regis", "regi"], "answers": ["regis"], "explanation": "Possessio: genetivus." },
+        { "id": "d3c-4", "prompt": "Populus ___ paret. (the king — dativus, pareo)", "options": ["regis", "regi", "regem"], "answers": ["regi"], "explanation": "pareo regit dativum." }
+      ]
+    },
+    {
+      "id": "iii-decl3c-mc", "type": "multiple-choice", "title": "Declinatio Tertia: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "d3c-5", "prompt": "Genetivus singularis tertiae declinationis semper desinit in:", "options": ["-i", "-is", "-ae"], "answerIndex": 1, "explanation": "-is est signum universale genetivi tertiae declinationis." },
+        { "id": "d3c-6", "prompt": "Quod genus PUELLA/POTEST esse tertiae declinationis?", "options": ["solum masculinum", "solum femininum", "masculinum, femininum, VEL neutrum"], "answerIndex": 2, "explanation": "Tertia declinatio accipit omnia tria genera." },
+        { "id": "d3c-7", "prompt": "Nominativus/accusativus neutri pluralis tertiae declinationis desinit in:", "options": ["-a", "-es", "-um"], "answerIndex": 0, "explanation": "Regula neutra universalis: -a, sicut in secunda declinatione." },
+        { "id": "d3c-8", "prompt": "Radix verbi 'tempus, temporis' est:", "options": ["temp-", "tempor-", "tempus-"], "answerIndex": 1, "explanation": "Removendo -is a genetivo: tempor-." }
+      ]
+    },
+    {
+      "id": "iii-decl3c-match", "type": "matching", "title": "Iunge Nomen cum Genetivo",
+      "instructions": "Iunge quodque nomen cum genetivo suo.",
+      "items": [
+        { "id": "d3c-9", "pairs": [
+          { "left": "rex", "right": "regis" },
+          { "left": "consul", "right": "consulis" },
+          { "left": "virtus", "right": "virtutis" },
+          { "left": "corpus", "right": "corporis" },
+          { "left": "homo", "right": "hominis" }
+        ], "explanation": "Genetivus revelat semper radicem vera nominis tertiae declinationis." }
+      ]
+    }
+  ],
+  "summary": [
+    "Tertia declinatio: genetivus semper -is; radix ex genetivo, non nominativo.",
+    "Genus liberum: masculinum, femininum, vel neutrum.",
+    "Neutra sequuntur regulam neutram universalem (nom.=acc., plurale -a).",
+    "Vocabularium frequens: rex, consul, virtus, miles, pater, nomen, tempus, corpus."
+  ],
+  "related": [
+    { "lessonId": "iii-declinatio-tertia-i-stems", "label": "Declinatio Tertia: I-Stems" }
+  ]
+}
