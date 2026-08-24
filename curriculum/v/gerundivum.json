@@ -1,0 +1,87 @@
+{
+  "id": "v-gerundivum",
+  "level": "V",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammatica",
+  "strand": "nominalia",
+  "title": "Gerundivum",
+  "subtitle": "Agendum est — adiectivum passivum obligationis, cum dativo agentis.",
+  "prerequisites": ["v-gerundium"],
+  "objectives": [
+    "Formare gerundivum (adiectivum verbale passivum) et distinguere illud a gerundio",
+    "Uti coniugatione periphrastica passiva (gerundivum + sum) pro obligatione",
+    "Uti dativo agentis cum gerundivo (non ablativo ā/ab)",
+    "Applicare 'attractionem gerundivam': gerundivum substituit gerundium cum obiecto directo"
+  ],
+  "content": {
+    "intro": "'Carthago dēlenda est' ('Carthage must be destroyed', famosa sententia Catonis) illustra perfecte gerundivum: adiectīvum verbāle passīvum, exprimēns OBLIGĀTIŌNEM.",
+    "explanation": "<p>Gerundīvum est fōrmā IDENTICUM gerundiō (rādīx + -nd- + -us, -a, -um), sed FUNCTIŌNE differt: est ADIECTĪVUM, concordāns cum nōmine, cum sēnsū PASSĪVŌ OBLIGĀTIŌNIS.</p>",
+    "rules": [
+      {
+        "heading": "a) Coniugatio Periphrastica Passiva: Gerundivum + Sum",
+        "body": "<p><strong>Liber legendus est.</strong> ('The book must be read.') <strong>Urbs dēfendenda erat.</strong> ('The city had to be defended.') Gerundīvum concordat cum subiectō, ut participium normāle.</p>"
+      },
+      {
+        "heading": "b) Dativus Agentis (NON Ā/Ab!)",
+        "body": "<p>Cum coniugātiōne periphrasticā passīvā, persōna quae dēbet agere pōnitur in DATĪVŌ (nōn ablātīvō ā/ab, ut in vōce passīvā normālī): <strong>Liber mihi legendus est.</strong> ('The book must be read BY ME' / 'I must read the book'.)</p>"
+      },
+      {
+        "heading": "c) Attractio Gerundiva",
+        "body": "<p>Cum gerundium regeret obiectum accūsātīvum, Latīna Classica PRAEFERT gerundīvum concordāns cum illō obiectō (nunc ablātīvō/genetīvō/etc., secundum cāsum requīsītum), magis quam gerundium + accūsātīvum: praefertur <strong>ad urbem videndam</strong> ('for seeing the city', litt. 'for the city about-to-be-seen') magis quam <em>*ad urbem vidēndum</em>. Compara: sine obiectō, gerundium simplex manet (<em>ad videndum</em>, 'for seeing' sōlum).</p>"
+      },
+      {
+        "heading": "d) Nomina Derivata",
+        "body": "<p>Multa nōmina Anglica dērīvantur ā gerundīvō Latīnō: 'agenda' (ea quae agenda sunt, 'things to be done'), 'memorandum' ('that which must be remembered'), 'referendum' ('that which must be referred [to the people]').</p>"
+      }
+    ],
+    "examples": [
+      "Carthago delenda est. — Carthage must be destroyed.",
+      "Haec nobis facienda sunt. — These things must be done by us.",
+      "Liber tibi legendus est. — The book must be read by you.",
+      "Ad urbem defendendam milites misit. — He sent soldiers to defend the city.",
+      "Multa discenda sunt antequam magister fias. — Many things must be learned before you become a teacher."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Persona quae debet agere ponitur in ablativo cum ā/ab, ut in voce passiva normali ('a me legendus est').",
+        "right": "Cum gerundivo, persona ponitur in DATIVO (mihi legendus est), non ablativo agentis.",
+        "why": "Coniugatio periphrastica passiva sequitur regulam propriam, differentem a voce passiva normali synthetica."
+      },
+      {
+        "wrong": "'Ad urbem vidēndum' adhibetur, cum gerundio + obiecto accusativo directo.",
+        "right": "'Ad urbem vidēndam' — gerundivum concordans cum obiecto, substituens gerundium + accusativum.",
+        "why": "Attractio gerundiva est regula stricta et frequens in prosa classica: gerundivum praefertur ubi obiectum directum exsisteret."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "v-gerd-mc", "type": "multiple-choice", "title": "Gerundivum: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "gerd1", "prompt": "'Carthago delenda est' significat:", "options": ["Carthage destroys", "Carthage must be destroyed", "Carthage was destroyed"], "answerIndex": 1, "explanation": "Coniugatio periphrastica passiva: obligatio." },
+        { "id": "gerd2", "prompt": "Persona agens cum gerundivo ponitur in:", "options": ["ablativo cum ā/ab", "dativo"], "answerIndex": 1, "explanation": "Dativus agentis: regula specialis gerundivi." },
+        { "id": "gerd3", "prompt": "'Ad urbem defendendam' demonstrat:", "options": ["gerundium simplex", "attractionem gerundivam (gerundivum + obiectum)"], "answerIndex": 1, "explanation": "Gerundivum concordans cum obiecto, substituens gerundium+accusativum." }
+      ]
+    },
+    {
+      "id": "v-gerd-fill", "type": "fill-blank", "title": "Forma Gerundivum",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "gerd4", "prompt": "Liber ___ est. (must be read, m. — legendus)", "options": ["legens", "legendus", "lectus"], "answers": ["legendus"], "explanation": "Gerundivum, concordans masculino." },
+        { "id": "gerd5", "prompt": "Haec nobis ___ sunt. (must be done — facienda)", "options": ["facienda", "faciens", "facta"], "answers": ["facienda"], "explanation": "Gerundivum plurale neutrum: facienda." }
+      ]
+    }
+  ],
+  "summary": [
+    "Gerundivum: adiectivum verbale passivum, forma identica gerundio, sensu obligationis.",
+    "Coniugatio periphrastica passiva: gerundivum + sum ('must be X-ed').",
+    "Dativus agentis cum gerundivo (non ablativus ā/ab).",
+    "Attractio gerundiva: gerundivum concordans substituit gerundium + obiectum accusativum."
+  ],
+  "related": [
+    { "lessonId": "v-gerundium", "label": "Gerundium" },
+    { "lessonId": "v-supinum", "label": "Supinum" }
+  ]
+}

@@ -285,51 +285,51 @@
           "lessons": [
             {
               "id": "v-coniunctivus-perfectum-et-plusquamperfectum",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "v-consecutio-temporum",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "v-clausulae-consecutivae",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "v-interrogationes-obliquae",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "v-cum-historicum-causale-concessivum",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "v-condiciones",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "v-clausulae-timendi",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "v-clausulae-characteristicae",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "v-gerundium",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "v-gerundivum",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "v-supinum",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "v-ablativus-absolutus-amplius",
-              "status": "planned"
+              "status": "published"
             }
           ]
         }

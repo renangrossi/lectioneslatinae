@@ -1,0 +1,86 @@
+{
+  "id": "v-coniunctivus-perfectum-et-plusquamperfectum",
+  "level": "V",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammatica",
+  "strand": "coniunctivus",
+  "title": "Coniunctivus Perfectum et Plusquamperfectum",
+  "subtitle": "Amaverim, amavissem — duo tempora ultima coniunctivi, cum radice perfecti.",
+  "prerequisites": ["iv-recognitio-systema-verbi"],
+  "objectives": [
+    "Formare coniunctivum perfectum activum (radix perfecti + erim)",
+    "Formare coniunctivum plusquamperfectum activum (infinitivus perfectus + m, id est radix + issem)",
+    "Formare ambo tempora in voce passiva (participium + sim/essem)",
+    "Distinguere coniunctivum perfectum a futuro perfecto indicativo, formaliter similes"
+  ],
+  "content": {
+    "intro": "Salvē in Gradum V! Coniūnctīvus praesēns et imperfectus iam nōtī sunt; hodiē complēbimus systēma cum duōbus tempōribus ultimīs, ambōbus super rādīce perfectī aedificātīs.",
+    "explanation": "<p>Sīcut indicātīvus, coniūnctīvus quoque habet quattuor tempora: praesēns, imperfectum (iam nōta), perfectum, plūsquamperfectum (hodiē).</p>",
+    "rules": [
+      {
+        "heading": "a) Coniunctivus Perfectus Activus: Radix Perfecti + erim",
+        "body": "<p><strong>amāverim</strong>, amāverīs, amāverit, amāverīmus, amāverītis, amāverint. AVISO: fōrmāliter simile futūrō perfectō indicātīvō (amāverō, amāveris...), sed differt in 1ª persōnā (-erim vs. -erō) et vōcālibus longīs variīs — contextus (praesentia/absentia coniūnctiōnis subōrdinātae) semper clārificat.</p>"
+      },
+      {
+        "heading": "b) Coniunctivus Plusquamperfectus Activus: Infinitivus Perfectus + Desinentiae",
+        "body": "<p><strong>amāvissem</strong>, amāvissēs, amāvisset, amāvissēmus, amāvissētis, amāvissent — litterāliter īnfīnītīvus perfectus 'amāvisse' + dēsinentiae, sīcut coniūnctīvus imperfectus vēnit ab īnfīnītīvō praesentī.</p>"
+      },
+      {
+        "heading": "c) Vox Passiva: Participium + Sim/Essem",
+        "body": "<p>Coniūnctīvus perfectus passīvus: <strong>amātus sim</strong> (participium + coniūnctīvus praesēns verbī sum). Coniūnctīvus plūsquamperfectus passīvus: <strong>amātus essem</strong> (participium + coniūnctīvus imperfectus verbī sum).</p>"
+      },
+      {
+        "heading": "d) Sum: Ambo Tempora",
+        "body": "<p>Coniūnctīvus perfectus: <strong>fuerim</strong>, fuerīs, fuerit... Coniūnctīvus plūsquamperfectus: <strong>fuissem</strong>, fuissēs, fuisset...</p>"
+      }
+    ],
+    "examples": [
+      "Nescio quid dixerit. — I do not know what he said. (coniunctivus perfectus, interrogatio obliqua)",
+      "Si hoc fecisset, punitus esset. — If he had done this, he would have been punished. (condicio irrealis praeterita)",
+      "Cum urbem cepissent, discesserunt. — When they had captured the city, they left.",
+      "Dubito num verum dixerit. — I doubt whether he told the truth.",
+      "Utinam id numquam fecissem! — If only I had never done that!"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Coniunctivus perfectus confunditur cum futuro perfecto indicativo, ambo tractati identice.",
+        "right": "'Amāverim' (coniunctivus) apparet solum in clausulis subordinatis (interrogatio obliqua, etc.); 'amāverō' (indicativus) apparet in clausulis condicionalis/temporalis independentis.",
+        "why": "Distinctio contextus grammatica (subordinatio vs. independentia) resolvit ambiguitatem formalem."
+      },
+      {
+        "wrong": "Coniunctivus plusquamperfectus formatur *'amaverem', per confusione cum imperfecto.",
+        "right": "'amāvissem' — infinitivus PERFECTUS (amāvisse) + desinentiae, non infinitivus praesens.",
+        "why": "Radix perfecti (amāv-) debet esse praesens in coniunctivo plusquamperfecto, differenter ab imperfecto (radix praesentis)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "v-conjperf-mc", "type": "multiple-choice", "title": "Coniunctivus Perfectus/Plusquamperfectus",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "conjperf1", "prompt": "Coniunctivus perfectus activus est formatus:", "options": ["radix perfecti + erim", "radix praesentis + erim", "participium + sim"], "answerIndex": 0, "explanation": "amāverim: radix perfecti + erim." },
+        { "id": "conjperf2", "prompt": "Coniunctivus plusquamperfectus activus est formatus:", "options": ["radix praesentis + issem", "infinitivus perfectus + desinentiae", "participium + essem"], "answerIndex": 1, "explanation": "amāvissem: infinitivus perfectus + desinentiae." },
+        { "id": "conjperf3", "prompt": "Coniunctivus perfectus passivus est formatus:", "options": ["participium + sim", "participium + sum", "radix perfecti + im"], "answerIndex": 0, "explanation": "amātus sim: participium + coniunctivus praesens sum." }
+      ]
+    },
+    {
+      "id": "v-conjperf-fill", "type": "fill-blank", "title": "Forma Coniunctivum",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "conjperf4", "prompt": "Nescio quid ___. (he said — dixerit, dicere)", "options": ["dicit", "dixit", "dixerit"], "answers": ["dixerit"], "explanation": "Interrogatio obliqua: coniunctivus perfectus." },
+        { "id": "conjperf5", "prompt": "Si hoc ___, punitus esset. (he had done — fecisset, facere)", "options": ["faceret", "fecisset", "facturus esset"], "answers": ["fecisset"], "explanation": "Condicio irrealis praeterita: coniunctivus plusquamperfectus." }
+      ]
+    }
+  ],
+  "summary": [
+    "Coniunctivus perfectus activus: radix perfecti + erim (amāverim).",
+    "Coniunctivus plusquamperfectus activus: infinitivus perfectus + desinentiae (amāvissem).",
+    "Passivum: participium + sim (perfectus) / essem (plusquamperfectus).",
+    "Systema coniunctivi nunc completum: praesens, imperfectum, perfectum, plusquamperfectum."
+  ],
+  "related": [
+    { "lessonId": "v-consecutio-temporum", "label": "Consecutio Temporum" }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "v-cum-historicum-causale-concessivum",
+  "level": "V",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammatica",
+  "strand": "clausulae",
+  "title": "Cum Historicum, Causale, Concessivum",
+  "subtitle": "Cum + coniunctivus: 'when', 'since', vel 'although' — tria sensus, una constructio.",
+  "prerequisites": ["v-interrogationes-obliquae"],
+  "objectives": [
+    "Distinguere cum temporale (+indicativus) a cum historicum/causale/concessivum (+coniunctivus)",
+    "Traducere cum-clausulas correcte secundum contextum: when/since/although",
+    "Cognoscere 'tamen' ut indicium frequens clausulae concessivae",
+    "Applicare consecutionem temporum in cum-clausulis"
+  ],
+  "content": {
+    "intro": "'Cum' est una ex particulis versatilioribus Latinae: potest significare 'when' (simplex), 'since' (causa), vel 'although' (concessio) — omnia cum EADEM verbo, sed cāsu coniūnctīvō (praeter usum pure temporalem).",
+    "explanation": "<p>Distinctiō fundāmentālis: <strong>cum temporāle pūrum</strong> (āctiō simpliciter simultānea, sine implicātiōne causae/concessiōnis) adhibet INDICĀTĪVUM; <strong>cum historicum</strong> (narrātīvum, in contextū praeteritō) et <strong>cum causāle/concessīvum</strong> adhibent semper CONIŪNCTĪVUM.</p>",
+    "rules": [
+      {
+        "heading": "a) Cum Temporale Purum: + Indicativus",
+        "body": "<p>Rārior, praesertim cum praesenti/futūrō, vel cum sēnsū pūrē mechanicō: <em>Cum Rōmam veniō, semper templa vīsitō.</em> ('Whenever I come to Rome, I always visit the temples.')</p>"
+      },
+      {
+        "heading": "b) Cum Historicum: + Coniunctivus Imperfectus/Plusquamperfectus",
+        "body": "<p>Narrātīvum, in contextū praeteritō, dēscrībēns circumstantiās: <em>Cum Caesar in Galliā esset, multa bella gessit.</em> ('When/while Caesar was in Gaul, he waged many wars.')</p>"
+      },
+      {
+        "heading": "c) Cum Causale: 'Since, Because'",
+        "body": "<p>Idem fōrma, sēnsus causālis: <em>Cum fessus essem, domī mānsī.</em> ('Since I was tired, I stayed home.')</p>"
+      },
+      {
+        "heading": "d) Cum Concessivum: 'Although', saepe cum Tamen",
+        "body": "<p>Sēnsus concessīvus, frequenter cōnfīrmātus per 'tamen' in clausulā prīncipālī: <em>Cum fessus esset, tamen labōrāvit.</em> ('Although he was tired, he nevertheless worked.')</p>"
+      }
+    ],
+    "examples": [
+      "Cum Roma condita esset, Romulus primus rex fuit. — When/since Rome had been founded, Romulus was the first king.",
+      "Cum pecuniam non haberet, auxilium petivit. — Since he did not have money, he sought help.",
+      "Cum periculum magnum esset, tamen non fugerunt. — Although the danger was great, they did not flee nonetheless.",
+      "Cum tacerent omnes, orator surrexit. — While/when everyone was silent, the orator rose.",
+      "Cum id sciam, tibi non dicam. — Although I know this, I will not tell you."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Cum' + indicativus tractatur semper ut error, sine exceptione.",
+        "right": "Cum temporale purum (rarum, mechanicum) admittit indicativum; cum historicum/causale/concessivum postulat coniunctivum.",
+        "why": "Distinctio dependet a nuance semantica: cum temporale purum differt a cum narrativo/causali/concessivo."
+      },
+      {
+        "wrong": "'Cum' semper vertitur 'when', neglectis nuances causalibus/concessivis.",
+        "right": "Contextus (praesentia 'tamen', relatio logica implicita) determinat utrum 'cum' significet when/since/although.",
+        "why": "Una sola forma grammatica servit tribus functionibus semanticis distinctis — contextus est essentialis."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "v-cum-mc", "type": "multiple-choice", "title": "Cum: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "cum1", "prompt": "'Cum fessus esset, tamen laboravit' — 'cum' hic significat:", "options": ["when (temporale purum)", "although (concessivum)", "if (condicionale)"], "answerIndex": 1, "explanation": "'tamen' indicat sensum concessivum." },
+        { "id": "cum2", "prompt": "Cum historicum semper regit:", "options": ["indicativum", "coniunctivum", "imperativum"], "answerIndex": 1, "explanation": "Narrativum praeteritum: semper coniunctivus." },
+        { "id": "cum3", "prompt": "'Cum Rōmam veniō, templa vīsitō' — quod tempus/modus adhibetur?", "options": ["coniunctivus praesens", "indicativus praesens (cum temporale purum)", "coniunctivus imperfectum"], "answerIndex": 1, "explanation": "Cum mecanicum/repetitivum, indicativus." }
+      ]
+    },
+    {
+      "id": "v-cum-fill", "type": "fill-blank", "title": "Comple cum Cum-Clausula",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "cum4", "prompt": "Cum pecuniam non ___, auxilium petivit. (he did not have — haberet)", "options": ["habet", "habebat", "haberet"], "answers": ["haberet"], "explanation": "Cum causale, historicum: coniunctivus imperfectus." },
+        { "id": "cum5", "prompt": "Cum periculum magnum ___, tamen non fugerunt. (was — esset)", "options": ["est", "erat", "esset"], "answers": ["esset"], "explanation": "Cum concessivum: coniunctivus imperfectus." }
+      ]
+    }
+  ],
+  "summary": [
+    "Cum temporale purum (rarum): + indicativus.",
+    "Cum historicum/causale/concessivum: + coniunctivus, semper.",
+    "Sensus (when/since/although) determinatur per contextum, praesertim praesentiam 'tamen' pro concessivo."
+  ],
+  "related": [
+    { "lessonId": "v-interrogationes-obliquae", "label": "Interrogationes Obliquae" },
+    { "lessonId": "v-condiciones", "label": "Condiciones" }
+  ]
+}

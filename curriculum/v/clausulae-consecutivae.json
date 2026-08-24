@@ -1,0 +1,87 @@
+{
+  "id": "v-clausulae-consecutivae",
+  "level": "V",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammatica",
+  "strand": "clausulae",
+  "title": "Clausulae Consecutivae",
+  "subtitle": "Tam...ut — 'so...that', cum negatione ut non, distincta a clausula finali.",
+  "prerequisites": ["v-consecutio-temporum"],
+  "objectives": [
+    "Formare clausulas consecutivas cum ut + coniunctivus",
+    "Uti verbis signaculis frequentibus (tam, tantus, talis, ita, sic)",
+    "Distinguere negationem clausulae consecutivae (ut non) a clausula finali (ne)",
+    "Applicare consecutionem temporum in clausulis consecutivis"
+  ],
+  "content": {
+    "intro": "'Tam fessus erat ut dormīret' ('He was so tired that he fell asleep') — clausula cōnsecūtīva exprimit RESULTĀTUM, differenter ā clausulā fīnālī, quae exprimit PROPOSITUM.",
+    "explanation": "<p>Clausula cōnsecūtīva adhibet <strong>ut</strong> + coniūnctīvum, saepe annūntiāta ab adverbiō/adiectīvō intēnsīvō in clausulā prīncipālī.</p>",
+    "rules": [
+      {
+        "heading": "a) Verba Signacula (Signal Words)",
+        "body": "<p><strong>tam</strong> (so, cum adiectīvō/adverbiō), <strong>tantus, -a, -um</strong> (so great/much), <strong>tālis, -e</strong> (such/of such a kind), <strong>ita</strong>/<strong>sīc</strong> (so, cum verbō). Exemplum: <em>Tanta erat tempestās ut nēmō exīret.</em> ('The storm was SO great THAT no one went out.')</p>"
+      },
+      {
+        "heading": "b) Negatio: Ut Non (NON Ne!)",
+        "body": "<p>DIFFERENTER ā clausulā fīnālī (nē), negātiō clausulae cōnsecūtīvae est <strong>ut... nōn</strong>: <em>Tam fessus erat ut nōn labōrāret.</em> ('He was so tired that he did NOT work.') Haec distīnctiō (nē vs. ut nōn) est error frequentissimus inter clausulās fīnālēs et cōnsecūtīvās.</p>"
+      },
+      {
+        "heading": "c) Distinctio ā Clausula Finali",
+        "body": "<table class=\"ref-table\"><thead><tr><th></th><th>Finalis (propositum)</th><th>Consecutiva (resultatum)</th></tr></thead><tbody><tr><td>Affirmativa</td><td>ut</td><td>ut</td></tr><tr><td>Negativa</td><td>nē</td><td>ut nōn</td></tr><tr><td>Exemplum</td><td>Venit ut videat. (in order to see)</td><td>Tam fessus est ut nōn videat. (so tired that he doesn't see)</td></tr></tbody></table>"
+      },
+      {
+        "heading": "d) Consecutio Temporum",
+        "body": "<p>Rēgula normālis applicātur: coniūnctīvus praesēns/perfectus post prīmārium, imperfectus/plūsquamperfectus post historicum — sīcut in clausulīs fīnālibus.</p>"
+      }
+    ],
+    "examples": [
+      "Tam clara erat vox eius ut omnes audirent. — His voice was so loud that everyone heard.",
+      "Tanta erat multitudo ut viam invenire non possemus. — The crowd was so great that we could not find the way.",
+      "Ita fortiter pugnaverunt ut hostes fugerent. — They fought so bravely that the enemies fled.",
+      "Nemo est tam stultus ut hoc non intellegat. — No one is so foolish that he doesn't understand this.",
+      "Tam bene scripsit ut omnes eum laudarent. — He wrote so well that everyone praised him."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Negatio clausulae consecutivae formatur 'nē', per confusionem cum clausula finali.",
+        "right": "Negatio clausulae consecutivae est SEMPER 'ut nōn' (numquam 'nē').",
+        "why": "Haec est distinctio grammatica principalis inter duas clausulas formaliter similes (ambae 'ut' + coniunctivus in forma affirmativa)."
+      },
+      {
+        "wrong": "Discipulus non identificat verbum signaculum (tam/tantus/ita) ut indicium clausulae consecutivae.",
+        "right": "Praesentia verbi intensivi (tam, tantus, talis, ita, sic) in clausula principali est indicium fortis clausulae consecutivae sequentis.",
+        "why": "Hoc indicium adiuvat distinguere consecutivam a finali etiam ante videre negationem."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "v-consec2-mc", "type": "multiple-choice", "title": "Clausulae Consecutivae: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "consec2-1", "prompt": "Negatio clausulae consecutivae est:", "options": ["nē", "ut nōn", "nōn ut"], "answerIndex": 1, "explanation": "'ut nōn' — distinctio ab clausula finali." },
+        { "id": "consec2-2", "prompt": "'Tam fessus erat ut dormiret' est clausula:", "options": ["finalis (propositum)", "consecutiva (resultatum)", "obiectiva"], "answerIndex": 1, "explanation": "Resultatum, annuntiatum ab 'tam'." },
+        { "id": "consec2-3", "prompt": "Quod verbum signaculum introducit frequentissime clausulam consecutivam?", "options": ["ut solum", "tam/tantus/ita", "quod"], "answerIndex": 1, "explanation": "Verba intensiva annuntiant consecutivam." }
+      ]
+    },
+    {
+      "id": "v-consec2-fill", "type": "fill-blank", "title": "Forma Clausulam Consecutivam",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "consec2-4", "prompt": "Tam clara erat vox eius ut omnes ___. (heard — audirent)", "options": ["audiant", "audirent", "audiverint"], "answers": ["audirent"], "explanation": "Historicum ('erat') + simultaneum: imperfectum." },
+        { "id": "consec2-5", "prompt": "Nemo est tam stultus ___ hoc non intellegat. (that — ut)", "options": ["ut", "ne", "quod"], "answers": ["ut"], "explanation": "Clausula consecutiva: ut." }
+      ]
+    }
+  ],
+  "summary": [
+    "Clausula consecutiva: ut + coniunctivus, exprimens resultatum.",
+    "Verba signacula: tam, tantus, talis, ita, sic.",
+    "Negatio: ut non (numquam ne) — distinctio principalis a clausula finali.",
+    "Consecutio temporum identica clausulis finalibus."
+  ],
+  "related": [
+    { "lessonId": "v-consecutio-temporum", "label": "Consecutio Temporum" },
+    { "lessonId": "v-interrogationes-obliquae", "label": "Interrogationes Obliquae" }
+  ]
+}

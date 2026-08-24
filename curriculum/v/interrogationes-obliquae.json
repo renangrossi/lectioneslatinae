@@ -1,0 +1,86 @@
+{
+  "id": "v-interrogationes-obliquae",
+  "level": "V",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammatica",
+  "strand": "clausulae",
+  "title": "Interrogationes Obliquae",
+  "subtitle": "Nescio quis venerit — quaestiones intra oratione obliqua, semper cum coniunctivo.",
+  "prerequisites": ["v-clausulae-consecutivae"],
+  "objectives": [
+    "Formare interrogationes obliquas post verba quaerendi/nesciendi/dubitandi",
+    "Applicare consecutionem temporum in interrogatione obliqua",
+    "Uti particulis num/utrum...an pro interrogatione obliqua sine responso",
+    "Vertere interrogationem rectam in obliquam correcte"
+  ],
+  "content": {
+    "intro": "'Quis vēnit?' (ōrātiō rēcta, indicātīvus) fit 'Nesciō quis vēnerit' (ōrātiō oblīqua, coniūnctīvus) — quaestiō incorporāta in sententiam maiōrem semper mūtat verbum ad coniūnctīvum.",
+    "explanation": "<p>Post verba quaerendī (rogō), nesciendī (nesciō), dubitandī (dubitō), et similia, quaestiō subōrdināta adhibet coniūnctīvum, gubernātum ā cōnsecūtiōne temporum iam nōtā.</p>",
+    "rules": [
+      {
+        "heading": "a) Constructio: Verbum Interrogativum + Coniunctivus",
+        "body": "<p>Verbum interrogātīvum (quis, quid, cūr, ubi, quōmodo, quandō...) permanet, sed verbum sequēns fit coniūnctīvum: <em>Rogat quis vēnerit.</em> ('He asks who came.') <em>Nesciēbam ubi essēs.</em> ('I did not know where you were.')</p>"
+      },
+      {
+        "heading": "b) Interrogatio Sine Verbo Interrogativo: Num, -ne",
+        "body": "<p>Prō quaestiōnibus sī/nōn oblīquīs, adhibētur <strong>num</strong> (neutrāle hīc, differenter ab ūsū rēctō): <em>Rogāvit num venīrem.</em> ('He asked whether I was coming.')</p>"
+      },
+      {
+        "heading": "c) Interrogatio Alternativa: Utrum...An",
+        "body": "<p><strong>utrum...an</strong> (whether...or): <em>Nesciō utrum manēat an discēdat.</em> ('I don't know whether he is staying or leaving.')</p>"
+      },
+      {
+        "heading": "d) Consecutio Temporum",
+        "body": "<p>Rēgula normālis (Gradus V, lēctiō 2) applicātur cōnsistenter: praesēns/perfectus post prīmārium, imperfectus/plūsquamperfectus post historicum.</p>"
+      }
+    ],
+    "examples": [
+      "Nescio quid facias. — I do not know what you are doing.",
+      "Rogavit cur abessem. — He asked why I was absent.",
+      "Dubito num verum dicat. — I doubt whether he is telling the truth.",
+      "Quaesivit utrum pax an bellum melius esset. — He asked whether peace or war was better.",
+      "Scisne quota hora sit? — Do you know what time it is?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Verbum interrogationis obliquae permanet in indicativo, ut in oratione recta.",
+        "right": "Verbum interrogationis obliquae fit SEMPER coniunctivus, sine exceptione, quamvis oratio recta usa esset indicativo.",
+        "why": "Mutatio ad coniunctivum est signum grammaticum ipsius subordinationis in oratione obliqua."
+      },
+      {
+        "wrong": "'-ne' adhibetur pro interrogatione obliqua sine responso specifico, ut in quaestione directa.",
+        "right": "Interrogatio obliqua sine verbo interrogativo adhibet 'num' (neutraliter), non '-ne'.",
+        "why": "Usus particularum interrogativarum differt inter oratio recta et obliqua."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "v-int2-mc", "type": "multiple-choice", "title": "Interrogationes Obliquae: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "int2-1", "prompt": "'Nescio quid facias' — 'facias' est:", "options": ["indicativus", "coniunctivus"], "answerIndex": 1, "explanation": "Interrogatio obliqua semper coniunctivus." },
+        { "id": "int2-2", "prompt": "Particula pro interrogatione obliqua sine verbo interrogativo (sī/nōn) est:", "options": ["-ne", "num", "nōnne"], "answerIndex": 1, "explanation": "num, neutraliter, in oratione obliqua." },
+        { "id": "int2-3", "prompt": "'Utrum...an' significat:", "options": ["and...and", "whether...or", "if...then"], "answerIndex": 1, "explanation": "Interrogatio alternativa obliqua." }
+      ]
+    },
+    {
+      "id": "v-int2-fill", "type": "fill-blank", "title": "Forma Interrogationem Obliquam",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "int2-4", "prompt": "Rogavit cur ego ___. (was absent — abessem)", "options": ["absum", "aberam", "abessem"], "answers": ["abessem"], "explanation": "Historicum + simultaneum: imperfectum coniunctivi." },
+        { "id": "int2-5", "prompt": "Nescio quis hoc ___. (did — fecerit)", "options": ["facit", "fecit", "fecerit"], "answers": ["fecerit"], "explanation": "Primarium + anterius: coniunctivus perfectus." }
+      ]
+    }
+  ],
+  "summary": [
+    "Interrogatio obliqua: verbum interrogativum + coniunctivus, gubernatum a consecutione temporum.",
+    "Sine verbo interrogativo: num (neutraliter). Alternativa: utrum...an.",
+    "Verbum permanet SEMPER coniunctivus in interrogatione obliqua."
+  ],
+  "related": [
+    { "lessonId": "v-clausulae-consecutivae", "label": "Clausulae Consecutivae" },
+    { "lessonId": "v-cum-historicum-causale-concessivum", "label": "Cum Historicum, Causale, Concessivum" }
+  ]
+}

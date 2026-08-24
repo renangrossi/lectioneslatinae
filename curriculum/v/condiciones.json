@@ -1,0 +1,91 @@
+{
+  "id": "v-condiciones",
+  "level": "V",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammatica",
+  "strand": "clausulae",
+  "title": "Condiciones",
+  "subtitle": "Si hoc facis... si hoc faceres... si hoc fecisses — quattuor genera condicionum.",
+  "prerequisites": ["v-cum-historicum-causale-concessivum"],
+  "objectives": [
+    "Formare condiciones simplices (indicativus in utraque clausula)",
+    "Formare condiciones futurales (indicativus futurum, vel coniunctivus praesens 'minus vividum')",
+    "Formare condiciones irreales praesentes (coniunctivus imperfectus)",
+    "Formare condiciones irreales praeteritas (coniunctivus plusquamperfectus)"
+  ],
+  "content": {
+    "intro": "Sententiae condicionales Latinae habent quattuor genera principalia, distincta per tempus/modum verborum in ambabus clausulis (protasis 'si...' et apodosis 'result').",
+    "explanation": "<p>Nōmen technicum: <strong>prōtasis</strong> est clausula 'sī' (condiciō); <strong>apodosis</strong> est clausula resultātī (quid ēvenit sī...).</p>",
+    "rules": [
+      {
+        "heading": "a) Condicio Simplex: Indicativus in Utraque Clausula",
+        "body": "<p>Factum simplex, sine implicātiōne dubitātiōnis: <em>Sī hoc dīcis, errās.</em> ('If you say this, you are wrong.') Quodvīs tempus indicātīvī, secundum contextum.</p>"
+      },
+      {
+        "heading": "b) Condicio Futuralis: Futurum (vel Coniunctivus Praesens)",
+        "body": "<p><strong>Futūrum magis vīvidum</strong>: futūrum indicātīvum in ambābus clausulīs (saepe futūrum perfectum in prōtasī): <em>Sī hoc fēceris, laetus erō.</em> ('If you do this [will have done], I will be happy.') <strong>Futūrum minus vīvidum</strong> ('should...would'): coniūnctīvus praesēns in ambābus: <em>Sī hoc faciās, laetus sim.</em> ('If you SHOULD do this, I WOULD be happy' — magis dubium/hypothēticum.)</p>"
+      },
+      {
+        "heading": "c) Condicio Irrealis Praesens: Coniunctivus Imperfectus",
+        "body": "<p>Contrāria factō in praesentī: <em>Sī hoc scīrem, tibi dīcerem.</em> ('If I knew this [but I don't], I would tell you.')</p>"
+      },
+      {
+        "heading": "d) Condicio Irrealis Praeterita: Coniunctivus Plusquamperfectus",
+        "body": "<p>Contrāria factō in praeteritō: <em>Sī hoc scīvissem, tibi dīxissem.</em> ('If I had known this [but I didn't], I would have told you.')</p>"
+      },
+      {
+        "heading": "e) Conspectus",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Genus</th><th>Protasis + Apodosis</th></tr></thead><tbody><tr><td>Simplex</td><td>indicativus + indicativus</td></tr><tr><td>Futuralis (vividum)</td><td>futurum + futurum</td></tr><tr><td>Futuralis (minus vividum)</td><td>coniunctivus praesens + coniunctivus praesens</td></tr><tr><td>Irrealis praesens</td><td>coniunctivus imperfectus + coniunctivus imperfectus</td></tr><tr><td>Irrealis praeteritus</td><td>coniunctivus plusquamperfectus + coniunctivus plusquamperfectus</td></tr></tbody></table>"
+      }
+    ],
+    "examples": [
+      "Si vales, bene est. — If you are well, it is well. (simplex, formula epistolaris)",
+      "Si veneris, te videbo. — If you come, I will see you. (futuralis)",
+      "Si sapiens esses, hoc non faceres. — If you were wise, you would not do this. (irrealis praesens)",
+      "Si Caesar vixisset, historia alia esset. — If Caesar had lived, history would be different. (irrealis praeteritus, mixtum)",
+      "Si pecuniam haberem, tibi darem. — If I had money, I would give it to you. (irrealis praesens)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Coniunctivus imperfectus (condicio irrealis praesens) confunditur cum coniunctivo plusquamperfecto (condicio irrealis praeterita).",
+        "right": "Imperfectum = contrarium praesenti ('if I knew now'); plusquamperfectum = contrarium praeterito ('if I had known then').",
+        "why": "Tempus coniunctivi ipsum indicat AD QUOD TEMPUS condicio irrealis refertur."
+      },
+      {
+        "wrong": "Condicio simplex tractatur ut semper requirens coniunctivum, per confusionem generalem cum aliis generibus.",
+        "right": "Condicio simplex adhibet INDICATIVUM in utraque clausula — nullus coniunctivus necessarius.",
+        "why": "Solum condiciones futurales-minus-vividae et irreales requirunt coniunctivum; condicio simplex est factum directum."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "v-cond-mc", "type": "multiple-choice", "title": "Condiciones: Genera",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "cond1", "prompt": "'Si sapiens esses, hoc non faceres' est condicio:", "options": ["simplex", "irrealis praesens", "irrealis praeterita"], "answerIndex": 1, "explanation": "Coniunctivus imperfectus: contrarium praesenti." },
+        { "id": "cond2", "prompt": "'Si Caesar vixisset, historia alia esset' est condicio:", "options": ["futuralis", "irrealis praesens", "irrealis praeterita"], "answerIndex": 2, "explanation": "Coniunctivus plusquamperfectus: contrarium praeterito." },
+        { "id": "cond3", "prompt": "Condicio simplex adhibet:", "options": ["indicativum in utraque clausula", "coniunctivum in utraque clausula", "imperativum"], "answerIndex": 0, "explanation": "Factum directum, sine implicatione dubitationis." }
+      ]
+    },
+    {
+      "id": "v-cond-fill", "type": "fill-blank", "title": "Forma Condicionem",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "cond4", "prompt": "Si pecuniam ___, tibi darem. (I had — haberem)", "options": ["habeo", "haberem", "habuissem"], "answers": ["haberem"], "explanation": "Irrealis praesens: coniunctivus imperfectus." },
+        { "id": "cond5", "prompt": "Si hoc ___, tibi dixissem. (I had known — scivissem)", "options": ["scirem", "sciveram", "scivissem"], "answers": ["scivissem"], "explanation": "Irrealis praeterita: coniunctivus plusquamperfectus." }
+      ]
+    }
+  ],
+  "summary": [
+    "Condicio simplex: indicativus + indicativus (factum).",
+    "Condicio futuralis: futurum + futurum (vividum), vel coniunctivus praesens + praesens (minus vividum).",
+    "Irrealis praesens: coniunctivus imperfectus + imperfectus.",
+    "Irrealis praeterita: coniunctivus plusquamperfectus + plusquamperfectus."
+  ],
+  "related": [
+    { "lessonId": "v-cum-historicum-causale-concessivum", "label": "Cum Historicum, Causale, Concessivum" },
+    { "lessonId": "v-clausulae-timendi", "label": "Clausulae Timendi" }
+  ]
+}

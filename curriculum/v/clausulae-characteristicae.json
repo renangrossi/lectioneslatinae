@@ -1,0 +1,86 @@
+{
+  "id": "v-clausulae-characteristicae",
+  "level": "V",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammatica",
+  "strand": "clausulae",
+  "title": "Clausulae Characteristicae",
+  "subtitle": "Nemo est qui hoc credat — clausula relativa describens genus, non factum specificum.",
+  "prerequisites": ["v-clausulae-timendi"],
+  "objectives": [
+    "Distinguere clausulam relativam factualem (indicativus) a characteristica (coniunctivus)",
+    "Identificare antecedentes typici quae signalant clausulam characteristicam (nemo, solus, unus, dignus)",
+    "Vertere clausulam characteristicam correcte: 'the sort/kind of person who...'",
+    "Formare clausulas characteristicas cum consecutione temporum apta"
+  ],
+  "content": {
+    "intro": "Compara: <em>Vir quī vēnit meus amīcus est.</em> ('The man who came is my friend' — factum specificum, indicativus) vs. <em>Nēmō est quī hoc crēdat.</em> ('There is no one WHO WOULD believe this' — genus/characteristica, coniunctivus).",
+    "explanation": "<p>Clausula relātīva charactēristica dēscrībit nōn factum ūnicum, sed TYPUM vel GENUS ('the sort of person who...'). Antecēdēns est frequenter indēfīnītus, negātīvus, vel superlātīvus.</p>",
+    "rules": [
+      {
+        "heading": "a) Antecedentes Typici",
+        "body": "<p><strong>nēmō</strong> (no one), <strong>nūllus</strong> (none), <strong>sōlus</strong>/<strong>ūnus</strong> (only/one who), <strong>dignus</strong>/<strong>indignus</strong> (worthy/unworthy), <strong>sunt quī</strong> ('there are those who' — indēfīnītum), <strong>quis est quī</strong> ('who is there who...').</p>"
+      },
+      {
+        "heading": "b) Constructio: Qui/Quae/Quod + Coniunctivus",
+        "body": "<p><em>Sunt quī hoc crēdant.</em> ('There are those WHO BELIEVE this [as a type].') <em>Nihil est quod nōn possit vincere labor.</em> ('There is nothing THAT hard work cannot conquer' — Vergilius, adaptātum.)</p>"
+      },
+      {
+        "heading": "c) Dignus/Indignus + Qui + Coniunctivus",
+        "body": "<p>Cōnstrūctiō speciālis frequēns: <em>Dignus est quī laudētur.</em> ('He is worthy TO BE PRAISED', litt. 'worthy who should be praised'.)</p>"
+      },
+      {
+        "heading": "d) Distinctio: Factuale vs. Characteristica",
+        "body": "<table class=\"ref-table\"><thead><tr><th></th><th>Factualis</th><th>Characteristica</th></tr></thead><tbody><tr><td>Modus</td><td>indicativus</td><td>coniunctivus</td></tr><tr><td>Significatio</td><td>fact specific</td><td>type/kind/sort</td></tr><tr><td>Exemplum</td><td>Vir quī vēnit... (the man who came)</td><td>Nēmō est quī crēdat... (no one of the sort who believes)</td></tr></tbody></table>"
+      }
+    ],
+    "examples": [
+      "Nemo est qui te non amet. — There is no one who does not love you.",
+      "Solus est qui hoc facere possit. — He is the only one who can do this.",
+      "Sunt qui haec vera esse credant. — There are those who believe these things to be true.",
+      "Dignus est qui memoria teneatur. — He is worthy to be remembered.",
+      "Quis est tam stultus qui hoc non videat? — Who is so foolish as not to see this?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Clausula relativa post 'nemo'/'solus' tractatur ut factualis, cum indicativo.",
+        "right": "Post antecedentes indefinitos/negativos/superlativos (nemo, solus, sunt qui...), clausula relativa est characteristica: coniunctivus.",
+        "why": "Antecedens ipse est indicium fortis quod clausula describit typum, non factum specificum unum."
+      },
+      {
+        "wrong": "'Dignus qui laudetur' vertitur litteraliter 'worthy who is praised', confusum grammaticaliter.",
+        "right": "Melius vertitur idiomaticē: 'worthy TO BE praised' — constructio fixa cum dignus/indignus.",
+        "why": "Traductio litteralis interdum non capit sensum idiomaticum constructionis Latinae."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "v-charac-mc", "type": "multiple-choice", "title": "Clausulae Characteristicae: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "charac1", "prompt": "'Nemo est qui hoc credat' est clausula:", "options": ["factualis", "characteristica"], "answerIndex": 1, "explanation": "Antecedens 'nemo' + coniunctivus: characteristica." },
+        { "id": "charac2", "prompt": "'Vir quī vēnit meus amīcus est' — 'vēnit' est:", "options": ["indicativus, clausula factualis", "coniunctivus, clausula characteristica"], "answerIndex": 0, "explanation": "Factum specificum: indicativus." },
+        { "id": "charac3", "prompt": "Quod antecedens frequenter signalat clausulam characteristicam?", "options": ["puella", "nemo/solus/sunt qui", "Roma"], "answerIndex": 1, "explanation": "Antecedentes indefiniti/negativi." }
+      ]
+    },
+    {
+      "id": "v-charac-fill", "type": "fill-blank", "title": "Comple cum Clausula Characteristica",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "charac4", "prompt": "Solus est qui hoc facere ___. (can — possit)", "options": ["potest", "possit", "poterit"], "answers": ["possit"], "explanation": "Clausula characteristica: coniunctivus." },
+        { "id": "charac5", "prompt": "Dignus est qui ___. (be remembered — memoria teneatur)", "options": ["memoria tenet", "memoria teneatur", "memoria tenebit"], "answers": ["memoria teneatur"], "explanation": "Constructio fixa: dignus + qui + coniunctivus." }
+      ]
+    }
+  ],
+  "summary": [
+    "Clausula relativa characteristica: qui/quae/quod + coniunctivus, describens genus, non factum.",
+    "Antecedentes typici: nemo, solus, unus, sunt qui, dignus/indignus.",
+    "Contrasta cum clausula relativa factuale (indicativus, Gradus III)."
+  ],
+  "related": [
+    { "lessonId": "v-clausulae-timendi", "label": "Clausulae Timendi" },
+    { "lessonId": "v-gerundium", "label": "Gerundium" }
+  ]
+}

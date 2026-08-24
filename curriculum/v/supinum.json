@@ -1,0 +1,86 @@
+{
+  "id": "v-supinum",
+  "level": "V",
+  "unit": "1",
+  "order": 11,
+  "skill": "grammatica",
+  "strand": "nominalia",
+  "title": "Supinum",
+  "subtitle": "Cubitum eo; mirabile dictu — nomen verbale defectivum, duabus formis tantum.",
+  "prerequisites": ["v-gerundivum"],
+  "objectives": [
+    "Cognoscere supinum in -um (accusativus), adhibitum post verba motus pro proposito",
+    "Cognoscere supinum in -u (ablativus), adhibitum cum adiectivis pro respectu",
+    "Distinguere supinum a participio perfecto (forma identica, functio diversa)",
+    "Cognoscere expressiones fixas frequentes cum supino"
+  ],
+  "content": {
+    "intro": "Iam adhibuisti rādīcem supīnī (quārta fōrma prīncipālis) prō participiō futūrō/perfectō. Hodiē vidēbis supīnum IPSUM ut fōrma nōminālis dēfectīva, cum duābus fōrmīs tantum.",
+    "explanation": "<p>Supīnum est nōmen verbāle quārtae dēclīnātiōnis, sed DĒFECTĪVUM: sōlum duo cāsūs exsistunt, accūsātīvus (-um) et ablātīvus (-ū).</p>",
+    "rules": [
+      {
+        "heading": "a) Supinum in -um: Post Verba Motus",
+        "body": "<p>Exprimit propositum post verba mōtūs (eō, veniō, mittō): <strong>Cubitum eō.</strong> ('I go to sleep', litt. 'I go to-sleep [purpose]'.) <strong>Lēgātōs pācem petītum mīsit.</strong> ('He sent envoys to seek peace.')</p>"
+      },
+      {
+        "heading": "b) Supinum in -u: Cum Adiectivis, Respectus",
+        "body": "<p>Exprimit respectum, cum adiectīvīs ut mīrābilis, facilis, difficilis: <strong>mīrābile dictū</strong> ('wonderful to say/tell', litt. 'wonderful in-respect-of-saying'). <strong>facile factū</strong> ('easy to do').</p>"
+      },
+      {
+        "heading": "c) Distinctio a Participio Perfecto",
+        "body": "<p>Supīnum in -um est fōrmā IDENTICUM rādīcī quārtae fōrmae prīncipālis (missum, factum, dictum) — sed FUNCTIŌ differt omnīnō: nōn est adiectīvum concordāns, sed nōmen indēclīnābile in hōc ūsū, semper post verbum mōtūs.</p>"
+      },
+      {
+        "heading": "d) Expressiones Fixae",
+        "body": "<p><strong>mīrābile dictū</strong> (wonderful to say), <strong>facile dictū</strong> (easy to say), <strong>difficile factū</strong> (difficult to do), <strong>optātū</strong> (to wish for — rārum).</p>"
+      }
+    ],
+    "examples": [
+      "Pastum oves misit. — He sent the sheep out to pasture.",
+      "Spectatum veniunt. — They come to watch.",
+      "Hoc dictu facile, factu difficile est. — This is easy to say, difficult to do.",
+      "Mirabile dictu, vicimus. — Wonderful to say, we won.",
+      "Venatum in silvas ierunt. — They went into the forests to hunt."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Supinum in -um tractatur ut identicum obiecto directo verbi motus.",
+        "right": "Supinum exprimit PROPOSITUM ('in order to'), non obiectum directum — functio distincta, quamvis casus (accusativus) sit identicus formaliter.",
+        "why": "Supinum est constructio speciālis limitata ad hunc usum specificum post verba motus."
+      },
+      {
+        "wrong": "Supinum tractatur ut habens paradigma completum, ut nomen normale quartae declinationis.",
+        "right": "Supinum est defectivum: solum accusativus (-um) et ablativus (-ū) exsistunt, nulli alii casus.",
+        "why": "Haec defectivitas distinguit supinum ab omni nomine normali."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "v-sup-mc", "type": "multiple-choice", "title": "Supinum: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "sup1", "prompt": "'Cubitum eo' significat:", "options": ["I go to bed (place)", "I go to sleep (purpose)", "I sleep in bed"], "answerIndex": 1, "explanation": "Supinum in -um: propositum post verbum motus." },
+        { "id": "sup2", "prompt": "'Mirabile dictu' significat:", "options": ["wonderful said", "wonderful to say", "wonderful sayings"], "answerIndex": 1, "explanation": "Supinum in -u: respectus, cum adiectivo." },
+        { "id": "sup3", "prompt": "Quot casus habet supinum?", "options": ["sex, ut nomen normale", "duo (accusativus, ablativus)", "unus tantum"], "answerIndex": 1, "explanation": "Forma defectiva." }
+      ]
+    },
+    {
+      "id": "v-sup-fill", "type": "fill-blank", "title": "Comple cum Supino",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "sup4", "prompt": "Legatos pacem ___ misit. (to seek — petitum)", "options": ["petere", "petitum", "petens"], "answers": ["petitum"], "explanation": "Supinum post verbum mittendi/motus." },
+        { "id": "sup5", "prompt": "Hoc facile ___ est. (to say — dictu)", "options": ["dicere", "dictum", "dictu"], "answers": ["dictu"], "explanation": "Supinum ablativum, cum adiectivo 'facile'." }
+      ]
+    }
+  ],
+  "summary": [
+    "Supinum in -um: post verba motus, exprimens propositum (cubitum eo).",
+    "Supinum in -u: cum adiectivis (mirabile, facile), exprimens respectum.",
+    "Forma defectiva: solum duo casus (accusativus, ablativus)."
+  ],
+  "related": [
+    { "lessonId": "v-gerundivum", "label": "Gerundivum" },
+    { "lessonId": "v-ablativus-absolutus-amplius", "label": "Ablativus Absolutus Amplius" }
+  ]
+}

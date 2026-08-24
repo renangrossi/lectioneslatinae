@@ -1,0 +1,81 @@
+{
+  "id": "v-consecutio-temporum",
+  "level": "V",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammatica",
+  "strand": "syntaxis",
+  "title": "Consecutio Temporum",
+  "subtitle": "Sequentia prima et historica — tabula completa quae gubernat omnem clausulam subordinatam.",
+  "prerequisites": ["v-coniunctivus-perfectum-et-plusquamperfectum"],
+  "objectives": [
+    "Formalizare regulam sequentiae primariae et historicae",
+    "Applicare quattuor tempora coniunctivi correcte secundum tempus verbi principalis",
+    "Distinguere actionem incompletam/simultaneam ab actione completa/anteriore in clausula subordinata",
+    "Uti hac regula consistenter per omnes clausulas subordinatas (iam vistas et futuras)"
+  ],
+  "content": {
+    "intro": "Iam applicavisti hanc regulam intuitive in clausulis finalibus. Hodie eam formalizamus plene, cum omnibus quattuor temporibus coniunctivi, quia gubernat LITERALITER omnem clausula subordinata coniunctivo Gradus V.",
+    "explanation": "<p>Rēgula dēpendet ā DUOBUS factōribus: (1) est verbum prīncipāle PRĪMĀRIUM (praesēns, futūrum, futūrum perfectum) an HISTORICUM (imperfectum, perfectum, plūsquamperfectum)? (2) est āctiō clausulae subōrdinātae SIMULTĀNEA/POSTERIOR an ANTERIOR verbō prīncipālī?</p>",
+    "rules": [
+      {
+        "heading": "a) Tabula Completa",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Verbum Principale</th><th>Actio Simultanea/Posterior</th><th>Actio Anterior</th></tr></thead><tbody><tr><td>Primarium (praesēns, futūrum)</td><td>Coniunctivus PRAESENS</td><td>Coniunctivus PERFECTUS</td></tr><tr><td>Historicum (imperfectum, perfectum, plusquamperfectum)</td><td>Coniunctivus IMPERFECTUS</td><td>Coniunctivus PLUSQUAMPERFECTUS</td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Exempla per Cellulam",
+        "body": "<p><strong>Primarium + simultaneum</strong>: <em>Rogat quid faciās.</em> ('He asks what you ARE DOING.') <strong>Primarium + anterius</strong>: <em>Rogat quid fēceris.</em> ('He asks what you DID/HAVE DONE.') <strong>Historicum + simultaneum</strong>: <em>Rogāvit quid facerēs.</em> ('He asked what you WERE DOING.') <strong>Historicum + anterius</strong>: <em>Rogāvit quid fēcissēs.</em> ('He asked what you HAD DONE.')</p>"
+      },
+      {
+        "heading": "c) Applicatio Universalis",
+        "body": "<p>Haec tabula gubernat clausulās fīnālēs (iam nōtae), interrogātiōnēs oblīquās, clausulās cōnsecūtīvās, cum-clausulās, et cētera quae in hōc Gradū discēs. Ūna rēgula, applicāta cōnsistenter, simplificat tōtam syntaxim coniūnctīvī.</p>"
+      }
+    ],
+    "examples": [
+      "Nescio cur venias. — I do not know why you are coming. (primarium, simultaneum)",
+      "Nescio cur veneris. — I do not know why you came. (primarium, anterius)",
+      "Nesciebam cur venires. — I did not know why you were coming. (historicum, simultaneum)",
+      "Nesciebam cur venisses. — I did not know why you had come. (historicum, anterius)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus applicat coniunctivum praesentem/imperfectum semper, sine respectu anterioritatis actionis subordinatae.",
+        "right": "Anterioritas (actio completa ante verbum principale) requirit SEMPER coniunctivum perfectum (primarium) vel plusquamperfectum (historicum), sine respectu significationis 'simplicis'.",
+        "why": "Duo factores (tempus verbi principalis ET relatio temporalis clausulae subordinatae) ambo determinant tempus coniunctivi — non unus solus."
+      },
+      {
+        "wrong": "Verbum principale perfectum ('vēnit', a single completed past action) tractatur ut 'primarium' propter significationem completam.",
+        "right": "Perfectum est SEMPER historicum pro consecutione temporum, sine respectu aspectus (completum vs. continuum).",
+        "why": "Consecutio temporum classificat secundum forma temporis (praesens/futurum vs. reliqua), non secundum aspectum semanticum."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "v-consec-mc", "type": "multiple-choice", "title": "Consecutio Temporum: Tabula",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "consec1", "prompt": "Verbum principale 'rogat' (praesens) + actio simultanea → coniunctivus:", "options": ["praesens", "imperfectum", "perfectum"], "answerIndex": 0, "explanation": "Primarium + simultaneum = praesens." },
+        { "id": "consec2", "prompt": "Verbum principale 'rogavit' (perfectum) + actio anterior → coniunctivus:", "options": ["perfectum", "plusquamperfectum", "praesens"], "answerIndex": 1, "explanation": "Historicum + anterius = plusquamperfectum." },
+        { "id": "consec3", "prompt": "Verbum principale 'rogabit' (futurum) + actio anterior → coniunctivus:", "options": ["perfectum", "plusquamperfectum", "imperfectum"], "answerIndex": 0, "explanation": "Primarium + anterius = perfectum." }
+      ]
+    },
+    {
+      "id": "v-consec-fill", "type": "fill-blank", "title": "Applica Consecutionem",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "consec4", "prompt": "Nescio cur ___. (you are coming — venias)", "options": ["venias", "venires", "veneris"], "answers": ["venias"], "explanation": "Primarium + simultaneum: praesens." },
+        { "id": "consec5", "prompt": "Nesciebam cur ___. (you had come — venisses)", "options": ["venires", "venisses", "veneris"], "answers": ["venisses"], "explanation": "Historicum + anterius: plusquamperfectum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Primarium (praesens/futurum/futurum perfectum) → coniunctivus praesens (simultaneum) vel perfectus (anterius).",
+    "Historicum (imperfectum/perfectum/plusquamperfectum) → coniunctivus imperfectus (simultaneum) vel plusquamperfectus (anterius).",
+    "Haec tabula gubernat consistenter omnem clausulam subordinatam coniunctivo per totum Gradum V."
+  ],
+  "related": [
+    { "lessonId": "v-coniunctivus-perfectum-et-plusquamperfectum", "label": "Coniunctivus Perfectum et Plusquamperfectum" },
+    { "lessonId": "v-clausulae-consecutivae", "label": "Clausulae Consecutivae" }
+  ]
+}

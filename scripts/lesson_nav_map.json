@@ -302,7 +302,68 @@
       "ty": "recognitio-systema-verbi"
     }
   ],
-  "provectus": [],
+  "provectus": [
+    {
+      "slug": "coniunctivus-perfectum-et-plusquamperfectum",
+      "title": "Coniunctivus Perfectum et Plusquamperfectum",
+      "ty": "coniunctivus-perfectum-et-plusquamperfectum"
+    },
+    {
+      "slug": "consecutio-temporum",
+      "title": "Consecutio Temporum",
+      "ty": "consecutio-temporum"
+    },
+    {
+      "slug": "clausulae-consecutivae",
+      "title": "Clausulae Consecutivae",
+      "ty": "clausulae-consecutivae"
+    },
+    {
+      "slug": "interrogationes-obliquae",
+      "title": "Interrogationes Obliquae",
+      "ty": "interrogationes-obliquae"
+    },
+    {
+      "slug": "cum-historicum-causale-concessivum",
+      "title": "Cum Historicum, Causale, Concessivum",
+      "ty": "cum-historicum-causale-concessivum"
+    },
+    {
+      "slug": "condiciones",
+      "title": "Condiciones",
+      "ty": "condiciones"
+    },
+    {
+      "slug": "clausulae-timendi",
+      "title": "Clausulae Timendi",
+      "ty": "clausulae-timendi"
+    },
+    {
+      "slug": "clausulae-characteristicae",
+      "title": "Clausulae Characteristicae",
+      "ty": "clausulae-characteristicae"
+    },
+    {
+      "slug": "gerundium",
+      "title": "Gerundium",
+      "ty": "gerundium"
+    },
+    {
+      "slug": "gerundivum",
+      "title": "Gerundivum",
+      "ty": "gerundivum"
+    },
+    {
+      "slug": "supinum",
+      "title": "Supinum",
+      "ty": "supinum"
+    },
+    {
+      "slug": "ablativus-absolutus-amplius",
+      "title": "Ablativus Absolutus Amplius et Constructiones Participiales",
+      "ty": "ablativus-absolutus-amplius"
+    }
+  ],
   "altior": [],
   "auctores": []
 }

@@ -1,0 +1,86 @@
+{
+  "id": "v-ablativus-absolutus-amplius",
+  "level": "V",
+  "unit": "1",
+  "order": 12,
+  "skill": "grammatica",
+  "strand": "recognitio",
+  "title": "Ablativus Absolutus Amplius et Constructiones Participiales",
+  "subtitle": "Recognitio et amplificatio: participia in usu, per omnes tres tempora.",
+  "prerequisites": ["v-supinum"],
+  "objectives": [
+    "Recognoscere et vertere ablativos absolutos complexos in textibus authenticis",
+    "Distinguere ablativum absolutum a participio simplici concordante",
+    "Applicare strategias translationis pro constructionibus participialibus densis",
+    "Consolidare scientiam plenam participiorum, gerundii, gerundivi, et supini"
+  ],
+  "content": {
+    "intro": "Congratulationes — ultima lectio Gradus V! Prosa Latina authentica (Caesar, Cicero, Livius) est saturata constructionibus participialibus, praesertim ablativo absoluto — hodie consolidamus omnia elementa nominalia verbi in unum systema practicum.",
+    "explanation": "<p>Auctores Latini praeferunt participia et ablativum absolutum super clausulās subōrdinātās plēnās (cum verbō fīnītō), quia sunt magis compactī et ēleganter varii.</p>",
+    "rules": [
+      {
+        "heading": "a) Strategia Translationis: Quattuor Passus",
+        "body": "<p>(1) Identifica nōmen/prōnōmen et participium, ambō ablātīvō. (2) Verifica an participium sit praesēns (simultāneum) an perfectum (anterius). (3) Ēlige versiōnem aptam contextuī: temporālis, causālis, condiciōnālis, vel concessīva. (4) Sī ambō verba sunt nōmina (Caesare duce), suppleē 'esse/being' implicitum.</p>"
+      },
+      {
+        "heading": "b) Ablativus Absolutus vs. Participium Concordans",
+        "body": "<p>Sī subiectum participiī IAM APPARET in clausulā prīncipālī, adhibētur participium simplex concordāns (Gradus IV, lēctiō 4): <em>Mīlitēs victī fūgērunt.</em> ('The defeated soldiers fled.') Sī subiectum est ELEMENTUM NOVUM, adhibētur ablātīvus absolūtus: <em>Hostibus victīs, mīlitēs domum rediērunt.</em> ('The enemies having been defeated, the soldiers returned home.')</p>"
+      },
+      {
+        "heading": "c) Cumulatio: Multiplices Ablativi Absoluti",
+        "body": "<p>Prōsa dēnsa (Caesar praesertim) saepe cumulat plūrēs ablātīvōs absolūtōs sequentēs: <em>Hīs rēbus cōgnitīs, Caesar, exercitū parātō, castra mōvit.</em> ('These things having been learned, Caesar, the army having been prepared, moved camp.')</p>"
+      },
+      {
+        "heading": "d) Conspectus Finalis: Systema Nominale Verbi",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Forma</th><th>Genus</th><th>Functio</th></tr></thead><tbody><tr><td>Participium</td><td>adiectivum</td><td>modificat nomen, concordans</td></tr><tr><td>Gerundium</td><td>substantivum</td><td>actio ipsa, sine nominativo</td></tr><tr><td>Gerundivum</td><td>adiectivum</td><td>obligatio passiva, concordans</td></tr><tr><td>Supinum</td><td>substantivum defectivum</td><td>propositum (post motus) / respectus</td></tr></tbody></table>"
+      }
+    ],
+    "examples": [
+      "His rebus cognitis, Caesar castra movit. — These things having been learned, Caesar moved camp.",
+      "Sole occidente, milites cenaverunt. — With the sun setting, the soldiers dined.",
+      "Duce mortuo, exercitus fugit. — With the leader dead, the army fled.",
+      "Omnibus rebus paratis, profecti sumus. — All things having been prepared, we set out.",
+      "Ponte facto, flumen transierunt. — The bridge having been built, they crossed the river."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ablativus absolutus semper vertitur litteraliter ('the city having been captured'), etiam ubi Anglica clarior esset cum clausula subordinata.",
+        "right": "Elige versionem contextu apta (when/since/although/if), non semper versionem litteralem participii perfecti passivi.",
+        "why": "Traductio bona respicit sensum et fluentiam, non solum structuram grammaticam."
+      },
+      {
+        "wrong": "In prosa densa cum pluribus ablativis absolutis, discipulus tentat coniungere omnia in unam clausulam confusam.",
+        "right": "Quisque ablativus absolutus est unitas separata; vertenda seriatim, ut clausulae introductoriae distinctae.",
+        "why": "Auctores Latini cumulant has constructiones deliberatē pro varietate stilistica; versio bona reflectit hanc structuram segmentatam."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "v-ablabs2-mc", "type": "multiple-choice", "title": "Recognitio: Participia et Constructiones",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "ablabs2-1", "prompt": "'Milites victi fugerunt' (subiectum iam in clausula) adhibet:", "options": ["ablativum absolutum", "participium simplex concordans"], "answerIndex": 1, "explanation": "Subiectum iam praesens: participium concordans, non ablativus absolutus." },
+        { "id": "ablabs2-2", "prompt": "'Hostibus victis, milites domum redierunt' adhibet:", "options": ["ablativum absolutum (elementum novum)", "participium simplex"], "answerIndex": 0, "explanation": "Subiectum novum ('hostibus'), non idem ac subiectum principale ('milites')." },
+        { "id": "ablabs2-3", "prompt": "Gerundivum, differenter a participio perfecto, semper indicat:", "options": ["actionem completam", "obligationem passivam"], "answerIndex": 1, "explanation": "Distinctio functionalis fundamentalis." }
+      ]
+    },
+    {
+      "id": "v-ablabs2-fill", "type": "fill-blank", "title": "Recognosce Constructionem",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "ablabs2-4", "prompt": "___ occidente, milites cenaverunt. (sun — sole)", "options": ["Sol", "Sole", "Solis"], "answers": ["Sole"], "explanation": "Ablativus absolutus: sole (nomine) + occidente (participio), ambo ablativo." },
+        { "id": "ablabs2-5", "prompt": "Ponte ___, flumen transierunt. (having been built — facto)", "options": ["faciens", "factus", "facto"], "answers": ["facto"], "explanation": "Participium perfectum passivum, ablativo, concordans cum 'ponte'." }
+      ]
+    }
+  ],
+  "summary": [
+    "Ablativus absolutus introducit elementum grammaticē novum; participium concordans modificat subiectum/obiectum iam praesens.",
+    "Prosa densa cumulat plures ablativos absolutos, quisque vertendus seriatim.",
+    "Systema nominale verbi completum: participium (adiectivum), gerundium (substantivum), gerundivum (adiectivum obligationis), supinum (substantivum defectivum).",
+    "Congratulationes — Gradum V complevisti! Perge ad Gradum VI: Altior, ubi syntaxis provectior et prosa adaptata te exspectant."
+  ],
+  "related": [
+    { "lessonId": "v-supinum", "label": "Supinum" }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "v-gerundium",
+  "level": "V",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammatica",
+  "strand": "nominalia",
+  "title": "Gerundium",
+  "subtitle": "Amandi, amando, amandum — verbum factum nomen neutrum, sine nominativo.",
+  "prerequisites": ["v-clausulae-characteristicae"],
+  "objectives": [
+    "Formare gerundium (nomen verbale neutrum, secunda declinatio) per omnes casus disponibiles",
+    "Cognoscere quod gerundium caret nominativo (infinitivus supplet illum locum)",
+    "Uti gerundio cum praepositionibus (ad, in) et cum genetivo (causa/gratia)",
+    "Distinguere gerundium (substantivum) a participio praesenti (adiectivum)"
+  ],
+  "content": {
+    "intro": "Anglicē, 'reading' potest esse et participium ('the reading girl') et gerundium ('reading is fun', ut substantivum). Latīna dīvidit haec duo conceptūs in duās fōrmās sēparātās: participium (iam nōtum) et gerundium (hodiē).",
+    "explanation": "<p>Gerundium est NŌMEN VERBĀLE, semper neutrum, secundae dēclīnātiōnis, SINGULĀRE tantum — sed CARET nōminātīvō (īnfīnītīvus ipse fungitur ut subiectum: <em>Legere est ūtile</em>, 'Reading is useful').</p>",
+    "rules": [
+      {
+        "heading": "a) Formatio et Declinatio",
+        "body": "<p>Rādīx praesentis + <strong>-nd-</strong> + dēsinentiae secundae dēclīnātiōnis neutrae. amō → <strong>amandī</strong> (gen.), <strong>amandō</strong> (dat.), <strong>amandum</strong> (acc.), <strong>amandō</strong> (abl.). NŪLLUS nōminātīvus (īnfīnītīvus 'amāre' supplet).</p>"
+      },
+      {
+        "heading": "b) Genetivus: Causa/Gratia",
+        "body": "<p>Frequentissimus ūsus: genetīvus gerundiī + <strong>causā</strong>/<strong>grātiā</strong> ('for the sake of'): <em>discendī causā</em> ('for the sake of learning'). Etiam post adiectīva/nōmina regentia genetīvum: <em>ars scrībendī</em> ('the art of writing').</p>"
+      },
+      {
+        "heading": "c) Accusativus: Post Praepositionem Ad",
+        "body": "<p><strong>ad</strong> + gerundium accūsātīvō exprimit propositum: <em>ad discendum vēnimus</em> ('we came IN ORDER TO LEARN' — alternātīva ad clausulam fīnālem).</p>"
+      },
+      {
+        "heading": "d) Ablativus: Sine Praepositione (Medium/Modus)",
+        "body": "<p><em>Legendō discimus.</em> ('We learn BY READING' — ablātīvus instrūmentī/modī.)</p>"
+      }
+    ],
+    "examples": [
+      "Discendi causa Athenas ivit. — He went to Athens for the sake of learning.",
+      "Ars vivendi difficilis est. — The art of living is difficult.",
+      "Ad pugnandum parati sumus. — We are ready for fighting.",
+      "Legendo et scribendo sapientiam quaerimus. — By reading and writing we seek wisdom.",
+      "Tempus est agendi. — It is time for action/acting."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus quaerit formam nominativam gerundii pro subiecto sententiae.",
+        "right": "Infinitivus (non gerundium) fungitur ut subiectum: 'Legere est ūtile', non *'legendum est utile' (nisi in sensu gerundivi obligationis, distincto).",
+        "why": "Gerundium est defectivum: caret nominativo per definitionem grammaticam."
+      },
+      {
+        "wrong": "Gerundium confunditur cum participio praesenti, ambo formaliter similes uso Anglico '-ing'.",
+        "right": "Gerundium (amandum) est SUBSTANTIVUM (secunda declinatio neutra); participium (amans) est ADIECTIVUM (tertia declinatio, concordans cum nomine).",
+        "why": "Duae formae distinctae respondent duobus usibus distinctis Anglici '-ing' (substantivum vs. adiectivum)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "v-ger-mc", "type": "multiple-choice", "title": "Gerundium: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "ger1", "prompt": "Gerundium habet quem casum nominativum?", "options": ["-um", "-us", "nullum — caret nominativo"], "answerIndex": 2, "explanation": "Infinitivus supplet locum nominativi." },
+        { "id": "ger2", "prompt": "'Discendī causā' significat:", "options": ["because of learning (past)", "for the sake of learning", "while learning"], "answerIndex": 1, "explanation": "Genetivus + causā: propositum." },
+        { "id": "ger3", "prompt": "Gerundium est grammaticē:", "options": ["adiectivum, concordans cum nomine", "substantivum neutrum, secundae declinationis"], "answerIndex": 1, "explanation": "Distinctio a participio: gerundium est nomen." }
+      ]
+    },
+    {
+      "id": "v-ger-fill", "type": "fill-blank", "title": "Forma Gerundium",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "ger4", "prompt": "___ discimus. (By reading — legendo)", "options": ["legere", "legendo", "legens"], "answers": ["legendo"], "explanation": "Ablativus gerundii: instrumentum/modus." },
+        { "id": "ger5", "prompt": "Ad ___ parati sumus. (fighting — pugnandum)", "options": ["pugnare", "pugnandum", "pugnans"], "answers": ["pugnandum"], "explanation": "ad + accusativus gerundii: propositum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Gerundium: nomen verbale neutrum, secunda declinatio, singulare, sine nominativo.",
+    "Genetivus + causa/gratia: propositum ('for the sake of').",
+    "Ad + accusativus: propositum. Ablativus (sine praepositione): medium/modus.",
+    "Distingue a participio: gerundium est substantivum, participium est adiectivum."
+  ],
+  "related": [
+    { "lessonId": "v-clausulae-characteristicae", "label": "Clausulae Characteristicae" },
+    { "lessonId": "v-gerundivum", "label": "Gerundivum" }
+  ]
+}

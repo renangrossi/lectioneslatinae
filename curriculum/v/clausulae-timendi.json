@@ -1,0 +1,87 @@
+{
+  "id": "v-clausulae-timendi",
+  "level": "V",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammatica",
+  "strand": "clausulae",
+  "title": "Clausulae Timendi",
+  "subtitle": "Timeo ne venias — 'I fear THAT you will come', ne inverso.",
+  "prerequisites": ["v-condiciones"],
+  "objectives": [
+    "Formare clausulas post verba timendi (timeo, vereor, metuo)",
+    "Applicare regulam inversam: ne = 'that' (timor positivus), ut = 'that...not' (timor negativus)",
+    "Distinguere hanc constructionem a clausulis finalibus, ubi ne/ut habent significationem normalem",
+    "Applicare consecutionem temporum in clausulis timendi"
+  ],
+  "content": {
+    "intro": "'Timeō nē veniās' nōn significat 'I fear THAT YOU WON'T come' (ut in clausulā fīnālī nōrmālī), sed EXACTĒ OPPOSITUM: 'I fear THAT YOU WILL come'. Haec inversiō sēmantica est trap frequentissima Gradūs V.",
+    "explanation": "<p>Post verba timendī (timeō, vereor, metuō), particulae <strong>nē</strong> et <strong>ut</strong> INVERTUNT significātiōnem ūsuālem.</p>",
+    "rules": [
+      {
+        "heading": "a) Ne = 'That' (Timor de Re Quae Eveniat)",
+        "body": "<p><strong>Timeō nē veniat.</strong> ('I fear THAT he WILL come' — timeō rem positīvam ēventūram.) Litterāliter: 'I fear LEST he come', sed Anglicē nātūrālius 'that he will come'.</p>"
+      },
+      {
+        "heading": "b) Ut = 'That...Not' (Timor de Re Quae Non Eveniat)",
+        "body": "<p><strong>Timeō ut veniat.</strong> ('I fear THAT he will NOT come' — timeō āctiōnem positīvam NŌN ēventūram.) Alternātīva magis clāra (et frequentior in ūsū posteriōre): <strong>nē nōn</strong>: <em>Timeō nē nōn veniat.</em> (eadem significātiō, minus ambigua.)</p>"
+      },
+      {
+        "heading": "c) Cur Haec Inversio?",
+        "body": "<p>Historicē, 'nē' hīc retinet suum sēnsum orīginālem prohibitīvum ('let it not happen that...') — timor ipse est DĒ EVENTŪ malō (ex perspectīvā timentis), quī grammaticē est 'nē' (id nē fīat). Logica inversa, sed cōnsistēns sī sīc intellegitur.</p>"
+      },
+      {
+        "heading": "d) Consecutio Temporum",
+        "body": "<p>Regula normalis applicātur: coniūnctīvus praesēns/perfectus post prīmārium; imperfectus/plūsquamperfectus post historicum.</p>"
+      }
+    ],
+    "examples": [
+      "Timeo ne hostes veniant. — I fear that the enemies will come.",
+      "Vereor ut satis pecuniae habeamus. — I fear that we do not have enough money.",
+      "Timuit ne urbs caperetur. — He feared that the city would be captured.",
+      "Metuo ne nimis tardus sim. — I fear that I am too late.",
+      "Timebamus ne pater noster moreretur. — We feared that our father would die."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Timeō nē veniās' vertitur 'I fear that you won't come', per applicationem regulae normalis 'nē' = 'that...not'.",
+        "right": "Post verba timendi, 'nē' significat 'that' (timor positivus): 'I fear that you WILL come'.",
+        "why": "Haec est unica constructio ubi ne/ut invertunt significationem normalem — memoranda separatim ab omnibus aliis clausulis coniunctivi."
+      },
+      {
+        "wrong": "'Ut' post verbum timendi tractatur ut habens significationem normalem finalis ('in order that').",
+        "right": "Post verba timendi, 'ut' significat 'that...not' (timor negativus) — inversum quoque.",
+        "why": "Ambae particulae (ne/ut) sunt invertit hic, non solum una."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "v-tim-mc", "type": "multiple-choice", "title": "Clausulae Timendi: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "tim1", "prompt": "'Timeo ne venias' significat:", "options": ["I fear that you will not come", "I fear that you will come", "I do not fear your coming"], "answerIndex": 1, "explanation": "'nē' post timendi = 'that' (timor positivus)." },
+        { "id": "tim2", "prompt": "'Vereor ut satis pecuniae habeamus' significat:", "options": ["I fear that we have enough money", "I fear that we do NOT have enough money", "I hope we have money"], "answerIndex": 1, "explanation": "'ut' post timendi = 'that...not'." },
+        { "id": "tim3", "prompt": "Alternativa magis clara pro 'ut' (timor negativus) est:", "options": ["ne non", "ut non", "nē utrum"], "answerIndex": 0, "explanation": "nē nōn: eadem significatio, minus ambigua." }
+      ]
+    },
+    {
+      "id": "v-tim-fill", "type": "fill-blank", "title": "Forma Clausulam Timendi",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "tim4", "prompt": "Timeo ___ hostes veniant. (that — ne)", "options": ["ne", "ut", "quod"], "answers": ["ne"], "explanation": "Timor positivus: nē." },
+        { "id": "tim5", "prompt": "Timuit ___ urbs caperetur. (that — ne)", "options": ["ut", "ne", "ut non"], "answers": ["ne"], "explanation": "Timor positivus, historicum: nē + coniunctivus imperfectus." }
+      ]
+    }
+  ],
+  "summary": [
+    "Post verba timendi (timeō, vereor, metuō): nē = 'that' (timor positivus); ut = 'that...not' (timor negativus).",
+    "Haec inversio est unica in tota syntaxi coniunctivi Latini.",
+    "Alternativa clarior pro 'ut': nē nōn.",
+    "Consecutio temporum applicata normaliter."
+  ],
+  "related": [
+    { "lessonId": "v-condiciones", "label": "Condiciones" },
+    { "lessonId": "v-clausulae-characteristicae", "label": "Clausulae Characteristicae" }
+  ]
+}
