@@ -215,7 +215,93 @@
       "ty": "numeri-tempus-et-calendarium"
     }
   ],
-  "media": [],
+  "media": [
+    {
+      "slug": "systema-perfectum-activum",
+      "title": "Systema Perfectum Activum",
+      "ty": "systema-perfectum-activum"
+    },
+    {
+      "slug": "plusquamperfectum-et-futurum-perfectum",
+      "title": "Plusquamperfectum et Futurum Perfectum",
+      "ty": "plusquamperfectum-et-futurum-perfectum"
+    },
+    {
+      "slug": "systema-perfectum-passivum",
+      "title": "Systema Perfectum Passivum",
+      "ty": "systema-perfectum-passivum"
+    },
+    {
+      "slug": "participium-perfectum-passivum",
+      "title": "Participium Perfectum Passivum",
+      "ty": "participium-perfectum-passivum"
+    },
+    {
+      "slug": "participium-praesens-activum",
+      "title": "Participium Praesens Activum",
+      "ty": "participium-praesens-activum"
+    },
+    {
+      "slug": "participium-futurum-activum",
+      "title": "Participium Futurum Activum",
+      "ty": "participium-futurum-activum"
+    },
+    {
+      "slug": "verba-deponentia",
+      "title": "Verba Deponentia",
+      "ty": "verba-deponentia"
+    },
+    {
+      "slug": "infinitivi",
+      "title": "Infinitivi",
+      "ty": "infinitivi"
+    },
+    {
+      "slug": "oratio-obliqua-accusativus-cum-infinitivo",
+      "title": "Oratio Obliqua: Accusativus cum Infinitivo",
+      "ty": "oratio-obliqua-accusativus-cum-infinitivo"
+    },
+    {
+      "slug": "verba-irregularia-possum-volo-nolo-malo",
+      "title": "Verba Irregularia: Possum, Volo, Nolo, Malo",
+      "ty": "verba-irregularia-possum-volo-nolo-malo"
+    },
+    {
+      "slug": "verba-irregularia-eo-fero-fio",
+      "title": "Verba Irregularia: Eo, Fero, Fio",
+      "ty": "verba-irregularia-eo-fero-fio"
+    },
+    {
+      "slug": "coniunctivus-praesens",
+      "title": "Coniunctivus Praesens",
+      "ty": "coniunctivus-praesens"
+    },
+    {
+      "slug": "coniunctivus-imperfectum",
+      "title": "Coniunctivus Imperfectum",
+      "ty": "coniunctivus-imperfectum"
+    },
+    {
+      "slug": "clausulae-finales",
+      "title": "Clausulae Finales",
+      "ty": "clausulae-finales"
+    },
+    {
+      "slug": "imperativa-obliqua",
+      "title": "Imperativa Obliqua",
+      "ty": "imperativa-obliqua"
+    },
+    {
+      "slug": "ablativus-absolutus-introductio",
+      "title": "Ablativus Absolutus Introductio",
+      "ty": "ablativus-absolutus-introductio"
+    },
+    {
+      "slug": "recognitio-systema-verbi",
+      "title": "Recognitio: Systema Verbi Latini",
+      "ty": "recognitio-systema-verbi"
+    }
+  ],
   "provectus": [],
   "altior": [],
   "auctores": []

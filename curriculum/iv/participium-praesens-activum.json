@@ -1,0 +1,82 @@
+{
+  "id": "iv-participium-praesens-activum",
+  "level": "IV",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammatica",
+  "strand": "participia",
+  "title": "Participium Praesens Activum",
+  "subtitle": "Puella cantans — actio simultanea, in -ns/-ntis.",
+  "prerequisites": ["iv-participium-perfectum-passivum"],
+  "objectives": [
+    "Formare participium praesens activum omnium coniugationum",
+    "Declinare participium praesens ut adiectivum unius terminationis, i-stem",
+    "Vertere participium praesens correcte: '-ing' vel 'who/which is/was X-ing'",
+    "Distinguere tempus relativum participii praesentis (simultaneum) a perfecto (anterius)"
+  ],
+  "content": {
+    "intro": "Participium praesēns exprimit āctiōnem SIMULTANEAM cum verbō prīncipālī — 'puella cantāns' ('the singing girl' / 'the girl who is singing').",
+    "explanation": "<p>Fōrmātur ā rādīce praesentis + <strong>-ns</strong> (nōminātīvus) / <strong>-ntis</strong> (genetīvus).</p>",
+    "rules": [
+      {
+        "heading": "a) Formatio per Coniugationem",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Coniugatio</th><th>Nom. sg.</th><th>Gen. sg.</th></tr></thead><tbody><tr><td>I</td><td>am<strong>āns</strong></td><td>am<strong>antis</strong></td></tr><tr><td>II</td><td>mon<strong>ēns</strong></td><td>mon<strong>entis</strong></td></tr><tr><td>III</td><td>mitt<strong>ēns</strong></td><td>mitt<strong>entis</strong></td></tr><tr><td>III mixta</td><td>capi<strong>ēns</strong></td><td>capi<strong>entis</strong></td></tr><tr><td>IV</td><td>audi<strong>ēns</strong></td><td>audi<strong>entis</strong></td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Declinatio: Adiectivum Unius Terminationis, I-Stem",
+        "body": "<p>Ūna fōrma nōminātīvō prō omnī genere (amāns), sed dēclīnātiō sequitur patrōnum i-stem: ablātīvus singulāris variat (<strong>-ī</strong> cum adhibētur pūrē ut adiectīvum, <strong>-e</strong> cum habet cōnstrūctiōnem verbālem, ut cum obiectō) — nuance prōvectior; in praxī, <strong>-e</strong> est frequentior in ablātīvō absolūtō. Genetīvus plūrālis: <strong>-ium</strong>.</p>"
+      },
+      {
+        "heading": "c) Tempus Relativum: Simultaneitas",
+        "body": "<p>Differenter ā participiō perfectō (āctiō ANTERIOR), participium praesēns semper indicat āctiōnem SIMULTANEAM cum verbō prīncipālī: <em>Puerōs currentēs vīdī.</em> ('I saw the boys running/AS they were running' — currēbant DUM vīdī, nōn ante.)</p>"
+      }
+    ],
+    "examples": [
+      "Puella cantans pulchra est. — The singing girl is beautiful.",
+      "Milites pugnantes fortes erant. — The fighting soldiers were brave.",
+      "Puerum currentem vidi. — I saw the boy running.",
+      "Aqua fluens sonum facit. — Flowing water makes a sound.",
+      "Cives clamantes audivimus. — We heard the shouting citizens."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Participium praesens confunditur cum gerundio Anglico ('-ing' ut substantivum: 'reading is fun').",
+        "right": "Participium praesens Latinum est semper ADIECTIVUM, modificans nomen ('the reading girl'), non substantivum.",
+        "why": "Latina exprimit conceptum substantivalem Anglici gerundii ('reading') per gerundium proprium (Gradus V), non per participium."
+      },
+      {
+        "wrong": "Participium praesens tractatur ut indicans actionem futuram vel prioram.",
+        "right": "Participium praesens indicat SEMPER simultaneitatem cum verbo principali, sine respectu tempus generalis illius verbi.",
+        "why": "Distinguit ab participio perfecto (anterior) et futuro (posterior), quod in proxima lectione discēs."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-partpres-mc", "type": "multiple-choice", "title": "Participium Praesens: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "partpr1", "prompt": "Genetivus singularis participii 'amans' est:", "options": ["amantis", "amanti", "amantem"], "answerIndex": 0, "explanation": "-ntis: signum genetivi." },
+        { "id": "partpr2", "prompt": "'Puerum currentem vidi' significat:", "options": ["I saw the boy who had run", "I saw the boy running (at that moment)", "I saw the boy who will run"], "answerIndex": 1, "explanation": "Simultaneitas cum 'vidi'." },
+        { "id": "partpr3", "prompt": "Participium praesens verbi 'audire' (quarta coniugatio) est:", "options": ["audens", "audiens", "auditurus"], "answerIndex": 1, "explanation": "audiēns, audientis." }
+      ]
+    },
+    {
+      "id": "iv-partpres-fill", "type": "fill-blank", "title": "Forma Participium Praesens",
+      "instructions": "Comple cum forma recta.",
+      "items": [
+        { "id": "partpr4", "prompt": "Puella ___ pulchra est. (singing — cantans, cantare)", "options": ["cantata", "cantans", "cantatura"], "answers": ["cantans"], "explanation": "Participium praesens: cantāns." },
+        { "id": "partpr5", "prompt": "Milites ___ fortes erant. (fighting — pugnantes, pugnare)", "options": ["pugnati", "pugnantes", "pugnaturi"], "answers": ["pugnantes"], "explanation": "Nominativus masculinum plurale: pugnantēs." }
+      ]
+    }
+  ],
+  "summary": [
+    "Participium praesens: radix praesentis + -ns/-ntis, omnis coniugatio.",
+    "Adiectivum unius terminationis, i-stem (genetivus plurale -ium).",
+    "Indicat semper actionem simultaneam cum verbo principali — differt ab perfecto (anterius)."
+  ],
+  "related": [
+    { "lessonId": "iv-participium-perfectum-passivum", "label": "Participium Perfectum Passivum" },
+    { "lessonId": "iv-participium-futurum-activum", "label": "Participium Futurum Activum" }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "iv-verba-irregularia-possum-volo-nolo-malo",
+  "level": "IV",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammatica",
+  "strand": "verba-irregularia",
+  "title": "Verba Irregularia: Possum, Volo, Nolo, Malo",
+  "subtitle": "Posse, velle, nolle, malle — quattuor verba frequentissima, compositis irregularibus.",
+  "prerequisites": ["iv-oratio-obliqua-accusativus-cum-infinitivo"],
+  "objectives": [
+    "Coniugare possum (sum + potis) in praesenti",
+    "Coniugare volo, nolo, malo in praesenti",
+    "Cognoscere quod nolo = ne + volo, malo = magis + volo, compositi historici",
+    "Uti his verbis regulariter cum infinitivo complementari"
+  ],
+  "content": {
+    "intro": "Post 'sum' ipsum, haec quattuor verba (possum, volo, nolo, malo) sunt inter frequentissima Latinae — et omnia irregularia, quia sunt composita antiqua ex 'sum' et 'volo'.",
+    "explanation": "<p><strong>Possum</strong> = potis ('able') + sum. <strong>Nolo</strong> = ne + volo ('not-want'). <strong>Malo</strong> = magis + volo ('more-want' = 'prefer'). Omnia regulariter accipiunt īnfīnītīvum complementārium.</p>",
+    "rules": [
+      {
+        "heading": "a) Possum, Posse 'to be able'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Persona</th><th>Singularis</th><th>Pluralis</th></tr></thead><tbody><tr><td>1ª</td><td>possum</td><td>possumus</td></tr><tr><td>2ª</td><td>potes</td><td>potestis</td></tr><tr><td>3ª</td><td>potest</td><td>possunt</td></tr></tbody></table><p>Infinitivus: <strong>posse</strong>. Perfectum: <strong>potuī</strong>.</p>"
+      },
+      {
+        "heading": "b) Volo, Velle 'to want'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Persona</th><th>Singularis</th><th>Pluralis</th></tr></thead><tbody><tr><td>1ª</td><td>volo</td><td>volumus</td></tr><tr><td>2ª</td><td>vīs</td><td>vultis</td></tr><tr><td>3ª</td><td>vult</td><td>volunt</td></tr></tbody></table><p>Infinitivus: <strong>velle</strong>. Perfectum: <strong>voluī</strong>.</p>"
+      },
+      {
+        "heading": "c) Nolo, Nolle 'to not want' (= ne + volo)",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Persona</th><th>Singularis</th><th>Pluralis</th></tr></thead><tbody><tr><td>1ª</td><td>nolo</td><td>nolumus</td></tr><tr><td>2ª</td><td>non vis</td><td>non vultis</td></tr><tr><td>3ª</td><td>non vult</td><td>nolunt</td></tr></tbody></table><p>Infinitivus: <strong>nolle</strong>. Recorda: imperativus 'nōlī/nōlīte' (Gradus II) venit ab hoc verbo!</p>"
+      },
+      {
+        "heading": "d) Malo, Malle 'to prefer' (= magis + volo)",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Persona</th><th>Singularis</th><th>Pluralis</th></tr></thead><tbody><tr><td>1ª</td><td>malo</td><td>malumus</td></tr><tr><td>2ª</td><td>māvīs</td><td>māvultis</td></tr><tr><td>3ª</td><td>māvult</td><td>malunt</td></tr></tbody></table><p>Infinitivus: <strong>malle</strong>.</p>"
+      }
+    ],
+    "examples": [
+      "Non possum hoc facere. — I cannot do this.",
+      "Quid vis? — What do you want?",
+      "Nolumus bellum. — We do not want war.",
+      "Malo pacem quam bellum. — I prefer peace to war.",
+      "Potestne venire? — Is he able to come?",
+      "Milites pugnare noluerunt. — The soldiers were unwilling to fight."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Nolo' tractatur ut habens radicem regularem in omni forma (*'nolis', *'nolit').",
+        "right": "'Nolo' mixtat formas propriam (nolo, nolumus, nolunt) cum formis 'non' + volo (non vis, non vult, non vultis).",
+        "why": "Historia compositionis (ne + volo) explicat hanc irregularitatem mixtam."
+      },
+      {
+        "wrong": "'Malo' confunditur cum 'malus' (bad), sine respectu ad significationem verbi ('to prefer').",
+        "right": "'Malo, malle' significat 'to prefer' (ex magis + volo), penitus distinctum ab adiectivo 'malus' (bad).",
+        "why": "Similitudo orthographica accidentalis potest causare confusionem semantica gravem."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-irreg1-mc", "type": "multiple-choice", "title": "Possum, Volo, Nolo, Malo",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "irreg1-1", "prompt": "Infinitivus verbi 'possum' est:", "options": ["possere", "posse", "potere"], "answerIndex": 1, "explanation": "posse: sum + potis, contracta." },
+        { "id": "irreg1-2", "prompt": "2a persona singularis verbi 'volo' est:", "options": ["volis", "vis", "vult"], "answerIndex": 1, "explanation": "vīs, forma irregularis." },
+        { "id": "irreg1-3", "prompt": "'Nolo' significat litteraliter:", "options": ["magis volo", "ne volo (non volo)", "sub volo"], "answerIndex": 1, "explanation": "nolo = ne + volo." },
+        { "id": "irreg1-4", "prompt": "'Malo' significat:", "options": ["I am bad", "I prefer", "I am unable"], "answerIndex": 1, "explanation": "malo, malle = to prefer (magis + volo)." }
+      ]
+    },
+    {
+      "id": "iv-irreg1-fill", "type": "fill-blank", "title": "Comple cum Verbo Irregulari",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "irreg1-5", "prompt": "Ego hoc facere non ___. (I am not able — possum)", "options": ["possum", "potest", "posse"], "answers": ["possum"], "explanation": "1a persona sg.: possum." },
+        { "id": "irreg1-6", "prompt": "Nos pacem quam bellum ___. (we prefer — malumus)", "options": ["malo", "malumus", "malunt"], "answers": ["malumus"], "explanation": "1a persona pl.: mālumus." }
+      ]
+    }
+  ],
+  "summary": [
+    "Possum (sum + potis): possum, potes, potest, possumus, potestis, possunt.",
+    "Volo (velle): volo, vis, vult, volumus, vultis, volunt.",
+    "Nolo (ne + volo): nolo, non vis, non vult, nolumus, non vultis, nolunt.",
+    "Malo (magis + volo): malo, mavis, mavult, malumus, mavultis, malunt."
+  ],
+  "related": [
+    { "lessonId": "iv-oratio-obliqua-accusativus-cum-infinitivo", "label": "Oratio Obliqua: Accusativus cum Infinitivo" },
+    { "lessonId": "iv-verba-irregularia-eo-fero-fio", "label": "Verba Irregularia: Eo, Fero, Fio" }
+  ]
+}

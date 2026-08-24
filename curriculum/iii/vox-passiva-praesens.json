@@ -6,13 +6,13 @@
   "skill": "grammatica",
   "strand": "verba",
   "title": "Vox Passiva Praesens",
-  "subtitle": "Amor, amaris, amatur — et la differentia inter agens et instrumentum.",
+  "subtitle": "Amor, amaris, amatur — et differentia inter agens et instrumentum.",
   "prerequisites": ["iii-comparatio-adverbiorum"],
   "objectives": [
     "Formare vocem passivam praesentis omnium coniugationum",
     "Distinguere ablativum agentis (a/ab + persona) ab ablativo instrumenti (res sola)",
     "Convertere sententias inter vocem activam et passivam",
-    "Reconhecer desinentias passivas ut systema separatum ab activo"
+    "Cognoscere desinentias passivas ut systema separatum ab activo"
   ],
   "content": {
     "intro": "Vox passīva invertit relātiōnem inter subiectum et āctiōnem: <em>Puella rosam videt</em> (āctīva, 'the girl sees the rose') fit <em>Rosa ā puellā vidētur</em> (passīva, 'the rose is seen by the girl').",

@@ -6,13 +6,13 @@
   "skill": "grammatica",
   "strand": "declinatio",
   "title": "Declinatio Quinta",
-  "subtitle": "Res, rei; dies, diei — la minor declinatio, sed frequentissima in usu.",
+  "subtitle": "Res, rei; dies, diei — minor declinatio, sed frequentissima in usu.",
   "prerequisites": ["iii-declinatio-quarta"],
   "objectives": [
     "Declinare res, rei (thing) per omnes casus",
     "Declinare dies, diei (day) per omnes casus",
     "Cognoscere quod fere omnia nomina quintae declinationis sunt feminina, praeter dies",
-    "Reconhecer expressiones frequentes cum 'res' (res publica, res gestae)"
+    "Cognoscere expressiones frequentes cum 'res' (res publica, res gestae)"
   ],
   "content": {
     "intro": "Quinta dēclīnātiō habet paucissima nōmina — sed inter ea, 'rēs' ('thing') est inter frequentissima tōtīus linguae, praesertim in phrasibus ut <em>rēs pūblica</em> ('the republic', litt. 'public thing').",

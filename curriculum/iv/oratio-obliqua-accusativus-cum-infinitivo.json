@@ -1,0 +1,86 @@
+{
+  "id": "iv-oratio-obliqua-accusativus-cum-infinitivo",
+  "level": "IV",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammatica",
+  "strand": "syntaxis",
+  "title": "Oratio Obliqua: Accusativus cum Infinitivo",
+  "subtitle": "Dico te venire — 'I say that you are coming', sine verbo 'that'.",
+  "prerequisites": ["iv-infinitivi"],
+  "objectives": [
+    "Formare constructionem accusativus cum infinitivo (AcI) post verba dicendi/sentiendi",
+    "Applicare tempus relativum infinitivi correcte (praesens/perfectum/futurum)",
+    "Uti 'se' reflexivo indirecto, referens ad subiectum verbi principalis",
+    "Vertere sententias inter oratio recta et oratio obliqua"
+  ],
+  "content": {
+    "intro": "Latīna nōn habet coniūnctiōnem simplicem prō 'that' (ut Anglicum 'I say THAT you are coming'). Prō hōc, tōta clausula subōrdināta trānsformātur in accūsātīvum + īnfīnītīvum.",
+    "explanation": "<p>Post verba dīcendī (dīcō, negō), sentiendī (putō, crēdō, sciō), et percipiendī (videō, audiō), subiectum clausulae subōrdinātae fit ACCŪSĀTĪVUS, et verbum fit ĪNFĪNĪTĪVUS.</p>",
+    "rules": [
+      {
+        "heading": "a) Constructio Basica",
+        "body": "<p>Ōrātiō rēcta: <em>'Puer venit.'</em> ('The boy is coming.') → Ōrātiō oblīqua: <strong>Dīcō puerum venīre.</strong> ('I say that the boy is coming.') Subiectum 'puer' → accūsātīvum 'puerum'; verbum 'venit' → īnfīnītīvum 'venīre'.</p>"
+      },
+      {
+        "heading": "b) Tempus Relativum Infinitivi",
+        "body": "<p><strong>Praesēns</strong> īnfīnītīvus = simultāneum cum verbō prīncipālī: <em>Dīcō eum venīre.</em> ('I say that he IS coming [now].') <strong>Perfectum</strong> = anterius: <em>Dīcō eum vēnisse.</em> ('I say that he CAME/HAS COME [prius].') <strong>Futūrum</strong> = posterius: <em>Dīcō eum ventūrum esse.</em> ('I say that he WILL COME.')</p>"
+      },
+      {
+        "heading": "c) Se: Reflexivum Indirectum",
+        "body": "<p>Intrā clausulā ōrātiōnis oblīquae, <strong>sē</strong> refert ad subiectum verbī PRĪNCIPĀLIS (nōn ad subiectum īnfīnītīvī ipsīus): <em>Mārcus dīcit sē fessum esse.</em> ('Marcus says that HE HIMSELF [Marcus] is tired.') Sī 'eum' adhibērētur locō 'sē', referret ad ALIAM persōnam.</p>"
+      },
+      {
+        "heading": "d) Verba Frequentia + AcI",
+        "body": "<p>dīcō (say), negō (deny/say...not), putō (think), crēdō (believe), sciō (know), spērō (hope), videō (see), audiō (hear), nūntiō (announce).</p>"
+      }
+    ],
+    "examples": [
+      "Scio te bonum esse. — I know that you are good.",
+      "Caesar dixit Gallos fortes esse. — Caesar said that the Gauls were brave.",
+      "Nuntius affert hostes venire. — The messenger reports that the enemies are coming.",
+      "Puella negat se id fecisse. — The girl denies that she did it.",
+      "Speramus nos victuros esse. — We hope that we will win."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus tentat scribere 'quod' vel 'ut' pro Anglico 'that' post verba dicendi.",
+        "right": "Latina Classica adhibet accusativum + infinitivum, sine ulla coniunctione, post verba dicendi/sentiendi.",
+        "why": "'Quod' cum indicativo pro 'that' est constructio posterior/rarior in prosa classica; AcI est norma."
+      },
+      {
+        "wrong": "Tempus infinitivi eligitur secundum tempus absolutum (praeteritum, praesens, futurum reale), non relativum.",
+        "right": "Tempus infinitivi indicat SEMPER relationem cum verbo principali (simultaneum/anterius/posterius), non tempus absolutum calendarii.",
+        "why": "Etiam si verbum principale est praeteritum, infinitivus praesens indicat simultaneitatem CUM ILLO verbo praeterito, non cum praesenti momento loquentis."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-aci-mc", "type": "multiple-choice", "title": "Accusativus cum Infinitivo: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "aci1", "prompt": "'Dico puerum venire' significat:", "options": ["I tell the boy to come", "I say that the boy is coming", "I say the boy came"], "answerIndex": 1, "explanation": "AcI: accusativus + infinitivus praesens = simultaneum." },
+        { "id": "aci2", "prompt": "'Dico eum venisse' significat:", "options": ["I say that he is coming", "I say that he came/has come", "I say that he will come"], "answerIndex": 1, "explanation": "Infinitivus perfectus: anterioritas." },
+        { "id": "aci3", "prompt": "'Marcus dicit se fessum esse' — 'se' refert ad:", "options": ["Marcum ipsum", "aliam personam", "auditorem"], "answerIndex": 0, "explanation": "Reflexivum indirectum: subiectum verbi principalis (Marcus)." }
+      ]
+    },
+    {
+      "id": "iv-aci-fill", "type": "fill-blank", "title": "Forma Oratio Obliqua",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "aci4", "prompt": "Scio ___ bonam esse. (that you [f.] — te)", "options": ["tu", "te", "tibi"], "answers": ["te"], "explanation": "Subiectum AcI: accusativus." },
+        { "id": "aci5", "prompt": "Speramus nos ___ esse. (that we will win — victuros)", "options": ["vincere", "vicisse", "victuros"], "answers": ["victuros"], "explanation": "Infinitivus futurus: posterioritas." }
+      ]
+    }
+  ],
+  "summary": [
+    "Post verba dicendi/sentiendi/percipiendi: subiectum → accusativum; verbum → infinitivum.",
+    "Tempus infinitivi est relativum: praesens (simultaneum), perfectum (anterius), futurum (posterius).",
+    "'Se' intra AcI refert semper ad subiectum verbi principalis (reflexivum indirectum)."
+  ],
+  "related": [
+    { "lessonId": "iv-infinitivi", "label": "Infinitivi" },
+    { "lessonId": "iv-verba-irregularia-possum-volo-nolo-malo", "label": "Verba Irregularia: Possum, Volo, Nolo, Malo" }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "iv-participium-futurum-activum",
+  "level": "IV",
+  "unit": "1",
+  "order": 6,
+  "skill": "grammatica",
+  "strand": "participia",
+  "title": "Participium Futurum Activum",
+  "subtitle": "Moriturus — 'about to X': radix supini + -urus, -a, -um.",
+  "prerequisites": ["iv-participium-praesens-activum"],
+  "objectives": [
+    "Formare participium futurum activum ex radice supini (quarta forma principalis)",
+    "Vertere participium futurum: 'about to X' / 'going to X'",
+    "Cognoscere coniugationem periphrasticam activam (esse + participium futurum)",
+    "Recitare tres participia Latina (praesens, perfectum, futurum) simul"
+  ],
+  "content": {
+    "intro": "'Moritūrī tē salūtant' ('those about to die salute you') — famōsa (quamvīs fortasse nōn historicē authentica) frāsis gladiātōria illūstrat perfectē hoc participium: āctiō FUTŪRA, imminēns.",
+    "explanation": "<p>Participium futūrum āctīvum fōrmātur ā rādīce SUPĪNĪ (invenītur removendō -um ā quārtā fōrmā prīncipālī) + <strong>-ūrus, -ūra, -ūrum</strong>.</p>",
+    "rules": [
+      {
+        "heading": "a) Formatio",
+        "body": "<p>amō, amāre, amāvī, <strong>amāt</strong>um → amāt- + ūrus → <strong>amātūrus</strong> ('about to love'). mittō, ...<strong>miss</strong>um → missūrus. audiō...<strong>audīt</strong>um → audītūrus. Dēclīnātur ut bonus, -a, -um.</p>"
+      },
+      {
+        "heading": "b) Significatio: Intentio vel Imminentia",
+        "body": "<p>Exprimit āctiōnem futūram, saepe cum sēnsū intentiōnis vel imminentiae: <em>Puer piscātūrus ad flūmen it.</em> ('The boy, about to fish/intending to fish, goes to the river.')</p>"
+      },
+      {
+        "heading": "c) Coniugatio Periphrastica Activa",
+        "body": "<p>Participium futūrum + <strong>sum</strong>: <strong>amātūrus sum</strong> ('I am about to love / I am going to love'). Haec cōnstrūctiō, parallēla systēmatī perfectī passīvī, exprimit intentiōnem vel prōximitātem futūrī cum clāritāte quam futūrum simplex nōn semper habet.</p>"
+      },
+      {
+        "heading": "d) Conspectus: Tria Participia",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Participium</th><th>Tempus</th><th>Vox</th><th>Exemplum</th></tr></thead><tbody><tr><td>Praesens</td><td>simultaneum</td><td>activum</td><td>amāns (loving)</td></tr><tr><td>Perfectum</td><td>anterius</td><td>passivum</td><td>amātus (having been loved)</td></tr><tr><td>Futurum</td><td>posterius</td><td>activum</td><td>amātūrus (about to love)</td></tr></tbody></table><p>Nōtā: Latīna Classica CARET participiō praesentis passīvī ET participiō perfectī āctīvī ('having loved' āctīvē nōn exsistit ut fōrma sōla — vidē īnfīnītīvōs/oratiōnem oblīquam, Gradus IV posteriōrem, prō alternātīvīs).</p>"
+      }
+    ],
+    "examples": [
+      "Morituri te salutant. — Those about to die salute you.",
+      "Nautae navigaturi sunt. — The sailors are about to sail.",
+      "Puella discessura patrem salutavit. — The girl, about to leave, greeted her father.",
+      "Quid facturus es? — What are you going to do?",
+      "Roma aeterna mansura est. — Rome is destined to remain eternal."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus tentat formare participium 'perfectum activum' ('having loved', active) ut formam sola.",
+        "right": "Latina non habet participium perfectum activum ut forma morphologica sola — solum deponent verba (Gradus IV posterior) habent hanc formam disponibilem.",
+        "why": "Systema participiorum Latinum habet 'lacunas' notabiles — non omnis combinatio tempus/vox exsistit pro omni verbo."
+      },
+      {
+        "wrong": "Radix participii futuri formatur ex radice praesentis, non ex supino.",
+        "right": "Radix venit ex supino (quarta forma principalis): missum → missūrus, non *mittūrus.",
+        "why": "Radix supini frequenter differt a radice praesentis, praesertim in tertia coniugatione."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-partfut-mc", "type": "multiple-choice", "title": "Participium Futurum: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "partf1", "prompt": "Participium futurum formatur ex radice:", "options": ["praesentis", "perfecti", "supini"], "answerIndex": 2, "explanation": "Radix supini (quarta forma principalis) + -ūrus." },
+        { "id": "partf2", "prompt": "'Morituri te salutant' significa:", "options": ["Those who died salute you", "Those about to die salute you", "Those who will never die salute you"], "answerIndex": 1, "explanation": "Participium futurum: imminentia." },
+        { "id": "partf3", "prompt": "'Amātūrus sum' significat:", "options": ["I loved", "I am loving", "I am about to love"], "answerIndex": 2, "explanation": "Coniugatio periphrastica activa: intentio futura." }
+      ]
+    },
+    {
+      "id": "iv-partfut-fill", "type": "fill-blank", "title": "Forma Participium Futurum",
+      "instructions": "Comple cum forma recta.",
+      "items": [
+        { "id": "partf4", "prompt": "Nautae ___ sunt. (about to sail — navigaturi, navigare, supinum navigatum)", "options": ["navigantes", "navigaturi", "navigati"], "answers": ["navigaturi"], "explanation": "Participium futurum plurale masc.: nāvigātūrī." }
+      ]
+    }
+  ],
+  "summary": [
+    "Participium futurum activum: radix supini + -ūrus, -a, -um.",
+    "Significat intentionem vel imminentiam ('about to X').",
+    "Coniugatio periphrastica activa: participium futurum + sum.",
+    "Latina caret participio perfecto activo et praesenti passivo ut formas independentes."
+  ],
+  "related": [
+    { "lessonId": "iv-participium-praesens-activum", "label": "Participium Praesens Activum" },
+    { "lessonId": "iv-verba-deponentia", "label": "Verba Deponentia" }
+  ]
+}

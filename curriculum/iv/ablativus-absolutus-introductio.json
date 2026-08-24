@@ -1,0 +1,87 @@
+{
+  "id": "iv-ablativus-absolutus-introductio",
+  "level": "IV",
+  "unit": "1",
+  "order": 16,
+  "skill": "grammatica",
+  "strand": "participia",
+  "title": "Ablativus Absolutus Introductio",
+  "subtitle": "Urbe capta, Caesare duce — constructio 'absoluta' de participio et nomine ambo ablativo.",
+  "prerequisites": ["iv-imperativa-obliqua"],
+  "objectives": [
+    "Formare ablativum absolutum: nomen/pronomen + participium, ambo ablativo",
+    "Vertere ablativum absolutum in clausulam temporalem/causalem/concessivam Anglicam",
+    "Uti ablativo absoluto sine participio verbi sum (Caesare duce)",
+    "Cognoscere regulam: subiectum ablativi absoluti non debet iam apparere in clausula principali"
+  ],
+  "content": {
+    "intro": "'Ūrbe captā, mīlitēs discessērunt' — hanc cōnstrūctiōnem breviter in lēctiōne dē participiō perfectō vīdistī. Nunc eam plēnē fōrmālizāmus: est ūna ex cōnstrūctiōnibus māximē elegantibus et frequentibus prōsae Latīnae.",
+    "explanation": "<p>Ablātīvus absolūtus (litt. 'ablative loosed/independent') est phrasis GRAMMATICĒ INDEPENDĒNS ā rēsiduā sententiā: nōmen (vel prōnōmen) + participium, AMBŌ in ablātīvō, concordantēs inter sē.</p>",
+    "rules": [
+      {
+        "heading": "a) Formatio: Nomen + Participium, Ambo Ablativo",
+        "body": "<p><strong>Urbe captā</strong> (nōmen 'urbs' + participium perfectum 'capta', ambō ablātīvō fēminīnō singulārī) — litterāliter 'with the city having been captured'. <strong>Caesare vidente</strong> ('with Caesar watching' — participium praesēns, āctiō simultānea).</p>"
+      },
+      {
+        "heading": "b) Versiones Possibiles",
+        "body": "<p>Secundum contextum, ablātīvus absolūtus vertī potest variē: <strong>temporāliter</strong> ('when/after the city was captured'), <strong>causāliter</strong> ('because the city was captured'), <strong>condicionāliter</strong> ('if the city is/were captured'), vel <strong>concessīvē</strong> ('although the city was captured').</p>"
+      },
+      {
+        "heading": "c) Sine Participio: Duo Nomina, vel Nomen + Adiectivum",
+        "body": "<p>Latīna CARET participiō praesentis verbī 'sum' (*'ēns' nōn exsistit) — ergō ubi Anglica dīceret 'Caesar BEING leader', Latīna simpliciter iūxtāpōnit duo nōmina, VEL nōmen + adiectīvum, ambō ablātīvō, sine verbō ūllō: <strong>Caesare duce</strong> ('with Caesar as leader' / 'while Caesar was leader'), <strong>vīvō patre</strong> ('while father was alive', litt. 'father [being] alive').</p>"
+      },
+      {
+        "heading": "d) Regula: Subiectum Non Iteratur",
+        "body": "<p>Nōmen ablātīvī absolūtī nōn dēbet iam esse subiectum vel obiectum clausulae prīncipālis — aliōquīn Latīna praeferret participium simplex concordāns (ut in lēctiōne priōre). Ablātīvus absolūtus intrōdūcit ELEMENTUM NOVUM, grammaticē sēparātum.</p>"
+      }
+    ],
+    "examples": [
+      "Urbe capta, milites discesserunt. — The city having been captured, the soldiers left.",
+      "Sole oriente, aves canunt. — With the sun rising, the birds sing.",
+      "Caesare duce, Romani vicerunt. — With Caesar as leader, the Romans conquered.",
+      "His dictis, discessit. — These things having been said, he departed.",
+      "Hostibus victis, pax facta est. — The enemies having been defeated, peace was made."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus tentat formare ablativum absolutum cum verbo 'sum' explicito ('Caesare *ente duce').",
+        "right": "'Caesare duce' — sine ullo verbo, quia participium praesens verbi sum non exsistit.",
+        "why": "Haec lacuna gramatica Latina obligat constructionem eliptica, cum duobus nominibus/adiectivo ablativo."
+      },
+      {
+        "wrong": "Nomen ablativi absoluti est idem ac subiectum clausulae principalis (redundantia).",
+        "right": "Ablativus absolutus debet introducere elementum grammaticē separatum a subiecto/obiecto principali.",
+        "why": "Si idem nomen esset subiectum utriusque, Latina praeferret simplex participium concordans (Gradus IV, lectio de participio perfecto)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-ablabs-mc", "type": "multiple-choice", "title": "Ablativus Absolutus: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "ablabs1", "prompt": "'Urbe capta' est formatum ex:", "options": ["nomine solo", "nomine + participio, ambo ablativo", "verbo solo"], "answerIndex": 1, "explanation": "Constructio classica ablativi absoluti." },
+        { "id": "ablabs2", "prompt": "'Caesare duce' non habet participium quia:", "options": ["est error grammaticus", "participium praesens verbi sum non exsistit", "duce est verbum"], "answerIndex": 1, "explanation": "Lacuna: nullum '*ens' pro sum." },
+        { "id": "ablabs3", "prompt": "'Sole oriente, aves canunt' — 'oriente' est participium:", "options": ["perfectum, anterius", "praesens, simultaneum", "futurum, posterius"], "answerIndex": 1, "explanation": "Actio simultanea cum 'canunt'." }
+      ]
+    },
+    {
+      "id": "iv-ablabs-fill", "type": "fill-blank", "title": "Comple Ablativum Absolutum",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "ablabs4", "prompt": "___ dictis, discessit. (These things — his)", "options": ["Hi", "His", "Haec"], "answers": ["His"], "explanation": "Ablativus plurale neutrum: hīs." },
+        { "id": "ablabs5", "prompt": "Hostibus ___, pax facta est. (having been defeated — victis)", "options": ["vincentes", "victis", "victuri"], "answers": ["victis"], "explanation": "Participium perfectum passivum, ablativo plurale." }
+      ]
+    }
+  ],
+  "summary": [
+    "Ablativus absolutus: nomen/pronomen + participium, ambo ablativo, grammaticē independens.",
+    "Versiones: temporaliter, causaliter, condicionaliter, vel concessive.",
+    "Sine participio verbi sum: duo nomina, vel nomen + adiectivum, ambo ablativo (Caesare duce).",
+    "Subiectum ablativi absoluti non debet coincidere cum subiecto/obiecto clausulae principalis."
+  ],
+  "related": [
+    { "lessonId": "iv-imperativa-obliqua", "label": "Imperativa Obliqua" },
+    { "lessonId": "iv-recognitio-systema-verbi", "label": "Recognitio: Systema Verbi Latini" }
+  ]
+}

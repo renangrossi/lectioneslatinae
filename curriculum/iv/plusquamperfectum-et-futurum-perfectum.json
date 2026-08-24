@@ -1,0 +1,82 @@
+{
+  "id": "iv-plusquamperfectum-et-futurum-perfectum",
+  "level": "IV",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammatica",
+  "strand": "verba",
+  "title": "Plusquamperfectum et Futurum Perfectum",
+  "subtitle": "Amaveram, amavero — duo tempora aedificata super radicem perfecti.",
+  "prerequisites": ["iv-systema-perfectum-activum"],
+  "objectives": [
+    "Formare plusquamperfectum activum (radix perfecti + eram)",
+    "Formare futurum perfectum activum (radix perfecti + ero)",
+    "Uti plusquamperfecto pro actione anterior alteri actioni praeterito",
+    "Uti futuro perfecto in clausulis temporalibus, ubi Anglica adhibet simplex futurum"
+  ],
+  "content": {
+    "intro": "Iam rādīcem perfectī nōvistī — nunc duo tempora ADDITIONĀLIA, ambō cōnstrūcta super eandem rādīcem, cum dēsinentiīs iam familiāribus (imperfectō et futūrō verbī sum).",
+    "explanation": "<p>Plūsquamperfectum et futūrum perfectum sunt SIMPLICISSIMA tempora ad fōrmandum, quia dēsinentiae sunt exactē eaedem ac imperfectum/futūrum verbī sum, sōlum suffīxae rādīcī perfectī.</p>",
+    "rules": [
+      {
+        "heading": "a) Plusquamperfectum: Radix Perfecti + eram",
+        "body": "<p><strong>amāveram</strong> (I had loved), amāverās, amāverat, amāverāmus, amāverātis, amāverant. Significat āctiōnem COMPLETAM ANTE aliam āctiōnem praeteritam: <em>Cum vēnistī, iam discesserāmus.</em> ('When you came, we had already left.')</p>"
+      },
+      {
+        "heading": "b) Futurum Perfectum: Radix Perfecti + ero",
+        "body": "<p><strong>amāverō</strong> (I will have loved), amāveris, amāverit, amāverimus, amāveritis, amāverint. Significat āctiōnem quae erit COMPLETA ante aliud pūnctum futūrum: <em>Cum vēneris, iam discesserō.</em> ('When you [will have] come, I will have already left.')</p>"
+      },
+      {
+        "heading": "c) Nota: Futurum Perfectum in Clausulis Temporalibus",
+        "body": "<p>Latīna, DIFFERENTER ab Anglicā, adhibet futūrum perfectum (nōn praesēns) in clausulīs temporālibus (cum, sī, ubi, postquam) referentibus ad futūrum: Anglicē dīcimus 'WHEN you COME [praesēns], I will leave', sed Latīnē <em>Cum vēneris [futūrum perfectum] discēdam.</em> Hoc est error frequentissimus discipulōrum novōrum.</p>"
+      }
+    ],
+    "examples": [
+      "Cum epistulam legeram, respondi. — When I had read the letter, I responded.",
+      "Iam discesserant cum venimus. — They had already left when we came.",
+      "Si hoc feceris, felix ero. — If you (will) do this, I will be happy.",
+      "Cum Romam veneris, me visitabis. — When you (will) come to Rome, you will visit me.",
+      "Antequam sol occiderit, domum ibimus. — Before the sun (will) set, we will go home."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Cum venies, discedam' — futurum simplex adhibitum in clausula temporali, per analogiam Anglicam.",
+        "right": "'Cum veneris, discedam' — futurum perfectum in clausula temporali quae praecedit actionem principalem.",
+        "why": "Latina exprimit explicite completionem prioris actionis ante actionem futuram principalem — Anglica saepe omittit hanc distinctionem."
+      },
+      {
+        "wrong": "Plusquamperfectum et futurum perfectum tractantur ut habentia formationes penitus distinctas.",
+        "right": "Ambo sequuntur eundem patronum simplicem: radix perfecti + (imperfectum vel futurum verbi sum).",
+        "why": "Semel radice perfecti cognita, haec duo tempora sunt inter facillima ad formandum in tota lingua."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-plusq-fill", "type": "fill-blank", "title": "Forma Plusquamperfectum",
+      "instructions": "Comple cum forma recta.",
+      "items": [
+        { "id": "plusq1", "prompt": "Cum vēnistī, iam ___. (I had left — discesseram, discedere)", "options": ["discedebam", "discesseram", "discedam"], "answers": ["discesseram"], "explanation": "Plusquamperfectum: discesseram." },
+        { "id": "plusq2", "prompt": "Milites iam urbem ___ cum dux venit. (had captured — ceperant, capere)", "options": ["capiebant", "ceperant", "capient"], "answers": ["ceperant"], "explanation": "Plusquamperfectum 3a pl.: cēperant." }
+      ]
+    },
+    {
+      "id": "iv-plusq-mc", "type": "multiple-choice", "title": "Futurum Perfectum: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "plusq3", "prompt": "'Cum veneris, discedam' — 'veneris' est:", "options": ["praesens", "futurum perfectum", "perfectum simplex"], "answerIndex": 1, "explanation": "Futurum perfectum: veneris." },
+        { "id": "plusq4", "prompt": "Latina, in clausulis temporalibus referentibus ad futurum, adhibet:", "options": ["praesens, ut Anglica", "futurum perfectum", "imperfectum"], "answerIndex": 1, "explanation": "Differentia sistematica ab Anglica." },
+        { "id": "plusq5", "prompt": "'Amāverō' significat:", "options": ["I loved", "I will love", "I will have loved"], "answerIndex": 2, "explanation": "Futurum perfectum: completio ante punctum futurum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Plusquamperfectum: radix perfecti + eram (amāveram) = 'had done'.",
+    "Futurum perfectum: radix perfecti + erō (amāverō) = 'will have done'.",
+    "Latina adhibet futurum perfectum (non praesens) in clausulis temporalibus futuris — error frequens ad evitandum."
+  ],
+  "related": [
+    { "lessonId": "iv-systema-perfectum-activum", "label": "Systema Perfectum Activum" },
+    { "lessonId": "iv-systema-perfectum-passivum", "label": "Systema Perfectum Passivum" }
+  ]
+}

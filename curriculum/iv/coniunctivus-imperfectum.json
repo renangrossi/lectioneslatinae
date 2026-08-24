@@ -1,0 +1,86 @@
+{
+  "id": "iv-coniunctivus-imperfectum",
+  "level": "IV",
+  "unit": "1",
+  "order": 13,
+  "skill": "grammatica",
+  "strand": "coniunctivus",
+  "title": "Coniunctivus Imperfectum",
+  "subtitle": "Amarem, monerem, mitterem — formatio facillima: infinitivus praesens + desinentiae.",
+  "prerequisites": ["iv-coniunctivus-praesens"],
+  "objectives": [
+    "Formare coniunctivum imperfectum activum: infinitivus praesens + desinentiae personales",
+    "Formare coniunctivum imperfectum verbi sum (essem)",
+    "Praeparare consecutionem temporum pro clausulis subordinatis",
+    "Uti coniunctivo imperfecto in condicione irreali praesenti (praeparatio Gradus V)"
+  ],
+  "content": {
+    "intro": "Bona nova: coniūnctīvus imperfectus est facillimum omnium temporum coniūnctīvī ad fōrmandum — nūlla rādīx nova, nūlla mūtātiō irregulāris.",
+    "explanation": "<p>Fōrmātiō: īnfīnītīvus praesēns āctīvus (iam nōtus!) + dēsinentiae persōnālēs normālēs (-m, -s, -t, -mus, -tis, -nt).</p>",
+    "rules": [
+      {
+        "heading": "a) Formatio Universalis",
+        "body": "<p><strong>amāre</strong> + m/s/t... → <strong>amārem</strong>, amārēs, amāret, amārēmus, amārētis, amārent. <strong>monēre</strong> → <strong>monērem</strong>. <strong>mittere</strong> → <strong>mitterem</strong>. <strong>audīre</strong> → <strong>audīrem</strong>. Idem prō omnī coniugātiōne, sine exceptiōne!</p>"
+      },
+      {
+        "heading": "b) Sum: Coniunctivus Imperfectus",
+        "body": "<p><strong>essem</strong>, essēs, esset, essēmus, essētis, essent (ā rādīce 'es-' + dēsinentiae; nōn *forem, quamvis illa fōrma quoque rārō exsistat archaicē).</p>"
+      },
+      {
+        "heading": "c) Usus: Condicio Irrealis Praesens",
+        "body": "<p>Coniūnctīvus imperfectus in AMBĀBUS clausulīs exprimit condiciōnem contrāriam factō in praesentī: <em>Sī hoc scīrem, tibi dīcerem.</em> ('If I knew this [but I don't], I would tell you.') Plēnius in Gradū V.</p>"
+      },
+      {
+        "heading": "d) Praeparatio: Consecutio Temporum",
+        "body": "<p>Coniūnctīvus imperfectus adhibētur in clausulīs subōrdinātīs post verbum prīncipāle PRAETERITUM (sequentia historica): <em>Vēnit ut tē vidēret.</em> ('He came IN ORDER TO see you' — imperfectum coniūnctīvī, quia 'vēnit' est praeteritum). Plēnius hanc rēgulam (cōnsecūtiō temporum) in Gradū V discēs.</p>"
+      }
+    ],
+    "examples": [
+      "Si pecuniam haberem, tibi darem. — If I had money, I would give it to you.",
+      "Utinam hic esses! — If only you were here!",
+      "Milites pugnabant ne urbs caperetur. — The soldiers were fighting so that the city would not be captured.",
+      "Nesciebam quid faceres. — I did not know what you were doing.",
+      "Vellem hoc verum esset. — I would wish this were true."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus tentat memorare radicem novam pro coniunctivo imperfecto, ut in aliis temporibus.",
+        "right": "Coniunctivus imperfectus = infinitivus praesens (iam notus) + desinentiae — nulla radix nova.",
+        "why": "Haec est formatio simplicissima omnium, non postulans memoriam additionalem si infinitivus iam scitur."
+      },
+      {
+        "wrong": "Coniunctivus imperfectus verbi sum formatur *'sirem', per analogiam falsam.",
+        "right": "'essem' — ab infinitivo 'esse' + desinentiae, regulariter (quamvis 'esse' ipsum sit irregulare).",
+        "why": "Etiam sum, quamvis penitus irregulare in indicativo, sequitur regulam generalem hic: infinitivus + desinentiae."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-conjimp-mc", "type": "multiple-choice", "title": "Coniunctivus Imperfectus: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "conjimp1", "prompt": "Coniunctivus imperfectus formatur:", "options": ["radix perfecti + desinentiae", "infinitivus praesens + desinentiae", "radix praesentis + -ba-"], "answerIndex": 1, "explanation": "Formatio universalis: infinitivus + desinentiae." },
+        { "id": "conjimp2", "prompt": "Coniunctivus imperfectus verbi 'mittere' (1a persona sg.) est:", "options": ["mitterem", "mittebam", "mittam"], "answerIndex": 0, "explanation": "mittere + -m: mitterem." },
+        { "id": "conjimp3", "prompt": "Coniunctivus imperfectus verbi 'sum' (1a persona sg.) est:", "options": ["sim", "eram", "essem"], "answerIndex": 2, "explanation": "essem, ab infinitivo esse." }
+      ]
+    },
+    {
+      "id": "iv-conjimp-fill", "type": "fill-blank", "title": "Forma Coniunctivum Imperfectum",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "conjimp4", "prompt": "Si pecuniam ___, tibi darem. (I had — haberem, habere)", "options": ["habeo", "habebam", "haberem"], "answers": ["haberem"], "explanation": "Coniunctivus imperfectus: haberem." },
+        { "id": "conjimp5", "prompt": "Utinam hic ___! (you were — esses, esse)", "options": ["es", "eras", "esses"], "answers": ["esses"], "explanation": "Coniunctivus imperfectus, 2a sg.: essēs." }
+      ]
+    }
+  ],
+  "summary": [
+    "Coniunctivus imperfectus = infinitivus praesens activus + desinentiae personales.",
+    "amārem, monērem, mitterem, audīrem; sum → essem.",
+    "Usus: condicio irrealis praesens, consecutio temporum post verbum praeteritum."
+  ],
+  "related": [
+    { "lessonId": "iv-coniunctivus-praesens", "label": "Coniunctivus Praesens" },
+    { "lessonId": "iv-clausulae-finales", "label": "Clausulae Finales" }
+  ]
+}

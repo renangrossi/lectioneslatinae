@@ -6,11 +6,11 @@
   "skill": "grammatica",
   "strand": "declinatio",
   "title": "Declinatio Secunda: Neutra",
-  "subtitle": "Nomina in -um: bellum, belli — et la regula neutra universalis.",
+  "subtitle": "Nomina in -um: bellum, belli — et regula neutra universalis.",
   "prerequisites": ["ii-declinatio-secunda-masculina"],
   "objectives": [
     "Declinare nomina neutra secundae declinationis (bellum)",
-    "Applicare la regula neutra universalis: nominativus = accusativus = vocativus",
+    "Applicare regulam neutram universalem: nominativus = accusativus = vocativus",
     "Recognoscere -a tamquam signum nominativi/accusativi/vocativi pluralis neutri, in omni declinatione",
     "Vocabularium neutrum frequens (bellum, verbum, templum, donum, oppidum, periculum) uti"
   ],
@@ -43,7 +43,7 @@
       {
         "wrong": "Discipulus quaerit formam accusativi separatam a nominativo in nomine neutro, ut in masculinis/femininis.",
         "right": "In omni nomine neutro, accusativus est SEMPER identicus nominativo — nulla forma separata exsistit.",
-        "why": "Haec est la regula neutra universalis, sine exceptione in tota lingua Latina."
+        "why": "Haec est regula neutra universalis, sine exceptione in tota lingua Latina."
       },
       {
         "wrong": "'verba' interpretatur ut singulare, quia 'similis' Anglico 'verb' (singular concept).",

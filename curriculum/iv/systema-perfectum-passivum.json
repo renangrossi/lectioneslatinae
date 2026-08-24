@@ -1,0 +1,87 @@
+{
+  "id": "iv-systema-perfectum-passivum",
+  "level": "IV",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammatica",
+  "strand": "verba",
+  "title": "Systema Perfectum Passivum",
+  "subtitle": "Amatus sum — participium perfectum + sum, cum concordantia.",
+  "prerequisites": ["iv-plusquamperfectum-et-futurum-perfectum"],
+  "objectives": [
+    "Formare perfectum passivum: participium perfectum passivum + sum",
+    "Facere participium concordare cum subiecto in genere/numero/casu",
+    "Formare plusquamperfectum et futurum perfectum passivum, eodem patrono",
+    "Distinguere systema perfectum passivum (periphrasticum) a praesenti passivo (synthetico)"
+  ],
+  "content": {
+    "intro": "Vōx passīva praesēns (Gradus III) est SYNTHETICA (ūna verbī fōrma: amātur). Sed systēma perfectum passīvum est PERIPHRASTICUM: DUAE verba coniūncta — participium + sum.",
+    "explanation": "<p>Participium perfectum passīvum (quarta fōrma prīncipālis, ut in <em>amō, amāre, amāvī, amātum</em>) fungitur ut adiectīvum, concordāns cum subiectō.</p>",
+    "rules": [
+      {
+        "heading": "a) Perfectum Passivum: Participium + Sum (praesens)",
+        "body": "<p><strong>amātus sum</strong> (I was loved/have been loved, m.), <strong>amāta sum</strong> (f.), <strong>amātum est</strong> (n.). Participium concordat cum subiectō: <em>Puella amāta est.</em> ('The girl was loved' — fem. sg.) <em>Puerī amātī sunt.</em> ('The boys were loved' — masc. pl.)</p>"
+      },
+      {
+        "heading": "b) Plusquamperfectum Passivum: Participium + Eram",
+        "body": "<p><strong>amātus eram</strong> ('I had been loved'). Idem patrōnum, sōlum verbum 'sum' mūtātur ad imperfectum.</p>"
+      },
+      {
+        "heading": "c) Futurum Perfectum Passivum: Participium + Ero",
+        "body": "<p><strong>amātus erō</strong> ('I will have been loved'). Idem patrōnum cum futūrō verbī sum.</p>"
+      },
+      {
+        "heading": "d) Conspectus: Synthetica vs. Periphrastica",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Tempus</th><th>Activum</th><th>Passivum</th></tr></thead><tbody><tr><td>Praesens</td><td>amat (synth.)</td><td>amātur (synth.)</td></tr><tr><td>Perfectum</td><td>amāvit (synth.)</td><td>amātus est (periphr.)</td></tr></tbody></table>"
+      }
+    ],
+    "examples": [
+      "Roma a Romulo condita est. — Rome was founded by Romulus.",
+      "Epistulae scriptae sunt. — The letters were written.",
+      "Urbs capta erat antequam auxilium venit. — The city had been captured before help came.",
+      "Bellum finitum erit ante hiemem. — The war will have been finished before winter.",
+      "Milites victi sunt. — The soldiers were defeated."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Participium in constructione perfecti passivi tractatur ut indeclinabile, sine concordantia.",
+        "right": "Participium DEBET concordare cum subiecto in genere/numero/casu: 'puella amāta est', non *'puella amātus est'.",
+        "why": "Participium est adiectivum verbale — concordantia est obligatoria, sicut omne adiectivum."
+      },
+      {
+        "wrong": "'amatus est' interpretatur ut praesens ('he is loved'), confundens cum passivo synthetico praesenti.",
+        "right": "'amatus est' est PERFECTUM ('he was/has been loved'); praesens passivum synthetucum est 'amatur'.",
+        "why": "Verbum auxiliare 'est' hic non est praesens passivi, sed pars constructionis perfecti — falsus amicus frequens."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-passperf-fill", "type": "fill-blank", "title": "Forma Perfectum Passivum",
+      "instructions": "Comple cum forma recta, cum concordantia.",
+      "items": [
+        { "id": "pp1", "prompt": "Puella ___ est. (was praised, f. — laudata)", "options": ["laudatus", "laudata", "laudatum"], "answers": ["laudata"], "explanation": "Concordantia femininum: laudāta." },
+        { "id": "pp2", "prompt": "Milites ___ sunt. (were conquered, m. pl. — victi)", "options": ["victus", "victa", "victi"], "answers": ["victi"], "explanation": "Concordantia masculinum plurale: victī." },
+        { "id": "pp3", "prompt": "Bella ___ sunt. (were finished, n. pl. — finita)", "options": ["finitus", "finita", "finiti"], "answers": ["finita"], "explanation": "Regula neutra: nom./acc. plurale -a." }
+      ]
+    },
+    {
+      "id": "iv-passperf-mc", "type": "multiple-choice", "title": "Perfectum Passivum: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "pp4", "prompt": "Perfectum passivum est constructum:", "options": ["ut una forma sintetica", "ut participium perfectum + sum", "ut praesens passivum sola"], "answerIndex": 1, "explanation": "Periphrastica: participium + sum." },
+        { "id": "pp5", "prompt": "'Urbs capta erat' significat:", "options": ["The city is captured", "The city was captured", "The city had been captured"], "answerIndex": 2, "explanation": "Participium + eram = plusquamperfectum passivum." },
+        { "id": "pp6", "prompt": "In 'epistulae scriptae sunt', participium concordat cum:", "options": ["verbo sum", "subiecto 'epistulae' (fem. pl.)", "nulla re, est fixum"], "answerIndex": 1, "explanation": "Concordantia semper cum subiecto." }
+      ]
+    }
+  ],
+  "summary": [
+    "Perfectum passivum: participium perfectum passivum + sum (praesens) — periphrasticum.",
+    "Plusquamperfectum passivum: participium + eram. Futurum perfectum passivum: participium + erō.",
+    "Participium SEMPER concordat cum subiecto in genere/numero/casu."
+  ],
+  "related": [
+    { "lessonId": "iv-plusquamperfectum-et-futurum-perfectum", "label": "Plusquamperfectum et Futurum Perfectum" },
+    { "lessonId": "iv-participium-perfectum-passivum", "label": "Participium Perfectum Passivum" }
+  ]
+}

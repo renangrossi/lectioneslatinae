@@ -1,0 +1,89 @@
+{
+  "id": "iv-verba-deponentia",
+  "level": "IV",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammatica",
+  "strand": "verba",
+  "title": "Verba Deponentia",
+  "subtitle": "Hortor, sequor, patior — forma passiva, significatio activa.",
+  "prerequisites": ["iv-participium-futurum-activum"],
+  "objectives": [
+    "Cognoscere verba deponentia: forma passiva, significatio activa",
+    "Coniugare deponentia per omnia tempora, in forma passiva",
+    "Uti participio perfecto deponenti cum significatione ACTIVA (unica lacuna systematis participiorum sic impleta)",
+    "Cognoscere verba semi-deponentia (audeo, gaudeo, soleo)"
+  ],
+  "content": {
+    "intro": "'Deponent' venit ā 'dēpōnō' ('to lay aside') — haec verba dēposuērunt (laid aside) significātiōnem passīvam, retinentēs sōlum fōrmam passīvam cum significātiōne āctīvā.",
+    "explanation": "<p>Verbum dēpōnēns cōniugātur EXACTĒ ut passīvum normāle (amor, amāris, amātur...), sed significat āctīvē: <strong>hortor</strong> nōn significat 'I am urged' sed 'I urge'.</p>",
+    "rules": [
+      {
+        "heading": "a) Exempla, Unum per Coniugationem",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Coniug.</th><th>Verbum</th><th>Significatio</th></tr></thead><tbody><tr><td>I</td><td>hortor, hortārī, hortātus sum</td><td>to urge, exhort</td></tr><tr><td>II</td><td>vereor, verērī, veritus sum</td><td>to fear</td></tr><tr><td>III</td><td>sequor, sequī, secūtus sum</td><td>to follow</td></tr><tr><td>III mixta</td><td>patior, patī, passus sum</td><td>to suffer, allow</td></tr><tr><td>IV</td><td>orior, orīrī, ortus sum</td><td>to rise, arise</td></tr></tbody></table><p>Nōtā: dictiōnārium dat tantum TRĒS fōrmās (nūllum -ō āctīvum, quia nōn exsistit): hortor (praesēns), hortārī (īnfīnītīvus), hortātus sum (perfectum).</p>"
+      },
+      {
+        "heading": "b) Coniugatio: Identica Passivo",
+        "body": "<p>Praesēns: hortor, hortāris, hortātur, hortāmur, hortāminī, hortantur. Imperfectum: hortābar, hortābāris... Futūrum: hortābor, hortāberis... Perfectum: hortātus sum, hortātus es... (participium + sum, ut in passīvō, sed hīc significātiō est ĀCTĪVA).</p>"
+      },
+      {
+        "heading": "c) Lacuna Impleta: Participium Perfectum Activum",
+        "body": "<p>Recorda: Latīna Classica normāliter CARET participiō perfectī āctīvī ('having done', āctīvē). Deponentia SOLA implent hanc lacūnam: <strong>secūtus</strong> significat 'having followed' (āctīvē!), nōn 'having been followed'. <em>Hostem secūtus, mīles eum cēpit.</em> ('Having followed the enemy, the soldier captured him.')</p>"
+      },
+      {
+        "heading": "d) Verba Semi-Deponentia",
+        "body": "<p>Paucī verba sunt āctīva in systēmate praesentis, sed dēpōnentia in systēmate perfectī: <strong>audeō, audēre, ausus sum</strong> (to dare), <strong>gaudeō, gaudēre, gāvīsus sum</strong> (to rejoice), <strong>soleō, solēre, solitus sum</strong> (to be accustomed).</p>"
+      }
+    ],
+    "examples": [
+      "Dux milites hortatur. — The leader urges the soldiers.",
+      "Canis dominum sequitur. — The dog follows its master.",
+      "Multa passi sumus. — We have suffered many things.",
+      "Sol oritur. — The sun rises.",
+      "Hostem secutus, eum cepit. — Having followed the enemy, he captured him.",
+      "Id facere ausus est. — He dared to do it. (semi-deponens)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Hortor' vertitur passivē: 'I am urged', per formam passivam apparentem.",
+        "right": "'Hortor' significat activē: 'I urge' — deponentia SEMPER significant active, quamvis forma sit passiva.",
+        "why": "Haec est definitio ipsa 'deponentis': significatio activa, forma passiva, sine exceptione."
+      },
+      {
+        "wrong": "Participium perfectum deponens ('secutus') vertitur passive: 'having been followed'.",
+        "right": "'secutus' significat active: 'having followed' — unica excepcion ubi Latina habet participium perfectum activum.",
+        "why": "Deponentia implent hanc lacunam quam verba normalia implere non possunt."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-depon-mc", "type": "multiple-choice", "title": "Verba Deponentia: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "depon1", "prompt": "'Hortor' significat:", "options": ["I am urged", "I urge", "I was urged"], "answerIndex": 1, "explanation": "Forma passiva, significatio activa." },
+        { "id": "depon2", "prompt": "Participium perfectum deponens 'secutus' significat:", "options": ["having been followed", "having followed", "will follow"], "answerIndex": 1, "explanation": "Unica lacuna impleta: participium perfectum ACTIVUM." },
+        { "id": "depon3", "prompt": "Quot formae principales dantur pro verbo deponenti in dictionario?", "options": ["quattuor, ut verba normalia", "tres (nullum -o activum)", "duae"], "answerIndex": 1, "explanation": "hortor, hortari, hortatus sum — tres formae, nullum activum -o exsistit." },
+        { "id": "depon4", "prompt": "'Audeo, audere, ausus sum' est verbum:", "options": ["normale activum", "deponens completum", "semi-deponens"], "answerIndex": 2, "explanation": "Activum in praesenti, deponens in perfecto." }
+      ]
+    },
+    {
+      "id": "iv-depon-fill", "type": "fill-blank", "title": "Comple cum Deponenti",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "depon5", "prompt": "Canis dominum ___. (follows — sequitur, sequi)", "options": ["sequit", "sequitur", "sequet"], "answers": ["sequitur"], "explanation": "3a persona sg., forma passiva/significatio activa: sequitur." },
+        { "id": "depon6", "prompt": "Multa ___. (we have suffered — passi sumus, pati)", "options": ["patimur", "passi sumus", "patiemur"], "answers": ["passi sumus"], "explanation": "Perfectum deponens: participium + sum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Verba deponentia: forma passiva, significatio activa, semper (hortor = I urge).",
+    "Tres formae principales (praesens, infinitivus, perfectum) — nullum -o activum.",
+    "Participium perfectum deponens (secutus) est ACTIVUM: 'having followed' — unica lacuna impleta.",
+    "Semi-deponentia: activa in praesenti, deponentia in perfecto (audeo, gaudeo, soleo)."
+  ],
+  "related": [
+    { "lessonId": "iv-participium-futurum-activum", "label": "Participium Futurum Activum" },
+    { "lessonId": "iv-infinitivi", "label": "Infinitivi" }
+  ]
+}

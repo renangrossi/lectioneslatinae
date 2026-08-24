@@ -207,71 +207,71 @@
           "lessons": [
             {
               "id": "iv-systema-perfectum-activum",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-plusquamperfectum-et-futurum-perfectum",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-systema-perfectum-passivum",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-participium-perfectum-passivum",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-participium-praesens-activum",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-participium-futurum-activum",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-verba-deponentia",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-infinitivi",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-oratio-obliqua-accusativus-cum-infinitivo",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-verba-irregularia-possum-volo-nolo-malo",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-verba-irregularia-eo-fero-fio",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-coniunctivus-praesens",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-coniunctivus-imperfectum",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-clausulae-finales",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-imperativa-obliqua",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-ablativus-absolutus-introductio",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "iv-recognitio-systema-verbi",
-              "status": "planned"
+              "status": "published"
             }
           ]
         }

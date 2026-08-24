@@ -6,11 +6,11 @@
   "skill": "grammatica",
   "strand": "pronomina",
   "title": "Pronomen Relativum",
-  "subtitle": "Qui, quae, quod — la regula d'oro: genus/numero ex antecedente, casus ex clausula sua.",
+  "subtitle": "Qui, quae, quod — regula aurea: genus/numerus ex antecedente, casus ex clausula sua.",
   "prerequisites": ["iii-vox-passiva-praesens"],
   "objectives": [
     "Declinare qui, quae, quod per omnes casus",
-    "Applicare la regula: genus et numerus ex antecedente, casus ex officio in clausula relativa",
+    "Applicare regulam: genus et numerus ex antecedente, casus ex officio in clausula relativa",
     "Formare clausulas relativas simplices",
     "Distinguere pronomen relativum a pronomine interrogativo (formaliter simile)"
   ],
@@ -42,7 +42,7 @@
       {
         "wrong": "'Puella quam video' — discipulus elegit casum prōnōminis secundum casum antecedentis ('puella' = nom., ergo *'quae').",
         "right": "'quam' est correctum: casus determinatur per officium DENTRO clausulae relativae (obiectum directum 'video'), non per casum antecedentis.",
-        "why": "Haec est la Regula Aurea: genus/numerus ← antecedens; casus ← clausula propria."
+        "why": "Haec est Regula Aurea: genus/numerus ex antecedente; casus ex clausula propria."
       },
       {
         "wrong": "'quis' et 'quī' tractantur ut perfecte interscambiabiles.",

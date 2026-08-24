@@ -1,0 +1,87 @@
+{
+  "id": "iv-infinitivi",
+  "level": "IV",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammatica",
+  "strand": "verba",
+  "title": "Infinitivi",
+  "subtitle": "Sex infinitivi: praesens, perfectum, futurum — activum et passivum.",
+  "prerequisites": ["iv-verba-deponentia"],
+  "objectives": [
+    "Formare sex infinitivos: praesens/perfectum/futurum, activum/passivum",
+    "Cognoscere quod infinitivi perfecti/futuri passivi utuntur participio, non forma synthetica",
+    "Praeparare fundamentum pro oratione obliqua (proxima lectio)",
+    "Distinguere tempus relativum cuiusque infinitivi"
+  ],
+  "content": {
+    "intro": "Iam infinitivum praesens activum nosti (amare, monere...). Latina habet SEX infinitivos in toto — hodie omnes videbis simul, quia sunt fundamentum absolutum orationis obliquae, quam in proxima lectione discēs.",
+    "explanation": "<p>Infinitivi nōn indicant tempus absolūtum, sed tempus RELĀTĪVUM (ante, simul cum, vel post verbum prīncipāle) — differentia essentiālis prō ōrātiōne oblīquā.</p>",
+    "rules": [
+      {
+        "heading": "a) Praesens: Activum et Passivum",
+        "body": "<p>Āctīvum (iam nōtum): <strong>amāre</strong>, <strong>mittere</strong>. Passīvum: I/II/IV ā -re → -rī (<strong>amārī</strong>, <strong>monērī</strong>, <strong>audīrī</strong>); III sōlum -ere → -ī brevī (<strong>mittī</strong>, <strong>capī</strong>).</p>"
+      },
+      {
+        "heading": "b) Perfectum: Activum et Passivum",
+        "body": "<p>Āctīvum: rādīx perfectī + <strong>-isse</strong> (<strong>amāvisse</strong>, 'to have loved'). Passīvum: participium perfectum passīvum + <strong>esse</strong> (<strong>amātus, -a, -um esse</strong>, 'to have been loved' — participium concordat cum subiectō clausulae, ut in ōrātiōne oblīquā vidēbis).</p>"
+      },
+      {
+        "heading": "c) Futurum: Activum et Passivum",
+        "body": "<p>Āctīvum: participium futūrum + <strong>esse</strong> (<strong>amātūrus, -a, -um esse</strong>, 'to be about to love'). Passīvum (rārum): supīnum + <strong>īrī</strong> (<strong>amātum īrī</strong>, 'to be about to be loved') — cōnstrūctiō antīqua et rāra, magis nōta quam frequenter ūsitāta.</p>"
+      },
+      {
+        "heading": "d) Conspectus",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Tempus</th><th>Activum</th><th>Passivum</th></tr></thead><tbody><tr><td>Praesens</td><td>amāre</td><td>amārī</td></tr><tr><td>Perfectum</td><td>amāvisse</td><td>amātus esse</td></tr><tr><td>Futurum</td><td>amātūrus esse</td><td>amātum īrī (rārum)</td></tr></tbody></table>"
+      }
+    ],
+    "examples": [
+      "Amare pulchrum est. — To love is beautiful.",
+      "Amari ab omnibus vult. — He wants to be loved by everyone.",
+      "Se hoc fecisse negat. — He denies having done this.",
+      "Urbem captam esse audivimus. — We heard that the city had been captured.",
+      "Se victurum esse sperat. — He hopes that he will conquer."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Infinitivus perfectus passivus tractatur ut forma synthetica unica, sicut infinitivus praesens.",
+        "right": "Infinitivus perfectus passivus est SEMPER periphrasticus: participium (concordans) + esse.",
+        "why": "Nulla forma synthetica exsistit pro perfecto/futuro passivo — systema periphrasticum est obligatorium."
+      },
+      {
+        "wrong": "Participium in infinitivo perfecto/futuro passivo/activo tractatur ut indeclinabile.",
+        "right": "Participium concordat cum subiecto proprio clausulae (saepe accusativo, in oratione obliqua) in genere/numero/casu.",
+        "why": "Concordantia participii applicatur etiam intra constructiones infinitivas complexas."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-inf-mc", "type": "multiple-choice", "title": "Infinitivi: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "inf1", "prompt": "Infinitivus praesens passivus tertiae coniugationis (mittere) est:", "options": ["mitteri", "mitti", "missum iri"], "answerIndex": 1, "explanation": "III: -ere → -ī brevī: mittī." },
+        { "id": "inf2", "prompt": "Infinitivus perfectus activus est formatus:", "options": ["radix perfecti + -isse", "participium + esse", "radix praesentis + -re"], "answerIndex": 0, "explanation": "amāvisse: radix + -isse." },
+        { "id": "inf3", "prompt": "Infinitivus futurus activus est formatus:", "options": ["radix supini + -urus + esse", "radix perfecti + -isse", "radix praesentis + -turus"], "answerIndex": 0, "explanation": "amātūrus esse: participium futurum + esse." },
+        { "id": "inf4", "prompt": "'Amātus esse' significat:", "options": ["to love", "to be loved (now)", "to have been loved"], "answerIndex": 2, "explanation": "Infinitivus perfectus passivus: anterioritas." }
+      ]
+    },
+    {
+      "id": "iv-inf-fill", "type": "fill-blank", "title": "Comple cum Infinitivo",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "inf5", "prompt": "Se hoc ___ negat. (having done — fecisse)", "options": ["facere", "fecisse", "facturus esse"], "answers": ["fecisse"], "explanation": "Infinitivus perfectus activus." },
+        { "id": "inf6", "prompt": "Ab omnibus ___ vult. (to be loved — amari)", "options": ["amare", "amari", "amaturus esse"], "answers": ["amari"], "explanation": "Infinitivus praesens passivus." }
+      ]
+    }
+  ],
+  "summary": [
+    "Sex infinitivi: praesens/perfectum/futurum, activum/passivum.",
+    "Praesens: amāre/amārī. Perfectum: amāvisse/amātus esse. Futurum: amātūrus esse/amātum īrī (rarum).",
+    "Perfectum et futurum passivum sunt semper periphrastica, cum participio concordante."
+  ],
+  "related": [
+    { "lessonId": "iv-verba-deponentia", "label": "Verba Deponentia" },
+    { "lessonId": "iv-oratio-obliqua-accusativus-cum-infinitivo", "label": "Oratio Obliqua: Accusativus cum Infinitivo" }
+  ]
+}

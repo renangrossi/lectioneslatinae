@@ -1,0 +1,83 @@
+{
+  "id": "iv-participium-perfectum-passivum",
+  "level": "IV",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammatica",
+  "strand": "participia",
+  "title": "Participium Perfectum Passivum",
+  "subtitle": "Urbs capta — participium tamquam adiectivum, independens ab 'sum'.",
+  "prerequisites": ["iv-systema-perfectum-passivum"],
+  "objectives": [
+    "Uti participio perfecto passivo tamquam adiectivo independenti (sine sum)",
+    "Vertere participium correcte: 'having been X-ed' vel 'the X-ed [thing]'",
+    "Declinare participium ut bonus, -a, -um",
+    "Cognoscere usum participii tamquam praeparationem pro ablativo absoluto (fine huius Gradus)"
+  ],
+  "content": {
+    "intro": "In lectione priore, participium perfectum passivum functionabat CUM 'sum' ut tempus perfectum construeret. Hodie id videbis solum, tamquam adiectivum independens — usus multo frequentior in prosa reali.",
+    "explanation": "<p>Participium perfectum passīvum dēclīnātur exactē ut <em>bonus, -a, -um</em>, et potest modificāre quodvīs nōmen, sine 'sum' ūllō: <em>urbs capta</em> ('the captured city' / 'the city, having been captured').</p>",
+    "rules": [
+      {
+        "heading": "a) Usus Attributivus",
+        "body": "<p>Sīcut adiectīvum normāle, ante vel post nōmen: <em>Librum scrīptum legō.</em> ('I read the written book.') <em>Mīlitēs victōs videō.</em> ('I see the defeated soldiers.')</p>"
+      },
+      {
+        "heading": "b) Usus Circumstantialis: 'Having Been X-ed'",
+        "body": "<p>Frequenter melius vertitur clausulā tempōrālī vel causālī: <em>Urbe captā, mīlitēs discessērunt.</em> ('The city HAVING BEEN CAPTURED [= after/because the city was captured], the soldiers left.') Haec cōnstrūctiō (nōmen + participium, ambō ablātīvō) vocātur <strong>ablātīvus absolūtus</strong> — plēnius eam in fīne huius Gradūs discēs.</p>"
+      },
+      {
+        "heading": "c) Tempus Relativum: Anterioritas",
+        "body": "<p>Participium perfectum semper indicat āctiōnem ANTERIOREM tempōrī verbī prīncipālis, sīve praesēns sīve praeteritum sīve futūrum sit illud verbum: <em>Puer, territus, fūgit.</em> ('The boy, having been frightened [prius], fled.')</p>"
+      }
+    ],
+    "examples": [
+      "Liber scriptus in mensa est. — The written book is on the table.",
+      "Milites victi domum redierunt. — The defeated soldiers returned home.",
+      "Urbe deleta, cives fugerunt. — The city having been destroyed, the citizens fled.",
+      "Verba dicta non possunt revocari. — Spoken words cannot be recalled.",
+      "Consilio capto, Caesar milites duxit. — The plan having been made, Caesar led the soldiers."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Participium perfectum passivum vertitur semper ut tempus passivum verbi ('is/was X-ed'), etiam sine 'sum'.",
+        "right": "Sine 'sum', participium est simplex adiectivum ('the X-ed [thing]') vel clausula circumstantialis ('having been X-ed').",
+        "why": "'Amatus' solum, sine 'sum' ullo, non est tempus finitum — est forma nominalis (adiectivum), grammaticē distincta."
+      },
+      {
+        "wrong": "Participium tractatur ut indicans tempus simultaneum cum verbo principali.",
+        "right": "Participium perfectum SEMPER indicat anterioritatem (actio prior), non simultaneitatem.",
+        "why": "Distinguit participium perfectum (prius) a participio praesenti (simultaneum), quod in proxima lectione discēs."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-partperf-mc", "type": "multiple-choice", "title": "Participium Perfectum: Usus",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "partp1", "prompt": "'Urbs capta' significat:", "options": ["the city captures", "the captured city", "the city will capture"], "answerIndex": 1, "explanation": "Participium ut adiectivum: 'captured'." },
+        { "id": "partp2", "prompt": "'Milites victi domum redierunt' — 'victi' indicat actionem:", "options": ["simultaneam cum 'redierunt'", "anteriorem ad 'redierunt'", "posteriorem ad 'redierunt'"], "answerIndex": 1, "explanation": "Participium perfectum: semper anterioritas." },
+        { "id": "partp3", "prompt": "Participium perfectum passivum declinatur ut:", "options": ["tertia declinatio (i-stem)", "bonus, -a, -um", "indeclinabile"], "answerIndex": 1, "explanation": "Sequitur patronum adiectivorum primae/secundae classis." }
+      ]
+    },
+    {
+      "id": "iv-partperf-fill", "type": "fill-blank", "title": "Comple cum Participio",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "partp4", "prompt": "Liber ___ in mensa est. (written, m. — scriptus)", "options": ["scriptus", "scripta", "scriptum"], "answers": ["scriptus"], "explanation": "Concordantia masculina: scriptus." },
+        { "id": "partp5", "prompt": "Verba ___ non possunt revocari. (spoken, n. pl. — dicta)", "options": ["dictus", "dicta", "dicti"], "answers": ["dicta"], "explanation": "Regula neutra: plurale -a." }
+      ]
+    }
+  ],
+  "summary": [
+    "Participium perfectum passivum, sine sum, functionat ut adiectivum independens.",
+    "Declinatum ut bonus, -a, -um; concordat cum nomine quod modificat.",
+    "Semper indicat anterioritatem respectu verbi principalis.",
+    "Fundamentum constructionis 'ablativus absolutus' (nomen + participium ablativo)."
+  ],
+  "related": [
+    { "lessonId": "iv-systema-perfectum-passivum", "label": "Systema Perfectum Passivum" },
+    { "lessonId": "iv-participium-praesens-activum", "label": "Participium Praesens Activum" }
+  ]
+}

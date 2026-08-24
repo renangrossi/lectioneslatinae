@@ -1,0 +1,101 @@
+{
+  "id": "iv-recognitio-systema-verbi",
+  "level": "IV",
+  "unit": "1",
+  "order": 17,
+  "skill": "grammatica",
+  "strand": "recognitio",
+  "title": "Recognitio: Systema Verbi Latini",
+  "subtitle": "Sex tempora, duae voces, tres modi — omnia coniuncta in uno conspectu.",
+  "prerequisites": ["iv-ablativus-absolutus-introductio"],
+  "objectives": [
+    "Recitare omnia sex tempora indicativi, activa et passiva",
+    "Distinguere systema praesens (praesens/imperfectum/futurum) a systemate perfecto",
+    "Recognoscere omnia participia et infinitivos in contextu",
+    "Applicare scientiam verbi integram in sententiis complexis"
+  ],
+  "content": {
+    "intro": "Congratulationes — Gradum IV paene complevisti! Ante Gradum V (coniunctivus plenus et clausulae subordinatae), tempus est omnia systemata verbi discussa colligere in unum conspectum.",
+    "explanation": "<p>Verbum Latīnum habet duo systēmata temporum (praesēns et perfectum), duās vōcēs (āctīva et passīva), et tot modōs quot iam vīdistī (indicātīvus, imperātīvus, coniūnctīvus incipiēns).</p>",
+    "rules": [
+      {
+        "heading": "a) Systema Praesentis: Radix Praesentis",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Tempus</th><th>Activum (amō)</th><th>Passivum (amō)</th></tr></thead><tbody><tr><td>Praesens</td><td>amō</td><td>amor</td></tr><tr><td>Imperfectum</td><td>amābam</td><td>amābar</td></tr><tr><td>Futurum</td><td>amābō</td><td>amābor</td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Systema Perfecti: Radix Perfecti (activum) / Participium + Sum (passivum)",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Tempus</th><th>Activum</th><th>Passivum</th></tr></thead><tbody><tr><td>Perfectum</td><td>amāvī</td><td>amātus sum</td></tr><tr><td>Plusquamperfectum</td><td>amāveram</td><td>amātus eram</td></tr><tr><td>Futurum perfectum</td><td>amāverō</td><td>amātus erō</td></tr></tbody></table>"
+      },
+      {
+        "heading": "c) Participia et Infinitivi: Conspectus Finalis",
+        "body": "<p>Participia: praesēns āctīvum (amāns, simultāneum), perfectum passīvum (amātus, anterius), futūrum āctīvum (amātūrus, posterius). Īnfīnītīvī: sex tōtī (Gradus IV, lēctiō 8), fundāmentum ōrātiōnis oblīquae.</p>"
+      },
+      {
+        "heading": "d) Modi: Indicativus, Imperativus, Coniunctivus",
+        "body": "<p><strong>Indicātīvus</strong>: fakta dēclārat. <strong>Imperātīvus</strong>: ōrdinēs dat. <strong>Coniūnctīvus</strong> (praesēns et imperfectum iam nōtī): incertitūdinem, voluntātem, clausulās subōrdinātās exprimit — plūra tempora (perfectum, plūsquamperfectum) et ūsūs (cōnsecūtīvae, condiciōnālēs, indirēctae interrogātiōnēs) tē in Gradū V exspectant.</p>"
+      }
+    ],
+    "examples": [
+      "Miles pugnat, pugnabat, pugnabit. — The soldier fights, was fighting, will fight.",
+      "Miles pugnavit, pugnaverat, pugnaverit. — The soldier fought, had fought, will have fought.",
+      "Urbs capitur, capiebatur, capietur. — The city is/was/will be captured.",
+      "Urbs capta est, capta erat, capta erit. — The city was/had been/will have been captured.",
+      "Urbe capta, milites qui pugnaverant discesserunt ut domum irent. — The city having been captured, the soldiers who had fought departed in order to go home."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus confundit systema praesentis (radix praesentis) cum systemate perfecti (radix perfecti), applicans radicem falsam.",
+        "right": "Praesens/imperfectum/futurum semper utuntur radice PRAESENTIS; perfectum/plusquamperfectum/futurum-perfectum semper utuntur radice PERFECTI (activum) vel participio (passivum).",
+        "why": "Confusio radicum est error frequentissimus discipulorum novorum — verificare semper quam radicem quodque tempus postulat."
+      },
+      {
+        "wrong": "Omnia sex tempora tractantur ut habentia eandem structuram formalem inter activum et passivum.",
+        "right": "Systema praesentis est synthetucum in ambabus vocibus (amō/amor); systema perfecti est synthetucum activo, sed periphrasticum (participium+sum) passivo.",
+        "why": "Haec asymmetria est fundamentalis characteristica structurae verbi Latini."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-recog-mc", "type": "multiple-choice", "title": "Systema Verbi: Recognitio Plena",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "recog1", "prompt": "'Amāverat' pertinet ad:", "options": ["systema praesentis", "systema perfecti, plusquamperfectum", "coniunctivum"], "answerIndex": 1, "explanation": "Radix perfecti + eram: plusquamperfectum." },
+        { "id": "recog2", "prompt": "'Amātus erit' significat:", "options": ["he loved", "he will be loved", "he will have been loved"], "answerIndex": 2, "explanation": "Participium + erit: futurum perfectum passivum." },
+        { "id": "recog3", "prompt": "Quod tempus/vox adhibet semper constructionem periphrasticam (participium + sum)?", "options": ["praesens activum", "systema perfectum passivum", "imperfectum activum"], "answerIndex": 1, "explanation": "Perfectum/plusquamperfectum/futurum perfectum passivum: semper periphrastica." },
+        { "id": "recog4", "prompt": "'Amāns' (participium) indicat tempus:", "options": ["anterius", "simultaneum", "posterius"], "answerIndex": 1, "explanation": "Participium praesens: simultaneitas." },
+        { "id": "recog5", "prompt": "'Amātūrus' (participium) indicat tempus:", "options": ["anterius", "simultaneum", "posterius"], "answerIndex": 2, "explanation": "Participium futurum: posterioritas." }
+      ]
+    },
+    {
+      "id": "iv-recog-fill", "type": "fill-blank", "title": "Recognosce Radicem",
+      "instructions": "Elige quam radicem quodque tempus postulat.",
+      "items": [
+        { "id": "recog6", "prompt": "Imperfectum activum ('amābam') utitur radice:", "options": ["praesentis", "perfecti"], "answers": ["praesentis"], "explanation": "Praesens/imperfectum/futurum: radix praesentis." },
+        { "id": "recog7", "prompt": "Perfectum activum ('amāvī') utitur radice:", "options": ["praesentis", "perfecti"], "answers": ["perfecti"], "explanation": "Perfectum/plusquamperfectum/futurum perfectum activum: radix perfecti." }
+      ]
+    },
+    {
+      "id": "iv-recog-match", "type": "matching", "title": "Iunge Formam cum Descriptione",
+      "instructions": "Iunge quamque formam verbi cum descriptione temporis/vocis suae.",
+      "items": [
+        { "id": "recog8", "pairs": [
+          { "left": "amābar", "right": "imperfectum passivum" },
+          { "left": "amātus sum", "right": "perfectum passivum" },
+          { "left": "amāverō", "right": "futurum perfectum activum" },
+          { "left": "amem", "right": "coniunctivus praesens" },
+          { "left": "amāns", "right": "participium praesens activum" }
+        ], "explanation": "Recognitio integra systematis verbi Latini, colligens omnia elementa Gradus II-IV." }
+      ]
+    }
+  ],
+  "summary": [
+    "Systema praesentis (radix praesentis): praesens, imperfectum, futurum — synthetucum in ambabus vocibus.",
+    "Systema perfecti: activum synthetucum (radix perfecti); passivum periphrasticum (participium + sum).",
+    "Participia: praesens (simultaneum), perfectum (anterius), futurum (posterius).",
+    "Congratulationes — Gradum IV complevisti! Perge ad Gradum V: Provectus, ubi coniunctivus se plene revelabit."
+  ],
+  "related": [
+    { "lessonId": "iv-ablativus-absolutus-introductio", "label": "Ablativus Absolutus Introductio" }
+  ]
+}

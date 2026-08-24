@@ -1,0 +1,84 @@
+{
+  "id": "iv-verba-irregularia-eo-fero-fio",
+  "level": "IV",
+  "unit": "1",
+  "order": 11,
+  "skill": "grammatica",
+  "strand": "verba-irregularia",
+  "title": "Verba Irregularia: Eo, Fero, Fio",
+  "subtitle": "Ire, ferre, fieri — tria verba brevia sed frequentissima, cum multis compositis.",
+  "prerequisites": ["iv-verba-irregularia-possum-volo-nolo-malo"],
+  "objectives": [
+    "Coniugare eo, ire in praesenti",
+    "Coniugare fero, ferre (athematicum) in praesenti activo",
+    "Coniugare fio, fieri, quod functionat ut passivum verbi facio",
+    "Cognoscere compositos frequentes horum verborum"
+  ],
+  "content": {
+    "intro": "Tria verba ultima huius trilogiae irregularis — brevissima fōrmā, sed omnipraesentia in Latīnitāte, praesertim in compositīs (ab-eo, af-fero, per-ficio...).",
+    "explanation": "<p>'Eō' est ūnum ē paucissimīs verbīs vērē 'athemāticīs' (sine vōcālī thēmaticā clārā in multīs fōrmīs); 'ferō' est simiterly athemāticum in praesentī; 'fīō' supplet locum passīvī praesentis verbī 'faciō'.</p>",
+    "rules": [
+      {
+        "heading": "a) Eo, Ire 'to go'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Persona</th><th>Singularis</th><th>Pluralis</th></tr></thead><tbody><tr><td>1ª</td><td>eō</td><td>īmus</td></tr><tr><td>2ª</td><td>īs</td><td>ītis</td></tr><tr><td>3ª</td><td>it</td><td>eunt</td></tr></tbody></table><p>Perfectum: <strong>iī</strong> (vel īvī). Compositī frequentēs: abeō, adeō, exeō, ineō, pereō, redeō, trānseō (vidē verba-irregularia.html prō lista plēnā).</p>"
+      },
+      {
+        "heading": "b) Fero, Ferre 'to carry, bear' (athematicum)",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Persona</th><th>Singularis</th><th>Pluralis</th></tr></thead><tbody><tr><td>1ª</td><td>ferō</td><td>ferimus</td></tr><tr><td>2ª</td><td>fers</td><td>fertis</td></tr><tr><td>3ª</td><td>fert</td><td>ferunt</td></tr></tbody></table><p>Nōtā: nūlla vōcālis inter rādīcem 'fer-' et dēsinentiam in 2ª/3ª persōnā singulārī (fers, fert — nōn *feris, *ferit). Perfectum: <strong>tulī</strong>. Supīnum: <strong>lātum</strong>. Imperātīvus: <strong>fer!</strong> (Gradus II).</p>"
+      },
+      {
+        "heading": "c) Fio, Fieri 'to become, happen, be made'",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Persona</th><th>Singularis</th><th>Pluralis</th></tr></thead><tbody><tr><td>1ª</td><td>fīō</td><td>fīmus</td></tr><tr><td>2ª</td><td>fīs</td><td>fītis</td></tr><tr><td>3ª</td><td>fit</td><td>fīunt</td></tr></tbody></table><p>Infinitivus: <strong>fierī</strong>. Perfectum: <strong>factus sum</strong> (participium + sum, ut passīvum normāle!). <strong>Fīō supplet locum passīvī praesentis verbī 'faciō'</strong> (quia *'facior' nōn adhibētur) — sed compositī verbī faciō cum praepositiōne (ut cōn-ficiō) FORMANT passīvum regulāre (cōnficior, nōn *cōnfīō).</p>"
+      }
+    ],
+    "examples": [
+      "Romam eo. — I am going to Rome.",
+      "Milites arma ferunt. — The soldiers carry weapons.",
+      "Quid fiet? — What will happen?",
+      "Hoc a magistro factum est. — This was made/done by the teacher.",
+      "Numquam abeunt sine causa. — They never leave without a reason."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Fers' et 'fert' formantur *'feris', *'ferit', per analogiam regularem tertiae coniugationis.",
+        "right": "'fers, fert' — sine vocali thematica, formae athematicae irregulares.",
+        "why": "Ferō est unum e paucissimis verbis vere irregularibus in praesenti activo ipso, non solum in perfecto."
+      },
+      {
+        "wrong": "'Faciō' formatur passive ut *'facior' in praesenti.",
+        "right": "'Fīō, fierī' supplet hanc lacunam — 'faciō' non habet formam passivam propriam in systemate simplici, praeter compositis.",
+        "why": "Haec est irregularitas suppletiva unica in systemate verborum Latinorum."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-irreg2-mc", "type": "multiple-choice", "title": "Eo, Fero, Fio: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "irreg2-1", "prompt": "3a persona singularis praesentis verbi 'ferō' est:", "options": ["ferit", "fert", "ferat"], "answerIndex": 1, "explanation": "fert: forma athematica, sine vocali." },
+        { "id": "irreg2-2", "prompt": "'Fīō' functionat ut passivum praesens verbi:", "options": ["ferō", "eō", "faciō"], "answerIndex": 2, "explanation": "fīō supplet lacunam passivam verbi faciō." },
+        { "id": "irreg2-3", "prompt": "Perfectum verbi 'fīō' est formatum:", "options": ["fīvī, forma synthetica", "factus sum, participium + sum", "fēcī"], "answerIndex": 1, "explanation": "Ut passivum normale: participium + sum." },
+        { "id": "irreg2-4", "prompt": "3a persona pluralis praesentis verbi 'eō' est:", "options": ["eunt", "iunt", "sunt"], "answerIndex": 0, "explanation": "eunt: irregulare." }
+      ]
+    },
+    {
+      "id": "iv-irreg2-fill", "type": "fill-blank", "title": "Comple cum Eo, Fero, Fio",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "irreg2-5", "prompt": "Ego Romam ___. (I am going — eo)", "options": ["eo", "is", "it"], "answers": ["eo"], "explanation": "1a persona sg.: eō." },
+        { "id": "irreg2-6", "prompt": "Milites arma ___. (carry — ferunt)", "options": ["ferunt", "feriunt", "fiunt"], "answers": ["ferunt"], "explanation": "3a persona pl.: ferunt." }
+      ]
+    }
+  ],
+  "summary": [
+    "Eo, ire: eō, īs, it, īmus, ītis, eunt.",
+    "Fero, ferre (athematicum): ferō, fers, fert, ferimus, fertis, ferunt.",
+    "Fio, fieri: fīō, fīs, fit, fīmus, fītis, fīunt — supplet passivum praesens verbi faciō.",
+    "Compositi frequentes: ab-eo, af-fero, con-ficio (passivum regulare: conficior)."
+  ],
+  "related": [
+    { "lessonId": "iv-verba-irregularia-possum-volo-nolo-malo", "label": "Verba Irregularia: Possum, Volo, Nolo, Malo" },
+    { "lessonId": "iv-coniunctivus-praesens", "label": "Coniunctivus Praesens" }
+  ]
+}

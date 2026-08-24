@@ -1,0 +1,86 @@
+{
+  "id": "iv-imperativa-obliqua",
+  "level": "IV",
+  "unit": "1",
+  "order": 15,
+  "skill": "grammatica",
+  "strand": "clausulae",
+  "title": "Imperativa Obliqua",
+  "subtitle": "Impero ut venias — ordines indirecti, formaliter sicut clausula finalis.",
+  "prerequisites": ["iv-clausulae-finales"],
+  "objectives": [
+    "Formare imperativa obliqua (indirect commands) post verba imperandi/petendi",
+    "Cognoscere quod haec clausula est formaliter identica clausulae finali",
+    "Memorare 'iubeo' ut exceptio unica, regens AcI, non ut + coniunctivus",
+    "Uti dativo cum verbis imperandi (impero, persuadeo) ubi apta sunt"
+  ],
+  "content": {
+    "intro": "'Dīc eī ut veniat' ('Tell him to come') — quōmodo Latīna exprimit ōrdinēs indirēctōs? Per eandem cōnstrūctiōnem clausulārum fīnālium quās modo dīdicistī.",
+    "explanation": "<p>Post verba imperandī (imperō), petendī (petō, ōrō, rogō), monendī (moneō), hortandī (hortor), clausula obiectīva adhibet <strong>ut/nē</strong> + coniūnctīvum — fōrmāliter identicum clausulae fīnālī, sed FUNCTIONE differt: hīc est OBIECTUM ipsum verbī, nōn propositum āctiōnis alterīus.</p>",
+    "rules": [
+      {
+        "heading": "a) Constructio Basica",
+        "body": "<p><strong>Imperō tibi ut veniās.</strong> ('I order you to come.') <strong>Petimus ab eō nē discēdat.</strong> ('We ask him not to leave.') Nōtā: 'imperō' regit DATĪVUM persōnae (tibi), nōn accūsātīvum — recorda verba speciālia cum datīvō ex Gradū II.</p>"
+      },
+      {
+        "heading": "b) Consecutio Temporum",
+        "body": "<p>Eadem rēgula ac clausulae fīnālēs: coniūnctīvus praesēns post verbum prīncipāle praesēns/futūrum; imperfectum post praeteritum. <em>Imperāvit ut venīrent.</em> ('He ordered them to come.')</p>"
+      },
+      {
+        "heading": "c) Exceptio: Iubeo + AcI",
+        "body": "<p><strong>Iubeō</strong> ('to order') est exceptiō notābilis: regit ACCŪSĀTĪVUM CUM ĪNFĪNĪTĪVŌ (ut verba dīcendī, Gradus IV prior), NŌN ut/nē + coniūnctīvum: <em>Eōs venīre iussit.</em> ('He ordered them to come.') NŌN <em>*Iussit ut venīrent.</em></p>"
+      },
+      {
+        "heading": "d) Verba Frequentia + Ut/Ne",
+        "body": "<p>imperō (+ dat.), hortor (+ acc.), moneō (+ acc.), petō/ōrō/rogō (ab + abl. persōnae), persuādeō (+ dat.), postulō.</p>"
+      }
+    ],
+    "examples": [
+      "Magister discipulis imperat ut taceant. — The teacher orders the students to be quiet.",
+      "Te oro ut me adiuves. — I beg you to help me.",
+      "Caesar militibus persuasit ut pugnarent. — Caesar persuaded the soldiers to fight.",
+      "Matrem monui ne timeret. — I warned my mother not to be afraid.",
+      "Dux milites castra ponere iussit. — The leader ordered the soldiers to make camp. (iubeo + AcI)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Iussit ut venirent' — regula generalis clausulae obiectivae applicata etiam ad iubeo.",
+        "right": "'Eos venire iussit' — iubeo est exceptio, regens AcI, non ut + coniunctivus.",
+        "why": "Iubeo grammaticē se habet ut dīcō, nōn ut imperō — exceptio memoranda separatim."
+      },
+      {
+        "wrong": "'Impero te ut venias' — accusativus adhibitus post impero.",
+        "right": "'Imperō tibi ut veniās' — impero regit dativum personae.",
+        "why": "Impero pertinet ad classem verborum specialium regentium dativum (Gradus II), non accusativum."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-impobl-mc", "type": "multiple-choice", "title": "Imperativa Obliqua: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "impobl1", "prompt": "'Imperō tibi ut veniās' — 'tibi' est:", "options": ["accusativus", "dativus", "genetivus"], "answerIndex": 1, "explanation": "impero regit dativum." },
+        { "id": "impobl2", "prompt": "Quod verbum regit AcI, non ut + coniunctivus, inter verba imperandi?", "options": ["impero", "iubeo", "peto"], "answerIndex": 1, "explanation": "iubeo est exceptio unica." },
+        { "id": "impobl3", "prompt": "'Eos venire iussit' significat:", "options": ["He ordered that they come (ut+subj.)", "He ordered them to come (AcI)", "They ordered him to come"], "answerIndex": 1, "explanation": "iubeo + AcI." }
+      ]
+    },
+    {
+      "id": "iv-impobl-fill", "type": "fill-blank", "title": "Forma Imperativum Obliquum",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "impobl4", "prompt": "Te oro ut me ___. (help — adiuves)", "options": ["adiuvas", "adiuves", "adiuvabis"], "answers": ["adiuves"], "explanation": "Coniunctivus praesens: adiuvēs." },
+        { "id": "impobl5", "prompt": "Caesar militibus persuasit ut ___. (would fight — pugnarent)", "options": ["pugnant", "pugnarent", "pugnabant"], "answers": ["pugnarent"], "explanation": "Sequentia historica: imperfectum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Verba imperandi/petendi + ut/nē + coniunctivus — formaliter identicum clausulae finali.",
+    "Consecutio temporum applicata identice.",
+    "Iubeo est exceptio: regit accusativus cum infinitivo, non ut + coniunctivus."
+  ],
+  "related": [
+    { "lessonId": "iv-clausulae-finales", "label": "Clausulae Finales" },
+    { "lessonId": "iv-ablativus-absolutus-introductio", "label": "Ablativus Absolutus Introductio" }
+  ]
+}

@@ -6,11 +6,11 @@
   "skill": "grammatica",
   "strand": "declinatio",
   "title": "Declinatio Tertia: Consonantes",
-  "subtitle": "Rex, regis; nomen, nominis — la maior et la plus varia declinatio.",
+  "subtitle": "Rex, regis; nomen, nominis — maxima numero et maxime varia declinatio.",
   "prerequisites": ["ii-numeri-ordinales-et-cardinales-amplius"],
   "objectives": [
     "Declinare nomina tertiae declinationis a radice consonantica (rex, regis)",
-    "Applicare la regula neutra universalis in nominibus neutris tertiae declinationis",
+    "Applicare regulam neutram universalem in nominibus neutris tertiae declinationis",
     "Cognoscere quod genetivus singularis (-is), non nominativus, revelat radicem",
     "Memorare vocabularium frequens tertiae declinationis"
   ],

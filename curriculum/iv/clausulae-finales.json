@@ -1,0 +1,86 @@
+{
+  "id": "iv-clausulae-finales",
+  "level": "IV",
+  "unit": "1",
+  "order": 14,
+  "skill": "grammatica",
+  "strand": "clausulae",
+  "title": "Clausulae Finales",
+  "subtitle": "Ut/ne + coniunctivus — 'in order to', cum consecutione temporum.",
+  "prerequisites": ["iv-coniunctivus-imperfectum"],
+  "objectives": [
+    "Formare clausulas finales cum ut (affirmativum) et ne (negativum)",
+    "Applicare consecutionem temporum: praesens post verbum principale praesens/futurum, imperfectum post praeteritum",
+    "Distinguere clausulam finalem a clausula obiectiva similis formae",
+    "Uti relativo + coniunctivo pro clausula finali alternativa"
+  ],
+  "content": {
+    "intro": "Nunc coniūnctīvum in ūsū subōrdinātō vidēbis prīmum: clausula fīnālis exprimit PROPOSITUM (purpose) āctiōnis — 'in order to', 'so that'.",
+    "explanation": "<p>Latīna nōn habet īnfīnītīvum prō 'in order to' (differenter ab Anglicā 'to see'); adhibet clausulam cum <strong>ut</strong> (affirmātīvē) vel <strong>nē</strong> (negātīvē) + coniūnctīvum.</p>",
+    "rules": [
+      {
+        "heading": "a) Consecutio Temporum: Regula Fundamentalis",
+        "body": "<p>Sī verbum prīncipāle est <strong>praesēns/futūrum</strong> (sequentia prīmāria), clausula fīnālis adhibet coniūnctīvum <strong>praesentem</strong>: <em>Venit ut videat.</em> ('He comes in order to see.') Sī verbum prīncipāle est <strong>praeteritum</strong> (sequentia historica: perfectum, imperfectum), clausula adhibet coniūnctīvum <strong>imperfectum</strong>: <em>Vēnit ut vidēret.</em> ('He came in order to see.')</p>"
+      },
+      {
+        "heading": "b) Negatio: Ne, non Non",
+        "body": "<p>Negātiō clausulae fīnālis est <strong>nē</strong> (nōn 'ut nōn'): <em>Fugit nē caperētur.</em> ('He fled so that he would not be captured' / 'lest he be captured'.)</p>"
+      },
+      {
+        "heading": "c) Relativum + Coniunctivus: Alternativa",
+        "body": "<p>Cum antecēdēns explicitus praesēns est, 'quī/quae/quod' + coniūnctīvus potest substituere 'ut': <em>Lēgātōs mīsit quī pācem peterent.</em> ('He sent envoys TO SEEK peace' — litt. 'who would seek peace'.)</p>"
+      },
+      {
+        "heading": "d) Distinctio: Clausula Finalis vs. Obiectiva",
+        "body": "<p>Post verba cūrandī/postulandī (Gradus IV posteriōre: imperō, petō, moneō), clausula cum ut/nē + coniūnctīvus vidētur formāliter identica, sed FUNCTIŌ differt: fīnālis modificat verbum prīncipāle ('why'); obiectīva (indirēcta imperātiō) est ipsum OBIECTUM verbī ('what is commanded'). Plēnius in proximā lēctiōne.</p>"
+      }
+    ],
+    "examples": [
+      "Studet ut sapiens fiat. — He studies in order to become wise.",
+      "Milites muros aedificaverunt ut urbem defenderent. — The soldiers built walls in order to defend the city.",
+      "Tacuit ne veritatem revelaret. — He kept silent so as not to reveal the truth.",
+      "Caesar pontem fecit quo exercitum traduceret. — Caesar built a bridge by which to lead the army across.",
+      "Venimus ut vos adiuvemus. — We come in order to help you."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Coniunctivus perfectus vel praesens adhibetur post verbum principale praeteritum, sine respectu consecutionis temporum.",
+        "right": "Post verbum principale PRAETERITUM, clausula finalis semper adhibet coniunctivum IMPERFECTUM (sequentia historica).",
+        "why": "Consecutio temporum est regula stricta, applicata consistenter per omnes clausulas finales/consecutivas."
+      },
+      {
+        "wrong": "Negatio clausulae finalis formatur 'ut non', per analogiam Anglicam ('so that...not').",
+        "right": "Negatio est semper 'nē' sola, numquam 'ut nōn' in clausula finali pura.",
+        "why": "'nē' est particula negativa propria clausularum finalium (et optativarum/hortativarum)."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-fin-mc", "type": "multiple-choice", "title": "Clausulae Finales: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "fin1", "prompt": "'Venit ut videat' — quod tempus coniunctivi adhibetur?", "options": ["praesens (sequentia primaria)", "imperfectum (sequentia historica)", "perfectum"], "answerIndex": 0, "explanation": "'Venit' est praesens: sequentia primaria." },
+        { "id": "fin2", "prompt": "'Vēnit ut vidēret' — quod tempus coniunctivi?", "options": ["praesens", "imperfectum (sequentia historica)", "futurum"], "answerIndex": 1, "explanation": "'Vēnit' est perfectum (praeteritum): sequentia historica." },
+        { "id": "fin3", "prompt": "Negatio clausulae finalis est:", "options": ["ut non", "nē", "non ut"], "answerIndex": 1, "explanation": "nē sola, non 'ut non'." }
+      ]
+    },
+    {
+      "id": "iv-fin-fill", "type": "fill-blank", "title": "Forma Clausulam Finalem",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "fin4", "prompt": "Milites pugnaverunt ut urbem ___. (would defend — defenderent)", "options": ["defendant", "defenderent", "defendunt"], "answers": ["defenderent"], "explanation": "Sequentia historica: imperfectum." },
+        { "id": "fin5", "prompt": "Tacuit ___ veritatem revelaret. (so as not to — ne)", "options": ["ut", "ne", "ut non"], "answers": ["ne"], "explanation": "Negatio: nē." }
+      ]
+    }
+  ],
+  "summary": [
+    "Clausula finalis: ut/nē + coniunctivus, exprimens propositum.",
+    "Consecutio temporum: coniunctivus praesens post verbum principale praesens/futurum; imperfectum post praeteritum.",
+    "Negatio: nē (numquam 'ut nōn'). Alternativa: quī/quae/quod + coniunctivus."
+  ],
+  "related": [
+    { "lessonId": "iv-coniunctivus-imperfectum", "label": "Coniunctivus Imperfectum" },
+    { "lessonId": "iv-imperativa-obliqua", "label": "Imperativa Obliqua" }
+  ]
+}

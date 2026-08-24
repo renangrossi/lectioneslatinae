@@ -6,7 +6,7 @@
   "skill": "vocabularium",
   "strand": "numeri",
   "title": "Numeri Ordinales et Cardinales Amplius",
-  "subtitle": "Ab viginti ad mille — et la differentia inter mille et milia.",
+  "subtitle": "Ab viginti ad mille — et differentia inter mille et milia.",
   "prerequisites": ["ii-adverbia"],
   "objectives": [
     "Numerare per decades ab viginti ad centum",

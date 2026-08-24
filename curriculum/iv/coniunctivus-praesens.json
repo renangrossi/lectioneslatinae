@@ -1,0 +1,87 @@
+{
+  "id": "iv-coniunctivus-praesens",
+  "level": "IV",
+  "unit": "1",
+  "order": 12,
+  "skill": "grammatica",
+  "strand": "coniunctivus",
+  "title": "Coniunctivus Praesens",
+  "subtitle": "Amem, moneam, mittam — modus coniunctivus incipiens, cum usu hortativo.",
+  "prerequisites": ["iv-verba-irregularia-eo-fero-fio"],
+  "objectives": [
+    "Formare coniunctivum praesentem activum omnium coniugationum",
+    "Applicare regulam mnemonicam: prima coniugatio -e-, ceterae -a-",
+    "Uti coniunctivo hortativo/iussivo (let us..., let him...)",
+    "Formare coniunctivum praesentem verbi sum (sim)"
+  ],
+  "content": {
+    "intro": "Salvē ad novum modum! Indicātīvus dēclārat facta; coniūnctīvus exprimit incertitūdinem, voluntātem, possibilitātem — necessārius prō clausulīs subōrdinātīs quās mox discēs (fīnālēs, cōnsecūtīvae, indirēctae interrogātiōnēs).",
+    "explanation": "<p>Coniūnctīvus praesēns habet vōcālem thēmaticam distīnctam ab indicātīvō — rēgula mnemonica: <strong>'in prīmā coniugātiōne, ā fit ē; in cēterīs, additur ā.'</strong></p>",
+    "rules": [
+      {
+        "heading": "a) Regula: A → E (I), Additur A (II-IV)",
+        "body": "<p><strong>amem</strong>, amēs, amet, amēmus, amētis, ament (I: ā indicātīvī → ē coniūnctīvī). <strong>moneam</strong>, moneās, moneat... (II: additur ā). <strong>mittam</strong>, mittās, mittat... (III). <strong>audiam</strong>, audiās, audiat... (IV).</p>"
+      },
+      {
+        "heading": "b) Sum: Coniunctivus Irregularis",
+        "body": "<p><strong>sim</strong>, sīs, sit, sīmus, sītis, sint.</p>"
+      },
+      {
+        "heading": "c) Usus Independens: Hortativus/Iussivus",
+        "body": "<p>1ª persōna plūrālis: <strong>Amēmus!</strong> ('Let us love!') — exhortātiō. 3ª persōna: <strong>Veniat!</strong> ('Let him come!') — iussiō indirēcta. Negātiō cum coniūnctīvō hortātīvō: <strong>nē</strong> (nōn 'nōn'): <em>Nē timeāmus!</em> ('Let us not fear!')</p>"
+      },
+      {
+        "heading": "d) Praeparatio pro Clausulis Subordinatis",
+        "body": "<p>Coniūnctīvus praesēns est ESSENTIĀLIS in clausulīs fīnālibus (Gradus IV posteriōre) et multīs aliīs — hodiē tantum fōrmam discis; ūsūs subōrdinātōs vidēbis mox.</p>"
+      }
+    ],
+    "examples": [
+      "Amemus patriam nostram. — Let us love our country.",
+      "Veniat cras. — Let him come tomorrow.",
+      "Ne desperemus. — Let us not despair.",
+      "Utinam sim felix! — If only I were happy! (optativus)",
+      "Vivat rex! — Long live the king! (litt. 'may the king live')"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Coniunctivus praesens primae coniugationis formatur *'amam', per confusionem cum futuro tertiae/quartae.",
+        "right": "'amem' — prima coniugatio muta -ā- indicativi in -ē- coniunctivi.",
+        "why": "Regula mnemonica specifica ad primam coniugationem est crucialis, differens ab aliis tribus."
+      },
+      {
+        "wrong": "Negatio coniunctivi hortativi formatur cum 'non', ut indicativus.",
+        "right": "'nē' (non 'nōn') negat coniunctivum hortativum/iussivum: 'Nē timeāmus'.",
+        "why": "'nē' est particula negativa propria modi coniunctivi in usibus independentibus voluntatis."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "iv-conjpr-mc", "type": "multiple-choice", "title": "Coniunctivus Praesens: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "conjpr1", "prompt": "Coniunctivus praesens, 1a persona sg., verbi 'amo' (prima coniugatio) est:", "options": ["amo", "amem", "amam"], "answerIndex": 1, "explanation": "Prima coniugatio: -ā- → -ē-." },
+        { "id": "conjpr2", "prompt": "Coniunctivus praesens, 1a persona sg., verbi 'mitto' (tertia coniugatio) est:", "options": ["mittam", "mittem", "mitto"], "answerIndex": 0, "explanation": "Tertia coniugatio: additur -a-." },
+        { "id": "conjpr3", "prompt": "'Veniat!' significat:", "options": ["He comes.", "Let him come!", "He will come."], "answerIndex": 1, "explanation": "Coniunctivus iussivus." },
+        { "id": "conjpr4", "prompt": "Coniunctivus praesens verbi 'sum' est:", "options": ["sum, es, est", "sim, sis, sit", "eram, eras, erat"], "answerIndex": 1, "explanation": "sim: coniunctivus irregularis." }
+      ]
+    },
+    {
+      "id": "iv-conjpr-fill", "type": "fill-blank", "title": "Forma Coniunctivum",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "conjpr5", "prompt": "___ patriam nostram! (Let us love — amemus)", "options": ["Amamus", "Amemus", "Amabimus"], "answers": ["Amemus"], "explanation": "Hortativus, 1a pl." },
+        { "id": "conjpr6", "prompt": "___ desperemus. (Let us not — ne)", "options": ["Non", "Ne", "Numquam"], "answers": ["Ne"], "explanation": "Negatio coniunctivi hortativi: nē." }
+      ]
+    }
+  ],
+  "summary": [
+    "Regula mnemonica: prima coniugatio -ā- → -ē-; ceterae coniugationes addunt -ā-.",
+    "amem, moneam, mittam, audiam; sum → sim (irregulare).",
+    "Usus hortativus/iussivus: 'Amēmus!' (let us love), 'Veniat!' (let him come); negatio cum nē."
+  ],
+  "related": [
+    { "lessonId": "iv-verba-irregularia-eo-fero-fio", "label": "Verba Irregularia: Eo, Fero, Fio" },
+    { "lessonId": "iv-coniunctivus-imperfectum", "label": "Coniunctivus Imperfectum" }
+  ]
+}
