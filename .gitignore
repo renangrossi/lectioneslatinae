@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local Claude Code session config
+.claude/
+
+# OS / editor cruft
+.DS_Store
+*.swp
+
+# Local dev server logs, if ever redirected into the repo
+*.log

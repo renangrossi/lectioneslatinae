@@ -1,0 +1,106 @@
+{
+  "id": "i-pronomina-personalia",
+  "level": "I",
+  "unit": "1",
+  "order": 8,
+  "skill": "grammatica",
+  "strand": "pronomina",
+  "title": "Prōnōmina Persōnālia",
+  "subtitle": "Ego, tū, is/ea/id per omnēs cāsūs — a prīma introductiō ad dēclīnātiōnem.",
+  "prerequisites": ["i-sum-verbum-essendi"],
+  "objectives": [
+    "Dēclīnāre ego et tū (et plūrālia nōs, vōs) per omnēs cāsūs",
+    "Dēclīnāre is, ea, id, quod locum prōnōminis tertiae persōnae tenet",
+    "Recognōscere quod Latīna nūllum prōnōmen tertiae persōnae proprium habet",
+    "Ēligere formam cāsūs aptam prō contextū simplicī (subiectum, obiectum, possessiō)"
+  ],
+  "content": {
+    "intro": "Prōnōmina sunt verba parva sed potentissima — 'ego', 'tū', 'is' pro nōminibus stant. Hodiē vidēbis quōmodo tōta fōrma mūtātur secundum officium in sententiā: hoc vocātur <strong>cāsus</strong> (case), et est fundāmentum tōtīus grammaticae Latīnae.",
+    "explanation": "<p>Anglicē, ūnum tantum prōnōmen 'you' variat parum (I/me, he/him). Latīnē, quinque cāsūs distinctī variās fōrmās habent: <strong>nōminātīvus</strong> (subiectum), <strong>genetīvus</strong> (possessiō, 'of'), <strong>datīvus</strong> (obiectum indirēctum, 'to/for'), <strong>accūsātīvus</strong> (obiectum dīrēctum), <strong>ablātīvus</strong> (variī ūsūs, saepe cum praepositiōne).</p>",
+    "rules": [
+      {
+        "heading": "a) Ego / Nōs (Prīma Persōna)",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Cāsus</th><th>Singulāris</th><th>Plūrālis</th></tr></thead><tbody><tr><td>Nōm.</td><td>ego</td><td>nōs</td></tr><tr><td>Gen.</td><td>meī</td><td>nostrī / nostrum</td></tr><tr><td>Dat.</td><td>mihi</td><td>nōbīs</td></tr><tr><td>Acc.</td><td>mē</td><td>nōs</td></tr><tr><td>Abl.</td><td>mē</td><td>nōbīs</td></tr></tbody></table>"
+      },
+      {
+        "heading": "b) Tū / Vōs (Secunda Persōna)",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Cāsus</th><th>Singulāris</th><th>Plūrālis</th></tr></thead><tbody><tr><td>Nōm.</td><td>tū</td><td>vōs</td></tr><tr><td>Gen.</td><td>tuī</td><td>vestrī / vestrum</td></tr><tr><td>Dat.</td><td>tibi</td><td>vōbīs</td></tr><tr><td>Acc.</td><td>tē</td><td>vōs</td></tr><tr><td>Abl.</td><td>tē</td><td>vōbīs</td></tr></tbody></table><p>Nota: <strong>nostrum/vestrum</strong> (genetīvus partitīvus, 'one of us') differt ab <strong>nostrī/vestrī</strong> (genetīvus obiectīvus, 'mindful of us'): <em>ūnus nostrum</em> ('one of us') contrā <em>memor vestrī</em> ('mindful of you all').</p>"
+      },
+      {
+        "heading": "c) Is, Ea, Id (pro Tertiā Persōnā)",
+        "body": "<p>Latīna nūllum prōnōmen tertiae persōnae proprium habet (dīversē ab ego/tū): adhibet <strong>is, ea, id</strong>, quod prōpriē dēmōnstrātīvum est ('that/this one'), sed officium 'he/she/it' implet.</p><table class=\"ref-table\"><thead><tr><th>Cāsus</th><th>Masc. sg.</th><th>Fem. sg.</th><th>Neut. sg.</th></tr></thead><tbody><tr><td>Nōm.</td><td>is</td><td>ea</td><td>id</td></tr><tr><td>Gen.</td><td>eius</td><td>eius</td><td>eius</td></tr><tr><td>Dat.</td><td>eī</td><td>eī</td><td>eī</td></tr><tr><td>Acc.</td><td>eum</td><td>eam</td><td>id</td></tr><tr><td>Abl.</td><td>eō</td><td>eā</td><td>eō</td></tr></tbody></table><table class=\"ref-table\"><thead><tr><th>Cāsus</th><th>Masc. pl.</th><th>Fem. pl.</th><th>Neut. pl.</th></tr></thead><tbody><tr><td>Nōm.</td><td>eī (iī)</td><td>eae</td><td>ea</td></tr><tr><td>Gen.</td><td>eōrum</td><td>eārum</td><td>eōrum</td></tr><tr><td>Dat.</td><td>eīs (iīs)</td><td>eīs</td><td>eīs</td></tr><tr><td>Acc.</td><td>eōs</td><td>eās</td><td>ea</td></tr><tr><td>Abl.</td><td>eīs</td><td>eīs</td><td>eīs</td></tr></tbody></table>"
+      },
+      {
+        "heading": "d) Ūsus Cāsuum: Prīma Aspectus",
+        "body": "<p><strong>Nōminātīvus</strong>: subiectum ('ego videō' — I see). <strong>Accūsātīvus</strong>: obiectum dīrēctum ('mē videt' — he sees me). <strong>Datīvus</strong>: obiectum indirēctum ('mihi dat' — he gives to me). <strong>Genetīvus</strong>: possessiō ('domus eius' — his/her house). <strong>Ablātīvus</strong>: saepe cum praepositiōne ('cum eō' — with him).</p>"
+      }
+    ],
+    "examples": [
+      "Ego tē videō. — I see you.",
+      "Tū mihi librum dās. — You give me a book.",
+      "Is eam amat. — He loves her.",
+      "Domus eius magna est. — His/her house is big.",
+      "Nōbīscum venī! — Come with us! (cum + nōbīs → nōbīscum)",
+      "Ūnus nostrum semper tardus est. — One of us is always late."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus putat Latīnam habēre prōnōmen tertiae persōnae proprium, sīcut Anglicum 'he/she/it'.",
+        "right": "Latīna adhibet is/ea/id (orīgināliter dēmōnstrātīvum) prō hōc officiō — nūllum prōnōmen distīnctum exsistit.",
+        "why": "Haec est differentia frequenter neglēcta inter Latīnam et linguās Rōmānicās/Anglicam."
+      },
+      {
+        "wrong": "'cum mē' scrībitur sēparātim (duo verba).",
+        "right": "'mēcum' (ūnum verbum) — praepositiō 'cum' post prōnōmina persōnālia (mē, tē, nōbīs, vōbīs, sē) suffīgitur.",
+        "why": "Hoc est mōs orthographicus classicus fīxus, sine exceptiōne prō hīs prōnōminibus."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "i-pron-fill", "type": "fill-blank", "title": "Ēlige Cāsum Rectum",
+      "instructions": "Comple spatia cum formā rectā prōnōminis.",
+      "items": [
+        { "id": "pron1", "prompt": "___ librum legō. (I read a book — nōminātīvus)", "options": ["Ego", "Mē", "Mihi"], "answers": ["Ego"], "explanation": "Subiectum: nōminātīvus 'ego'." },
+        { "id": "pron2", "prompt": "Magister ___ librum dat. (gives to me — datīvus)", "options": ["ego", "mē", "mihi"], "answers": ["mihi"], "explanation": "Obiectum indirēctum: datīvus 'mihi'." },
+        { "id": "pron3", "prompt": "Magister ___ videt. (sees me — accūsātīvus)", "options": ["ego", "mē", "meī"], "answers": ["mē"], "explanation": "Obiectum dīrēctum: accūsātīvus 'mē'." },
+        { "id": "pron4", "prompt": "Domus ___ magna est. (his house — genetīvus)", "options": ["is", "eum", "eius"], "answers": ["eius"], "explanation": "Possessiō: genetīvus 'eius'." },
+        { "id": "pron5", "prompt": "Venī ___! (with us — ablātīvus, ūnum verbum cum 'cum')", "options": ["cum nōs", "nōbīscum", "nōs cum"], "answers": ["nōbīscum"], "explanation": "'cum' suffīgitur post nōbīs: nōbīscum." }
+      ]
+    },
+    {
+      "id": "i-pron-mc", "type": "multiple-choice", "title": "Is, Ea, Id",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "pron6", "prompt": "Cāsus nōminātīvus fēminīnīnus singulāris prōnōminis 'is, ea, id' est:", "options": ["is", "ea", "eam"], "answerIndex": 1, "explanation": "ea = she (nōm. fem. sg.)." },
+        { "id": "pron7", "prompt": "Accūsātīvus masculīnus singulāris est:", "options": ["eum", "eam", "eius"], "answerIndex": 0, "explanation": "eum = him (acc. masc. sg.)." },
+        { "id": "pron8", "prompt": "Genetīvus (omnium generum, singulāris) est:", "options": ["eius (idem prō omnibus generibus)", "eōrum", "eī"], "answerIndex": 0, "explanation": "eius sōlus est prō masc./fem./neut. singulārī genetīvō." },
+        { "id": "pron9", "prompt": "Nōminātīvus plūrālis neutrīus generis est:", "options": ["eī", "ea", "eōrum"], "answerIndex": 1, "explanation": "ea = they (nōm./acc. neut. pl. — sīcut multa neutra, eadem fōrma prō nōm. et acc.)." },
+        { "id": "pron10", "prompt": "Cūr 'is, ea, id' officium prōnōminis tertiae persōnae implet, quamvis orīgināliter aliud sit?", "options": ["Quia Latīna nūllum prōnōmen tertiae persōnae proprium habet", "Quia est fōrma antīqua verbī 'sum'", "Quia sōlum in poesī adhibētur"], "answerIndex": 0, "explanation": "Is/ea/id est vērē dēmōnstrātīvum, sed suppleō locum 'he/she/it' propter absentiam prōnōminis proprii." }
+      ]
+    },
+    {
+      "id": "i-pron-match", "type": "matching", "title": "Iunge Prōnōmen cum Cāsū",
+      "instructions": "Iunge quamque fōrmam cum suā dēscrīptiōne cāsūs et significātiōnis.",
+      "items": [
+        { "id": "pron11", "pairs": [
+          { "left": "mihi", "right": "datīvus, 'to/for me'" },
+          { "left": "tē", "right": "accūsātīvus/ablātīvus, 'you'" },
+          { "left": "nostrī", "right": "genetīvus obiectīvus, 'of us' (mindful of us)" },
+          { "left": "eius", "right": "genetīvus, 'his/her/its'" },
+          { "left": "vōbīs", "right": "datīvus/ablātīvus, 'to/for/with you (pl.)'" }
+        ], "explanation": "Quaeque fōrma prōnōminis cāsum ūnicum et officium proprium in sententiā portat." }
+      ]
+    }
+  ],
+  "summary": [
+    "Ego/nōs et tū/vōs sunt vēra prōnōmina persōnālia, plēnē dēclīnāta: meī/mihi/mē/mē, tuī/tibi/tē/tē...",
+    "Is, ea, id supplet locum 'he/she/it': Latīna nūllum prōnōmen tertiae persōnae proprium habet.",
+    "Cāsūs quīnque: nōminātīvus (subiectum), genetīvus (possessiō), datīvus (obiectum indirēctum), accūsātīvus (obiectum dīrēctum), ablātīvus (variī ūsūs).",
+    "'cum' suffīgitur post mē/tē/nōbīs/vōbīs/sē: mēcum, nōbīscum."
+  ],
+  "related": [
+    { "lessonId": "i-sum-verbum-essendi", "label": "Sum: Verbum Essendi" },
+    { "lessonId": "i-lectio-et-auditio-prima", "label": "Lectiō et Audītiō Prīma" }
+  ]
+}

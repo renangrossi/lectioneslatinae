@@ -1,0 +1,55 @@
+{
+  "fundamenta": [
+    {
+      "slug": "alphabetum-et-soni",
+      "title": "Alphabetum et Soni",
+      "ty": "alphabetum-et-soni"
+    },
+    {
+      "slug": "vocales-et-diphthongi",
+      "title": "Vocales et Diphthongi",
+      "ty": "vocales-et-diphthongi"
+    },
+    {
+      "slug": "consonantes",
+      "title": "Consonantes",
+      "ty": "consonantes"
+    },
+    {
+      "slug": "syllabae-et-accentus",
+      "title": "Syllabae et Accentus",
+      "ty": "syllabae-et-accentus"
+    },
+    {
+      "slug": "salutationes",
+      "title": "Salutationes",
+      "ty": "salutationes"
+    },
+    {
+      "slug": "numeri",
+      "title": "Numerī",
+      "ty": "numeri"
+    },
+    {
+      "slug": "sum-verbum-essendi",
+      "title": "Sum: Verbum Essendi",
+      "ty": "sum-verbum-essendi"
+    },
+    {
+      "slug": "pronomina-personalia",
+      "title": "Prōnōmina Persōnālia",
+      "ty": "pronomina-personalia"
+    },
+    {
+      "slug": "lectio-et-auditio-prima",
+      "title": "Lectiō et Audītiō Prīma",
+      "ty": "lectio-et-auditio-prima"
+    }
+  ],
+  "elementa": [],
+  "progressus": [],
+  "media": [],
+  "provectus": [],
+  "altior": [],
+  "auctores": []
+}

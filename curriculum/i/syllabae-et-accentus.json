@@ -1,0 +1,106 @@
+{
+  "id": "i-syllabae-et-accentus",
+  "level": "I",
+  "unit": "1",
+  "order": 4,
+  "skill": "pronuntiatio",
+  "strand": "alphabetum",
+  "title": "Syllabae et Accentus",
+  "subtitle": "Divisio syllabarum et lex paenultimae (the penultimate rule) pro accentu verborum.",
+  "prerequisites": ["i-consonantes"],
+  "objectives": [
+    "Verbum in syllabas recte dividere",
+    "Discernere syllabam 'gravem' (heavy/long) a syllaba 'levi' (light/short)",
+    "Applicare legem paenultimae ut accentum cuiusvis verbi inveniat",
+    "Recognoscere regulam 'muta cum liquida' (stop + l/r) in divisione syllabarum"
+  ],
+  "content": {
+    "intro": "Ubi litteras et sonos singulos iam novisti, tempus est verba tota recte pronuntiare — quod praecipue significat: ubi accentus (the stress) cadat?",
+    "explanation": "<p>Numerus syllabarum in verbo Latino aequatur numero vocalium et diphthongorum: <em>ro-sa</em> (duae), <em>a-mī-cus</em> (tres). Accentus Latinus sequitur regulam simplicem et prope semper absque exceptione: <strong>legem paenultimae</strong> (the Penultimate Law).</p>",
+    "rules": [
+      {
+        "heading": "a) Divisio Syllabarum: Una Consonans",
+        "body": "<p>Consonans singula inter duas vocales semper it cum vocali <strong>sequenti</strong>: <em>a-mī-cus</em>, <em>ro-sa</em>, non <em>am-ī-cus</em>.</p>"
+      },
+      {
+        "heading": "b) Divisio Syllabarum: Duae Consonantes (et 'Muta cum Liquida')",
+        "body": "<p>Generaliter, duae consonantes inter vocales <strong>dividuntur</strong>, una manente cum priore syllaba: <em>mag-is-ter</em> → <em>ma-gis-ter</em> (g cum priore vocali non it hic, quia 'gi' incipit syllabam sequentem — ergo <strong>ma.gis.ter</strong>, ubi 's' claudit 'gis'). <strong>Exceptio magna</strong>: si prima consonans est <em>muta</em> (b, p, d, t, c, g) et secunda est <em>liquida</em> (l vel r), ambae manent <strong>cum vocali sequenti</strong>: <em>pa-tris</em> (non pat-ris), <em>te-ne-brae</em> (non ten-eb-rae).</p>"
+      },
+      {
+        "heading": "c) Syllaba Gravis (Heavy) an Levis (Light)?",
+        "body": "<p>Syllaba est <strong>gravis</strong> (longa, 'heavy') si: (1) vocalem <strong>longam</strong> vel <strong>diphthongum</strong> continet, <em>AUT</em> (2) <strong>clauditur</strong> consonante (id est, syllaba sequens incipit alia consonante, ita ut haec syllaba in consonante desinat). Alioquin syllaba est <strong>levis</strong> (brevis, 'light'): vocalem brevem habet et non clauditur.</p>"
+      },
+      {
+        "heading": "d) Lex Paenultimae (The Penultimate Rule)",
+        "body": "<ul><li>Verba <strong>duarum syllabarum</strong>: accentus semper in <strong>prima</strong> syllaba (unica optio praeter ultimam, quae numquam accentum fert). Exemplum: <strong>RO</strong>-sa, <strong>PA</strong>-tris.</li><li>Verba <strong>trium vel plurium syllabarum</strong>: si <strong>paenultima</strong> (secunda a fine) syllaba <strong>gravis</strong> est, accentus ibi cadit: a-<strong>MĪ</strong>-cus, ma-<strong>GIS</strong>-ter. Si paenultima <strong>levis</strong> est, accentus recedit ad <strong>antepaenultimam</strong> (tertiam a fine): <strong>DO</strong>-mi-nus, phi-lo-<strong>SO</strong>-phi-a.</li><li><strong>Accentus numquam cadit in ultima syllaba</strong> verbi polysyllabi Latini — regula sine exceptione notabili in prosa classica.</li></ul>"
+      }
+    ],
+    "examples": [
+      "amīcus → a-MĪ-cus (paenultima 'mī' longa vocali → gravis)",
+      "magister → ma-GIS-ter (paenultima 'gis' clausa consonante → gravis)",
+      "dominus → DO-mi-nus (paenultima 'mi' brevis et aperta → levis → accentus in antepaenultima)",
+      "patris → PA-tris (disyllabum, muta cum liquida 'tr' manet cum vocali sequenti)",
+      "philosophia → phi-lo-SO-phi-a (5 syllabae, paenultima brevis → antepaenultima accentum fert)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus accentum semper in paenultima ponit, sine respectu ponderis eius syllabae (ut Hispanice vel Italice fere semper fit).",
+        "right": "Accentus in paenultima cadit SOLUM si illa gravis est; alioquin migrat ad antepaenultimam ('DO-mi-nus', non 'do-MI-nus').",
+        "why": "Pondus (weight) syllabae, non sola positio, gubernat accentum Latinum."
+      },
+      {
+        "wrong": "'ma-gis-ter' consideratur habere paenultimam levem, quia vocalis 'i' brevis est.",
+        "right": "Paenultima 'gis' gravis est, quia clauditur consonante 's' — etiam si vocalis ipsa brevis sit.",
+        "why": "Syllaba clausa consonante semper gravis est, indepenenter a quantitate vocalis ipsius."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "i-syll-mc", "type": "multiple-choice", "title": "Ubi Cadit Accentus?",
+      "instructions": "Elige positionem rectam accentus.",
+      "items": [
+        { "id": "syll1", "prompt": "Ubi cadit accentus in 'amīcus'?", "options": ["a-MĪ-cus", "AM-ī-cus", "a-mī-CUS"], "answerIndex": 0, "explanation": "Paenultima 'mī' longa vocali → gravis → accentum fert." },
+        { "id": "syll2", "prompt": "Ubi cadit accentus in 'magister'?", "options": ["MA-gis-ter", "ma-GIS-ter", "ma-gis-TER"], "answerIndex": 1, "explanation": "Paenultima 'gis' clausa consonante 's' → gravis." },
+        { "id": "syll3", "prompt": "Ubi cadit accentus in 'dominus'?", "options": ["DO-mi-nus", "do-MI-nus", "do-mi-NUS"], "answerIndex": 0, "explanation": "Paenultima 'mi' brevis et aperta → levis → accentus recedit ad antepaenultimam." },
+        { "id": "syll4", "prompt": "Verba disyllaba (duarum syllabarum), ut 'rosa', accentum semper habent in:", "options": ["prima syllaba", "secunda syllaba", "variat secundum pondus"], "answerIndex": 0, "explanation": "Accentus numquam in ultima cadit; in disyllabis, ergo semper in prima." },
+        { "id": "syll5", "prompt": "Syllaba dicitur 'gravis' (heavy) si:", "options": ["vocalem longam vel diphthongum habet, VEL consonante clauditur", "tantum si vocalem longam habet", "numquam — omnes syllabae aequo pondere sunt"], "answerIndex": 0, "explanation": "Duae viae ad gravitatem: vocalis longa/diphthongus, aut syllaba clausa." }
+      ]
+    },
+    {
+      "id": "i-syll-tf", "type": "true-false", "title": "Verum an Falsum: Syllabae et Accentus",
+      "instructions": "Dic utrum quaeque sententia vera sit an falsa.",
+      "items": [
+        { "id": "syll6", "statement": "Numerus syllabarum in verbo aequatur numero vocalium et diphthongorum.", "answer": true, "explanation": "Quaeque vocalis vel diphthongus unam syllabam efficit." },
+        { "id": "syll7", "statement": "In verbo 'philosophia' (5 syllabae), accentus cadit in paenultima syllaba.", "answer": false, "explanation": "Paenultima 'phi' brevis est; accentus recedit ad antepaenultimam: phi-lo-SO-phi-a." },
+        { "id": "syll8", "statement": "Combinatio 'muta cum liquida' (ut 'tr' in 'patris') plerumque manet cum syllaba sequenti, non praecedenti.", "answer": true, "explanation": "Haec est exceptio classica ad regulam generalem divisionis duarum consonantium." },
+        { "id": "syll9", "statement": "In verbis Latinis polysyllabis, accentus umquam cadit in ultima syllaba.", "answer": false, "explanation": "Regula sine exceptione: accentus numquam in ultima syllaba verbi Latini polysyllabi." },
+        { "id": "syll10", "statement": "Syllaba clausa consonante (ut 'gis' in 'magister') semper gravis est, etiam si vocalem brevem habeat.", "answer": true, "explanation": "Clausura consonante sola sufficit ad gravitatem, sine respectu quantitatis vocalis." }
+      ]
+    },
+    {
+      "id": "i-syll-match", "type": "matching", "title": "Iunge Verbum cum Accentu Recto",
+      "instructions": "Iunge quodque verbum cum sua divisione syllabarum et accentu recto.",
+      "items": [
+        { "id": "syll11", "pairs": [
+          { "left": "amīcus", "right": "a-MĪ-cus (paenultima longa vocali)" },
+          { "left": "magister", "right": "ma-GIS-ter (paenultima clausa consonante)" },
+          { "left": "dominus", "right": "DO-mi-nus (paenultima brevis et aperta)" },
+          { "left": "patris", "right": "PA-tris (disyllabum, muta cum liquida)" },
+          { "left": "philosophia", "right": "phi-lo-SO-phi-a (paenultima brevis, 5 syllabae)" }
+        ], "explanation": "Quisque exemplum demonstrat unam ex regulis legis paenultimae." }
+      ]
+    }
+  ],
+  "summary": [
+    "Numerus syllabarum = numerus vocalium/diphthongorum.",
+    "Muta cum liquida (b/p/d/t/c/g + l/r) manet cum vocali sequenti in divisione syllabarum.",
+    "Syllaba gravis: vocalem longam/diphthongum habet, AUT clauditur consonante.",
+    "Verba disyllaba: accentus semper in prima. Verba plurium syllabarum: accentus in paenultima si gravis, alioquin in antepaenultima.",
+    "Accentus numquam in ultima syllaba cadit."
+  ],
+  "related": [
+    { "lessonId": "i-consonantes", "label": "Consonantes" },
+    { "lessonId": "i-salutationes", "label": "Salutationes" }
+  ]
+}

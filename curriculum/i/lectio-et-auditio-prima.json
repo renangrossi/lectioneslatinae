@@ -1,0 +1,84 @@
+{
+  "id": "i-lectio-et-auditio-prima",
+  "level": "I",
+  "unit": "1",
+  "order": 9,
+  "skill": "lectio",
+  "strand": "lectio",
+  "title": "Lectiō et Audītiō Prīma",
+  "subtitle": "Prīmus dialogus: omnia quae hūcusque didicistī, coniūncta in ūnā fābulā brevī.",
+  "prerequisites": ["i-pronomina-personalia"],
+  "objectives": [
+    "Legere prīmum dialogum Latīnum alta vōce, cum pronūntiātiōne et accentū rēctīs",
+    "Comprehendere sententiās simplicēs sine versiōne Anglicā",
+    "Vocābula et grammaticam Gradūs I in contextū cognōscere",
+    "Accentum verbōrum novōrum in dialogō rēctē collocāre"
+  ],
+  "content": {
+    "intro": "Tempus est omnia coniungere! Hic dialogus brevis nihil continet quod nōndum didicistī — sōlum verba ex lēctiōnibus 1–8. Lege eum ALTA VŌCE bis vel ter, antequam ad exercitātiōnēs pergās: pronūntiātiō melior fit legendō, nōn tantum vidēndō.",
+    "explanation": "<p>Priusquam legis: recordāre — <strong>C</strong> semper [k], <strong>V</strong> consonāns sonat ut Anglicum 'w', <strong>ae</strong> sonat ut 'eye', et accentus numquam in ultimā syllabā cadit. Lege lentē prīmum, deinde celerius.</p>",
+    "rules": [
+      {
+        "heading": "Textus: Duo Discipulī",
+        "body": "<p class=\"reading-passage-inline\"><strong>Mārcus:</strong> Salvē! Mihi nōmen est Mārcus. Ego sum discipulus novus. Tū quis es?<br><strong>Iūlia:</strong> Salvē, Mārce! Mihi nōmen est Iūlia. Ego quoque discipula sum.<br><strong>Mārcus:</strong> Ut valēs hodiē?<br><strong>Iūlia:</strong> Bene mē habeō, grātiās. Et tū?<br><strong>Mārcus:</strong> Bene! Trēs amīcōs bonōs in scholā habeō — et nunc tū es quārtus amīcus.<br><strong>Iūlia:</strong> Libenter! Nunc valē, Mārce — magistra venit.<br><strong>Mārcus:</strong> Valē, Iūlia!</p>"
+      },
+      {
+        "heading": "Vocābula Nova in Hōc Textū",
+        "body": "<p><em>novus, -a, -um</em> ('new'), <em>hodiē</em> ('today'), <em>bonus, -a, -um</em> ('good'), <em>schola, -ae</em> ('school'), <em>quārtus, -a, -um</em> ('fourth'), <em>magistra, -ae</em> ('teacher, f.'), <em>venit</em> ('comes/is coming') — omnia cētera iam nōta sunt.</p>"
+      }
+    ],
+    "examples": [
+      "Ego sum discipulus novus. — I am a new student.",
+      "Trēs amīcōs bonōs habeō. — I have three good friends.",
+      "Magistra venit. — The teacher is coming."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Mārce' (vocātīvus) pronuntiātur exactly ut 'Mārcus'.",
+        "right": "Vocātīvus 'Mārce' (cāsus ad appellandum) omittit '-us' fīnālem: Mār-ce, duae syllabae, accentus in prīmā.",
+        "why": "Cāsus vocātīvus, adhibitus cum quis dīrēctē appellātur, in secundā dēclīnātiōne (-us) plērumque in -e dēsinit — hunc cāsum plēnius in Gradū II vidēbis."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "i-lect-rc", "type": "reading-comprehension", "title": "Comprehēnsiō: Duo Discipulī",
+      "instructions": "Lege dialogum, deinde respondē quaestiōnibus.",
+      "passage": "<p><strong>Mārcus:</strong> Salvē! Mihi nōmen est Mārcus. Ego sum discipulus novus. Tū quis es?<br><strong>Iūlia:</strong> Salvē, Mārce! Mihi nōmen est Iūlia. Ego quoque discipula sum.<br><strong>Mārcus:</strong> Ut valēs hodiē?<br><strong>Iūlia:</strong> Bene mē habeō, grātiās. Et tū?<br><strong>Mārcus:</strong> Bene! Trēs amīcōs bonōs in scholā habeō — et nunc tū es quārtus amīcus.<br><strong>Iūlia:</strong> Libenter! Nunc valē, Mārce — magistra venit.<br><strong>Mārcus:</strong> Valē, Iūlia!</p>",
+      "items": [
+        { "id": "lect1", "prompt": "Quod est nōmen puerī?", "options": ["Iūlia", "Mārcus", "Claudia"], "answerIndex": 1, "explanation": "'Mihi nōmen est Mārcus' — dictum a puerō ipsō." },
+        { "id": "lect2", "prompt": "Quot amīcōs bonōs Mārcus in scholā habet, ante Iūliam?", "options": ["duōs", "trēs", "quattuor"], "answerIndex": 1, "explanation": "'Trēs amīcōs bonōs... habeō' — Iūlia fit quārtus." },
+        { "id": "lect3", "prompt": "Quōmodo sē habet Iūlia hodiē?", "options": ["male", "mediocriter", "bene"], "answerIndex": 2, "explanation": "'Bene mē habeō, grātiās.'" },
+        { "id": "lect4", "prompt": "Cūr dialogus fīnītur?", "options": ["Quia Mārcus fessus est", "Quia magistra venit", "Quia Iūlia īrāta est"], "answerIndex": 1, "explanation": "'Magistra venit' explicat cūr dēbeant valedīcere." }
+      ]
+    },
+    {
+      "id": "i-lect-tf", "type": "true-false", "title": "Verum an Falsum: De Dialogō",
+      "instructions": "Secundum textum, dīc utrum vērum sit an falsum.",
+      "items": [
+        { "id": "lect5", "statement": "Mārcus est discipulus novus.", "answer": true, "explanation": "'Ego sum discipulus novus' — Mārcus ipse hoc dīcit." },
+        { "id": "lect6", "statement": "Iūlia male sē habet hodiē.", "answer": false, "explanation": "Iūlia dīcit 'bene mē habeō', nōn 'male'." },
+        { "id": "lect7", "statement": "Mārcus et Iūlia ambō discipulī sunt.", "answer": true, "explanation": "Uterque dīcit 'discipulus/discipula sum'." },
+        { "id": "lect8", "statement": "Textus nōn continet ūllam salūtātiōnem.", "answer": false, "explanation": "Textus incipit et fīnītur salūtātiōnibus: 'Salvē'...'Valē'." }
+      ]
+    },
+    {
+      "id": "i-lect-fill", "type": "fill-blank", "title": "Recognitiō: Accentus in Verbīs Novīs",
+      "instructions": "Ex verbīs novīs huius textūs, ēlige ubi cadat accentus (recordāre legem paenultimae).",
+      "items": [
+        { "id": "lect9", "prompt": "'magistra' (tres syllabae: ma-gis-tra) — accentus cadit in:", "options": ["ma- (antepaenultima)", "-gis- (paenultima, clausa 's')", "-tra (ultima)"], "answers": ["-gis- (paenultima, clausa 's')"], "explanation": "Paenultima 'gis' clauditur consonante 's' → gravis → accentum fert: ma-GIS-tra." },
+        { "id": "lect10", "prompt": "'schola' (duae syllabae: scho-la) — accentus cadit in:", "options": ["scho- (prīma)", "-la (secunda)"], "answers": ["scho- (prīma)"], "explanation": "Verba disyllaba semper accentum in prīmā syllabā habent." },
+        { "id": "lect11", "prompt": "'novus' (duae syllabae: no-vus) — accentus cadit in:", "options": ["no- (prīma)", "-vus (secunda)"], "answers": ["no- (prīma)"], "explanation": "Iterum, disyllabum → accentus in prīmā: NO-vus." }
+      ]
+    }
+  ],
+  "summary": [
+    "Legere alta vōce, saepe et lentē prīmum, est via optima ad pronūntiātiōnem cōnfīrmandam.",
+    "Omnia vocābula et fōrmae grammaticae Gradūs I nunc in contextū vīsa sunt.",
+    "Vocātīvus (Mārce) et nova vocābula (novus, hodiē, schola, magistra) parant viam ad Gradum II.",
+    "Congrātulātiōnēs — Gradum I complēvistī! Perge ad Gradum II: Elementa."
+  ],
+  "related": [
+    { "lessonId": "i-pronomina-personalia", "label": "Prōnōmina Persōnālia" }
+  ]
+}

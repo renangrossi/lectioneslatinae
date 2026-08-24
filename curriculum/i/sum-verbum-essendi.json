@@ -1,0 +1,107 @@
+{
+  "id": "i-sum-verbum-essendi",
+  "level": "I",
+  "unit": "1",
+  "order": 7,
+  "skill": "grammatica",
+  "strand": "sum",
+  "title": "Sum: Verbum Essendi",
+  "subtitle": "Tempus praesēns verbī 'sum, esse, fuī' — 'to be' — et pronomina nōminātīva.",
+  "prerequisites": ["i-numeri"],
+  "objectives": [
+    "Recitāre plēnē tempus praesēns verbī 'sum'",
+    "Iungere quamque persōnam verbī cum prōnōmine suō (ego, tū, is/ea, nōs, vōs, eī/eae)",
+    "Intellegere cūr sum praedicātum nōminātīvum, nōn accūsātīvum, postulet",
+    "Sententiās simplicēs cum 'sum' formāre et negāre"
+  ],
+  "content": {
+    "intro": "Verbum <strong>sum</strong> ('I am') est frequentissimum omnium verbōrum Latīnōrum et, sīcut in multīs linguīs, valdē <em>irregulāre</em>. Discere illud probē fundāmentum est omnis ōrātiōnis Latīnae.",
+    "explanation": "<p>Latīna verba plērumque persōnam agentis in ipsā dēsinentiā (ending) portant — ideō prōnōmen (ego, tū...) plērumque <strong>omittitur</strong>, nisi ēmphasis quaeritur. <em>'Sum discipulus'</em> sufficit prō 'ego sum discipulus'; <em>'ego'</em> additur sōlum sī vīs dīcere <strong>'EGO (nōn aliī) sum discipulus'</strong>.</p>",
+    "rules": [
+      {
+        "heading": "a) Sum: Tempus Praesēns",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Persōna</th><th>Singulāris</th><th>Plūrālis</th></tr></thead><tbody><tr><td>1ª</td><td>(ego) <strong>sum</strong> — I am</td><td>(nōs) <strong>sumus</strong> — we are</td></tr><tr><td>2ª</td><td>(tū) <strong>es</strong> — you are</td><td>(vōs) <strong>estis</strong> — you (pl.) are</td></tr><tr><td>3ª</td><td>(is/ea/id) <strong>est</strong> — he/she/it is</td><td>(eī/eae/ea) <strong>sunt</strong> — they are</td></tr></tbody></table><p>Īnfīnītīvus: <strong>esse</strong> ('to be'). Persōna prīma perfectī: <strong>fuī</strong> ('I was/have been') — hanc formam plēnius in Gradū IV discēs.</p>"
+      },
+      {
+        "heading": "b) Pronomina Nōminātīva",
+        "body": "<p><strong>ego</strong> (I), <strong>tū</strong> (you, sg.), <strong>is/ea/id</strong> (he/she/it), <strong>nōs</strong> (we), <strong>vōs</strong> (you, pl.), <strong>eī/eae/ea</strong> (they). Plēnam dēclīnātiōnem hōrum prōnōminum (per omnēs cāsūs) in proximā lēctiōne, <em>Prōnōmina Persōnālia</em>, vidēbis.</p>"
+      },
+      {
+        "heading": "c) Praedicātum Nōminātīvum",
+        "body": "<p>'Sum' nōn est verbum trānsitīvum: nōn habet obiectum accūsātīvum. Nōmen vel adiectīvum post 'sum' semper in cāsū <strong>nōminātīvō</strong> pōnitur, quia dēscrībit ipsum subiectum: <em>Marcus est discipulus</em> (nōn 'discipulum'!) — 'discipulus' et 'Marcus' idem sunt, ergō eōdem cāsū.</p>"
+      },
+      {
+        "heading": "d) Negātiō",
+        "body": "<p>Ad negandum, <strong>nōn</strong> ante verbum pōnitur: <em>Nōn sum fessus</em> ('I am not tired'). <em>Nōn estis Rōmānī</em> ('You are not Romans').</p>"
+      }
+    ],
+    "examples": [
+      "Ego sum discipulus. — I am a student.",
+      "Tū es magistra. — You are a teacher (f.).",
+      "Marcus est Rōmānus. — Marcus is Roman.",
+      "Nōs sumus amīcī. — We are friends.",
+      "Vōs estis dīligentēs. — You (pl.) are diligent.",
+      "Eī sunt cīvēs Rōmānī. — They are Roman citizens.",
+      "Nōn sum fessus. — I am not tired."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Marcum est discipulum' (accūsātīvus post sum, ut sī 'sum' obiectum trānsitīvum caperet).",
+        "right": "'Marcus est discipulus' — ambō in nōminātīvō, quia praedicātum subiectō aequātur.",
+        "why": "Sum numquam accūsātīvum obiectī regit; semper praedicātum nōminātīvum."
+      },
+      {
+        "wrong": "Discipulus semper prōnōmen (ego, tū) scrībit ante verbum, ut Anglicē 'I am'.",
+        "right": "Latīnē, 'sum' sōlum sufficit; prōnōmen additur sōlum prō ēmphasī.",
+        "why": "Dēsinentia verbī (-ō/-m, -s, -t...) iam persōnam indicat; prōnōmen redundāns nisi ēmphasis quaeritur."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "i-sum-fill", "type": "fill-blank", "title": "Coniugā Sum",
+      "instructions": "Comple spatia cum formā rectā verbī 'sum'.",
+      "items": [
+        { "id": "sum1", "prompt": "Ego ___ discipulus.", "options": ["sum", "es", "est"], "answers": ["sum"], "explanation": "Prīma persōna singulāris: sum." },
+        { "id": "sum2", "prompt": "Tū ___ magistra.", "options": ["sum", "es", "estis"], "answers": ["es"], "explanation": "Secunda persōna singulāris: es." },
+        { "id": "sum3", "prompt": "Marcus ___ Rōmānus.", "options": ["sunt", "est", "sumus"], "answers": ["est"], "explanation": "Tertia persōna singulāris: est." },
+        { "id": "sum4", "prompt": "Nōs ___ amīcī.", "options": ["sumus", "estis", "sunt"], "answers": ["sumus"], "explanation": "Prīma persōna plūrālis: sumus." },
+        { "id": "sum5", "prompt": "Eī ___ cīvēs.", "options": ["est", "estis", "sunt"], "answers": ["sunt"], "explanation": "Tertia persōna plūrālis: sunt." }
+      ]
+    },
+    {
+      "id": "i-sum-mc", "type": "multiple-choice", "title": "Sum: Ūsus et Rēgulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "sum6", "prompt": "Quis cāsus post 'sum' semper adhibētur (ut praedicātum)?", "options": ["accūsātīvus", "nōminātīvus", "datīvus"], "answerIndex": 1, "explanation": "Praedicātum post sum semper nōminātīvō pōnitur." },
+        { "id": "sum7", "prompt": "'Vōs estis dīligentēs' significat:", "options": ["We are diligent", "You (pl.) are diligent", "They are diligent"], "answerIndex": 1, "explanation": "vōs = you (plural)." },
+        { "id": "sum8", "prompt": "Quōmodo dīcitur 'I am not tired' Latīnē?", "options": ["Sum nōn fessus", "Nōn sum fessus", "Nōn es fessus"], "answerIndex": 1, "explanation": "'Nōn' praecēdit verbum in negātiōne simplicī." },
+        { "id": "sum9", "prompt": "Īnfīnītīvus verbī 'sum' est:", "options": ["sumere", "esse", "essere"], "answerIndex": 1, "explanation": "esse = to be." },
+        { "id": "sum10", "prompt": "Cūr prōnōmen 'ego' saepe omittitur ante 'sum'?", "options": ["Quia grammaticē prohibētur", "Quia dēsinentia verbī iam persōnam indicat", "Quia 'sum' semper prīmam persōnam significat sine prōnōmine"], "answerIndex": 1, "explanation": "Verba Latīna persōnam in dēsinentiā portant; prōnōmen est optiōnāle, prō ēmphasī tantum." }
+      ]
+    },
+    {
+      "id": "i-sum-match", "type": "matching", "title": "Iunge Prōnōmen cum Verbō",
+      "instructions": "Iunge quodque prōnōmen cum formā rectā verbī 'sum'.",
+      "items": [
+        { "id": "sum11", "pairs": [
+          { "left": "ego", "right": "sum" },
+          { "left": "tū", "right": "es" },
+          { "left": "is/ea", "right": "est" },
+          { "left": "nōs", "right": "sumus" },
+          { "left": "vōs", "right": "estis" }
+        ], "explanation": "Quaeque persōna prōnōminis suam formam propriam verbī 'sum' postulat." }
+      ]
+    }
+  ],
+  "summary": [
+    "sum, es, est, sumus, estis, sunt — praesēns verbī 'esse'.",
+    "Prōnōmen (ego, tū...) plērumque omittitur; verbum ipsum persōnam indicat.",
+    "Post sum, praedicātum semper in nōminātīvō pōnitur, numquam in accūsātīvō.",
+    "Negātiō: nōn ante verbum (nōn sum, nōn es...)."
+  ],
+  "related": [
+    { "lessonId": "i-numeri", "label": "Numerī" },
+    { "lessonId": "i-pronomina-personalia", "label": "Prōnōmina Persōnālia" }
+  ]
+}

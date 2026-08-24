@@ -1,0 +1,166 @@
+{
+  "_readme": "Single source of truth for curriculum sequencing across this course's seven Latin-named Gradus (I Fundamenta .. VII Auctores -- see scripts/site_chrome.py's LEVELS). status: 'published' = generated HTML exists and is linked from its Gradus page; 'drafted' = curriculum/{level-slug}/{id}.json exists, not yet built; 'planned' = identified in the course plan, no JSON yet. This lets partial progress be tracked honestly instead of silently claiming more is done than actually exists. Lesson counts per level (9/20/13/17/12/10/10 = 91 total) mirror the sibling English course's per-level lesson counts (8/20/13/17/12/10/10 = 90), matching its breadth level-by-level.",
+  "levels": {
+    "I": {
+      "units": [
+        {
+          "id": "1",
+          "title": "Fundamenta: Pronuntiatio et Prima Verba",
+          "lessons": [
+            { "id": "i-alphabetum-et-soni", "status": "planned" },
+            { "id": "i-vocales-et-diphthongi", "status": "planned" },
+            { "id": "i-consonantes", "status": "planned" },
+            { "id": "i-syllabae-et-accentus", "status": "planned" },
+            { "id": "i-salutationes", "status": "planned" },
+            { "id": "i-numeri", "status": "planned" },
+            { "id": "i-sum-verbum-essendi", "status": "planned" },
+            { "id": "i-pronomina-personalia", "status": "planned" },
+            { "id": "i-lectio-et-auditio-prima", "status": "planned" }
+          ]
+        }
+      ]
+    },
+    "II": {
+      "units": [
+        {
+          "id": "1",
+          "title": "Elementa: Nomina, Casus, et Tempus Praesens",
+          "lessons": [
+            { "id": "ii-declinatio-prima", "status": "planned" },
+            { "id": "ii-declinatio-secunda-masculina", "status": "planned" },
+            { "id": "ii-declinatio-secunda-neutra", "status": "planned" },
+            { "id": "ii-adiectiva-primae-et-secundae-classis", "status": "planned" },
+            { "id": "ii-praepositiones-cum-accusativo-et-ablativo", "status": "planned" },
+            { "id": "ii-coniugatio-prima", "status": "planned" },
+            { "id": "ii-coniugatio-secunda", "status": "planned" },
+            { "id": "ii-coniugatio-tertia", "status": "planned" },
+            { "id": "ii-coniugatio-quarta", "status": "planned" },
+            { "id": "ii-casus-accusativus", "status": "planned" },
+            { "id": "ii-casus-dativus", "status": "planned" },
+            { "id": "ii-casus-genitivus", "status": "planned" },
+            { "id": "ii-casus-ablativus", "status": "planned" },
+            { "id": "ii-pronomina-demonstrativa", "status": "planned" },
+            { "id": "ii-pronomina-possessiva", "status": "planned" },
+            { "id": "ii-imperativus", "status": "planned" },
+            { "id": "ii-interrogativa", "status": "planned" },
+            { "id": "ii-coniunctiones", "status": "planned" },
+            { "id": "ii-adverbia", "status": "planned" },
+            { "id": "ii-numeri-ordinales-et-cardinales-amplius", "status": "planned" }
+          ]
+        }
+      ]
+    },
+    "III": {
+      "units": [
+        {
+          "id": "1",
+          "title": "Progressus: Declinatio Tertia et Tempora Ampliora",
+          "lessons": [
+            { "id": "iii-declinatio-tertia-consonantes", "status": "planned" },
+            { "id": "iii-declinatio-tertia-i-stems", "status": "planned" },
+            { "id": "iii-adiectiva-tertiae-declinationis", "status": "planned" },
+            { "id": "iii-declinatio-quarta", "status": "planned" },
+            { "id": "iii-declinatio-quinta", "status": "planned" },
+            { "id": "iii-tempus-imperfectum", "status": "planned" },
+            { "id": "iii-tempus-futurum", "status": "planned" },
+            { "id": "iii-comparatio-adiectivorum", "status": "planned" },
+            { "id": "iii-comparatio-adverbiorum", "status": "planned" },
+            { "id": "iii-vox-passiva-praesens", "status": "planned" },
+            { "id": "iii-pronomen-relativum", "status": "planned" },
+            { "id": "iii-pronomina-reflexiva", "status": "planned" },
+            { "id": "iii-numeri-tempus-et-calendarium", "status": "planned" }
+          ]
+        }
+      ]
+    },
+    "IV": {
+      "units": [
+        {
+          "id": "1",
+          "title": "Media: Systema Perfectum, Participia, et Coniunctivus Incipiens",
+          "lessons": [
+            { "id": "iv-systema-perfectum-activum", "status": "planned" },
+            { "id": "iv-plusquamperfectum-et-futurum-perfectum", "status": "planned" },
+            { "id": "iv-systema-perfectum-passivum", "status": "planned" },
+            { "id": "iv-participium-perfectum-passivum", "status": "planned" },
+            { "id": "iv-participium-praesens-activum", "status": "planned" },
+            { "id": "iv-participium-futurum-activum", "status": "planned" },
+            { "id": "iv-verba-deponentia", "status": "planned" },
+            { "id": "iv-infinitivi", "status": "planned" },
+            { "id": "iv-oratio-obliqua-accusativus-cum-infinitivo", "status": "planned" },
+            { "id": "iv-verba-irregularia-possum-volo-nolo-malo", "status": "planned" },
+            { "id": "iv-verba-irregularia-eo-fero-fio", "status": "planned" },
+            { "id": "iv-coniunctivus-praesens", "status": "planned" },
+            { "id": "iv-coniunctivus-imperfectum", "status": "planned" },
+            { "id": "iv-clausulae-finales", "status": "planned" },
+            { "id": "iv-imperativa-obliqua", "status": "planned" },
+            { "id": "iv-ablativus-absolutus-introductio", "status": "planned" },
+            { "id": "iv-recognitio-systema-verbi", "status": "planned" }
+          ]
+        }
+      ]
+    },
+    "V": {
+      "units": [
+        {
+          "id": "1",
+          "title": "Provectus: Coniunctivus Plenus, Clausulae, et Gerundivum",
+          "lessons": [
+            { "id": "v-coniunctivus-perfectum-et-plusquamperfectum", "status": "planned" },
+            { "id": "v-consecutio-temporum", "status": "planned" },
+            { "id": "v-clausulae-consecutivae", "status": "planned" },
+            { "id": "v-interrogationes-obliquae", "status": "planned" },
+            { "id": "v-cum-historicum-causale-concessivum", "status": "planned" },
+            { "id": "v-condiciones", "status": "planned" },
+            { "id": "v-clausulae-timendi", "status": "planned" },
+            { "id": "v-clausulae-characteristicae", "status": "planned" },
+            { "id": "v-gerundium", "status": "planned" },
+            { "id": "v-gerundivum", "status": "planned" },
+            { "id": "v-supinum", "status": "planned" },
+            { "id": "v-ablativus-absolutus-amplius", "status": "planned" }
+          ]
+        }
+      ]
+    },
+    "VI": {
+      "units": [
+        {
+          "id": "1",
+          "title": "Altior: Syntaxis Provectior et Prosa Adaptata",
+          "lessons": [
+            { "id": "vi-ordo-verborum-et-stilus", "status": "planned" },
+            { "id": "vi-dativus-usus-provectiores", "status": "planned" },
+            { "id": "vi-ablativus-usus-provectiores", "status": "planned" },
+            { "id": "vi-oratio-obliqua-systema-plenum", "status": "planned" },
+            { "id": "vi-comparatio-et-correlativa", "status": "planned" },
+            { "id": "vi-numeri-usus-litterarii", "status": "planned" },
+            { "id": "vi-lectio-adaptata-caesar", "status": "planned" },
+            { "id": "vi-lectio-adaptata-cicero", "status": "planned" },
+            { "id": "vi-constructiones-participiales-provectae", "status": "planned" },
+            { "id": "vi-recognitio-syntaxis-integra", "status": "planned" }
+          ]
+        }
+      ]
+    },
+    "VII": {
+      "units": [
+        {
+          "id": "1",
+          "title": "Auctores: Textus Authentici Non Adaptati",
+          "lessons": [
+            { "id": "vii-catullus-carmina-selecta", "status": "planned" },
+            { "id": "vii-caesar-de-bello-gallico", "status": "planned" },
+            { "id": "vii-cicero-in-catilinam", "status": "planned" },
+            { "id": "vii-ovidius-metamorphoses", "status": "planned" },
+            { "id": "vii-vergilius-aeneis", "status": "planned" },
+            { "id": "vii-sallustius-bellum-catilinae", "status": "planned" },
+            { "id": "vii-prosodia-et-metrum", "status": "planned" },
+            { "id": "vii-rhetorica-ciceroniana", "status": "planned" },
+            { "id": "vii-cicero-de-amicitia", "status": "planned" },
+            { "id": "vii-recognitio-finalis", "status": "planned" }
+          ]
+        }
+      ]
+    }
+  }
+}

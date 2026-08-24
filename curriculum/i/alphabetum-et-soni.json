@@ -1,0 +1,106 @@
+{
+  "id": "i-alphabetum-et-soni",
+  "level": "I",
+  "unit": "1",
+  "order": 1,
+  "skill": "pronuntiatio",
+  "strand": "alphabetum",
+  "title": "Alphabetum et Soni",
+  "subtitle": "Litterae Latinae et prima descriptio pronuntiationis restitutae (the reconstructed pronunciation).",
+  "prerequisites": [],
+  "objectives": [
+    "Omnes litteras alphabeti Latini classici nominare",
+    "Discernere vocales (vowels) a consonantibus (consonants)",
+    "Intellegere cur litterae I et V duplicem valorem habeant",
+    "Cognoscere quid sit pronuntiatio 'restituta' (reconstructed) et quo differat ab pronuntiatione ecclesiastica"
+  ],
+  "content": {
+    "intro": "Haec est ianua prima ad Latinitatem Classicam — non Latinam ecclesiasticam medii aevi, sed sermonem quo Cicero, Caesar, et Vergilius ipsi locuti sunt, quantum scientia philologica hodierna id reconstruere potest.",
+    "explanation": "<p>Alphabetum Latinum classicum <strong>23 litteras</strong> habet: A B C D E F G H I K L M N O P Q R S T V X Y Z. Litterae <strong>J</strong> et <strong>W</strong> non exstant — hae saeculo XVI demum additae sunt ab editoribus recentioribus, ut orthographiam facilius legendam facerent. Duae litterae aliae, <strong>K</strong> et <strong>Z</strong>, rarissime adhibentur: K fere tantum in verbo antiquo <em>Kalendae</em>, Z tantum in verbis e Graeco mutuatis (ut <em>zephyrus</em>).</p><p><strong>Nota: Orthographia et Pronuntiatio.</strong> In hoc cursu duae res distinguuntur semper: <em>orthographia</em> (quomodo verbum scribitur) et <em>pronuntiatio restituta</em> (quomodo verbum sonuisse creditur circa saeculum I a.C.n., secundum testimonia grammaticorum antiquorum, inscriptiones, et comparationem cum aliis linguis Italicis). Editiones modernae saepe addunt <strong>macronem</strong> (ā, ē, ī, ō, ū) supra vocales longas — signum pedagogicum, non a Romanis systematice usitatum — ut discipuli quantitatem vocalium (vowel length) statim videant.</p>",
+    "rules": [
+      {
+        "heading": "a) Vocales (Vowels)",
+        "body": "<p>Sex sunt vocales: <strong>a, e, i, o, u</strong>, et rarissime <strong>y</strong> (tantum in verbis Graecis mutuatis, ut <em>lyra</em>, ubi sonat ut Germanicum <em>ü</em> vel Francogallicum <em>u</em>). Quaeque vocalis brevis esse potest (a) aut longa (ā) — de hac re plenius in proxima lectione, <em>Vocales et Diphthongi</em>.</p>"
+      },
+      {
+        "heading": "b) Consonantes (Consonants)",
+        "body": "<p>Reliquae litterae consonantes sunt: <strong>b, c, d, f, g, h, k, l, m, n, p, q, r, s, t, x, z</strong>. Duae litterae, <strong>I</strong> et <strong>V</strong>, peculiares sunt: utraque et vocalem et consonantem repraesentare potest.</p>"
+      },
+      {
+        "heading": "c) I et V: Duplex Valor",
+        "body": "<p><strong>I</strong> vocalis est in verbo <em>in</em> (sonat ut Anglicum <em>i</em> in <em>bit</em>), sed consonans in verbo <em>iam</em> (sonat ut Anglicum <em>y</em> in <em>yes</em>). <strong>V</strong> vocalis-simile non est (semper consonans in Latinitate Classica ubi non est u), sed nota: in editionibus modernis <strong>u</strong> pro sono vocali adhibetur (<em>puella</em>) et <strong>v</strong> pro sono consonanti (<em>vīnum</em>, sonans ut Anglicum <em>w</em> in <em>wine</em>) — Romani autem ipsi unam tantum formam, V (vel v minuscula), pro utroque sono scribebant. Hic cursus sequitur conventionem modernam u/v (pro claritate), sed <strong>numquam j</strong> pro i consonanti — sequimur ergo conventionem plerorumque librorum grammaticorum classicorum hodiernorum (ut Wheelock, ut Ørberg)."
+      },
+      {
+        "heading": "d) Macrones in Hoc Cursu",
+        "body": "<p>Ubicumque pronuntiatio vel quantitas vocalis pertinet, macronem scribimus: <em>rosa</em> (nominativus, -a brevis) contra <em>rosā</em> (ablativus, -ā longa). In prosa continua currenti, macrones interdum omittuntur ubi contextus sufficit — sed in exemplis, regulis, et vocabulario novo, semper adsunt."
+      }
+    ],
+    "examples": [
+      "rosa — vocalis 'a' brevis in fine",
+      "puella — 'u' hic vocalis est (sonat ut Anglicum 'oo' breve), non consonans",
+      "iam — 'i' initiale hic consonans est (sonat ut Anglicum 'y')",
+      "vīnum — 'v' consonans (sonat ut Anglicum 'w'), 'ī' vocalis longa",
+      "Kalendae — rarum exemplum litterae K",
+      "zephyrus — verbum Graecum mutuatum, cum Z et Y"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Caesar pronuntiatur /ˈsiːzər/, ut discipuli Anglice loquentes saepe putant.",
+        "right": "In pronuntiatione restituta, Caesar sonat fere /ˈkae̯.sar/ — C semper est /k/, numquam /s/.",
+        "why": "Littera C in Latinitate Classica semper sonum /k/ habet, ante omnem vocalem; sonus /s/ vel /tʃ/ ante e/i pertinet ad pronuntiationem ecclesiasticam multo posteriorem, non classicam."
+      },
+      {
+        "wrong": "Litterae J et W in alphabeto Romano antiquo iam exsistebant.",
+        "right": "J et W litterae medii aevi et Renascentiae sunt additae; Romani antiqui eas non habebant.",
+        "why": "Ubi videmus 'Julius' typis modernis, Romani ipsi scripsissent IVLIVS — I pro consonante, V pro vocali et consonante simul, sine distinctione litterarum."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "i-alph-mc", "type": "multiple-choice", "title": "Alphabetum Latinum Classicum",
+      "instructions": "Elige responsum rectum pro quaque quaestione.",
+      "items": [
+        { "id": "alph1", "prompt": "Quot litterae sunt in alphabeto Latino classico?", "options": ["21", "23", "26"], "answerIndex": 1, "explanation": "23 litterae: A B C D E F G H I K L M N O P Q R S T V X Y Z — sine J et W." },
+        { "id": "alph2", "prompt": "Quae binae litterae desunt in alphabeto Latino classico quas hodie in alphabeto Anglico habemus?", "options": ["J et W", "Q et X", "A et E"], "answerIndex": 0, "explanation": "J et W litterae medii aevi/Renascentiae sunt, non antiquae Romanae." },
+        { "id": "alph3", "prompt": "Littera 'V' in verbo 'vīnum' quem sonum habet in pronuntiatione restituta?", "options": ["sonum Anglicum 'v' (ut in 'van')", "sonum Anglicum 'w' (ut in 'wine')", "sonum Anglicum 'f'"], "answerIndex": 1, "explanation": "V consonans classica sonat ut Anglicum 'w', non 'v'." },
+        { "id": "alph4", "prompt": "Littera 'I' initialis in verbo 'iam' quem sonum habet?", "options": ["vocalem brevem, ut in 'bit'", "consonantem, ut Anglicum 'y' in 'yes'", "sonum 'j' Francogallicum, ut in 'jour'"], "answerIndex": 1, "explanation": "Ante vocalem, I initiale saepe consonans est et sonat ut 'y'." },
+        { "id": "alph5", "prompt": "Unde orta est littera 'Y' in verbis ut 'lyra'?", "options": ["Ab alphabeto Etrusco directe", "Ab alphabeto Graeco, pro littera upsilon (Υ)", "A lingua Gallica"], "answerIndex": 1, "explanation": "Y et Z Romani adhibuerunt fere tantum in verbis e Graeco mutuatis." }
+      ]
+    },
+    {
+      "id": "i-alph-tf", "type": "true-false", "title": "Verum an Falsum: De Alphabeto",
+      "instructions": "Dic utrum quaeque sententia vera sit an falsa.",
+      "items": [
+        { "id": "alph6", "statement": "Romani antiqui litteram 'J' in alphabeto suo habebant.", "answer": false, "explanation": "Littera J primum saeculo XVI a Petro Ramo systematice adhibita est; ante id tempus I omne officium implebat." },
+        { "id": "alph7", "statement": "In pronuntiatione restituta, 'V' consonans sonat ut Anglicum 'w'.", "answer": true, "explanation": "Ita est: 'vīnum' sonat fere ut Anglicum 'weenum', non 'veenum'." },
+        { "id": "alph8", "statement": "Litterae 'K' et 'Z' frequentissimae sunt in vocabulario Latino genuino.", "answer": false, "explanation": "K est rarissima (fere tantum 'Kalendae'); Z tantum in verbis Graecis mutuatis." },
+        { "id": "alph9", "statement": "Macron (ā) ab ipsis Romanis semper systematice in omni scriptura adhibebatur.", "answer": false, "explanation": "Macron est conventio pedagogica moderna; Romani interdum 'apicem' similem signum adhibebant, sed non systematice ut editiones hodiernae." },
+        { "id": "alph10", "statement": "Alphabetum Latinum ab alphabeto Etrusco derivatum est, quod ipsum ex Graeco ortum est.", "answer": true, "explanation": "Via transmissionis: Phoenices → Graeci → Etrusci → Romani." }
+      ]
+    },
+    {
+      "id": "i-alph-match", "type": "matching", "title": "Iunge Terminum cum Definitione",
+      "instructions": "Iunge quemque terminum grammaticum cum definitione recta.",
+      "items": [
+        { "id": "alph11", "pairs": [
+          { "left": "Vocalis", "right": "Littera sonum per se apertum efficiens (a, e, i, o, u)" },
+          { "left": "Consonans", "right": "Littera quae cum vocali syllabam efficit" },
+          { "left": "Macron (ā)", "right": "Signum modernum vocalem longam indicans" },
+          { "left": "I consonans", "right": "Sonat ut Anglicum 'y' (ut in 'iam')" },
+          { "left": "V consonans", "right": "Sonat ut Anglicum 'w' (ut in 'vīnum')" }
+        ], "explanation": "Distinctio inter vocalem et consonantem, et duplex valor litterarum I/V, fundamentum est totius pronuntiationis Latinae." }
+      ]
+    }
+  ],
+  "summary": [
+    "Alphabetum Latinum classicum 23 litteras habet: sine J, sine W.",
+    "I et V duplicem valorem habent: et vocalem et consonantem.",
+    "V consonans sonat ut Anglicum 'w', non 'v'.",
+    "Macrones (ā) signum modernum sunt vocalis longae, additum a philologis pro claritate.",
+    "Pronuntiatio restituta differt valde a pronuntiatione ecclesiastica: C semper /k/, numquam /s/ vel /tʃ/."
+  ],
+  "related": [
+    { "lessonId": "i-vocales-et-diphthongi", "label": "Vocales et Diphthongi" }
+  ]
+}

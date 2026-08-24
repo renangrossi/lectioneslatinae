@@ -1,0 +1,110 @@
+{
+  "id": "i-numeri",
+  "level": "I",
+  "unit": "1",
+  "order": 6,
+  "skill": "vocabularium",
+  "strand": "numeri",
+  "title": "Numerī",
+  "subtitle": "Numerī cardinālēs 1–20, numerī ōrdinālēs prīmī, et numerī Rōmānī.",
+  "prerequisites": ["i-salutationes"],
+  "objectives": [
+    "Numerāre ab ūnō ad vīgintī",
+    "Recognōscere quod ūnus, duo, trēs sōlī inter prīmōs vīgintī dēclinantur",
+    "Prīmōs decem numerōs ōrdinālēs nōmināre",
+    "Numerōs Rōmānōs (I, V, X...) cum verbīs Latīnīs iungere"
+  ],
+  "content": {
+    "intro": "Numerī ubīque sunt: in mercātū, in hōrīs, in annīs. Hodiē prīmōs vīgintī numerōs discēmus — fundāmentum omnium numerōrum maiōrum.",
+    "explanation": "<p>Numerī Latīnī cardinālēs (one, two, three...) plērumque <strong>indēclinābilēs</strong> sunt — id est, formam nōn mūtant secundum cāsum. Sōlī <strong>ūnus, duo, trēs</strong> dēclinantur (et compositī eōrum, ut vīgintī ūnus). Numerī <strong>ōrdinālēs</strong> (first, second, third...) sunt adiectīva normālia prīmae/secundae dēclinātiōnis (ut <em>bonus, -a, -um</em>), dēclinanda plēnē — hanc dēclinātiōnem plēnam in Gradū II discēs.</p>",
+    "rules": [
+      {
+        "heading": "a) Numerī Cardinālēs 1–10",
+        "body": "<p>1 ūnus, 2 duo, 3 trēs, 4 quattuor, 5 quīnque, 6 sex, 7 septem, 8 octō, 9 novem, 10 decem.</p>"
+      },
+      {
+        "heading": "b) Numerī Cardinālēs 11–20",
+        "body": "<p>11 ūndecim, 12 duodecim, 13 tredecim, 14 quattuordecim, 15 quīndecim, 16 sēdecim, 17 septendecim, 18 <strong>duodēvīgintī</strong> (litt. 'duo ā vīgintī', 'two from twenty'), 19 <strong>ūndēvīgintī</strong> ('ūnum ā vīgintī'), 20 vīgintī. Nota: 18 et 19 fōrmantur per subtractiōnem ā vīgintī, nōn per additiōnem — mōs valdē Rōmānus.</p>"
+      },
+      {
+        "heading": "c) Ūnus, Duo, Trēs: Sōlī Dēclinābilēs",
+        "body": "<p><strong>Ūnus, ūna, ūnum</strong> dēclinātur ut adiectīvum ('ūnus servus', 'ūna puella', 'ūnum bellum'). <strong>Duo, duae, duo</strong> et <strong>trēs, tria</strong> quoque fōrmās variās habent secundum genus et cāsum (plēnius in lēctiōnibus dē dēclinātiōne). Numerī 4–100 (quattuor, quīnque... centum) plānē indēclinābilēs manent.</p>"
+      },
+      {
+        "heading": "d) Numerī Ōrdinālēs 1–10",
+        "body": "<p>1º prīmus, 2º secundus, 3º tertius, 4º quārtus, 5º quīntus, 6º sextus, 7º septimus, 8º octāvus, 9º nōnus, 10º decimus. Omnēs dēclinantur ut <em>bonus, -a, -um</em>.</p>"
+      },
+      {
+        "heading": "e) Nota: Numerī Rōmānī",
+        "body": "<p>I=1, V=5, X=10, L=50, C=100, D=500, M=1000. Combīnātiō: minor ante māiōrem subtrahitur (IV=4, IX=9), minor post māiōrem additur (VI=6, XI=11). Hī ipsī numerī hodiē nōmina graduum huius cursūs sunt: Gradus I, II, III, IV, V, VI, VII!</p>"
+      }
+    ],
+    "examples": [
+      "Trēs līberōs habeō. — I have three children.",
+      "Decem amīcī veniunt. — Ten friends are coming.",
+      "Duodēvīgintī annōs habeō. — I am eighteen years old (litt. 'I have eighteen years').",
+      "Prīmus veniō, tū secundus. — I come first, you second.",
+      "Gradus VII = Gradus septimus."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus putat omnēs numerōs cardinālēs (ut Anglicē 'four', 'five'...) dēclinārī sīcut adiectīva normālia.",
+        "right": "Sōlum ūnus, duo, trēs (et compositī, ut vīgintī ūnus) dēclinantur; quattuor–centum manent indēclinābilēs.",
+        "why": "Distīnctiō haec frequenter mīsstātūra fit ab discipulīs quī linguās Rōmānicās nōvērunt, ubi plūrēs numerī variant."
+      },
+      {
+        "wrong": "18 vertitur 'octōdecim' (per additiōnem, ut discipulus fortasse ex analogiā cum 17 expectat).",
+        "right": "18 est 'duodēvīgintī' (per subtractiōnem ā vīgintī).",
+        "why": "Latīnitas Classica prō 18 et 19 morem subtractīvum adhibet, nōn additīvum."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "i-num-mc", "type": "multiple-choice", "title": "Numerī Cardinālēs",
+      "instructions": "Elige numerum Latīnum rectum.",
+      "items": [
+        { "id": "num1", "prompt": "Quōmodo dīcitur '7' Latīnē?", "options": ["sex", "septem", "octō"], "answerIndex": 1, "explanation": "septem = 7." },
+        { "id": "num2", "prompt": "Quōmodo dīcitur '18' Latīnē?", "options": ["octōdecim", "duodēvīgintī", "decem et octō"], "answerIndex": 1, "explanation": "18 fōrmātur per subtractiōnem: duo ā vīgintī." },
+        { "id": "num3", "prompt": "Quod verbum Latīnum significat 'twelve'?", "options": ["decem", "ūndecim", "duodecim"], "answerIndex": 2, "explanation": "duodecim = 12 (duo + decem)." },
+        { "id": "num4", "prompt": "Quī trēs numerī cardinālēs (1–20) sōlī dēclinantur ut adiectīva?", "options": ["quattuor, quīnque, sex", "ūnus, duo, trēs", "decem, ūndecim, duodecim"], "answerIndex": 1, "explanation": "Ūnus, duo, trēs sōlī variant fōrmam secundum genus/cāsum inter numerōs 1–100." },
+        { "id": "num5", "prompt": "Numerus Rōmānus 'IX' significat:", "options": ["11", "9", "6"], "answerIndex": 1, "explanation": "IX: I (1) ante X (10) subtrahitur → 9." }
+      ]
+    },
+    {
+      "id": "i-num-fill", "type": "fill-blank", "title": "Numerī Ōrdinālēs",
+      "instructions": "Comple spatia cum numerō ōrdinālī rectō.",
+      "items": [
+        { "id": "num6", "prompt": "1º = ___", "options": ["prīmus", "secundus", "decimus"], "answers": ["prīmus"], "explanation": "prīmus = first." },
+        { "id": "num7", "prompt": "3º = ___", "options": ["tertius", "quārtus", "sextus"], "answers": ["tertius"], "explanation": "tertius = third." },
+        { "id": "num8", "prompt": "5º = ___", "options": ["quīntus", "quārtus", "septimus"], "answers": ["quīntus"], "explanation": "quīntus = fifth." },
+        { "id": "num9", "prompt": "8º = ___", "options": ["octāvus", "nōnus", "octō"], "answers": ["octāvus"], "explanation": "octāvus = eighth (nōn cōnfunde cum 'octō' = 8 cardinālī)." },
+        { "id": "num10", "prompt": "10º = ___", "options": ["decimus", "decem", "ūndecimus"], "answers": ["decimus"], "explanation": "decimus = tenth (nōn cōnfunde cum 'decem' = 10 cardinālī)." }
+      ]
+    },
+    {
+      "id": "i-num-match", "type": "matching", "title": "Iunge Numerum Rōmānum cum Verbō",
+      "instructions": "Iunge quemque numerum Rōmānum cum verbō Latīnō apto.",
+      "items": [
+        { "id": "num11", "pairs": [
+          { "left": "V", "right": "quīnque" },
+          { "left": "X", "right": "decem" },
+          { "left": "XV", "right": "quīndecim" },
+          { "left": "XX", "right": "vīgintī" },
+          { "left": "IV", "right": "quattuor" }
+        ], "explanation": "Numerī Rōmānī adhūc hodiē in tabulīs et titulīs adhibentur." }
+      ]
+    }
+  ],
+  "summary": [
+    "1–10: ūnus, duo, trēs, quattuor, quīnque, sex, septem, octō, novem, decem.",
+    "11–20: ūndecim...vīgintī; 18 et 19 per subtractiōnem: duodēvīgintī, ūndēvīgintī.",
+    "Sōlum ūnus, duo, trēs dēclinantur; cēterī (4–100) indēclinābilēs sunt.",
+    "Numerī ōrdinālēs (prīmus, secundus...) dēclinantur ut bonus, -a, -um.",
+    "Numerī Rōmānī: I, V, X, L, C, D, M — minor ante māiōrem subtrahitur."
+  ],
+  "related": [
+    { "lessonId": "i-salutationes", "label": "Salutationes" },
+    { "lessonId": "i-sum-verbum-essendi", "label": "Sum: Verbum Essendi" }
+  ]
+}

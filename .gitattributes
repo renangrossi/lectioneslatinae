@@ -1,0 +1,21 @@
+# Website assets are served directly by GitHub Pages, which does not
+# resolve Git LFS pointer files -- serving anything through LFS here
+# would produce broken assets on the live Pages URL even though the
+# files look fine in the repo itself. Do not track jpg, jpeg, png,
+# webp, gif, mp3, wav, webm, pdf, docx or any other binary site asset
+# with LFS. Keep all static assets as normal Git blobs.
+#
+# svg is real XML/text, so it keeps diffing normally -- it only opts
+# out of the LFS filter, same as every text type already does by
+# default (no rule needed for those).
+*.jpg -filter -diff -merge -text
+*.jpeg -filter -diff -merge -text
+*.png -filter -diff -merge -text
+*.webp -filter -diff -merge -text
+*.gif -filter -diff -merge -text
+*.mp3 -filter -diff -merge -text
+*.wav -filter -diff -merge -text
+*.webm -filter -diff -merge -text
+*.pdf -filter -diff -merge -text
+*.docx -filter -diff -merge -text
+*.svg -filter

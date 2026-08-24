@@ -1,0 +1,117 @@
+{
+  "id": "i-consonantes",
+  "level": "I",
+  "unit": "1",
+  "order": 3,
+  "skill": "pronuntiatio",
+  "strand": "alphabetum",
+  "title": "Consonantes",
+  "subtitle": "C, G, QU, R, S, H, TI, et consonantes geminatae in pronuntiatione restituta.",
+  "prerequisites": ["i-vocales-et-diphthongi"],
+  "objectives": [
+    "Pronuntiare C et G semper dure, numquam molliter",
+    "Tractare QU ut unam consonantem labiovelarem",
+    "Pronuntiare R vibrantem, S semper sine voce, et H leviter",
+    "Pronuntiare -TI- + vocalem ut [ti], non [tsi] vel [ʃi]",
+    "Distinguere consonantes geminatas (duplices) a singulis"
+  ],
+  "content": {
+    "intro": "Plurimi errores discipulorum novorum ex hoc oriuntur: applicant regulas Anglicas vel Italicas (ex Latinitate Ecclesiastica) ubi Latinitas Classica omnino aliter sonat.",
+    "explanation": "<p>Consonantes Latinae Classicae generaliter simpliciores sunt quam discipulus Anglice loquens exspectat: fere nulla littera 'mollescit' secundum vocalem sequentem, ut in Anglico vel Italico fit.</p>",
+    "rules": [
+      {
+        "heading": "a) C et G: Semper Durae",
+        "body": "<p><strong>C</strong> semper sonat [k], ut Anglicum 'k' in 'kite' — numquam [s] neque [tʃ]: <em>Caesar</em>, <em>Cicero</em>, <em>centum</em> omnes incipiunt sono [k]. <strong>G</strong> semper sonat [g], ut Anglicum 'g' in 'go' — numquam [dʒ]: <em>gemma</em>, <em>agit</em>, <em>gigās</em>.</p>"
+      },
+      {
+        "heading": "b) QU: Consonans Labiovelaris",
+        "body": "<p><strong>Qu</strong> non est 'q' + 'u' separata, sed una consonans labiovelaris, [kʷ], quae cum vocali sequenti unam syllabam efficit: <em>aqua</em> habet duas syllabas, <strong>a-qua</strong> (non a-ku-a). Simili modo, <strong>gu</strong> ante vocalem in <em>sanguis</em>, et <strong>su</strong> in <em>suādeō</em>, saepe labiovelariter sonant.</p>"
+      },
+      {
+        "heading": "c) R, S, H",
+        "body": "<p><strong>R</strong> est vibrans (trilled/tapped), similis Hispanico vel Italico 'r', numquam similis Anglico Americano 'r' retroflexo. <strong>S</strong> semper sine voce (voiceless), ut Anglicum 's' in 'snake' — numquam [z] ut in 'rose': <em>rosa</em> habet [s], non [z]. <strong>H</strong> est spiritus levis, saepe subtiliter auditus (iam aetate Ciceronis nonnulli eam neglegebant in sermone velociore), sed in lectione formali semper leviter pronuntiatur.</p>"
+      },
+      {
+        "heading": "d) -TI- ante Vocalem",
+        "body": "<p>Syllaba <strong>-ti-</strong> secuta vocali (ut in <em>nātiō</em>, <em>iustitia</em>) semper sonat [ti], sicut scribitur — numquam [tsi] (ut in pronuntiatione ecclesiastica-Italica posteriore) neque [ʃi] (ut Anglicum 'nation'). Exceptio: post S, T, vel X praecedentem (ut in <em>bestia</em>, <em>Attius</em>), regula non applicatur eodem modo — sed casus frequentissimus (post vocalem vel consonantem simplicem) semper [ti] tenet.</p>"
+      },
+      {
+        "heading": "e) Consonantes Geminatae (Duplices)",
+        "body": "<p>Ubi eadem consonans bis scribitur (<em>annus</em>, <em>ille</em>, <em>currus</em>, <em>sagitta</em>), Romani eam <strong>longiorem</strong> tenebant — non sicut singulam. Discrimen simile est Italico hodierno ('nonno' vs 'nono') vel comparatione Anglica 'unnamed' (duo n audita) vs 'unaimed' (unum n).</p>"
+      }
+    ],
+    "examples": [
+      "Cicero — [ki-ke-ro], numquam [si-se-ro]",
+      "gemma — G dura, ut Anglicum 'go'",
+      "aqua — duae syllabae, a-qua, non a-ku-a",
+      "rosa — S sine voce, ut Anglicum 'snake', non 'z'",
+      "nātiō — [naː-ti-oː], non [na-tsi-o] neque 'nation'",
+      "annus — N geminata, tenta longius quam in 'anus'"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Caesar' pronuntiatur cum 'C' molli, sicut Italicum 'Cesare' vel Anglicum 'Caesar' /ˈsiːzər/.",
+        "right": "'Caesar' incipit sono [k]: fere /ˈkae̯.sar/.",
+        "why": "C numquam mollescit in Latinitate Classica, quamvis in linguis Romanicis posterioribus id evenerit."
+      },
+      {
+        "wrong": "'nātiō' pronuntiatur sicut Anglicum 'nation', cum sono [ʃ].",
+        "right": "'nātiō' pronuntiatur [naː-ti-oː], cum -ti- clare sicut scribitur.",
+        "why": "Mutatio -ti- in [tsi]/[ʃi] evenit multis saeculis post aetatem classicam."
+      },
+      {
+        "wrong": "Consonantes geminatae (ll, nn, tt) pronuntiantur exactly ut singulae — 'ille' sonat sicut 'ile'.",
+        "right": "Geminatae tenentur longius: 'ille' habet L longiorem quam verbum cum una sola L haberet.",
+        "why": "Neglegere geminationem potest verba confundere et sonat parum authenticum."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "i-cons-mc", "type": "multiple-choice", "title": "Consonantes: C, G, QU, S, TI",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "cons1", "prompt": "'C' in 'Cicero' pronuntiatur:", "options": ["[k] [k], ambae dure, ut Anglicum 'kite'", "[s] [s], molliter", "[tʃ] [tʃ], ut Italicum 'ciao'"], "answerIndex": 0, "explanation": "C semper [k] in Latinitate Classica." },
+        { "id": "cons2", "prompt": "'G' in 'gemma' pronuntiatur:", "options": ["dure, ut Anglicum 'g' in 'go'", "molliter, ut Anglicum 'j' in 'gem'", "muta"], "answerIndex": 0, "explanation": "G semper dura, numquam mollis in aetate classica." },
+        { "id": "cons3", "prompt": "'Qu' in verbo 'aqua' tractatur ut:", "options": ["consonans una labiovelaris [kʷ] cum vocali sequenti in eadem syllaba", "duae consonantes in syllabis distinctis (a-ku-a)", "vocalis, non consonans"], "answerIndex": 0, "explanation": "aqua = a-qua, duae syllabae, non tres." },
+        { "id": "cons4", "prompt": "Littera 'S' in Latinitate Classica semper sonat:", "options": ["sine voce (voiceless), ut Anglicum 's' in 'snake'", "cum voce (voiced), ut Anglicum 'z' in 'rose', inter vocales", "varie, secundum positionem"], "answerIndex": 0, "explanation": "S est semper voiceless in Latinitate Classica, differenter ab Anglico." },
+        { "id": "cons5", "prompt": "Syllaba '-ti-' + vocalis (ut in 'nātiō') pronuntiatur:", "options": ["[ti], sicut scribitur", "[tsi], ut in pronuntiatione posteriore", "[ʃi], ut Anglicum 'sh'"], "answerIndex": 0, "explanation": "Nulla mollificatio -ti- in aetate classica." }
+      ]
+    },
+    {
+      "id": "i-cons-tf", "type": "true-false", "title": "Verum an Falsum: Consonantes",
+      "instructions": "Dic utrum quaeque sententia vera sit an falsa.",
+      "items": [
+        { "id": "cons6", "statement": "Consonantes geminatae (ut in 'annus') pronuntiantur exactly ut litterae singulae, sine differentia audibili.", "answer": false, "explanation": "Geminatae tenentur longius — differentia clare audibilis est." },
+        { "id": "cons7", "statement": "'R' Latinum est vibrans, similis Hispanico vel Italico, non Anglico Americano.", "answer": true, "explanation": "R Latinum trilled/tapped est, non retroflexum." },
+        { "id": "cons8", "statement": "'H' in Latinitate Classica semper est spiritus fortissimus, clarissime auditus in omni contextu.", "answer": false, "explanation": "H est spiritus levis, et iam apud Romanos ipsos interdum neglectus in sermone rapido." },
+        { "id": "cons9", "statement": "'X' repraesentat coniunctionem duorum sonorum consonantium, [k] + [s].", "answer": true, "explanation": "X = KS, ut in 'rex' [reːks]." },
+        { "id": "cons10", "statement": "'G' ante 'e' vel 'i' (ut in 'gemma', 'agit') mollescit in sonum Anglicum 'j', sicut in Italico hodierno.", "answer": false, "explanation": "G semper dura manet in Latinitate Classica; mollificatio est evolutio linguarum Romanicarum posteriorum." }
+      ]
+    },
+    {
+      "id": "i-cons-match", "type": "matching", "title": "Iunge Consonantem cum Regula",
+      "instructions": "Iunge quamque litteram (vel signum) cum regula pronuntiationis rectam.",
+      "items": [
+        { "id": "cons11", "pairs": [
+          { "left": "C", "right": "semper [k], numquam [s] vel [tʃ] (ut in 'Cicero')" },
+          { "left": "G", "right": "semper [g] durum, numquam [dʒ] (ut in 'gemma')" },
+          { "left": "QU", "right": "consonans labiovelaris [kʷ], una syllaba cum vocali sequenti" },
+          { "left": "S", "right": "semper sine voce [s], numquam [z]" },
+          { "left": "litterae geminatae (ll, nn, tt...)", "right": "pronuntiantur longiores, tento sono diutius" }
+        ], "explanation": "Hae quinque regulae fundamentales differunt maxime a suppositionibus discipuli Anglice loquentis." }
+      ]
+    }
+  ],
+  "summary": [
+    "C et G semper durae sunt: [k] et [g], numquam [s]/[tʃ] neque [dʒ].",
+    "QU est una consonans labiovelaris [kʷ]: 'aqua' = a-qua, duae syllabae.",
+    "R vibrans est; S semper sine voce; H levis.",
+    "-TI- + vocalis semper [ti], numquam [tsi] vel [ʃi].",
+    "Consonantes geminatae (ll, nn, tt...) tenentur longius quam singulae."
+  ],
+  "related": [
+    { "lessonId": "i-vocales-et-diphthongi", "label": "Vocales et Diphthongi" },
+    { "lessonId": "i-syllabae-et-accentus", "label": "Syllabae et Accentus" }
+  ]
+}

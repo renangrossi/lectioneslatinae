@@ -1,0 +1,271 @@
+/* =======================================================================
+   SITE SEARCH
+   Pairs with assets/js/search.js
+   ======================================================================= */
+
+.search-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  background: rgba(10, 16, 30, 0.72);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10vh 1rem 2rem;
+}
+.search-overlay[hidden] { display: none; }
+
+.search-modal {
+  width: 100%;
+  max-width: 640px;
+  background: var(--color-surface-raised);
+  border-radius: var(--radius-lg);
+  border: 2px solid var(--color-red);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  max-height: 76vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-modal__bar {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  padding: 0.9em 1.1em;
+  border-bottom: var(--border-hairline);
+  flex-shrink: 0;
+}
+.search-modal__icon { width: 20px; height: 20px; color: var(--color-text-muted); flex-shrink: 0; }
+.search-modal__input {
+  flex: 1;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  font-size: var(--step-1);
+  color: var(--color-text);
+  outline: none;
+}
+.search-modal__input::placeholder { color: var(--color-text-muted); }
+.search-modal__close {
+  flex-shrink: 0;
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  border: var(--border-hairline);
+  background: transparent;
+  color: var(--color-text-muted);
+  display: inline-flex; align-items: center; justify-content: center;
+  cursor: pointer;
+}
+.search-modal__close svg { width: 16px; height: 16px; }
+.search-modal__close:hover { border-color: var(--color-border-strong); color: var(--color-text); }
+
+.search-modal__results { overflow-y: auto; padding: 0.5em; }
+.search-modal__hint { padding: 1.2em 1em; color: var(--color-text-muted); font-size: var(--step--1); }
+
+.search-results { display: flex; flex-direction: column; gap: 0.2em; }
+.search-result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  padding: 0.7em 0.9em;
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+}
+.search-result:hover, .search-result.is-active { background: var(--color-surface); }
+.search-result__main { display: flex; flex-direction: column; gap: 0.15em; min-width: 0; }
+.search-result__title { font-weight: 700; font-size: var(--step--1); }
+.search-result__title mark { background: var(--gold-300); color: var(--ink-900); border-radius: 2px; padding: 0 0.1em; }
+.search-result__desc {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 40ch;
+}
+.search-result__meta { display: flex; align-items: center; gap: 0.5em; flex-shrink: 0; }
+.search-result__level {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.2em 0.5em;
+  border-radius: 999px;
+  border: 1px solid var(--color-accent);
+  color: var(--color-accent);
+}
+.search-result__type {
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+@media (max-width: 560px) {
+  .search-overlay { padding: 4vh 0.6rem 1rem; }
+  .search-result__desc { max-width: 22ch; }
+}
+
+/* =======================================================================
+   DICTIONARY LOOKUP PAGE
+   ======================================================================= */
+.dict-input-row {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  padding: 0.9em 1.1em;
+  border: 2px solid var(--color-red);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-raised);
+  box-shadow: var(--shadow-sm);
+}
+.dict-input-row svg { width: 20px; height: 20px; color: var(--color-text-muted); flex-shrink: 0; }
+.dict-input {
+  flex: 1;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font: inherit;
+  font-size: var(--step-1);
+  color: var(--color-text);
+}
+.dict-input::placeholder { color: var(--color-text-muted); }
+.dict-card__link svg { width: 16px; height: 16px; }
+
+/* =======================================================================
+   FLOATING LEXICON WIDGET (every page, via scripts/site_chrome.py)
+   Sits bottom-right at `bottom: var(--space-md)`; .back-to-top
+   (components.css, always rendered with the --with-dict modifier here
+   since every page carries this widget) stacks 60px above it.
+   ======================================================================= */
+.dict-widget-toggle {
+  position: fixed;
+  right: var(--space-md);
+  bottom: var(--space-md);
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  border: 1px solid var(--color-gold);
+  background: var(--color-primary-strong);
+  color: var(--gold-300);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  z-index: 900;
+}
+.dict-widget-toggle svg { width: 20px; height: 20px; }
+.dict-widget-toggle:hover { background: var(--color-primary); }
+
+.dict-widget-panel {
+  position: fixed;
+  right: var(--space-md);
+  bottom: calc(var(--space-md) + 60px + env(safe-area-inset-bottom, 0px));
+  width: min(360px, calc(100vw - 2 * var(--space-md)));
+  max-height: min(60vh, calc(100dvh - var(--header-height) - 2 * var(--space-md)));
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface-raised);
+  border: 2px solid var(--color-red);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  z-index: 901;
+  overflow: hidden;
+  /* Keeps a scrolled-to-the-end definition list from chaining its
+     scroll into the page behind the widget on iOS. */
+  overscroll-behavior: contain;
+}
+.dict-widget-panel[hidden] { display: none; }
+
+.dict-widget__bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.7em 0.8em;
+  border-bottom: var(--border-hairline);
+  flex-shrink: 0;
+}
+.dict-widget__bar input {
+  flex: 1;
+  border: var(--border-hairline);
+  border-radius: var(--radius-sm);
+  padding: 0.5em 0.7em;
+  font: inherit;
+  /* 16px, not var(--step--1) (~13-14px). This input is
+     focused the instant the widget opens (dict-widget.js's toggle()),
+     so anything under 16px triggers iOS Safari's auto-zoom-on-focus
+     immediately, which is what breaks page proportions after opening
+     the widget on iPhone. */
+  font-size: 16px;
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+.dict-widget__close {
+  flex-shrink: 0;
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  border: var(--border-hairline);
+  background: transparent;
+  color: var(--color-text-muted);
+  display: inline-flex; align-items: center; justify-content: center;
+  cursor: pointer;
+}
+.dict-widget__close svg { width: 14px; height: 14px; }
+
+.dict-widget__result { padding: 0.8em 0.9em; overflow-y: auto; font-size: var(--step--1); flex: 1; min-height: 0; }
+.dict-widget__hint { color: var(--color-text-muted); margin: 0; }
+.dict-widget__word { font-family: var(--font-display); font-size: var(--step-1); font-weight: 700; margin-bottom: 0.3em; }
+.dict-widget__word-row { display: flex; align-items: center; gap: 0.6em; flex-wrap: wrap; }
+.dict-widget__audio {
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  border: 1px solid var(--color-accent);
+  background: transparent;
+  color: var(--color-accent);
+  display: inline-flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.dict-widget__audio svg { width: 14px; height: 14px; }
+.dict-widget__audio:hover { background: var(--color-accent); color: var(--parchment-100); }
+.dict-widget__audio.is-playing { background: var(--color-accent); color: var(--parchment-100); animation: dict-audio-pulse 0.9s ease-in-out infinite; }
+.dict-widget__audio.has-error { border-color: var(--color-danger); color: var(--color-danger); }
+@keyframes dict-audio-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+
+/* Attention hint next to the toggle button on page load.
+   `bottom` must match .dict-widget-toggle's own `bottom` (both 48px
+   tall) so the hint sits level with the icon — it was left at the
+   icon's old `+60px` slot when the icon itself moved down to
+   `var(--space-md)` (see "FLOATING DICTIONARY WIDGET" above), leaving
+   the hint floating a row above where the icon actually is. */
+.dict-widget-hint {
+  position: fixed;
+  right: calc(var(--space-md) + 58px);
+  bottom: var(--space-md);
+  height: 48px;
+  display: flex;
+  align-items: center;
+  background: var(--color-primary-strong);
+  color: var(--gold-300);
+  border: 1px solid var(--color-gold);
+  border-radius: 999px;
+  padding: 0 0.9em;
+  font-size: var(--step--1);
+  font-weight: 700;
+  white-space: nowrap;
+  box-shadow: var(--shadow-md);
+  z-index: 899;
+  pointer-events: none;
+}
+.dict-widget-hint span {
+  display: inline-block;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.dict-widget-hint span.is-leaving {
+  transform: translateY(-14px);
+  opacity: 0;
+}
+.dict-widget__phonetic { font-family: var(--font-body); font-weight: 400; color: var(--color-text-muted); font-size: 0.85em; }
+.dict-widget__pos { font-style: italic; color: var(--color-accent); margin-top: 0.6em; font-size: 0.85em; }
+.dict-widget__defs { margin: 0.3em 0 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 0.4em; }
+.dict-widget__example { color: var(--color-text-muted); }
+.dict-widget__links { display: flex; flex-wrap: wrap; gap: 0.4em; padding: 0 0.9em 0.8em; flex-shrink: 0; }

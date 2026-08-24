@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="la">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Probatio Praeliminaris — Lectiones Latinae</title>
+<meta name="description" content="Probatio difficilis et progressiva, per omnes septem gradus, quae gradum aptum tibi commendat.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lectiones Latinae">
+<meta property="og:title" content="Probatio Praeliminaris — Lectiones Latinae">
+<meta property="og:description" content="Probatio difficilis et progressiva, per omnes septem gradus, quae gradum aptum tibi commendat.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/dark-mode.css">
+<link rel="stylesheet" href="assets/css/search.css">
+<link rel="stylesheet" href="assets/css/exercises.css"><link rel="stylesheet" href="assets/css/lessons.css">
+<script>
+(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+</script>
+</head>
+<body class="" data-level-code="">
+    <a class="skip-link" href="#main-content">Ad contentum transi</a>
+    <header class="site-header">
+        <div class="site-header__bar">
+            <a class="brand" href="index.html">
+                <img class="brand__mark" src="assets/img/favicon.svg" alt="" width="38" height="38" loading="lazy">
+                <span class="brand__text">
+                    <span class="brand__name">Lectiones Latinae</span>
+                    <span class="brand__tagline">Latinitatis Classicae Schola</span>
+                </span>
+            </a>
+            <nav class="primary-nav" id="primary-nav" role="navigation" aria-label="Navigatio Praecipua">
+                <ul class="primary-nav__list">
+                <li><a href="index.html">Domus</a></li>
+                <li><a href="index.html#grammatica">Grammatica</a></li>
+                <li class="nav-drop">
+                    <button type="button" class="nav-drop__toggle" aria-haspopup="true" aria-expanded="false">
+                        Gradus <span class="nav-drop__caret" aria-hidden="true"></span>
+                    </button>
+                    <ul class="nav-drop__menu" role="menu">
+                    <li><a href="gradus/fundamenta.html"><span>Fundamenta</span><span class="level-code">I</span></a></li><li><a href="gradus/elementa.html"><span>Elementa</span><span class="level-code">II</span></a></li><li><a href="gradus/progressus.html"><span>Progressus</span><span class="level-code">III</span></a></li><li><a href="gradus/media.html"><span>Media</span><span class="level-code">IV</span></a></li><li><a href="gradus/provectus.html"><span>Provectus</span><span class="level-code">V</span></a></li><li><a href="gradus/altior.html"><span>Altior</span><span class="level-code">VI</span></a></li><li><a href="gradus/auctores.html"><span>Auctores</span><span class="level-code">VII</span></a></li>
+                    </ul>
+                </li>
+                <li><a href="exercitationes.html">Exercitationes</a></li>
+                <li><a href="examina.html">Examina</a></li>
+                <li><a href="varia.html">Varia</a></li>
+                <li><a href="lexicon.html">Lexicon</a></li>
+                </ul>
+            </nav>
+            <div class="nav-utility">
+                <button type="button" class="theme-toggle" data-search-toggle aria-label="Quaere in situ" aria-haspopup="dialog">
+                    <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+                </button>
+                <button type="button" class="theme-toggle" data-theme-toggle aria-label="Ad modum obscurum verte">
+                    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+                    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
+                </button>
+                <button type="button" class="nav-toggle" data-nav-toggle aria-label="Aperi indicem" aria-expanded="false" aria-controls="primary-nav">
+                    <span class="nav-toggle__icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="search-overlay" data-search-overlay hidden>
+        <div class="search-modal" role="dialog" aria-modal="true" aria-label="Inquisitio Situs" data-index-src="assets/data/search-index.json">
+            <div class="search-modal__bar">
+                <svg class="search-modal__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="search" class="search-modal__input" data-search-input placeholder="Quaere lectiones, grammaticam, vocabularium, exercitationes&hellip;" aria-label="Quaerere">
+                <button type="button" class="search-modal__close" data-search-close aria-label="Occlude inquisitionem"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+            </div>
+            <div class="search-modal__results" data-search-results>
+                <p class="search-modal__hint">Scribe saltem duas litteras ut per omnes gradus, lectiones, argumenta grammatica, exercitationes et examina ficta quaeras.</p>
+            </div>
+        </div>
+    </div>
+    <nav class="breadcrumbs" aria-label="Vestigia">
+        <ol>
+        <li><a href="index.html">Domus</a></li><li aria-current="page">Probatio Praeliminaris</li>
+        </ol>
+    </nav>
+    <main id="main-content" class="site-main">
+<div class="page-header">
+        <div class="laurel-row laurel-row--onlight" aria-hidden="true"><svg class="laurel-row__leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c-3.2 3.2-4.6 7-4.6 10 0 3 2 5.3 4.6 5.3s4.6-2.3 4.6-5.3c0-3-1.4-6.8-4.6-10Z"/><path d="M12 5.5v13"/></svg><svg class="laurel-row__leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c-3.2 3.2-4.6 7-4.6 10 0 3 2 5.3 4.6 5.3s4.6-2.3 4.6-5.3c0-3-1.4-6.8-4.6-10Z"/><path d="M12 5.5v13"/></svg><svg class="laurel-row__leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c-3.2 3.2-4.6 7-4.6 10 0 3 2 5.3 4.6 5.3s4.6-2.3 4.6-5.3c0-3-1.4-6.8-4.6-10Z"/><path d="M12 5.5v13"/></svg><svg class="laurel-row__leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c-3.2 3.2-4.6 7-4.6 10 0 3 2 5.3 4.6 5.3s4.6-2.3 4.6-5.3c0-3-1.4-6.8-4.6-10Z"/><path d="M12 5.5v13"/></svg><svg class="laurel-row__leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c-3.2 3.2-4.6 7-4.6 10 0 3 2 5.3 4.6 5.3s4.6-2.3 4.6-5.3c0-3-1.4-6.8-4.6-10Z"/><path d="M12 5.5v13"/></svg><svg class="laurel-row__leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c-3.2 3.2-4.6 7-4.6 10 0 3 2 5.3 4.6 5.3s4.6-2.3 4.6-5.3c0-3-1.4-6.8-4.6-10Z"/><path d="M12 5.5v13"/></svg><svg class="laurel-row__leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c-3.2 3.2-4.6 7-4.6 10 0 3 2 5.3 4.6 5.3s4.6-2.3 4.6-5.3c0-3-1.4-6.8-4.6-10Z"/><path d="M12 5.5v13"/></svg><svg class="laurel-row__leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c-3.2 3.2-4.6 7-4.6 10 0 3 2 5.3 4.6 5.3s4.6-2.3 4.6-5.3c0-3-1.4-6.8-4.6-10Z"/><path d="M12 5.5v13"/></svg><svg class="laurel-row__leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c-3.2 3.2-4.6 7-4.6 10 0 3 2 5.3 4.6 5.3s4.6-2.3 4.6-5.3c0-3-1.4-6.8-4.6-10Z"/><path d="M12 5.5v13"/></svg><svg class="laurel-row__leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c-3.2 3.2-4.6 7-4.6 10 0 3 2 5.3 4.6 5.3s4.6-2.3 4.6-5.3c0-3-1.4-6.8-4.6-10Z"/><path d="M12 5.5v13"/></svg><svg class="laurel-row__leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c-3.2 3.2-4.6 7-4.6 10 0 3 2 5.3 4.6 5.3s4.6-2.3 4.6-5.3c0-3-1.4-6.8-4.6-10Z"/><path d="M12 5.5v13"/></svg></div>
+        <div class="page-header__inner">
+            <div class="page-header__text">
+                <p class="eyebrow hero__eyebrow">Inveni Gradum Tuum</p>
+                <h1>Probātiō Praelimināris</h1>
+                <p class="page-header__lede">Probātiō brevis sed <strong>difficilis</strong>, mixtae difficultātis, quae gradum sēnsibilem incohandī tibi commendat. Nōn est probātiō certificāta &mdash; cōgitā eam ut initium honestum.</p>
+            </div>
+        </div>
+    </div>
+<section class="section section--tight" style="padding-bottom:0;">
+        <div class="section__inner">
+            <div class="exercise-block">
+                <script type="application/json" class="exercise-data">{"id": "probatio-praeliminaris", "type": "multiple-choice", "title": "Probatio Praeliminaris", "instructions": "30 quaestiones, difficultate crescente ab initio ad finem. Responde quam plurimis, deinde confirma ut summam videas.", "items": [{"id": "pt1", "prompt": "Quomodo pronuntiatur littera 'C' in verbo 'centum', secundum pronuntiationem restitutam?", "options": ["ut Anglicum 's'", "ut Anglicum 'k'", "ut Anglicum 'ch'"], "answerIndex": 1, "explanation": "C semper sonat [k] in Latinitate Classica, numquam [s]."}, {"id": "pt2", "prompt": "Quae littera NON erat in alphabeto Latino classico?", "options": ["V", "J", "X"], "answerIndex": 1, "explanation": "J est additio medii aevi; Romani antiqui eam non habebant."}, {"id": "pt3", "prompt": "Marcus ___ discipulus.", "options": ["est", "sunt", "es"], "answerIndex": 0, "explanation": "Tertia persona singularis verbi 'sum' est 'est'."}, {"id": "pt4", "prompt": "'Puellam video.' — casus verbi 'puellam' est:", "options": ["nominativus", "accusativus", "dativus"], "answerIndex": 1, "explanation": "'Puellam' est obiectum directum verbi 'video': accusativus."}, {"id": "pt5", "prompt": "Pluralis nominativus verbi 'servus' est:", "options": ["servi", "servos", "servorum"], "answerIndex": 0, "explanation": "Secunda declinatio masculina: -us → -i in nominativo plurali."}, {"id": "pt6", "prompt": "'Tres' Anglice significat:", "options": ["two", "three", "four"], "answerIndex": 1, "explanation": "tres = three."}, {"id": "pt7", "prompt": "'Puero librum do.' — 'puero' est casus:", "options": ["accusativus", "genetivus", "dativus"], "answerIndex": 2, "explanation": "Obiectum indirectum ('to the boy'): dativus."}, {"id": "pt8", "prompt": "Nominativus verbi cuius genetivus est 'urbis' est:", "options": ["urbs", "urbi", "urbem"], "answerIndex": 0, "explanation": "urbs, urbis (f.) 'city' — tertia declinatio."}, {"id": "pt9", "prompt": "Adiectivum rectum ut 'templum pulchrum' (n.) concordet:", "options": ["pulcher", "pulchra", "pulchrum"], "answerIndex": 2, "explanation": "Adiectivum prima/secunda classis concordat in genere: templum (n.) → pulchrum."}, {"id": "pt10", "prompt": "Comparativus (masc./fem.) adiectivi 'fortis, forte' est:", "options": ["fortior", "fortissimus", "nulla forma exsistit"], "answerIndex": 0, "explanation": "fortior, fortius = comparativus; fortissimus = superlativus."}, {"id": "pt11", "prompt": "'Ambulo ___ silvam' (through the forest) — quae praepositio, cum accusativo, apta est?", "options": ["per", "cum", "ab"], "answerIndex": 0, "explanation": "'per' + accusativum = 'through'."}, {"id": "pt12", "prompt": "'Femina ___ video pulchra est.' (The woman whom I see is beautiful) — elige formam rectam:", "options": ["quae", "quam", "cuius"], "answerIndex": 1, "explanation": "Accusativus femininum singulare, obiectum directum 'video': quam."}, {"id": "pt13", "prompt": "'Puer legebat' significat:", "options": ["the boy reads", "the boy was reading", "the boy will read"], "answerIndex": 1, "explanation": "Imperfectum: actio continua in praeterito."}, {"id": "pt14", "prompt": "Futurum verbi 'amo, amare' (1a persona) est:", "options": ["amabo", "amavi", "amem"], "answerIndex": 0, "explanation": "Futurum primae coniugationis: -bo, -bis, -bit..."}, {"id": "pt15", "prompt": "'Liber legitur' significat:", "options": ["the book reads", "the book is being read", "the book will be read"], "answerIndex": 1, "explanation": "Praesens passivum: 'is being read'."}, {"id": "pt16", "prompt": "Perfectum verbi 'video, videre, vidi' (1a persona) est:", "options": ["video", "vidi", "videbam"], "answerIndex": 1, "explanation": "vidi = I saw / I have seen (perfectum)."}, {"id": "pt17", "prompt": "'Puella cantans' significat:", "options": ["the girl who sang", "the singing girl / the girl who is singing", "the girl about to sing"], "answerIndex": 1, "explanation": "Participium praesens activum: actio simultanea, -ns/-ntis."}, {"id": "pt18", "prompt": "'Liber scriptus' significat:", "options": ["the book that writes", "the written book / the book having been written", "the book that will write"], "answerIndex": 1, "explanation": "Participium perfectum passivum: actio completa, ante tempus principale."}, {"id": "pt19", "prompt": "'Hortor' est verbum deponens; ergo forma 'hortor' significatione est:", "options": ["passiva forma, sed significatione activa ('I urge')", "proprie passiva ('I am urged')", "impersonalis"], "answerIndex": 0, "explanation": "Verba deponentia formam passivam habent, sed significationem activam."}, {"id": "pt20", "prompt": "'Venio ut te videam' significat:", "options": ["I come because I see you", "I come in order to see you", "I come although I see you"], "answerIndex": 1, "explanation": "ut + coniunctivus = clausula finalis (purpose)."}, {"id": "pt21", "prompt": "'Tam fessus erat ut dormiret' significat:", "options": ["He was so tired that he fell asleep", "He was tired although he slept", "He was tired in order to sleep"], "answerIndex": 0, "explanation": "tam...ut + coniunctivus = clausula consecutiva (result)."}, {"id": "pt22", "prompt": "'Dicit se fessum esse' significat:", "options": ["He says that he is tired", "He says himself tired", "He orders himself to be tired"], "answerIndex": 0, "explanation": "Accusativus cum infinitivo (oratio obliqua): 'dicit se...esse' = 'he says that he...is'."}, {"id": "pt23", "prompt": "'Urbe capta, cives fugerunt' significat:", "options": ["The city having been captured, the citizens fled", "The city will be captured and the citizens flee", "Because the city captures, the citizens flee"], "answerIndex": 0, "explanation": "Ablativus absolutus: participium perfectum passivum + nomen ablativo, actio antecedens."}, {"id": "pt24", "prompt": "'Liber legendus est' significat:", "options": ["The book is reading", "The book must be read", "The book was read"], "answerIndex": 1, "explanation": "Gerundivum + sum = obligatio (coniugatio periphrastica passiva): 'must be read'."}, {"id": "pt25", "prompt": "'Nescio quid faciat' significat:", "options": ["I don't know what he is doing (indirect question)", "I don't know — what does he do?", "I know what he does"], "answerIndex": 0, "explanation": "Interrogatio obliqua: verbum in coniunctivo."}, {"id": "pt26", "prompt": "'Si hoc scirem, tibi dicerem' significat:", "options": ["If I know this, I tell you", "If I knew this (but I don't), I would tell you", "If I had known this, I would have told you"], "answerIndex": 1, "explanation": "Coniunctivus imperfectus in utraque clausula = condicio contraria facto in praesenti."}, {"id": "pt27", "prompt": "'Cum fessus esset, tamen laboravit' significat:", "options": ["When he was tired, he worked (simple time)", "Although he was tired, he nonetheless worked", "Since he was not tired, he worked"], "answerIndex": 1, "explanation": "cum + coniunctivus + tamen = clausula concessiva."}, {"id": "pt28", "prompt": "'Nemo est tam senex qui se annum non putet posse vivere' (Cicero, De Senectute, adapted) significat approximate:", "options": ["No one is so old that he thinks he cannot live one more year", "No one is so old that he doesn't think he can live one more year", "Everyone is old and thinks he cannot live"], "answerIndex": 1, "explanation": "Clausula relativa characteristica cum negatione dupla: 'no one so old that he does NOT think...'"}, {"id": "pt29", "prompt": "In 'Gallia est omnis divisa in partes tres', ordo verborum Latinus:", "options": ["semper respondet ordini Anglico (subiectum-verbum-obiectum)", "variat libere secundum emphasim, quia casus, non positio, significationem portat", "est semper verbum-ultimum sine exceptione"], "answerIndex": 1, "explanation": "Ordo verborum Latinus est flexibilis; casus grammaticus, non positio, indicat officium."}, {"id": "pt30", "prompt": "'Arma virumque cano' sunt verba initialia cuius operis?", "options": ["Ciceronis, In Catilinam", "Vergilii, Aeneidos", "Caesaris, De Bello Gallico"], "answerIndex": 1, "explanation": "Vergilius, Aeneis 1.1: 'Arma virumque cano, Troiae qui primus ab oris...'"}]}</script>
+            </div>
+        </div>
+    </section>
+<section class="section section--surface">
+        <div class="section__inner">
+            <div class="exercise-block">
+                <script type="application/json" class="exercise-data">{"id": "probatio-lectio-caesar", "type": "reading-comprehension", "title": "Pars II — Lectio: Caesar", "instructions": "Lege excerptum authenticum, non adaptatum, deinde responde. Haec pars praecipue distinguit inter Gradus V/VI et Gradum VII.", "passage": "<p><em>C. Iūlius Caesar, <strong>Commentāriī dē Bellō Gallicō</strong> 1.1 (verbatim, non adaptātum):</em></p><p>&ldquo;Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime absunt.&rdquo;</p>", "items": [{"id": "rc1", "prompt": "Secundum Caesarem, in quot partes divisa est Gallia?", "options": ["duas", "tres", "quattuor"], "answerIndex": 1, "explanation": "'Gallia est omnis divisa in partes tres.'"}, {"id": "rc2", "prompt": "Qui incolunt primam partem nominatam a Caesare?", "options": ["Belgae", "Aquitani", "Celtae/Galli"], "answerIndex": 0, "explanation": "'quarum unam incolunt Belgae' — Belgae incolunt primam (unam) partem."}, {"id": "rc3", "prompt": "Quid Gallos ab Aquitanis dividit?", "options": ["mons", "flumen Garumna", "mare"], "answerIndex": 1, "explanation": "'Gallos ab Aquitanis Garumna flumen... dividit.'"}, {"id": "rc4", "prompt": "Quibus rebus differunt inter se populi Galliae, secundum Caesarem?", "options": ["lingua, institutis, legibus", "solo colore vestium", "numero tantum civium"], "answerIndex": 0, "explanation": "'Hi omnes lingua, institutis, legibus inter se differunt.'"}, {"id": "rc5", "prompt": "Qui fortissimi omnium habentur, secundum hunc textum?", "options": ["Aquitani", "Belgae", "Celtae"], "answerIndex": 1, "explanation": "'Horum omnium fortissimi sunt Belgae.'"}]}</script>
+            </div>
+        </div>
+    </section>
+<section class="section section--tight">
+        <div class="section__inner">
+            <div class="exercise-block">
+                <script type="application/json" class="exercise-data">{"id": "probatio-productio", "type": "typing", "title": "Pars III — Productio Morphologica", "instructions": "Scribe formam ipsam, sine macronibus (e.g. 'puellam', non 'puellam' cum lineā). Haec pars proba num formas non modo agnoscere, sed etiam ipse producere possis.", "items": [{"id": "prod1", "prompt": "Scribe accusativum singularem verbi 'puella, -ae' (f.).", "answer": ["puellam"], "explanation": "puellam ← puella + -am (prima declinatio)."}, {"id": "prod2", "prompt": "Scribe genetivum pluralem verbi 'rex, regis' (m.).", "answer": ["regum"], "explanation": "regum ← tertia declinatio, genetivus pluralis -um."}, {"id": "prod3", "prompt": "Scribe perfectum, prima persona singularis, verbi 'facio, facere'.", "answer": ["feci"], "explanation": "feci ← perfectum irregulare (radix mutata) verbi facio."}, {"id": "prod4", "prompt": "Scribe coniunctivum praesentis activi, prima persona singularis, verbi 'sum, esse'.", "answer": ["sim"], "explanation": "sim ← coniunctivus praesens irregularis verbi sum."}, {"id": "prod5", "prompt": "Scribe ablativum singularem verbi 'tempus, temporis' (n.).", "answer": ["tempore"], "explanation": "tempore ← tertia declinatio neutra, ablativus singularis -e."}, {"id": "prod6", "prompt": "Scribe supinum verbi 'fero, ferre, tuli'.", "answer": ["latum"], "explanation": "latum ← supinum irregulare (radix omnino mutata) verbi fero."}]}</script>
+            </div>
+        </div>
+    </section>
+<section class="section section--surface" aria-labelledby="guide-heading">
+        <div class="section__inner section__inner--narrow">
+            <div class="section__head">
+                <p class="eyebrow">Quōmodo Summam Legere</p>
+                <h2 id="guide-heading">Ubi incipere</h2>
+                <p>Secundum numerum rēctum in <strong>Parte I</strong> (ex 30):</p>
+            </div>
+            <div class="table-scroll">
+                <table class="ref-table">
+                    <thead><tr><th>Summa</th><th>Gradus commendātus</th><th></th></tr></thead>
+                    <tbody>
+                        <tr><td>0&ndash;4 rēcta</td><td>Incipe Gradū I &mdash; Fundamenta</td><td><a class="btn btn--ghost btn--small" href="gradus/fundamenta.html">Perge <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></td></tr>
+                        <tr><td>5&ndash;9 rēcta</td><td>Incipe Gradū II &mdash; Elementa</td><td><a class="btn btn--ghost btn--small" href="gradus/elementa.html">Perge <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></td></tr>
+                        <tr><td>10&ndash;14 rēcta</td><td>Incipe Gradū III &mdash; Progressus</td><td><a class="btn btn--ghost btn--small" href="gradus/progressus.html">Perge <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></td></tr>
+                        <tr><td>15&ndash;19 rēcta</td><td>Incipe Gradū IV &mdash; Media</td><td><a class="btn btn--ghost btn--small" href="gradus/media.html">Perge <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></td></tr>
+                        <tr><td>20&ndash;23 rēcta</td><td>Incipe Gradū V &mdash; Provectus</td><td><a class="btn btn--ghost btn--small" href="gradus/provectus.html">Perge <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></td></tr>
+                        <tr><td>24&ndash;27 rēcta</td><td>Incipe Gradū VI &mdash; Altior</td><td><a class="btn btn--ghost btn--small" href="gradus/altior.html">Perge <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></td></tr>
+                        <tr><td>28&ndash;30 rēcta</td><td>Es fortasse ultrā Gradum VI &mdash; tenta Gradum VII</td><td><a class="btn btn--ghost btn--small" href="gradus/auctores.html">Perge <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="notice mt-lg"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/></svg><strong>Partes II et III sunt cōnfirmātiōnēs</strong>, nōn pars prīncipālis summae. Sī bene in Parte Iēgistī (24+) sed male in Parte II (lēctiō Caesaris), incipe Gradū V vel VI, nōn VII &mdash; lēctiō textūs authenticī nōn adaptātī postulat exercitātiōnem suam propriam.</p>
+        </div>
+    </section>
+<button type="button" class="dict-widget-toggle" data-dict-widget-toggle aria-label="Aperi lexicon breve" aria-expanded="false" aria-haspopup="dialog">
+        <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
+    </button>
+    <div class="dict-widget-panel" data-dict-widget-panel hidden>
+        <div class="dict-widget__bar">
+            <input type="text" data-dict-widget-input placeholder="Verbum quaere&hellip;" aria-label="Verbum quaere">
+            <button type="button" class="dict-widget__close" data-dict-widget-close aria-label="Occlude lexicon"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+        </div>
+        <div class="dict-widget__result" data-dict-widget-result>
+            <p class="dict-widget__hint">Verbum scribe ut definitionem sine hac pagina relinquenda videas.</p>
+        </div>
+        <div class="dict-widget__links" data-dict-widget-links></div>
+    </div>
+    </main>
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <div>
+                <a class="brand" href="index.html">
+                    <img class="brand__mark" src="assets/img/favicon.svg" alt="" width="38" height="38" loading="lazy">
+                    <span class="brand__text">
+                        <span class="brand__name">Lectiones Latinae</span>
+                        <span class="brand__tagline">Latinitatis Classicae Schola</span>
+                    </span>
+                </a>
+                <p class="site-footer__blurb">Cursus Latinitatis Classicae, cum pronuntiatione reconstructa, lectione per lectionem diligenter compositus &mdash; a prima pronuntiatione usque ad auctores authenticos.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Gradus</h4>
+                <ul>
+                    <li><a href="gradus/fundamenta.html">Gradus I &mdash; Fundamenta</a></li>
+                    <li><a href="gradus/elementa.html">Gradus II &mdash; Elementa</a></li>
+                    <li><a href="gradus/progressus.html">Gradus III &mdash; Progressus</a></li>
+                    <li><a href="gradus/media.html">Gradus IV &mdash; Media</a></li>
+                    <li><a href="gradus/provectus.html">Gradus V &mdash; Provectus</a></li>
+                    <li><a href="gradus/altior.html">Gradus VI &mdash; Altior</a></li>
+                    <li><a href="gradus/auctores.html">Gradus VII &mdash; Auctores</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Exercitium</h4>
+                <ul>
+                    <li><a href="index.html#grammatica">Compendia Grammatica</a></li>
+                    <li><a href="exercitationes.html">Lectio &amp; Exercitationes</a></li>
+                    <li><a href="examina.html">Examina Ficta</a></li>
+                    <li><a href="lexicon.html">Lexicon &amp; Fontes</a></li>
+                    <li><a href="varia.html">Varia</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>De Lingua Latina</h4>
+                <ul>
+                    <li><a href="index.html#de-lingua">Quid est Latinitas Classica?</a></li>
+                    <li><a href="index.html#pronuntiatio">Cur Pronuntiatio Reconstructa?</a></li>
+                    <li><a href="index.html#consilium">Consilium Nostrum</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="site-footer__bottom">
+            <p>&copy; Lectiones Latinae MMXXVI. Omnia iura reservantur.</p>
+        </div>
+    </footer>
+    <button type="button" class="back-to-top back-to-top--with-dict" data-back-to-top aria-label="Ad summum redi">
+        <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+    </button>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/dict-widget.js"></script>
+    <script src="assets/js/progress.js"></script><script src="assets/js/exercises.js"></script><script src="assets/js/mastery.js"></script>
+</body>
+</html>
