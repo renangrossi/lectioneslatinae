@@ -1,0 +1,87 @@
+{
+  "id": "vi-constructiones-participiales-provectae",
+  "level": "VI",
+  "unit": "1",
+  "order": 9,
+  "skill": "grammatica",
+  "strand": "participia",
+  "title": "Constructiones Participiales Provectae",
+  "subtitle": "Vidi eum currentem — participium supplementarium, participia catenata, usus substantivus.",
+  "prerequisites": ["vi-lectio-adaptata-cicero"],
+  "objectives": [
+    "Uti participio supplementari post verba perceptionis (video, audio + accusativum + participium)",
+    "Distinguere participium supplementarium ab AcI (constructio similis, functio distincta)",
+    "Uti participiis substantive, sine nomine explicito",
+    "Legere catenas participiales multiplices in prosa densa"
+  ],
+  "content": {
+    "intro": "Praeter ablātīvum absolūtum et participium concordāns simplex, Latīna habet aliōs ūsūs participiī frequentēs in prōsā prōvectiōre — hodiē eōs cōnsolidāmus.",
+    "explanation": "<p>Participium, sīcut adiectīvum flexibile, servit multīs officiīs syntacticīs praeter illa iam nōta.</p>",
+    "rules": [
+      {
+        "heading": "a) Participium Supplementarium (post Verba Perceptionis)",
+        "body": "<p>Post videō, audiō, sentiō, obiectum accūsātīvum + participium (concordāns cum illō obiectō) dēscrībit āctiōnem PERCEPTAM DIRECTĒ: <strong>Vīdī puerum currentem.</strong> ('I saw the boy RUNNING' — vīdī ipsum āctum currendī, nōn tantum factum abstractum.) Compara cum AcI: <em>Audīvī puerum cecidisse.</em> ('I heard THAT the boy had fallen' — factum reportātum, nōn necessāriō vīsum/audītum dīrēctē.)</p>"
+      },
+      {
+        "heading": "b) Participia Catenata",
+        "body": "<p>Prōsa dēnsa (Tacitus praesertim) catenat multa participia sequentia: <em>Mīlitēs, hostibus victīs, urbe captā, praedā dīvīsā, domum revertērunt.</em> ('The soldiers, the enemy having been defeated, the city having been captured, the plunder having been divided, returned home' — trēs ablātīvī absolūtī sequentēs.)</p>"
+      },
+      {
+        "heading": "c) Usus Substantivus",
+        "body": "<p>Participium potest fungī ut nōmen ipsum, sine nōmine explicitō, praesertim in plūrālī: <strong>sapientēs</strong> ('the wise [men/people]' — ā sapiēns), <strong>dicta</strong> ('sayings, things said' — ā dictus, neutrum plūrāle), <strong>victī</strong> ('the defeated [ones]').</p>"
+      },
+      {
+        "heading": "d) Distinctio Finalis: Quattuor Usus Simul",
+        "body": "<table class=\"ref-table\"><thead><tr><th>Constructio</th><th>Exemplum</th></tr></thead><tbody><tr><td>Concordans simplex</td><td>Mīlitēs victī fūgērunt.</td></tr><tr><td>Ablativus absolutus</td><td>Hostibus victīs, mīlitēs fūgērunt.</td></tr><tr><td>Supplementarium</td><td>Vīdī mīlitēs fugientēs.</td></tr><tr><td>Substantivum</td><td>Victī fūgērunt (nōn 'mīlitēs victī').</td></tr></tbody></table>"
+      }
+    ],
+    "examples": [
+      "Vidimus naves appropinquantes. — We saw the ships approaching.",
+      "Audivi te cantantem. — I heard you singing.",
+      "Fortes fortuna adiuvat. — Fortune favors the brave. (usus substantivus, proverbium)",
+      "Milites, hostibus victis, urbe capta, laeti domum redierunt. — The soldiers, the enemy defeated, the city captured, returned home joyfully.",
+      "Nemo sapientium hoc credidisset. — None of the wise men would have believed this."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Participium supplementarium (video + acc. + part.) confunditur cum AcI, ambo tractati identice.",
+        "right": "Participium supplementarium indicat perceptionem DIRECTAM actus ('saw him running'); AcI indicat factum REPORTATUM ('heard that he had fallen').",
+        "why": "Distinctio semantica subtilis sed reālis: experientia sensualis directa vs. informatio reportata."
+      },
+      {
+        "wrong": "Participium substantivum ('sapientes') tractatur ut requirens semper nomen explicitum concomitans.",
+        "right": "Participium potest stare solum, functionans ipse ut nomen ('the wise', 'the defeated'), sine nomine explicito necessario.",
+        "why": "Haec est extensio naturalis functionis adiectivalis participii — sicut quodvis adiectivum potest fungi substantive in Latina."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vi-partadv-mc", "type": "multiple-choice", "title": "Constructiones Participiales: Recognitio",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "partadv1", "prompt": "'Vīdī puerum currentem' significat:", "options": ["I heard that the boy ran", "I saw the boy running (directly)", "I saw the running boy leave"], "answerIndex": 1, "explanation": "Participium supplementarium: perceptio directa." },
+        { "id": "partadv2", "prompt": "'Fortēs fortūna adiuvat' — 'fortēs' functionat ut:", "options": ["adiectivum modificans nomen explicitum", "substantivum ('the brave')"], "answerIndex": 1, "explanation": "Usus substantivus, sine nomine concomitante." },
+        { "id": "partadv3", "prompt": "Differentia inter participium supplementarium et AcI est:", "options": ["nulla, sunt identici", "perceptio directa (participium) vs. factum reportatum (AcI)"], "answerIndex": 1, "explanation": "Distinctio semantica fundamentalis." }
+      ]
+    },
+    {
+      "id": "vi-partadv-fill", "type": "fill-blank", "title": "Comple cum Constructione Participiali",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "partadv4", "prompt": "Audivi te ___. (singing — cantantem)", "options": ["cantare", "cantantem", "cantavisse"], "answers": ["cantantem"], "explanation": "Participium supplementarium, concordans cum 'te'." },
+        { "id": "partadv5", "prompt": "Nemo ___ hoc credidisset. (of the wise — sapientium)", "options": ["sapiens", "sapientium", "sapientes"], "answers": ["sapientium"], "explanation": "Participium substantivum, genetivus plurale, partitivum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Participium supplementarium (video/audio + acc. + part.): perceptio directa actus.",
+    "Participia catenata: multiplices ablativi absoluti sequentes in prosa densa.",
+    "Usus substantivus: participium fungit ut nomen ipsum (sapientes, victi, dicta).",
+    "Quattuor usus participii nunc omnes noti: concordans, ablativus absolutus, supplementarium, substantivum."
+  ],
+  "related": [
+    { "lessonId": "vi-lectio-adaptata-cicero", "label": "Lectio Adaptata: Cicero" },
+    { "lessonId": "vi-recognitio-syntaxis-integra", "label": "Recognitio Provectior: Syntaxis Integra" }
+  ]
+}

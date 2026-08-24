@@ -1,0 +1,86 @@
+{
+  "id": "vi-recognitio-syntaxis-integra",
+  "level": "VI",
+  "unit": "1",
+  "order": 10,
+  "skill": "grammatica",
+  "strand": "recognitio",
+  "title": "Recognitio Provectior: Syntaxis Integra",
+  "subtitle": "Omnia elementa Gradus VI coniuncta — praeparatio finalis pro auctoribus authenticis.",
+  "prerequisites": ["vi-constructiones-participiales-provectae"],
+  "objectives": [
+    "Colligere omnia elementa syntactica Gradus VI in unum systema practicum",
+    "Applicare strategiam lectionis completam ad periodum Ciceronianam authenticam brevem",
+    "Identificare omnes constructiones provectas (dativus/ablativus provectior, oratio obliqua, correlativa, participia) in uno textu",
+    "Praeparare transitionem ad Gradum VII: textus non adaptati"
+  ],
+  "content": {
+    "intro": "Congratulationes — Gradum VI paene complevisti! Haec est ultima lectio ante Gradum VII, ubi verba ipsa Caesaris, Ciceronis, Catulli, Ovidii, et Vergilii — sine adaptatione ulla — te exspectant.",
+    "explanation": "<p>Rediit tempus ad omnia colligenda: syntaxis Latina prōvectior nōn est sērēs rēgulārum sēparātārum, sed ūnum systēma cohaerēns quō auctōrēs classicī sententiās longās, ēlegantēs, et praecīsās cōnstruunt.</p>",
+    "rules": [
+      {
+        "heading": "a) Conspectus: Syntaxis Provectior Gradus VI",
+        "body": "<p>Ōrdō verbōrum flexibilis (ēmphasis per positiōnem); datīvus/ablātīvus prōvectiōrēs (fīnālis, duplex, calitātis, pretiī, mēnsūrae, orīginis); ōrātiō oblīqua plēna, cum coniūnctīvō oblīquō; corrēlātīva comparātiōnis (quantō...tantō); numerī litterāriī; cōnstrūctiōnēs participiālēs prōvectae (supplēmentārium, catēnāta, substantīvum).</p>"
+      },
+      {
+        "heading": "b) Periodus Exemplaris: Analysis Completa",
+        "body": "<p><em>Cicerō, cum sciret Catilīnam multōs cīvēs dēspērātōs sibi sociōs fēcisse quantōque magis in diēs perīculum crēsceret, tantō ācrius in senātū contrā eum ōrāvit, dīcēns rem pūblicam, nisi celeriter agerētur, brevī tempore ēversum īrī.</em> Analysis: (1) 'cum sciret' — cum historicum/causāle; (2) 'Catilīnam...fēcisse' — AcI intrā clausulā 'sciret'; (3) 'quantō...crēsceret, tantō ācrius ōrāvit' — corrēlātīvum proportiōnāle; (4) 'dīcēns' — participium praesēns; (5) 'rem pūblicam...ēversum īrī' — AcI (īnfīnītīvus futūrus passīvus, rārus, Gradus IV) intrā 'dīcēns'.</p>"
+      },
+      {
+        "heading": "c) Praeparatio pro Gradu VII",
+        "body": "<p>Textūs nōn adaptātī differunt ā lēctiōnibus adaptātīs hūius Gradūs sōlum in DENSITĀTE et VOCĀBULĀRIŌ rāriōre — grammatica ipsa est eadem quam iam magistrāvistī. Cōnfīde in scientiā tuā; legere lentē, identificāre structūrās nōtās, et vocābulum novum nōn timēre.</p>"
+      }
+    ],
+    "examples": [
+      "Quo quisque est sollertior, hoc docet alios magis. — The more skilled someone is, the more he teaches others.",
+      "Dixit se, si copiae advenissent, hostes victurum fuisse. — He said that, if the troops had arrived, he would have conquered the enemy.",
+      "Multi sunt qui, cum divites sint, tamen semper plus cupiant. — There are many who, although they are rich, nevertheless always desire more.",
+      "Urbe deleta et civibus in servitutem actis, victores praedam inter se diviserunt. — The city having been destroyed and the citizens led into slavery, the victors divided the spoils among themselves.",
+      "Sapiens nihil facit quod paenitere possit. — A wise man does nothing that he might regret."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus, coram periodo longa et densa, tentat statim vertere verbum post verbum, sine strategia.",
+        "right": "Identifica primum verbum principale et structuram generalem, deinde progredere per clausulas subordinatas systematicē.",
+        "why": "Periodi Ciceronianae/Caesarianae sunt architecturae deliberatae — comprehensio structurae praecedit versionem accuratam."
+      },
+      {
+        "wrong": "Discipulus perdit animum coram vocabulario ignoto in textu authentico, cessans lectionem.",
+        "right": "Vocabulum novum non impedit comprehensionem generalem si structura grammatica iam nota est — continua legere, infer sensum ex contextu.",
+        "why": "Post quinque gradus grammaticae solidae, vocabulum est unicum obstaculum reale restans — et illud crescit naturaliter cum lectione continua."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vi-recog2-mc", "type": "multiple-choice", "title": "Syntaxis Integra: Recognitio Finalis",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "recog2-1", "prompt": "In 'quantō...crēsceret, tantō ācrius ōrāvit', identifica constructionem:", "options": ["clausula finalis", "correlativum proportionale (quantō...tantō)", "ablativus absolutus"], "answerIndex": 1, "explanation": "Correlativum, ambo ablativi mensurae." },
+        { "id": "recog2-2", "prompt": "'Dīcēns rem pūblicam ēversum īrī' combinat:", "options": ["participium praesens + infinitivus futurus passivus (AcI intra participio)", "gerundivum solum", "supinum"], "answerIndex": 0, "explanation": "Constructio complexa, combinans elementa multipla." },
+        { "id": "recog2-3", "prompt": "Post quinque/sex gradus, quod obstaculum principale restat pro lectione textuum authenticorum?", "options": ["grammatica nova", "vocabulum rarius et densitas syntactica"], "answerIndex": 1, "explanation": "Grammatica fundamentalis est iam completa; vocabulum crescit cum usu." }
+      ]
+    },
+    {
+      "id": "vi-recog2-match", "type": "matching", "title": "Iunge Constructionem cum Exemplo",
+      "instructions": "Iunge quamque constructionem provectam cum exemplo suo.",
+      "items": [
+        { "id": "recog2-4", "pairs": [
+          { "left": "correlativum proportionale", "right": "quantō magis, tantō melius" },
+          { "left": "ablativus originis", "right": "Iove natus" },
+          { "left": "dativus finalis", "right": "auxilio venit" },
+          { "left": "coniunctivus obliquus", "right": "dixit se, cum venisset, vidisse" },
+          { "left": "participium substantivum", "right": "fortes fortuna adiuvat" }
+        ], "explanation": "Recognitio integra syntaxis provectioris Gradus VI, praeparans pro auctoribus authenticis Gradus VII." }
+      ]
+    }
+  ],
+  "summary": [
+    "Syntaxis provectior Gradus VI: ordo verborum, dativus/ablativus provectiores, oratio obliqua plena, correlativa, participia provecta.",
+    "Grammatica fundamentalis est completa post Gradum VI — vocabulum et densitas syntactica sunt obstaculum principale restans.",
+    "Congratulationes — Gradum VI complevisti! Perge ad Gradum VII: Auctores, ubi Caesar, Cicero, Catullus, Ovidius, et Vergilius te ipsi exspectant, sine adaptatione."
+  ],
+  "related": [
+    { "lessonId": "vi-constructiones-participiales-provectae", "label": "Constructiones Participiales Provectae" }
+  ]
+}

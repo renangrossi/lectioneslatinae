@@ -1,0 +1,82 @@
+{
+  "id": "vi-lectio-adaptata-cicero",
+  "level": "VI",
+  "unit": "1",
+  "order": 8,
+  "skill": "lectio",
+  "strand": "lectio",
+  "title": "Lectio Adaptata: Cicero",
+  "subtitle": "Catilina rem publicam delere conatur — narratio adaptata, cum rhetorica Ciceroniana simplificata.",
+  "prerequisites": ["vi-lectio-adaptata-caesar"],
+  "objectives": [
+    "Legere narrationem adaptatam de coniuratione Catilinae",
+    "Identificare elementa rhetorica simplicia (interrogatio, repetitio) in prosa oratoria",
+    "Comprehendere gerundivum, ablativum absolutum, et coniunctivum obliquum in contextu novo",
+    "Praeparare fundamentum pro lectione Ciceronis authentici (Gradus VII)"
+  ],
+  "content": {
+    "intro": "Annō 63 a.C.n., Marcus Tullius Cicerō, cōnsul Rōmānus, dētēxit coniūrātiōnem Lūciī Sergiī Catilīnae, quī rem pūblicam Rōmānam vī et armīs dēlēre volēbat. Cicerō, in senātū, ōrātiōnēs famōsissimās contrā Catilīnam habuit. Haec nārrātiō, simplificāta, tē praeparat prō verbīs ipsīus Cicerōnis (nōn adaptātīs) in Gradū VII.",
+    "explanation": "<p>Cicerōnis stīlus est nōtus prō sententiīs longīs, cum multīs clausulīs subōrdinātīs concatenātīs, et prō ūsū frequentī interrogātiōnis rhētoricae. Haec nārrātiō adaptāta praebet gustum huius stilī, sine plēnā complexitāte.</p>",
+    "rules": [
+      {
+        "heading": "Textus: Catilina Rem Publicam Delere Conatur",
+        "body": "<p class=\"reading-passage-inline\">Catilīna, vir nōbilis sed pecūniā carēns, cōnsilium cēpit rem pūblicam ēvertendī. Multōs cīvēs, quī propter dēbita dēspērātī erant, sibi sociōs fēcit. Cicerō autem, cōnsul illīus annī, per amīcōs cognōvit quid Catilīna parāret. In senātū surrēxit et, Catilīnā ipsō praesente, sīc ōrāre coepit: <em>'Quousque tandem abūtēre, Catilīna, patientiā nostrā?'</em> Omnēs senātōrēs, hīs verbīs audītīs, obstipuērunt. Catilīna, cum sē accūsātum vidēret nec quicquam respondēre posset, ex urbe fūgit. Cicerō, ā populō 'pater patriae' appellātus, rem pūblicam servāverat sine ūllō sanguine effūsō in urbe ipsā.</p>"
+      },
+      {
+        "heading": "Vocabulārium et Notae",
+        "body": "<p><em>ēvertō, -ere</em> (to overthrow), <em>dēbitum, -ī</em> (debt), <em>abūtor, -ī</em> (deponens, + abl.: 'to abuse'), <em>patientia, -ae</em> (patience), <em>obstipēscō, -ere</em> (to be astonished), <em>quousque tandem</em> ('how long, pray tell' — apertūra famōsissima ōrātiōnis prīmae in Catilīnam, verba ipsa Cicerōnis).</p>"
+      }
+    ],
+    "examples": [
+      "Consilium cepit rem publicam evertendi — gerundium, genetivus post 'consilium'.",
+      "His verbis auditis — ablativus absolutus, participium perfectum passivum.",
+      "Cum se accusatum videret — cum historicum + AcI (se accusatum [esse] videret, implicitum).",
+      "Quousque tandem abutere patientia nostra? — interrogatio rhetorica, cum abutor + ablativo.",
+      "A populo appellatus — ablativus agentis (persona), cum participio perfecto passivo."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Interrogatio rhetorica ('Quousque tandem...?') tractatur ut quaestio simplex, exspectans responsum litterale.",
+        "right": "Interrogatio rhetorica non exspectat responsum — est instrumentum stilisticum ad exprimendam indignationem/emphasim.",
+        "why": "Rhetorica classica adhibet formam interrogativam pro effectu emotionali, non pro inquisitione genuina."
+      },
+      {
+        "wrong": "'Abūtere' interpretatur ut activum, regens accusativum.",
+        "right": "'Abūtor, abūtī' est deponens, regens ABLATIVUM (patientiā nostrā), non accusativum.",
+        "why": "Recorda Gradus IV: verba deponentia habent forma passiva/significatione activa, et hoc specificum verbum regit ablativum, non accusativum."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vi-cic-rc", "type": "reading-comprehension", "title": "Comprehensio: Catilina",
+      "instructions": "Lege narrationem supra, deinde responde.",
+      "passage": "<p>Catilīna, vir nōbilis sed pecūniā carēns, cōnsilium cēpit rem pūblicam ēvertendī. Multōs cīvēs, quī propter dēbita dēspērātī erant, sibi sociōs fēcit. Cicerō autem, cōnsul illīus annī, per amīcōs cognōvit quid Catilīna parāret. In senātū surrēxit et sīc ōrāre coepit: 'Quousque tandem abūtēre, Catilīna, patientiā nostrā?' Catilīna, cum sē accūsātum vidēret, ex urbe fūgit. Cicerō 'pater patriae' appellātus est.</p>",
+      "items": [
+        { "id": "cic1", "prompt": "Quale consilium Catilina cepit?", "options": ["consulem fieri", "rem publicam evertendi", "Roma discedere"], "answerIndex": 1, "explanation": "'cōnsilium cēpit rem pūblicam ēvertendī'." },
+        { "id": "cic2", "prompt": "Quos socios Catilina sibi fecit?", "options": ["senatores divites", "cives propter debita desperatos", "milites Gallicos"], "answerIndex": 1, "explanation": "'Multōs cīvēs, quī propter dēbita dēspērātī erant'." },
+        { "id": "cic3", "prompt": "Quid Catilina fecit postquam se accusatum vidit?", "options": ["senatui respondit", "ex urbe fugit", "Ciceronem occidit"], "answerIndex": 1, "explanation": "'cum sē accūsātum vidēret... ex urbe fūgit'." },
+        { "id": "cic4", "prompt": "Quo titulo Cicero a populo appellatus est?", "options": ["rex Romae", "pater patriae", "dux exercitus"], "answerIndex": 1, "explanation": "'Cicerō... pater patriae appellātus est'." }
+      ]
+    },
+    {
+      "id": "vi-cic-mc", "type": "multiple-choice", "title": "Parsing: Rhetorica Simplificata",
+      "instructions": "Elige responsum rectum secundum textum.",
+      "items": [
+        { "id": "cic5", "prompt": "'Rem pūblicam ēvertendī' — 'ēvertendī' est:", "options": ["gerundium, genetivus", "participium praesens", "infinitivus"], "answerIndex": 0, "explanation": "Genetivus gerundii post 'consilium'." },
+        { "id": "cic6", "prompt": "'Abūtēre patientiā nostrā' — 'patientiā' est:", "options": ["accusativus", "ablativus, regitur ab abutor (deponens)"], "answerIndex": 1, "explanation": "abūtor regit ablativum." },
+        { "id": "cic7", "prompt": "'Quousque tandem...?' est exemplum:", "options": ["interrogationis rhetoricae", "interrogationis obliquae"], "answerIndex": 0, "explanation": "Instrumentum stilisticum, non quaestio genuina." }
+      ]
+    }
+  ],
+  "summary": [
+    "Cicero, consul anno 63 a.C.n., detexit et publice denuntiavit coniurationem Catilinae.",
+    "'Quousque tandem abutere, Catilina, patientia nostra?' sunt verba authentica initialia orationis In Catilinam I.",
+    "Rhetorica Ciceroniana adhibet interrogationem rhetoricam et sententias longas concatenatas.",
+    "Praeparatio directa pro lectione textuum Ciceronianos authenticos, Gradus VII."
+  ],
+  "related": [
+    { "lessonId": "vi-lectio-adaptata-caesar", "label": "Lectio Adaptata: Caesar" },
+    { "lessonId": "vi-constructiones-participiales-provectae", "label": "Constructiones Participiales Provectae" }
+  ]
+}

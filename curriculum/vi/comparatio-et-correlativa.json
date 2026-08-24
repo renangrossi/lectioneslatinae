@@ -1,0 +1,87 @@
+{
+  "id": "vi-comparatio-et-correlativa",
+  "level": "VI",
+  "unit": "1",
+  "order": 5,
+  "skill": "grammatica",
+  "strand": "comparatio",
+  "title": "Comparatio et Correlativa",
+  "subtitle": "Quanto...tanto — 'the more...the more', cum ablativo mensurae geminato.",
+  "prerequisites": ["vi-oratio-obliqua-systema-plenum"],
+  "objectives": [
+    "Uti constructione quantō...tantō ('the more...the more')",
+    "Uti tam...quam ('as...as', aequalitas) et quam + superlativo ('as...as possible')",
+    "Distinguere correlativa comparationis ab aliis usibus quam",
+    "Recognoscere has constructiones in prosa argumentativa (Cicero)"
+  ],
+  "content": {
+    "intro": "Cicerō, in ōrātiōnibus suīs, frequenter adhibet cōnstrūctiōnēs corrēlātīvās ēlegantēs prō comparātiōnibus proportiōnālibus — 'quantō magis..., tantō magis...' ('the more..., the more...').",
+    "explanation": "<p>Corrēlātīva combīnant duo comparātīva (vel duo verba intēnsīva) in ūnam sententiam proportiōnālem.</p>",
+    "rules": [
+      {
+        "heading": "a) Quanto...Tanto: 'The More...The More'",
+        "body": "<p>Ambō ablātīvī mēnsūrae (Gradus VI, lēctiō 3), gubernantēs comparātīvōs: <strong>Quantō plūs habēmus, tantō plūra cupimus.</strong> ('The more we have, the more we desire.') Alternātīva: <strong>Quō...eō</strong> (idem sēnsus): <em>Quō plūs habēs, eō plūra vīs.</em></p>"
+      },
+      {
+        "heading": "b) Tam...Quam: Aequalitas",
+        "body": "<p>Exprimit aequalitātem (nōn comparātiōnem gradūs): <strong>Tam fortis est quam pater suus.</strong> ('He is as brave as his father.')</p>"
+      },
+      {
+        "heading": "c) Quam + Superlativus: 'As...As Possible'",
+        "body": "<p><strong>quam</strong> + superlātīvus (interdum cum 'possum'): <em>quam celerrimē</em> ('as quickly as possible'), <em>quam plūrimī</em> ('as many as possible').</p>"
+      },
+      {
+        "heading": "d) Ut...Ita: Correlativum Concessivum",
+        "body": "<p><strong>ut...ita</strong> potest exprimere concessiōnem corrēlātam: <em>Ut fortis est, ita nōn semper sapiēns.</em> ('While/although he is brave, he is not always wise.')</p>"
+      }
+    ],
+    "examples": [
+      "Quanto doctior est, tanto modestior. — The more learned he is, the more modest.",
+      "Tam pulchra est quam mater eius. — She is as beautiful as her mother.",
+      "Quam celerrime venite! — Come as quickly as possible!",
+      "Quo plus habemus, eo plus cupimus. — The more we have, the more we desire.",
+      "Ut fortis in bello, ita clemens in pace fuit. — As brave in war, so merciful in peace was he."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "'Quantō...tantō' vertitur litteraliter 'by how much...by so much', sine idiomate Anglico apto.",
+        "right": "Traductio idiomatica: 'the more...the more' — litteralis quoque intellegibilis, sed idioma est magis naturale.",
+        "why": "Constructio Latina et Anglica sunt structuraliter parallelae (ambae correlativa), sed verba differunt idiomaticē."
+      },
+      {
+        "wrong": "'Tam...quam' confunditur cum 'tam...ut' (clausula consecutiva, Gradus V).",
+        "right": "'tam...quam' exprimit aequalitatem SIMPLICEM (as...as); 'tam...ut' introducit clausulam consecutivam (so...that) cum coniunctivo.",
+        "why": "Formae similes ('tam') sed functiones distinctae: comparatio directa vs. clausula subordinata consecutiva."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vi-corr-mc", "type": "multiple-choice", "title": "Correlativa: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "corr1", "prompt": "'Quantō plūs habēmus, tantō plūra cupimus' significat:", "options": ["Whatever we have, we want more", "The more we have, the more we desire", "We never have enough"], "answerIndex": 1, "explanation": "Correlativum proportionale." },
+        { "id": "corr2", "prompt": "'Tam fortis quam pater' exprimit:", "options": ["comparationem de gradu superiore", "aequalitatem"], "answerIndex": 1, "explanation": "tam...quam: aequalitas, non superioritas." },
+        { "id": "corr3", "prompt": "'Quam celerrimē' significat:", "options": ["very quickly", "as quickly as possible", "more quickly than before"], "answerIndex": 1, "explanation": "quam + superlativus: 'as...as possible'." }
+      ]
+    },
+    {
+      "id": "vi-corr-fill", "type": "fill-blank", "title": "Comple cum Correlativo",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "corr4", "prompt": "___ doctior est, tanto modestior. (The more — quanto)", "options": ["Tam", "Quanto", "Quam"], "answers": ["Quanto"], "explanation": "Correlativum proportionale: quantō...tantō." },
+        { "id": "corr5", "prompt": "Venite quam ___! (as quickly as possible — celerrime)", "options": ["celeriter", "celerius", "celerrime"], "answers": ["celerrime"], "explanation": "quam + superlativus." }
+      ]
+    }
+  ],
+  "summary": [
+    "Quantō...tantō (vel quō...eō): 'the more...the more', ambo ablativi mensurae.",
+    "Tam...quam: aequalitas ('as...as'), distinctum ab tam...ut (clausula consecutiva).",
+    "Quam + superlativus: 'as...as possible'.",
+    "Ut...ita: correlativum concessivum ('while...yet')."
+  ],
+  "related": [
+    { "lessonId": "vi-oratio-obliqua-systema-plenum", "label": "Oratio Obliqua: Systema Plenum" },
+    { "lessonId": "vi-numeri-usus-litterarii", "label": "Numeri: Usus Litterarii" }
+  ]
+}

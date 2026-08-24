@@ -1,0 +1,87 @@
+{
+  "id": "vi-ablativus-usus-provectiores",
+  "level": "VI",
+  "unit": "1",
+  "order": 3,
+  "skill": "grammatica",
+  "strand": "casus",
+  "title": "Ablativus: Usus Provectiores",
+  "subtitle": "Ablativus qualitatis, pretii, mensurae, originis — quattuor usus ultimi.",
+  "prerequisites": ["vi-dativus-usus-provectiores"],
+  "objectives": [
+    "Uti ablativo qualitatis, cum adiectivo, pro descriptione",
+    "Uti ablativo pretii pro pretio rerum venditarum/emptarum",
+    "Uti ablativo mensurae/differentiae cum comparativis",
+    "Uti ablativo originis cum participiis natus/ortus/genitus"
+  ],
+  "content": {
+    "intro": "Ultimī quattuor ūsūs ablātīvī, frequentēs in prōsā historicā et biographicā, complent scientiam tuam huius cāsūs versātilis.",
+    "explanation": "<p>Recorda: ablātīvus cumulat plūrēs cāsūs antīquōs (locātīvum, īnstrūmentālem) — ideō tot ūsūs dīversōs habet.</p>",
+    "rules": [
+      {
+        "heading": "a) Ablativus Qualitatis",
+        "body": "<p>Dēscrībit calitātem, semper cum adiectīvō (sīcut genetīvus calitātis, Gradus II): <strong>vir magnā virtūte</strong> ('a man of great courage'). Rēgula generālis (nōn absolūta): genetīvus prō calitātibus permanentibus/intrīnsecīs, ablātīvus prō calitātibus physicīs/temporāriīs — sed multa exempla permittunt ambōs.</p>"
+      },
+      {
+        "heading": "b) Ablativus Pretii",
+        "body": "<p>Exprimit pretium: <strong>Vīgintī talentīs ēmit.</strong> ('He bought [it] for twenty talents.') Cum adiectīvīs generālibus (magnō, parvō, nihilō): <em>Magnō vēndidit.</em> ('He sold [it] for a high price.')</p>"
+      },
+      {
+        "heading": "c) Ablativus Mensurae (Differentiae)",
+        "body": "<p>Exprimit gradum differentiae cum comparātīvō: <strong>multō maior</strong> ('much bigger', litt. 'bigger BY MUCH'), <strong>paulō ante</strong> ('a little before'), <strong>tribus annīs senior</strong> ('older by three years').</p>"
+      },
+      {
+        "heading": "d) Ablativus Originis",
+        "body": "<p>Cum participiīs 'nātus', 'ortus', 'genitus' ('born from'): <strong>Iove nātus</strong> ('born from Jupiter'), <strong>nōbilī familiā ortus</strong> ('descended from a noble family').</p>"
+      }
+    ],
+    "examples": [
+      "Vir erat magna sapientia. — He was a man of great wisdom.",
+      "Decem talentis domum emit. — He bought the house for ten talents.",
+      "Multo doctior est quam frater. — He is much more learned than his brother.",
+      "Hercules Iove natus erat. — Hercules was born from Jupiter.",
+      "Paulo post discessit. — A little later he departed."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Ablativus mensurae confunditur cum ablativo qualitatis, sine respectu praesentiae comparativi.",
+        "right": "Ablativus mensurae adhibetur SEMPER cum comparativo (multō maior); ablativus qualitatis modificat nomen directe, sine comparativo necessario.",
+        "why": "Praesentia formae comparativae ('-ior', 'magis') est indicium fortis ablativi mensurae."
+      },
+      {
+        "wrong": "Pretium exprimitur per accusativum, per analogiam cum obiecto directo.",
+        "right": "Pretium rei venditae/emptae exprimitur per ablativum pretii, non accusativum.",
+        "why": "Ablativus pretii est constructio fixa distincta, quamvis 'pretium' semantice pareat obiecto."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vi-abl2-mc", "type": "multiple-choice", "title": "Ablativus Provectior: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "abl2-1", "prompt": "'Multō maior' — 'multō' est ablativus:", "options": ["qualitatis", "mensurae/differentiae", "originis"], "answerIndex": 1, "explanation": "Cum comparativo: mensura differentiae." },
+        { "id": "abl2-2", "prompt": "'Iove nātus' — 'Iove' est ablativus:", "options": ["originis", "pretii", "qualitatis"], "answerIndex": 0, "explanation": "Cum participio 'natus': origo." },
+        { "id": "abl2-3", "prompt": "'Vīgintī talentīs ēmit' — 'talentīs' est ablativus:", "options": ["pretii", "qualitatis", "mensurae"], "answerIndex": 0, "explanation": "Pretium rei emptae." }
+      ]
+    },
+    {
+      "id": "vi-abl2-fill", "type": "fill-blank", "title": "Comple cum Ablativo Provectiore",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "abl2-4", "prompt": "Vir erat magna ___. (wisdom — sapientia)", "options": ["sapientia", "sapientiam", "sapientiae"], "answers": ["sapientia"], "explanation": "Ablativus qualitatis." },
+        { "id": "abl2-5", "prompt": "Domum decem ___ emit. (talents — talentis)", "options": ["talenta", "talentis", "talentorum"], "answers": ["talentis"], "explanation": "Ablativus pretii." }
+      ]
+    }
+  ],
+  "summary": [
+    "Ablativus qualitatis: descriptio cum adiectivo (vir magna virtute).",
+    "Ablativus pretii: pretium (viginti talentis emit).",
+    "Ablativus mensurae: gradus differentiae cum comparativo (multo maior).",
+    "Ablativus originis: cum natus/ortus/genitus (Iove natus)."
+  ],
+  "related": [
+    { "lessonId": "vi-dativus-usus-provectiores", "label": "Dativus: Usus Provectiores" },
+    { "lessonId": "vi-oratio-obliqua-systema-plenum", "label": "Oratio Obliqua: Systema Plenum" }
+  ]
+}

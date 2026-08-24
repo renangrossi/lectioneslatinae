@@ -1,0 +1,87 @@
+{
+  "id": "vi-dativus-usus-provectiores",
+  "level": "VI",
+  "unit": "1",
+  "order": 2,
+  "skill": "grammatica",
+  "strand": "casus",
+  "title": "Dativus: Usus Provectiores",
+  "subtitle": "Auxilio venit — dativus duplex, dativus finalis, dativus possessionis amplius.",
+  "prerequisites": ["vi-ordo-verborum-et-stilus"],
+  "objectives": [
+    "Uti dativo finali (purpose) in constructionibus fixis",
+    "Formare dativum duplex: dativus finalis + dativus personae",
+    "Cognoscere dativum ethicum (interesse emotionale, non grammaticum stricte)",
+    "Consolidare omnes usus dativi discussos per totum cursum"
+  ],
+  "content": {
+    "intro": "Iam multōs ūsūs datīvī nōvistī: obiectum indirēctum, possessiō, verba speciālia. Hodiē tribus ūsibus prōvectiōribus, frequentibus in prōsā classicā, complēbimus systēma.",
+    "explanation": "<p>Datīvus, cāsus versātilis, servit etiam PROPOSITŌ (fīnālis) et ēmōtiōnī (ēthicus), praeter ūsūs iam nōtōs.</p>",
+    "rules": [
+      {
+        "heading": "a) Dativus Finalis (Purpose)",
+        "body": "<p>Exprimit propositum vel effectum, saepe cum verbīs ut 'esse': <strong>Hoc mihi cūrae est.</strong> ('This is a care to me' = 'I care about this.') <strong>Auxiliō vēnērunt.</strong> ('They came AS A HELP' = 'to help'.)</p>"
+      },
+      {
+        "heading": "b) Dativus Duplex",
+        "body": "<p>Combīnātiō dativī fīnālis + datīvī persōnae, frequēns cum 'esse': <strong>Hoc mihi ūsuī est.</strong> ('This is of use TO ME.') <strong>Auxiliō nōbīs vēnit.</strong> ('He came as help TO US' / 'he came to help us'.)</p>"
+      },
+      {
+        "heading": "c) Dativus Ethicus",
+        "body": "<p>Exprimit interesse ēmōtiōnāle loquentis, magis colloquiāle, frequēns apud Plautum/Terentium: <strong>Quid mihi Celsus agit?</strong> ('What, pray tell, is Celsus doing?' — 'mihi' hīc nōn est vērē obiectum, sed exprimit interesse persōnāle loquentis in respōnsō.)</p>"
+      },
+      {
+        "heading": "d) Conspectus: Omnes Usus Dativi",
+        "body": "<p>Obiectum indirēctum, possessiō (mihi est), verba speciālia (pāreō), fīnālis (auxiliō), duplex (ūsuī mihi), ēthicus (colloquiālis).</p>"
+      }
+    ],
+    "examples": [
+      "Magno usui nobis fuit consilium eius. — His advice was of great use to us.",
+      "Milites auxilio civibus venerunt. — The soldiers came to help the citizens.",
+      "Hoc mihi curae semper fuit. — This has always been a concern of mine.",
+      "Quid mihi Roscius agit? — What, I ask you, is Roscius doing?",
+      "Exemplo sit hoc omnibus. — Let this be an example to everyone."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Dativus finalis interpretatur ut obiectum indirectum normale, sine sensu 'purpose/result'.",
+        "right": "Dativus finalis exprimit ID QUOD ALIQUID EST vel EFFICIT (purpose/result), non receptorem simplicem.",
+        "why": "'auxiliō vēnit' non significat 'came to a help' (receptor), sed 'came AS help' (function/purpose)."
+      },
+      {
+        "wrong": "Dativus duplex tractatur ut duo datīvī obiecti indirecti redundantes.",
+        "right": "Dativus duplex combinat ratione distincta: unus finalis (purpose), alter personalis (beneficiary) — functiones diversae.",
+        "why": "Distinctio functionalis inter duo dativi in eadem sententia est subtilis sed reālis."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vi-dat2-mc", "type": "multiple-choice", "title": "Dativus Provectior: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "dat2-1", "prompt": "'Auxiliō vēnērunt' significat:", "options": ["They came for help (received)", "They came AS help / to help", "They came without help"], "answerIndex": 1, "explanation": "Dativus finalis: purpose/function." },
+        { "id": "dat2-2", "prompt": "'Hoc mihi ūsuī est' demonstrat:", "options": ["dativum simplicem", "dativum duplex (finalis + personae)"], "answerIndex": 1, "explanation": "ūsuī (finalis) + mihi (personae)." },
+        { "id": "dat2-3", "prompt": "Dativus ethicus est tipicamente adhibitus in:", "options": ["prosa formali historica", "sermone colloquiali, cum interesse emotionali"], "answerIndex": 1, "explanation": "Frequens apud comoedias (Plautus, Terentius)." }
+      ]
+    },
+    {
+      "id": "vi-dat2-fill", "type": "fill-blank", "title": "Comple cum Dativo Provectiore",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "dat2-4", "prompt": "Consilium eius magno ___ nobis fuit. (of use — usui)", "options": ["usus", "usui", "usum"], "answers": ["usui"], "explanation": "Dativus finalis: usui." },
+        { "id": "dat2-5", "prompt": "Hoc semper mihi ___ fuit. (a concern — curae)", "options": ["cura", "curae", "curam"], "answers": ["curae"], "explanation": "Dativus finalis fixum: curae esse." }
+      ]
+    }
+  ],
+  "summary": [
+    "Dativus finalis: exprimit propositum/effectum (auxiliō venīre).",
+    "Dativus duplex: combinat dativum finalem + dativum personae (ūsuī mihi est).",
+    "Dativus ethicus: interesse emotionale, colloquiale.",
+    "Systema dativi nunc completum: obiectum indirectum, possessio, verba specialia, finalis, duplex, ethicus."
+  ],
+  "related": [
+    { "lessonId": "vi-ordo-verborum-et-stilus", "label": "Ordo Verborum et Stilus" },
+    { "lessonId": "vi-ablativus-usus-provectiores", "label": "Ablativus: Usus Provectiores" }
+  ]
+}

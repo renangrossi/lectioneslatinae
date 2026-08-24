@@ -343,43 +343,43 @@
           "lessons": [
             {
               "id": "vi-ordo-verborum-et-stilus",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vi-dativus-usus-provectiores",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vi-ablativus-usus-provectiores",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vi-oratio-obliqua-systema-plenum",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vi-comparatio-et-correlativa",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vi-numeri-usus-litterarii",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vi-lectio-adaptata-caesar",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vi-lectio-adaptata-cicero",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vi-constructiones-participiales-provectae",
-              "status": "planned"
+              "status": "published"
             },
             {
               "id": "vi-recognitio-syntaxis-integra",
-              "status": "planned"
+              "status": "published"
             }
           ]
         }

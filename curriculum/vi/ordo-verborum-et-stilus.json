@@ -1,0 +1,86 @@
+{
+  "id": "vi-ordo-verborum-et-stilus",
+  "level": "VI",
+  "unit": "1",
+  "order": 1,
+  "skill": "grammatica",
+  "strand": "stilus",
+  "title": "Ordo Verborum et Stilus",
+  "subtitle": "Cur casus, non positio, gubernat sensum — et cur Cicero verbum saepe ultimum ponit.",
+  "prerequisites": ["v-ablativus-absolutus-amplius"],
+  "objectives": [
+    "Explicare cur ordo verborum Latinus est flexibilis (casus, non positio, indicat officium)",
+    "Cognoscere ordinem 'neutralem' typicum (SOV) et deviationes stilisticas frequentes",
+    "Identificare emphasim per positionem verbi initialem vel finalem",
+    "Applicare principia hyperbati (verba coniuncta grammaticaliter separata pro effectu)"
+  ],
+  "content": {
+    "intro": "Salvē in Gradum VI! Ab hōc pūnctō, minus grammatica nova discēs, magis quōmodo Latīnitās REALIS — auctōrum classicōrum — differt ā sententiīs simplicibus pedagogicīs quās hūcusque lēgistī.",
+    "explanation": "<p>Quia cāsus grammaticus (nōn positiō in sententiā) indicat officium syntacticum, Latīna potest ōrdināre verba multō līberius quam Anglica (ubi ōrdō ipse est saepe sōla indicātiō officiī: 'the dog bites the man' vs. 'the man bites the dog').</p>",
+    "rules": [
+      {
+        "heading": "a) Ordo Neutralis: SOV (sed non obligatorius)",
+        "body": "<p>In prōsā expositōriā simplicī, ōrdō 'neutrālis' (sine ēmphasī speciālī) frequenter pōnit verbum ULTIMUM: <em>Puer canem videt.</em> ('Subiectum-Obiectum-Verbum.') Sed hoc est TENDENTIA, nōn rēgula rigida — auctōrēs classicī variant līberē.</p>"
+      },
+      {
+        "heading": "b) Emphasis per Positionem",
+        "body": "<p>Verbum in prīncipiō sententiae saepe portat ēmphasim speciālem: <strong>Gallia est omnis dīvīsa in partēs trēs</strong> (Caesar) — 'Gallia' prīmum, quia est thema tōtīus operis. Adiectīvum/verbum SEPARATUM ā nōmine suō (per aliud verbum interpositum) crēat suspēnsam et ēmphasim: <em>Magnam habet virtūtem.</em> ('He has GREAT courage' — 'magnam' longē ā 'virtūtem' facit lēctōrem exspectāre.)</p>"
+      },
+      {
+        "heading": "c) Hyperbaton: Separatio Deliberata",
+        "body": "<p>Auctōrēs frequenter sēparant verba grammaticē coniūncta (adiectīvum ab nōmine, praepositiōnem ab obiectō) prō effectū stilisticō: <em>Multīs cum lacrimīs</em> (Cicero, 'with many tears' — 'multīs' et 'lacrimīs' sēparāta ab 'cum' interpositō) magis ēlegāns quam <em>cum multīs lacrimīs</em> simplex.</p>"
+      },
+      {
+        "heading": "d) Verba 'Sum' et Enclitica: Positio Fixa",
+        "body": "<p>'Est/sunt' saepe pōnitur inter adiectīvum et nōmen ('magna est virtūs'), et particulae enclīticae (-que, -ne) semper suffīguntur PRĪMŌ verbō phrasis, sine respectu ōrdinis logici.</p>"
+      }
+    ],
+    "examples": [
+      "Arma virumque cano. — I sing of arms and the man. (Vergilius; obiecta ante verbum)",
+      "Magnam habet virtutem hic vir. — This man has great courage. (separatio pro emphasi)",
+      "Urbem Romam a principio reges habuere. — Kings ruled the city of Rome from the beginning. (Tacitus; obiectum initiale)",
+      "Multis cum lacrimis rogavit. — He asked with many tears. (hyperbaton)",
+      "Omnia vincit amor. — Love conquers all. (Vergilius; obiectum ante verbum ante subiectum)"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus applicat ordinem Anglicum (SVO) rigide ad omnem sententiam Latinam, ignorans flexibilitatem.",
+        "right": "Ordo Latinus reflectit emphasim et stilum, non regulam sintacticam fixam — casus determinat officium, non positio.",
+        "why": "Confundere haec duo systemata (positio vs. casus) causat versiones erroneas et incomprehensionem textuum authenticorum."
+      },
+      {
+        "wrong": "Positio inusitata verbi (initialis vel finalis) est ignorata in versione, tractata ut irrelevans.",
+        "right": "Positio deliberata saepe portat significationem stilisticam (emphasis) quae debet reflectī in versione bona.",
+        "why": "Auctores classici non ordinant verba fortuito — positio est instrumentum rhetoricum."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vi-ordo-mc", "type": "multiple-choice", "title": "Ordo Verborum: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "ordo1", "prompt": "Cur ordo verborum Latinus est flexibilis?", "options": ["Quia est lingua antiqua sine regulis", "Quia casus grammaticus, non positio, indicat officium", "Quia poesis id requirit semper"], "answerIndex": 1, "explanation": "Fundamentum grammaticum: casus > positio." },
+        { "id": "ordo2", "prompt": "'Arma virumque canō' incipit cum:", "options": ["subiecto", "obiecto", "verbo"], "answerIndex": 1, "explanation": "Obiecta ('arma', 'virum') praecedunt verbum, pro emphasi thematica." },
+        { "id": "ordo3", "prompt": "Hyperbaton est:", "options": ["error grammaticus", "separatio deliberata verborum coniunctorum, pro effectu", "regula obligatoria"], "answerIndex": 1, "explanation": "Instrumentum stilisticum frequens in prosa/poesi classica." }
+      ]
+    },
+    {
+      "id": "vi-ordo-order", "type": "ordering", "title": "Compone secundum Ordinem Neutralem",
+      "instructions": "Pone verba in ordinem SOV neutralem (sine emphasi speciali).",
+      "items": [
+        { "id": "ordo4", "prompt": "videt / canem / puer", "words": ["Puer", "canem", "videt"], "explanation": "Ordo neutralis: subiectum, obiectum, verbum." },
+        { "id": "ordo5", "prompt": "urbem / defendunt / milites", "words": ["Milites", "urbem", "defendunt"], "explanation": "Ordo neutralis: subiectum, obiectum, verbum." }
+      ]
+    }
+  ],
+  "summary": [
+    "Casus grammaticus, non positio, indicat officium syntacticum — ergo ordo est flexibilis.",
+    "Ordo neutralis tendit ad SOV, sed variat libere pro emphasi.",
+    "Hyperbaton: separatio deliberata verborum coniunctorum, pro effectu stilistico.",
+    "Positio initialis/finalis frequenter portat emphasim significativam."
+  ],
+  "related": [
+    { "lessonId": "vi-dativus-usus-provectiores", "label": "Dativus: Usus Provectiores" }
+  ]
+}

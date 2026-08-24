@@ -1,0 +1,92 @@
+{
+  "id": "vi-numeri-usus-litterarii",
+  "level": "VI",
+  "unit": "1",
+  "order": 6,
+  "skill": "vocabularium",
+  "strand": "numeri",
+  "title": "Numeri: Usus Litterarii",
+  "subtitle": "Singuli, bini, terni — numeri distributivi et multiplicativi.",
+  "prerequisites": ["vi-comparatio-et-correlativa"],
+  "objectives": [
+    "Uti numeris distributivis (singuli, bini, terni) pro 'X each'",
+    "Uti numeris multiplicativis (simplex, duplex, triplex)",
+    "Distinguere quando distributivus est obligatorius (cum pluralia tantum)",
+    "Recognoscere numeros in usu litterario/poetico"
+  ],
+  "content": {
+    "intro": "Praeter numerōs cardinālēs et ōrdinālēs (iam nōtōs), Latīna habet duo genera ultima: distribūtīvī ('one each') et multiplicātīvī ('-fold').",
+    "explanation": "<p>Numerī distribūtīvī sunt OBLIGĀTŌRIĪ (nōn optiōnālēs) cum nōminibus <em>plūrālia tantum</em> (verba quae sōlum fōrmam plūrālem habent, ut castra, arma, līterae).</p>",
+    "rules": [
+      {
+        "heading": "a) Numeri Distributivi",
+        "body": "<p><strong>singulī, -ae, -a</strong> (one each), <strong>bīnī</strong> (two each), <strong>ternī</strong> (three each), <strong>quaternī</strong> (four each), <strong>dēnī</strong> (ten each). Exemplum: <em>Mīlitibus bīna arma data sunt.</em> ('Two sets of weapons were given to EACH soldier.') Cum pluralia tantum: <em>bīna castra</em> ('two camps', nōn *'duo castra', quia castra est plūrāle tantum).</p>"
+      },
+      {
+        "heading": "b) Numeri Multiplicativi",
+        "body": "<p><strong>simplex</strong> (single/onefold), <strong>duplex</strong> (double/twofold), <strong>triplex</strong> (triple), <strong>quadruplex</strong> (fourfold). Exemplum: <em>duplex praemium</em> ('a double reward').</p>"
+      },
+      {
+        "heading": "c) Numeri Proportionales",
+        "body": "<p><strong>duplus, -a, -um</strong> (twice as much/large), <strong>triplus</strong> (three times as much). Exemplum: <em>Pretium duplum est.</em> ('The price is double.')</p>"
+      },
+      {
+        "heading": "d) Adverbia Numeralia: Recognitio",
+        "body": "<p>Recorda ex Gradū III: <strong>semel, bis, ter, quater, quīnquiēs...</strong> — hōs adhibēs cum āctiōnibus repetītīs, distīnctōs ā distribūtīvīs (quī modificant nōmina).</p>"
+      }
+    ],
+    "examples": [
+      "Militibus bina castra facta sunt. — Two camps each were made by the soldiers.",
+      "Praemium duplex accepit. — He received a double reward.",
+      "Pretium triplum solvit. — He paid a triple price.",
+      "Consules singulis annis creabantur. — Consuls were elected [one] each year.",
+      "Ter in anno ad templum ibat. — Three times a year he went to the temple."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Numerus cardinalis normalis (duo, tres) adhibetur cum nomine plurali tantum (castra, arma).",
+        "right": "Cum pluralia tantum, numerus DISTRIBUTIVUS est obligatorius: bina castra, non *duo castra.",
+        "why": "Pluralia tantum grammaticē non habent forma singularis a qua numerus cardinalis normalis contaretur logicē."
+      },
+      {
+        "wrong": "Numerus multiplicativus (duplex) confunditur cum numero distributivo (bini), ambo tractati ut synonyma.",
+        "right": "Distributivus (bini) significat 'two each' (distributio); multiplicativus (duplex) significat 'twofold/double' (multiplicatio).",
+        "why": "Functiones semanticae distinctae, quamvis ambo referant ad numerum duo."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vi-num3-mc", "type": "multiple-choice", "title": "Numeri Litterarii: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "num3-1", "prompt": "'Bīna castra' significat:", "options": ["two camps (simple count)", "two camps each (distributive)"], "answerIndex": 1, "explanation": "Distributivus cum plurale tantum." },
+        { "id": "num3-2", "prompt": "'Duplex praemium' significat:", "options": ["two rewards", "a double/twofold reward"], "answerIndex": 1, "explanation": "Multiplicativus: qualitas, non quantitas simplex." },
+        { "id": "num3-3", "prompt": "Cum nomine plurali tantum (castra), quod numerus est obligatorius pro 'two'?", "options": ["duo (cardinalis)", "bini (distributivus)"], "answerIndex": 1, "explanation": "Regula grammatica fixa." }
+      ]
+    },
+    {
+      "id": "vi-num3-match", "type": "matching", "title": "Iunge Numerum cum Significatione",
+      "instructions": "Iunge quemque numerum cum significatione sua.",
+      "items": [
+        { "id": "num3-4", "pairs": [
+          { "left": "singuli", "right": "one each" },
+          { "left": "bini", "right": "two each" },
+          { "left": "duplex", "right": "twofold" },
+          { "left": "triplex", "right": "threefold" },
+          { "left": "bis", "right": "twice" }
+        ], "explanation": "Distributivi, multiplicativi, et adverbia numeralia servunt functionibus distinctis." }
+      ]
+    }
+  ],
+  "summary": [
+    "Numeri distributivi (singuli, bini, terni): obligatorii cum pluralia tantum, significant 'X each'.",
+    "Numeri multiplicativi (simplex, duplex, triplex): significant '-fold'.",
+    "Numeri proportionales (duplus, triplus): 'twice/three times as much'.",
+    "Adverbia numeralia (semel, bis, ter): actiones repetitas, distincti a distributivis."
+  ],
+  "related": [
+    { "lessonId": "vi-comparatio-et-correlativa", "label": "Comparatio et Correlativa" },
+    { "lessonId": "vi-lectio-adaptata-caesar", "label": "Lectio Adaptata: Caesar" }
+  ]
+}

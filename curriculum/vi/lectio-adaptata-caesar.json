@@ -1,0 +1,81 @@
+{
+  "id": "vi-lectio-adaptata-caesar",
+  "level": "VI",
+  "unit": "1",
+  "order": 7,
+  "skill": "lectio",
+  "strand": "lectio",
+  "title": "Lectio Adaptata: Caesar",
+  "subtitle": "Caesar Rubiconem transit — narratio adaptata, ex historia vera, cum syntaxi Gradus IV-VI.",
+  "prerequisites": ["vi-numeri-usus-litterarii"],
+  "objectives": [
+    "Legere narrationem prosae continuam, adaptatam sed syntacticē densam",
+    "Identificare ablativos absolutos, AcI, et clausulas subordinatas in contextu",
+    "Comprehendere eventum historicum famosum (transitus Rubiconis) sine versione",
+    "Parsare formas verborum complexas intra narratione"
+  ],
+  "content": {
+    "intro": "Annō 49 a.C.n., Gāius Iūlius Caesar, dux exercitūs Rōmānī in Galliā, dēcīsiōnem gravissimam fēcit — trānsīre flūmen Rubicōnem, fīnem prōvinciae suae, cum exercitū, quod erat contrā lēgem Rōmānam. Haec nārrātiō, adaptāta ex historiīs antīquīs (Suētōniō, Plūtarchō), tē praeparat ad textūs nōn adaptātōs Gradūs VII.",
+    "explanation": "<p>Legere lentē; nōn omne verbum novum est — id quod discis est LEGERE prōsam dēnsam, cum multīs cōnstrūctiōnibus participiālibus et coniūnctīvīs simul.</p>",
+    "rules": [
+      {
+        "heading": "Textus: Caesar Rubiconem Transit",
+        "body": "<p class=\"reading-passage-inline\">Caesar, cum in Galliā multōs annōs bella gessisset et multās gentēs vīcisset, ā senātū Rōmānō iussus est exercitum dīmittere. Sed Caesar, cum sciret inimīcōs suōs in urbe potentēs esse, timuit nē, sī sine exercitū Rōmam redīret, ab eīs interficerētur. Diū cōgitāvit utrum lēgibus pārēret an cum exercitū suō in Ītaliam venīret. Tandem, cōnsiliō captō, ad flūmen Rubicōnem, quod fīnis erat inter Galliam et Ītaliam, pervēnit. Ibi, ut trāditur, dīxit: <em>'Ālea iacta est.'</em> Deinde, exercitū sequente, flūmen trānsiit — factum quod bellum cīvīle inter Caesarem et Pompēium incohāvit, bellum quod rem pūblicam Rōmānam mūtātūrum erat in perpetuum.</p>"
+      },
+      {
+        "heading": "Vocabulārium et Notae",
+        "body": "<p><em>dīmittō, -ere</em> (to disband), <em>inimīcus, -ī</em> (personal enemy, distinct ab 'hostis' = enemy of the state), <em>interficiō, -ere</em> (to kill), <em>trāditur</em> ('it is handed down/said' — passīvum impersōnāle frequēns in historiīs), <em>āleā iacta est</em> ('the die is cast' — verba famōsa Caesaris, secundum trāditiōnem antīquam).</p>"
+      }
+    ],
+    "examples": [
+      "Cum bella gessisset — ablativus absolutus? Non — cum + coniunctivus plusquamperfectum, cum historicum/causale.",
+      "Timuit ne interficeretur — clausula timendi, ne = 'that' (timor positivus).",
+      "Consilio capto — ablativus absolutus, participium perfectum passivum.",
+      "Bellum quod rem publicam mutaturum erat — participium futurum activum + erat, periphrastica activa.",
+      "Ut traditur — 'as it is handed down/reported', passivum impersonale."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Discipulus tentat vertere omne verbum singillatim, perdens sensum totius periodi.",
+        "right": "Legere primum totam periodum semel, identificare verbum principale, deinde analysare clausulas subordinatas in ordine logico.",
+        "why": "Prosa historica densa exigit strategiam lectionis holisticam, non traductionem verbum-post-verbum."
+      },
+      {
+        "wrong": "'Timuit nē interficerētur' vertitur 'he feared that he would NOT be killed', applicans regulam normalem 'nē'.",
+        "right": "Post verba timendi, 'nē' significat 'that' (timor positivus): 'he feared that he WOULD be killed'.",
+        "why": "Regula specialis clausularum timendi (Gradus V) applicatur hic, inversa a usu normali."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vi-caes-rc", "type": "reading-comprehension", "title": "Comprehensio: Caesar Rubiconem Transit",
+      "instructions": "Lege narrationem supra, deinde responde.",
+      "passage": "<p>Caesar, cum in Galliā multōs annōs bella gessisset et multās gentēs vīcisset, ā senātū Rōmānō iussus est exercitum dīmittere. Sed Caesar, cum sciret inimīcōs suōs in urbe potentēs esse, timuit nē, sī sine exercitū Rōmam redīret, ab eīs interficerētur. Diū cōgitāvit utrum lēgibus pārēret an cum exercitū suō in Ītaliam venīret. Tandem, cōnsiliō captō, ad flūmen Rubicōnem pervēnit. Ibi, ut trāditur, dīxit: 'Ālea iacta est.' Deinde flūmen trānsiit.</p>",
+      "items": [
+        { "id": "caes1", "prompt": "Quid senatus Caesari imperavit?", "options": ["ut Romam veniret", "ut exercitum dimitteret", "ut in Gallia maneret"], "answerIndex": 1, "explanation": "'iussus est exercitum dīmittere'." },
+        { "id": "caes2", "prompt": "Cur Caesar timuit Romam sine exercitu redire?", "options": ["quia viam non sciebat", "quia inimici sui potentes in urbe erant", "quia hiems erat"], "answerIndex": 1, "explanation": "'sciret inimīcōs suōs in urbe potentēs esse'." },
+        { "id": "caes3", "prompt": "Quid Caesar dixit ad Rubiconem, secundum traditionem?", "options": ["'Veni, vidi, vici'", "'Alea iacta est'", "'Et tu, Brute?'"], "answerIndex": 1, "explanation": "'ut trāditur, dīxit: Ālea iacta est.'" },
+        { "id": "caes4", "prompt": "Quid Rubico erat?", "options": ["nomen ducis", "flumen, finis inter Galliam et Italiam", "urbs magna"], "answerIndex": 1, "explanation": "'flūmen Rubicōnem, quod fīnis erat inter Galliam et Ītaliam'." }
+      ]
+    },
+    {
+      "id": "vi-caes-mc", "type": "multiple-choice", "title": "Parsing: Formae Complexae",
+      "instructions": "Elige responsum rectum secundum textum.",
+      "items": [
+        { "id": "caes5", "prompt": "'gessisset' est:", "options": ["coniunctivus plusquamperfectus (cum historicum)", "indicativus perfectum", "coniunctivus praesens"], "answerIndex": 0, "explanation": "cum + coniunctivus plusquamperfectus." },
+        { "id": "caes6", "prompt": "'Cōnsiliō captō' est:", "options": ["ablativus absolutus", "genetivus qualitatis", "dativus finalis"], "answerIndex": 0, "explanation": "Nomen + participium perfectum, ambo ablativo." },
+        { "id": "caes7", "prompt": "'mūtātūrum erat' est:", "options": ["participium futurum + sum, coniugatio periphrastica activa", "perfectum simplex", "coniunctivus imperfectum"], "answerIndex": 0, "explanation": "Intentio/imminentia futura, in tempore praeterito." }
+      ]
+    }
+  ],
+  "summary": [
+    "Prosa historica densa combinat ablativos absolutos, AcI, clausulas timendi, et cum historicum in unum passum.",
+    "Strategia lectionis: identifica verbum principale, deinde analysa clausulas subordinatas seriatim.",
+    "Caesar transiit Rubiconem anno 49 a.C.n., incohans bellum civile — eventus historicus authenticus."
+  ],
+  "related": [
+    { "lessonId": "vi-numeri-usus-litterarii", "label": "Numeri: Usus Litterarii" },
+    { "lessonId": "vi-lectio-adaptata-cicero", "label": "Lectio Adaptata: Cicero" }
+  ]
+}

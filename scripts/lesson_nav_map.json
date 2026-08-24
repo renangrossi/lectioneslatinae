@@ -364,6 +364,57 @@
       "ty": "ablativus-absolutus-amplius"
     }
   ],
-  "altior": [],
+  "altior": [
+    {
+      "slug": "ordo-verborum-et-stilus",
+      "title": "Ordo Verborum et Stilus",
+      "ty": "ordo-verborum-et-stilus"
+    },
+    {
+      "slug": "dativus-usus-provectiores",
+      "title": "Dativus: Usus Provectiores",
+      "ty": "dativus-usus-provectiores"
+    },
+    {
+      "slug": "ablativus-usus-provectiores",
+      "title": "Ablativus: Usus Provectiores",
+      "ty": "ablativus-usus-provectiores"
+    },
+    {
+      "slug": "oratio-obliqua-systema-plenum",
+      "title": "Oratio Obliqua: Systema Plenum",
+      "ty": "oratio-obliqua-systema-plenum"
+    },
+    {
+      "slug": "comparatio-et-correlativa",
+      "title": "Comparatio et Correlativa",
+      "ty": "comparatio-et-correlativa"
+    },
+    {
+      "slug": "numeri-usus-litterarii",
+      "title": "Numeri: Usus Litterarii",
+      "ty": "numeri-usus-litterarii"
+    },
+    {
+      "slug": "lectio-adaptata-caesar",
+      "title": "Lectio Adaptata: Caesar",
+      "ty": "lectio-adaptata-caesar"
+    },
+    {
+      "slug": "lectio-adaptata-cicero",
+      "title": "Lectio Adaptata: Cicero",
+      "ty": "lectio-adaptata-cicero"
+    },
+    {
+      "slug": "constructiones-participiales-provectae",
+      "title": "Constructiones Participiales Provectae",
+      "ty": "constructiones-participiales-provectae"
+    },
+    {
+      "slug": "recognitio-syntaxis-integra",
+      "title": "Recognitio Provectior: Syntaxis Integra",
+      "ty": "recognitio-syntaxis-integra"
+    }
+  ],
   "auctores": []
 }

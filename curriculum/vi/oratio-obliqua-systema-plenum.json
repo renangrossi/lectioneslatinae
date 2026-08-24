@@ -1,0 +1,87 @@
+{
+  "id": "vi-oratio-obliqua-systema-plenum",
+  "level": "VI",
+  "unit": "1",
+  "order": 4,
+  "skill": "grammatica",
+  "strand": "syntaxis",
+  "title": "Oratio Obliqua: Systema Plenum",
+  "subtitle": "AcI, imperativa obliqua, interrogationes obliquae — omnia coniuncta, cum coniunctivo obliquo.",
+  "prerequisites": ["vi-ablativus-usus-provectiores"],
+  "objectives": [
+    "Coniungere AcI, imperativa obliqua, et interrogationes obliquas in unum passum narrativum",
+    "Cognoscere coniunctivum obliquum: clausulae subordinatae intra oratione obliqua fiunt semper coniunctivo",
+    "Uti coniugatione periphrastica intra AcI (dicit id faciendum esse)",
+    "Vertere passum plenum orationis obliquae, secundum practicam auctorum classicorum (Caesar, Livius)"
+  ],
+  "content": {
+    "intro": "Auctōrēs historicī (Caesar, Līvius) saepe reportant longōs sermōnēs integrōs in ōrātiōne oblīquā — omnēs trēs cōnstrūctiōnēs quās sēparātim dīdicistī (AcI, imperātīva oblīqua, interrogātiōnēs oblīquae) apud eōs sē combinant in ūnum passum flūminis.",
+    "explanation": "<p>Rēgula ultima et māximē important: intrā ōrātiōne oblīquā, OMNIS clausula subōrdināta (etiam illae quae in ōrātiōne rēctā adhibērent indicātīvum, ut clausulae relātīvae vel temporālēs simplicēs) fit CONIŪNCTĪVUS. Hoc vocātur <strong>coniūnctīvus oblīquus</strong>.</p>",
+    "rules": [
+      {
+        "heading": "a) Coniunctivus Obliquus: Regula Universalis",
+        "body": "<p>Ōrātiō rēcta: <em>'Cum Rōmam vēnī, templa vīdī.'</em> ('When I came to Rome, I saw the temples' — indicātīvus 'vēnī', factum simplex.) Ōrātiō oblīqua: <strong>Dīxit sē, cum Rōmam vēnisset, templa vīdisse.</strong> ('He said that, when he had come to Rome, he had seen the temples.') — nōtā 'vēnisset' NUNC coniūnctīvus, quamvis in ōrātiōne rēctā fuisset indicātīvus simplex, quia intrā oblīquitāte tōtīus passūs iacet.</p>"
+      },
+      {
+        "heading": "b) Combinatio: AcI + Coniunctivus Obliquus",
+        "body": "<p><em>Caesar dīxit sē, sī Helvētiī trānsīrent, bellum factūrum esse.</em> ('Caesar said that, if the Helvetii crossed, he would make war.') — 'dīxit sē...factūrum esse' est AcI prīncipālis; 'sī...trānsīrent' est clausula condiciōnālis intrā, coniūnctīvō propter oblīquitātem.</p>"
+      },
+      {
+        "heading": "c) Gerundivum intra AcI",
+        "body": "<p>Coniugātiō periphrastica passīva potest intrāre AcI normāliter: <strong>Dīxit id faciendum esse.</strong> ('He said that it must be done.')</p>"
+      },
+      {
+        "heading": "d) Strategia Lectionis: Passus Longi",
+        "body": "<p>In textū authenticō, ōrātiō oblīqua longa (Caesar, Dē Bellō Gallicō, saepe capitula integra) exigit: (1) identificāre verbum dīcendī prīncipāle; (2) sequī omnēs īnfīnītīvōs AcI subsequentēs (saepe cōniūnctī per 'et'/'-que', sine verbō dīcendī repetītō); (3) recognōscere omnem coniūnctīvum ut oblīquum, nōn necessāriō fīnālem/cōnsecūtīvum/etc.</p>"
+      }
+    ],
+    "examples": [
+      "Caesar respondit se pacem velle, si Galli arma deponerent. — Caesar replied that he wanted peace, if the Gauls would lay down their arms.",
+      "Legati dixerunt milites, qui fortiter pugnavissent, praemium accepturos esse. — The envoys said that the soldiers, who had fought bravely, would receive a reward.",
+      "Nuntiavit urbem, quae diu obsessa esset, tandem cepisse. — He announced that the city, which had long been besieged, had finally been captured.",
+      "Dixit omnia, quaecumque fecisset, bono animo facta esse. — He said that everything he had done was done with good intent.",
+      "Negavit se scire quid facturi essent. — He denied knowing what they were going to do."
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Clausula relativa intra oratione obliqua ('qui fortiter pugnaverant') manet in indicativo, quia relativae normaliter sunt factuales.",
+        "right": "Intra oratione obliqua, TOTA clausula subordinata (incluso relativa) fit coniunctivus obliquus: 'quī fortiter pugnāvissent'.",
+        "why": "Coniunctivus obliquus applicatur universaliter, sine exceptione pro genere clausulae subordinatae."
+      },
+      {
+        "wrong": "Discipulus perdit filum narrativum in passibus longis, non recognoscens quod multi infinitivi pendent ab uno verbo dicendi initiali.",
+        "right": "Verificare semper verbum dicendi principale (saepe solum semel explicitum), deinde sequi catenam infinitivorum/coniunctivorum obliquorum dependentium.",
+        "why": "Prosa historica classica saepe non repetit verbum dicendi per omnem sententiam — structura debet inferri."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "vi-oo-mc", "type": "multiple-choice", "title": "Oratio Obliqua Plena: Regulae",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "oo1", "prompt": "Coniunctivus obliquus applicatur:", "options": ["solum clausulis finalibus", "omni clausulae subordinatae intra oratione obliqua", "solum interrogationibus"], "answerIndex": 1, "explanation": "Regula universalis, sine exceptione pro genere clausulae." },
+        { "id": "oo2", "prompt": "'Dīxit sē, cum Rōmam vēnisset, templa vīdisse' — 'vēnisset' est coniunctivus quia:", "options": ["est clausula finalis", "est clausula subordinata intra oratione obliqua (obliquus)", "est error"], "answerIndex": 1, "explanation": "Coniunctivus obliquus, non finalis." },
+        { "id": "oo3", "prompt": "'Dīxit id faciendum esse' significat:", "options": ["He said it is being done", "He said that it must be done", "He said he would do it"], "answerIndex": 1, "explanation": "Gerundivum + esse intra AcI: obligatio reportata." }
+      ]
+    },
+    {
+      "id": "vi-oo-fill", "type": "fill-blank", "title": "Comple Oratio Obliqua",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "oo4", "prompt": "Dixit milites, qui fortiter ___, praemium accepturos esse. (had fought — pugnavissent)", "options": ["pugnaverant", "pugnavissent", "pugnabant"], "answers": ["pugnavissent"], "explanation": "Coniunctivus obliquus, plusquamperfectus." },
+        { "id": "oo5", "prompt": "Negavit se scire quid ___ essent. (they were going to do — facturi)", "options": ["facturi", "fecissent", "facientes"], "answers": ["facturi"], "explanation": "Coniunctivus obliquus futurus (periphrasticum + essent)." }
+      ]
+    }
+  ],
+  "summary": [
+    "Coniunctivus obliquus: omnis clausula subordinata intra oratione obliqua fit coniunctivus, sine exceptione.",
+    "AcI, imperativa obliqua, interrogationes obliquae, et clausulae subordinatae combinantur in passibus longis.",
+    "Gerundivum intrat AcI normaliter (dicit id faciendum esse).",
+    "Strategia lectionis: identifica verbum dicendi, sequere catenam infinitivorum/coniunctivorum."
+  ],
+  "related": [
+    { "lessonId": "vi-ablativus-usus-provectiores", "label": "Ablativus: Usus Provectiores" },
+    { "lessonId": "vi-comparatio-et-correlativa", "label": "Comparatio et Correlativa" }
+  ]
+}
