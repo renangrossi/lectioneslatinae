@@ -6,25 +6,25 @@
   "skill": "grammatica",
   "strand": "clausulae",
   "title": "Clausulae Consecutivae",
-  "subtitle": "Tam...ut — 'so...that', cum negatione ut non, distincta a clausula finali.",
+  "subtitle": "Tanta erat turba ut vix incederent — tam...ut, resultatum non propositum.",
   "prerequisites": ["v-consecutio-temporum"],
   "objectives": [
+    "Notare in contextu quomodo 'tam/tantus...ut' introducat RESULTATUM, non propositum",
     "Formare clausulas consecutivas cum ut + coniunctivus",
-    "Uti verbis signaculis frequentibus (tam, tantus, talis, ita, sic)",
     "Distinguere negationem clausulae consecutivae (ut non) a clausula finali (ne)",
     "Applicare consecutionem temporum in clausulis consecutivis"
-  ],
+    ],
   "content": {
-    "intro": "'Tam fessus erat ut dormīret' ('He was so tired that he fell asleep') — clausula cōnsecūtīva exprimit RESULTĀTUM, differenter ā clausulā fīnālī, quae exprimit PROPOSITUM.",
-    "explanation": "<p>Clausula cōnsecūtīva adhibet <strong>ut</strong> + coniūnctīvum, saepe annūntiāta ab adverbiō/adiectīvō intēnsīvō in clausulā prīncipālī.</p>",
+    "intro": "Iulia et Marcus ad forum eunt. Tanta est turba ut vix incedere possint. Iulia dicit: 'Tam multi homines hic sunt ut neminem videam quem novi.' Nota: 'tanta...ut' et 'tam...ut' non exprimunt propositum ('in order to'), sed RESULTATUM: quid evenit propter magnitudinem rei.",
+    "explanation": "<p>Iūlia et Mārcus ad forum eunt. Tanta est turba ut vix incēdere possint. &ldquo;Tam multī hominēs hīc sunt,&rdquo; dīcit Iūlia, &ldquo;ut nēminem videam quem nōvī.&rdquo; Subitō Mārcus clāmat: &ldquo;Ecce Lūcius!&rdquo; Lūcius tam fortiter per turbam venit ut omnēs eī viam dent. Cum ad eōs pervēnit, tam fessus est ut vix loquī possit.</p><p>Notāvistīne: <em>tanta turba ut... possint</em>, <em>tam multī... ut videam</em>, <em>tam fortiter... ut dent</em>, <em>tam fessus... ut possit</em>. Quaeque clausula 'ut + coniūnctīvus' nōn dīcit CUR aliquis aliquid facit (propositum — hoc iam nōvistī ut clausulam fīnālem), sed QUID EVENIT propter magnitūdinem vel intēnsitātem reī: turba tanta est UT (cōnsequenter) vix incēdant. Hanc clausulam <strong>cōnsecūtīvam</strong> vocāmus — 'so... that', resultātum, nōn intentiō.</p>",
     "rules": [
       {
         "heading": "a) Verba Signacula (Signal Words)",
-        "body": "<p><strong>tam</strong> (so, cum adiectīvō/adverbiō), <strong>tantus, -a, -um</strong> (so great/much), <strong>tālis, -e</strong> (such/of such a kind), <strong>ita</strong>/<strong>sīc</strong> (so, cum verbō). Exemplum: <em>Tanta erat tempestās ut nēmō exīret.</em> ('The storm was SO great THAT no one went out.')</p>"
+        "body": "<p><strong>tam</strong> (so, cum adiectīvō/adverbiō), <strong>tantus, -a, -um</strong> (so great/much), <strong>tālis, -e</strong> (such/of such a kind), <strong>ita</strong>/<strong>sīc</strong> (so, cum verbō). Exemplum: <em>Tanta erat turba ut vix incēderent.</em> ('The crowd was SO great THAT they could hardly move.')</p>"
       },
       {
         "heading": "b) Negatio: Ut Non (NON Ne!)",
-        "body": "<p>DIFFERENTER ā clausulā fīnālī (nē), negātiō clausulae cōnsecūtīvae est <strong>ut... nōn</strong>: <em>Tam fessus erat ut nōn labōrāret.</em> ('He was so tired that he did NOT work.') Haec distīnctiō (nē vs. ut nōn) est error frequentissimus inter clausulās fīnālēs et cōnsecūtīvās.</p>"
+        "body": "<p>DIFFERENTER ā clausulā fīnālī (nē), negātiō clausulae cōnsecūtīvae est <strong>ut... nōn</strong>: <em>Turba tam magna erat ut Iūlia Mārcum nōn audīret.</em> ('The crowd was so great that Iulia did NOT hear Marcus.') Haec distīnctiō (nē vs. ut nōn) est error frequentissimus inter clausulās fīnālēs et cōnsecūtīvās.</p>"
       },
       {
         "heading": "c) Distinctio ā Clausula Finali",
@@ -36,9 +36,9 @@
       }
     ],
     "examples": [
-      "Tam clara erat vox eius ut omnes audirent. — His voice was so loud that everyone heard.",
-      "Tanta erat multitudo ut viam invenire non possemus. — The crowd was so great that we could not find the way.",
-      "Ita fortiter pugnaverunt ut hostes fugerent. — They fought so bravely that the enemies fled.",
+      "Tanta est turba ut vix incedamus. — The crowd is so great that we can hardly move.",
+      "Lucius tam fortiter venit ut omnes ei viam dent. — Lucius comes so bravely that everyone makes way for him.",
+      "Tam fessus est ut vix loquatur. — He is so tired that he can hardly speak.",
       "Nemo est tam stultus ut hoc non intellegat. — No one is so foolish that he doesn't understand this.",
       "Tam bene scripsit ut omnes eum laudarent. — He wrote so well that everyone praised him."
     ],
@@ -57,11 +57,28 @@
   },
   "exercises": [
     {
-      "id": "v-consec2-mc", "type": "multiple-choice", "title": "Clausulae Consecutivae: Regulae",
-      "instructions": "Elige responsum rectum.",
+      "id": "v-consec2-story", "type": "reading-comprehension", "title": "Turba in Foro",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Iūlia et Mārcus ad forum eunt. Tanta est turba ut vix incēdere possint. &ldquo;Tam multī hominēs hīc sunt,&rdquo; dīcit Iūlia, &ldquo;ut nēminem videam quem nōvī.&rdquo;</p><p>Subitō Mārcus clāmat: &ldquo;Ecce Lūcius!&rdquo; Lūcius tam fortiter per turbam venit ut omnēs eī viam dent. Cum ad eōs pervēnit, tam fessus est ut vix loquī possit.</p><p>&ldquo;Tanta turba tam rāra est,&rdquo; dīcit Lūcius, ubi tandem loquī potest, &ldquo;ut crēdam aliquid magnum hodiē in forō fierī.&rdquo;</p>",
+      "items": [
+        { "id": "consec-story1", "prompt": "Cur Iulia et Marcus vix incedere possunt?", "options": ["turba tanta est", "via clausa est", "pluit"], "answerIndex": 0, "explanation": "'Tanta est turba ut vix incedere possint.'" },
+        { "id": "consec-story2", "prompt": "Quid Iuliae evenit propter multitudinem hominum?", "options": ["neminem notum videt", "omnes amicos videt", "sola est"], "answerIndex": 0, "explanation": "'Tam multi homines hic sunt ut neminem videam quem novi.'" },
+        { "id": "consec-story3", "prompt": "Quomodo Lucius per turbam venit?", "options": ["lente et cum difficultate", "tam fortiter ut omnes ei viam dent", "non venit"], "answerIndex": 1, "explanation": "'Lucius tam fortiter per turbam venit ut omnes ei viam dent.'" }
+      ]
+    },
+    {
+      "id": "v-consec2-tf", "type": "true-false", "title": "Verum an Falsum",
+      "instructions": "Secundum fabulam supra, dic utrum verum sit an falsum.",
+      "items": [
+        { "id": "consec-tf1", "statement": "Lucius tam fessus est postquam venit ut vix loqui possit.", "answer": true, "explanation": "'Tam fessus est ut vix loqui possit.'" },
+        { "id": "consec-tf2", "statement": "Turba parva et rara est hodie in foro.", "answer": false, "explanation": "Contrarium: turba tanta est ut Lucius credat aliquid magnum fieri." }
+      ]
+    },
+    {
+      "id": "v-consec2-mc", "type": "multiple-choice", "title": "Nunc Nomina: Clausulae Consecutivae", "instructions": "Elige responsum rectum.",
       "items": [
         { "id": "consec2-1", "prompt": "Negatio clausulae consecutivae est:", "options": ["nē", "ut nōn", "nōn ut"], "answerIndex": 1, "explanation": "'ut nōn' — distinctio ab clausula finali." },
-        { "id": "consec2-2", "prompt": "'Tam fessus erat ut dormiret' est clausula:", "options": ["finalis (propositum)", "consecutiva (resultatum)", "obiectiva"], "answerIndex": 1, "explanation": "Resultatum, annuntiatum ab 'tam'." },
+        { "id": "consec2-2", "prompt": "'Tanta est turba ut vix incedamus' est clausula:", "options": ["finalis (propositum)", "consecutiva (resultatum)", "obiectiva"], "answerIndex": 1, "explanation": "Resultatum, annuntiatum ab 'tanta'." },
         { "id": "consec2-3", "prompt": "Quod verbum signaculum introducit frequentissime clausulam consecutivam?", "options": ["ut solum", "tam/tantus/ita", "quod"], "answerIndex": 1, "explanation": "Verba intensiva annuntiant consecutivam." }
       ]
     },
@@ -69,13 +86,13 @@
       "id": "v-consec2-fill", "type": "fill-blank", "title": "Forma Clausulam Consecutivam",
       "instructions": "Elige formam rectam.",
       "items": [
-        { "id": "consec2-4", "prompt": "Tam clara erat vox eius ut omnes ___. (heard — audirent)", "options": ["audiant", "audirent", "audiverint"], "answers": ["audirent"], "explanation": "Historicum ('erat') + simultaneum: imperfectum." },
+        { "id": "consec2-4", "prompt": "Tanta erat turba ut vix ___. (they could move — incederent)", "options": ["incedant", "incederent", "incesserint"], "answers": ["incederent"], "explanation": "Historicum ('erat') + simultaneum: imperfectum." },
         { "id": "consec2-5", "prompt": "Nemo est tam stultus ___ hoc non intellegat. (that — ut)", "options": ["ut", "ne", "quod"], "answers": ["ut"], "explanation": "Clausula consecutiva: ut." }
       ]
     }
   ],
   "summary": [
-    "Clausula consecutiva: ut + coniunctivus, exprimens resultatum.",
+    "Clausula consecutiva: ut + coniunctivus, exprimens resultatum, non propositum.",
     "Verba signacula: tam, tantus, talis, ita, sic.",
     "Negatio: ut non (numquam ne) — distinctio principalis a clausula finali.",
     "Consecutio temporum identica clausulis finalibus."

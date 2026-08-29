@@ -6,29 +6,29 @@
   "skill": "grammatica",
   "strand": "clausulae",
   "title": "Interrogationes Obliquae",
-  "subtitle": "Nescio quis venerit — quaestiones intra oratione obliqua, semper cum coniunctivo.",
+  "subtitle": "Nescimus quid hodie fiat — quaestio intra sententiam, semper cum coniunctivo.",
   "prerequisites": ["v-clausulae-consecutivae"],
   "objectives": [
+    "Notare in contextu quomodo quaestio directa (indicativus) mutet formam intra sententiam maiorem (coniunctivus)",
     "Formare interrogationes obliquas post verba quaerendi/nesciendi/dubitandi",
     "Applicare consecutionem temporum in interrogatione obliqua",
-    "Uti particulis num/utrum...an pro interrogatione obliqua sine responso",
-    "Vertere interrogationem rectam in obliquam correcte"
+    "Uti particulis num/utrum...an pro interrogatione obliqua sine responso"
   ],
   "content": {
-    "intro": "'Quis vēnit?' (ōrātiō rēcta, indicātīvus) fit 'Nesciō quis vēnerit' (ōrātiō oblīqua, coniūnctīvus) — quaestiō incorporāta in sententiam maiōrem semper mūtat verbum ad coniūnctīvum.",
-    "explanation": "<p>Post verba quaerendī (rogō), nesciendī (nesciō), dubitandī (dubitō), et similia, quaestiō subōrdināta adhibet coniūnctīvum, gubernātum ā cōnsecūtiōne temporum iam nōtā.</p>",
+    "intro": "Iulia, Marcus, et Lucius nesciunt quid hodie in foro fiat — tanta turba est, sed cur? 'Quid fit?' esset quaestio directa, indicativus. Sed 'nescimus QUID FIAT' — eadem quaestio, incorporata in sententiam maiorem — mutat verbum ad coniunctivum. Hodie discimus cur.",
+    "explanation": "<p>Iūlia, Mārcus, et Lūcius nesciunt quid hodiē in forō fīat. &ldquo;Rogēmus illum senem,&rdquo; dīcit Iūlia, &ldquo;num sciat.&rdquo; Ad senem adeunt. Mārcus rogat: &ldquo;Scīsne, senex, cūr tanta turba hīc adsit?&rdquo; Senex respondet: &ldquo;Nesciō utrum lūdī an ōrātor magnus turbam vocāverit — sed audīvī aliquid magnum hodiē futūrum esse.&rdquo; Lūcius rogat num ipsī quoque manēre dēbeant. Iūlia dīcit: &ldquo;Nesciō quandō rēs incipiat, sed maneāmus et videāmus.&rdquo;</p><p>Notāvistīne: sī quis dīceret rem simpliciter, dīceret <em>&ldquo;Quid fit?&rdquo;</em> (indicātīvus, quaestiō dīrēcta et indepēndēns). Sed hīc omnēs quaestiōnēs sunt PARS sententiae maiōris — &ldquo;nesciunt quid hodiē <strong>fīat</strong>&rdquo;, &ldquo;rogat cūr turba <strong>adsit</strong>&rdquo; — et verbum mūtat semper ad coniūnctīvum. Haec vocātur <strong>interrogātiō oblīqua</strong> ('indirect question'): quaestiō incorporāta, gubernāta ā verbō quaerendī/nesciendī/dubitandī (nesciō, rogō, dubitō) prīncipālī.</p>",
     "rules": [
       {
         "heading": "a) Constructio: Verbum Interrogativum + Coniunctivus",
-        "body": "<p>Verbum interrogātīvum (quis, quid, cūr, ubi, quōmodo, quandō...) permanet, sed verbum sequēns fit coniūnctīvum: <em>Rogat quis vēnerit.</em> ('He asks who came.') <em>Nesciēbam ubi essēs.</em> ('I did not know where you were.')</p>"
+        "body": "<p>Verbum interrogātīvum (quis, quid, cūr, ubi, quōmodo, quandō...) permanet, sed verbum sequēns fit coniūnctīvum: <em>Rogat cūr turba adsit.</em> ('He asks why the crowd is here.') <em>Nesciēbam ubi essēs.</em> ('I did not know where you were.')</p>"
       },
       {
         "heading": "b) Interrogatio Sine Verbo Interrogativo: Num, -ne",
-        "body": "<p>Prō quaestiōnibus sī/nōn oblīquīs, adhibētur <strong>num</strong> (neutrāle hīc, differenter ab ūsū rēctō): <em>Rogāvit num venīrem.</em> ('He asked whether I was coming.')</p>"
+        "body": "<p>Prō quaestiōnibus sī/nōn oblīquīs, adhibētur <strong>num</strong> (neutrāle hīc, differenter ab ūsū rēctō): <em>Rogāvit num sciam.</em> ('He asked whether I knew.')</p>"
       },
       {
         "heading": "c) Interrogatio Alternativa: Utrum...An",
-        "body": "<p><strong>utrum...an</strong> (whether...or): <em>Nesciō utrum manēat an discēdat.</em> ('I don't know whether he is staying or leaving.')</p>"
+        "body": "<p><strong>utrum...an</strong> (whether...or): <em>Nesciō utrum lūdī an ōrātor turbam vocāverit.</em> ('I don't know whether the games or the orator called the crowd.')</p>"
       },
       {
         "heading": "d) Consecutio Temporum",
@@ -36,10 +36,10 @@
       }
     ],
     "examples": [
-      "Nescio quid facias. — I do not know what you are doing.",
-      "Rogavit cur abessem. — He asked why I was absent.",
-      "Dubito num verum dicat. — I doubt whether he is telling the truth.",
-      "Quaesivit utrum pax an bellum melius esset. — He asked whether peace or war was better.",
+      "Nescio quid hodie fiat. — I do not know what is happening today.",
+      "Rogat cur turba adsit. — He asks why the crowd is here.",
+      "Dubito num verum dicat senex. — I doubt whether the old man is telling the truth.",
+      "Nesciebat utrum ludi an orator turbam vocavisset. — He did not know whether the games or the orator had called the crowd.",
       "Scisne quota hora sit? — Do you know what time it is?"
     ],
     "commonMistakes": [
@@ -57,10 +57,35 @@
   },
   "exercises": [
     {
-      "id": "v-int2-mc", "type": "multiple-choice", "title": "Interrogationes Obliquae: Regulae",
-      "instructions": "Elige responsum rectum.",
+      "id": "v-int2-story", "type": "reading-comprehension", "title": "Quid Fit in Foro?",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Iūlia, Mārcus, et Lūcius nesciunt quid hodiē in forō fīat. &ldquo;Rogēmus illum senem,&rdquo; dīcit Iūlia, &ldquo;num sciat.&rdquo;</p><p>Mārcus senem rogat: &ldquo;Scīsne, senex, cūr tanta turba hīc adsit?&rdquo; Senex respondet: &ldquo;Nesciō utrum lūdī an ōrātor magnus turbam vocāverit — sed audīvī aliquid magnum hodiē futūrum esse.&rdquo;</p><p>Lūcius rogat num ipsī quoque manēre dēbeant. Iūlia dīcit: &ldquo;Nesciō quandō rēs incipiat, sed maneāmus et videāmus.&rdquo;</p>",
       "items": [
-        { "id": "int2-1", "prompt": "'Nescio quid facias' — 'facias' est:", "options": ["indicativus", "coniunctivus"], "answerIndex": 1, "explanation": "Interrogatio obliqua semper coniunctivus." },
+        { "id": "int-story1", "prompt": "Quid amici nesciunt?", "options": ["quid hodie in foro fiat", "ubi habitent", "quota hora sit"], "answerIndex": 0, "explanation": "'Nesciunt quid hodie in foro fiat.'" },
+        { "id": "int-story2", "prompt": "Quid senex de causa turbae dicit?", "options": ["certo scit causam", "nescit utrum ludi an orator eam vocaverit", "negat ullam turbam esse"], "answerIndex": 1, "explanation": "'Nescio utrum ludi an orator magnus turbam vocaverit.'" },
+        { "id": "int-story3", "prompt": "Quid Iulia in fine suadet?", "options": ["statim domum ire", "manere et videre", "senem iterum rogare"], "answerIndex": 1, "explanation": "'Maneāmus et videāmus.'" }
+      ]
+    },
+    {
+      "id": "v-int2-match", "type": "matching", "title": "Recta an Obliqua?",
+      "instructions": "Cuique quaestioni iunge suam formam — recta (independens) an obliqua (pars sententiae maioris)?",
+      "items": [
+        {
+          "id": "int-match1",
+          "pairs": [
+            { "left": "Quid fit?", "right": "quaestio directa, indicativus, independens" },
+            { "left": "Nesciunt quid fiat.", "right": "quaestio obliqua, pars sententiae 'nesciunt', coniunctivus" },
+            { "left": "Cur turba adest?", "right": "quaestio directa, indicativus, independens" },
+            { "left": "Rogat cur turba adsit.", "right": "quaestio obliqua, pars sententiae 'rogat', coniunctivus" }
+          ],
+          "explanation": "Eadem quaestio (quid fit / cur adest) manet indicativa quando sola stat, sed fit coniunctiva quando pars alterius sententiae ('nesciunt', 'rogat') fit."
+        }
+      ]
+    },
+    {
+      "id": "v-int2-mc", "type": "multiple-choice", "title": "Nunc Nomina: Interrogationes Obliquae", "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "int2-1", "prompt": "'Nesciunt quid hodiē fīat' — 'fīat' est:", "options": ["indicativus", "coniunctivus"], "answerIndex": 1, "explanation": "Interrogatio obliqua semper coniunctivus." },
         { "id": "int2-2", "prompt": "Particula pro interrogatione obliqua sine verbo interrogativo (sī/nōn) est:", "options": ["-ne", "num", "nōnne"], "answerIndex": 1, "explanation": "num, neutraliter, in oratione obliqua." },
         { "id": "int2-3", "prompt": "'Utrum...an' significat:", "options": ["and...and", "whether...or", "if...then"], "answerIndex": 1, "explanation": "Interrogatio alternativa obliqua." }
       ]
@@ -69,15 +94,15 @@
       "id": "v-int2-fill", "type": "fill-blank", "title": "Forma Interrogationem Obliquam",
       "instructions": "Elige formam rectam.",
       "items": [
-        { "id": "int2-4", "prompt": "Rogavit cur ego ___. (was absent — abessem)", "options": ["absum", "aberam", "abessem"], "answers": ["abessem"], "explanation": "Historicum + simultaneum: imperfectum coniunctivi." },
-        { "id": "int2-5", "prompt": "Nescio quis hoc ___. (did — fecerit)", "options": ["facit", "fecit", "fecerit"], "answers": ["fecerit"], "explanation": "Primarium + anterius: coniunctivus perfectus." }
+        { "id": "int2-4", "prompt": "Rogāvit cūr turba ___. (was present — adesset)", "options": ["adest", "aderat", "adesset"], "answers": ["adesset"], "explanation": "Historicum + simultaneum: imperfectum coniunctivi." },
+        { "id": "int2-5", "prompt": "Nesciō utrum lūdī turbam ___. (had called — vocaverint)", "options": ["vocant", "vocaverunt", "vocaverint"], "answers": ["vocaverint"], "explanation": "Primarium + anterius: coniunctivus perfectus." }
       ]
     }
   ],
   "summary": [
-    "Interrogatio obliqua: verbum interrogativum + coniunctivus, gubernatum a consecutione temporum.",
+    "Interrogatio obliqua: eadem quaestio incorporata in sententiam maiorem (post nesciō, rogō, dubitō...), verbum fit coniunctivus.",
     "Sine verbo interrogativo: num (neutraliter). Alternativa: utrum...an.",
-    "Verbum permanet SEMPER coniunctivus in interrogatione obliqua."
+    "Verbum permanet SEMPER coniunctivus in interrogatione obliqua, gubernatum a consecutione temporum."
   ],
   "related": [
     { "lessonId": "v-clausulae-consecutivae", "label": "Clausulae Consecutivae" },
