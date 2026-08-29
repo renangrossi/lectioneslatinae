@@ -15,8 +15,8 @@
     "Omittere pronomen possessivum ubi contextus iam clarus est, sicut Latina praefert"
   ],
   "content": {
-    "intro": "Pronōmina possessīva dēclīnantur sīcut adiectīva ordinaria (bonus, -a, -um) — sed ūnum inter ea, <strong>suus</strong>, portat distīnctiōnem quam Anglica nōn habet.",
-    "explanation": "<p>meus, -a, -um (my), tuus, -a, -um (your, sg.), suus, -a, -um (his/her/its/their OWN — reflexīvum), noster, nostra, nostrum (our), vester, vestra, vestrum (your, pl.).</p>",
+    "intro": "Marcus suum librum legit — liber est ipsius Marci. Iulia librum eius (Marci) quoque videt: 'Ubi est liber tuus, Claudia?' Claudia suum librum domi reliquit. 'Suus' (proprium) et 'eius' (alterius) — differentia quam Anglica non habet.",
+    "explanation": "<p>Mārcus suum librum legit — liber est ipsīus Mārcī. Iūlia librum eius (id est, librum Mārcī) quoque videt, et Claudiam rogat: &ldquo;Ubi est liber tuus, Claudia?&rdquo; Claudia respondet trīstis: &ldquo;Suum librum domī relīquī — sed vester liber, vōs duo, satis magnus est prō omnibus tribus.&rdquo;</p><p>Notāvistīne: <em>suum librum</em> (Mārcus dē librō suō ipsīus loquitur), <em>librum eius</em> (Iūlia dē librō Mārcī loquitur, aliēnō ā sē), <em>suum librum</em> iterum (Claudia dē librō suō ipsīus)? <strong>Suus</strong> semper refert ad subiectum ipsīus clausulae ('his/her OWN'); <strong>eius</strong> refert ad aliam persōnam.</p>",
     "rules": [
       {
         "heading": "a) Declinatio Regularis",
@@ -57,6 +57,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "ii-poss-story", "type": "reading-comprehension", "title": "Suum Librum Reliqui",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Mārcus suum librum legit — liber est ipsīus Mārcī. Iūlia librum eius quoque videt, et Claudiam rogat: &ldquo;Ubi est liber tuus, Claudia?&rdquo; Claudia respondet trīstis: &ldquo;Suum librum domī relīquī.&rdquo; &ldquo;Nōlī trīstis esse,&rdquo; dīcit Iūlia, &ldquo;noster liber satis magnus est prō omnibus tribus.&rdquo;</p>",
+      "items": [
+        { "id": "poss-story1", "prompt": "Cuius librum Marcus legit?", "options": ["suum proprium", "librum Iuliae", "librum Claudiae"], "answerIndex": 0, "explanation": "'Marcus suum librum legit' — liber ipsius Marci." },
+        { "id": "poss-story2", "prompt": "Ubi Claudia suum librum reliquit?", "options": ["domi", "in horto", "apud Marcum"], "answerIndex": 0, "explanation": "'Suum librum domi reliqui.'" },
+        { "id": "poss-story3", "prompt": "Quid Iulia Claudiae offert?", "options": ["librum nostrum, satis magnum pro omnibus", "nihil offert", "suum librum proprium tantum"], "answerIndex": 0, "explanation": "'Noster liber satis magnus est pro omnibus tribus.'" }
+      ]
+    },
     {
       "id": "ii-poss-mc", "type": "multiple-choice", "title": "Suus vs. Eius",
       "instructions": "Elige responsum rectum.",

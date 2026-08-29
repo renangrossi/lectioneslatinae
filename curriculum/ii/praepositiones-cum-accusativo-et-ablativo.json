@@ -15,8 +15,8 @@
     "Sententias cum praepositionibus frequentibus formare"
   ],
   "content": {
-    "intro": "Praepositiōnēs Latīnae postulant cāsum fīxum — aut accūsātīvum, aut ablātīvum, numquam utrumque līberē (exceptīs paucīs, ut 'in', ubi cāsus ipse significātiōnem mūtat).",
-    "explanation": "<p>Rēgula generālis: praepositiōnēs indicantēs <strong>mōtum versus</strong> aliquid postulant accūsātīvum; praepositiōnēs indicantēs <strong>locum ubi</strong> (sine mōtū), <strong>medium</strong>, vel <strong>sēparātiōnem</strong> postulant ablātīvum.</p>",
+    "intro": "Iulia in hortum it: in hortum, quia movetur. Iam in horto est: in horto, quia manet, non movetur. Cum Marco ambulat per viam ad templum. 'In' idem verbum, sed casus mutat secundum motum an quietem.",
+    "explanation": "<p>Iūlia in hortum it. In hortum, quia movētur. Iam in hortō est: in hortō, quia manet, nōn movētur. Mārcus cum Iūliā ambulat, per viam longam, ad templum antīquum. Sine timōre eunt, quamvīs via longa sit.</p><p>Notāvistīne: <em>in hortum</em> (accūsātīvus, mōtus) vs. <em>in hortō</em> (ablātīvus, quiēs)? Praepositiōnēs Latīnae postulant cāsum fīxum — aut accūsātīvum, aut ablātīvum. Rēgula generālis: praepositiōnēs indicantēs <strong>mōtum versus</strong> aliquid postulant accūsātīvum; praepositiōnēs indicantēs <strong>locum ubi</strong> (sine mōtū) postulant ablātīvum. 'In' est ūnica praepositiō commūnis quae ambō cāsūs accipit, cum sēnsū distīnctō.</p>",
     "rules": [
       {
         "heading": "a) Cum Accusativo (motus, tempus, spatium)",
@@ -58,6 +58,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "ii-prep-story", "type": "reading-comprehension", "title": "In Hortum, In Horto",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Iūlia in hortum it. In hortum, quia movētur. Iam in hortō est: in hortō, quia manet, nōn movētur. Mārcus cum Iūliā ambulat, per viam longam, ad templum antīquum. Sine timōre eunt, quamvīs via longa sit.</p>",
+      "items": [
+        { "id": "prep-story1", "prompt": "Movetne Iulia cum dicitur 'in hortum it'?", "options": ["ita, movetur", "non, manet", "nescimus"], "answerIndex": 0, "explanation": "'In hortum' + accusativus = motus." },
+        { "id": "prep-story2", "prompt": "Quid Iulia facit cum iam 'in horto est'?", "options": ["manet, non movetur", "adhuc movetur", "discedit"], "answerIndex": 0, "explanation": "'In horto' + ablativus = quies." },
+        { "id": "prep-story3", "prompt": "Quo Marcus et Iulia ambulant?", "options": ["ad templum", "ad forum", "domum tantum"], "answerIndex": 0, "explanation": "'Ambulant... ad templum antiquum.'" }
+      ]
+    },
     {
       "id": "ii-prep-fill", "type": "fill-blank", "title": "Elige Praepositionem",
       "instructions": "Elige praepositionem et casum rectos.",

@@ -15,8 +15,8 @@
     "Vocabularium neutrum frequens (bellum, verbum, templum, donum, oppidum, periculum) uti"
   ],
   "content": {
-    "intro": "Genus neutrum (neither — nec masculinum nec femininum) sequitur regulam ita simplicem et ita universalem, ut applicetur non solum hic sed in omni declinatione Latina quam discēs.",
-    "explanation": "<p>Nōmina neutra secundae dēclīnātiōnis dēsinunt in -um nōminātīvō: <em>bellum</em> (war), <em>verbum</em> (word), <em>templum</em> (temple).</p>",
+    "intro": "'Ecce templum,' dicit Marcus, digito monstrans. 'Consilium habeo: eamus illuc!' Iulia dona pueris in templo dari videt. 'Verba sacerdotis audiamus,' dicit. Templum, consilium, donum, verbum — omnia neutra, omnia in -um.",
+    "explanation": "<p>&ldquo;Ecce templum,&rdquo; dīcit Mārcus, digitō mōnstrāns. &ldquo;Cōnsilium habeō: eāmus illūc!&rdquo; Iūlia dōna puerīs in templō darī videt. &ldquo;Verba sacerdōtis audiāmus,&rdquo; dīcit. Perīculum nūllum est: oppidum tranquillum hodiē.</p><p>Notāvistīne: <em>templum, cōnsilium, dōna, verba, perīculum, oppidum</em> — omnia dēsinunt -um (singulāris) vel -a (plūrālis)? Nōmina neutra secundae dēclīnātiōnis dēsinunt in -um nōminātīvō. Notā etiam: <em>dōna</em> et <em>verba</em> (nōminātīvus/accūsātīvus plūrālis, ambō -a) — sīve subiectum sīve obiectum sint, fōrma nōn mūtat.</p>",
     "rules": [
       {
         "heading": "a) Paradigma: bellum, bellī (n.) 'war'",
@@ -53,6 +53,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "ii-decl3-story", "type": "reading-comprehension", "title": "Ecce Templum",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Ecce templum,&rdquo; dīcit Mārcus, digitō mōnstrāns. &ldquo;Cōnsilium habeō: eāmus illūc!&rdquo; Iūlia dōna puerīs in templō darī videt. &ldquo;Verba sacerdōtis audiāmus,&rdquo; dīcit. Perīculum nūllum est: oppidum tranquillum hodiē.</p>",
+      "items": [
+        { "id": "decl3-story1", "prompt": "Quid Marcus digito monstrat?", "options": ["templum", "oppidum", "periculum"], "answerIndex": 0, "explanation": "'Ecce templum,' dicit Marcus." },
+        { "id": "decl3-story2", "prompt": "Quid Iulia in templo videt?", "options": ["dona pueris data", "nihil", "periculum magnum"], "answerIndex": 0, "explanation": "'Iulia dona pueris in templo dari videt.'" },
+        { "id": "decl3-story3", "prompt": "Estne periculum in oppido hodie?", "options": ["nullum — oppidum tranquillum est", "magnum periculum est", "nescimus"], "answerIndex": 0, "explanation": "'Periculum nullum est: oppidum tranquillum hodie.'" }
+      ]
+    },
     {
       "id": "ii-decl3-fill", "type": "fill-blank", "title": "Comple cum Casu Recto",
       "instructions": "Elige formam rectam verbi 'bellum, -i' pro quoque spatio.",

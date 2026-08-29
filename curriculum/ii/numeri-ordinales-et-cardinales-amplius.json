@@ -15,8 +15,8 @@
     "Continuare numeros ordinales usque ad vicesimum"
   ],
   "content": {
-    "intro": "Congratulātiōnēs — hoc est ultima lēctiō Gradūs II! Complēmus numerōs, deinde in Gradū III ad dēclīnātiōnem tertiam prōgrediēmur.",
-    "explanation": "<p>Post vīgintī, decades sequuntur patrōnum regulārem (-gintā), et omnēs sunt indēclīnābilēs (sīcut 4-100 iam vīdistī in Gradū I) — praeter <em>mīlle</em>, quī speciālis est.</p>",
+    "intro": "'Quot rosae in horto sunt?' rogat Marcus. 'Centum,' respondet Iulia. 'Pater meus mille milites in triumpho vidit — non, duo milia militum!' Centum, mille, milia — congratulationes, ultima lectio Gradus II!",
+    "explanation": "<p>&ldquo;Quot rosae in hortō sunt, Iūlia?&rdquo; rogat Mārcus. &ldquo;Centum,&rdquo; respondet Iūlia, &ldquo;omnēs ā mē numerātae.&rdquo; &ldquo;Centum sōlum? Pater meus mīlle mīlitēs in triumphō vīdit — nōn, errō: duo mīlia mīlitum!&rdquo;</p><p>Notāvistīne: <em>mīlle mīlitēs</em> (singulāre, indēclīnābile, ut adiectīvum) vs. <em>duo mīlia mīlitum</em> (plūrāle substantīvum + genetīvum)? Post vīgintī, decades sequuntur patrōnum regulārem (-gintā), omnēs indēclīnābilēs — praeter <em>mīlle</em>, quī speciālis est. Congrātulātiōnēs — hoc est ultima lēctiō Gradūs II!</p>",
     "rules": [
       {
         "heading": "a) Decades: 20-100",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "ii-num2-story", "type": "reading-comprehension", "title": "Duo Milia Militum",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Quot rosae in hortō sunt, Iūlia?&rdquo; rogat Mārcus. &ldquo;Centum,&rdquo; respondet Iūlia, &ldquo;omnēs ā mē numerātae.&rdquo; &ldquo;Centum sōlum? Pater meus mīlle mīlitēs in triumphō vīdit — nōn, errō: duo mīlia mīlitum!&rdquo; Iūlia rīdet: &ldquo;Centum rosae satis sunt mihi; nōlō mīlia rosārum!&rdquo;</p>",
+      "items": [
+        { "id": "num2-story1", "prompt": "Quot rosas Iulia in horto habet?", "options": ["centum", "mille", "duo milia"], "answerIndex": 0, "explanation": "'Centum,' respondet Iulia." },
+        { "id": "num2-story2", "prompt": "Quot milites pater Marci in triumpho vidit?", "options": ["mille", "duo milia", "centum"], "answerIndex": 1, "explanation": "'Duo milia militum!'" },
+        { "id": "num2-story3", "prompt": "Vultne Iulia milia rosarum habere?", "options": ["non — centum satis sunt", "ita, vult milia", "iam mille habet"], "answerIndex": 0, "explanation": "'Centum rosae satis sunt mihi; nolo milia rosarum!'" }
+      ]
+    },
     {
       "id": "ii-num2-mc", "type": "multiple-choice", "title": "Numeri Amplius",
       "instructions": "Elige responsum rectum.",

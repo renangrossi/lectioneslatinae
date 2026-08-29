@@ -15,8 +15,8 @@
     "Formare quaestiones completas in Latina"
   ],
   "content": {
-    "intro": "Iam vīdistī -ne suffīxum prō quaestiōnibus sī/nōn. Hodiē discēs pronomen interrogātīvum et vocābula quaestiōnum specifica ('who, what, why, where...').",
-    "explanation": "<p>Latīna, sīcut Anglica, distinguit quaestiōnēs 'sī/nōn' (yes/no questions) ā quaestiōnibus cum verbō interrogātīvō (WH-questions).</p>",
+    "intro": "'Quis venit?' rogat Iulia. 'Ego,' dicit Marcus, ridens. 'Cur tam laetus es?' 'Habeone causam dicere?' 'Nonne mihi omnia narras semper?' 'Num putas me tacere posse?' Quis, cur, nonne, num — verba et particulae interrogativa.",
+    "explanation": "<p>&ldquo;Quis venit?&rdquo; rogat Iūlia. &ldquo;Ego,&rdquo; dīcit Mārcus, rīdēns. &ldquo;Cūr tam laetus es?&rdquo; &ldquo;Dōnum tibi habeō!&rdquo; &ldquo;Nōnne mihi hoc iam dīxistī herī?&rdquo; rogat Iūlia (exspectāns 'ita'). &ldquo;Num putās mē herī mentītum esse?&rdquo; respondet Mārcus (exspectāns 'minimē').</p><p>Notāvistīne: <em>quis</em> (pronōmen substantīvum), <em>cūr</em> (adverbium), <em>nōnne</em> (exspectāns respōnsum affirmātīvum), <em>num</em> (exspectāns respōnsum negātīvum)? Latīna, sīcut Anglica, distinguit quaestiōnēs 'sī/nōn' ā quaestiōnibus cum verbō interrogātīvō (WH-questions).</p>",
     "rules": [
       {
         "heading": "a) Quis, Quid: Pronomen Interrogativum",
@@ -53,6 +53,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "ii-int-story", "type": "reading-comprehension", "title": "Donum Tibi Habeo!",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Quis venit?&rdquo; rogat Iūlia. &ldquo;Ego,&rdquo; dīcit Mārcus, rīdēns. &ldquo;Cūr tam laetus es?&rdquo; &ldquo;Dōnum tibi habeō!&rdquo; &ldquo;Nōnne mihi hoc iam dīxistī herī?&rdquo; rogat Iūlia. &ldquo;Num putās mē herī mentītum esse?&rdquo; respondet Mārcus. &ldquo;Minimē — sed ubi est dōnum?&rdquo; &ldquo;Domī,&rdquo; dīcit Mārcus. &ldquo;Crās id feram.&rdquo;</p>",
+      "items": [
+        { "id": "int-story1", "prompt": "Quis venit?", "options": ["Marcus", "Claudia", "nemo"], "answerIndex": 0, "explanation": "'Ego,' dicit Marcus." },
+        { "id": "int-story2", "prompt": "Cur Marcus tam laetus est?", "options": ["donum Iuliae habet", "hodie natus est", "sine ratione"], "answerIndex": 0, "explanation": "'Donum tibi habeo!'" },
+        { "id": "int-story3", "prompt": "Ubi est donum nunc?", "options": ["domi", "iam apud Iuliam", "in horto"], "answerIndex": 0, "explanation": "'Domi,' dicit Marcus. 'Cras id feram.'" }
+      ]
+    },
     {
       "id": "ii-int-mc", "type": "multiple-choice", "title": "Interrogativa: Regulae",
       "instructions": "Elige responsum rectum.",

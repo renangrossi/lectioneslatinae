@@ -15,8 +15,8 @@
     "Recognoscere ablativum comparationis sine 'quam'"
   ],
   "content": {
-    "intro": "Ablātīvus est cāsus māximē versātilis Latīnae: ūnīca fōrma servit multīs officiīs, ā īnstrūmentō ad tempus ad comparātiōnem.",
-    "explanation": "<p>Nōmen 'ablātīvus' venit ā 'auferre' ('to carry away') — sed cāsus hodiē cumulat trēs cāsūs Indō-Eurōpaeōs antīquōs (ablātīvum, īnstrūmentālem, locātīvum), ergō tot officia dīversa habet.</p>",
+    "intro": "'Manu rosam tango,' dicit Iulia, 'magna cum cura, ne spinae me vulnerent.' Aestate omnes rosae florent; nocte Iulia eas non videt, quia domi dormit. Marcus altior Iulia est. Manu, cura, aestate, nocte, Iulia — unus casus, multa officia: ablativus.",
+    "explanation": "<p>&ldquo;Manū rosam tangō,&rdquo; dīcit Iūlia, &ldquo;magnā cum cūrā, nē spīnae mē vulnerent.&rdquo; Aestāte omnēs rosae flōrent; nocte Iūlia eās nōn videt, quia domī dormit. Mārcus altior Iūliā est, sed Iūlia dīligentior Mārcō.</p><p>Notāvistīne: <em>manū</em> (īnstrūmentum, sine praepositiōne), <em>magnā cum cūrā</em> (modus), <em>aestāte, nocte</em> (tempus, sine praepositiōne), <em>altior Iūliā</em> (comparātiō, sine 'quam')? Ablātīvus est cāsus māximē versātilis Latīnae: ūnīca fōrma servit multīs officiīs, ā īnstrūmentō ad tempus ad comparātiōnem — nōmen venit ā 'auferre' ('to carry away'), sed cumulat trēs cāsūs antīquōs.</p>",
     "rules": [
       {
         "heading": "a) Ablativus Instrumenti/Medii (sine praepositione)",
@@ -60,6 +60,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "ii-abl-story", "type": "reading-comprehension", "title": "Manu Rosam Tango",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Manū rosam tangō,&rdquo; dīcit Iūlia, &ldquo;magnā cum cūrā, nē spīnae mē vulnerent.&rdquo; Aestāte omnēs rosae flōrent; nocte Iūlia eās nōn videt, quia domī dormit. Mārcus altior Iūliā est, sed Iūlia dīligentior Mārcō — semper magnā cum cūrā labōrat.</p>",
+      "items": [
+        { "id": "abl-story1", "prompt": "Quo Iulia rosam tangit?", "options": ["manu", "gladio", "libro"], "answerIndex": 0, "explanation": "'Manu rosam tango.'" },
+        { "id": "abl-story2", "prompt": "Quando omnes rosae florent?", "options": ["aestate", "hieme", "numquam"], "answerIndex": 0, "explanation": "'Aestate omnes rosae florent.'" },
+        { "id": "abl-story3", "prompt": "Quis altior est, Marcus an Iulia?", "options": ["Marcus", "Iulia", "aeque alti sunt"], "answerIndex": 0, "explanation": "'Marcus altior Iulia est.'" }
+      ]
+    },
     {
       "id": "ii-abl-mc", "type": "multiple-choice", "title": "Usus Ablativi",
       "instructions": "Elige responsum rectum.",

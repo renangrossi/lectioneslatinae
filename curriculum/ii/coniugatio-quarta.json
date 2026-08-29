@@ -15,8 +15,8 @@
     "Recognoscere omnes quattuor coniugationes simul, per infinitivum solum"
   ],
   "content": {
-    "intro": "Quārta et ultima coniugātiō regulāris: verba in <strong>-īre</strong>. Post hanc lēctiōnem, poteris quamvis verbum novum identificāre per sōlum īnfīnītīvum eius.",
-    "explanation": "<p>Īnfīnītīvus quārtae coniugātiōnis dēsinit in <strong>-īre</strong>, ī longō. Simillima est tertiae mixtae (capiō, capere) in multīs fōrmīs, sed distinguitur per īnfīnītīvum: <em>audīre</em> (ī longum, quārta) vs. <em>capere</em> (e breve, tertia mixta).</p>",
+    "intro": "'Veni!' dicit Iulia. Marcus eam audit et venit; in horto sub arbore dormit. Iulia ridet: 'Semper dormis, Marce!' 'Non semper,' respondet ille — 'sed hodie fessus sum.' Audio, venio, dormio: quarta coniugatio, verba in -ire.",
+    "explanation": "<p>&ldquo;Venī!&rdquo; dīcit Iūlia. Mārcus eam audit et venit; in hortō sub arbore dormit. Iūlia rīdet: &ldquo;Semper dormīs, Mārce!&rdquo; &ldquo;Nōn semper,&rdquo; respondet ille, &ldquo;sed hodiē fessus sum.&rdquo;</p><p>Notāvistīne: <em>audit, venit, dormit</em> — omnia dēsinunt in -it, sed īnfīnītīvus eōrum est -īre (audīre, venīre, dormīre), ī longō? Quārta et ultima coniugātiō regulāris: verba in <strong>-īre</strong>. Simillima est tertiae mixtae (capiō, capere), sed distinguitur per īnfīnītīvum longum.</p>",
     "rules": [
       {
         "heading": "a) Paradigma: audiō, audīre 'to hear'",
@@ -53,6 +53,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "ii-con4-story", "type": "reading-comprehension", "title": "Semper Dormis, Marce!",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Venī!&rdquo; dīcit Iūlia. Mārcus eam audit et venit; in hortō sub arbore dormit. Iūlia rīdet: &ldquo;Semper dormīs, Mārce!&rdquo; &ldquo;Nōn semper,&rdquo; respondet ille, &ldquo;sed hodiē fessus sum.&rdquo; Iūlia adnuit: &ldquo;Bene dormī, amīce — ego rosās meās aperiō ad sōlem.&rdquo;</p>",
+      "items": [
+        { "id": "con4-story1", "prompt": "Quid Marcus facit cum Iuliam audit?", "options": ["venit", "fugit", "dormit statim sine motu"], "answerIndex": 0, "explanation": "'Marcus eam audit et venit.'" },
+        { "id": "con4-story2", "prompt": "Ubi Marcus dormit?", "options": ["in horto sub arbore", "domi in lecto", "in via"], "answerIndex": 0, "explanation": "'In horto sub arbore dormit.'" },
+        { "id": "con4-story3", "prompt": "Cur Marcus hodie dormit?", "options": ["quia fessus est", "quia semper dormit sine causa", "Iulia non dicit causam"], "answerIndex": 0, "explanation": "'Hodie fessus sum.'" }
+      ]
+    },
     {
       "id": "ii-con4-fill", "type": "fill-blank", "title": "Coniuga Audio",
       "instructions": "Comple cum forma recta verbi 'venio, venire'.",
