@@ -15,8 +15,8 @@
     "Distinguere gerundium (substantivum) a participio praesenti (adiectivum)"
   ],
   "content": {
-    "intro": "Anglicē, 'reading' potest esse et participium ('the reading girl') et gerundium ('reading is fun', ut substantivum). Latīna dīvidit haec duo conceptūs in duās fōrmās sēparātās: participium (iam nōtum) et gerundium (hodiē).",
-    "explanation": "<p>Gerundium est NŌMEN VERBĀLE, semper neutrum, secundae dēclīnātiōnis, SINGULĀRE tantum — sed CARET nōminātīvō (īnfīnītīvus ipse fungitur ut subiectum: <em>Legere est ūtile</em>, 'Reading is useful').</p>",
+    "intro": "'Legendo et scribendo sapientiam quaerimus,' dicit Lucius Marco. 'Ad discendum semper parati simus.' 'Legendo' (ablativus), 'discendum' (accusativus post ad) — verbum factum nomen, sine nominativo. Hodie discis gerundium.",
+    "explanation": "<p>&ldquo;Legendō et scrībendō sapientiam quaerimus,&rdquo; dīcit Lūcius Mārcō, cum domī tandem sedet. &ldquo;Ad discendum semper parātī sīmus — bellum multa mē docuit dē vītā.&rdquo;</p><p>Notāvistīne: <em>legendō</em> (ablātīvus, 'by reading'), <em>discendum</em> (accūsātīvus post 'ad', 'for learning')? Anglicē, 'reading' potest esse et participium ('the reading girl') et gerundium ('reading is fun', ut substantīvum). Latīna dīvidit haec duo conceptūs in duās fōrmās sēparātās: participium (iam nōtum) et gerundium (hodiē) — nōmen verbāle, semper neutrum, sine nōminātīvō (īnfīnītīvus ipse supplet: <em>Legere est ūtile</em>).</p>",
     "rules": [
       {
         "heading": "a) Formatio et Declinatio",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "v-ger-story", "type": "reading-comprehension", "title": "Legendo et Scribendo",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Legendō et scrībendō sapientiam quaerimus,&rdquo; dīcit Lūcius Mārcō, cum domī tandem sedet. &ldquo;Ad discendum semper parātī sīmus — bellum multa mē docuit dē vītā. Tempus est agendī, nōn tantum cōgitandī.&rdquo; Mārcus adnuit: &ldquo;Discendī causā, ego quoque librōs novōs quaeram.&rdquo;</p>",
+      "items": [
+        { "id": "ger-story1", "prompt": "Quomodo, secundum Lucium, sapientiam quaerimus?", "options": ["legendo et scribendo", "dormiendo tantum", "nullo modo"], "answerIndex": 0, "explanation": "'Legendo et scribendo sapientiam quaerimus.'" },
+        { "id": "ger-story2", "prompt": "Quid Lucius dicit esse tempus?", "options": ["agendi, non tantum cogitandi", "dormiendi", "nihil faciendi"], "answerIndex": 0, "explanation": "'Tempus est agendi, non tantum cogitandi.'" },
+        { "id": "ger-story3", "prompt": "Quid Marcus facturus est, discendi causa?", "options": ["libros novos quaeret", "domi manebit sine libris", "Lucium relinquet"], "answerIndex": 0, "explanation": "'Discendi causa, ego quoque libros novos quaeram.'" }
+      ]
+    },
     {
       "id": "v-ger-mc", "type": "multiple-choice", "title": "Gerundium: Regulae",
       "instructions": "Elige responsum rectum.",

@@ -15,8 +15,8 @@
     "Consolidare scientiam plenam participiorum, gerundii, gerundivi, et supini"
   ],
   "content": {
-    "intro": "Congratulationes — ultima lectio Gradus V! Prosa Latina authentica (Caesar, Cicero, Livius) est saturata constructionibus participialibus, praesertim ablativo absoluto — hodie consolidamus omnia elementa nominalia verbi in unum systema practicum.",
-    "explanation": "<p>Auctores Latini praeferunt participia et ablativum absolutum super clausulās subōrdinātās plēnās (cum verbō fīnītō), quia sunt magis compactī et ēleganter varii.</p>",
+    "intro": "'His rebus cognitis — Lucio e bello reverso, pace facta — tota familia laeta convenit,' narrat Claudia, totam fabulam Gradus V recolligens. Congratulationes — ultima lectio! Hodie consolidamus omnia elementa participialia in unum systema.",
+    "explanation": "<p>&ldquo;Hīs rēbus cognitīs — Lūciō ē bellō reversō, pāce factā, omnibus tandem domī congregātīs — tōta familia laeta convēnit,&rdquo; nārrat Claudia. &ldquo;Fābulīs nārrātīs vespere, spē bonā ductī, omnēs bene dormīvērunt.&rdquo;</p><p>Notāvistīne quot ablātīvī absolūtī cumulantur in ūnā sententiā — <em>Lūciō reversō, pāce factā, omnibus congregātīs, fābulīs nārrātīs, spē ductī</em>? Auctōrēs Latīnī (Caesar praesertim) praeferunt participia et ablātīvum absolūtum super clausulās subōrdinātās plēnās, quia sunt magis compactī et ēleganter variī. Hodiē cōnsolidāmus omnia elementa nōminālia verbī (participia, gerundium, gerundīvum, supīnum) in ūnum systēma.</p>",
     "rules": [
       {
         "heading": "a) Strategia Translationis: Quattuor Passus",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "v-ablabs2-story", "type": "reading-comprehension", "title": "Fabula Tota: Recollectio",
+      "instructions": "Lege — hic Claudia totam fabulam Gradus V recolligit, cumulans multos ablativos absolutos, sicut prosa Latina authentica. Deinde responde.",
+      "passage": "<p>&ldquo;Hīs rēbus cognitīs — Lūciō ē bellō reversō, pāce factā, omnibus tandem domī congregātīs — tōta familia laeta convēnit,&rdquo; nārrat Claudia. &ldquo;Fābulīs nārrātīs vespere, spē bonā ductī, omnēs bene dormīvērunt. Māne factō, sōle oriente, iterum ad forum ambulāvērunt, iam sine timōre, quia pāx tandem facta erat.&rdquo;</p>",
+      "items": [
+        { "id": "ablabs2-story1", "prompt": "Quid Lucio evenit, secundum hanc recollectionem?", "options": ["e bello reversus est", "numquam domum rediit", "in bello periit"], "answerIndex": 0, "explanation": "'Lucio e bello reverso.'" },
+        { "id": "ablabs2-story2", "prompt": "Quid omnes fecerunt, fabulis narratis?", "options": ["bene dormiverunt", "statim discesserunt", "iterum pugnaverunt"], "answerIndex": 0, "explanation": "'Fabulis narratis... omnes bene dormiverunt.'" },
+        { "id": "ablabs2-story3", "prompt": "Cur mane ad forum sine timore ambulaverunt?", "options": ["quia pax tandem facta erat", "quia iam neminem timebant naturaliter", "sine ratione data"], "answerIndex": 0, "explanation": "'Iam sine timore, quia pax tandem facta erat.'" }
+      ]
+    },
     {
       "id": "v-ablabs2-mc", "type": "multiple-choice", "title": "Recognitio: Participia et Constructiones",
       "instructions": "Elige responsum rectum.",

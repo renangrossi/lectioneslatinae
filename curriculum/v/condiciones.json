@@ -15,8 +15,8 @@
     "Formare condiciones irreales praeteritas (coniunctivus plusquamperfectus)"
   ],
   "content": {
-    "intro": "Sententiae condicionales Latinae habent quattuor genera principalia, distincta per tempus/modum verborum in ambabus clausulis (protasis 'si...' et apodosis 'result').",
-    "explanation": "<p>Nōmen technicum: <strong>prōtasis</strong> est clausula 'sī' (condiciō); <strong>apodosis</strong> est clausula resultātī (quid ēvenit sī...).</p>",
+    "intro": "'Si vis,' dicit Marcus, 'tecum ibo.' Lucius respondet: 'Si plus temporis haberem, libenter venirem — sed si hoc ante scivissem, aliter parauissem.' Tres condiciones, tres sensus: reale, hypotheticum praesens, irreale praeteritum.",
+    "explanation": "<p>&ldquo;Sī vīs,&rdquo; dīcit Mārcus, &ldquo;tēcum ībō.&rdquo; Lūcius respondet: &ldquo;Grātiās — sed sī plūs temporis habērem, libentius venīrem. Et sī hoc ante scīvissem, aliter parāvissem.&rdquo;</p><p>Notāvistīne trēs condiciōnēs? <em>Sī vīs, ībō</em> — factum reāle/futūrum, indicātīvus. <em>Sī habērem, venīrem</em> — contrārium factō in praesentī (nōn habet tempus), coniūnctīvus imperfectus. <em>Sī scīvissem, parāvissem</em> — contrārium factō in praeteritō (nōn scīvit tunc), coniūnctīvus plūsquamperfectus. Nōmen technicum: <strong>prōtasis</strong> est clausula 'sī'; <strong>apodosis</strong> est clausula resultātī.</p>",
     "rules": [
       {
         "heading": "a) Condicio Simplex: Indicativus in Utraque Clausula",
@@ -60,6 +60,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "v-cond-story", "type": "reading-comprehension", "title": "Si Plus Temporis Haberem",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Sī vīs,&rdquo; dīcit Mārcus, &ldquo;tēcum ībō ad forum.&rdquo; Lūcius respondet: &ldquo;Grātiās — sed sī plūs temporis habērem, libentius venīrem; hodiē multum labōrandum est. Et sī hoc ante scīvissem, aliter tōtam diem parāvissem.&rdquo; Mārcus rīdet: &ldquo;Sī semper tam occupātus eris, numquam nōbīscum venies!&rdquo;</p>",
+      "items": [
+        { "id": "cond-story1", "prompt": "Vultne Marcus cum Lucio ad forum ire?", "options": ["ita, si Lucius vult", "non, numquam vult", "iam ivit sine eo"], "answerIndex": 0, "explanation": "'Si vis, tecum ibo.'" },
+        { "id": "cond-story2", "prompt": "Veniretne Lucius libentius, si plus temporis haberet?", "options": ["ita", "non, numquam veniret", "iam venit"], "answerIndex": 0, "explanation": "'Si plus temporis haberem, libentius venirem' — condicio irrealis: non habet, ergo non venit facile." },
+        { "id": "cond-story3", "prompt": "Quid Marcus de futuro Lucii timet?", "options": ["se numquam eum secum venturum esse, si semper occupatus erit", "eum numquam laboraturum esse", "nihil timet"], "answerIndex": 0, "explanation": "'Si semper tam occupatus eris, numquam nobiscum venies!'" }
+      ]
+    },
     {
       "id": "v-cond-mc", "type": "multiple-choice", "title": "Condiciones: Genera",
       "instructions": "Elige responsum rectum.",

@@ -15,8 +15,8 @@
     "Cognoscere expressiones fixas frequentes cum supino"
   ],
   "content": {
-    "intro": "Iam adhibuisti rādīcem supīnī (quārta fōrma prīncipālis) prō participiō futūrō/perfectō. Hodiē vidēbis supīnum IPSUM ut fōrma nōminālis dēfectīva, cum duābus fōrmīs tantum.",
-    "explanation": "<p>Supīnum est nōmen verbāle quārtae dēclīnātiōnis, sed DĒFECTĪVUM: sōlum duo cāsūs exsistunt, accūsātīvus (-um) et ablātīvus (-ū).</p>",
+    "intro": "Vesperi, Marcus dicit: 'Cubitum eo, fessus sum.' Lucius ridet: 'Ego quoque eo — sed prius, mirabile dictu, tibi rem narrabo.' 'Cubitum' (accusativus, propositum), 'dictu' (ablativus, respectus) — supinum, forma defectiva.",
+    "explanation": "<p>Vesperī, Mārcus dīcit: &ldquo;Cubitum eō, fessus sum.&rdquo; Lūcius rīdet: &ldquo;Ego quoque eō — sed prius, mīrābile dictū, tibi rem nārrābō, facile audītū sed difficile crēditū.&rdquo;</p><p>Notāvistīne: <em>cubitum</em> (accūsātīvus, post verbum mōtūs 'eō', proposītum: 'to sleep'), <em>dictū, audītū, crēditū</em> (ablātīvus, cum adiectīvīs, respectus: 'to say/hear/believe')? Iam adhibuistī rādīcem supīnī (quārta fōrma prīncipālis) prō participiō futūrō/perfectō. Hodiē vidēs supīnum IPSUM ut fōrma nōminālis dēfectīva, cum duābus fōrmīs tantum: accūsātīvus (-um) et ablātīvus (-ū).</p>",
     "rules": [
       {
         "heading": "a) Supinum in -um: Post Verba Motus",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "v-sup-story", "type": "reading-comprehension", "title": "Cubitum Eo",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Vesperī, Mārcus dīcit: &ldquo;Cubitum eō, fessus sum.&rdquo; Lūcius rīdet: &ldquo;Ego quoque eō — sed prius, mīrābile dictū, tibi rem nārrābō: heri leōnem in silvā vīdī!&rdquo; Mārcus stupet: &ldquo;Hoc difficile crēditū est, Lūcī. Numquam leōnēs in hīs silvīs fuērunt.&rdquo;</p>",
+      "items": [
+        { "id": "sup-story1", "prompt": "Cur Marcus cubitum it?", "options": ["quia fessus est", "quia iratus est", "sine ratione"], "answerIndex": 0, "explanation": "'Cubitum eo, fessus sum.'" },
+        { "id": "sup-story2", "prompt": "Quid Lucius mirabile dictu narrat?", "options": ["se leonem in silva vidisse", "se domum novam invenisse", "nihil narrat"], "answerIndex": 0, "explanation": "'Heri leonem in silva vidi!'" },
+        { "id": "sup-story3", "prompt": "Creditne Marcus statim Lucio?", "options": ["ita, statim credit", "dicit hoc difficile creditu esse", "numquam eum audit"], "answerIndex": 1, "explanation": "'Hoc difficile creditu est.'" }
+      ]
+    },
     {
       "id": "v-sup-mc", "type": "multiple-choice", "title": "Supinum: Regulae",
       "instructions": "Elige responsum rectum.",

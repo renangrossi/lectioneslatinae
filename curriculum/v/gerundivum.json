@@ -15,8 +15,8 @@
     "Applicare 'attractionem gerundivam': gerundivum substituit gerundium cum obiecto directo"
   ],
   "content": {
-    "intro": "'Carthago dēlenda est' ('Carthage must be destroyed', famosa sententia Catonis) illustra perfecte gerundivum: adiectīvum verbāle passīvum, exprimēns OBLIGĀTIŌNEM.",
-    "explanation": "<p>Gerundīvum est fōrmā IDENTICUM gerundiō (rādīx + -nd- + -us, -a, -um), sed FUNCTIŌNE differt: est ADIECTĪVUM, concordāns cum nōmine, cum sēnsū PASSĪVŌ OBLIGĀTIŌNIS.</p>",
+    "intro": "'Nobis pax facienda est, non bellum,' dicit Lucius. 'Multa nobis discenda sunt.' 'Facienda, discenda' — non 'we do', sed 'must be done BY us'. Sicut famosa sententia Catonis 'Carthago delenda est', hoc est gerundivum: obligatio.",
+    "explanation": "<p>&ldquo;Nōbīs pāx facienda est, nōn bellum,&rdquo; dīcit Lūcius. &ldquo;Multa nōbīs discenda sunt post tot annōs bellī.&rdquo;</p><p>Notāvistīne: <em>pāx facienda [est]</em>, <em>multa discenda [sunt]</em> — nōn 'we do/we learn', sed 'must be done BY us', 'must be learned BY us'? Sīcut famōsa sententia Catōnis, <em>Carthāgō dēlenda est</em> ('Carthage must be destroyed'), hoc est gerundīvum: adiectīvum verbāle passīvum, fōrmā identicum gerundiō, sed exprimēns OBLIGĀTIŌNEM.</p>",
     "rules": [
       {
         "heading": "a) Coniugatio Periphrastica Passiva: Gerundivum + Sum",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "v-gerd-story", "type": "reading-comprehension", "title": "Pax Facienda Est",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Nōbīs pāx facienda est, nōn bellum,&rdquo; dīcit Lūcius. &ldquo;Multa nōbīs discenda sunt post tot annōs bellī, et multa etiam oblīviscenda.&rdquo; Mārcus respondet: &ldquo;Tibi crēdendum est, Lūcī — semper sapienter locūtus es.&rdquo;</p>",
+      "items": [
+        { "id": "gerd-story1", "prompt": "Quid, secundum Lucium, faciendum est?", "options": ["pax, non bellum", "bellum novum", "nihil"], "answerIndex": 0, "explanation": "'Nobis pax facienda est, non bellum.'" },
+        { "id": "gerd-story2", "prompt": "Quid nobis discendum est, secundum Lucium?", "options": ["multa, post tot annos belli", "nihil, iam omnia sciunt", "solum ars pugnandi"], "answerIndex": 0, "explanation": "'Multa nobis discenda sunt post tot annos belli.'" },
+        { "id": "gerd-story3", "prompt": "Quid Marcus de Lucio dicit?", "options": ["ei credendum esse", "ei numquam credendum esse", "nihil de eo dicit"], "answerIndex": 0, "explanation": "'Tibi credendum est, Luci.'" }
+      ]
+    },
     {
       "id": "v-gerd-mc", "type": "multiple-choice", "title": "Gerundivum: Regulae",
       "instructions": "Elige responsum rectum.",
