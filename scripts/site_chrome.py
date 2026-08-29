@@ -6,8 +6,11 @@ site-wide. Only the lesson-specific <main> content differs page to page;
 see build_lesson.py.
 
 Deliberate differences from the English original:
-  - No AI-teacher toggle/panel/script anywhere -- this course ships
-    without that feature entirely, per project scope.
+  - The AI-teacher toggle/panel/script is "Magister AI" here, not "AI
+    Teacher" -- same widget (assets/js/ai-teacher.js, assets/css/
+    ai-teacher.css), Latin strings, and its own Worker endpoint (see
+    worker/README.md). The intro animation is a waving SPQR vexillum
+    standard instead of a Betsy Ross flag.
   - mastery.js is loaded unconditionally in footer() (the English
     version added it only on pages that needed spaced repetition) --
     simpler to reason about and costs nothing measurable.
@@ -88,6 +91,7 @@ def head(rel, title, description):
 <link rel="stylesheet" href="{rel}assets/css/components.css">
 <link rel="stylesheet" href="{rel}assets/css/layout.css">
 <link rel="stylesheet" href="{rel}assets/css/dark-mode.css">
+<link rel="stylesheet" href="{rel}assets/css/ai-teacher.css">
 <link rel="stylesheet" href="{rel}assets/css/search.css">
 <link rel="stylesheet" href="{rel}assets/css/exercises.css"><link rel="stylesheet" href="{rel}assets/css/lessons.css">
 <script>
@@ -124,6 +128,7 @@ def header(rel, active_level_code, breadcrumb_html):
                 <li><a href="{rel}examina.html">Examina</a></li>
                 <li><a href="{rel}varia.html">Varia</a></li>
                 <li><a href="{rel}lexicon.html">Lexicon</a></li>
+                <li class="nav-sibling"><a href="https://renangrossi.github.io/mathematahellenika/" lang="grc">Μαθήματα Ἑλληνικά</a></li>
                 </ul>
             </nav>
             <div class="nav-utility">
@@ -225,8 +230,36 @@ def footer(rel):
     <button type="button" class="back-to-top back-to-top--with-dict" data-back-to-top aria-label="Ad summum redi">
         <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
     </button>
+    <button type="button" class="ai-teacher-toggle" data-ai-teacher-toggle aria-label="Interroga Magistrum AI" aria-expanded="false" aria-haspopup="dialog">
+        <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+        <span class="ai-teacher-toggle__label">Magister AI</span>
+    </button>
+    <div class="ai-teacher-panel" data-ai-teacher-panel hidden role="dialog" aria-label="Colloquium cum Magistro AI" aria-modal="false">
+        <div class="ai-teacher-panel__bar">
+            <div class="ai-teacher-panel__brand">
+                <svg class="ai-teacher-panel__brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+                <div>
+                    <strong>Magister AI</strong>
+                    <span>Interroga de grammatica, vocabulario, vel exercitationibus</span>
+                </div>
+            </div>
+            <button type="button" class="ai-teacher-panel__close" data-ai-teacher-close aria-label="Occlude Magistrum AI"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+        </div>
+        <div class="ai-teacher-panel__messages" data-ai-teacher-messages role="log" aria-live="polite">
+            <div class="ai-teacher-msg ai-teacher-msg--bot">
+                <p>Salvē! Tē adiuvāre possum dē linguā Latīnā. Interrogā dē grammaticā, verbīs, vel exercitātiōnibus.<br>Exemplum: <em>&ldquo;Explica coniūnctīvum imperfectum&rdquo;</em> vel <em>&ldquo;Dā mihi exercitātiōnem dē dēclīnātiōne tertiā.&rdquo;</em></p>
+            </div>
+        </div>
+        <form class="ai-teacher-panel__form" data-ai-teacher-form>
+            <label for="ai-teacher-input" class="visually-hidden">Quaestio tua</label>
+            <textarea id="ai-teacher-input" data-ai-teacher-input rows="1" maxlength="600" placeholder="Scribe quaestionem tuam&hellip;" required></textarea>
+            <button type="submit" class="ai-teacher-panel__send" data-ai-teacher-send aria-label="Mitte quaestionem"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></button>
+        </form>
+        <p class="ai-teacher-panel__hint" data-ai-teacher-hint>Respōnsa ab exemplārī AI veniunt et interdum falsa esse possunt &mdash; semper cum māteriā lēctiōnis tuae cōnfer. Nihil quod scrībis post hanc fenestram clausam servātur.</p>
+    </div>
     <script src="{rel}assets/js/main.js"></script>
     <script src="{rel}assets/js/search.js"></script>
+    <script src="{rel}assets/js/ai-teacher.js" data-ai-endpoint="https://ai-teacher-la.englishclasses.workers.dev"></script>
     <script src="{rel}assets/js/dict-widget.js"></script>
     <script src="{rel}assets/js/progress.js"></script><script src="{rel}assets/js/exercises.js"></script><script src="{rel}assets/js/mastery.js"></script>
 </body>

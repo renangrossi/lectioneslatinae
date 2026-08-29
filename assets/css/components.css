@@ -176,6 +176,12 @@
 }
 .primary-nav a[aria-current="page"]::after { transform: scaleX(1); background: var(--color-text-on-dark); }
 
+/* Sibling-site link (Μαθήματα Ἑλληνικά / Lectiones Latinae) — a thin
+   separator marks it as leaving this site, without making it look
+   like a lesser or unrelated nav item; same link treatment otherwise. */
+.nav-sibling { margin-left: 0.35rem; padding-left: 1.1rem; border-left: 1px solid rgba(255, 255, 255, 0.22); }
+.nav-sibling a { font-family: "Cardo", "Gentium Plus", "Noto Serif", serif; }
+
 .nav-drop__caret {
   width: 0.6em; height: 0.6em;
   border-right: 2px solid currentColor;

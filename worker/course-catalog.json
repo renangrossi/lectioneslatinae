@@ -1,0 +1,1258 @@
+{
+  "levels": [
+    {
+      "code": "I",
+      "name": "Fundamenta",
+      "url": "gradus/fundamenta.html"
+    },
+    {
+      "code": "II",
+      "name": "Elementa",
+      "url": "gradus/elementa.html"
+    },
+    {
+      "code": "III",
+      "name": "Progressus",
+      "url": "gradus/progressus.html"
+    },
+    {
+      "code": "IV",
+      "name": "Media",
+      "url": "gradus/media.html"
+    },
+    {
+      "code": "V",
+      "name": "Provectus",
+      "url": "gradus/provectus.html"
+    },
+    {
+      "code": "VI",
+      "name": "Altior",
+      "url": "gradus/altior.html"
+    },
+    {
+      "code": "VII",
+      "name": "Auctores",
+      "url": "gradus/auctores.html"
+    }
+  ],
+  "resources": [
+    {
+      "level": "I",
+      "title": "Alphabetum et Soni",
+      "url": "gradus/fundamenta/alphabetum-et-soni.html",
+      "type": "lesson",
+      "aliases": [
+        "alfabeto",
+        "alphabet",
+        "alphabetum"
+      ]
+    },
+    {
+      "level": "I",
+      "title": "Consonantes",
+      "url": "gradus/fundamenta/consonantes.html",
+      "type": "lesson",
+      "aliases": [
+        "alphabetum",
+        "consoantes",
+        "consonants"
+      ]
+    },
+    {
+      "level": "I",
+      "title": "Lectiō et Audītiō Prīma",
+      "url": "gradus/fundamenta/lectio-et-auditio-prima.html",
+      "type": "lesson",
+      "aliases": [
+        "lectio"
+      ]
+    },
+    {
+      "level": "I",
+      "title": "Numerī",
+      "url": "gradus/fundamenta/numeri.html",
+      "type": "lesson",
+      "aliases": [
+        "numbers",
+        "numeri",
+        "numeros",
+        "números"
+      ]
+    },
+    {
+      "level": "I",
+      "title": "Prōnōmina Persōnālia",
+      "url": "gradus/fundamenta/pronomina-personalia.html",
+      "type": "lesson",
+      "aliases": [
+        "pronomina"
+      ]
+    },
+    {
+      "level": "I",
+      "title": "Salutationes",
+      "url": "gradus/fundamenta/salutationes.html",
+      "type": "lesson",
+      "aliases": [
+        "greetings",
+        "saudacoes",
+        "saudações"
+      ]
+    },
+    {
+      "level": "I",
+      "title": "Sum: Verbum Essendi",
+      "url": "gradus/fundamenta/sum-verbum-essendi.html",
+      "type": "lesson",
+      "aliases": [
+        "sum",
+        "verb to be",
+        "verbo ser/estar"
+      ]
+    },
+    {
+      "level": "I",
+      "title": "Syllabae et Accentus",
+      "url": "gradus/fundamenta/syllabae-et-accentus.html",
+      "type": "lesson",
+      "aliases": [
+        "accent",
+        "acento",
+        "alphabetum",
+        "silabas",
+        "stress",
+        "syllables",
+        "sílabas"
+      ]
+    },
+    {
+      "level": "I",
+      "title": "Vocales et Diphthongi",
+      "url": "gradus/fundamenta/vocales-et-diphthongi.html",
+      "type": "lesson",
+      "aliases": [
+        "alphabetum",
+        "diphthongs",
+        "ditongos",
+        "vogais",
+        "vowels"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Adiectiva Primae et Secundae Classis",
+      "url": "gradus/elementa/adiectiva-primae-et-secundae-classis.html",
+      "type": "lesson",
+      "aliases": [
+        "adiectiva",
+        "adjectives",
+        "adjetivos",
+        "first",
+        "primeira",
+        "second",
+        "segunda"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Adverbia",
+      "url": "gradus/elementa/adverbia.html",
+      "type": "lesson",
+      "aliases": [
+        "adverbios",
+        "adverbs",
+        "advérbios"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Casus Ablativus",
+      "url": "gradus/elementa/casus-ablativus.html",
+      "type": "lesson",
+      "aliases": [
+        "ablative",
+        "ablative case",
+        "ablativo",
+        "caso ablativo",
+        "casus"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Casus Accusativus",
+      "url": "gradus/elementa/casus-accusativus.html",
+      "type": "lesson",
+      "aliases": [
+        "accusative",
+        "accusative case",
+        "acusativo",
+        "caso acusativo",
+        "casus"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Casus Dativus",
+      "url": "gradus/elementa/casus-dativus.html",
+      "type": "lesson",
+      "aliases": [
+        "caso dativo",
+        "casus",
+        "dative",
+        "dative case",
+        "dativo"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Casus Genitivus",
+      "url": "gradus/elementa/casus-genitivus.html",
+      "type": "lesson",
+      "aliases": [
+        "caso genitivo",
+        "casus",
+        "genitive",
+        "genitive case",
+        "genitivo"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Coniugatio Prima",
+      "url": "gradus/elementa/coniugatio-prima.html",
+      "type": "lesson",
+      "aliases": [
+        "conjugacao",
+        "conjugation",
+        "conjugação",
+        "first",
+        "primeira",
+        "verba"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Coniugatio Quarta",
+      "url": "gradus/elementa/coniugatio-quarta.html",
+      "type": "lesson",
+      "aliases": [
+        "conjugacao",
+        "conjugation",
+        "conjugação",
+        "fourth",
+        "quarta",
+        "verba"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Coniugatio Secunda",
+      "url": "gradus/elementa/coniugatio-secunda.html",
+      "type": "lesson",
+      "aliases": [
+        "conjugacao",
+        "conjugation",
+        "conjugação",
+        "second",
+        "segunda",
+        "verba"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Coniugatio Tertia",
+      "url": "gradus/elementa/coniugatio-tertia.html",
+      "type": "lesson",
+      "aliases": [
+        "conjugacao",
+        "conjugation",
+        "conjugação",
+        "terceira",
+        "third",
+        "verba"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Coniunctiones",
+      "url": "gradus/elementa/coniunctiones.html",
+      "type": "lesson",
+      "aliases": [
+        "conjuncoes",
+        "conjunctions",
+        "conjunções",
+        "syntaxis"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Declinatio Prima",
+      "url": "gradus/elementa/declinatio-prima.html",
+      "type": "lesson",
+      "aliases": [
+        "declension",
+        "declinacao",
+        "declinatio",
+        "declinação",
+        "first",
+        "primeira"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Declinatio Secunda: Masculina",
+      "url": "gradus/elementa/declinatio-secunda-masculina.html",
+      "type": "lesson",
+      "aliases": [
+        "declension",
+        "declinacao",
+        "declinatio",
+        "declinação",
+        "second",
+        "segunda"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Declinatio Secunda: Neutra",
+      "url": "gradus/elementa/declinatio-secunda-neutra.html",
+      "type": "lesson",
+      "aliases": [
+        "declension",
+        "declinacao",
+        "declinatio",
+        "declinação",
+        "second",
+        "segunda"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Imperativus",
+      "url": "gradus/elementa/imperativus.html",
+      "type": "lesson",
+      "aliases": [
+        "imperative",
+        "imperativo",
+        "verba"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Interrogativa",
+      "url": "gradus/elementa/interrogativa.html",
+      "type": "lesson",
+      "aliases": [
+        "interrogatives",
+        "perguntas",
+        "questions",
+        "syntaxis"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Numeri Ordinales et Cardinales Amplius",
+      "url": "gradus/elementa/numeri-ordinales-et-cardinales-amplius.html",
+      "type": "lesson",
+      "aliases": [
+        "numbers",
+        "numeri",
+        "numeros",
+        "números"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Praepositiones cum Accusativo et Ablativo",
+      "url": "gradus/elementa/praepositiones-cum-accusativo-et-ablativo.html",
+      "type": "lesson",
+      "aliases": [
+        "praepositiones",
+        "preposicoes",
+        "prepositions",
+        "preposições"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Pronomina Demonstrativa",
+      "url": "gradus/elementa/pronomina-demonstrativa.html",
+      "type": "lesson",
+      "aliases": [
+        "pronomes",
+        "pronomina",
+        "pronouns"
+      ]
+    },
+    {
+      "level": "II",
+      "title": "Pronomina Possessiva",
+      "url": "gradus/elementa/pronomina-possessiva.html",
+      "type": "lesson",
+      "aliases": [
+        "pronomes",
+        "pronomina",
+        "pronouns"
+      ]
+    },
+    {
+      "level": "III",
+      "title": "Adiectiva Tertiae Declinationis",
+      "url": "gradus/progressus/adiectiva-tertiae-declinationis.html",
+      "type": "lesson",
+      "aliases": [
+        "adiectiva",
+        "adjectives",
+        "adjetivos",
+        "declension",
+        "declinacao",
+        "declinação",
+        "terceira",
+        "third"
+      ]
+    },
+    {
+      "level": "III",
+      "title": "Comparatio Adiectivorum",
+      "url": "gradus/progressus/comparatio-adiectivorum.html",
+      "type": "lesson",
+      "aliases": [
+        "adjectives",
+        "adjetivos",
+        "comparatio",
+        "comparative",
+        "comparativo",
+        "comparison"
+      ]
+    },
+    {
+      "level": "III",
+      "title": "Comparatio Adverbiorum",
+      "url": "gradus/progressus/comparatio-adverbiorum.html",
+      "type": "lesson",
+      "aliases": [
+        "adverbios",
+        "adverbs",
+        "advérbios",
+        "comparatio",
+        "comparative",
+        "comparativo",
+        "comparison"
+      ]
+    },
+    {
+      "level": "III",
+      "title": "Declinatio Quarta",
+      "url": "gradus/progressus/declinatio-quarta.html",
+      "type": "lesson",
+      "aliases": [
+        "declension",
+        "declinacao",
+        "declinatio",
+        "declinação",
+        "fourth",
+        "quarta"
+      ]
+    },
+    {
+      "level": "III",
+      "title": "Declinatio Quinta",
+      "url": "gradus/progressus/declinatio-quinta.html",
+      "type": "lesson",
+      "aliases": [
+        "declension",
+        "declinacao",
+        "declinatio",
+        "declinação",
+        "fifth",
+        "quinta"
+      ]
+    },
+    {
+      "level": "III",
+      "title": "Declinatio Tertia: Consonantes",
+      "url": "gradus/progressus/declinatio-tertia-consonantes.html",
+      "type": "lesson",
+      "aliases": [
+        "consoantes",
+        "consonants",
+        "declension",
+        "declinacao",
+        "declinatio",
+        "declinação",
+        "terceira",
+        "third"
+      ]
+    },
+    {
+      "level": "III",
+      "title": "Declinatio Tertia: I-Stems",
+      "url": "gradus/progressus/declinatio-tertia-i-stems.html",
+      "type": "lesson",
+      "aliases": [
+        "declension",
+        "declinacao",
+        "declinatio",
+        "declinação",
+        "terceira",
+        "third"
+      ]
+    },
+    {
+      "level": "III",
+      "title": "Numeri, Tempus et Calendarium",
+      "url": "gradus/progressus/numeri-tempus-et-calendarium.html",
+      "type": "lesson",
+      "aliases": [
+        "numbers",
+        "numeri",
+        "numeros",
+        "números"
+      ]
+    },
+    {
+      "level": "III",
+      "title": "Pronomen Relativum",
+      "url": "gradus/progressus/pronomen-relativum.html",
+      "type": "lesson",
+      "aliases": [
+        "pronome",
+        "pronome relativo",
+        "pronomina",
+        "pronoun",
+        "relative pronoun"
+      ]
+    },
+    {
+      "level": "III",
+      "title": "Pronomina Reflexiva",
+      "url": "gradus/progressus/pronomina-reflexiva.html",
+      "type": "lesson",
+      "aliases": [
+        "pronomes",
+        "pronomina",
+        "pronouns",
+        "reflexive",
+        "reflexivo"
+      ]
+    },
+    {
+      "level": "III",
+      "title": "Tempus Futurum",
+      "url": "gradus/progressus/tempus-futurum.html",
+      "type": "lesson",
+      "aliases": [
+        "future tense",
+        "tempo futuro",
+        "verba"
+      ]
+    },
+    {
+      "level": "III",
+      "title": "Tempus Imperfectum",
+      "url": "gradus/progressus/tempus-imperfectum.html",
+      "type": "lesson",
+      "aliases": [
+        "imperfect tense",
+        "pretérito imperfeito",
+        "verba"
+      ]
+    },
+    {
+      "level": "III",
+      "title": "Vox Passiva Praesens",
+      "url": "gradus/progressus/vox-passiva-praesens.html",
+      "type": "lesson",
+      "aliases": [
+        "passive voice",
+        "verba",
+        "voz passiva"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Ablativus Absolutus Introductio",
+      "url": "gradus/media/ablativus-absolutus-introductio.html",
+      "type": "lesson",
+      "aliases": [
+        "ablative",
+        "ablative absolute",
+        "ablativo",
+        "ablativo absoluto",
+        "participia"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Clausulae Finales",
+      "url": "gradus/media/clausulae-finales.html",
+      "type": "lesson",
+      "aliases": [
+        "clausulae",
+        "oracoes finais",
+        "orações finais",
+        "purpose clauses"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Coniunctivus Imperfectum",
+      "url": "gradus/media/coniunctivus-imperfectum.html",
+      "type": "lesson",
+      "aliases": [
+        "coniunctivus",
+        "subjunctive",
+        "subjuntivo"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Coniunctivus Praesens",
+      "url": "gradus/media/coniunctivus-praesens.html",
+      "type": "lesson",
+      "aliases": [
+        "coniunctivus",
+        "subjunctive",
+        "subjuntivo"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Imperativa Obliqua",
+      "url": "gradus/media/imperativa-obliqua.html",
+      "type": "lesson",
+      "aliases": [
+        "clausulae",
+        "comandos indiretos",
+        "indirect commands"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Infinitivi",
+      "url": "gradus/media/infinitivi.html",
+      "type": "lesson",
+      "aliases": [
+        "infinitives",
+        "infinitivos",
+        "verba"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Oratio Obliqua: Accusativus cum Infinitivo",
+      "url": "gradus/media/oratio-obliqua-accusativus-cum-infinitivo.html",
+      "type": "lesson",
+      "aliases": [
+        "accusative",
+        "accusative and infinitive",
+        "aci",
+        "acusativo",
+        "acusativo com infinitivo",
+        "discurso indireto",
+        "indirect speech",
+        "syntaxis"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Participium Futurum Activum",
+      "url": "gradus/media/participium-futurum-activum.html",
+      "type": "lesson",
+      "aliases": [
+        "participia",
+        "participio",
+        "participle",
+        "particípio"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Participium Perfectum Passivum",
+      "url": "gradus/media/participium-perfectum-passivum.html",
+      "type": "lesson",
+      "aliases": [
+        "participia",
+        "participio",
+        "participle",
+        "particípio"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Participium Praesens Activum",
+      "url": "gradus/media/participium-praesens-activum.html",
+      "type": "lesson",
+      "aliases": [
+        "participia",
+        "participio",
+        "participle",
+        "particípio"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Plusquamperfectum et Futurum Perfectum",
+      "url": "gradus/media/plusquamperfectum-et-futurum-perfectum.html",
+      "type": "lesson",
+      "aliases": [
+        "mais-que-perfeito",
+        "pluperfect",
+        "verba"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Recognitio: Systema Verbi Latini",
+      "url": "gradus/media/recognitio-systema-verbi.html",
+      "type": "lesson",
+      "aliases": [
+        "recognitio"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Systema Perfectum Activum",
+      "url": "gradus/media/systema-perfectum-activum.html",
+      "type": "lesson",
+      "aliases": [
+        "perfect system",
+        "sistema do perfeito",
+        "verba"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Systema Perfectum Passivum",
+      "url": "gradus/media/systema-perfectum-passivum.html",
+      "type": "lesson",
+      "aliases": [
+        "perfect system",
+        "sistema do perfeito",
+        "verba"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Verba Deponentia",
+      "url": "gradus/media/verba-deponentia.html",
+      "type": "lesson",
+      "aliases": [
+        "deponent verbs",
+        "verba",
+        "verbos depoentes"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Verba Irregularia: Eo, Fero, Fio",
+      "url": "gradus/media/verba-irregularia-eo-fero-fio.html",
+      "type": "lesson",
+      "aliases": [
+        "irregular verbs",
+        "verba-irregularia",
+        "verbos irregulares"
+      ]
+    },
+    {
+      "level": "IV",
+      "title": "Verba Irregularia: Possum, Volo, Nolo, Malo",
+      "url": "gradus/media/verba-irregularia-possum-volo-nolo-malo.html",
+      "type": "lesson",
+      "aliases": [
+        "irregular verbs",
+        "verba-irregularia",
+        "verbos irregulares"
+      ]
+    },
+    {
+      "level": "V",
+      "title": "Ablativus Absolutus Amplius et Constructiones Participiales",
+      "url": "gradus/provectus/ablativus-absolutus-amplius.html",
+      "type": "lesson",
+      "aliases": [
+        "ablative",
+        "ablative absolute",
+        "ablativo",
+        "ablativo absoluto",
+        "construções participiais",
+        "participial constructions",
+        "recognitio"
+      ]
+    },
+    {
+      "level": "V",
+      "title": "Clausulae Characteristicae",
+      "url": "gradus/provectus/clausulae-characteristicae.html",
+      "type": "lesson",
+      "aliases": [
+        "clauses of characteristic",
+        "clausulae",
+        "orações de característica"
+      ]
+    },
+    {
+      "level": "V",
+      "title": "Clausulae Consecutivae",
+      "url": "gradus/provectus/clausulae-consecutivae.html",
+      "type": "lesson",
+      "aliases": [
+        "clausulae",
+        "consecutive clauses",
+        "orações consecutivas",
+        "result clauses"
+      ]
+    },
+    {
+      "level": "V",
+      "title": "Clausulae Timendi",
+      "url": "gradus/provectus/clausulae-timendi.html",
+      "type": "lesson",
+      "aliases": [
+        "clauses of fearing",
+        "clausulae",
+        "orações de temor"
+      ]
+    },
+    {
+      "level": "V",
+      "title": "Condiciones",
+      "url": "gradus/provectus/condiciones.html",
+      "type": "lesson",
+      "aliases": [
+        "clausulae",
+        "condicionais",
+        "condicional",
+        "conditionals"
+      ]
+    },
+    {
+      "level": "V",
+      "title": "Coniunctivus Perfectum et Plusquamperfectum",
+      "url": "gradus/provectus/coniunctivus-perfectum-et-plusquamperfectum.html",
+      "type": "lesson",
+      "aliases": [
+        "coniunctivus",
+        "mais-que-perfeito",
+        "pluperfect",
+        "subjunctive",
+        "subjuntivo"
+      ]
+    },
+    {
+      "level": "V",
+      "title": "Consecutio Temporum",
+      "url": "gradus/provectus/consecutio-temporum.html",
+      "type": "lesson",
+      "aliases": [
+        "consecutio temporum",
+        "sequence of tenses",
+        "syntaxis"
+      ]
+    },
+    {
+      "level": "V",
+      "title": "Cum Historicum, Causale, Concessivum",
+      "url": "gradus/provectus/cum-historicum-causale-concessivum.html",
+      "type": "lesson",
+      "aliases": [
+        "clausulae",
+        "cum clauses",
+        "orações com cum"
+      ]
+    },
+    {
+      "level": "V",
+      "title": "Gerundium",
+      "url": "gradus/provectus/gerundium.html",
+      "type": "lesson",
+      "aliases": [
+        "gerund",
+        "gerundio",
+        "gerúndio",
+        "nominalia"
+      ]
+    },
+    {
+      "level": "V",
+      "title": "Gerundivum",
+      "url": "gradus/provectus/gerundivum.html",
+      "type": "lesson",
+      "aliases": [
+        "gerundive",
+        "nominalia"
+      ]
+    },
+    {
+      "level": "V",
+      "title": "Interrogationes Obliquae",
+      "url": "gradus/provectus/interrogationes-obliquae.html",
+      "type": "lesson",
+      "aliases": [
+        "clausulae",
+        "indirect questions",
+        "perguntas indiretas"
+      ]
+    },
+    {
+      "level": "V",
+      "title": "Supinum",
+      "url": "gradus/provectus/supinum.html",
+      "type": "lesson",
+      "aliases": [
+        "nominalia",
+        "supine"
+      ]
+    },
+    {
+      "level": "VI",
+      "title": "Ablativus: Usus Provectiores",
+      "url": "gradus/altior/ablativus-usus-provectiores.html",
+      "type": "lesson",
+      "aliases": [
+        "ablative",
+        "ablativo",
+        "casus"
+      ]
+    },
+    {
+      "level": "VI",
+      "title": "Comparatio et Correlativa",
+      "url": "gradus/altior/comparatio-et-correlativa.html",
+      "type": "lesson",
+      "aliases": [
+        "comparatio",
+        "comparative",
+        "comparatives and correlatives",
+        "comparativo",
+        "comparativos e correlativos",
+        "comparison"
+      ]
+    },
+    {
+      "level": "VI",
+      "title": "Constructiones Participiales Provectae",
+      "url": "gradus/altior/constructiones-participiales-provectae.html",
+      "type": "lesson",
+      "aliases": [
+        "construções participiais",
+        "participia",
+        "participial constructions"
+      ]
+    },
+    {
+      "level": "VI",
+      "title": "Dativus: Usus Provectiores",
+      "url": "gradus/altior/dativus-usus-provectiores.html",
+      "type": "lesson",
+      "aliases": [
+        "casus",
+        "dative",
+        "dativo"
+      ]
+    },
+    {
+      "level": "VI",
+      "title": "Lectio Adaptata: Caesar",
+      "url": "gradus/altior/lectio-adaptata-caesar.html",
+      "type": "lesson",
+      "aliases": [
+        "lectio"
+      ]
+    },
+    {
+      "level": "VI",
+      "title": "Lectio Adaptata: Cicero",
+      "url": "gradus/altior/lectio-adaptata-cicero.html",
+      "type": "lesson",
+      "aliases": [
+        "lectio"
+      ]
+    },
+    {
+      "level": "VI",
+      "title": "Numeri: Usus Litterarii",
+      "url": "gradus/altior/numeri-usus-litterarii.html",
+      "type": "lesson",
+      "aliases": [
+        "numbers",
+        "numeri",
+        "numeros",
+        "números"
+      ]
+    },
+    {
+      "level": "VI",
+      "title": "Oratio Obliqua: Systema Plenum",
+      "url": "gradus/altior/oratio-obliqua-systema-plenum.html",
+      "type": "lesson",
+      "aliases": [
+        "discurso indireto",
+        "indirect speech",
+        "syntaxis"
+      ]
+    },
+    {
+      "level": "VI",
+      "title": "Ordo Verborum et Stilus",
+      "url": "gradus/altior/ordo-verborum-et-stilus.html",
+      "type": "lesson",
+      "aliases": [
+        "ordem das palavras",
+        "stilus",
+        "word order"
+      ]
+    },
+    {
+      "level": "VI",
+      "title": "Recognitio Provectior: Syntaxis Integra",
+      "url": "gradus/altior/recognitio-syntaxis-integra.html",
+      "type": "lesson",
+      "aliases": [
+        "recognitio"
+      ]
+    },
+    {
+      "level": "VII",
+      "title": "Caesar: De Bello Gallico",
+      "url": "gradus/auctores/caesar-de-bello-gallico.html",
+      "type": "lesson",
+      "aliases": [
+        "auctores",
+        "gallic war",
+        "guerra da gália"
+      ]
+    },
+    {
+      "level": "VII",
+      "title": "Catullus: Carmina Selecta",
+      "url": "gradus/auctores/catullus-carmina-selecta.html",
+      "type": "lesson",
+      "aliases": [
+        "auctores",
+        "poemas selecionados",
+        "selected poems"
+      ]
+    },
+    {
+      "level": "VII",
+      "title": "Cicero: De Amicitia",
+      "url": "gradus/auctores/cicero-de-amicitia.html",
+      "type": "lesson",
+      "aliases": [
+        "amizade",
+        "auctores",
+        "on friendship"
+      ]
+    },
+    {
+      "level": "VII",
+      "title": "Cicero: In Catilinam",
+      "url": "gradus/auctores/cicero-in-catilinam.html",
+      "type": "lesson",
+      "aliases": [
+        "against catiline",
+        "auctores",
+        "catilinárias"
+      ]
+    },
+    {
+      "level": "VII",
+      "title": "Ovidius: Metamorphoses",
+      "url": "gradus/auctores/ovidius-metamorphoses.html",
+      "type": "lesson",
+      "aliases": [
+        "auctores",
+        "metamorfoses",
+        "metamorphoses"
+      ]
+    },
+    {
+      "level": "VII",
+      "title": "Prosodia et Metrum",
+      "url": "gradus/auctores/prosodia-et-metrum.html",
+      "type": "lesson",
+      "aliases": [
+        "auctores",
+        "meter",
+        "metrica",
+        "métrica",
+        "prosody"
+      ]
+    },
+    {
+      "level": "VII",
+      "title": "Recognitio Finalis: Lectio Libera",
+      "url": "gradus/auctores/recognitio-finalis.html",
+      "type": "lesson",
+      "aliases": [
+        "recognitio"
+      ]
+    },
+    {
+      "level": "VII",
+      "title": "Rhetorica Ciceroniana: Figurae",
+      "url": "gradus/auctores/rhetorica-ciceroniana.html",
+      "type": "lesson",
+      "aliases": [
+        "auctores",
+        "figuras de linguagem",
+        "figures of speech",
+        "retorica",
+        "retórica",
+        "rhetoric"
+      ]
+    },
+    {
+      "level": "VII",
+      "title": "Sallustius: Bellum Catilinae",
+      "url": "gradus/auctores/sallustius-bellum-catilinae.html",
+      "type": "lesson",
+      "aliases": [
+        "auctores",
+        "catiline's war",
+        "conjuração de catilina"
+      ]
+    },
+    {
+      "level": "VII",
+      "title": "Vergilius: Aeneis",
+      "url": "gradus/auctores/vergilius-aeneis.html",
+      "type": "lesson",
+      "aliases": [
+        "aeneid",
+        "auctores",
+        "eneida"
+      ]
+    },
+    {
+      "level": "I",
+      "title": "Te Ipsum Proba — Gradus I (recognitio plena)",
+      "url": "gradus/fundamenta/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "II",
+      "title": "Te Ipsum Proba — Gradus II (recognitio plena)",
+      "url": "gradus/elementa/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "III",
+      "title": "Te Ipsum Proba — Gradus III (recognitio plena)",
+      "url": "gradus/progressus/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "IV",
+      "title": "Te Ipsum Proba — Gradus IV (recognitio plena)",
+      "url": "gradus/media/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "V",
+      "title": "Te Ipsum Proba — Gradus V (recognitio plena)",
+      "url": "gradus/provectus/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "VI",
+      "title": "Te Ipsum Proba — Gradus VI (recognitio plena)",
+      "url": "gradus/altior/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": "VII",
+      "title": "Te Ipsum Proba — Gradus VII (recognitio plena)",
+      "url": "gradus/auctores/test-yourself.html",
+      "type": "test"
+    },
+    {
+      "level": null,
+      "title": "Exercitationes",
+      "url": "exercitationes.html",
+      "type": "page",
+      "aliases": [
+        "practice",
+        "lectio",
+        "scriptio"
+      ]
+    },
+    {
+      "level": null,
+      "title": "Examina Ficta",
+      "url": "examina.html",
+      "type": "page",
+      "aliases": [
+        "mock exam",
+        "probatio"
+      ]
+    },
+    {
+      "level": null,
+      "title": "Varia",
+      "url": "varia.html",
+      "type": "page",
+      "aliases": [
+        "extras",
+        "proverbia",
+        "mythologia"
+      ]
+    },
+    {
+      "level": null,
+      "title": "Lexicon",
+      "url": "lexicon.html",
+      "type": "page",
+      "aliases": [
+        "dictionary",
+        "vocabularium"
+      ]
+    },
+    {
+      "level": null,
+      "title": "Probatio Praeliminaris",
+      "url": "probatio.html",
+      "type": "page",
+      "aliases": [
+        "placement test",
+        "gradus initialis"
+      ]
+    },
+    {
+      "level": null,
+      "title": "Iter Meum",
+      "url": "iter.html",
+      "type": "page",
+      "aliases": [
+        "progress",
+        "xp",
+        "insignia"
+      ]
+    },
+    {
+      "level": null,
+      "title": "Recognitio Hodierna",
+      "url": "hodie.html",
+      "type": "page",
+      "aliases": [
+        "review",
+        "spaced repetition"
+      ]
+    },
+    {
+      "level": null,
+      "title": "Verba Irregularia",
+      "url": "verba-irregularia.html",
+      "type": "page",
+      "aliases": [
+        "irregular verbs",
+        "sum",
+        "possum",
+        "fero",
+        "eo"
+      ]
+    }
+  ]
+}

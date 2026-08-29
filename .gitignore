@@ -10,6 +10,10 @@ package-lock.json
 # Local Claude Code session config
 .claude/
 
+# Cloudflare Wrangler local dev cache
+.wrangler/
+worker/.wrangler/
+
 # OS / editor cruft
 .DS_Store
 *.swp
