@@ -59,11 +59,28 @@
     {
       "id": "iii-comp-story", "type": "reading-comprehension", "title": "Mare Tranquillius",
       "instructions": "Lege, deinde responde.",
-      "passage": "<p>&ldquo;Mare hodiē tranquillius est quam herī,&rdquo; dīcit avus, oculōs ad undās vertēns. &ldquo;Sed ille mōns omnium altissimus est — altior etiam quam nūbēs. Canis tuus, Mārce, melior est quam canis meus quondam erat, sed uterque bonus fuit.&rdquo;</p>",
+      "passage": "<p>&ldquo;Mare hodiē tranquillius est quam herī,&rdquo; dīcit avus, oculōs ad undās vertēns. &ldquo;Sed ille mōns omnium altissimus est — altior etiam quam nūbēs. Canis tuus, Mārce, melior est quam canis meus quondam erat, sed uterque bonus fuit. Tū fortior es quam ego eram illā aetāte, sed ego callidior eram — vel sīc putābam! Optimum est, tamen, nōn semper comparāre: quisque suō modō bonus est.&rdquo;</p>",
       "items": [
         { "id": "comp-story1", "prompt": "Quale est mare hodie, comparatum cum heri?", "options": ["tranquillius", "turbulentius", "idem, nulla differentia"], "answerIndex": 0, "explanation": "'Mare hodie tranquillius est quam heri.'" },
         { "id": "comp-story2", "prompt": "Qualis est ille mons, comparatus cum omnibus aliis?", "options": ["altissimus omnium", "humillimus omnium", "mediocris"], "answerIndex": 0, "explanation": "'Ille mons omnium altissimus est.'" },
-        { "id": "comp-story3", "prompt": "Quid avus de canibus dicit?", "options": ["uterque malus fuit", "canis Marci melior est, sed uterque bonus fuit", "avus canes numquam habuit"], "answerIndex": 1, "explanation": "'Canis tuus melior est... sed uterque bonus fuit.'" }
+        { "id": "comp-story3", "prompt": "Quid avus de canibus dicit?", "options": ["uterque malus fuit", "canis Marci melior est, sed uterque bonus fuit", "avus canes numquam habuit"], "answerIndex": 1, "explanation": "'Canis tuus melior est... sed uterque bonus fuit.'" },
+        { "id": "comp-story4", "prompt": "Quid avus in fine consulit?", "options": ["non semper comparare — quisque suo modo bonus est", "semper comparare omnia", "nihil consulit"], "answerIndex": 0, "explanation": "'Optimum est, non semper comparare: quisque suo modo bonus est.'" }
+      ]
+    },
+    {
+      "id": "iii-comp-match", "type": "matching", "title": "Gradus Comparationis",
+      "instructions": "Cuique adiectivo ex fabula iunge gradum suum.",
+      "items": [
+        {
+          "id": "comp-match1",
+          "pairs": [
+            { "left": "tranquillius", "right": "comparativus (calmer than)" },
+            { "left": "altissimus", "right": "superlativus (tallest of all)" },
+            { "left": "melior", "right": "comparativus irregularis (better than)" },
+            { "left": "optimum", "right": "superlativus irregularis (best)" }
+          ],
+          "explanation": "Positivus, comparativus, superlativus: tres gradus, quosdam regulares (-ior/-issimus), quosdam penitus irregulares (bonus/melior/optimus)."
+        }
       ]
     },
     {

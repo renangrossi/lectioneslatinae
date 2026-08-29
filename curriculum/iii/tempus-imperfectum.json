@@ -59,11 +59,21 @@
     {
       "id": "iii-imperf-story", "type": "reading-comprehension", "title": "Avus Iuvenis",
       "instructions": "Lege, deinde responde.",
-      "passage": "<p>&ldquo;Cotīdiē in marī natābam,&rdquo; nārrat avus, &ldquo;cum iuvenis eram. Cīvēs mē vidēbant et rīdēbant, quia semper cantābam dum natābam. Māter mea semper timēbat, sed pater meus rīdēbat quoque et dīcēbat: 'Puer noster fortis est.'&rdquo;</p>",
+      "passage": "<p>&ldquo;Cotīdiē in marī natābam,&rdquo; nārrat avus, &ldquo;cum iuvenis eram. Cīvēs mē vidēbant et rīdēbant, quia semper cantābam dum natābam. Māter mea semper timēbat, sed pater meus rīdēbat quoque et dīcēbat: 'Puer noster fortis est.' Amīcī meī in lītore manēbant, quia natāre nōn poterant; ego autem procul natābam, et omnēs mē spectābant. Vesperī domum ībam, fessus sed laetus, et māter mea cēnam parābat.&rdquo;</p>",
       "items": [
         { "id": "imperf-story1", "prompt": "Quid avus cotidie faciebat, cum iuvenis esset?", "options": ["in mari natabat", "in horto ludebat", "domi manebat"], "answerIndex": 0, "explanation": "'Cotidie in mari natabam.'" },
         { "id": "imperf-story2", "prompt": "Cur cives ridebant?", "options": ["quia avus cantabat dum natabat", "quia avus cadebat semper", "sine ratione"], "answerIndex": 0, "explanation": "'Semper cantabam dum natabam.'" },
-        { "id": "imperf-story3", "prompt": "Quomodo se habebant mater et pater avi?", "options": ["ambo timebant", "mater timebat, pater ridebat", "neuter quicquam sentiebat"], "answerIndex": 1, "explanation": "'Mater mea semper timebat, sed pater meus ridebat.'" }
+        { "id": "imperf-story3", "prompt": "Quomodo se habebant mater et pater avi?", "options": ["ambo timebant", "mater timebat, pater ridebat", "neuter quicquam sentiebat"], "answerIndex": 1, "explanation": "'Mater mea semper timebat, sed pater meus ridebat.'" },
+        { "id": "imperf-story4", "prompt": "Cur amici avi in litore manebant?", "options": ["quia natare non poterant", "quia timebant avum", "quia fessi erant"], "answerIndex": 0, "explanation": "'Amici mei in litore manebant, quia natare non poterant.'" }
+      ]
+    },
+    {
+      "id": "iii-imperf-tf", "type": "true-false", "title": "Verum an Falsum",
+      "instructions": "Secundum fabulam supra, dic utrum verum sit an falsum.",
+      "items": [
+        { "id": "imperf-tf1", "statement": "Amici avi omnes cum eo procul natabant.", "answer": false, "explanation": "'Amici mei in litore manebant... ego autem procul natabam.'" },
+        { "id": "imperf-tf2", "statement": "Vespere, avus domum ibat fessus sed laetus.", "answer": true, "explanation": "'Vesperi domum ibam, fessus sed laetus.'" },
+        { "id": "imperf-tf3", "statement": "Mater avi numquam cenam parabat.", "answer": false, "explanation": "'Mater mea cenam parabat.'" }
       ]
     },
     {

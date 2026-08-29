@@ -59,11 +59,28 @@
     {
       "id": "iii-decl4-story", "type": "reading-comprehension", "title": "Avus in Exercitu",
       "instructions": "Lege, deinde responde.",
-      "passage": "<p>&ldquo;Manus mea etiam nunc fortis est,&rdquo; dīcit avus, gladium tenēns. &ldquo;Quondam in exercitū Rōmānō fuī. Senātus bellum dēclārāvit, et exercitus noster ad frontem prōfectus est. Multum labōrem et parvum frūctum habuimus, sed patriam servāvimus.&rdquo;</p>",
+      "passage": "<p>&ldquo;Manus mea etiam nunc fortis est,&rdquo; dīcit avus, gladium tenēns. &ldquo;Quondam in exercitū Rōmānō fuī. Senātus bellum dēclārāvit, et exercitus noster ad frontem prōfectus est. Multum labōrem et parvum frūctum habuimus, sed patriam servāvimus. Cornua būcinārum audiēbāmus omnī māne, signum ad surgendum. Genū saepe dolēbat post longum iter, sed numquam questus sum.&rdquo;</p>",
       "items": [
         { "id": "decl4-story1", "prompt": "Quid avus adhuc fortem habet?", "options": ["manum suam", "oculos suos", "nihil"], "answerIndex": 0, "explanation": "'Manus mea etiam nunc fortis est.'" },
         { "id": "decl4-story2", "prompt": "Quis bellum declaravit?", "options": ["senatus", "avus ipse", "exercitus"], "answerIndex": 0, "explanation": "'Senatus bellum declaravit.'" },
-        { "id": "decl4-story3", "prompt": "Quid exercitus tandem fecit?", "options": ["patriam servavit", "fugit sine pugna", "numquam profectus est"], "answerIndex": 0, "explanation": "'Patriam servavimus.'" }
+        { "id": "decl4-story3", "prompt": "Quid exercitus tandem fecit?", "options": ["patriam servavit", "fugit sine pugna", "numquam profectus est"], "answerIndex": 0, "explanation": "'Patriam servavimus.'" },
+        { "id": "decl4-story4", "prompt": "Quid milites omni mane audiebant, signum ad surgendum?", "options": ["cornua bucinarum", "cantum avium", "nihil audiebant"], "answerIndex": 0, "explanation": "'Cornua bucinarum audiebamus omni mane, signum ad surgendum.'" }
+      ]
+    },
+    {
+      "id": "iii-decl4-match", "type": "matching", "title": "Verba Quartae Declinationis",
+      "instructions": "Cuique verbo ex fabula iunge significationem suam.",
+      "items": [
+        {
+          "id": "decl4-match1",
+          "pairs": [
+            { "left": "manus", "right": "pars corporis qua gladium tenemus" },
+            { "left": "exercitus", "right": "multi milites simul" },
+            { "left": "senatus", "right": "qui bellum declarat" },
+            { "left": "genū", "right": "pars corporis quae post longum iter dolet" }
+          ],
+          "explanation": "Omnia haec nomina sunt quartae declinationis: manus/exercitus/senatus (-us, genetivus -ūs) et genū (-ū, neutrum)."
+        }
       ]
     },
     {

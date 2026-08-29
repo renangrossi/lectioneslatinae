@@ -63,11 +63,21 @@
     {
       "id": "iii-istem-story", "type": "reading-comprehension", "title": "Avus in Urbe Maritima",
       "instructions": "Lege, deinde responde.",
-      "passage": "<p>Avus in urbe maritimā habitābat, cum iuvenis esset. &ldquo;Cīvēs urbem dēfendēbant,&rdquo; nārrat, &ldquo;et mare semper perīculōsum erat — multa animālia ingentia in marī vīdī, et in montibus prope urbem mīlitēs semper pugnābant.&rdquo;</p>",
+      "passage": "<p>Avus in urbe maritimā habitābat, cum iuvenis esset. &ldquo;Cīvēs urbem dēfendēbant,&rdquo; nārrat, &ldquo;et mare semper perīculōsum erat — multa animālia ingentia in marī vīdī, et in montibus prope urbem mīlitēs semper pugnābant.&rdquo; Ūnō diē, nāvis ingēns in marī appāruit; omnēs cīvēs ad lītus cucurrērunt. &ldquo;Nōn erant hostēs,&rdquo; rīdet avus, &ldquo;sed mercātōrēs, animālia rāra ex aliīs terrīs ferentēs.&rdquo; Ex illō diē, avus semper mare amāvit, quamvīs perīculōsum esset.</p>",
       "items": [
         { "id": "istem-story1", "prompt": "Ubi avus, cum iuvenis esset, habitabat?", "options": ["in urbe maritima", "in monte alto", "numquam extra domum exiit"], "answerIndex": 0, "explanation": "'Avus in urbe maritima habitabat.'" },
         { "id": "istem-story2", "prompt": "Quid cives urbis faciebant?", "options": ["urbem defendebant", "urbem relinquebant", "nihil faciebant"], "answerIndex": 0, "explanation": "'Cives urbem defendebant.'" },
-        { "id": "istem-story3", "prompt": "Erat mare, secundum avum, semper tutum?", "options": ["ita, semper tutum", "non — semper periculosum erat", "avus mare numquam vidit"], "answerIndex": 1, "explanation": "'Mare semper periculosum erat.'" }
+        { "id": "istem-story3", "prompt": "Erat mare, secundum avum, semper tutum?", "options": ["ita, semper tutum", "non — semper periculosum erat", "avus mare numquam vidit"], "answerIndex": 1, "explanation": "'Mare semper periculosum erat.'" },
+        { "id": "istem-story4", "prompt": "Qui erant in nave ingenti quae uno die apparuit?", "options": ["mercatores, non hostes", "hostes periculosi", "nemo, navis vacua erat"], "answerIndex": 0, "explanation": "'Non erant hostes... sed mercatores, animalia rara ferentes.'" }
+      ]
+    },
+    {
+      "id": "iii-istem-tf", "type": "true-false", "title": "Verum an Falsum",
+      "instructions": "Secundum fabulam supra, dic utrum verum sit an falsum.",
+      "items": [
+        { "id": "istem-tf1", "statement": "Cives, cum navem ingentem viderunt, ad litus cucurrerunt.", "answer": true, "explanation": "'Omnes cives ad litus cucurrerunt.'" },
+        { "id": "istem-tf2", "statement": "Homines in nave hostes erant, non mercatores.", "answer": false, "explanation": "'Non erant hostes... sed mercatores.'" },
+        { "id": "istem-tf3", "statement": "Post illum diem, avus mare numquam amavit.", "answer": false, "explanation": "'Ex illo die, avus semper mare amavit.'" }
       ]
     },
     {
