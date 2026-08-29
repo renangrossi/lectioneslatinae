@@ -15,8 +15,8 @@
     "Cognoscere regulam: subiectum ablativi absoluti non debet iam apparere in clausula principali"
   ],
   "content": {
-    "intro": "'Ūrbe captā, mīlitēs discessērunt' — hanc cōnstrūctiōnem breviter in lēctiōne dē participiō perfectō vīdistī. Nunc eam plēnē fōrmālizāmus: est ūna ex cōnstrūctiōnibus māximē elegantibus et frequentibus prōsae Latīnae.",
-    "explanation": "<p>Ablātīvus absolūtus (litt. 'ablative loosed/independent') est phrasis GRAMMATICĒ INDEPENDĒNS ā rēsiduā sententiā: nōmen (vel prōnōmen) + participium, AMBŌ in ablātīvō, concordantēs inter sē.</p>",
+    "intro": "'Duce imperante, castra posuimus,' recolit Lucius. 'Sole oriente, iter incepimus. Urbe tandem capta, omnes domum discessimus.' Hanc constructionem breviter iam vidisti (urbe capta). Nunc eam plene formalizamus.",
+    "explanation": "<p>&ldquo;Duce imperante, castra posuimus,&rdquo; recolit Lūcius. &ldquo;Sōle oriente, iter incēpimus. Urbe tandem captā, omnēs domum discessimus.&rdquo;</p><p>Notāvistīne: <em>duce imperante, sōle oriente, urbe captā</em> — quaeque phrasis stat grammaticē SEPARĀTA ā rēsiduā sententiā, ambō verba (nōmen + participium) in ablātīvō. Hanc cōnstrūctiōnem breviter iam vīdistī ('urbe captā' in lēctiōne dē participiō perfectō); nunc eam plēnē fōrmālizāmus: est ūna ex cōnstrūctiōnibus māximē ēlegantibus et frequentibus prōsae Latīnae, vocāta <strong>ablātīvus absolūtus</strong> (litt. 'ablative loosed/independent').</p>",
     "rules": [
       {
         "heading": "a) Formatio: Nomen + Participium, Ambo Ablativo",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iv-ablabs-story", "type": "reading-comprehension", "title": "Recordatio Belli Totius",
+      "instructions": "Lege — hic Lucius totam fabulam belli recolligit. Deinde responde.",
+      "passage": "<p>&ldquo;Duce imperante, castra posuimus. Sōle oriente, iter iterum incēpimus per silvās perīculōsās. Hostibus tandem victīs, laetī fuimus. Urbe captā, omnēs domum discessimus — et nunc, Caesare duce pāce factā, in pāce vīvimus.&rdquo;</p>",
+      "items": [
+        { "id": "ablabs-story1", "prompt": "Quando milites castra posuerunt?", "options": ["duce imperante", "sine ullo ordine", "post multos annos"], "answerIndex": 0, "explanation": "'Duce imperante, castra posuimus.'" },
+        { "id": "ablabs-story2", "prompt": "Quando iter iterum inceperunt?", "options": ["sole oriente", "nocte", "numquam iterum"], "answerIndex": 0, "explanation": "'Sole oriente, iter iterum incepimus.'" },
+        { "id": "ablabs-story3", "prompt": "Quid post urbem captam evenit?", "options": ["omnes domum discesserunt", "urbem iterum aedificaverunt", "ibi manserunt semper"], "answerIndex": 0, "explanation": "'Urbe capta, omnes domum discessimus.'" }
+      ]
+    },
     {
       "id": "iv-ablabs-mc", "type": "multiple-choice", "title": "Ablativus Absolutus: Regulae",
       "instructions": "Elige responsum rectum.",

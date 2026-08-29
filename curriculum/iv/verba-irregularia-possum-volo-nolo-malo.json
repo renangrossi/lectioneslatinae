@@ -15,8 +15,8 @@
     "Uti his verbis regulariter cum infinitivo complementari"
   ],
   "content": {
-    "intro": "Post 'sum' ipsum, haec quattuor verba (possum, volo, nolo, malo) sunt inter frequentissima Latinae — et omnia irregularia, quia sunt composita antiqua ex 'sum' et 'volo'.",
-    "explanation": "<p><strong>Possum</strong> = potis ('able') + sum. <strong>Nolo</strong> = ne + volo ('not-want'). <strong>Malo</strong> = magis + volo ('more-want' = 'prefer'). Omnia regulariter accipiunt īnfīnītīvum complementārium.</p>",
+    "intro": "Iulia rogat: 'Visne iterum ire ad bellum?' Lucius respondet: 'Nolo ire, sed non possum manere — dux me vocat. Malo hic manere tecum, sed officium vincit.' Nolo, possum, malo — post 'sum' ipsum, haec verba sunt inter frequentissima Latinae.",
+    "explanation": "<p>Iūlia rogat: &ldquo;Vīsne iterum īre ad bellum?&rdquo; Lūcius respondet: &ldquo;Nōlō īre, sed nōn possum manēre — dux mē vocat. Mālō hīc manēre tēcum, sed officium vincit.&rdquo;</p><p>Notāvistīne quattuor verba parva sed potentia: <em>vīs</em> (vīs, dē voluntāte), <em>nōlō</em> (nōn volō), <em>possum</em> (capācitās), <em>mālō</em> (praelātiō)? <strong>Possum</strong> = potis ('able') + sum. <strong>Nōlō</strong> = ne + volō ('not-want'). <strong>Mālō</strong> = magis + volō ('more-want' = 'prefer'). Omnia regulariter accipiunt īnfīnītīvum complementārium (īre, manēre) — et omnia irregulāria, quia sunt composita antīqua.</p>",
     "rules": [
       {
         "heading": "a) Possum, Posse 'to be able'",
@@ -57,6 +57,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iv-irreg1-story", "type": "reading-comprehension", "title": "Malo Hic Manere",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Iūlia rogat: &ldquo;Vīsne iterum īre ad bellum?&rdquo; Lūcius respondet: &ldquo;Nōlō īre, sed nōn possum manēre — dux mē vocat, et officium meum est venīre. Mālō hīc manēre tēcum et cum Mārcō, sed nōn possum facere quod volō semper.&rdquo; Iūlia trīstis nihil dīcit.</p>",
+      "items": [
+        { "id": "irreg1-story1", "prompt": "Vultne Lucius ire ad bellum?", "options": ["ita, valde vult", "nolo — non vult", "nescimus"], "answerIndex": 1, "explanation": "'Nolo ire' — non vult." },
+        { "id": "irreg1-story2", "prompt": "Cur Lucius, quamvis nolit, tamen ibit?", "options": ["quia manere non potest — officium vincit", "quia Iuliam relinquere vult", "sine ratione"], "answerIndex": 0, "explanation": "'Non possum manere — dux me vocat... officium meum est venire.'" },
+        { "id": "irreg1-story3", "prompt": "Quid Lucius mavult?", "options": ["ire ad bellum", "hic manere cum amicis", "nihil facere"], "answerIndex": 1, "explanation": "'Malo hic manere tecum et cum Marco.'" }
+      ]
+    },
     {
       "id": "iv-irreg1-mc", "type": "multiple-choice", "title": "Possum, Volo, Nolo, Malo",
       "instructions": "Elige responsum rectum.",

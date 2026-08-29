@@ -15,8 +15,8 @@
     "Cognoscere compositos frequentes horum verborum"
   ],
   "content": {
-    "intro": "Tria verba ultima huius trilogiae irregularis — brevissima fōrmā, sed omnipraesentia in Latīnitāte, praesertim in compositīs (ab-eo, af-fero, per-ficio...).",
-    "explanation": "<p>'Eō' est ūnum ē paucissimīs verbīs vērē 'athemāticīs' (sine vōcālī thēmaticā clārā in multīs fōrmīs); 'ferō' est simiterly athemāticum in praesentī; 'fīō' supplet locum passīvī praesentis verbī 'faciō'.</p>",
+    "intro": "Iulia rogat quo Lucius eat. 'Ad castra eo,' respondet. 'Arma ferimus nobiscum, quia iter periculosum est.' Iulia timet: 'Quid fiet tibi?' Lucius: 'Nescio quid fiat — sed non timeo.' Eo, fero, fio: tria verba brevia sed frequentissima.",
+    "explanation": "<p>Iūlia rogat quō Lūcius eat. &ldquo;Ad castra eō,&rdquo; respondet. &ldquo;Arma ferimus nōbīscum, quia iter perīculōsum est per silvās.&rdquo; Iūlia timet: &ldquo;Quid fīet tibi?&rdquo; Lūcius: &ldquo;Nesciō quid fīat — sed nōn timeō.&rdquo;</p><p>Notāvistīne: <em>eō, ferimus, fīet, fīat</em> — tria verba, brevissima fōrmā sed omnipraesentia in Latīnitāte, praesertim in compositīs (ab-eō, af-ferō, per-ficiō...). 'Eō' est ūnum ē paucissimīs verbīs vērē 'athemāticīs' (sine vōcālī thēmaticā clārā in multīs fōrmīs); 'ferō' est similiter athemāticum in praesentī (fers, fert — nōn *feris); 'fīō' supplet locum passīvī praesentis verbī 'faciō'.</p>",
     "rules": [
       {
         "heading": "a) Eo, Ire 'to go'",
@@ -52,6 +52,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iv-irreg2-story", "type": "reading-comprehension", "title": "Quo Lucius Eat",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Iūlia rogat quō Lūcius eat. &ldquo;Ad castra eō,&rdquo; respondet. &ldquo;Arma ferimus nōbīscum, quia iter perīculōsum est per silvās.&rdquo; Iūlia timet: &ldquo;Quid fīet tibi?&rdquo; Lūcius sē vertit et rīdet: &ldquo;Nesciō quid fīat — sed nōn timeō, quia tū domī mē exspectābis.&rdquo;</p>",
+      "items": [
+        { "id": "irreg2-story1", "prompt": "Quo Lucius it?", "options": ["ad castra", "ad forum", "ad montem"], "answerIndex": 0, "explanation": "'Ad castra eo.'" },
+        { "id": "irreg2-story2", "prompt": "Quid milites secum ferunt?", "options": ["arma", "libros", "nihil"], "answerIndex": 0, "explanation": "'Arma ferimus nobiscum.'" },
+        { "id": "irreg2-story3", "prompt": "Timetne Lucius, quamvis nesciat quid fiat?", "options": ["ita, valde timet", "non timet", "numquam de hoc cogitat"], "answerIndex": 1, "explanation": "'Nescio quid fiat — sed non timeo.'" }
+      ]
+    },
     {
       "id": "iv-irreg2-mc", "type": "multiple-choice", "title": "Eo, Fero, Fio: Regulae",
       "instructions": "Elige responsum rectum.",

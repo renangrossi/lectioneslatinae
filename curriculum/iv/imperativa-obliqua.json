@@ -15,8 +15,8 @@
     "Uti dativo cum verbis imperandi (impero, persuadeo) ubi apta sunt"
   ],
   "content": {
-    "intro": "'Dīc eī ut veniat' ('Tell him to come') — quōmodo Latīna exprimit ōrdinēs indirēctōs? Per eandem cōnstrūctiōnem clausulārum fīnālium quās modo dīdicistī.",
-    "explanation": "<p>Post verba imperandī (imperō), petendī (petō, ōrō, rogō), monendī (moneō), hortandī (hortor), clausula obiectīva adhibet <strong>ut/nē</strong> + coniūnctīvum — fōrmāliter identicum clausulae fīnālī, sed FUNCTIONE differt: hīc est OBIECTUM ipsum verbī, nōn propositum āctiōnis alterīus.</p>",
+    "intro": "'Dux Lucio imperavit ut castra poneret,' narrat Lucius. 'Milites hortatus est ut fortiter pugnarent. Sed me venire iussit statim' — non 'ut venirem'. Cur duo verba imperandi tam diverse construuntur? Hodie discis.",
+    "explanation": "<p>&ldquo;Dux mihi imperāvit ut castra pōnerem,&rdquo; nārrat Lūcius. &ldquo;Mīlitēs hortātus est ut fortiter pugnārent. Sed mē venīre iussit statim — nōn 'ut venīrem'.&rdquo;</p><p>Notāvistīne differentiam? <em>Imperāvit ut pōnerem, hortātus est ut pugnārent</em> — post haec verba, ut/nē + coniūnctīvus, fōrmāliter identicum clausulae fīnālī iam nōtae, sed hīc OBIECTUM ipsum verbī est, nōn propositum āctiōnis alterīus. Sed <em>iussit mē venīre</em> — nūllum 'ut'! 'Iubeō' est exceptiō: regit accūsātīvum cum īnfīnītīvō (ut discis in ōrātiōne oblīquā), nōn ut/nē + coniūnctīvum.</p>",
     "rules": [
       {
         "heading": "a) Constructio Basica",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iv-impobl-story", "type": "reading-comprehension", "title": "Ordines Ducis",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Dux mihi imperāvit ut castra pōnerem,&rdquo; nārrat Lūcius. &ldquo;Mīlitēs hortātus est ut fortiter pugnārent, et nōs omnēs monuit nē timērēmus. Sed mē ipsum venīre iussit statim, sine morā — nōn 'ut venīrem', sed simpliciter 'venī'.&rdquo;</p>",
+      "items": [
+        { "id": "impobl-story1", "prompt": "Quid dux Lucio imperavit?", "options": ["ut castra poneret", "ut domum rediret", "ut taceret"], "answerIndex": 0, "explanation": "'Dux mihi imperavit ut castra ponerem.'" },
+        { "id": "impobl-story2", "prompt": "Quid dux milites monuit?", "options": ["ne timerent", "ut fugerent", "ut dormirent"], "answerIndex": 0, "explanation": "'Nos omnes monuit ne timeremus.'" },
+        { "id": "impobl-story3", "prompt": "Formaturne 'iussit' cum 'ut' + coniunctivo, sicut 'imperavit'?", "options": ["ita, eadem constructio", "non — iussit regit accusativum cum infinitivo", "iussit non apparet in fabula"], "answerIndex": 1, "explanation": "'Me venire iussit' — iubeo est exceptio, AcI non ut+coniunctivus." }
+      ]
+    },
     {
       "id": "iv-impobl-mc", "type": "multiple-choice", "title": "Imperativa Obliqua: Regulae",
       "instructions": "Elige responsum rectum.",

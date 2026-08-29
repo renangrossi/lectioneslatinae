@@ -15,8 +15,8 @@
     "Cognoscere verba semi-deponentia (audeo, gaudeo, soleo)"
   ],
   "content": {
-    "intro": "'Deponent' venit ā 'dēpōnō' ('to lay aside') — haec verba dēposuērunt (laid aside) significātiōnem passīvam, retinentēs sōlum fōrmam passīvam cum significātiōne āctīvā.",
-    "explanation": "<p>Verbum dēpōnēns cōniugātur EXACTĒ ut passīvum normāle (amor, amāris, amātur...), sed significat āctīvē: <strong>hortor</strong> nōn significat 'I am urged' sed 'I urge'.</p>",
+    "intro": "'Dux nos hortabatur,' narrat Lucius. 'Sequiminī mē!' clamabat. Ego hostem secutus sum et eum cepi.' 'Hortabatur' et 'secutus sum' habent formam passivam, sed significant active — dux non 'erat hortatus' (was urged), sed IPSE urgebat. Hodie discis cur.",
+    "explanation": "<p>&ldquo;Dux nōs hortābātur,&rdquo; nārrat Lūcius. &ldquo;'Sequiminī mē, mīlitēs!' clāmābat. Ego hostem secūtus sum et eum cēpī. Multa passī sumus in itinere, sed numquam fugere ausī sumus.&rdquo;</p><p>Notāvistīne: <em>hortābātur, secūtus sum, passī sumus, ausī sumus</em> — omnēs hae fōrmae sunt PASSĪVAE (sīcut 'amātur, amātus sum'), sed nihil eōrum significat passīvē! Dux nōn erat hortātus ab aliō — ipse hortābātur. Verbum dēpōnēns cōniugātur EXACTĒ ut passīvum normāle, sed significat āctīvē: 'dēponent' venit ā 'dēpōnō' ('to lay aside') — haec verba dēposuērunt (laid aside) significātiōnem passīvam, retinentēs sōlum fōrmam.</p>",
     "rules": [
       {
         "heading": "a) Exempla, Unum per Coniugationem",
@@ -57,6 +57,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iv-depon-story", "type": "reading-comprehension", "title": "Dux Nos Hortabatur",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Dux nōs hortābātur,&rdquo; nārrat Lūcius. &ldquo;'Sequiminī mē, mīlitēs!' clāmābat, et nōs eum secūtī sumus per silvam. Hostem secūtus sum et eum cēpī. Multa passī sumus in itinere — famem, frīgus, timōrem — sed numquam fugere ausī sumus.&rdquo;</p>",
+      "items": [
+        { "id": "depon-story1", "prompt": "Quid dux militibus dicebat?", "options": ["'Sequimini me!'", "'Fugite statim!'", "nihil dicebat"], "answerIndex": 0, "explanation": "'Sequimini me, milites!' clamabat." },
+        { "id": "depon-story2", "prompt": "Quid Lucius hosti fecit?", "options": ["eum secutus est et cepit", "eum vitavit", "cum eo locutus est tantum"], "answerIndex": 0, "explanation": "'Hostem secutus sum et eum cepi.'" },
+        { "id": "depon-story3", "prompt": "Ausine sunt milites fugere?", "options": ["ita, saepe fugerunt", "numquam fugere ausi sunt", "semper fugiebant"], "answerIndex": 1, "explanation": "'Numquam fugere ausi sumus.'" }
+      ]
+    },
     {
       "id": "iv-depon-mc", "type": "multiple-choice", "title": "Verba Deponentia: Regulae",
       "instructions": "Elige responsum rectum.",
