@@ -6,25 +6,25 @@
   "skill": "grammatica",
   "strand": "coniunctivus",
   "title": "Coniunctivus Perfectum et Plusquamperfectum",
-  "subtitle": "Amaverim, amavissem — duo tempora ultima coniunctivi, cum radice perfecti.",
+  "subtitle": "Si plus aquae tulissemus, facilius ambulavissemus — duo tempora ultima coniunctivi.",
   "prerequisites": ["iv-recognitio-systema-verbi"],
   "objectives": [
+    "Notare in contextu quomodo coniunctivus perfectus/plusquamperfectus narret actionem COMPLETAM (non simultaneam) in clausula subordinata",
     "Formare coniunctivum perfectum activum (radix perfecti + erim)",
     "Formare coniunctivum plusquamperfectum activum (infinitivus perfectus + m, id est radix + issem)",
-    "Formare ambo tempora in voce passiva (participium + sim/essem)",
     "Distinguere coniunctivum perfectum a futuro perfecto indicativo, formaliter similes"
   ],
   "content": {
-    "intro": "Salvē in Gradum V! Coniūnctīvus praesēns et imperfectus iam nōtī sunt; hodiē complēbimus systēma cum duōbus tempōribus ultimīs, ambōbus super rādīce perfectī aedificātīs.",
-    "explanation": "<p>Sīcut indicātīvus, coniūnctīvus quoque habet quattuor tempora: praesēns, imperfectum (iam nōta), perfectum, plūsquamperfectum (hodiē).</p>",
+    "intro": "Claudia Marcum rogat quid in monte evenerit — non 'quid evenit?' (directe), sed 'evenerit', quia quaestio est intra sententiam. Et Marcus dicit: 'Si plus aquae tulissemus, facilius ambulavissemus' — actio iam COMPLETA, ante omnia alia. Hodie discis has formas: coniunctivus perfectus et plusquamperfectus.",
+    "explanation": "<p>Claudia Mārcum rogat quid in monte ēvēnerit. Mārcus rīdet: &ldquo;Longa fābula est! Sī plūs aquae tulissēmus, facilius ambulāvissēmus — sed omnia bene cecidērunt.&rdquo; Claudia dubitat num vērē tam altus fuerit mōns quam Lūcius nārrat. &ldquo;Utinam ipsa vēnissem!&rdquo; exclāmat.</p><p>Notāvistīne: <em>ēvēnerit, fuerit</em> — interrogātiō oblīqua, sed dē āctiōne iam COMPLETĀ (nōn, ut anteā vīdistī, simultāneā: 'quid faciat' vs. hoc novum 'quid fēcerit'). <em>Sī tulissēmus, ambulāvissēmus</em> — condiciō contrāria factō, sed in tempore PRAETERITŌ (nōn praesentī, ut anteā vīdistī cum monte ascendentēs: 'sī habērem, manērem'). <em>Vēnissem</em> — dēsīderium dē praeteritō nōn factō. Omnēs hae fōrmae aedificantur super <strong>rādīce perfectī</strong> — hodiē discis duo tempora ultima coniūnctīvī.</p>",
     "rules": [
       {
         "heading": "a) Coniunctivus Perfectus Activus: Radix Perfecti + erim",
-        "body": "<p><strong>amāverim</strong>, amāverīs, amāverit, amāverīmus, amāverītis, amāverint. AVISO: fōrmāliter simile futūrō perfectō indicātīvō (amāverō, amāveris...), sed differt in 1ª persōnā (-erim vs. -erō) et vōcālibus longīs variīs — contextus (praesentia/absentia coniūnctiōnis subōrdinātae) semper clārificat.</p>"
+        "body": "<p><strong>ēvēnerim</strong>, ēvēnerīs, ēvēnerit, ēvēnerīmus, ēvēnerītis, ēvēnerint — sīcut 'ēvēnerit' in fābulā suprā. AVISO: fōrmāliter simile futūrō perfectō indicātīvō (ēvēnerō, ēveneris...), sed differt in 1ª persōnā (-erim vs. -erō) — contextus (praesentia/absentia coniūnctiōnis subōrdinātae) semper clārificat.</p>"
       },
       {
         "heading": "b) Coniunctivus Plusquamperfectus Activus: Infinitivus Perfectus + Desinentiae",
-        "body": "<p><strong>amāvissem</strong>, amāvissēs, amāvisset, amāvissēmus, amāvissētis, amāvissent — litterāliter īnfīnītīvus perfectus 'amāvisse' + dēsinentiae, sīcut coniūnctīvus imperfectus vēnit ab īnfīnītīvō praesentī.</p>"
+        "body": "<p><strong>tulissem</strong>, tulissēs, tulisset, tulissēmus, tulissētis, tulissent — litterāliter īnfīnītīvus perfectus 'tulisse' + dēsinentiae, sīcut coniūnctīvus imperfectus vēnit ab īnfīnītīvō praesentī. Sīc et 'ambulāvissēmus' (fābula) et 'vēnissem'.</p>"
       },
       {
         "heading": "c) Vox Passiva: Participium + Sim/Essem",
@@ -32,36 +32,61 @@
       },
       {
         "heading": "d) Sum: Ambo Tempora",
-        "body": "<p>Coniūnctīvus perfectus: <strong>fuerim</strong>, fuerīs, fuerit... Coniūnctīvus plūsquamperfectus: <strong>fuissem</strong>, fuissēs, fuisset...</p>"
+        "body": "<p>Coniūnctīvus perfectus: <strong>fuerim</strong>, fuerīs, fuerit... (sīcut in fābulā). Coniūnctīvus plūsquamperfectus: <strong>fuissem</strong>, fuissēs, fuisset...</p>"
       }
     ],
     "examples": [
-      "Nescio quid dixerit. — I do not know what he said. (coniunctivus perfectus, interrogatio obliqua)",
-      "Si hoc fecisset, punitus esset. — If he had done this, he would have been punished. (condicio irrealis praeterita)",
+      "Claudia rogat quid in monte evenerit. — Claudia asks what happened on the mountain. (coniunctivus perfectus, interrogatio obliqua)",
+      "Si plus aquae tulissemus, facilius ambulavissemus. — If we had brought more water, we would have walked more easily. (condicio irrealis praeterita)",
       "Cum urbem cepissent, discesserunt. — When they had captured the city, they left.",
-      "Dubito num verum dixerit. — I doubt whether he told the truth.",
-      "Utinam id numquam fecissem! — If only I had never done that!"
+      "Dubitat num tam altus fuerit mons. — She doubts whether the mountain was so tall.",
+      "Utinam ipsa venissem! — If only I myself had come!"
     ],
     "commonMistakes": [
       {
         "wrong": "Coniunctivus perfectus confunditur cum futuro perfecto indicativo, ambo tractati identice.",
-        "right": "'Amāverim' (coniunctivus) apparet solum in clausulis subordinatis (interrogatio obliqua, etc.); 'amāverō' (indicativus) apparet in clausulis condicionalis/temporalis independentis.",
+        "right": "'Ēvēnerim' (coniunctivus) apparet solum in clausulis subordinatis (interrogatio obliqua, etc.); 'ēvēnerō' (indicativus) apparet in clausulis condicionalis/temporalis independentis.",
         "why": "Distinctio contextus grammatica (subordinatio vs. independentia) resolvit ambiguitatem formalem."
       },
       {
         "wrong": "Coniunctivus plusquamperfectus formatur *'amaverem', per confusione cum imperfecto.",
-        "right": "'amāvissem' — infinitivus PERFECTUS (amāvisse) + desinentiae, non infinitivus praesens.",
-        "why": "Radix perfecti (amāv-) debet esse praesens in coniunctivo plusquamperfecto, differenter ab imperfecto (radix praesentis)."
+        "right": "'ambulāvissem' — infinitivus PERFECTUS (ambulāvisse) + desinentiae, non infinitivus praesens.",
+        "why": "Radix perfecti (ambulāv-) debet esse praesens in coniunctivo plusquamperfecto, differenter ab imperfecto (radix praesentis)."
       }
     ]
   },
   "exercises": [
     {
-      "id": "v-conjperf-mc", "type": "multiple-choice", "title": "Coniunctivus Perfectus/Plusquamperfectus",
-      "instructions": "Elige responsum rectum.",
+      "id": "v-conjperf-story", "type": "reading-comprehension", "title": "Claudia Interrogat de Monte",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Claudia Mārcum rogat quid in monte ēvēnerit. Mārcus rīdet: &ldquo;Longa fābula est! Sī plūs aquae tulissēmus, facilius ambulāvissēmus — sed omnia bene cecidērunt.&rdquo;</p><p>Claudia dubitat num vērē tam altus fuerit mōns quam Lūcius nārrat. &ldquo;Utinam ipsa vēnissem!&rdquo; exclāmat.</p>",
       "items": [
-        { "id": "conjperf1", "prompt": "Coniunctivus perfectus activus est formatus:", "options": ["radix perfecti + erim", "radix praesentis + erim", "participium + sim"], "answerIndex": 0, "explanation": "amāverim: radix perfecti + erim." },
-        { "id": "conjperf2", "prompt": "Coniunctivus plusquamperfectus activus est formatus:", "options": ["radix praesentis + issem", "infinitivus perfectus + desinentiae", "participium + essem"], "answerIndex": 1, "explanation": "amāvissem: infinitivus perfectus + desinentiae." },
+        { "id": "conjperf-story1", "prompt": "Quid Claudia Marcum rogat?", "options": ["quid in monte evenerit", "ubi Marcus habitet", "quota hora sit"], "answerIndex": 0, "explanation": "'Claudia Marcum rogat quid in monte evenerit.'" },
+        { "id": "conjperf-story2", "prompt": "Secundum Marcum, quid facilius fuisset si plus aquae tulissent?", "options": ["dormire", "ambulare", "cantare"], "answerIndex": 1, "explanation": "'Si plus aquae tulissemus, facilius ambulavissemus.'" },
+        { "id": "conjperf-story3", "prompt": "Fuitne Claudia ipsa in monte?", "options": ["ita, cum ceteris venit", "minime — optat se venisse, sed non venit", "semper in monte habitat"], "answerIndex": 1, "explanation": "'Utinam ipsa venissem!' — desiderium de re quae NON facta est." }
+      ]
+    },
+    {
+      "id": "v-conjperf-match", "type": "matching", "title": "Simultaneum an Completum?",
+      "instructions": "Compara has clausulas cum eis quas iam ex lectionibus prioribus novisti — quid nunc mutatur?",
+      "items": [
+        {
+          "id": "conjperf-match1",
+          "pairs": [
+            { "left": "Nesciebam quid faceres. (iam notum)", "right": "actio SIMULTANEA cum verbo principali praeterito — imperfectum" },
+            { "left": "Claudia rogat quid evenerit. (novum)", "right": "actio COMPLETA ante verbum principale — perfectum" },
+            { "left": "Si haberem, manerem. (iam notum)", "right": "condicio contraria facto, in praesenti — imperfectum" },
+            { "left": "Si tulissemus, ambulavissemus. (novum)", "right": "condicio contraria facto, in praeterito — plusquamperfectum" }
+          ],
+          "explanation": "Coniunctivus imperfectus (iam notus) narrat rem simultaneam/praesentem; perfectus/plusquamperfectus (novi hodie) narrant rem iam completam/praeteritam — eadem logica, un gradus plus in tempore."
+        }
+      ]
+    },
+    {
+      "id": "v-conjperf-mc", "type": "multiple-choice", "title": "Nunc Nomina: Perfectus et Plusquamperfectus", "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "conjperf1", "prompt": "Coniunctivus perfectus activus est formatus:", "options": ["radix perfecti + erim", "radix praesentis + erim", "participium + sim"], "answerIndex": 0, "explanation": "amāverim/ēvēnerim: radix perfecti + erim." },
+        { "id": "conjperf2", "prompt": "Coniunctivus plusquamperfectus activus est formatus:", "options": ["radix praesentis + issem", "infinitivus perfectus + desinentiae", "participium + essem"], "answerIndex": 1, "explanation": "tulissem: infinitivus perfectus + desinentiae." },
         { "id": "conjperf3", "prompt": "Coniunctivus perfectus passivus est formatus:", "options": ["participium + sim", "participium + sum", "radix perfecti + im"], "answerIndex": 0, "explanation": "amātus sim: participium + coniunctivus praesens sum." }
       ]
     },
@@ -69,15 +94,15 @@
       "id": "v-conjperf-fill", "type": "fill-blank", "title": "Forma Coniunctivum",
       "instructions": "Elige formam rectam.",
       "items": [
-        { "id": "conjperf4", "prompt": "Nescio quid ___. (he said — dixerit, dicere)", "options": ["dicit", "dixit", "dixerit"], "answers": ["dixerit"], "explanation": "Interrogatio obliqua: coniunctivus perfectus." },
-        { "id": "conjperf5", "prompt": "Si hoc ___, punitus esset. (he had done — fecisset, facere)", "options": ["faceret", "fecisset", "facturus esset"], "answers": ["fecisset"], "explanation": "Condicio irrealis praeterita: coniunctivus plusquamperfectus." }
+        { "id": "conjperf4", "prompt": "Claudia rogat quid ___. (happened — evenerit, evenire)", "options": ["evenit", "eveniebat", "evenerit"], "answers": ["evenerit"], "explanation": "Interrogatio obliqua, actio completa: coniunctivus perfectus." },
+        { "id": "conjperf5", "prompt": "Si plus aquae ___, facilius ambulavissemus. (we had brought — tulissemus, ferre)", "options": ["ferremus", "tulissemus", "tulimus"], "answers": ["tulissemus"], "explanation": "Condicio irrealis praeterita: coniunctivus plusquamperfectus." }
       ]
     }
   ],
   "summary": [
-    "Coniunctivus perfectus activus: radix perfecti + erim (amāverim).",
-    "Coniunctivus plusquamperfectus activus: infinitivus perfectus + desinentiae (amāvissem).",
-    "Passivum: participium + sim (perfectus) / essem (plusquamperfectus).",
+    "Coniunctivus perfectus/plusquamperfectus narrant actionem COMPLETA (non simultanea) in clausula subordinata.",
+    "Coniunctivus perfectus activus: radix perfecti + erim (ēvēnerim).",
+    "Coniunctivus plusquamperfectus activus: infinitivus perfectus + desinentiae (tulissem, ambulāvissem).",
     "Systema coniunctivi nunc completum: praesens, imperfectum, perfectum, plusquamperfectum."
   ],
   "related": [

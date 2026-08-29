@@ -6,25 +6,25 @@
   "skill": "grammatica",
   "strand": "coniunctivus",
   "title": "Coniunctivus Imperfectum",
-  "subtitle": "Amarem, monerem, mitterem — formatio facillima: infinitivus praesens + desinentiae.",
+  "subtitle": "Si plus temporis haberem, manerem — formatio facillima: infinitivus praesens + desinentiae.",
   "prerequisites": ["iv-coniunctivus-praesens"],
   "objectives": [
+    "Notare in contextu tres usus distinctos coniunctivi imperfecti: desiderium irrealis, condicio irrealis, tempus praeteritum in clausulis subordinatis",
     "Formare coniunctivum imperfectum activum: infinitivus praesens + desinentiae personales",
     "Formare coniunctivum imperfectum verbi sum (essem)",
-    "Praeparare consecutionem temporum pro clausulis subordinatis",
-    "Uti coniunctivo imperfecto in condicione irreali praesenti (praeparatio Gradus V)"
+    "Reconoscere in contextu praeparationem pro consecutione temporum"
   ],
   "content": {
-    "intro": "Bona nova: coniūnctīvus imperfectus est facillimum omnium temporum coniūnctīvī ad fōrmandum — nūlla rādīx nova, nūlla mūtātiō irregulāris.",
-    "explanation": "<p>Fōrmātiō: īnfīnītīvus praesēns āctīvus (iam nōtus!) + dēsinentiae persōnālēs normālēs (-m, -s, -t, -mus, -tis, -nt).</p>",
+    "intro": "Iulia, ad montis verticem stans, dicit: 'Si plus temporis haberem, hic totum diem manerem.' Sed non habet — hoc est desiderium contra rem veram, in praesenti. 'Haberem' et 'manerem' non narrant factum, sed rem quae NON est. Hodie discis hanc formam: coniunctivus imperfectus.",
+    "explanation": "<p>Herī, Mārcus, Iūlia, et Lūcius ad montem vēnērunt ut pulchram vīsiōnem vidērent. Ubi ad summum pervēnērunt, Iūlia dīxit: &ldquo;Utinam plūs temporis habērēmus! Sī plūs temporis habērem, hīc tōtum diem manērem.&rdquo; Mārcus respondit: &ldquo;Sī nōn tam fessī essēmus, ad aliam partem quoque īrēmus.&rdquo; Lūcius, semper vigilāns, dīxit: &ldquo;Nesciēbam quam altus esset mōns — nunc sciō.&rdquo;</p><p>Notāvistīne trēs ūsūs? <em>vēnērunt ut vidērent</em> — prōpositum in tempore praeteritō (iam nōtum ex Clausulīs Fīnālibus). <em>Sī habērem, manērem</em> — dēsīderium/condiciō contrāria reī vērae in praesentī: Iūlia NŌN habet tempus, ergō NŌN manet. <em>Nesciēbam quam altus esset</em> — interrogātiō oblīqua (iam nōta), gubernāta ā verbō praeteritō 'nesciēbam'. Tribus in cāsibus, eadem fōrma: <strong>coniūnctīvus imperfectus</strong>.</p>",
     "rules": [
       {
         "heading": "a) Formatio Universalis",
-        "body": "<p><strong>amāre</strong> + m/s/t... → <strong>amārem</strong>, amārēs, amāret, amārēmus, amārētis, amārent. <strong>monēre</strong> → <strong>monērem</strong>. <strong>mittere</strong> → <strong>mitterem</strong>. <strong>audīre</strong> → <strong>audīrem</strong>. Idem prō omnī coniugātiōne, sine exceptiōne!</p>"
+        "body": "<p><strong>amāre</strong> + m/s/t... → <strong>amārem</strong>, amārēs, amāret, amārēmus, amārētis, amārent. <strong>manēre</strong> → <strong>manērem</strong> (sīcut Iūlia dīxit). <strong>īre</strong> → <strong>īrem</strong> (sīcut Mārcus dīxit). Idem prō omnī coniugātiōne, sine exceptiōne!</p>"
       },
       {
         "heading": "b) Sum: Coniunctivus Imperfectus",
-        "body": "<p><strong>essem</strong>, essēs, esset, essēmus, essētis, essent (ā rādīce 'es-' + dēsinentiae; nōn *forem, quamvis illa fōrma quoque rārō exsistat archaicē).</p>"
+        "body": "<p><strong>essem</strong>, essēs, esset, essēmus, essētis, essent (ā rādīce 'es-' + dēsinentiae — sīcut 'essēmus' in fābulā suprā).</p>"
       },
       {
         "heading": "c) Usus: Condicio Irrealis Praesens",
@@ -32,15 +32,15 @@
       },
       {
         "heading": "d) Praeparatio: Consecutio Temporum",
-        "body": "<p>Coniūnctīvus imperfectus adhibētur in clausulīs subōrdinātīs post verbum prīncipāle PRAETERITUM (sequentia historica): <em>Vēnit ut tē vidēret.</em> ('He came IN ORDER TO see you' — imperfectum coniūnctīvī, quia 'vēnit' est praeteritum). Plēnius hanc rēgulam (cōnsecūtiō temporum) in Gradū V discēs.</p>"
+        "body": "<p>Coniūnctīvus imperfectus adhibētur in clausulīs subōrdinātīs post verbum prīncipāle PRAETERITUM (sequentia historica): <em>Vēnērunt ut vidērent.</em> ('They came IN ORDER TO see' — imperfectum coniūnctīvī, quia 'vēnērunt' est praeteritum). Plēnius hanc rēgulam (cōnsecūtiō temporum) in Gradū V discēs.</p>"
       }
     ],
     "examples": [
-      "Si pecuniam haberem, tibi darem. — If I had money, I would give it to you.",
-      "Utinam hic esses! — If only you were here!",
-      "Milites pugnabant ne urbs caperetur. — The soldiers were fighting so that the city would not be captured.",
-      "Nesciebam quid faceres. — I did not know what you were doing.",
-      "Vellem hoc verum esset. — I would wish this were true."
+      "Si plus temporis haberem, hic manerem. — If I had more time, I would stay here.",
+      "Utinam plus temporis haberemus! — If only we had more time!",
+      "Venerunt ut pulchram visionem viderent. — They came in order to see the beautiful view.",
+      "Nesciebam quam altus esset mons. — I did not know how high the mountain was.",
+      "Milites pugnabant ne urbs caperetur. — The soldiers were fighting so that the city would not be captured."
     ],
     "commonMistakes": [
       {
@@ -57,11 +57,35 @@
   },
   "exercises": [
     {
-      "id": "iv-conjimp-mc", "type": "multiple-choice", "title": "Coniunctivus Imperfectus: Regulae",
-      "instructions": "Elige responsum rectum.",
+      "id": "iv-conjimp-story", "type": "reading-comprehension", "title": "Ad Summum Montis",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Herī, Mārcus, Iūlia, et Lūcius ad montem vēnērunt ut pulchram vīsiōnem vidērent. Ubi ad summum pervēnērunt, Iūlia dīxit: &ldquo;Utinam plūs temporis habērēmus! Sī plūs temporis habērem, hīc tōtum diem manērem.&rdquo;</p><p>Mārcus respondit: &ldquo;Sī nōn tam fessī essēmus, ad aliam partem quoque īrēmus.&rdquo; Lūcius, semper vigilāns, dīxit: &ldquo;Nesciēbam quam altus esset mōns — nunc sciō. Crās melius parābimur.&rdquo;</p>",
+      "items": [
+        { "id": "conjimp-story1", "prompt": "Cur Marcus, Iulia, et Lucius ad montem venerunt?", "options": ["ut pulchram visionem viderent", "ut dormirent", "sine ratione"], "answerIndex": 0, "explanation": "'Venerunt ut pulchram visionem viderent.'" },
+        { "id": "conjimp-story2", "prompt": "Manetne Iulia diu in monte?", "options": ["ita, totum diem manet", "minime — vellet manere, sed non manet, quia tempus non habet", "numquam ad montem venit"], "answerIndex": 1, "explanation": "'Si plus temporis haberem, manerem' — condicio contraria facto: NON habet, ERGO NON manet." },
+        { "id": "conjimp-story3", "prompt": "Sciebatne Lucius ante iter quam altus esset mons?", "options": ["ita, bene sciebat", "non sciebat", "mons non erat altus"], "answerIndex": 1, "explanation": "'Nesciebam quam altus esset mons.'" }
+      ]
+    },
+    {
+      "id": "iv-conjimp-match", "type": "matching", "title": "Tres Usus, Una Forma",
+      "instructions": "Cuique sententiae iunge id quod coniunctivus imperfectus ibi facit.",
+      "items": [
+        {
+          "id": "conjimp-match1",
+          "pairs": [
+            { "left": "Venerunt ut viderent.", "right": "propositum in tempore praeterito (clausula finalis)" },
+            { "left": "Si plus temporis haberem, manerem.", "right": "condicio/desiderium contrarium rei verae in praesenti" },
+            { "left": "Nesciebam quam altus esset mons.", "right": "interrogatio obliqua, gubernata a verbo praeterito" }
+          ],
+          "explanation": "Tres usus formaliter identici (infinitivus + desinentiae) sed functione diversi — contextus semper distinguit."
+        }
+      ]
+    },
+    {
+      "id": "iv-conjimp-mc", "type": "multiple-choice", "title": "Nunc Nomina: Coniunctivus Imperfectus", "instructions": "Elige responsum rectum.",
       "items": [
         { "id": "conjimp1", "prompt": "Coniunctivus imperfectus formatur:", "options": ["radix perfecti + desinentiae", "infinitivus praesens + desinentiae", "radix praesentis + -ba-"], "answerIndex": 1, "explanation": "Formatio universalis: infinitivus + desinentiae." },
-        { "id": "conjimp2", "prompt": "Coniunctivus imperfectus verbi 'mittere' (1a persona sg.) est:", "options": ["mitterem", "mittebam", "mittam"], "answerIndex": 0, "explanation": "mittere + -m: mitterem." },
+        { "id": "conjimp2", "prompt": "Coniunctivus imperfectus verbi 'manere' (1a persona sg.) est:", "options": ["manerem", "manebam", "manerim"], "answerIndex": 0, "explanation": "manere + -m: manerem." },
         { "id": "conjimp3", "prompt": "Coniunctivus imperfectus verbi 'sum' (1a persona sg.) est:", "options": ["sim", "eram", "essem"], "answerIndex": 2, "explanation": "essem, ab infinitivo esse." }
       ]
     },
@@ -69,15 +93,15 @@
       "id": "iv-conjimp-fill", "type": "fill-blank", "title": "Forma Coniunctivum Imperfectum",
       "instructions": "Elige formam rectam.",
       "items": [
-        { "id": "conjimp4", "prompt": "Si pecuniam ___, tibi darem. (I had — haberem, habere)", "options": ["habeo", "habebam", "haberem"], "answers": ["haberem"], "explanation": "Coniunctivus imperfectus: haberem." },
-        { "id": "conjimp5", "prompt": "Utinam hic ___! (you were — esses, esse)", "options": ["es", "eras", "esses"], "answers": ["esses"], "explanation": "Coniunctivus imperfectus, 2a sg.: essēs." }
+        { "id": "conjimp4", "prompt": "Si plus temporis ___, hic manerem. (I had — haberem, habere)", "options": ["habeo", "habebam", "haberem"], "answers": ["haberem"], "explanation": "Coniunctivus imperfectus: haberem." },
+        { "id": "conjimp5", "prompt": "Utinam plus temporis ___! (we had — haberemus)", "options": ["habemus", "habebamus", "haberemus"], "answers": ["haberemus"], "explanation": "Coniunctivus imperfectus, 1a pl.: habērēmus." }
       ]
     }
   ],
   "summary": [
     "Coniunctivus imperfectus = infinitivus praesens activus + desinentiae personales.",
     "amārem, monērem, mitterem, audīrem; sum → essem.",
-    "Usus: condicio irrealis praesens, consecutio temporum post verbum praeteritum."
+    "Tres usus: desiderium/condicio irrealis praesens, propositum in praeterito (finalis), interrogatio obliqua post verbum praeteritum."
   ],
   "related": [
     { "lessonId": "iv-coniunctivus-praesens", "label": "Coniunctivus Praesens" },

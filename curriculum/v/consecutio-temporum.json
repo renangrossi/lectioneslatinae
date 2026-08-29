@@ -6,29 +6,29 @@
   "skill": "grammatica",
   "strand": "syntaxis",
   "title": "Consecutio Temporum",
-  "subtitle": "Sequentia prima et historica — tabula completa quae gubernat omnem clausulam subordinatam.",
+  "subtitle": "Nescio cur venias / veneris — quod iam intuitive faciebas, nunc formalizamus.",
   "prerequisites": ["v-coniunctivus-perfectum-et-plusquamperfectum"],
   "objectives": [
+    "Recognoscere in sententiis iam notis (ex lectionibus prioribus) duo factora quae regunt tempus coniunctivi",
     "Formalizare regulam sequentiae primariae et historicae",
-    "Applicare quattuor tempora coniunctivi correcte secundum tempus verbi principalis",
-    "Distinguere actionem incompletam/simultaneam ab actione completa/anteriore in clausula subordinata",
-    "Uti hac regula consistenter per omnes clausulas subordinatas (iam vistas et futuras)"
+    "Applicare quattuor tempora coniunctivi correcte secundum tempus verbi principalis et actionem clausulae",
+    "Uti hac regula consistenter per omnes clausulas subordinatas iam visas"
   ],
   "content": {
-    "intro": "Iam applicavisti hanc regulam intuitive in clausulis finalibus. Hodie eam formalizamus plene, cum omnibus quattuor temporibus coniunctivi, quia gubernat LITERALITER omnem clausula subordinata coniunctivo Gradus V.",
-    "explanation": "<p>Rēgula dēpendet ā DUOBUS factōribus: (1) est verbum prīncipāle PRĪMĀRIUM (praesēns, futūrum, futūrum perfectum) an HISTORICUM (imperfectum, perfectum, plūsquamperfectum)? (2) est āctiō clausulae subōrdinātae SIMULTĀNEA/POSTERIOR an ANTERIOR verbō prīncipālī?</p>",
+    "intro": "Per multas fabulas, iam coniunctivum in multis formis vidisti: 'Eamus!' (Marcus), 'Si plus temporis haberem, manerem' (Iulia in monte), 'Claudia rogat quid evenerit', 'Nesciebam cur venisses'. Quid commune habent, et quid eas distinguit? Hodie id quod intuitive iam faciebas, formalizamus in una regula.",
+    "explanation": "<p>Compārā duo paria sententiārum quae iam ex lēctiōnibus prīōribus nōtī sunt: <em>Nesciō cūr veniās</em> (hodiē, āctiō simul cum 'nesciō') vs. <em>Nesciō cūr vēnerīs</em> (hodiē, āctiō iam factā ante 'nesciō') — ambae post verbum PRAESĒNS, sed coniūnctīvus mūtat secundum tempus ipsīus āctiōnis. Et: <em>Nesciēbam cūr venīrēs</em> (heri, āctiō simul tunc) vs. <em>Nesciēbam cūr vēnissēs</em> (heri, āctiō iam factā ante illud tempus) — ambae post verbum PRAETERITUM.</p><p>Quid animadvertis? Duo factōrēs regunt fōrmam: <strong>(1)</strong> tempus verbī PRĪNCIPĀLIS — praesēns/futūrum (prīmārium) an praeteritum (historicum)? <strong>(2)</strong> āctiō clausulae subōrdinātae — simultānea/posterior, an iam factā (anterior)? Haec rēgula, quam iam per Mārcum, Iūliam, Claudiam, et Lūcium intuitīvē applicāvistī, nunc plēnē fōrmālizāmus in ūnā tabulā.</p>",
     "rules": [
       {
         "heading": "a) Tabula Completa",
         "body": "<table class=\"ref-table\"><thead><tr><th>Verbum Principale</th><th>Actio Simultanea/Posterior</th><th>Actio Anterior</th></tr></thead><tbody><tr><td>Primarium (praesēns, futūrum)</td><td>Coniunctivus PRAESENS</td><td>Coniunctivus PERFECTUS</td></tr><tr><td>Historicum (imperfectum, perfectum, plusquamperfectum)</td><td>Coniunctivus IMPERFECTUS</td><td>Coniunctivus PLUSQUAMPERFECTUS</td></tr></tbody></table>"
       },
       {
-        "heading": "b) Exempla per Cellulam",
-        "body": "<p><strong>Primarium + simultaneum</strong>: <em>Rogat quid faciās.</em> ('He asks what you ARE DOING.') <strong>Primarium + anterius</strong>: <em>Rogat quid fēceris.</em> ('He asks what you DID/HAVE DONE.') <strong>Historicum + simultaneum</strong>: <em>Rogāvit quid facerēs.</em> ('He asked what you WERE DOING.') <strong>Historicum + anterius</strong>: <em>Rogāvit quid fēcissēs.</em> ('He asked what you HAD DONE.')</p>"
+        "heading": "b) Exempla per Cellulam (Iam Nota)",
+        "body": "<p><strong>Primarium + simultaneum</strong>: <em>Nescio cur venias.</em> ('I do not know why you ARE COMING.') <strong>Primarium + anterius</strong>: <em>Nescio cur veneris.</em> ('I do not know why you CAME.') <strong>Historicum + simultaneum</strong>: <em>Nesciebam cur venires.</em> ('I did not know why you WERE COMING.') <strong>Historicum + anterius</strong>: <em>Nesciebam cur venisses.</em> ('I did not know why you HAD COME.')</p>"
       },
       {
         "heading": "c) Applicatio Universalis",
-        "body": "<p>Haec tabula gubernat clausulās fīnālēs (iam nōtae), interrogātiōnēs oblīquās, clausulās cōnsecūtīvās, cum-clausulās, et cētera quae in hōc Gradū discēs. Ūna rēgula, applicāta cōnsistenter, simplificat tōtam syntaxim coniūnctīvī.</p>"
+        "body": "<p>Haec tabula gubernat clausulās fīnālēs, interrogātiōnēs oblīquās, clausulās cōnsecūtīvās, cum-clausulās, et cētera quae in hōc Gradū discis — omnēs, sine exceptiōne. Ūna rēgula, applicāta cōnsistenter, simplificat tōtam syntaxim coniūnctīvī.</p>"
       }
     ],
     "examples": [
@@ -52,8 +52,33 @@
   },
   "exercises": [
     {
-      "id": "v-consec-mc", "type": "multiple-choice", "title": "Consecutio Temporum: Tabula",
-      "instructions": "Elige responsum rectum.",
+      "id": "v-consec-story", "type": "reading-comprehension", "title": "Lucius Omnia Narrat",
+      "instructions": "Lege — hic Lucius totam fabulam prioris recolligit. Deinde responde.",
+      "passage": "<p>Lūcius mātrī Claudiae tōtam rem nārrat: &ldquo;Nesciēbam quam altus esset mōns, sed vēnimus ut pulchram vīsiōnem vidērēmus. Sī plūs aquae tulissēmus, facilius ambulāvissēmus. Nunc Claudia rogat quid ēvēnerit — eī nārrāvī omnia, et crēdō eam laetam esse quod tūtī rediimus.&rdquo;</p>",
+      "items": [
+        { "id": "consec-story1", "prompt": "Sciebatne Lucius ante iter quam altus esset mons?", "options": ["ita, optime sciebat", "non sciebat", "mons non erat altus"], "answerIndex": 1, "explanation": "'Nesciebam quam altus esset mons.'" },
+        { "id": "consec-story2", "prompt": "Portaveruntne satis aquae?", "options": ["ita, satis portaverunt", "non satis — si plus tulissent, facilius ambulavissent", "nullam aquam portaverunt"], "answerIndex": 1, "explanation": "'Si plus aquae tulissemus, facilius ambulavissemus' — condicio contraria facto: non satis tulerunt." },
+        { "id": "consec-story3", "prompt": "Quid Lucius de Claudia credit?", "options": ["eam iratam esse", "eam laetam esse quod tuti rediimus", "eam nihil scire"], "answerIndex": 1, "explanation": "'Credo eam laetam esse quod tuti rediimus.'" }
+      ]
+    },
+    {
+      "id": "v-consec-match", "type": "matching", "title": "Compone in Tabula",
+      "instructions": "Cuique paria sententiarum (iam nota) iunge cellam tabulae quam illustrat.",
+      "items": [
+        {
+          "id": "consec-match1",
+          "pairs": [
+            { "left": "Nescio cur venias.", "right": "primarium + simultaneum -> praesens" },
+            { "left": "Nescio cur veneris.", "right": "primarium + anterius -> perfectus" },
+            { "left": "Nesciebam cur venires.", "right": "historicum + simultaneum -> imperfectus" },
+            { "left": "Nesciebam cur venisses.", "right": "historicum + anterius -> plusquamperfectus" }
+          ],
+          "explanation": "Duo factores — tempus verbi principalis (primarium/historicum) et relatio temporalis actionis (simultanea/anterior) — determinant una cum quattuor tempora possibilia coniunctivi."
+        }
+      ]
+    },
+    {
+      "id": "v-consec-mc", "type": "multiple-choice", "title": "Nunc Formaliter: Consecutio Temporum", "instructions": "Elige responsum rectum.",
       "items": [
         { "id": "consec1", "prompt": "Verbum principale 'rogat' (praesens) + actio simultanea → coniunctivus:", "options": ["praesens", "imperfectum", "perfectum"], "answerIndex": 0, "explanation": "Primarium + simultaneum = praesens." },
         { "id": "consec2", "prompt": "Verbum principale 'rogavit' (perfectum) + actio anterior → coniunctivus:", "options": ["perfectum", "plusquamperfectum", "praesens"], "answerIndex": 1, "explanation": "Historicum + anterius = plusquamperfectum." },
@@ -72,7 +97,7 @@
   "summary": [
     "Primarium (praesens/futurum/futurum perfectum) → coniunctivus praesens (simultaneum) vel perfectus (anterius).",
     "Historicum (imperfectum/perfectum/plusquamperfectum) → coniunctivus imperfectus (simultaneum) vel plusquamperfectus (anterius).",
-    "Haec tabula gubernat consistenter omnem clausulam subordinatam coniunctivo per totum Gradum V."
+    "Haec tabula formaliza id quod iam per Marcum, Iuliam, Claudiam, et Lucium intuitive vidisti — gubernat consistenter omnem clausulam subordinatam coniunctivo."
   ],
   "related": [
     { "lessonId": "v-coniunctivus-perfectum-et-plusquamperfectum", "label": "Coniunctivus Perfectum et Plusquamperfectum" },

@@ -6,29 +6,29 @@
   "skill": "grammatica",
   "strand": "clausulae",
   "title": "Clausulae Finales",
-  "subtitle": "Ut/ne + coniunctivus — 'in order to', cum consecutione temporum.",
+  "subtitle": "Funem tulit ne quis caderet — ut/ne + coniunctivus, propositum non factum.",
   "prerequisites": ["iv-coniunctivus-imperfectum"],
   "objectives": [
+    "Notare in contextu quomodo 'ut/nē + coniunctivus' respondeat quaestioni 'cur?' vel 'quo consilio?'",
     "Formare clausulas finales cum ut (affirmativum) et ne (negativum)",
     "Applicare consecutionem temporum: praesens post verbum principale praesens/futurum, imperfectum post praeteritum",
-    "Distinguere clausulam finalem a clausula obiectiva similis formae",
     "Uti relativo + coniunctivo pro clausula finali alternativa"
   ],
   "content": {
-    "intro": "Nunc coniūnctīvum in ūsū subōrdinātō vidēbis prīmum: clausula fīnālis exprimit PROPOSITUM (purpose) āctiōnis — 'in order to', 'so that'.",
-    "explanation": "<p>Latīna nōn habet īnfīnītīvum prō 'in order to' (differenter ab Anglicā 'to see'); adhibet clausulam cum <strong>ut</strong> (affirmātīvē) vel <strong>nē</strong> (negātīvē) + coniūnctīvum.</p>",
+    "intro": "Cur Lucius funem portat? Non sine causa: funem portat NE QUIS CADAT — 'so that no one falls'. Cur Iulia aquam parat? Aquam parat UT OMNES BIBANT — 'so that everyone drinks'. Utraque clausula respondet quaestioni 'cur?' cum coniunctivo: hodie discimus clausulam finalem.",
+    "explanation": "<p>Ante iter ad montem, Lūcius omnia parat. Fūnem portat — cūr? &ldquo;Fūnem portō nē quis cadat,&rdquo; explicat. Iūlia aquam parat — cūr? &ldquo;Aquam parō ut omnēs itinere bibant.&rdquo; Mārcus ad senem adit — cūr? &ldquo;Ad eum adeō ut is viam rēctam mōnstret.&rdquo;</p><p>Posteā, cum iam domum revēnissent, Iūlia amīcae nārrāvit: &ldquo;Fūnem tulimus nē quis caderet. Aquam parāvimus ut omnēs biberent.&rdquo; Notāvistīne: hodiē (praesēns) dīcunt <em>cadat, bibant, mōnstret</em>; herī nārrantēs (praeteritum) dīcunt <em>caderet, biberent</em>. Eadem cōnstrūctiō — <strong>ut/nē + coniūnctīvus</strong> — sed tempus coniūnctīvī sequitur tempus verbī prīncipālis.</p><p>Omnēs hae clausulae respondent quaestiōnī <strong>cūr?</strong> vel <strong>quō cōnsiliō?</strong> ('for what purpose?') — nōn nārrant factum simplex, sed prōpositum āctiōnis. Hoc vocātur <strong>clausula fīnālis</strong> ('purpose clause').</p>",
     "rules": [
       {
         "heading": "a) Consecutio Temporum: Regula Fundamentalis",
-        "body": "<p>Sī verbum prīncipāle est <strong>praesēns/futūrum</strong> (sequentia prīmāria), clausula fīnālis adhibet coniūnctīvum <strong>praesentem</strong>: <em>Venit ut videat.</em> ('He comes in order to see.') Sī verbum prīncipāle est <strong>praeteritum</strong> (sequentia historica: perfectum, imperfectum), clausula adhibet coniūnctīvum <strong>imperfectum</strong>: <em>Vēnit ut vidēret.</em> ('He came in order to see.')</p>"
+        "body": "<p>Sī verbum prīncipāle est <strong>praesēns/futūrum</strong> (sequentia prīmāria), clausula fīnālis adhibet coniūnctīvum <strong>praesentem</strong>: <em>Portat nē cadat.</em> ('He carries it so that he/no one falls.') Sī verbum prīncipāle est <strong>praeteritum</strong> (sequentia historica), clausula adhibet coniūnctīvum <strong>imperfectum</strong>: <em>Tulit nē caderet.</em> ('He carried it so that he/no one would fall.') — sīcut in fābulā suprā.</p>"
       },
       {
         "heading": "b) Negatio: Ne, non Non",
-        "body": "<p>Negātiō clausulae fīnālis est <strong>nē</strong> (nōn 'ut nōn'): <em>Fugit nē caperētur.</em> ('He fled so that he would not be captured' / 'lest he be captured'.)</p>"
+        "body": "<p>Negātiō clausulae fīnālis est <strong>nē</strong> (nōn 'ut nōn'): <em>Fūnem tulit nē caderet.</em> ('He carried the rope so that he would not fall' / 'lest he fall'.)</p>"
       },
       {
         "heading": "c) Relativum + Coniunctivus: Alternativa",
-        "body": "<p>Cum antecēdēns explicitus praesēns est, 'quī/quae/quod' + coniūnctīvus potest substituere 'ut': <em>Lēgātōs mīsit quī pācem peterent.</em> ('He sent envoys TO SEEK peace' — litt. 'who would seek peace'.)</p>"
+        "body": "<p>Cum antecēdēns explicitus praesēns est, 'quī/quae/quod' + coniūnctīvus potest substituere 'ut': <em>Mārcus senem quaesīvit quī viam mōnstrāret.</em> ('Marcus looked for an old man TO SHOW the way' — litt. 'who would show the way'.)</p>"
       },
       {
         "heading": "d) Distinctio: Clausula Finalis vs. Obiectiva",
@@ -36,10 +36,11 @@
       }
     ],
     "examples": [
-      "Studet ut sapiens fiat. — He studies in order to become wise.",
+      "Lucius funem portat ne quis cadat. — Lucius carries the rope so that no one falls.",
+      "Iulia aquam parat ut omnes bibant. — Iulia prepares water so that everyone drinks.",
+      "Marcus ad senem adiit ut viam monstraret. — Marcus went to the old man so that he would show the way.",
       "Milites muros aedificaverunt ut urbem defenderent. — The soldiers built walls in order to defend the city.",
       "Tacuit ne veritatem revelaret. — He kept silent so as not to reveal the truth.",
-      "Caesar pontem fecit quo exercitum traduceret. — Caesar built a bridge by which to lead the army across.",
       "Venimus ut vos adiuvemus. — We come in order to help you."
     ],
     "commonMistakes": [
@@ -51,17 +52,42 @@
       {
         "wrong": "Negatio clausulae finalis formatur 'ut non', per analogiam Anglicam ('so that...not').",
         "right": "Negatio est semper 'nē' sola, numquam 'ut nōn' in clausula finali pura.",
-        "why": "'nē' est particula negativa propria clausularum finalium (et optativarum/hortativarum)."
+        "why": "'nē' est particula negativa propria clausularum finalium (et optativarum/hortativarum, iam nota ex Coniunctivo Praesenti)."
       }
     ]
   },
   "exercises": [
     {
-      "id": "iv-fin-mc", "type": "multiple-choice", "title": "Clausulae Finales: Regulae",
-      "instructions": "Elige responsum rectum.",
+      "id": "iv-fin-story", "type": "reading-comprehension", "title": "Cur Parant?",
+      "instructions": "Lege, deinde responde secundum sensum — quaere semper 'cur?'.",
+      "passage": "<p>Ante iter ad montem, Lūcius omnia parat. Fūnem portat — cūr? &ldquo;Fūnem portō nē quis cadat,&rdquo; explicat. Iūlia aquam parat — cūr? &ldquo;Aquam parō ut omnēs itinere bibant.&rdquo; Mārcus ad senem adit — cūr? &ldquo;Ad eum adeō ut is viam rēctam mōnstret.&rdquo;</p><p>Posteā, cum iam domum revēnissent, Iūlia amīcae Claudiae nārrāvit: &ldquo;Fūnem tulimus nē quis caderet. Aquam parāvimus ut omnēs biberent. Et senem quaesīvimus quī viam mōnstrāret — sine eō numquam viam rēctam invēnissēmus.&rdquo;</p>",
       "items": [
-        { "id": "fin1", "prompt": "'Venit ut videat' — quod tempus coniunctivi adhibetur?", "options": ["praesens (sequentia primaria)", "imperfectum (sequentia historica)", "perfectum"], "answerIndex": 0, "explanation": "'Venit' est praesens: sequentia primaria." },
-        { "id": "fin2", "prompt": "'Vēnit ut vidēret' — quod tempus coniunctivi?", "options": ["praesens", "imperfectum (sequentia historica)", "futurum"], "answerIndex": 1, "explanation": "'Vēnit' est perfectum (praeteritum): sequentia historica." },
+        { "id": "fin-story1", "prompt": "Cur Lucius funem portat?", "options": ["ut vendat", "ne quis cadat", "quia pulcher est"], "answerIndex": 1, "explanation": "'Funem portō nē quis cadat.'" },
+        { "id": "fin-story2", "prompt": "Cur Iulia aquam parat?", "options": ["ut omnes bibant", "ut plantas curet", "sine ratione"], "answerIndex": 0, "explanation": "'Aquam parō ut omnēs itinere bibant.'" },
+        { "id": "fin-story3", "prompt": "Cur Marcus ad senem adit?", "options": ["ut cum eo colloquatur de aliis rebus", "ut is viam rectam monstret", "ut eum salutet tantum"], "answerIndex": 1, "explanation": "'Ad eum adeō ut is viam rēctam mōnstret.'" }
+      ]
+    },
+    {
+      "id": "iv-fin-match", "type": "matching", "title": "Praesens an Praeteritum?",
+      "instructions": "Cuique clausulae finali ex fabula iunge tempus verbi principalis quod eam gubernat.",
+      "items": [
+        {
+          "id": "fin-match1",
+          "pairs": [
+            { "left": "Funem portō nē quis cadat.", "right": "verbum principale praesens (portō) -> coniunctivus praesens" },
+            { "left": "Funem tulimus nē quis caderet.", "right": "verbum principale praeteritum (tulimus) -> coniunctivus imperfectum" },
+            { "left": "Aquam parō ut omnēs bibant.", "right": "verbum principale praesens (parō) -> coniunctivus praesens" },
+            { "left": "Aquam parāvimus ut omnēs biberent.", "right": "verbum principale praeteritum (parāvimus) -> coniunctivus imperfectum" }
+          ],
+          "explanation": "Consecutio temporum: tempus coniunctivi in clausula finali sequitur semper tempus verbi principalis (praesens/futurum -> praesens; praeteritum -> imperfectum)."
+        }
+      ]
+    },
+    {
+      "id": "iv-fin-mc", "type": "multiple-choice", "title": "Nunc Nomina: Clausulae Finales", "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "fin1", "prompt": "'Portat nē cadat' — quod tempus coniunctivi adhibetur?", "options": ["praesens (sequentia primaria)", "imperfectum (sequentia historica)", "perfectum"], "answerIndex": 0, "explanation": "'Portat' est praesens: sequentia primaria." },
+        { "id": "fin2", "prompt": "'Tulit nē caderet' — quod tempus coniunctivi?", "options": ["praesens", "imperfectum (sequentia historica)", "futurum"], "answerIndex": 1, "explanation": "'Tulit' est perfectum (praeteritum): sequentia historica." },
         { "id": "fin3", "prompt": "Negatio clausulae finalis est:", "options": ["ut non", "nē", "non ut"], "answerIndex": 1, "explanation": "nē sola, non 'ut non'." }
       ]
     },
@@ -75,7 +101,7 @@
     }
   ],
   "summary": [
-    "Clausula finalis: ut/nē + coniunctivus, exprimens propositum.",
+    "Clausula finalis: ut/nē + coniunctivus, exprimens propositum ('cur?', 'quo consilio?'), non factum.",
     "Consecutio temporum: coniunctivus praesens post verbum principale praesens/futurum; imperfectum post praeteritum.",
     "Negatio: nē (numquam 'ut nōn'). Alternativa: quī/quae/quod + coniunctivus."
   ],
