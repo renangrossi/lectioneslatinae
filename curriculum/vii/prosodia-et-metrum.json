@@ -15,8 +15,8 @@
     "Applicare has regulas ad versus Vergilianos et Ovidianos iam lectos"
   ],
   "content": {
-    "intro": "Poesis Latina classica non rimatur (Anglicē 'rhyme'), sed sequitur METRUM QUANTITATIVUM — patronum fixum syllabarum longarum et brevium. Hexameter dactylicus, metrum epicum (Vergilius, Ovidius), est fundamentum omnis poesis maioris.",
-    "explanation": "<p>Recorda ex Gradū I: syllaba est gravis (longa) sī vōcālem longam/diphthongum habet, AUT sī clauditur cōnsonante. Metrum aedificātur super hanc distīnctiōnem, applicātam systēmaticē per tōtum versum.</p>",
+    "intro": "'Arma virumque cano,' legit magister voce sonora, dactylum post dactylum battens manu. 'Audisne rhythmum?' Non rima, sed metrum quantitativum — syllabae longae breveque, patrono fixo. Hodie discimus scandere hexametrum ipsum.",
+    "explanation": "<p>&ldquo;Ārma vi|rumque ca|nō...&rdquo; legit magister vōce sonōrā, dactylum post dactylum battēns manū. &ldquo;Audīsne rhythmum?&rdquo; Mārcus temptat: &ldquo;DUM-di-di, DUM-di-di...&rdquo; &ldquo;Exāctē,&rdquo; dīcit magister, &ldquo;dactylus: ūna longa, duae brevēs. Poēsis Latīna classica nōn rīmātur, sed sequitur METRUM QUANTITATĪVUM.&rdquo;</p><p>Recordā ex Gradū I: syllaba est gravis (longa) sī vōcālem longam/diphthongum habet, AUT sī clauditur cōnsonante. Metrum aedificātur super hanc distīnctiōnem, applicātam systēmaticē per tōtum versum — hexameter dactylicus, metrum epicum (Vergilius, Ovidius), est fundāmentum omnis poēsis māioris.</p>",
     "rules": [
       {
         "heading": "a) Dactylus et Spondeus",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "vii-metr-story", "type": "reading-comprehension", "title": "Dum-di-di, Dum-di-di",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Ārma vi|rumque ca|nō...&rdquo; legit magister vōce sonōrā, dactylum post dactylum battēns manū. &ldquo;Audīsne rhythmum?&rdquo; Mārcus temptat: &ldquo;DUM-di-di, DUM-di-di...&rdquo; &ldquo;Exāctē,&rdquo; dīcit magister, &ldquo;dactylus: ūna longa, duae brevēs. Sed pēs sextus semper duās syllabās habet tantum — spondēum vel trochaeum, numquam dactylum plēnum.&rdquo;</p>",
+      "items": [
+        { "id": "metr-story1", "prompt": "Quid magister facit dum versum legit?", "options": ["dactylum post dactylum battit manu", "immotus stat", "cantat"], "answerIndex": 0, "explanation": "'Dactylum post dactylum battens manu.'" },
+        { "id": "metr-story2", "prompt": "Quid est dactylus, secundum hanc lectionem?", "options": ["una longa, duae breves", "duae longae", "tres breves"], "answerIndex": 0, "explanation": "'Dactylus: una longa, duae breves.'" },
+        { "id": "metr-story3", "prompt": "Quot syllabas habet semper pes sextus?", "options": ["duas tantum", "tres", "variat sine limite"], "answerIndex": 0, "explanation": "'Pes sextus semper duas syllabas habet tantum.'" }
+      ]
+    },
     {
       "id": "vii-metr-mc", "type": "multiple-choice", "title": "Prosodia et Metrum: Regulae",
       "instructions": "Elige responsum rectum.",

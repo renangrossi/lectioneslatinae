@@ -15,8 +15,8 @@
     "Legere catenas participiales multiplices in prosa densa"
   ],
   "content": {
-    "intro": "Praeter ablātīvum absolūtum et participium concordāns simplex, Latīna habet aliōs ūsūs participiī frequentēs in prōsā prōvectiōre — hodiē eōs cōnsolidāmus.",
-    "explanation": "<p>Participium, sīcut adiectīvum flexibile, servit multīs officiīs syntacticīs praeter illa iam nōta.</p>",
+    "intro": "'Vidi milites hostibus victis, urbe capta, praeda divisa, domum revertentes,' legit Marcus ex Tacito. 'Vidi... revertentes' — participium supplementarium; tres ablativi absoluti catenati intra. Consolidamus hodie usus participii provectiores.",
+    "explanation": "<p>&ldquo;Vīdī mīlitēs, hostibus victīs, urbe captā, praedā dīvīsā, domum revertentēs,&rdquo; legit Mārcus ex Tacitō. &ldquo;'Vīdī... revertentēs' — nōn 'audīvī eōs revertisse' (factum reportātum), sed vīdī ipsum āctum, dīrēctē.&rdquo; Iūlia adiungit: &ldquo;Et 'victī' sōlum, sine 'mīlitēs', significat 'the defeated ones' — participium ut nōmen ipsum.&rdquo;</p><p>Notāvistīne quot ūsūs participiī in ūnā sententiā Tacitī? Praeter ablātīvum absolūtum et participium concordāns simplex, Latīna habet aliōs ūsūs frequentēs in prōsā prōvectiōre — hodiē eōs cōnsolidāmus.</p>",
     "rules": [
       {
         "heading": "a) Participium Supplementarium (post Verba Perceptionis)",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "vi-partadv-story", "type": "reading-comprehension", "title": "Vidi Milites Revertentes",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Vīdī mīlitēs, hostibus victīs, urbe captā, praedā dīvīsā, domum revertentēs,&rdquo; legit Mārcus ex Tacitō. &ldquo;'Vīdī... revertentēs' — vīdī ipsum āctum, dīrēctē.&rdquo; Iūlia adiungit: &ldquo;Et 'victī' sōlum, sine 'mīlitēs', significat 'the defeated ones' — participium ut nōmen ipsum, sine nōmine explicitō.&rdquo;</p>",
+      "items": [
+        { "id": "partadv-story1", "prompt": "Quid Marcus vidit, secundum Tacitum?", "options": ["milites domum revertentes", "milites numquam reversos", "nihil vidit"], "answerIndex": 0, "explanation": "'Vidi milites... domum revertentes.'" },
+        { "id": "partadv-story2", "prompt": "Vidit Marcus ipsum actum reversionis, an tantum audivit factum reportatum?", "options": ["ipsum actum vidit, directe", "tantum audivit ab alio", "neutrum"], "answerIndex": 0, "explanation": "'Vidi ipsum actum, directe' — participium supplementarium, non AcI." },
+        { "id": "partadv-story3", "prompt": "Quid significat 'victi' solum, sine 'milites'?", "options": ["'the defeated ones' — participium ut nomen", "nihil, est error grammaticus", "significat 'victores'"], "answerIndex": 0, "explanation": "Usus substantivus participii." }
+      ]
+    },
     {
       "id": "vi-partadv-mc", "type": "multiple-choice", "title": "Constructiones Participiales: Recognitio",
       "instructions": "Elige responsum rectum.",

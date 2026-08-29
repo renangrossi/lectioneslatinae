@@ -15,8 +15,8 @@
     "Applicare principia hyperbati (verba coniuncta grammaticaliter separata pro effectu)"
   ],
   "content": {
-    "intro": "Salvē in Gradum VI! Ab hōc pūnctō, minus grammatica nova discēs, magis quōmodo Latīnitās REALIS — auctōrum classicōrum — differt ā sententiīs simplicibus pedagogicīs quās hūcusque lēgistī.",
-    "explanation": "<p>Quia cāsus grammaticus (nōn positiō in sententiā) indicat officium syntacticum, Latīna potest ōrdināre verba multō līberius quam Anglica (ubi ōrdō ipse est saepe sōla indicātiō officiī: 'the dog bites the man' vs. 'the man bites the dog').</p>",
+    "intro": "Magister Marco et Iuliae, iam provectis, versum Vergilii monstrat: 'Arma virumque cano.' 'Cur obiecta ante verbum?' rogat Iulia. 'Ordo liber est,' respondet magister, 'quia casus, non positio, sensum gubernat.' Salve in Gradum VI!",
+    "explanation": "<p>Magister Mārcō et Iūliae, iam prōvectīs, versum Vergiliī mōnstrat: &ldquo;Arma virumque canō.&rdquo; &ldquo;Cūr obiecta ante verbum?&rdquo; rogat Iūlia. &ldquo;Ordō līber est,&rdquo; respondet magister, &ldquo;quia cāsus, nōn positiō, sēnsum gubernat — differenter ab Anglicā.&rdquo;</p><p>Notāvistīne: 'arma virumque' (obiecta) venit ANTE 'canō' (verbum)? Quia cāsus grammaticus (nōn positiō in sententiā) indicat officium syntacticum, Latīna potest ōrdināre verba multō līberius quam Anglica. Ab hōc pūnctō, minus grammatica nova discēs, magis quōmodo Latīnitās REALIS — auctōrum classicōrum — differt ā sententiīs simplicibus pedagogicīs quās hūcusque lēgistī.</p>",
     "rules": [
       {
         "heading": "a) Ordo Neutralis: SOV (sed non obligatorius)",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "vi-ordo-story", "type": "reading-comprehension", "title": "Arma Virumque Cano",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Magister Mārcō et Iūliae versum Vergiliī mōnstrat: &ldquo;Arma virumque canō.&rdquo; &ldquo;Cūr obiecta ante verbum?&rdquo; rogat Iūlia. &ldquo;Ordō līber est,&rdquo; respondet magister, &ldquo;quia cāsus, nōn positiō, sēnsum gubernat. Anglicē, ōrdō ipse indicat officium; Latīnē, dēsinentia.&rdquo; Mārcus adnuit: &ldquo;Ergō poēta potest verbum pōnere ubicumque vult, prō effectū?&rdquo; &ldquo;Exāctē,&rdquo; dīcit magister.</p>",
+      "items": [
+        { "id": "ordo-story1", "prompt": "Quid Iulia de versu Vergilii miratur?", "options": ["cur obiecta ante verbum veniant", "cur versus tam brevis sit", "nihil miratur"], "answerIndex": 0, "explanation": "'Cur obiecta ante verbum?' rogat Iulia." },
+        { "id": "ordo-story2", "prompt": "Quid, secundum magistrum, sensum gubernat in Latino?", "options": ["casus, non positio", "positio sola", "numerus verborum"], "answerIndex": 0, "explanation": "'Casus, non positio, sensum gubernat.'" },
+        { "id": "ordo-story3", "prompt": "Quid Marcus de poetis concludit?", "options": ["verbum pro effectu ubicumque poni posse", "poetas semper eundem ordinem sequi", "ordinem numquam variari posse"], "answerIndex": 0, "explanation": "'Poeta potest verbum ponere ubicumque vult, pro effectu.'" }
+      ]
+    },
     {
       "id": "vi-ordo-mc", "type": "multiple-choice", "title": "Ordo Verborum: Regulae",
       "instructions": "Elige responsum rectum.",

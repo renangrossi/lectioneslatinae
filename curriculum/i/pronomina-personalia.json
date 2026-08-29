@@ -15,8 +15,8 @@
     "Ēligere formam cāsūs aptam prō contextū simplicī (subiectum, obiectum, possessiō)"
   ],
   "content": {
-    "intro": "Prōnōmina sunt verba parva sed potentissima — 'ego', 'tū', 'is' pro nōminibus stant. Hodiē vidēbis quōmodo tōta fōrma mūtātur secundum officium in sententiā: hoc vocātur <strong>cāsus</strong> (case), et est fundāmentum tōtīus grammaticae Latīnae.",
-    "explanation": "<p>Anglicē, ūnum tantum prōnōmen 'you' variat parum (I/me, he/him). Latīnē, quinque cāsūs distinctī variās fōrmās habent: <strong>nōminātīvus</strong> (subiectum), <strong>genetīvus</strong> (possessiō, 'of'), <strong>datīvus</strong> (obiectum indirēctum, 'to/for'), <strong>accūsātīvus</strong> (obiectum dīrēctum), <strong>ablātīvus</strong> (variī ūsūs, saepe cum praepositiōne).</p>",
+    "intro": "'Ego sum Marcus,' dicit puer novus. 'Tu quis es?' 'Ego Iulia sum,' respondet puella. 'Amasne me?' rogat Marcus iocose. 'Amo te ut amicum!' Ego, tu, me, te — parva verba, sed forma mutatur secundum officium: casus.",
+    "explanation": "<p>&ldquo;Ego sum Mārcus,&rdquo; dīcit puer novus. &ldquo;Tū quis es?&rdquo; &ldquo;Ego Iūlia sum,&rdquo; respondet puella. Mārcus rīdet: &ldquo;Iūlia, dā mihi librum tuum!&rdquo; Iūlia librum eī dat: &ldquo;Ecce — sed tū mihi grātiās age.&rdquo; &ldquo;Grātiās tibi agō,&rdquo; dīcit Mārcus.</p><p>Notāvistīne: <em>ego, tū</em> (subiectum), <em>mihi, tibi</em> (datīvus, 'to me/you'), <em>tuum</em> (possessiō)? Anglicē, ūnum tantum prōnōmen 'you' variat parum (I/me). Latīnē, quīnque cāsūs distinctī variās fōrmās habent: nōminātīvus, genetīvus, datīvus, accūsātīvus, ablātīvus — hoc hodiē vidēs prīmum, fundāmentum tōtīus grammaticae Latīnae.</p>",
     "rules": [
       {
         "heading": "a) Ego / Nōs (Prīma Persōna)",
@@ -57,6 +57,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "i-pron-story", "type": "reading-comprehension", "title": "Ego Sum Marcus",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Ego sum Mārcus,&rdquo; dīcit puer novus. &ldquo;Tū quis es?&rdquo; &ldquo;Ego Iūlia sum,&rdquo; respondet puella. Mārcus rīdet: &ldquo;Iūlia, dā mihi librum tuum!&rdquo; Iūlia librum eī dat: &ldquo;Ecce — sed tū mihi grātiās age.&rdquo; &ldquo;Grātiās tibi agō,&rdquo; dīcit Mārcus.</p>",
+      "items": [
+        { "id": "pron-story1", "prompt": "Quis est puer novus?", "options": ["Marcus", "Iulia", "nemo"], "answerIndex": 0, "explanation": "'Ego sum Marcus,' dicit puer novus." },
+        { "id": "pron-story2", "prompt": "Quid Marcus ab Iulia petit?", "options": ["librum eius", "nomen eius", "nihil petit"], "answerIndex": 0, "explanation": "'Da mihi librum tuum!'" },
+        { "id": "pron-story3", "prompt": "Quid Marcus dicit postquam librum accipit?", "options": ["gratias tibi ago", "nihil dicit", "vale"], "answerIndex": 0, "explanation": "'Gratias tibi ago,' dicit Marcus." }
+      ]
+    },
     {
       "id": "i-pron-fill", "type": "fill-blank", "title": "Ēlige Cāsum Rectum",
       "instructions": "Comple spatia cum formā rectā prōnōminis.",

@@ -15,8 +15,8 @@
     "Consolidare omnes usus dativi discussos per totum cursum"
   ],
   "content": {
-    "intro": "Iam multōs ūsūs datīvī nōvistī: obiectum indirēctum, possessiō, verba speciālia. Hodiē tribus ūsibus prōvectiōribus, frequentibus in prōsā classicā, complēbimus systēma.",
-    "explanation": "<p>Datīvus, cāsus versātilis, servit etiam PROPOSITŌ (fīnālis) et ēmōtiōnī (ēthicus), praeter ūsūs iam nōtōs.</p>",
+    "intro": "'Hoc mihi curae est,' dicit magister, 'vos bene docere.' 'Cur mihi, non me?' rogat Marcus. 'Auxilio vobis venio,' explicat magister, 'non ut obiectum simplex, sed ut propositum.' Tres usus provectiores dativi hodie discimus.",
+    "explanation": "<p>&ldquo;Hoc mihi cūrae est,&rdquo; dīcit magister, &ldquo;vōs bene docēre.&rdquo; &ldquo;Cūr 'mihi', nōn 'mē'?&rdquo; rogat Mārcus. &ldquo;Auxiliō vōbīs veniō,&rdquo; explicat magister, &ldquo;nōn ut obiectum simplex, sed ut prōpositum ipsum meum.&rdquo;</p><p>Notāvistīne: <em>mihi cūrae, auxiliō vōbīs</em> — datīvus hīc nōn est simplex obiectum indirēctum? Iam multōs ūsūs datīvī nōvistī: obiectum indirēctum, possessiō, verba speciālia. Hodiē tribus ūsibus prōvectiōribus (fīnālis, duplex, ēthicus), frequentibus in prōsā classicā, complēmus systēma.</p>",
     "rules": [
       {
         "heading": "a) Dativus Finalis (Purpose)",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "vi-dat2-story", "type": "reading-comprehension", "title": "Hoc Mihi Curae Est",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Hoc mihi cūrae est,&rdquo; dīcit magister, &ldquo;vōs bene docēre.&rdquo; &ldquo;Cūr 'mihi', nōn 'mē'?&rdquo; rogat Mārcus. &ldquo;Auxiliō vōbīs veniō,&rdquo; explicat magister, &ldquo;nōn ut obiectum simplex, sed ut prōpositum ipsum meum. Magnō ūsuī vōbīs erit haec lēctiō, crēdite mihi.&rdquo;</p>",
+      "items": [
+        { "id": "dat2-story1", "prompt": "Quid magistro curae est?", "options": ["discipulos bene docere", "pecuniam habere", "nihil"], "answerIndex": 0, "explanation": "'Hoc mihi curae est... vos bene docere.'" },
+        { "id": "dat2-story2", "prompt": "Quo proposito magister venit?", "options": ["auxilio", "sine ratione", "ut discipulos puniat"], "answerIndex": 0, "explanation": "'Auxilio vobis venio.'" },
+        { "id": "dat2-story3", "prompt": "Quid magister de hac lectione promittit?", "options": ["magno usui discipulis futuram esse", "inutilem esse", "brevissimam esse"], "answerIndex": 0, "explanation": "'Magno usui vobis erit haec lectio.'" }
+      ]
+    },
     {
       "id": "vi-dat2-mc", "type": "multiple-choice", "title": "Dativus Provectior: Regulae",
       "instructions": "Elige responsum rectum.",

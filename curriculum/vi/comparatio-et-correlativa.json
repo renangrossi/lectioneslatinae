@@ -15,8 +15,8 @@
     "Recognoscere has constructiones in prosa argumentativa (Cicero)"
   ],
   "content": {
-    "intro": "Cicerō, in ōrātiōnibus suīs, frequenter adhibet cōnstrūctiōnēs corrēlātīvās ēlegantēs prō comparātiōnibus proportiōnālibus — 'quantō magis..., tantō magis...' ('the more..., the more...').",
-    "explanation": "<p>Corrēlātīva combīnant duo comparātīva (vel duo verba intēnsīva) in ūnam sententiam proportiōnālem.</p>",
+    "intro": "'Quanto doctior est, tanto modestior,' dicit magister de Cicerone. Marcus rogat: 'Quid significat?' 'The more learned he is, the more modest.' Cicero saepe adhibet has constructiones correlativas elegantes.",
+    "explanation": "<p>&ldquo;Quantō doctior est, tantō modestior,&rdquo; dīcit magister dē Cicerōne. &ldquo;Quid significat?&rdquo; rogat Mārcus. &ldquo;'The more learned he is, the more modest' — comparātiō proportiōnālis. Iūlia tam dīligēns est quam Mārcus, sed uterque vult labōrāre quam optimē possit.&rdquo;</p><p>Notāvistīne: <em>quantō...tantō</em> (proportiō), <em>tam...quam</em> (aequālitās), <em>quam optimē</em> (superlātīvus, 'as best as possible')? Corrēlātīva combīnant duo comparātīva (vel duo verba intēnsīva) in ūnam sententiam proportiōnālem — frequēns in ōrātiōnibus Cicerōnis.</p>",
     "rules": [
       {
         "heading": "a) Quanto...Tanto: 'The More...The More'",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "vi-corr-story", "type": "reading-comprehension", "title": "Quanto Doctior, Tanto Modestior",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Quantō doctior est, tantō modestior,&rdquo; dīcit magister dē Cicerōne. &ldquo;Quid significat?&rdquo; rogat Mārcus. &ldquo;'The more learned he is, the more modest' — comparātiō proportiōnālis.&rdquo; Iūlia adiungit: &ldquo;Ego tam dīligēns sum quam Mārcus, sed ambō volumus discere quam plūrima.&rdquo;</p>",
+      "items": [
+        { "id": "corr-story1", "prompt": "Quid 'quanto doctior, tanto modestior' significat?", "options": ["quanto plus scit, tanto minus se iactat", "quanto plus scit, tanto plus se iactat", "nihil de scientia dicit"], "answerIndex": 0, "explanation": "'The more learned he is, the more modest' — non superbior, sed modestior." },
+        { "id": "corr-story2", "prompt": "Estne Iulia aeque diligens ac Marcus?", "options": ["ita — 'tam diligens quam Marcus'", "non, multo minus diligens", "nescimus"], "answerIndex": 0, "explanation": "'Ego tam diligens sum quam Marcus' — aequalitas." },
+        { "id": "corr-story3", "prompt": "Quantum discere volunt Marcus et Iulia?", "options": ["quam plurima", "quam minima", "nihil"], "answerIndex": 0, "explanation": "'Ambo volumus discere quam plurima.'" }
+      ]
+    },
     {
       "id": "vi-corr-mc", "type": "multiple-choice", "title": "Correlativa: Regulae",
       "instructions": "Elige responsum rectum.",

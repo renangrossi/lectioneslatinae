@@ -15,8 +15,8 @@
     "Uti ablativo originis cum participiis natus/ortus/genitus"
   ],
   "content": {
-    "intro": "Ultimī quattuor ūsūs ablātīvī, frequentēs in prōsā historicā et biographicā, complent scientiam tuam huius cāsūs versātilis.",
-    "explanation": "<p>Recorda: ablātīvus cumulat plūrēs cāsūs antīquōs (locātīvum, īnstrūmentālem) — ideō tot ūsūs dīversōs habet.</p>",
+    "intro": "'Cicero fuit vir magna eloquentia,' dicit magister, 'nobili familia ortus, et libros parvo pretio numquam vendidit — semper multo maiore quam ceteri.' Ultimi quattuor usus ablativi, frequentes in prosa historica, hodie discimus.",
+    "explanation": "<p>&ldquo;Cicerō fuit vir magnā ēloquentiā,&rdquo; dīcit magister, &ldquo;nōbilī familiā ortus, quī librōs parvō pretiō numquam vendidit — semper multō māiōre pretiō quam cēterī ōrātōrēs suī temporis.&rdquo;</p><p>Notāvistīne quattuor ūsūs ablātīvī? <em>magnā ēloquentiā</em> (quālitās), <em>parvō pretiō, māiōre pretiō</em> (pretium), <em>multō māiōre</em> (mēnsūra differentiae), <em>nōbilī familiā ortus</em> (orīgō). Recordā: ablātīvus cumulat plūrēs cāsūs antīquōs (locātīvum, īnstrūmentālem) — ideō tot ūsūs dīversōs habet.</p>",
     "rules": [
       {
         "heading": "a) Ablativus Qualitatis",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "vi-abl2-story", "type": "reading-comprehension", "title": "Vir Magna Eloquentia",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Cicerō fuit vir magnā ēloquentiā,&rdquo; dīcit magister, &ldquo;nōbilī familiā ortus, quī librōs parvō pretiō numquam vendidit — semper multō māiōre pretiō quam cēterī ōrātōrēs suī temporis. Paulō ante mortem suam, ultimam ōrātiōnem scrīpsit.&rdquo;</p>",
+      "items": [
+        { "id": "abl2-story1", "prompt": "Qualis vir fuit Cicero, secundum magistrum?", "options": ["vir magna eloquentia", "vir parvae sapientiae", "vir ignotus"], "answerIndex": 0, "explanation": "'Cicero fuit vir magna eloquentia.'" },
+        { "id": "abl2-story2", "prompt": "Vendebatne Cicero libros suos parvo pretio?", "options": ["numquam — semper multo maiore", "ita, semper parvo", "libros numquam vendidit"], "answerIndex": 0, "explanation": "'Parvo pretio numquam vendidit — semper multo maiore.'" },
+        { "id": "abl2-story3", "prompt": "Quando Cicero ultimam orationem scripsit?", "options": ["paulo ante mortem suam", "in iuventute sua", "numquam scripsit"], "answerIndex": 0, "explanation": "'Paulo ante mortem suam, ultimam orationem scripsit.'" }
+      ]
+    },
     {
       "id": "vi-abl2-mc", "type": "multiple-choice", "title": "Ablativus Provectior: Regulae",
       "instructions": "Elige responsum rectum.",

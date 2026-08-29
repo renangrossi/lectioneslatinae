@@ -15,8 +15,8 @@
     "Vertere passum plenum orationis obliquae, secundum practicam auctorum classicorum (Caesar, Livius)"
   ],
   "content": {
-    "intro": "Auctōrēs historicī (Caesar, Līvius) saepe reportant longōs sermōnēs integrōs in ōrātiōne oblīquā — omnēs trēs cōnstrūctiōnēs quās sēparātim dīdicistī (AcI, imperātīva oblīqua, interrogātiōnēs oblīquae) apud eōs sē combinant in ūnum passum flūminis.",
-    "explanation": "<p>Rēgula ultima et māximē important: intrā ōrātiōne oblīquā, OMNIS clausula subōrdināta (etiam illae quae in ōrātiōne rēctā adhibērent indicātīvum, ut clausulae relātīvae vel temporālēs simplicēs) fit CONIŪNCTĪVUS. Hoc vocātur <strong>coniūnctīvus oblīquus</strong>.</p>",
+    "intro": "'Caesar dixit se, si Galli arma deponerent, pacem facturum esse,' legit Iulia ex libro. 'Cur deponerent est coniunctivus?' rogat. 'Quia intra orationem obliquam iacet,' respondet magister — omnis clausula subordinata fit coniunctivus.",
+    "explanation": "<p>&ldquo;Caesar dīxit sē, sī Gallī arma dēpōnerent, pācem factūrum esse,&rdquo; legit Iūlia ex librō Dē Bellō Gallicō. &ldquo;Cūr 'dēpōnerent' coniūnctīvus est?&rdquo; rogat. &ldquo;In ōrātiōne rēctā esset indicātīvus futūrum: 'sī dēpōnent'.&rdquo; &ldquo;Quia intrā ōrātiōne oblīquā iacet,&rdquo; respondet magister.</p><p>Rēgula ultima et māximē important: intrā ōrātiōne oblīquā, OMNIS clausula subōrdināta (etiam illae quae in ōrātiōne rēctā adhibērent indicātīvum) fit CONIŪNCTĪVUS. Hoc vocātur <strong>coniūnctīvus oblīquus</strong>. Auctōrēs historicī (Caesar, Līvius) saepe reportant longōs sermōnēs integrōs sīc, combinantēs AcI, imperātīva oblīqua, et interrogātiōnēs oblīquae in ūnum passum flūminis.</p>",
     "rules": [
       {
         "heading": "a) Coniunctivus Obliquus: Regula Universalis",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "vi-oo-story", "type": "reading-comprehension", "title": "Caesar Dixit Se Pacem Facturum",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Caesar dīxit sē, sī Gallī arma dēpōnerent, pācem factūrum esse,&rdquo; legit Iūlia ex librō. &ldquo;Cūr 'dēpōnerent' coniūnctīvus est?&rdquo; rogat. &ldquo;In ōrātiōne rēctā esset indicātīvus futūrum: 'sī dēpōnent'.&rdquo; &ldquo;Quia intrā ōrātiōne oblīquā iacet,&rdquo; respondet magister. &ldquo;Omnis clausula subōrdināta, etiam simplex, fit coniūnctīvus, semel intrā ōrātiōne oblīquā.&rdquo;</p>",
+      "items": [
+        { "id": "oo-story1", "prompt": "Quid Caesar dixit se facturum esse, si Galli arma deponerent?", "options": ["pacem", "novum bellum", "nihil"], "answerIndex": 0, "explanation": "'Caesar dixit se... pacem facturum esse.'" },
+        { "id": "oo-story2", "prompt": "Quod tempus/modus haberet 'deponerent' in oratione RECTA?", "options": ["indicativus futurum", "idem coniunctivus", "imperativus"], "answerIndex": 0, "explanation": "'In oratione recta esset indicativus futurum.'" },
+        { "id": "oo-story3", "prompt": "Cur 'deponerent' hic est coniunctivus?", "options": ["quia intra orationem obliquam iacet", "sine ratione grammatica", "quia Galli mentiuntur"], "answerIndex": 0, "explanation": "'Quia intra oratione obliqua iacet' — coniunctivus obliquus." }
+      ]
+    },
     {
       "id": "vi-oo-mc", "type": "multiple-choice", "title": "Oratio Obliqua Plena: Regulae",
       "instructions": "Elige responsum rectum.",
