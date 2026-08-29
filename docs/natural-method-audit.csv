@@ -41,22 +41,22 @@ iii-vox-passiva-praesens,III,Vox Passiva Praesens,grammatica,2,6,3,0.5,False,Fal
 iii-pronomen-relativum,III,Pronomen Relativum,grammatica,4,9,1,0.11,True,True,False,False,True,3,3,5,A,curriculum/iii/pronomen-relativum.json
 iii-pronomina-reflexiva,III,Pronomina Reflexiva,grammatica,2,5,0,0.0,False,False,False,False,False,3,1,-1,C,curriculum/iii/pronomina-reflexiva.json
 iii-numeri-tempus-et-calendarium,III,"Numeri, Tempus et Calendarium",vocabularium,2,5,0,0.0,False,True,False,False,False,4,1,0,B,curriculum/iii/numeri-tempus-et-calendarium.json
-iv-systema-perfectum-activum,IV,Systema Perfectum Activum,grammatica,2,7,2,0.29,False,False,False,False,False,3,1,-1,C,curriculum/iv/systema-perfectum-activum.json
-iv-plusquamperfectum-et-futurum-perfectum,IV,Plusquamperfectum et Futurum Perfectum,grammatica,2,5,2,0.4,False,False,False,False,False,3,1,-2,C,curriculum/iv/plusquamperfectum-et-futurum-perfectum.json
-iv-systema-perfectum-passivum,IV,Systema Perfectum Passivum,grammatica,2,6,1,0.17,False,False,False,False,False,4,1,-2,C,curriculum/iv/systema-perfectum-passivum.json
-iv-participium-perfectum-passivum,IV,Participium Perfectum Passivum,grammatica,2,5,1,0.2,False,False,False,False,False,3,1,-1,C,curriculum/iv/participium-perfectum-passivum.json
-iv-participium-praesens-activum,IV,Participium Praesens Activum,grammatica,2,5,2,0.4,False,False,False,False,False,3,1,-2,C,curriculum/iv/participium-praesens-activum.json
-iv-participium-futurum-activum,IV,Participium Futurum Activum,grammatica,2,4,0,0.0,False,False,False,False,False,4,1,-2,C,curriculum/iv/participium-futurum-activum.json
-iv-verba-deponentia,IV,Verba Deponentia,grammatica,2,6,0,0.0,False,False,False,False,False,4,1,-2,C,curriculum/iv/verba-deponentia.json
-iv-infinitivi,IV,Infinitivi,grammatica,2,6,1,0.17,False,False,False,False,False,4,1,-2,C,curriculum/iv/infinitivi.json
+iv-systema-perfectum-activum,IV,Systema Perfectum Activum,grammatica,3,10,2,0.2,True,False,False,False,True,3,2,4,A,curriculum/iv/systema-perfectum-activum.json
+iv-plusquamperfectum-et-futurum-perfectum,IV,Plusquamperfectum et Futurum Perfectum,grammatica,3,8,2,0.25,True,False,False,False,True,3,2,4,A,curriculum/iv/plusquamperfectum-et-futurum-perfectum.json
+iv-systema-perfectum-passivum,IV,Systema Perfectum Passivum,grammatica,3,9,1,0.11,True,False,False,False,True,4,2,4,A,curriculum/iv/systema-perfectum-passivum.json
+iv-participium-perfectum-passivum,IV,Participium Perfectum Passivum,grammatica,3,8,1,0.12,True,False,False,False,True,3,2,4,A,curriculum/iv/participium-perfectum-passivum.json
+iv-participium-praesens-activum,IV,Participium Praesens Activum,grammatica,3,8,2,0.25,True,False,False,False,True,3,2,4,A,curriculum/iv/participium-praesens-activum.json
+iv-participium-futurum-activum,IV,Participium Futurum Activum,grammatica,3,7,0,0.0,True,False,False,False,True,4,2,4,A,curriculum/iv/participium-futurum-activum.json
+iv-verba-deponentia,IV,Verba Deponentia,grammatica,3,9,0,0.0,True,False,False,False,True,4,2,4,A,curriculum/iv/verba-deponentia.json
+iv-infinitivi,IV,Infinitivi,grammatica,3,9,1,0.11,True,False,False,False,True,4,2,4,A,curriculum/iv/infinitivi.json
 iv-oratio-obliqua-accusativus-cum-infinitivo,IV,Oratio Obliqua: Accusativus cum Infinitivo,grammatica,2,5,0,0.0,False,False,False,False,True,4,1,0,B,curriculum/iv/oratio-obliqua-accusativus-cum-infinitivo.json
-iv-verba-irregularia-possum-volo-nolo-malo,IV,"Verba Irregularia: Possum, Volo, Nolo, Malo",grammatica,2,6,2,0.33,False,False,False,False,False,4,1,-2,C,curriculum/iv/verba-irregularia-possum-volo-nolo-malo.json
-iv-verba-irregularia-eo-fero-fio,IV,"Verba Irregularia: Eo, Fero, Fio",grammatica,2,6,2,0.33,False,False,False,False,False,3,1,-1,C,curriculum/iv/verba-irregularia-eo-fero-fio.json
+iv-verba-irregularia-possum-volo-nolo-malo,IV,"Verba Irregularia: Possum, Volo, Nolo, Malo",grammatica,3,9,2,0.22,True,False,False,False,True,4,2,4,A,curriculum/iv/verba-irregularia-possum-volo-nolo-malo.json
+iv-verba-irregularia-eo-fero-fio,IV,"Verba Irregularia: Eo, Fero, Fio",grammatica,3,9,2,0.22,True,False,False,False,True,3,2,4,A,curriculum/iv/verba-irregularia-eo-fero-fio.json
 iv-coniunctivus-praesens,IV,Coniunctivus Praesens,grammatica,5,14,3,0.21,True,True,True,False,True,4,3,6,A,curriculum/iv/coniunctivus-praesens.json
 iv-coniunctivus-imperfectum,IV,Coniunctivus Imperfectum,grammatica,4,9,2,0.22,True,True,False,False,True,4,2,5,A,curriculum/iv/coniunctivus-imperfectum.json
 iv-clausulae-finales,IV,Clausulae Finales,grammatica,4,9,3,0.33,True,True,False,False,True,4,3,5,A,curriculum/iv/clausulae-finales.json
-iv-imperativa-obliqua,IV,Imperativa Obliqua,grammatica,2,5,1,0.2,False,False,False,False,False,4,1,-2,C,curriculum/iv/imperativa-obliqua.json
-iv-ablativus-absolutus-introductio,IV,Ablativus Absolutus Introductio,grammatica,2,5,1,0.2,False,False,False,False,False,4,1,-2,C,curriculum/iv/ablativus-absolutus-introductio.json
+iv-imperativa-obliqua,IV,Imperativa Obliqua,grammatica,3,8,1,0.12,True,False,False,False,True,4,2,4,A,curriculum/iv/imperativa-obliqua.json
+iv-ablativus-absolutus-introductio,IV,Ablativus Absolutus Introductio,grammatica,3,8,1,0.12,True,False,False,False,True,4,2,4,A,curriculum/iv/ablativus-absolutus-introductio.json
 iv-recognitio-systema-verbi,IV,Recognitio: Systema Verbi Latini,grammatica,3,8,1,0.12,False,True,False,False,False,4,1,0,B,curriculum/iv/recognitio-systema-verbi.json
 v-coniunctivus-perfectum-et-plusquamperfectum,V,Coniunctivus Perfectum et Plusquamperfectum,grammatica,4,9,2,0.22,True,True,False,False,True,4,2,5,A,curriculum/v/coniunctivus-perfectum-et-plusquamperfectum.json
 v-consecutio-temporum,V,Consecutio Temporum,grammatica,4,9,3,0.33,True,True,False,False,True,3,2,5,A,curriculum/v/consecutio-temporum.json
