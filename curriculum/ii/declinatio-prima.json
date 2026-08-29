@@ -6,17 +6,17 @@
   "skill": "grammatica",
   "strand": "declinatio",
   "title": "Declinatio Prima",
-  "subtitle": "Nomina in -a: rosa, rosae — omnes sex casus, singularis et pluralis.",
+  "subtitle": "Rosa, rosam, rosae — idem nomen, forma mutata secundum officium suum.",
   "prerequisites": ["i-lectio-et-auditio-prima"],
   "objectives": [
-    "Recitare paradigma plenum declinationis primae",
-    "Identificare officium (subiectum, obiectum...) cuiusque casus",
-    "Nomina prima declinatione recte declinare in sententiis novis",
-    "Cognoscere genus feminimum tamquam regulam generalem primae declinationis"
+    "Notare in contextu quomodo forma nominis 'rosa' mutetur secundum officium suum in sententia",
+    "Distinguere subiectum ab obiecto directo per solam desinentiam nominis",
+    "Recitare paradigma plenum declinationis primae et nominare casus sex",
+    "Nomina prima declinatione recte declinare in sententiis novis"
   ],
   "content": {
-    "intro": "Cāsus (case) est fōrma nōminis quae officium eius in sententiā indicat. Latīna sex cāsūs habet; hodiē prīmam ex quīnque dēclīnātiōnibus (declension patterns) discēmus: verba ut rosa, quae genetīvō singulārī in -ae dēsinunt.",
-    "explanation": "<p>Dēclīnātiō prīma continet fere omnia nōmina fēminīna dēsinentia in -a nōminātīvō (paucae exceptiōnēs masculīnae exsistunt, ut <em>agricola</em> 'farmer', <em>nauta</em> 'sailor' — persōnae virōrum, quamvis fōrma fēminīna). Rādīx (stem) invenītur removendō -ae ā genetīvō: <em>rosa, rosae</em> → rādīx <strong>ros-</strong>.</p>",
+    "intro": "Ecce Iulia in horto. Iulia rosam videt — rosa pulchra est. Sed observa: 'rosa' hic, 'rosam' ibi. Idem nomen, forma tamen mutata. Cur? Hodie incipimus discere quomodo Latina nomina formam mutent secundum officium suum in sententia.",
+    "explanation": "<p>Ecce Iūlia in hortō. Iūlia rosam videt: rosa pulchra est, et Iūlia rosam amat. Māter Iūliae quoque rosās amat — hortus rosārum plēnus est. Iūlia rosae aquam dat cotīdiē, ut rosa crēscat. Amīca Iūliae, cum rosā per hortum ambulat.</p><p>Notāvistīne quid mūtētur? <em>rosa, rosam, rosae, rosā, rosārum, rosās</em> — omnēs formae ab eōdem nōmine veniunt, sed fīnis (dēsinentia) mūtātur secundum officium in sententiā: subiectum, obiectum, possessiō, vel aliud. Hoc phaenomenon Latīnī 'cāsus' (case) vocant; hunc ōrdinem plēnum fōrmārum 'dēclīnātiōnem' (declension) vocāmus. Hodiē incipimus cum prīmā ex quīnque dēclīnātiōnibus: nōmina, ut <em>rosa</em>, quae genetīvō singulārī in <strong>-ae</strong> dēsinunt.</p>",
     "rules": [
       {
         "heading": "a) Paradigma: rosa, rosae (f.) 'rose'",
@@ -24,7 +24,7 @@
       },
       {
         "heading": "b) Nota: Genetivus vs. Ablativus Singularis",
-        "body": "<p>Genetīvus singulāris (rosae) et datīvus singulāris (rosae) sunt formā identicī — contextus distinguit. Nōminātīvus (rosa, a brevis) et ablātīvus (rosā, ā longa) singulāris quoque scrībuntur similiter, sed <strong>quantitāte vocālis</strong> differunt: hoc est cūr macron hīc essentiālis est.</p>"
+        "body": "<p>Genetīvus singulāris (rosae) et datīvus singulāris (rosae) sunt formā identicī — contextus distinguit, sīcut in fābulā suprā ('Iūlia rosae aquam dat' — rosae est datīvus, quia aqua dēstinātur rosae). Nōminātīvus (rosa, a brevis) et ablātīvus (rosā, ā longa) singulāris quoque scrībuntur similiter, sed <strong>quantitāte vocālis</strong> differunt: hoc est cūr macron hīc essentiālis est.</p>"
       },
       {
         "heading": "c) Genus: Fere Semper Femininum",
@@ -32,12 +32,12 @@
       }
     ],
     "examples": [
-      "Puella rosam videt. — The girl sees a rose. (puella = subiectum, rosam = obiectum)",
-      "Aqua puellae bona est. — The girl's water is good. (puellae = genetivus)",
-      "Magistra puellae librum dat. — The teacher gives a book to the girl. (puellae = dativus)",
-      "Cum puellā ambulō. — I walk with the girl. (puellā = ablativus, cum + abl.)",
-      "Puellae in viā ambulant. — The girls walk on the road. (puellae = nominativus pluralis)",
-      "Agricola in agrō labōrat. — The farmer works in the field. (agricola = masc., 1a decl.)"
+      "Iulia rosam videt. — Iulia sees a rose. (rosam = obiectum directum)",
+      "Rosa Iuliae pulchra est. — Iulia's rose is beautiful. (Iuliae = genetivus)",
+      "Iulia rosae aquam dat. — Iulia gives water to the rose. (rosae = dativus)",
+      "Cum rosa Iulia ambulat. — Iulia walks with the rose. (rosa = ablativus, cum + abl.)",
+      "Rosae in horto crescunt. — The roses grow in the garden. (rosae = nominativus pluralis)",
+      "Agricola in agro laborat. — The farmer works in the field. (agricola = masc., 1a decl.)"
     ],
     "commonMistakes": [
       {
@@ -54,6 +54,33 @@
   },
   "exercises": [
     {
+      "id": "ii-decl1-story", "type": "reading-comprehension", "title": "Iulia et Hortus Rosarum",
+      "instructions": "Lege fabulam, deinde responde — sensum sententiae sequere, non verbum singulum.",
+      "passage": "<p>Iūlia parvum hortum habet. In hortō Iūliae multae rosae sunt: rosae rubrae, rosae albae. Iūlia rosās cotīdiē aquā dat, et rosae crēscunt pulchrae.</p><p>Mārcus, amīcus Iūliae, hortum videt. &ldquo;Quam pulchrae sunt rosae tuae!&rdquo; inquit Mārcus. Iūlia rīdet et ūnam rosam Mārcō dat. Mārcus rosam accipit et Iūliae grātiās agit.</p><p>Claudia quoque, soror Iūliae, in hortō est. Claudia rosam Iūliae nōn tangit, quia rosae Iūliae, nōn Claudiae, sunt. Sed Claudia propriās rosās in aliō hortō habet.</p>",
+      "items": [
+        { "id": "d1-story1", "prompt": "Quid Iulia in horto habet?", "options": ["multas rosas", "unum arborem", "nullam rem"], "answerIndex": 0, "explanation": "'In horto Iuliae multae rosae sunt.'" },
+        { "id": "d1-story2", "prompt": "Quid Iulia cotidie facit rosis suis?", "options": ["eas vendit", "eas aqua dat", "eas non curat"], "answerIndex": 1, "explanation": "'Iulia rosas cotidie aqua dat.'" },
+        { "id": "d1-story3", "prompt": "Cui Iulia unam rosam dat?", "options": ["Marco", "Claudiae", "nemini"], "answerIndex": 0, "explanation": "'Iulia unam rosam Marco dat.'" },
+        { "id": "d1-story4", "prompt": "Cuius sunt rosae in horto Iuliae?", "options": ["Claudiae", "Iuliae", "Marci"], "answerIndex": 1, "explanation": "'rosae Iuliae, non Claudiae, sunt' — possessio: rosae sunt Iuliae." }
+      ]
+    },
+    {
+      "id": "ii-decl1-match", "type": "matching", "title": "Quid Facit Forma?",
+      "instructions": "Cuique phrasi ex fabula iunge id quod significat — nondum de nominibus casuum cogita, sed de re ipsa.",
+      "items": [
+        {
+          "id": "d1-match1",
+          "pairs": [
+            { "left": "Iulia rosam videt.", "right": "Iulia videt; rosa est id quod videtur" },
+            { "left": "rosae Iuliae sunt", "right": "rosae ad Iuliam pertinent — Iulia possidet" },
+            { "left": "Iulia rosae aquam dat", "right": "aqua it AD rosam — rosa recipit" },
+            { "left": "cum rosa Iulia ambulat", "right": "rosa comitatur Iuliam dum ambulat" }
+          ],
+          "explanation": "Quattuor officia diversa, quattuor formae diversae eiusdem nominis 'rosa' — hoc est ipsum quod 'casus' significat."
+        }
+      ]
+    },
+    {
       "id": "ii-decl1-fill", "type": "fill-blank", "title": "Comple cum Casu Recto",
       "instructions": "Elige formam rectam verbi 'puella, -ae' pro quoque spatio.",
       "items": [
@@ -65,17 +92,6 @@
       ]
     },
     {
-      "id": "ii-decl1-mc", "type": "multiple-choice", "title": "Declinatio Prima: Regulae",
-      "instructions": "Elige responsum rectum.",
-      "items": [
-        { "id": "d1-6", "prompt": "Quod genus habent fere omnia nomina primae declinationis?", "options": ["masculinum", "femininum", "neutrum"], "answerIndex": 1, "explanation": "Prima declinatio est praecipue feminina." },
-        { "id": "d1-7", "prompt": "Nominativus pluralis verbi 'rosa' est:", "options": ["rosa", "rosae", "rosam"], "answerIndex": 1, "explanation": "-a → -ae in nominativo plurali." },
-        { "id": "d1-8", "prompt": "Accusativus pluralis verbi 'rosa' est:", "options": ["rosas", "rosarum", "rosis"], "answerIndex": 0, "explanation": "-a → -as in accusativo plurali." },
-        { "id": "d1-9", "prompt": "Quod verbum est exceptio masculina primae declinationis?", "options": ["puella", "agricola", "aqua"], "answerIndex": 1, "explanation": "agricola (farmer) est masculinum propter significationem naturalem." },
-        { "id": "d1-10", "prompt": "Genetivus singularis et dativus singularis primae declinationis:", "options": ["semper differunt in forma", "sunt forma identici (rosae)", "numquam exsistunt simul"], "answerIndex": 1, "explanation": "Ambo sunt 'rosae' — contextus distinguit officium." }
-      ]
-    },
-    {
       "id": "ii-decl1-order", "type": "ordering", "title": "Compone Sententiam",
       "instructions": "Pone verba in ordinem naturalem.",
       "items": [
@@ -83,13 +99,24 @@
         { "id": "d1-12", "prompt": "aqua / bona / est", "words": ["Aqua", "bona", "est"], "explanation": "Subiectum + adiectivum praedicativum + sum." },
         { "id": "d1-13", "prompt": "in / puellae / via / ambulant", "words": ["Puellae", "in", "via", "ambulant"], "explanation": "Subiectum plurale + phrasis praepositionalis + verbum." }
       ]
+    },
+    {
+      "id": "ii-decl1-mc", "type": "multiple-choice", "title": "Nunc Nomina: Declinatio Prima",
+      "instructions": "Post fabulam et exercitia, ecce nomina grammatica pro re quam iam sensu cognovisti.",
+      "items": [
+        { "id": "d1-6", "prompt": "Quod genus habent fere omnia nomina primae declinationis?", "options": ["masculinum", "femininum", "neutrum"], "answerIndex": 1, "explanation": "Prima declinatio est praecipue feminina." },
+        { "id": "d1-7", "prompt": "Nominativus pluralis verbi 'rosa' est:", "options": ["rosa", "rosae", "rosam"], "answerIndex": 1, "explanation": "-a → -ae in nominativo plurali." },
+        { "id": "d1-8", "prompt": "Accusativus pluralis verbi 'rosa' est:", "options": ["rosas", "rosarum", "rosis"], "answerIndex": 0, "explanation": "-a → -as in accusativo plurali." },
+        { "id": "d1-9", "prompt": "Quod verbum est exceptio masculina primae declinationis?", "options": ["puella", "agricola", "aqua"], "answerIndex": 1, "explanation": "agricola (farmer) est masculinum propter significationem naturalem." },
+        { "id": "d1-10", "prompt": "Genetivus singularis et dativus singularis primae declinationis:", "options": ["semper differunt in forma", "sunt forma identici (rosae)", "numquam exsistunt simul"], "answerIndex": 1, "explanation": "Ambo sunt 'rosae' — contextus distinguit officium, sicut in 'rosae Iuliae sunt' (genetivus) vs. 'Iulia rosae aquam dat' (dativus)." }
+      ]
     }
   ],
   "summary": [
+    "Declinatio: idem nomen, forma mutata secundum officium suum in sententia (subiectum, obiectum, possessio...).",
     "Declinatio prima: nomina in -a, genetivo -ae; fere semper feminina.",
     "Sex casus: nominativus, genetivus, dativus, accusativus, ablativus, vocativus.",
-    "Genetivus/dativus singularis identici (rosae); nominativus/ablativus singularis differunt sola quantitate (rosa/rosā).",
-    "Exceptiones masculinae: agricola, nauta, poeta — propter significationem, non formam."
+    "Genetivus/dativus singularis identici (rosae); nominativus/ablativus singularis differunt sola quantitate (rosa/rosā)."
   ],
   "related": [
     { "lessonId": "ii-declinatio-secunda-masculina", "label": "Declinatio Secunda: Masculina" }

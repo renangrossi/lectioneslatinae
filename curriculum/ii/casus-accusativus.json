@@ -6,46 +6,46 @@
   "skill": "grammatica",
   "strand": "casus",
   "title": "Casus Accusativus",
-  "subtitle": "Obiectum directum — et ultra: duratio temporis, extensio spatii, obiectum duplex.",
+  "subtitle": "Marcus Iuliam linguam docet — obiectum directum, et ultra.",
   "prerequisites": ["ii-coniugatio-quarta"],
   "objectives": [
-    "Recognoscere accusativum ut obiectum directum",
-    "Uti accusativo pro duratione temporis (how long) et extensione spatii",
+    "Reconoscere in contextu accusativum ut obiectum directum",
+    "Notare quomodo accusativus, sine praepositione, exprimat 'quamdiu' et 'quam longe'",
     "Recognoscere constructionem obiecti duplicis cum verbis ut doceo",
     "Distinguere accusativum ab aliis casibus in sententiis mixtis"
   ],
   "content": {
-    "intro": "Iam accūsātīvum ut obiectum dīrēctum nōvistī. Hodiē vidēbis trēs alterōs ūsūs frequentēs huius cāsūs, quī nūllam praepositiōnem postulant.",
-    "explanation": "<p>Accūsātīvus respondet quaestiōnī 'quem? quid?' post verbum āctīvum trānsitīvum — sed etiam respondet 'quamdiū?' (how long) et 'quam longē?' (how far), sine praepositiōne ūllā.</p>",
+    "intro": "Marcus Graecam linguam scit. Iulia eam discere vult. 'Doce me, Marce!' dicit Iulia. Duas horas cotidie student; decem passus tantum a foro ambulant ad locum studendi. Hodie videbis tres usus accusativi, praeter obiectum directum iam notum.",
+    "explanation": "<p>Mārcus Graecam linguam scit; Iūlia eam discere vult. &ldquo;Docē mē, Mārce!&rdquo; dīcit Iūlia. Mārcus adnuit: &ldquo;Libenter tē Graecam linguam docēbō.&rdquo; Duās hōrās cotīdiē student — Mārcus Iūliam linguam docet, Iūlia verba nova discit. Decem tantum passūs ā forō ambulant ad locum studendī, sub arbore magnā.</p><p>Notāvistīne: <strong>&ldquo;Mārcus Iūliam linguam docet&rdquo;</strong> habet DUOS accūsātīvōs — Iūliam (persōnam quam docet) ET linguam (rem quam docet)? Et <strong>&ldquo;duās hōrās student&rdquo;</strong> nōn respondet 'quem/quid?', sed 'quamdiū?' — nūlla praepositiō adhibētur. Accūsātīvus, quem iam ut obiectum dīrēctum nōvistī, habet igitur plūrēs ūsūs quam ūnum sōlum.</p>",
     "rules": [
       {
         "heading": "a) Obiectum Directum (Recognitio)",
-        "body": "<p><em>Puella rosam videt.</em> ('The girl sees a rose.') — rosam est obiectum dīrēctum verbī videt.</p>"
+        "body": "<p><em>Iūlia linguam discit.</em> ('Iulia learns the language.') — linguam est obiectum dīrēctum verbī discit.</p>"
       },
       {
         "heading": "b) Duratio Temporis (sine praepositione)",
-        "body": "<p>Accūsātīvus, sine praepositiōne, exprimit per quantum tempus aliquid ēvenit: <em>Multōs annōs Rōmae habitāvit.</em> ('He lived in Rome for many years.') <em>Trēs hōrās labōrāmus.</em> ('We work for three hours.')</p>"
+        "body": "<p>Accūsātīvus, sine praepositiōne, exprimit per quantum tempus aliquid ēvenit: <em>Duās hōrās student.</em> ('They study for two hours.') <em>Multōs annōs Rōmae habitāvit.</em> ('He lived in Rome for many years.')</p>"
       },
       {
         "heading": "c) Extensio Spatii",
-        "body": "<p>Similiter, accūsātīvus exprimit distantiam: <em>Decem mīlia passuum ambulāvimus.</em> ('We walked ten miles.' litt. 'ten thousand of paces')</p>"
+        "body": "<p>Similiter, accūsātīvus exprimit distantiam: <em>Decem passūs ambulant.</em> ('They walk ten paces.') <em>Mīlle passūs cucurrimus.</em> ('We ran a thousand paces.')</p>"
       },
       {
         "heading": "d) Obiectum Duplex",
-        "body": "<p>Paucī verba (praecipuē <strong>doceō</strong> 'teach', <strong>rogō</strong> 'ask', <strong>cēlō</strong> 'hide from') accipiunt DUO accūsātīvōs simul: persōnam ET rem. <em>Magister puerōs linguam docet.</em> ('The teacher teaches the boys [the] language.') — ambō 'puerōs' et 'linguam' sunt accūsātīvī.</p>"
+        "body": "<p>Paucī verba (praecipuē <strong>doceō</strong> 'teach', <strong>rogō</strong> 'ask', <strong>cēlō</strong> 'hide from') accipiunt DUO accūsātīvōs simul: persōnam ET rem. <em>Mārcus Iūliam linguam docet.</em> ('Marcus teaches Iulia the language.') — ambō 'Iūliam' et 'linguam' sunt accūsātīvī.</p>"
       }
     ],
     "examples": [
-      "Librum legō. — I read a book. (obiectum directum)",
-      "Duōs annōs in Galliā manet. — He stays in Gaul for two years. (duratio)",
-      "Magister discipulōs grammaticam docet. — The teacher teaches the students grammar. (duplex)",
-      "Mīlle passūs cucurrimus. — We ran a thousand paces. (extensio)",
-      "Rogat mē sententiam. — He asks me my opinion. (duplex)"
+      "Iulia linguam discit. — Iulia learns the language. (obiectum directum)",
+      "Duas horas student. — They study for two hours. (duratio)",
+      "Marcus Iuliam linguam docet. — Marcus teaches Iulia the language. (duplex)",
+      "Decem passus ambulant. — They walk ten paces. (extensio)",
+      "Iulia Marcum sententiam rogat. — Iulia asks Marcus his opinion. (duplex)"
     ],
     "commonMistakes": [
       {
         "wrong": "Discipulus addit praepositionem 'per' ante omnem expressionem durationis, ut Anglice 'for'.",
-        "right": "Duratio temporis in Latīnā exprimitur SOLO accusativo, sine praepositione: 'multōs annōs', non '*per multōs annōs' (quamvis 'per' quoque possibile sit in aliis contextibus).",
+        "right": "Duratio temporis in Latīnā exprimitur SOLO accusativo, sine praepositione: 'duās hōrās', non '*per duās hōrās' (quamvis 'per' quoque possibile sit in aliis contextibus).",
         "why": "Latina saepe omittit praepositiones quas Anglica requirit — casus ipse sufficit."
       },
       {
@@ -57,13 +57,33 @@
   },
   "exercises": [
     {
-      "id": "ii-acc-mc", "type": "multiple-choice", "title": "Usus Accusativi",
+      "id": "ii-acc-story", "type": "reading-comprehension", "title": "Marcus Iuliam Docet",
+      "instructions": "Lege, deinde responde secundum sensum.",
+      "passage": "<p>Iūlia Graecam linguam discere vult. Mārcus eam bene scit, ergō Iūliam docet. Duās hōrās cotīdiē sub arbore student. Prīmā hōrā, Mārcus verba nova Iūliae dat; secundā hōrā, Iūlia sententiās parvās scrībit.</p><p>Post decem diēs, Iūlia iam multa verba Graeca scit. &ldquo;Bene didicistī!&rdquo; dīcit Mārcus laetus. Iūlia respondet: &ldquo;Grātiās tibi agō — sine tē, nihil didicissem.&rdquo;</p><p>Ūnō diē, longum iter faciunt: mīlle passūs ambulant ad templum antīquum, ut ibi Graecē legant.</p>",
+      "items": [
+        { "id": "acc-story1", "prompt": "Quid Iulia discere vult?", "options": ["linguam Graecam", "linguam Gallicam", "musicam"], "answerIndex": 0, "explanation": "'Iulia Graecam linguam discere vult.'" },
+        { "id": "acc-story2", "prompt": "Quot horas cotidie student?", "options": ["unam horam", "duas horas", "tres horas"], "answerIndex": 1, "explanation": "'Duas horas cotidie student.'" },
+        { "id": "acc-story3", "prompt": "Quot dies post, Iulia multa verba iam scit?", "options": ["post quinque dies", "post decem dies", "post viginti dies"], "answerIndex": 1, "explanation": "'Post decem dies, Iulia iam multa verba Graeca scit.'" },
+        { "id": "acc-story4", "prompt": "Quam longe ambulant ad templum?", "options": ["decem passus", "centum passus", "mille passus"], "answerIndex": 2, "explanation": "'Mille passus ambulant ad templum antiquum.'" }
+      ]
+    },
+    {
+      "id": "ii-acc-tf", "type": "true-false", "title": "Verum an Falsum",
+      "instructions": "Secundum fabulam supra, dic utrum verum sit an falsum.",
+      "items": [
+        { "id": "acc-tf1", "statement": "Marcus linguam Graecam discere vult, et Iulia eum docet.", "answer": false, "explanation": "Contrarium: Iulia discere vult, Marcus eam docet." },
+        { "id": "acc-tf2", "statement": "Post decem dies, Iulia iam multa verba Graeca scit.", "answer": true, "explanation": "'Post decem dies, Iulia iam multa verba Graeca scit.'" },
+        { "id": "acc-tf3", "statement": "Numquam longum iter una faciunt.", "answer": false, "explanation": "'Uno die, longum iter faciunt: mille passus ambulant.'" }
+      ]
+    },
+    {
+      "id": "ii-acc-mc", "type": "multiple-choice", "title": "Nunc Nomina: Usus Accusativi",
       "instructions": "Elige responsum rectum.",
       "items": [
-        { "id": "acc1", "prompt": "In 'Multōs annōs manet', 'multōs annōs' exprimit:", "options": ["obiectum directum", "durationem temporis", "locum"], "answerIndex": 1, "explanation": "Accusativus sine praepositione = duration ('for how long')." },
-        { "id": "acc2", "prompt": "'Magister puerōs linguam docet' — quot accusativi sunt in hac sententia?", "options": ["unus", "duo", "tres"], "answerIndex": 1, "explanation": "'puerōs' et 'linguam' ambo accusativi (obiectum duplex)." },
+        { "id": "acc1", "prompt": "In 'Duās hōrās student', 'duās hōrās' exprimit:", "options": ["obiectum directum", "durationem temporis", "locum"], "answerIndex": 1, "explanation": "Accusativus sine praepositione = duration ('for how long')." },
+        { "id": "acc2", "prompt": "'Mārcus Iūliam linguam docet' — quot accusativi sunt in hac sententia?", "options": ["unus", "duo", "tres"], "answerIndex": 1, "explanation": "'Iūliam' et 'linguam' ambo accusativi (obiectum duplex)." },
         { "id": "acc3", "prompt": "Accusativus respondet quaestioni:", "options": ["cuius?", "quem/quid?", "cui?"], "answerIndex": 1, "explanation": "Accusativus = obiectum directum: 'whom/what?'." },
-        { "id": "acc4", "prompt": "'Trēs hōrās legō' significat:", "options": ["I read three books", "I read for three hours", "I read at three o'clock"], "answerIndex": 1, "explanation": "Accusativus temporis: duration, 'for three hours'." },
+        { "id": "acc4", "prompt": "'Mīlle passūs ambulant' significat:", "options": ["they walk a thousand times", "they walk a thousand paces", "they walk at the thousandth hour"], "answerIndex": 1, "explanation": "Accusativus spatii: extensio ('how far')." },
         { "id": "acc5", "prompt": "Quod verbum frequenter regit obiectum duplex accusativum?", "options": ["sum", "doceō", "veniō"], "answerIndex": 1, "explanation": "doceō (et rogō, cēlō) accipit duos accusativos." }
       ]
     },
@@ -71,9 +91,9 @@
       "id": "ii-acc-fill", "type": "fill-blank", "title": "Comple cum Accusativo",
       "instructions": "Elige formam rectam.",
       "items": [
-        { "id": "acc6", "prompt": "___ habitat Romae. (for two years — duos annos)", "options": ["Duo anni", "Duōs annōs", "Duōbus annīs"], "answers": ["Duōs annōs"], "explanation": "Duratio: accusativus sine praepositione." },
-        { "id": "acc7", "prompt": "Puer ___ videt. (the master — dominum)", "options": ["dominus", "dominum", "domino"], "answers": ["dominum"], "explanation": "Obiectum directum: accusativus." },
-        { "id": "acc8", "prompt": "Magistra puellas ___ docet. (music — musicam)", "options": ["musica", "musicam", "musicae"], "answers": ["musicam"], "explanation": "Secundus accusativus in constructione duplici." }
+        { "id": "acc6", "prompt": "___ student. (for two hours — duas horas)", "options": ["Duae horae", "Duās hōrās", "Duābus hōrīs"], "answers": ["Duās hōrās"], "explanation": "Duratio: accusativus sine praepositione." },
+        { "id": "acc7", "prompt": "Iulia ___ videt. (Marcus — Marcum)", "options": ["Marcus", "Marcum", "Marco"], "answers": ["Marcum"], "explanation": "Obiectum directum: accusativus." },
+        { "id": "acc8", "prompt": "Marcus Iuliam ___ docet. (Greek — Graecam linguam)", "options": ["Graeca lingua", "Graecam linguam", "Graecae linguae"], "answers": ["Graecam linguam"], "explanation": "Secundus accusativus in constructione duplici." }
       ]
     }
   ],

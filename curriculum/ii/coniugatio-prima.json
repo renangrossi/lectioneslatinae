@@ -6,17 +6,17 @@
   "skill": "grammatica",
   "strand": "verba",
   "title": "Coniugatio Prima",
-  "subtitle": "Amo, amare: tempus praesens activum — prima ex quattuor coniugationibus.",
+  "subtitle": "Amo, amas, amat — idem actio, forma mutata secundum eum qui agit.",
   "prerequisites": ["ii-praepositiones-cum-accusativo-et-ablativo"],
   "objectives": [
-    "Recitare tempus praesens activum verbi 'amo, amare'",
+    "Notare in contextu quomodo forma verbi 'amo' mutetur secundum personam quae agit",
+    "Recitare tempus praesens activum verbi 'amo, amare' per omnes personas",
     "Identificare coniugationem primam per infinitivum in -are",
-    "Formare negationem et interrogationem simplicem",
-    "Verba frequentia primae coniugationis uti in sententiis"
+    "Formare negationem et interrogationem simplicem"
   ],
   "content": {
-    "intro": "Verba Latīna dīviduntur in quattuor <strong>coniugātiōnēs</strong> (conjugation groups), cognōscibilēs per īnfīnītīvum. Hodiē incipimus cum prīmā: verba in <strong>-āre</strong>.",
-    "explanation": "<p>Īnfīnītīvus (the infinitive, 'to love') verbī prīmae coniugātiōnis semper dēsinit in <strong>-āre</strong>: <em>amāre</em> ('to love'), <em>laudāre</em> ('to praise'). Fōrma citāta in dictiōnāriīs (1ª persōna singulāris) dēsinit in <strong>-ō</strong>: <em>amō</em>.</p>",
+    "intro": "Marcus Iuliam in horto videt. Iulia laborat: rosas amat, plantas curat. 'Ego hortum amo,' dicit Iulia. 'Et ego quoque hortum amo,' respondet Marcus — sed dicit 'amo' de se, 'amat' de Iulia. Eadem res, forma mutata secundum eum qui agit: hoc hodie discimus.",
+    "explanation": "<p>Mārcus Iūliam in hortō videt. Iūlia labōrat: rosās aquā dat, plantās parat. Mārcus Iūliam spectat et eam laudat: &ldquo;Bene labōrās, Iūlia!&rdquo; Iūlia rīdet et respondet: &ldquo;Grātiās, Mārce — ego hortum amō.&rdquo; Mārcus quoque hortum amat, et saepe Iūliam adiuvat.</p><p>Notāvistīne fōrmam verbī 'amāre'? Iūlia dīcit <strong>amō</strong> ('I love') dē sē ipsā; Mārcus dīcit Iūlia <strong>amat</strong> ('she loves') dē Iūliā. Eadem rādīx (am-), sed dēsinentia mūtātur secundum persōnam quae agit — sīcut nōmen mūtat fōrmam secundum officium suum (dēclīnātiō), sīc verbum mūtat fōrmam secundum persōnam agentem: hoc vocātur <strong>coniugātiō</strong> (conjugation). Verba Latīna dīviduntur in quattuor coniugātiōnēs, cognōscibilēs per īnfīnītīvum. Hodiē incipimus cum prīmā: verba in <strong>-āre</strong>, ut <em>amāre</em>.</p>",
     "rules": [
       {
         "heading": "a) Paradigma: amō, amāre 'to love'",
@@ -24,7 +24,7 @@
       },
       {
         "heading": "b) Structura: Radix + Vocalis Thematica + Desinentia",
-        "body": "<p>Rādīx (stem) <strong>am-</strong> + vōcālis thēmatica <strong>-ā-</strong> (dēfīniēns coniugātiōnem) + dēsinentia persōnālis (-ō/-s/-t/-mus/-tis/-nt). Nōtā: 1ª persōna 'amō' contrahit ā+ō → ō (nōn *amāō).</p>"
+        "body": "<p>Rādīx (stem) <strong>am-</strong> + vōcālis thēmatica <strong>-ā-</strong> (dēfīniēns coniugātiōnem) + dēsinentia persōnālis (-ō/-s/-t/-mus/-tis/-nt). Nōtā: 1ª persōna 'amō' contrahit ā+ō → ō (nōn *amāō) — hōc modō Iūlia dīcit 'amō', nōn '*amāō', in fābulā suprā.</p>"
       },
       {
         "heading": "c) Verba Frequentia Primae Coniugationis",
@@ -36,12 +36,12 @@
       }
     ],
     "examples": [
-      "Puella rosam amat. — The girl loves the rose.",
-      "Magistrum laudāmus. — We praise the teacher.",
-      "Puerī in agrō ambulant. — The boys walk in the field.",
-      "Nōn amō bellum. — I do not love war.",
-      "Amāsne Rōmam? — Do you love Rome?",
-      "Servus dominum vocat. — The slave calls the master."
+      "Iulia rosam amat. — Iulia loves the rose.",
+      "Marcum laudamus. — We praise Marcus.",
+      "Marcus et Iulia in horto ambulant. — Marcus and Iulia walk in the garden.",
+      "Non amo bellum. — I do not love war.",
+      "Amasne hortum, Iulia? — Do you love the garden, Iulia?",
+      "Iulia Marcum vocat. — Iulia calls Marcus."
     ],
     "commonMistakes": [
       {
@@ -58,42 +58,61 @@
   },
   "exercises": [
     {
+      "id": "ii-con1-story", "type": "reading-comprehension", "title": "Marcus et Iulia in Horto",
+      "instructions": "Lege, deinde responde secundum sensum fabulae.",
+      "passage": "<p>Mārcus et Iūlia amīcī bonī sunt. Cotīdiē in hortō labōrant: Iūlia rosās plantat, Mārcus aquam portat. Iūlia cantat dum labōrat; Mārcus rīdet et eam spectat.</p><p>&ldquo;Cūr semper cantās, Iūlia?&rdquo; rogat Mārcus. &ldquo;Quia hortum amō,&rdquo; respondet Iūlia, &ldquo;et labōrem nōn timeō.&rdquo; Mārcus quoque respondet: &ldquo;Ego labōrem nōn amō tam multum, sed tē et hortum tuum amō — ideō adiuvō.&rdquo;</p><p>Vesperī, Iūlia et Mārcus rosās novās spectant. Ambō laetī sunt. &ldquo;Bene labōrāvimus hodiē,&rdquo; dīcit Iūlia. Mārcus adnuit: &ldquo;Crās iterum labōrābimus.&rdquo;</p>",
+      "items": [
+        { "id": "c1-story1", "prompt": "Quid Iulia in horto facit?", "options": ["rosas plantat", "librum legit", "dormit"], "answerIndex": 0, "explanation": "'Iulia rosas plantat.'" },
+        { "id": "c1-story2", "prompt": "Cur Iulia cantat dum laborat?", "options": ["quia fessa est", "quia hortum amat", "quia Marcus id iubet"], "answerIndex": 1, "explanation": "'Quia hortum amo,' respondet Iulia." },
+        { "id": "c1-story3", "prompt": "Amatne Marcus laborem ipsum tantum quantum Iulia?", "options": ["ita, aeque amat", "non tam multum, sed adiuvat propter Iuliam", "Marcus laborem omnino non amat et abit"], "answerIndex": 1, "explanation": "'Ego laborem non amo tam multum, sed te et hortum tuum amo.'" }
+      ]
+    },
+    {
+      "id": "ii-con1-tf", "type": "true-false", "title": "Verum an Falsum: De Fabula",
+      "instructions": "Secundum fabulam supra, dic utrum verum sit an falsum.",
+      "items": [
+        { "id": "c1-tf1", "statement": "Iulia et Marcus cotidie in horto laborant.", "answer": true, "explanation": "'Cotidie in horto laborant.'" },
+        { "id": "c1-tf2", "statement": "Marcus rosas plantat, Iulia aquam portat.", "answer": false, "explanation": "Contrarium verum est: Iulia rosas plantat, Marcus aquam portat." },
+        { "id": "c1-tf3", "statement": "Vesperi, ambo laeti sunt propter rosas novas.", "answer": true, "explanation": "'Ambo laeti sunt' — rosas novas spectant." }
+      ]
+    },
+    {
       "id": "ii-con1-fill", "type": "fill-blank", "title": "Coniuga Amo",
       "instructions": "Comple cum forma recta verbi 'amo, amare'.",
       "items": [
         { "id": "c1-1", "prompt": "Ego rosam ___. (I love)", "options": ["amo", "amas", "amat"], "answers": ["amo"], "explanation": "1a persona singularis: amo." },
         { "id": "c1-2", "prompt": "Tu magistram ___. (you love)", "options": ["amo", "amas", "amamus"], "answers": ["amas"], "explanation": "2a persona singularis: amas." },
-        { "id": "c1-3", "prompt": "Puella puerum ___. (loves)", "options": ["amant", "amat", "amas"], "answers": ["amat"], "explanation": "3a persona singularis: amat." },
+        { "id": "c1-3", "prompt": "Iulia Marcum ___. (loves)", "options": ["amant", "amat", "amas"], "answers": ["amat"], "explanation": "3a persona singularis: amat." },
         { "id": "c1-4", "prompt": "Nos patriam ___. (we love)", "options": ["amamus", "amatis", "amant"], "answers": ["amamus"], "explanation": "1a persona pluralis: amamus." },
-        { "id": "c1-5", "prompt": "Servi dominos ___. (they love)", "options": ["amat", "amant", "amamus"], "answers": ["amant"], "explanation": "3a persona pluralis: amant." }
-      ]
-    },
-    {
-      "id": "ii-con1-mc", "type": "multiple-choice", "title": "Coniugatio Prima: Regulae",
-      "instructions": "Elige responsum rectum.",
-      "items": [
-        { "id": "c1-6", "prompt": "Infinitivus verborum primae coniugationis desinit in:", "options": ["-are", "-ere", "-ire"], "answerIndex": 0, "explanation": "-are est signum primae coniugationis." },
-        { "id": "c1-7", "prompt": "'Vocatis' significat:", "options": ["I call", "you (pl.) call", "they call"], "answerIndex": 1, "explanation": "2a persona pluralis: -atis." },
-        { "id": "c1-8", "prompt": "Quomodo formatur negatio simplex?", "options": ["nōn ante verbum", "-ne post verbum", "num ante nomen"], "answerIndex": 0, "explanation": "'nōn' + verbum = negatio simplex." },
-        { "id": "c1-9", "prompt": "'Amāsne rosam?' significat:", "options": ["I don't love the rose", "Do you love the rose?", "The rose doesn't love"], "answerIndex": 1, "explanation": "-ne suffixum ad verbum = quaestio simplex." },
-        { "id": "c1-10", "prompt": "Radix verbi 'laudo, laudare' est:", "options": ["laud-", "lauda-", "laudar-"], "answerIndex": 0, "explanation": "Radix + vocalis thematica -ā- + desinentia." }
+        { "id": "c1-5", "prompt": "Marcus et Iulia hortum ___. (they love)", "options": ["amat", "amant", "amamus"], "answers": ["amant"], "explanation": "3a persona pluralis: amant." }
       ]
     },
     {
       "id": "ii-con1-order", "type": "ordering", "title": "Compone Sententiam",
       "instructions": "Pone verba in ordinem naturalem.",
       "items": [
-        { "id": "c1-11", "prompt": "rosam / puella / amat", "words": ["Puella", "rosam", "amat"], "explanation": "Subiectum + obiectum + verbum." },
-        { "id": "c1-12", "prompt": "non / bellum / amamus", "words": ["Bellum", "non", "amamus"], "explanation": "Obiectum + negatio + verbum." },
-        { "id": "c1-13", "prompt": "magistrum / laudatisne", "words": ["Laudatisne", "magistrum"], "explanation": "Verbum interrogativum (-ne) + obiectum." }
+        { "id": "c1-11", "prompt": "rosam / Iulia / amat", "words": ["Iulia", "rosam", "amat"], "explanation": "Subiectum + obiectum + verbum." },
+        { "id": "c1-12", "prompt": "non / laborem / amo / tam", "words": ["Laborem", "non", "tam", "amo"], "explanation": "Obiectum + negatio + intensivum + verbum." },
+        { "id": "c1-13", "prompt": "hortum / laudatisne", "words": ["Laudatisne", "hortum"], "explanation": "Verbum interrogativum (-ne) + obiectum." }
+      ]
+    },
+    {
+      "id": "ii-con1-mc", "type": "multiple-choice", "title": "Nunc Nomina: Coniugatio Prima",
+      "instructions": "Post fabulam et exercitia, elige responsum rectum.",
+      "items": [
+        { "id": "c1-6", "prompt": "Infinitivus verborum primae coniugationis desinit in:", "options": ["-are", "-ere", "-ire"], "answerIndex": 0, "explanation": "-are est signum primae coniugationis." },
+        { "id": "c1-7", "prompt": "'Laboratis' significat:", "options": ["I work", "you (pl.) work", "they work"], "answerIndex": 1, "explanation": "2a persona pluralis: -atis." },
+        { "id": "c1-8", "prompt": "Quomodo formatur negatio simplex?", "options": ["nōn ante verbum", "-ne post verbum", "num ante nomen"], "answerIndex": 0, "explanation": "'nōn' + verbum = negatio simplex." },
+        { "id": "c1-9", "prompt": "'Amāsne hortum?' significat:", "options": ["I don't love the garden", "Do you love the garden?", "The garden doesn't love"], "answerIndex": 1, "explanation": "-ne suffixum ad verbum = quaestio simplex." },
+        { "id": "c1-10", "prompt": "Radix verbi 'laudo, laudare' est:", "options": ["laud-", "lauda-", "laudar-"], "answerIndex": 0, "explanation": "Radix + vocalis thematica -ā- + desinentia." }
       ]
     }
   ],
   "summary": [
-    "Coniugatio prima: infinitivus -are; radix + -ā- + desinentia.",
+    "Coniugatio: forma verbi mutatur secundum personam quae agit (amō / amat / amāmus...).",
+    "Coniugatio prima: infinitivus -āre; radix + -ā- + desinentia.",
     "amō, amās, amat, amāmus, amātis, amant.",
-    "Negatio: nōn + verbum. Interrogatio: -ne suffixum primo verbo.",
-    "Verba frequentia: amō, laudō, vocō, dō, portō, parō, spectō, ambulō, habitō."
+    "Negatio: nōn + verbum. Interrogatio: -ne suffixum primo verbo."
   ],
   "related": [
     { "lessonId": "ii-praepositiones-cum-accusativo-et-ablativo", "label": "Praepositiones cum Accusativo et Ablativo" },
