@@ -6,17 +6,17 @@
   "skill": "grammatica",
   "strand": "pronomina",
   "title": "Pronomen Relativum",
-  "subtitle": "Qui, quae, quod — regula aurea: genus/numerus ex antecedente, casus ex clausula sua.",
+  "subtitle": "Liber quem legis meus est — regula aurea: genus/numerus ex antecedente, casus ex clausula sua.",
   "prerequisites": ["iii-vox-passiva-praesens"],
   "objectives": [
-    "Declinare qui, quae, quod per omnes casus",
+    "Notare in contextu quomodo 'qui/quae/quod' coniungat duas informationes de eadem re",
     "Applicare regulam: genus et numerus ex antecedente, casus ex officio in clausula relativa",
-    "Formare clausulas relativas simplices",
+    "Declinare qui, quae, quod per omnes casus",
     "Distinguere pronomen relativum a pronomine interrogativo (formaliter simile)"
   ],
   "content": {
-    "intro": "Pronōmen relātīvum ('who, which, that') coniungit clausulam novam cum nōmine iam mentiōnātō (antecēdēns). Rēgula quae gubernat eius fōrmam est ūna ex māximē important­ibus tōtīus syntaxeōs Latīnae.",
-    "explanation": "<p><strong>Rēgula Aurea</strong>: prōnōmen relātīvum accipit <strong>genus</strong> et <strong>numerum</strong> ab antecēdente (nōmen quod modificat), sed <strong>cāsum</strong> ab officiō suō PROPRIŌ intrā clausulam relātīvam ipsam — nōn ab antecēdente.</p>",
+    "intro": "Iulia librum legit. Marcus rogat: 'Quis liber est?' Iulia respondet: 'Liber quem lego de Roma antiqua est.' Observa: 'quem' coniungit duas res de eodem libro in una sententia, sine repetitione verbi 'liber'. Hoc pronomen — qui, quae, quod — hodie discimus.",
+    "explanation": "<p>Iūlia librum legit. Mārcus eam videt et rogat: &ldquo;Quid legis?&rdquo; Iūlia respondet: &ldquo;Librum legō quem magister mihi dedit — liber dē Rōmā antīquā est.&rdquo; Mārcus dīcit: &ldquo;Ego quoque librum habeō, sed liber quem ego legō dē bellīs est.&rdquo;</p><p>Notāvistīne: <em>librum quem legō</em>. Sine 'quem', Iūlia dēbēret dīcere duās sententiās sēparātās: &ldquo;Librum legō. Magister mihi librum dedit.&rdquo; Cum 'quem', ūna sententia duās īnfōrmātiōnēs dē eōdem librō coniungit. 'Quem' hīc referēns ad 'librum' — hoc vocātur <strong>antecēdēns</strong> (id quod ante venit) — sed fōrmam propriam habet secundum officium suum in clausulā novā: 'legō' postulat obiectum dīrēctum, ergō accūsātīvum 'quem', nōn nōminātīvum 'quī'.</p><p>Hoc pronōmen — <strong>quī, quae, quod</strong> ('who, which, that') — coniungit clausulam novam cum nōmine iam mentiōnātō. Rēgula quae gubernat eius fōrmam est ūna ex maximē important­ibus tōtīus syntaxeōs Latīnae.</p>",
     "rules": [
       {
         "heading": "a) Paradigma: qui, quae, quod",
@@ -24,15 +24,16 @@
       },
       {
         "heading": "b) Regula Aurea in Praxi",
-        "body": "<p><em>Puella <strong>quam</strong> videō pulchra est.</em> ('The girl WHOM I see is beautiful.') 'Puella' est fēminīnum singulāre (dat genus/numerum ad 'quam'); sed 'quam' est accūsātīvus quia est obiectum dīrēctum verbī 'videō' DENTRO clausulae relātīvae — nōn quia 'puella' ipsa est accūsātīva (est nōminātīva, subiectum sententiae prīncipālis!).</p>"
+        "body": "<p><em>Liber <strong>quem</strong> legō meus est.</em> ('The book that I am reading is mine.') 'Liber' est māsculīnum singulāre (dat genus/numerum ad 'quem'); sed 'quem' est accūsātīvus quia est obiectum dīrēctum verbī 'legō' intrā clausulam relātīvam — nōn quia 'liber' ipse est accūsātīvus (est nōminātīvus, subiectum sententiae prīncipālis!).</p>"
       },
       {
         "heading": "c) Qui vs. Quis: Non Confundere",
-        "body": "<p>'Quis?' (interrogātīvum, substantīvum: 'who?') differt formāliter parum ā 'quī' (relātīvum): compara <em>Quis venit?</em> ('Who comes?') vs. <em>Vir quī venit...</em> ('The man who comes...').</p>"
+        "body": "<p>'Quis?' (interrogātīvum, substantīvum: 'who?') differt formāliter parum ā 'quī' (relātīvum): compara <em>Quis legit?</em> ('Who is reading?') vs. <em>Puella quae legit...</em> ('The girl who is reading...').</p>"
       }
     ],
     "examples": [
       "Liber quem legis meus est. — The book that you are reading is mine.",
+      "Puella quae librum legit Iulia est. — The girl who is reading the book is Iulia.",
       "Femina cuius filius abest tristis est. — The woman whose son is away is sad.",
       "Vir cui epistulam misi respondit. — The man to whom I sent a letter responded.",
       "Urbs in qua habito antiqua est. — The city in which I live is ancient.",
@@ -53,11 +54,37 @@
   },
   "exercises": [
     {
+      "id": "iii-rel-story", "type": "reading-comprehension", "title": "Iulia et Marcus: Libri",
+      "instructions": "Lege dialogum, deinde responde.",
+      "passage": "<p>Iūlia librum legit sub arbore. Mārcus, quī ex forō venit, eam videt. &ldquo;Quid legis?&rdquo; rogat. &ldquo;Librum legō quem magister mihi dedit,&rdquo; respondet Iūlia. &ldquo;Liber dē Rōmā antīquā est — dē virīs quī urbem condidērunt.&rdquo;</p><p>&ldquo;Ego quoque librum habeō,&rdquo; dīcit Mārcus, &ldquo;sed liber quem ego legō dē bellīs Gallicīs est.&rdquo; Iūlia rīdet: &ldquo;Fēmina cuius fīlius mīles fuit mihi eum librum commendāvit.&rdquo;</p><p>Vespere, Claudia, soror Iūliae, ad eōs venit. &ldquo;Habētisne librum quem mihi dare possītis?&rdquo; rogat. Iūlia librum dē Rōmā eī dat.</p>",
+      "items": [
+        { "id": "rel-story1", "prompt": "Qualem librum Iulia legit?", "options": ["librum de Roma antiqua", "librum de bellis Gallicis", "nullum librum"], "answerIndex": 0, "explanation": "'Liber de Roma antiqua est.'" },
+        { "id": "rel-story2", "prompt": "Quis Marco librum de bellis Gallicis commendavit?", "options": ["Iulia ipsa", "femina cuius filius miles fuit", "magister"], "answerIndex": 1, "explanation": "'Femina cuius filius miles fuit mihi eum librum commendavit.'" },
+        { "id": "rel-story3", "prompt": "Quem librum Iulia Claudiae dat?", "options": ["librum de Roma", "librum de bellis", "nullum"], "answerIndex": 0, "explanation": "'Iulia librum de Roma ei dat.'" }
+      ]
+    },
+    {
+      "id": "iii-rel-match", "type": "matching", "title": "Antecedens et Officium",
+      "instructions": "Cuique sententiae ex dialogo iunge id quod 'qui/quae/quem/cuius' ibi facit.",
+      "items": [
+        {
+          "id": "rel-match1",
+          "pairs": [
+            { "left": "Marcus, qui ex foro venit, ...", "right": "'qui' est subiectum clausulae suae (venit)" },
+            { "left": "librum quem magister mihi dedit", "right": "'quem' est obiectum directum clausulae suae (dedit)" },
+            { "left": "femina cuius filius miles fuit", "right": "'cuius' monstrat possessionem (filius FEMINAE)" },
+            { "left": "librum quem mihi dare possitis", "right": "'quem' est obiectum directum clausulae suae (dare)" }
+          ],
+          "explanation": "In omni exemplo, genus/numerus pronominis venit ab antecedente, sed casus venit semper ab officio proprio intra clausulam relativam."
+        }
+      ]
+    },
+    {
       "id": "iii-rel-mc", "type": "multiple-choice", "title": "Regula Aurea: Genus/Numerus vs. Casus",
       "instructions": "Elige responsum rectum.",
       "items": [
-        { "id": "rel1", "prompt": "'Puella quam video pulchra est.' — 'quam' habet genus/numerum ex:", "options": ["'video' (verbum)", "'puella' (antecedens)", "'pulchra' (praedicatum)"], "answerIndex": 1, "explanation": "Genus/numerus semper ex antecedente." },
-        { "id": "rel2", "prompt": "In eadem sententia, 'quam' habet casum (accusativum) quia:", "options": ["'puella' est accusativa", "'quam' est obiectum directum intra clausula relativa", "adiectivum 'pulchra' id postulat"], "answerIndex": 1, "explanation": "Casus semper ex officio proprio in clausula relativa." },
+        { "id": "rel1", "prompt": "'Liber quem legō meus est.' — 'quem' habet genus/numerum ex:", "options": ["'legō' (verbum)", "'liber' (antecedens)", "'meus' (praedicatum)"], "answerIndex": 1, "explanation": "Genus/numerus semper ex antecedente." },
+        { "id": "rel2", "prompt": "In eadem sententia, 'quem' habet casum (accusativum) quia:", "options": ["'liber' est accusativus", "'quem' est obiectum directum intra clausula relativa", "adiectivum 'meus' id postulat"], "answerIndex": 1, "explanation": "Casus semper ex officio proprio in clausula relativa." },
         { "id": "rel3", "prompt": "Genetivus (omnium generum) pronominis relativi est:", "options": ["cuius", "quorum", "quibus"], "answerIndex": 0, "explanation": "cuius, idem in omni genere singulari." }
       ]
     },
@@ -71,6 +98,7 @@
     }
   ],
   "summary": [
+    "Pronomen relativum coniungit duas informationes de eadem re, sine repetitione nominis.",
     "Regula Aurea: pronomen relativum accipit genus/numerum ab antecedente, casum ab officio proprio in clausula relativa.",
     "qui, quae, quod — declinatio completa, cuius/cui identici in omni genere.",
     "Distingue quī (relativum) a quis (interrogativum substantivum)."

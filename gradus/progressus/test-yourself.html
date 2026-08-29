@@ -18,6 +18,7 @@
 <link rel="stylesheet" href="../../assets/css/components.css">
 <link rel="stylesheet" href="../../assets/css/layout.css">
 <link rel="stylesheet" href="../../assets/css/dark-mode.css">
+<link rel="stylesheet" href="../../assets/css/ai-teacher.css">
 <link rel="stylesheet" href="../../assets/css/search.css">
 <link rel="stylesheet" href="../../assets/css/exercises.css"><link rel="stylesheet" href="../../assets/css/lessons.css">
 <script>
@@ -193,9 +194,9 @@
             <div class="section__head">
                 <p class="eyebrow">Gradus III</p>
                 <h2 id="ty-pronomen-relativum-h">Pronomen Relativum</h2>
-                <p>Qui, quae, quod — regula aurea: genus/numerus ex antecedente, casus ex clausula sua.</p>
+                <p>Liber quem legis meus est — regula aurea: genus/numerus ex antecedente, casus ex clausula sua.</p>
             </div>
-            <div class="exercise-block"><script type="application/json" class="exercise-data">{"id": "iii-rel-mc", "type": "multiple-choice", "title": "Regula Aurea: Genus/Numerus vs. Casus", "instructions": "Elige responsum rectum.", "items": [{"id": "rel1", "prompt": "'Puella quam video pulchra est.' — 'quam' habet genus/numerum ex:", "options": ["'video' (verbum)", "'puella' (antecedens)", "'pulchra' (praedicatum)"], "answerIndex": 1, "explanation": "Genus/numerus semper ex antecedente."}, {"id": "rel2", "prompt": "In eadem sententia, 'quam' habet casum (accusativum) quia:", "options": ["'puella' est accusativa", "'quam' est obiectum directum intra clausula relativa", "adiectivum 'pulchra' id postulat"], "answerIndex": 1, "explanation": "Casus semper ex officio proprio in clausula relativa."}, {"id": "rel3", "prompt": "Genetivus (omnium generum) pronominis relativi est:", "options": ["cuius", "quorum", "quibus"], "answerIndex": 0, "explanation": "cuius, idem in omni genere singulari."}]}</script></div><div class="exercise-block"><script type="application/json" class="exercise-data">{"id": "iii-rel-fill", "type": "fill-blank", "title": "Comple cum Pronomine Relativo", "instructions": "Elige formam rectam.", "items": [{"id": "rel4", "prompt": "Vir ___ venit meus amicus est. (who — nominativus masc.)", "options": ["qui", "quem", "cuius"], "answers": ["qui"], "explanation": "Subiectum clausulae relativae: nominativus qui."}, {"id": "rel5", "prompt": "Femina ___ epistulam scripsi mater mea est. (to whom — dativus)", "options": ["quam", "cui", "cuius"], "answers": ["cui"], "explanation": "Obiectum indirectum: dativus cui."}]}</script></div>
+            <div class="exercise-block"><script type="application/json" class="exercise-data">{"id": "iii-rel-story", "type": "reading-comprehension", "title": "Iulia et Marcus: Libri", "instructions": "Lege dialogum, deinde responde.", "passage": "<p>Iūlia librum legit sub arbore. Mārcus, quī ex forō venit, eam videt. &ldquo;Quid legis?&rdquo; rogat. &ldquo;Librum legō quem magister mihi dedit,&rdquo; respondet Iūlia. &ldquo;Liber dē Rōmā antīquā est — dē virīs quī urbem condidērunt.&rdquo;</p><p>&ldquo;Ego quoque librum habeō,&rdquo; dīcit Mārcus, &ldquo;sed liber quem ego legō dē bellīs Gallicīs est.&rdquo; Iūlia rīdet: &ldquo;Fēmina cuius fīlius mīles fuit mihi eum librum commendāvit.&rdquo;</p><p>Vespere, Claudia, soror Iūliae, ad eōs venit. &ldquo;Habētisne librum quem mihi dare possītis?&rdquo; rogat. Iūlia librum dē Rōmā eī dat.</p>", "items": [{"id": "rel-story1", "prompt": "Qualem librum Iulia legit?", "options": ["librum de Roma antiqua", "librum de bellis Gallicis", "nullum librum"], "answerIndex": 0, "explanation": "'Liber de Roma antiqua est.'"}, {"id": "rel-story2", "prompt": "Quis Marco librum de bellis Gallicis commendavit?", "options": ["Iulia ipsa", "femina cuius filius miles fuit", "magister"], "answerIndex": 1, "explanation": "'Femina cuius filius miles fuit mihi eum librum commendavit.'"}, {"id": "rel-story3", "prompt": "Quem librum Iulia Claudiae dat?", "options": ["librum de Roma", "librum de bellis", "nullum"], "answerIndex": 0, "explanation": "'Iulia librum de Roma ei dat.'"}]}</script></div><div class="exercise-block"><script type="application/json" class="exercise-data">{"id": "iii-rel-match", "type": "matching", "title": "Antecedens et Officium", "instructions": "Cuique sententiae ex dialogo iunge id quod 'qui/quae/quem/cuius' ibi facit.", "items": [{"id": "rel-match1", "pairs": [{"left": "Marcus, qui ex foro venit, ...", "right": "'qui' est subiectum clausulae suae (venit)"}, {"left": "librum quem magister mihi dedit", "right": "'quem' est obiectum directum clausulae suae (dedit)"}, {"left": "femina cuius filius miles fuit", "right": "'cuius' monstrat possessionem (filius FEMINAE)"}, {"left": "librum quem mihi dare possitis", "right": "'quem' est obiectum directum clausulae suae (dare)"}], "explanation": "In omni exemplo, genus/numerus pronominis venit ab antecedente, sed casus venit semper ab officio proprio intra clausulam relativam."}]}</script></div><div class="exercise-block"><script type="application/json" class="exercise-data">{"id": "iii-rel-mc", "type": "multiple-choice", "title": "Regula Aurea: Genus/Numerus vs. Casus", "instructions": "Elige responsum rectum.", "items": [{"id": "rel1", "prompt": "'Liber quem legō meus est.' — 'quem' habet genus/numerum ex:", "options": ["'legō' (verbum)", "'liber' (antecedens)", "'meus' (praedicatum)"], "answerIndex": 1, "explanation": "Genus/numerus semper ex antecedente."}, {"id": "rel2", "prompt": "In eadem sententia, 'quem' habet casum (accusativum) quia:", "options": ["'liber' est accusativus", "'quem' est obiectum directum intra clausula relativa", "adiectivum 'meus' id postulat"], "answerIndex": 1, "explanation": "Casus semper ex officio proprio in clausula relativa."}, {"id": "rel3", "prompt": "Genetivus (omnium generum) pronominis relativi est:", "options": ["cuius", "quorum", "quibus"], "answerIndex": 0, "explanation": "cuius, idem in omni genere singulari."}]}</script></div><div class="exercise-block"><script type="application/json" class="exercise-data">{"id": "iii-rel-fill", "type": "fill-blank", "title": "Comple cum Pronomine Relativo", "instructions": "Elige formam rectam.", "items": [{"id": "rel4", "prompt": "Vir ___ venit meus amicus est. (who — nominativus masc.)", "options": ["qui", "quem", "cuius"], "answers": ["qui"], "explanation": "Subiectum clausulae relativae: nominativus qui."}, {"id": "rel5", "prompt": "Femina ___ epistulam scripsi mater mea est. (to whom — dativus)", "options": ["quam", "cui", "cuius"], "answers": ["cui"], "explanation": "Obiectum indirectum: dativus cui."}]}</script></div>
         </div>
     </section><section id="pronomina-reflexiva" class="section section--tight ty-topic" aria-labelledby="ty-pronomina-reflexiva-h">
         <div class="section__inner">
@@ -290,8 +291,36 @@
     <button type="button" class="back-to-top back-to-top--with-dict" data-back-to-top aria-label="Ad summum redi">
         <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
     </button>
+    <button type="button" class="ai-teacher-toggle" data-ai-teacher-toggle aria-label="Interroga Magistrum AI" aria-expanded="false" aria-haspopup="dialog">
+        <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+        <span class="ai-teacher-toggle__label">Magister AI</span>
+    </button>
+    <div class="ai-teacher-panel" data-ai-teacher-panel hidden role="dialog" aria-label="Colloquium cum Magistro AI" aria-modal="false">
+        <div class="ai-teacher-panel__bar">
+            <div class="ai-teacher-panel__brand">
+                <svg class="ai-teacher-panel__brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 10-10-5L2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+                <div>
+                    <strong>Magister AI</strong>
+                    <span>Interroga de grammatica, vocabulario, vel exercitationibus</span>
+                </div>
+            </div>
+            <button type="button" class="ai-teacher-panel__close" data-ai-teacher-close aria-label="Occlude Magistrum AI"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg></button>
+        </div>
+        <div class="ai-teacher-panel__messages" data-ai-teacher-messages role="log" aria-live="polite">
+            <div class="ai-teacher-msg ai-teacher-msg--bot">
+                <p>Salvē! Tē adiuvāre possum dē linguā Latīnā. Interrogā dē grammaticā, verbīs, vel exercitātiōnibus.<br>Exemplum: <em>&ldquo;Explica coniūnctīvum imperfectum&rdquo;</em> vel <em>&ldquo;Dā mihi exercitātiōnem dē dēclīnātiōne tertiā.&rdquo;</em></p>
+            </div>
+        </div>
+        <form class="ai-teacher-panel__form" data-ai-teacher-form>
+            <label for="ai-teacher-input" class="visually-hidden">Quaestio tua</label>
+            <textarea id="ai-teacher-input" data-ai-teacher-input rows="1" maxlength="600" placeholder="Scribe quaestionem tuam&hellip;" required></textarea>
+            <button type="submit" class="ai-teacher-panel__send" data-ai-teacher-send aria-label="Mitte quaestionem"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></button>
+        </form>
+        <p class="ai-teacher-panel__hint" data-ai-teacher-hint>Respōnsa ab exemplārī AI veniunt et interdum falsa esse possunt &mdash; semper cum māteriā lēctiōnis tuae cōnfer. Nihil quod scrībis post hanc fenestram clausam servātur.</p>
+    </div>
     <script src="../../assets/js/main.js"></script>
     <script src="../../assets/js/search.js"></script>
+    <script src="../../assets/js/ai-teacher.js" data-ai-endpoint="https://ai-teacher-la.englishclasses.workers.dev"></script>
     <script src="../../assets/js/dict-widget.js"></script>
     <script src="../../assets/js/progress.js"></script><script src="../../assets/js/exercises.js"></script><script src="../../assets/js/mastery.js"></script>
 </body>

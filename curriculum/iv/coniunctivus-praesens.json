@@ -6,40 +6,41 @@
   "skill": "grammatica",
   "strand": "coniunctivus",
   "title": "Coniunctivus Praesens",
-  "subtitle": "Amem, moneam, mittam — modus coniunctivus incipiens, cum usu hortativo.",
+  "subtitle": "Eamus! Ne timeamus! Veniat! — modus novus, vox suasionis et voluntatis.",
   "prerequisites": ["iv-verba-irregularia-eo-fero-fio"],
   "objectives": [
+    "Comprehendere in contextu vim coniunctivi praesentis: suasio, voluntas, exhortatio, non factum simplex",
     "Formare coniunctivum praesentem activum omnium coniugationum",
-    "Applicare regulam mnemonicam: prima coniugatio -e-, ceterae -a-",
-    "Uti coniunctivo hortativo/iussivo (let us..., let him...)",
-    "Formare coniunctivum praesentem verbi sum (sim)"
+    "Uti coniunctivo hortativo/iussivo (let us..., let him...) in sententiis novis",
+    "Applicare regulam mnemonicam: prima coniugatio -ē-, ceterae -ā-"
   ],
   "content": {
-    "intro": "Salvē ad novum modum! Indicātīvus dēclārat facta; coniūnctīvus exprimit incertitūdinem, voluntātem, possibilitātem — necessārius prō clausulīs subōrdinātīs quās mox discēs (fīnālēs, cōnsecūtīvae, indirēctae interrogātiōnēs).",
-    "explanation": "<p>Coniūnctīvus praesēns habet vōcālem thēmaticam distīnctam ab indicātīvō — rēgula mnemonica: <strong>'in prīmā coniugātiōne, ā fit ē; in cēterīs, additur ā.'</strong></p>",
+    "intro": "Marcus dicit: 'Cras ad montem ambulabimus.' Hoc est indicativus: factum futurum, simpliciter praedictum. Sed mox dicit: 'Eamus hodie parare!' Hoc iam non factum est, sed exhortatio — Marcus suadet, non praedicit. 'Eamus' pertinet ad novum modum: coniunctivum.",
+    "explanation": "<p>Mārcus et Iūlia iter ad montem parant. &ldquo;Crās ad montem ambulābimus,&rdquo; dīcit Mārcus — factum futūrum, simpliciter praedictum: indicātīvus. Deinde addit: &ldquo;Eāmus hodiē vesperī parāre!&rdquo; Iam nōn praedīcit, sed suādet: <em>eāmus</em>, 'let us go'.</p><p>Iūlia respondet: &ldquo;Bona rēs! Sed montem timeō — altus est.&rdquo; Mārcus dīcit: &ldquo;Nē timeāmus, Iūlia — simul fortēs erimus.&rdquo; Iūlia adnuit: &ldquo;Bene. Et Claudiam quoque vocēmus — veniat nōbīscum!&rdquo; Mārcus rīdet: &ldquo;Optimē. Utinam tempus bonum sit crās!&rdquo;</p><p>Notāvistīne: <em>eāmus, nē timeāmus, vocēmus, veniat, sit</em> — nūlla ex hīs fōrmīs simpliciter nārrat factum, ut indicātīvus. Omnēs exprimunt <strong>voluntātem, suāsiōnem, exhortātiōnem, vel optātum</strong>: 'let us...', 'let him...', 'may it be...'. Hic modus novus vocātur <strong>coniūnctīvus</strong> — hodiē discis eius fōrmam praesentem, prīmum gradum ad multōs ūsūs quōs posteā vidēbis.</p>",
     "rules": [
       {
         "heading": "a) Regula: A → E (I), Additur A (II-IV)",
-        "body": "<p><strong>amem</strong>, amēs, amet, amēmus, amētis, ament (I: ā indicātīvī → ē coniūnctīvī). <strong>moneam</strong>, moneās, moneat... (II: additur ā). <strong>mittam</strong>, mittās, mittat... (III). <strong>audiam</strong>, audiās, audiat... (IV).</p>"
+        "body": "<p><strong>amem</strong>, amēs, amet, amēmus, amētis, ament (I: ā indicātīvī → ē coniūnctīvī — sīcut 'vocēmus' in fābulā suprā). <strong>moneam</strong>, moneās, moneat... (II: additur ā — sīcut 'timeāmus'). <strong>mittam</strong>, mittās, mittat... (III). <strong>audiam</strong>, audiās, audiat... (IV — sīcut 'veniat').</p>"
       },
       {
         "heading": "b) Sum: Coniunctivus Irregularis",
-        "body": "<p><strong>sim</strong>, sīs, sit, sīmus, sītis, sint.</p>"
+        "body": "<p><strong>sim</strong>, sīs, sit, sīmus, sītis, sint — sīcut 'utinam... sit' in fābulā suprā.</p>"
       },
       {
         "heading": "c) Usus Independens: Hortativus/Iussivus",
-        "body": "<p>1ª persōna plūrālis: <strong>Amēmus!</strong> ('Let us love!') — exhortātiō. 3ª persōna: <strong>Veniat!</strong> ('Let him come!') — iussiō indirēcta. Negātiō cum coniūnctīvō hortātīvō: <strong>nē</strong> (nōn 'nōn'): <em>Nē timeāmus!</em> ('Let us not fear!')</p>"
+        "body": "<p>1ª persōna plūrālis: <strong>Eāmus! Vocēmus!</strong> ('Let us go! Let us call!') — exhortātiō. 3ª persōna: <strong>Veniat!</strong> ('Let him come!') — iussiō indirēcta. Negātiō cum coniūnctīvō hortātīvō: <strong>nē</strong> (nōn 'nōn'): <em>Nē timeāmus!</em> ('Let us not fear!')</p>"
       },
       {
         "heading": "d) Praeparatio pro Clausulis Subordinatis",
-        "body": "<p>Coniūnctīvus praesēns est ESSENTIĀLIS in clausulīs fīnālibus (Gradus IV posteriōre) et multīs aliīs — hodiē tantum fōrmam discis; ūsūs subōrdinātōs vidēbis mox.</p>"
+        "body": "<p>Coniūnctīvus praesēns est ESSENTIĀLIS in clausulīs fīnālibus (Gradus IV posteriōre) et multīs aliīs — hodiē tantum fōrmam et ūsum independentem discis; ūsūs subōrdinātōs vidēbis mox.</p>"
       }
     ],
     "examples": [
-      "Amemus patriam nostram. — Let us love our country.",
-      "Veniat cras. — Let him come tomorrow.",
-      "Ne desperemus. — Let us not despair.",
-      "Utinam sim felix! — If only I were happy! (optativus)",
+      "Eamus ad montem! — Let us go to the mountain!",
+      "Ne timeamus. — Let us not be afraid.",
+      "Vocemus Claudiam. — Let us call Claudia.",
+      "Veniat nobiscum cras. — Let him come with us tomorrow.",
+      "Utinam tempus bonum sit! — If only the weather is good!",
       "Vivat rex! — Long live the king! (litt. 'may the king live')"
     ],
     "commonMistakes": [
@@ -57,8 +58,43 @@
   },
   "exercises": [
     {
-      "id": "iv-conjpr-mc", "type": "multiple-choice", "title": "Coniunctivus Praesens: Regulae",
-      "instructions": "Elige responsum rectum.",
+      "id": "iv-conjpr-story", "type": "reading-comprehension", "title": "Marcus et Iulia Iter Parant",
+      "instructions": "Lege dialogum, deinde responde secundum sensum — quaere quid loquentes VELINT, non tantum quid dicant.",
+      "passage": "<p>&ldquo;Crās ad montem ambulābimus,&rdquo; dīcit Mārcus. &ldquo;Eāmus hodiē vesperī parāre!&rdquo;</p><p>&ldquo;Bona rēs,&rdquo; respondet Iūlia, &ldquo;sed montem timeō — altus est.&rdquo;</p><p>&ldquo;Nē timeāmus,&rdquo; dīcit Mārcus, &ldquo;simul fortēs erimus.&rdquo;</p><p>&ldquo;Bene,&rdquo; dīcit Iūlia. &ldquo;Et Claudiam quoque vocēmus — veniat nōbīscum!&rdquo;</p><p>Mārcus rīdet: &ldquo;Optimē. Utinam tempus bonum sit crās!&rdquo;</p>",
+      "items": [
+        { "id": "conjpr-story1", "prompt": "Quo Marcus et Iulia crastino ibunt?", "options": ["ad montem", "ad forum", "ad villam"], "answerIndex": 0, "explanation": "'Crās ad montem ambulābimus.'" },
+        { "id": "conjpr-story2", "prompt": "Cur Iulia hesitat?", "options": ["montem timet", "Marcum non amat", "iam fessa est"], "answerIndex": 0, "explanation": "'Montem timeō — altus est.'" },
+        { "id": "conjpr-story3", "prompt": "Quid Marcus et Iulia de Claudia decernunt?", "options": ["eam non vocare", "eam vocare, ut cum eis veniat", "eam iam non amare"], "answerIndex": 1, "explanation": "'Claudiam quoque vocēmus — veniat nōbīscum!'" },
+        { "id": "conjpr-story4", "prompt": "Quid Marcus in fine optat?", "options": ["ut Iulia non timeat", "ut tempus crastinum bonum sit", "ut iam domi maneant"], "answerIndex": 1, "explanation": "'Utinam tempus bonum sit crās!' — optativus." }
+      ]
+    },
+    {
+      "id": "iv-conjpr-match", "type": "matching", "title": "Quid Volunt Dicere?",
+      "instructions": "Cuique formae coniunctivi ex dialogo iunge id quod loquens vult efficere.",
+      "items": [
+        {
+          "id": "conjpr-match1",
+          "pairs": [
+            { "left": "Eamus!", "right": "suadeo ut simul aliquid faciamus" },
+            { "left": "Ne timeamus.", "right": "suadeo ut aliquid NON faciamus" },
+            { "left": "Veniat nobiscum.", "right": "volo ut alius (tertia persona) aliquid faciat" },
+            { "left": "Utinam tempus bonum sit!", "right": "opto rem quam controlare non possum" }
+          ],
+          "explanation": "Coniunctivus praesens independens semper exprimit voluntatem/desiderium loquentis, numquam factum simplex — hoc distinguit eum ab indicativo."
+        }
+      ]
+    },
+    {
+      "id": "iv-conjpr-tf", "type": "true-false", "title": "Verum an Falsum",
+      "instructions": "Secundum dialogum supra, dic utrum verum sit an falsum.",
+      "items": [
+        { "id": "conjpr-tf1", "statement": "'Ambulābimus' narrat factum futurum simpliciter, non exhortationem.", "answer": true, "explanation": "Indicativus futurum: praedictio simplex, non suasio." },
+        { "id": "conjpr-tf2", "statement": "'Eāmus' significat idem ac 'ambulābimus' — nulla differentia sensus.", "answer": false, "explanation": "'Eāmus' est exhortatio (let us go); 'ambulābimus' est praedictio simplex." },
+        { "id": "conjpr-tf3", "statement": "Marcus vult ut Claudia quoque veniat.", "answer": true, "explanation": "'Claudiam quoque vocēmus — veniat nōbīscum.'" }
+      ]
+    },
+    {
+      "id": "iv-conjpr-mc", "type": "multiple-choice", "title": "Nunc Nomina: Coniunctivus Praesens", "instructions": "Elige responsum rectum.",
       "items": [
         { "id": "conjpr1", "prompt": "Coniunctivus praesens, 1a persona sg., verbi 'amo' (prima coniugatio) est:", "options": ["amo", "amem", "amam"], "answerIndex": 1, "explanation": "Prima coniugatio: -ā- → -ē-." },
         { "id": "conjpr2", "prompt": "Coniunctivus praesens, 1a persona sg., verbi 'mitto' (tertia coniugatio) est:", "options": ["mittam", "mittem", "mitto"], "answerIndex": 0, "explanation": "Tertia coniugatio: additur -a-." },
@@ -70,15 +106,16 @@
       "id": "iv-conjpr-fill", "type": "fill-blank", "title": "Forma Coniunctivum",
       "instructions": "Elige formam rectam.",
       "items": [
-        { "id": "conjpr5", "prompt": "___ patriam nostram! (Let us love — amemus)", "options": ["Amamus", "Amemus", "Amabimus"], "answers": ["Amemus"], "explanation": "Hortativus, 1a pl." },
-        { "id": "conjpr6", "prompt": "___ desperemus. (Let us not — ne)", "options": ["Non", "Ne", "Numquam"], "answers": ["Ne"], "explanation": "Negatio coniunctivi hortativi: nē." }
+        { "id": "conjpr5", "prompt": "___ ad montem! (Let us go — eamus)", "options": ["Imus", "Eamus", "Ibimus"], "answers": ["Eamus"], "explanation": "Hortativus, 1a pl., verbi eo." },
+        { "id": "conjpr6", "prompt": "___ timeamus. (Let us not — ne)", "options": ["Non", "Ne", "Numquam"], "answers": ["Ne"], "explanation": "Negatio coniunctivi hortativi: nē." }
       ]
     }
   ],
   "summary": [
+    "Coniunctivus praesens independens exprimit voluntatem/suasionem/optatum, non factum simplex (indicativus).",
     "Regula mnemonica: prima coniugatio -ā- → -ē-; ceterae coniugationes addunt -ā-.",
     "amem, moneam, mittam, audiam; sum → sim (irregulare).",
-    "Usus hortativus/iussivus: 'Amēmus!' (let us love), 'Veniat!' (let him come); negatio cum nē."
+    "Usus hortativus/iussivus: 'Eāmus!' (let us go), 'Veniat!' (let him come); negatio cum nē."
   ],
   "related": [
     { "lessonId": "iv-verba-irregularia-eo-fero-fio", "label": "Verba Irregularia: Eo, Fero, Fio" },
