@@ -15,8 +15,8 @@
     "Applicare regulam: omnia adiectiva tertiae declinationis sunt i-stem"
   ],
   "content": {
-    "intro": "Bona nova: differenter ā nōminibus (ubi i-stem est excepta), OMNIA adiectīva tertiae dēclīnātiōnis sunt i-stem, sine exceptiōne. Ūna rēgula sōla simplificat tōtum systēma.",
-    "explanation": "<p>Adiectīva tertiae dēclīnātiōnis clāssificantur secundum numerum fōrmārum distīnctārum in nōminātīvō singulārī: trium, duārum, vel ūnīus terminātiōnis.</p>",
+    "intro": "'Mārcus fortis est,' dicit avus, 'et canis eius ingens est — omnes eum timent.' 'Fortis' (m./f. identici), 'ingens' (una forma pro omni genere) — adiectiva tertiae declinationis. Bona nova: OMNIA sunt i-stem, sine exceptione.",
+    "explanation": "<p>&ldquo;Mārcus fortis est,&rdquo; dīcit avus, &ldquo;et Iūlia quoque fortis est. Canis Mārcī ingēns est — omnēs eum timent, quamvis benignus sit. Gladius meus ācer fuit, cum iuvenis eram.&rdquo;</p><p>Notāvistīne: <em>fortis</em> (eadem fōrma prō masc. et fem.), <em>ingēns</em> (ūna fōrma prō omnī genere), <em>ācer</em> (fōrma propria masculīna, differt ā fem. ācris)? Adiectīva tertiae dēclīnātiōnis classificantur secundum numerum fōrmārum distīnctārum in nōminātīvō singulārī: trium, duārum, vel ūnīus terminātiōnis — sed OMNIA, sine exceptiōne, sunt i-stem.</p>",
     "rules": [
       {
         "heading": "a) Duarum Terminationum: fortis, forte 'brave/strong'",
@@ -57,6 +57,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iii-adi3-story", "type": "reading-comprehension", "title": "Avus Narrat",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Mārcus fortis est,&rdquo; dīcit avus, &ldquo;et Iūlia quoque fortis est. Canis Mārcī ingēns est — omnēs eum timent, quamvis benignus sit. Gladius meus ācer fuit, cum iuvenis eram; nunc senex sum, sed adhūc fortis.&rdquo;</p>",
+      "items": [
+        { "id": "adi3-story1", "prompt": "Qui, secundum avum, fortes sunt?", "options": ["Marcus et Iulia", "solus avus", "nemo"], "answerIndex": 0, "explanation": "'Marcus fortis est... Iulia quoque fortis est.'" },
+        { "id": "adi3-story2", "prompt": "Cur omnes canem Marci timent?", "options": ["quia ingens est", "quia malus est", "nemo eum timet"], "answerIndex": 0, "explanation": "'Canis ingens est — omnes eum timent.'" },
+        { "id": "adi3-story3", "prompt": "Qualis erat gladius avi cum iuvenis esset?", "options": ["acer", "hebes (non acutus)", "avus gladium numquam habuit"], "answerIndex": 0, "explanation": "'Gladius meus acer fuit, cum iuvenis eram.'" }
+      ]
+    },
     {
       "id": "iii-adi3-mc", "type": "multiple-choice", "title": "Adiectiva Tertiae: Regulae",
       "instructions": "Elige responsum rectum.",

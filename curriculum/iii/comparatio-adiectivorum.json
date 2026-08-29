@@ -15,8 +15,8 @@
     "Memorare quinque comparationes penitus irregulares (bonus, malus, magnus, parvus, multus)"
   ],
   "content": {
-    "intro": "'Bonus, melior, optimus' — sīcut Anglicum 'good, better, best' — comparātiō Latīna habet trēs gradūs: positīvus, comparātīvus, superlātīvus.",
-    "explanation": "<p>Comparātiō regulāris addit suffīxa ad rādīcem adiectīvī (invenītur removendō genetīvī dēsinentiam).</p>",
+    "intro": "'Mare hodie tranquillius est quam heri,' dicit avus, 'sed ille mons omnium altissimus est.' 'Tranquillius' (comparativus), 'altissimus' (superlativus) — sicut Anglicum 'good, better, best', comparatio Latina habet tres gradus.",
+    "explanation": "<p>&ldquo;Mare hodiē tranquillius est quam herī,&rdquo; dīcit avus, oculōs ad undās vertēns. &ldquo;Sed ille mōns omnium altissimus est — altior etiam quam nūbēs.&rdquo;</p><p>Notāvistīne: <em>tranquillius</em> (comparātīvus, 'calmer THAN'), <em>altissimus</em> (superlātīvus, 'THE tallest OF ALL')? 'Bonus, melior, optimus' — sīcut Anglicum 'good, better, best' — comparātiō Latīna habet trēs gradūs: positīvus, comparātīvus, superlātīvus. Comparātiō regulāris addit suffīxa ad rādīcem adiectīvī.</p>",
     "rules": [
       {
         "heading": "a) Comparativus Regularis: -ior, -ius",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iii-comp-story", "type": "reading-comprehension", "title": "Mare Tranquillius",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Mare hodiē tranquillius est quam herī,&rdquo; dīcit avus, oculōs ad undās vertēns. &ldquo;Sed ille mōns omnium altissimus est — altior etiam quam nūbēs. Canis tuus, Mārce, melior est quam canis meus quondam erat, sed uterque bonus fuit.&rdquo;</p>",
+      "items": [
+        { "id": "comp-story1", "prompt": "Quale est mare hodie, comparatum cum heri?", "options": ["tranquillius", "turbulentius", "idem, nulla differentia"], "answerIndex": 0, "explanation": "'Mare hodie tranquillius est quam heri.'" },
+        { "id": "comp-story2", "prompt": "Qualis est ille mons, comparatus cum omnibus aliis?", "options": ["altissimus omnium", "humillimus omnium", "mediocris"], "answerIndex": 0, "explanation": "'Ille mons omnium altissimus est.'" },
+        { "id": "comp-story3", "prompt": "Quid avus de canibus dicit?", "options": ["uterque malus fuit", "canis Marci melior est, sed uterque bonus fuit", "avus canes numquam habuit"], "answerIndex": 1, "explanation": "'Canis tuus melior est... sed uterque bonus fuit.'" }
+      ]
+    },
     {
       "id": "iii-comp-mc", "type": "multiple-choice", "title": "Comparatio: Regulae",
       "instructions": "Elige responsum rectum.",

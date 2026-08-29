@@ -15,8 +15,8 @@
     "Recognoscere quod 'se' caret nominativo, quia numquam est subiectum"
   ],
   "content": {
-    "intro": "Prōnōmen reflexīvum refert ad SUBIECTUM eiusdem clausulae — 'himself, herself, itself, themselves'. Latīna habet fōrmam propriam sōlum prō tertiā persōnā.",
-    "explanation": "<p>Prīma et secunda persōna reflexīva REUTUNTUR fōrmīs prōnōminum persōnālium normālium (mē, tē, nōs, vōs) — nūlla fōrma nova discenda: <em>Mē videō in speculō.</em> ('I see myself in the mirror.') Sōlum tertia persōna habet fōrmam propriam: <strong>sē</strong> (et genetīvus <strong>suī</strong>, datīvus <strong>sibi</strong>).</p>",
+    "intro": "Marcus se in aqua videt et ridet. 'Ecce,' dicit avus, 'ego quoque me video — sed senex sum nunc!' 'Se' (de Marco) et 'me' (de avo ipso loquente) — pronomen reflexivum tertiae personae habet formam propriam, sed prima persona reutitur 'me'.",
+    "explanation": "<p>Mārcus sē in aquā videt et rīdet. &ldquo;Ecce,&rdquo; dīcit avus, &ldquo;ego quoque mē videō — sed senex sum nunc! Cum iuvenis eram, mē in eōdem marī vidēbam, et vix nunc mē ipsum agnōscō.&rdquo;</p><p>Notāvistīne: dē Mārcō dīcimus 'Mārcus <strong>sē</strong> videt' (tertia persōna), sed avus dē sē ipsō loquēns dīcit 'ego <strong>mē</strong> videō' (prīma persōna)? Prīma et secunda persōna reflexīva REUTUNTUR fōrmīs prōnōminum persōnālium normālium (mē, tē, nōs, vōs) — nūlla fōrma nova discenda. Sōlum tertia persōna habet fōrmam propriam: <strong>sē</strong> (et genetīvus <strong>suī</strong>, datīvus <strong>sibi</strong>).</p>",
     "rules": [
       {
         "heading": "a) Declinatio: sui, sibi, se (tertia persona)",
@@ -52,6 +52,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iii-refl-story", "type": "reading-comprehension", "title": "Ecce, Me Video",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Mārcus sē in aquā videt et rīdet. &ldquo;Ecce,&rdquo; dīcit avus, &ldquo;ego quoque mē videō — sed senex sum nunc! Cum iuvenis eram, mē in eōdem marī vidēbam, et vix nunc mē ipsum agnōscō.&rdquo; Iūlia rīdet: &ldquo;Avus, tū semper dē tē ipsō loqueris!&rdquo;</p>",
+      "items": [
+        { "id": "refl-story1", "prompt": "Quem Marcus in aqua videt?", "options": ["se ipsum", "avum", "neminem"], "answerIndex": 0, "explanation": "'Marcus se in aqua videt.'" },
+        { "id": "refl-story2", "prompt": "Quo verbo avus utitur, cum de se ipso loquitur?", "options": ["se", "me", "eum"], "answerIndex": 1, "explanation": "Prima persona reflexiva: 'me' (non 'se', quod est tantum tertiae personae)." },
+        { "id": "refl-story3", "prompt": "Quid Iulia de avo dicit?", "options": ["numquam de se loquitur", "semper de se ipso loquitur", "nihil dicit"], "answerIndex": 1, "explanation": "'Tu semper de te ipso loqueris!'" }
+      ]
+    },
     {
       "id": "iii-refl-mc", "type": "multiple-choice", "title": "Pronomen Reflexivum: Regulae",
       "instructions": "Elige responsum rectum.",

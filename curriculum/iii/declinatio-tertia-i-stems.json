@@ -15,8 +15,8 @@
     "Applicare ablativum singularem -i pro neutris i-stem"
   ],
   "content": {
-    "intro": "Intra tertiam declinationem, subgrex nominum -- vocatus 'i-stems' -- habet fines leviter differentes, praesertim in genetivo plurali.",
-    "explanation": "<p>Nōmina i-stem sunt subgrex tertiae dēclīnātiōnis cuius rādīx orīgināliter in <em>-i-</em> dēsinēbat (nunc plērumque absconditum). Trēs sunt signa ad ea recognōscenda.</p>",
+    "intro": "'Cives urbem defendebant,' narrat avus, 'et mare semper periculosum erat.' 'Civium' (non 'civum'), 'mari' (non 'mare') — hae formae leviter differunt a ceteris tertiae declinationis nominibus. Hodie discis cur: sunt i-stems.",
+    "explanation": "<p>Avus in urbe maritimā habitābat, cum iuvenis esset. &ldquo;Cīvēs urbem dēfendēbant,&rdquo; nārrat, &ldquo;et mare semper perīculōsum erat — multa animālia ingentia in marī vīdī.&rdquo;</p><p>Notāvistīne: genetīvus plūrālis 'cīvium' (nōn 'cīvum'), ablātīvus 'marī' (nōn 'mare')? Intrā tertiam dēclīnātiōnem, subgrex nōminum — vocātus 'i-stems' — habet fīnēs leviter differentēs, praesertim in genetīvō plūrālī. Nōmina i-stem sunt subgrex cuius rādīx orīgināliter in <em>-i-</em> dēsinēbat (nunc plērumque absconditum). Trēs sunt signa ad ea recognōscenda.</p>",
     "rules": [
       {
         "heading": "a) Signum 1: Nomina Parisyllaba",
@@ -60,6 +60,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iii-istem-story", "type": "reading-comprehension", "title": "Avus in Urbe Maritima",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Avus in urbe maritimā habitābat, cum iuvenis esset. &ldquo;Cīvēs urbem dēfendēbant,&rdquo; nārrat, &ldquo;et mare semper perīculōsum erat — multa animālia ingentia in marī vīdī, et in montibus prope urbem mīlitēs semper pugnābant.&rdquo;</p>",
+      "items": [
+        { "id": "istem-story1", "prompt": "Ubi avus, cum iuvenis esset, habitabat?", "options": ["in urbe maritima", "in monte alto", "numquam extra domum exiit"], "answerIndex": 0, "explanation": "'Avus in urbe maritima habitabat.'" },
+        { "id": "istem-story2", "prompt": "Quid cives urbis faciebant?", "options": ["urbem defendebant", "urbem relinquebant", "nihil faciebant"], "answerIndex": 0, "explanation": "'Cives urbem defendebant.'" },
+        { "id": "istem-story3", "prompt": "Erat mare, secundum avum, semper tutum?", "options": ["ita, semper tutum", "non — semper periculosum erat", "avus mare numquam vidit"], "answerIndex": 1, "explanation": "'Mare semper periculosum erat.'" }
+      ]
+    },
     {
       "id": "iii-istem-mc", "type": "multiple-choice", "title": "I-Stems: Recognitio",
       "instructions": "Elige responsum rectum.",

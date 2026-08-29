@@ -15,8 +15,8 @@
     "Evitare errorem frequentissimum: confundere -am futuri (III/IV) cum -am subiunctivi"
   ],
   "content": {
-    "intro": "Latīna habet DUO systēmata omnīnō distīncta prō futūrō, secundum coniugātiōnem — error frequentissimus discipulōrum novōrum est applicāre ūnum systēma ubīque.",
-    "explanation": "<p>Coniugātiōnēs I-II adhibent signum <strong>-b-</strong> (ut imperfectum, sed sine ā/ē longā ubīque); coniugātiōnēs III-IV adhibent dēsinentiās <strong>-am/-ēs/-et...</strong>, similēs coniūnctīvō praesentī prīmae coniugātiōnis (unde cōnfūsiō orītur — sed contextus semper clārificat).</p>",
+    "intro": "'Cras navigabimus, si tempestas non erit,' dicit avus. 'Milites nos defendent.' 'Navigabimus' (I-conj., -b-) et 'defendent' (III-conj., -e-/-nt) — duo systemata distincta pro futuro, secundum coniugationem.",
+    "explanation": "<p>&ldquo;Crās nāvigābimus, sī tempestās nōn erit,&rdquo; dīcit avus. &ldquo;Mīlitēs nōs dēfendent, et ego tibi omnia dē marī docēbō.&rdquo;</p><p>Notāvistīne: <em>nāvigābimus</em> habet -b-, sed <em>dēfendent</em> nōn habet -b- ūllum? Latīna habet DUO systēmata omnīnō distīncta prō futūrō, secundum coniugātiōnem — error frequentissimus discipulōrum novōrum est applicāre ūnum systēma ubīque. Coniugātiōnēs I-II adhibent signum <strong>-b-</strong>; coniugātiōnēs III-IV adhibent dēsinentiās <strong>-am/-ēs/-et...</strong></p>",
     "rules": [
       {
         "heading": "a) Coniugationes I-II: Radix + -bo",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iii-fut-story", "type": "reading-comprehension", "title": "Cras Navigabimus",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Crās nāvigābimus, sī tempestās nōn erit,&rdquo; dīcit avus. &ldquo;Mīlitēs nōs dēfendent in itinere, et ego tibi omnia dē marī docēbō. Numquam hunc diem oblīvīscēris, Mārce.&rdquo; Mārcus laetus rīdet: &ldquo;Quid faciēmus, cum ad īnsulam pervēnerimus?&rdquo;</p>",
+      "items": [
+        { "id": "fut-story1", "prompt": "Quando navigabunt?", "options": ["cras, si tempestas non erit", "hodie statim", "numquam"], "answerIndex": 0, "explanation": "'Cras navigabimus, si tempestas non erit.'" },
+        { "id": "fut-story2", "prompt": "Quis eos in itinere defendet?", "options": ["milites", "nemo", "avus solus"], "answerIndex": 0, "explanation": "'Milites nos defendent in itinere.'" },
+        { "id": "fut-story3", "prompt": "Quid avus Marco promittit?", "options": ["se ei omnia de mari docturum esse", "se numquam iterum loquturum esse", "se domi mansurum esse"], "answerIndex": 0, "explanation": "'Ego tibi omnia de mari docebo.'" }
+      ]
+    },
     {
       "id": "iii-fut-fill", "type": "fill-blank", "title": "Forma Futurum",
       "instructions": "Comple cum forma recta futuri.",

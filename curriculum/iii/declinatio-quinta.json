@@ -15,8 +15,8 @@
     "Cognoscere expressiones frequentes cum 'res' (res publica, res gestae)"
   ],
   "content": {
-    "intro": "Quinta dēclīnātiō habet paucissima nōmina — sed inter ea, 'rēs' ('thing') est inter frequentissima tōtīus linguae, praesertim in phrasibus ut <em>rēs pūblica</em> ('the republic', litt. 'public thing').",
-    "explanation": "<p>Nōmina quīntae dēclīnātiōnis dēsinunt in <strong>-ēs</strong> nōminātīvō, genetīvō in <strong>-ēī</strong> (post vōcālem) vel <strong>-eī</strong> (post cōnsonantem).</p>",
+    "intro": "'Una die,' narrat avus, 'multae res mirae acciderunt.' Iulia rogat quotus dies fuerit. 'Res publica' pericula multa habebat, sed 'res gestae' patris mei magnae fuerunt. 'Res' et 'dies' — quinta declinatio, minor sed frequentissima.",
+    "explanation": "<p>&ldquo;Ūnā diē,&rdquo; nārrat avus, &ldquo;multae rēs mīrae accidērunt. Rēs pūblica perīcula multa habēbat tunc — sed rēs gestae patris meī magnae fuērunt, et hodiē adhūc dē eīs cōgitō.&rdquo;</p><p>Notāvistīne <em>rēs, diē(s)</em>? Nōmina quīntae dēclīnātiōnis dēsinunt in <strong>-ēs</strong> nōminātīvō, genetīvō in <strong>-ēī</strong> (post vōcālem, ut diēī) vel <strong>-eī</strong> (post cōnsonantem, ut reī). Quīnta dēclīnātiō habet paucissima nōmina — sed 'rēs' est inter frequentissima tōtīus linguae, praesertim in phrasibus ut <em>rēs pūblica</em>, <em>rēs gestae</em>.</p>",
     "rules": [
       {
         "heading": "a) Paradigma: res, rei (f.) 'thing'",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iii-decl5-story", "type": "reading-comprehension", "title": "Res Gestae Avi",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Ūnā diē,&rdquo; nārrat avus, &ldquo;multae rēs mīrae accidērunt. Rēs pūblica perīcula multa habēbat tunc, et diēs longī et difficilēs erant. Sed rēs gestae patris meī magnae fuērunt — numquam eās oblīvīscar.&rdquo; Iūlia rogat quot diēs bellum dūrāverit. &ldquo;Multōs diēs,&rdquo; respondet avus.</p>",
+      "items": [
+        { "id": "decl5-story1", "prompt": "Quales dies erant, secundum avum?", "options": ["longi et difficiles", "breves et faciles", "avus nihil de diebus dicit"], "answerIndex": 0, "explanation": "'Dies longi et difficiles erant.'" },
+        { "id": "decl5-story2", "prompt": "Quid Iulia rogat?", "options": ["quot dies bellum duraverit", "ubi avus habitet", "quid avus edat"], "answerIndex": 0, "explanation": "'Iulia rogat quot dies bellum duraverit.'" },
+        { "id": "decl5-story3", "prompt": "Oblitusne est avus rerum gestarum patris sui?", "options": ["ita, omnia oblitus est", "numquam eas oblivisci dicit", "numquam de patre suo narrat"], "answerIndex": 1, "explanation": "'Numquam eas obliviscar.'" }
+      ]
+    },
     {
       "id": "iii-decl5-mc", "type": "multiple-choice", "title": "Declinatio Quinta: Regulae",
       "instructions": "Elige responsum rectum.",

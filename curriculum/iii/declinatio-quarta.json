@@ -15,8 +15,8 @@
     "Vocabularium frequens quartae declinationis uti"
   ],
   "content": {
-    "intro": "Quarta dēclīnātiō, minor numerō quam secunda vel tertia, causat cōnfūsiōnem quia nōminātīvus (-us) similis est secundae dēclīnātiōnī — sed genetīvus (-ūs, longum) revēlat vēritātem.",
-    "explanation": "<p>Māior pars nōminum quārtae dēclīnātiōnis sunt māsculīna in -us (manus, exercitus); paucī sunt neutra in -ū (cornū).</p>",
+    "intro": "'Manus mea etiam nunc fortis est,' dicit avus, gladium tenens. 'Quondam in exercitu Romano fui.' 'Manus' videtur secundae declinationis (ut servus), sed genetivus 'manus' (ū longum) revelat: est quarta.",
+    "explanation": "<p>&ldquo;Manus mea etiam nunc fortis est,&rdquo; dīcit avus, gladium tenēns. &ldquo;Quondam in exercitū Rōmānō fuī — magnus exercitus erat, et ego pars eius.&rdquo;</p><p>Notāvistīne: 'manus' vidētur secundae dēclīnātiōnis (ut servus, -ī), sed genetīvus 'manūs' (ū longum, nōn ī) revēlat vēritātem: est quārta dēclīnātiō. Māior pars nōminum quārtae dēclīnātiōnis sunt māsculīna in -us (manus [exceptiō: fēminīnum!], exercitus); paucī sunt neutra in -ū (cornū).</p>",
     "rules": [
       {
         "heading": "a) Paradigma: manus, manūs (f.) 'hand'",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iii-decl4-story", "type": "reading-comprehension", "title": "Avus in Exercitu",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Manus mea etiam nunc fortis est,&rdquo; dīcit avus, gladium tenēns. &ldquo;Quondam in exercitū Rōmānō fuī. Senātus bellum dēclārāvit, et exercitus noster ad frontem prōfectus est. Multum labōrem et parvum frūctum habuimus, sed patriam servāvimus.&rdquo;</p>",
+      "items": [
+        { "id": "decl4-story1", "prompt": "Quid avus adhuc fortem habet?", "options": ["manum suam", "oculos suos", "nihil"], "answerIndex": 0, "explanation": "'Manus mea etiam nunc fortis est.'" },
+        { "id": "decl4-story2", "prompt": "Quis bellum declaravit?", "options": ["senatus", "avus ipse", "exercitus"], "answerIndex": 0, "explanation": "'Senatus bellum declaravit.'" },
+        { "id": "decl4-story3", "prompt": "Quid exercitus tandem fecit?", "options": ["patriam servavit", "fugit sine pugna", "numquam profectus est"], "answerIndex": 0, "explanation": "'Patriam servavimus.'" }
+      ]
+    },
     {
       "id": "iii-decl4-mc", "type": "multiple-choice", "title": "Declinatio Quarta: Regulae",
       "instructions": "Elige responsum rectum.",

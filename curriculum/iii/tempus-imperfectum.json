@@ -15,8 +15,8 @@
     "Uti imperfecto in narrationibus simplicibus"
   ],
   "content": {
-    "intro": "Imperfectum dēscrībit āctiōnem quae CONTINUābat vel REPETēbātur in praeteritō — 'was doing', 'used to do' — differenter ā perfectō, quod dēscrībit āctiōnem ūnam completam (Gradus IV).",
-    "explanation": "<p>Signum imperfectī āctīvī est <strong>-ba-</strong> īnsertum inter rādīcem et dēsinentiās persōnālēs (quae hīc sunt -m, -s, -t, -mus, -tis, -nt, differentēs leviter ā praesentī).</p>",
+    "intro": "'Cotidie in mari natabam,' narrat avus, 'cives me videbant et ridebant, quia semper cantabam dum natabam.' 'Natabam, videbant, ridebant, cantabam' — non factum unum, sed actio quae saepe se repetebat. Hoc tempus vocatur imperfectum.",
+    "explanation": "<p>&ldquo;Cotīdiē in marī natābam,&rdquo; nārrat avus, &ldquo;cum iuvenis eram. Cīvēs mē vidēbant et rīdēbant, quia semper cantābam dum natābam.&rdquo;</p><p>Notāvistīne: <em>natābam, vidēbant, rīdēbant, cantābam, eram</em> — nūlla ex hīs fōrmīs nārrat factum ūnum et complētum. Omnēs dēscrībunt āctiōnem quae CONTINUābat vel REPETēbātur in praeteritō — 'was doing', 'used to do'. Signum imperfectī āctīvī est <strong>-ba-</strong> īnsertum inter rādīcem et dēsinentiās persōnālēs.</p>",
     "rules": [
       {
         "heading": "a) Coniugationes I-II: Radix + -bam",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iii-imperf-story", "type": "reading-comprehension", "title": "Avus Iuvenis",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Cotīdiē in marī natābam,&rdquo; nārrat avus, &ldquo;cum iuvenis eram. Cīvēs mē vidēbant et rīdēbant, quia semper cantābam dum natābam. Māter mea semper timēbat, sed pater meus rīdēbat quoque et dīcēbat: 'Puer noster fortis est.'&rdquo;</p>",
+      "items": [
+        { "id": "imperf-story1", "prompt": "Quid avus cotidie faciebat, cum iuvenis esset?", "options": ["in mari natabat", "in horto ludebat", "domi manebat"], "answerIndex": 0, "explanation": "'Cotidie in mari natabam.'" },
+        { "id": "imperf-story2", "prompt": "Cur cives ridebant?", "options": ["quia avus cantabat dum natabat", "quia avus cadebat semper", "sine ratione"], "answerIndex": 0, "explanation": "'Semper cantabam dum natabam.'" },
+        { "id": "imperf-story3", "prompt": "Quomodo se habebant mater et pater avi?", "options": ["ambo timebant", "mater timebat, pater ridebat", "neuter quicquam sentiebat"], "answerIndex": 1, "explanation": "'Mater mea semper timebat, sed pater meus ridebat.'" }
+      ]
+    },
     {
       "id": "iii-imperf-fill", "type": "fill-blank", "title": "Forma Imperfectum",
       "instructions": "Comple cum forma recta imperfecti.",
