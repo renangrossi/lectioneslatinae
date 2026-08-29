@@ -45,13 +45,24 @@ GRAMMAR_TERMS = [
     "modus", "tempus", "casus",
 ]
 
-# The course's recurring cast (see any Gradus I dialogue lesson). Names are
-# matched macron-insensitively.
+# The course's recurring cast (see any Gradus I dialogue lesson), plus
+# "avus" (grandfather), the retired-soldier character introduced for
+# Gradus III. Latin is inflected -- a story addresses "Mārce" (vocative) or
+# narrates about "avī" (genitive), not just the bare nominative -- so these
+# match on the case-invariant STEM (+ \w* for whatever ending follows) after
+# macrons are stripped from the source text, not on the nominative form
+# alone. Matching is still case-SENSITIVE (stems capitalized) so that, e.g.,
+# "sextus" (the ordinal "sixth") isn't misread as the character "Sextus".
+_MACRON_TRANS = str.maketrans("āēīōūĀĒĪŌŪ", "aeiouAEIOU")
+
 CAST_RE = re.compile(
-    r"\b(M[āa]rcus|I[ūu]lia|L[ūu]cius|Claudia|Corn[ēe]lia|Sextus|Qu[īi]ntus|"
-    r"Tullia|Aemilia|Fl[āa]vius|R[uū]fus|L[īi]via|Publius|Aulus|Gaius|"
-    r"Antonius|Terentia|Octavia|Drusilla)\b"
+    r"\b(?:Marc|Iuli|Luci|Claudi|Corneli|Sext|Quint|Tulli|Aemili|Flavi|"
+    r"Ruf|Livi|Publi|Aul|Gai|Antoni|Terenti|Octavi|Drusill)\w*\b"
 )
+# "avus" is a common noun, not a proper name, so it needs explicit
+# case-endings (not a bare \w* stem) to avoid matching unrelated words like
+# "avis" (bird). Case-insensitive since it isn't capitalized mid-sentence.
+AVUS_RE = re.compile(r"\b[Aa]v(?:us|i|o|um|e|orum|is|os)\b")
 
 IDENTIFY_PATTERNS = [
     re.compile(r"\best[:：]", re.I),
@@ -99,7 +110,12 @@ def classify(d):
 
     combined_text = intro + " " + explanation + " " + " ".join(r.get("body", "") for r in rules)
     passage_text = "".join(e.get("passage", "") or "" for e in exercises)
-    has_character = bool(CAST_RE.search(combined_text) or CAST_RE.search(passage_text))
+    norm_combined = combined_text.translate(_MACRON_TRANS)
+    norm_passage = passage_text.translate(_MACRON_TRANS)
+    has_character = bool(
+        CAST_RE.search(norm_combined) or CAST_RE.search(norm_passage)
+        or AVUS_RE.search(norm_combined) or AVUS_RE.search(norm_passage)
+    )
     narrative_paras = explanation.count("<p>")
 
     score = 0

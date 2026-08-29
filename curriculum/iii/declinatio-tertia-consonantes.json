@@ -15,8 +15,8 @@
     "Memorare vocabularium frequens tertiae declinationis"
   ],
   "content": {
-    "intro": "Salvē in Gradum III! Tertia dēclīnātiō est māxima numerō nōminum, et māxime varia in nōminātīvō — sed genetīvus singulāris, semper -is, est fīlum Ariadnēs per hoc labyrinthum.",
-    "explanation": "<p>Nōminātīvus singulāris tertiae dēclīnātiōnis variat immēnsē (rex, cōnsul, virtūs, nōmen, tempus...) — nūlla dēsinentia fīxa. Sed genetīvus SEMPER dēsinit in <strong>-is</strong>, et rādīx (stem) invenītur removendō -is: <em>rēx, rēgis</em> → rādīx <strong>rēg-</strong>. Genus potest esse māsculīnum, fēminīnum, VEL neutrum.</p>",
+    "intro": "'Salve, avus!' clamant Marcus, Iulia, et Claudia. 'Nomen meum est Titus,' respondet avus, 'et diu miles fui.' Rex, consul, miles, nomen — omnia habent genetivum in -is: hoc est signum tertiae declinationis.",
+    "explanation": "<p>Mārcus, Iūlia, et Claudia ad domum avī veniunt. &ldquo;Salvē, avus!&rdquo; clāmant. Avus in sellā sedet. &ldquo;Nōmen meum est Titus,&rdquo; respondet, &ldquo;et pater meus mīles fortis fuit. Ego quoque diū mīles fuī — rēgem numquam vīdī, nam Rōma iam rem pūblicam habēbat, sed cōnsulēs multōs vīdī, et virtūtem multōrum mīlitum.&rdquo;</p><p>Notāvistīne: rēx, cōnsul, virtūs, mīles, pater, nōmen — omnia haec nōmina dēsinunt aliter in nōminātīvō, sed genetīvus omnium dēsinit in <strong>-is</strong> (rēgis, cōnsulis, virtūtis, mīlitis, patris, nōminis)? Tertia dēclīnātiō est māxima numerō nōminum, et māxime varia in nōminātīvō — sed genetīvus, semper -is, est fīlum Ariadnēs per hoc labyrinthum. Rādīx invenītur removendō -is: rēx, rēgis → rādīx rēg-. Genus potest esse māsculīnum, fēminīnum, vel neutrum.</p>",
     "rules": [
       {
         "heading": "a) Paradigma: rex, regis (m.) 'king'",
@@ -53,6 +53,17 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iii-decl3c-story", "type": "reading-comprehension", "title": "Avus Titus",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Mārcus, Iūlia, et Claudia ad domum avī veniunt. &ldquo;Salvē, avus!&rdquo; clāmant. Avus in sellā sedet, corpore fessō sed animō laetō. &ldquo;Quod est nōmen tuum, avus?&rdquo; rogat Claudia. &ldquo;Nōmen meum est Titus,&rdquo; respondet avus, &ldquo;et pater meus mīles fortis fuit.&rdquo; &ldquo;Fuistīne tū quoque mīles?&rdquo; rogat Mārcus. &ldquo;Ita, diū mīles fuī,&rdquo; dīcit avus. &ldquo;Rēgem numquam vīdī, nam Rōma iam rem pūblicam habēbat, sed cōnsulēs multōs vīdī, et virtūtem multōrum mīlitum.&rdquo; Iūlia rīdet: &ldquo;Tempus fugit, avus — narrā nōbīs plūra!&rdquo; &ldquo;Tempus quidem fugit,&rdquo; respondet avus, &ldquo;sed hodiē satis tempōris habēmus.&rdquo;</p>",
+      "items": [
+        { "id": "decl3c-story1", "prompt": "Quod est nomen avi?", "options": ["Titus", "Marcus", "Lucius"], "answerIndex": 0, "explanation": "'Nomen meum est Titus.'" },
+        { "id": "decl3c-story2", "prompt": "Quid pater avi fuit?", "options": ["miles fortis", "consul", "rex"], "answerIndex": 0, "explanation": "'Pater meus miles fortis fuit.'" },
+        { "id": "decl3c-story3", "prompt": "Viditne avus regem Romae?", "options": ["non, quia Roma iam rem publicam habebat", "ita, saepe", "numquam audivit de regibus"], "answerIndex": 0, "explanation": "'Regem numquam vidi, nam Roma iam rem publicam habebat.'" },
+        { "id": "decl3c-story4", "prompt": "Quid Iulia avum rogat facere?", "options": ["narrare plura", "tempus servare", "domum redire statim"], "answerIndex": 0, "explanation": "'Tempus fugit, avus — narra nobis plura!'" }
+      ]
+    },
     {
       "id": "iii-decl3c-fill", "type": "fill-blank", "title": "Comple cum Casu Recto",
       "instructions": "Elige formam rectam verbi 'rex, regis'.",

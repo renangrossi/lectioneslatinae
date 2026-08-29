@@ -15,8 +15,8 @@
     "Distinguere adverbium comparativum ab adiectivo comparativo neutro"
   ],
   "content": {
-    "intro": "Comparātiō adverbiōrum dērīvātur dīrēctē ā comparātiōne adiectīvōrum, quam iam nōvistī — ergō haec lēctiō est brevis sed ūtilis cōnsolidātiō.",
-    "explanation": "<p>Comparātīvus adverbiī est semper identicus fōrmae neutrī sīngulāris comparātīvī adiectīvī; superlātīvus adverbiī fōrmātur removendō -us ā superlātīvō adiectīvī et addendō -ē.</p>",
+    "intro": "'Cum iuvenis eram,' narrat avus, 'in mari natabam celerius quam omnes alii pueri.' 'Celerius' — comparativus adverbii — est identicum formae neutrae comparativi adiectivi, quam iam novisti. Haec lectio est brevis sed utilis consolidatio.",
+    "explanation": "<p>&ldquo;Cum iuvenis eram,&rdquo; nārrat avus, &ldquo;in marī natābam celerius quam omnēs aliī puerī.&rdquo; Mārcus rīdet: &ldquo;Nunc natās lentius, avus?&rdquo; &ldquo;Ita,&rdquo; respondet avus, &ldquo;sed olim celerrimē natābam — nēmō melius natābat.&rdquo; Claudia rogat: &ldquo;Cantāsne adhūc, avus?&rdquo; &ldquo;Bene cantō,&rdquo; dīcit avus, &ldquo;sed pater meus semper melius cantābat quam ego; ipse optimē omnium in familiā cantābat.&rdquo; &ldquo;Et canis tuus?&rdquo; rogat Iūlia. &ldquo;Canis meus fortiter currēbat,&rdquo; rīdet avus, &ldquo;sed multō fortius currit canis Mārcī hodiē.&rdquo;</p><p>Notāvistīne: celerius, melius, optimē, fortius — omnia adverbia in gradibus comparātiōnis, dērīvāta dīrēctē ā comparātiōne adiectīvōrum quam iam nōvistī? Comparātīvus adverbiī est semper identicus fōrmae neutrī singulāris comparātīvī adiectīvī (celerius = 'more quickly', identicum neutrō 'celerior, celerius'); superlātīvus fōrmātur removendō -us ā superlātīvō adiectīvī et addendō -ē (optimus → optimē).</p>",
     "rules": [
       {
         "heading": "a) Comparativus: Neutrum Comparativi Adiectivi",
@@ -52,6 +52,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iii-compadv-story", "type": "reading-comprehension", "title": "Avus Natabat Celerius",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Cum iuvenis eram,&rdquo; nārrat avus, &ldquo;in marī natābam celerius quam omnēs aliī puerī.&rdquo; Mārcus rīdet: &ldquo;Nunc natās lentius, avus?&rdquo; &ldquo;Ita,&rdquo; respondet avus, &ldquo;sed olim celerrimē natābam — nēmō melius natābat.&rdquo; Claudia rogat: &ldquo;Cantāsne adhūc, avus?&rdquo; &ldquo;Bene cantō,&rdquo; dīcit avus, &ldquo;sed pater meus semper melius cantābat quam ego; ipse optimē omnium in familiā cantābat.&rdquo; &ldquo;Et canis tuus?&rdquo; rogat Iūlia. &ldquo;Canis meus fortiter currēbat,&rdquo; rīdet avus, &ldquo;sed multō fortius currit canis Mārcī hodiē.&rdquo;</p>",
+      "items": [
+        { "id": "compadv-story1", "prompt": "Quomodo avus natabat, cum iuvenis esset?", "options": ["celerius quam omnes pueri", "lentius quam omnes", "numquam natabat"], "answerIndex": 0, "explanation": "'In mari natabam celerius quam omnes alii pueri.'" },
+        { "id": "compadv-story2", "prompt": "Quis melius cantabat, avus an pater eius?", "options": ["pater avi", "avus ipse", "neuter cantabat"], "answerIndex": 0, "explanation": "'Pater meus semper melius cantabat quam ego.'" },
+        { "id": "compadv-story3", "prompt": "Cuius canis fortius currit hodie?", "options": ["canis Marci", "canis avi", "neuter canis currit"], "answerIndex": 0, "explanation": "'Multo fortius currit canis Marci hodie.'" }
+      ]
+    },
     {
       "id": "iii-compadv-mc", "type": "multiple-choice", "title": "Comparatio Adverbiorum",
       "instructions": "Elige responsum rectum.",

@@ -15,8 +15,8 @@
     "Comprehendere formulam 'ante diem' pro datis"
   ],
   "content": {
-    "intro": "Ultima lectio Gradus III! Post haec, ad systema perfectum verbi in Gradu IV progredieris — sed prius, tempus est de tempore ipso loqui.",
-    "explanation": "<p>Calendārium Rōmānum nōn numerābat diēs continuē (1, 2, 3...) sīcut hodiē, sed retrō ā tribus punctīs fīxīs quōque mēnsis.</p>",
+    "intro": "'Bis in vita mea diem memorabilem habui,' narrat avus. 'Kalendis Ianuariis ad exercitum missus sum; ante diem III Idus Octobres domum redii.' Ultima lectio Gradus III: numeri adverbiales et calendarium Romanum — Kalendae, Nonae, Idus.",
+    "explanation": "<p>&ldquo;Bis in vītā meā diem memorābilem habuī,&rdquo; nārrat avus. &ldquo;Kalendīs Iānuāriīs, cum iuvenis eram, ad exercitum missus sum — annus novus incipiēbat, et ego novam vītam incipiēbam. Deinde, ante diem III Īdūs Octōbrēs, domum tandem rediī.&rdquo; Iūlia rogat: &ldquo;Quotiēns ad bellum īvistī, avus?&rdquo; &ldquo;Semel tantum,&rdquo; respondet avus, &ldquo;sed illud semel satis fuit.&rdquo;</p><p>Notāvistīne: Kalendīs (diēs prīmus mēnsis), ante diem III Īdūs Octōbrēs (formula datae retrō numerāta), semel/bis (numerī adverbiālēs)? Calendārium Rōmānum nōn numerābat diēs continuē (1, 2, 3...) sīcut hodiē, sed retrō ā tribus punctīs fīxīs cuiusque mēnsis: Kalendae, Nōnae, Īdūs.</p>",
     "rules": [
       {
         "heading": "a) Numeri Adverbiales",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iii-cal-story", "type": "reading-comprehension", "title": "Bis in Vita Avi",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Bis in vītā meā diem memorābilem habuī,&rdquo; nārrat avus. &ldquo;Kalendīs Iānuāriīs, cum iuvenis eram, ad exercitum missus sum — annus novus incipiēbat, et ego novam vītam incipiēbam. Deinde, post multōs annōs, ante diem III Īdūs Octōbrēs, domum tandem rediī. Māter mea, tempus fugientem numerāns, mē diū exspectāverat.&rdquo; Iūlia rogat: &ldquo;Quotiēns ad bellum īvistī, avus?&rdquo; &ldquo;Semel tantum,&rdquo; respondet avus, &ldquo;sed illud semel satis fuit.&rdquo; Mārcus rogat: &ldquo;Quī mēnsis tibi cārissimus est?&rdquo; &ldquo;October,&rdquo; dīcit avus, &ldquo;quia October mē domum reddidit.&rdquo;</p>",
+      "items": [
+        { "id": "cal-story1", "prompt": "Quo die avus ad exercitum missus est?", "options": ["Kalendis Ianuariis", "Idibus Martiis", "Kalendis Octobribus"], "answerIndex": 0, "explanation": "'Kalendis Ianuariis... ad exercitum missus sum.'" },
+        { "id": "cal-story2", "prompt": "Quoties avus ad bellum ivit?", "options": ["semel", "bis", "ter"], "answerIndex": 0, "explanation": "'Semel tantum,' respondet avus." },
+        { "id": "cal-story3", "prompt": "Qui mensis avo carissimus est, et cur?", "options": ["October, quia eum domum reddidit", "Ianuarius, quia annus novus est", "Martius, quia natus est"], "answerIndex": 0, "explanation": "'October,' dicit avus, 'quia October me domum reddidit.'" }
+      ]
+    },
     {
       "id": "iii-cal-mc", "type": "multiple-choice", "title": "Calendarium: Regulae",
       "instructions": "Elige responsum rectum.",
