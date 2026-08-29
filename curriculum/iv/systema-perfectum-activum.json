@@ -15,8 +15,8 @@
     "Recitare tertiam formam principalem (perfectum) ex dictionario"
   ],
   "content": {
-    "intro": "Salvē in Gradum IV! Hīc incipit 'systēma perfectum' — omnia tempora (perfectum, plūsquamperfectum, futūrum perfectum) aedificāta super ūnicam rādīcem novam, saepe imprēdictibilem, quam dictiōnārium semper dat tibi (tertia fōrma prīncipālis).",
-    "explanation": "<p>Rādīx perfectī plērumque differt ā rādīce praesentis, et NŌN est praedictibilis ex coniugātiōne sōlā — ideō dictiōnāria semper listant quattuor fōrmās prīncipālēs: <em>amō, amāre, amāvī, amātum</em>.</p>",
+    "intro": "Lucius domum venit ex bello. 'Bellum gessimus,' inquit, 'et hostes vicimus.' Iulia exclamat: 'Tandem venisti!' Nota: venit, gessimus, vicimus, exclamat — omnia narrant quid EVENIT, actionem completa, una vice. Hoc tempus vocatur perfectum.",
+    "explanation": "<p>Lūcius domum vēnit. Longum iter fēcit et multa vīdit. &ldquo;Bellum gessimus,&rdquo; inquit, &ldquo;et hostēs vīcimus. Multōs diēs pugnāvimus.&rdquo; Iūlia laeta exclāmat: &ldquo;Tandem vēnistī! Nōs valdē timuimus.&rdquo;</p><p>Notāvistīne: <em>vēnit, fēcit, vīdit, gessimus, vīcimus, pugnāvimus, timuimus</em> — omnēs hae fōrmae nārrant āctiōnem COMPLETAM, ūnā vice: quid Lūcius <strong>fēcit</strong>, nōn quid faciēbat continuē. Rādīx hārum fōrmārum (vēn-, fēc-, vīd-, gess-, vīc-, pugnāv-, timu-) plērumque differt ā rādīce praesentis, et NŌN est praedictibilis ex coniugātiōne sōlā — ideō dictiōnāria semper listant quattuor fōrmās prīncipālēs: <em>amō, amāre, amāvī, amātum</em>.</p>",
     "rules": [
       {
         "heading": "a) Desinentiae Perfecti (identicae omni coniugationi)",
@@ -52,6 +52,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iv-perf-story", "type": "reading-comprehension", "title": "Lucius Domum Venit",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Lūcius domum vēnit ex bellō. Longum iter fēcit et multa vīdit. &ldquo;Bellum gessimus,&rdquo; inquit, &ldquo;et hostēs vīcimus. Multōs diēs pugnāvimus.&rdquo; Iūlia laeta exclāmat: &ldquo;Tandem vēnistī! Nōs valdē timuimus.&rdquo; Mārcus quoque venit et Lūcium amplectitur: &ldquo;Bene fēcistī, amīce.&rdquo;</p>",
+      "items": [
+        { "id": "perf-story1", "prompt": "Unde Lucius venit?", "options": ["ex bello", "ex foro", "ex monte"], "answerIndex": 0, "explanation": "'Lucius domum venit ex bello.'" },
+        { "id": "perf-story2", "prompt": "Quid Lucius et milites eius fecerunt?", "options": ["hostes vicerunt", "hostibus cesserunt", "domi manserunt"], "answerIndex": 0, "explanation": "'Hostes vicimus.'" },
+        { "id": "perf-story3", "prompt": "Quid Iulia sensit dum Lucius abest?", "options": ["nihil, tranquilla erat", "timorem", "iram"], "answerIndex": 1, "explanation": "'Nos valde timuimus.'" }
+      ]
+    },
     {
       "id": "iv-perf-mc", "type": "multiple-choice", "title": "Systema Perfectum: Regulae",
       "instructions": "Elige responsum rectum.",

@@ -15,8 +15,8 @@
     "Distinguere tempus relativum participii praesentis (simultaneum) a perfecto (anterius)"
   ],
   "content": {
-    "intro": "Participium praesēns exprimit āctiōnem SIMULTANEAM cum verbō prīncipālī — 'puella cantāns' ('the singing girl' / 'the girl who is singing').",
-    "explanation": "<p>Fōrmātur ā rādīce praesentis + <strong>-ns</strong> (nōminātīvus) / <strong>-ntis</strong> (genetīvus).</p>",
+    "intro": "Dum narrat, Lucius oculos claudit et iterum videt: milites pugnantes, cives clamantes, aquam per vias fluentem. 'Pugnantes' — non factum completum, sed actio quam Lucius simul cum alio videbat. Hoc participium hodie discis.",
+    "explanation": "<p>Dum nārrat, Lūcius oculōs claudit et iterum videt: <em>mīlitēs pugnantēs, cīvēs clāmantēs, aquam per viās fluentem</em>. &ldquo;Numquam oblīvīscar,&rdquo; dīcit.</p><p>Notāvistīne: 'pugnantēs', 'clāmantēs', 'fluentem' nōn nārrant factum iam complētum (ut participium perfectum, quod iam nōvistī), sed āctiōnem quam Lūcius vidēbat DUM ipsa fīēbat — simultāneam cum 'videt'. Fōrmātur ā rādīce praesentis + <strong>-ns</strong> (nōminātīvus) / <strong>-ntis</strong> (genetīvus).</p>",
     "rules": [
       {
         "heading": "a) Formatio per Coniugationem",
@@ -52,6 +52,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iv-partpres-story", "type": "reading-comprehension", "title": "Memoria Belli",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Dum nārrat, Lūcius oculōs claudit et iterum videt: mīlitēs pugnantēs, cīvēs per viās clāmantēs, aquam ex fontibus frāctīs fluentem. Puerōs currentēs ad urbem vīdit, patrēs fugientēs cum līberīs suīs. &ldquo;Numquam hanc scaenam oblīvīscar,&rdquo; dīcit trīstis.</p>",
+      "items": [
+        { "id": "partpres-story1", "prompt": "Quid Lucius facit dum haec videt?", "options": ["oculos claudit et recordatur", "dormit", "ridet laetus"], "answerIndex": 0, "explanation": "'Oculos claudit et iterum videt.'" },
+        { "id": "partpres-story2", "prompt": "Quos Lucius currentes vidit?", "options": ["milites tantum", "pueros ad urbem", "nullum"], "answerIndex": 1, "explanation": "'Pueros currentes ad urbem vidit.'" },
+        { "id": "partpres-story3", "prompt": "Estne haec scaena facta iam completa, an quid Lucius simul videbat dum fiebat?", "options": ["factum iam completum", "quid simul fiebat, dum ipse spectabat", "res quae numquam facta est"], "answerIndex": 1, "explanation": "Participia praesentia (pugnantes, clamantes, fluentem, currentes) narrant actionem simultaneam." }
+      ]
+    },
     {
       "id": "iv-partpres-mc", "type": "multiple-choice", "title": "Participium Praesens: Regulae",
       "instructions": "Elige responsum rectum.",

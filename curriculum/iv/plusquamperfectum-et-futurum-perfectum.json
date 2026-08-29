@@ -15,8 +15,8 @@
     "Uti futuro perfecto in clausulis temporalibus, ubi Anglica adhibet simplex futurum"
   ],
   "content": {
-    "intro": "Iam rādīcem perfectī nōvistī — nunc duo tempora ADDITIONĀLIA, ambō cōnstrūcta super eandem rādīcem, cum dēsinentiīs iam familiāribus (imperfectō et futūrō verbī sum).",
-    "explanation": "<p>Plūsquamperfectum et futūrum perfectum sunt SIMPLICISSIMA tempora ad fōrmandum, quia dēsinentiae sunt exactē eaedem ac imperfectum/futūrum verbī sum, sōlum suffīxae rādīcī perfectī.</p>",
+    "intro": "Cum Romam venit Lucius, Claudia iam discesserat — ad aviam suam ierat, ante illius adventum. 'Discesserat' narrat quid iam factum erat ANTE aliud factum praeteritum. Hodie discis hoc tempus, et fratrem eius: futurum perfectum.",
+    "explanation": "<p>Cum Rōmam vēnit Lūcius, Claudia iam discesserat — ad aviam suam ierat, priusquam ille vēnit. &ldquo;Cum eam vīderō,&rdquo; dīcit Lūcius, &ldquo;omnia eī nārrābō.&rdquo;</p><p>Notāvistīne: <em>discesserat, ierat</em> nārrant quid iam factum erat ANTE Lūciī adventum — āctiō magis praeterita quam ipsum perfectum. Et <em>vīderō</em> nārrat quid erit COMPLETUM ante aliud pūnctum futūrum: prius vidēbit Claudiam, deinde nārrābit. Iam rādīcem perfectī nōvistī — haec duo tempora ADDITIONĀLIA sunt cōnstrūcta super eandem rādīcem, cum dēsinentiīs iam familiāribus (imperfectō et futūrō verbī sum) — inter simplicissima tempora ad fōrmandum in tōtā linguā.</p>",
     "rules": [
       {
         "heading": "a) Plusquamperfectum: Radix Perfecti + eram",
@@ -52,6 +52,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iv-plusq-story", "type": "reading-comprehension", "title": "Claudia Iam Discesserat",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Cum Rōmam vēnit Lūcius, Claudia iam discesserat — ad aviam suam ierat, priusquam ille vēnit. Lūcius trīstis erat: eam vidēre voluerat statim. &ldquo;Cum eam vīderō,&rdquo; dīcit Lūcius Iūliae, &ldquo;omnia eī nārrābō — et sī tempus habuerō, ad aviam quoque ībō.&rdquo;</p>",
+      "items": [
+        { "id": "plusq-story1", "prompt": "Erat Claudia domi cum Lucius venit?", "options": ["ita, eum exspectabat", "non — iam discesserat", "numquam domi habitat"], "answerIndex": 1, "explanation": "'Claudia iam discesserat.'" },
+        { "id": "plusq-story2", "prompt": "Quo Claudia ierat?", "options": ["ad aviam suam", "ad forum", "ad montem"], "answerIndex": 0, "explanation": "'Ad aviam suam ierat.'" },
+        { "id": "plusq-story3", "prompt": "Quid Lucius facturus est cum Claudiam viderit?", "options": ["nihil, iam tacebit", "omnia ei narrabit", "statim discedet iterum"], "answerIndex": 1, "explanation": "'Cum eam videro, omnia ei narrabo.'" }
+      ]
+    },
     {
       "id": "iv-plusq-fill", "type": "fill-blank", "title": "Forma Plusquamperfectum",
       "instructions": "Comple cum forma recta.",

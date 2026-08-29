@@ -15,8 +15,8 @@
     "Distinguere systema perfectum passivum (periphrasticum) a praesenti passivo (synthetico)"
   ],
   "content": {
-    "intro": "Vōx passīva praesēns (Gradus III) est SYNTHETICA (ūna verbī fōrma: amātur). Sed systēma perfectum passīvum est PERIPHRASTICUM: DUAE verba coniūncta — participium + sum.",
-    "explanation": "<p>Participium perfectum passīvum (quarta fōrma prīncipālis, ut in <em>amō, amāre, amāvī, amātum</em>) fungitur ut adiectīvum, concordāns cum subiectō.</p>",
+    "intro": "'Urbs a nobis capta est,' narrat Lucius; 'ego ipse vulneratus sum, sed sanatus sum celeriter.' Nota: 'capta est', 'vulneratus sum' — DUAE verba, non una. Vox passiva praesens (Gradus III) erat una forma (amatur); hodie vides systema perfectum passivum: periphrasticum.",
+    "explanation": "<p>&ldquo;Urbs ā nōbīs capta est,&rdquo; nārrat Lūcius. &ldquo;Multae epistulae scrīptae sunt inter mīlitēs et familiās. Ego ipse vulnerātus sum, sed sānātus sum celeriter.&rdquo;</p><p>Notāvistīne: <em>capta est, scrīptae sunt, vulnerātus sum, sānātus sum</em> — quaeque cōnstat ex DUŌBUS verbīs, nōn ūnō (differenter ā vōce passīvā praesentī, 'capitur', quae est SYNTHETICA, ūna fōrma sōla). Participium perfectum passīvum (quarta fōrma prīncipālis, ut in <em>amō, amāre, amāvī, amātum</em>) fungitur ut adiectīvum, concordāns cum subiectō: 'vulnerātus' (masc., dē Lūciō ipsō) vs. 'capta' (fem., dē urbe) vs. 'scrīptae' (fem. pl., dē epistulīs).</p>",
     "rules": [
       {
         "heading": "a) Perfectum Passivum: Participium + Sum (praesens)",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iv-passperf-story", "type": "reading-comprehension", "title": "Quid Bello Actum Est",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Urbs ā nōbīs capta est,&rdquo; nārrat Lūcius. &ldquo;Multae epistulae scrīptae sunt inter mīlitēs et familiās, ut omnēs domī nova scīrent. Ego ipse vulnerātus sum, sed sānātus sum celeriter, et iam bene mē habeō.&rdquo; Iūlia dīcit: &ldquo;Grātiās deīs — timuimus tē numquam reditūrum esse.&rdquo;</p>",
+      "items": [
+        { "id": "passperf-story1", "prompt": "Quid urbi accidit?", "options": ["capta est ab eis", "numquam inventa est", "ab hostibus defensa est"], "answerIndex": 0, "explanation": "'Urbs a nobis capta est.'" },
+        { "id": "passperf-story2", "prompt": "Cur multae epistulae scriptae sunt?", "options": ["ut omnes domi nova scirent", "quia nihil aliud faciendum erat", "sine ratione"], "answerIndex": 0, "explanation": "'Ut omnes domi nova scirent.'" },
+        { "id": "passperf-story3", "prompt": "Quid Lucio ipsi accidit?", "options": ["nihil, semper incolumis erat", "vulneratus est, sed sanatus", "captus est ab hostibus"], "answerIndex": 1, "explanation": "'Ego ipse vulneratus sum, sed sanatus sum celeriter.'" }
+      ]
+    },
     {
       "id": "iv-passperf-fill", "type": "fill-blank", "title": "Forma Perfectum Passivum",
       "instructions": "Comple cum forma recta, cum concordantia.",

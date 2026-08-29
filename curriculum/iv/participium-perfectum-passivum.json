@@ -15,8 +15,8 @@
     "Cognoscere usum participii tamquam praeparationem pro ablativo absoluto (fine huius Gradus)"
   ],
   "content": {
-    "intro": "In lectione priore, participium perfectum passivum functionabat CUM 'sum' ut tempus perfectum construeret. Hodie id videbis solum, tamquam adiectivum independens — usus multo frequentior in prosa reali.",
-    "explanation": "<p>Participium perfectum passīvum dēclīnātur exactē ut <em>bonus, -a, -um</em>, et potest modificāre quodvīs nōmen, sine 'sum' ūllō: <em>urbs capta</em> ('the captured city' / 'the city, having been captured').</p>",
+    "intro": "'Milites victos vidimus,' dicit Lucius; 'urbe capta, domum tandem discessimus.' Nota: 'victos' et 'capta' hic stant SINE 'sum' — participia sola, tamquam adiectiva. In lectione priore, idem participium functionabat CUM 'sum'; hodie id vides solum — usus multo frequentior in prosa reali.",
+    "explanation": "<p>&ldquo;Mīlitēs victōs vīdimus,&rdquo; dīcit Lūcius, &ldquo;et urbem dēlētam. Urbe captā, domum tandem discessimus.&rdquo;</p><p>Notāvistīne: <em>victōs, dēlētam, captā</em> — nūllum eōrum habet 'sum' iūxtā sē. 'Mīlitēs victōs' significat simpliciter 'the defeated soldiers' (adiectīvum ante nōmen); 'urbe captā' significat 'the city having been captured' (clausula circumstantiālis: quia/postquam urbs capta est, ...). Participium perfectum passīvum dēclīnātur exactē ut <em>bonus, -a, -um</em>, et potest modificāre quodvīs nōmen, sine 'sum' ūllō.</p>",
     "rules": [
       {
         "heading": "a) Usus Attributivus",
@@ -52,6 +52,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iv-partperf-story", "type": "reading-comprehension", "title": "Reditus ex Bello",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Mīlitēs victōs vīdimus,&rdquo; dīcit Lūcius, &ldquo;et urbem dēlētam iacēre inter cinerēs. Urbe captā, domum tandem discessimus. Verba dicta ā duce numquam oblīvīscar: 'Bene pugnāvistis, mīlitēs meī.'&rdquo;</p>",
+      "items": [
+        { "id": "partperf-story1", "prompt": "Quales milites Lucius vidit?", "options": ["victos", "victores tantum hostium", "nullos"], "answerIndex": 0, "explanation": "'Milites victos vidimus.'" },
+        { "id": "partperf-story2", "prompt": "Quando milites domum discesserunt?", "options": ["ante urbem captam", "postquam urbs capta est", "numquam discesserunt"], "answerIndex": 1, "explanation": "'Urbe capta, domum tandem discessimus' — participium indicat anterioritatem." },
+        { "id": "partperf-story3", "prompt": "Quid dux militibus dixit?", "options": ["'Bene pugnavistis'", "'Fugite statim'", "nihil dixit"], "answerIndex": 0, "explanation": "'Verba dicta a duce: Bene pugnavistis, milites mei.'" }
+      ]
+    },
     {
       "id": "iv-partperf-mc", "type": "multiple-choice", "title": "Participium Perfectum: Usus",
       "instructions": "Elige responsum rectum.",

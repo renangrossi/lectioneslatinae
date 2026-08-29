@@ -15,8 +15,8 @@
     "Recitare tres participia Latina (praesens, perfectum, futurum) simul"
   ],
   "content": {
-    "intro": "'Moritūrī tē salūtant' ('those about to die salute you') — famōsa (quamvīs fortasse nōn historicē authentica) frāsis gladiātōria illūstrat perfectē hoc participium: āctiō FUTŪRA, imminēns.",
-    "explanation": "<p>Participium futūrum āctīvum fōrmātur ā rādīce SUPĪNĪ (invenītur removendō -um ā quārtā fōrmā prīncipālī) + <strong>-ūrus, -ūra, -ūrum</strong>.</p>",
+    "intro": "'Ibisne iterum ad bellum?' rogat Marcus. 'Cras proficiscar,' respondet Lucius; 'iam navem conscensurus sum.' 'Conscensurus' — non factum, sed actio FUTURA, iam imminens. Hodie discis hoc participium tertium.",
+    "explanation": "<p>&ldquo;Ībisne iterum ad bellum?&rdquo; rogat Mārcus. &ldquo;Crās proficīscar,&rdquo; respondet Lūcius. &ldquo;Iam nāvem cōnscēnsūrus sum — dux enim mē iterum vocāvit.&rdquo; Iūlia trīstis: &ldquo;Semper discessūrus es, numquam diū manēns.&rdquo;</p><p>Notāvistīne: <em>cōnscēnsūrus, discessūrus</em> nōn nārrant factum praeteritum (ut participium perfectum) nec āctiōnem simultāneam (ut participium praesēns), sed āctiōnem FUTŪRAM, iam imminentem: Lūcius nōndum nāvem cōnscendit, sed id mox faciet. Participium futūrum āctīvum fōrmātur ā rādīce SUPĪNĪ (invenītur removendō -um ā quārtā fōrmā prīncipālī) + <strong>-ūrus, -ūra, -ūrum</strong>.</p>",
     "rules": [
       {
         "heading": "a) Formatio",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iv-partfut-story", "type": "reading-comprehension", "title": "Iterum Discessurus",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Ībisne iterum ad bellum?&rdquo; rogat Mārcus. &ldquo;Crās proficīscar,&rdquo; respondet Lūcius. &ldquo;Iam nāvem cōnscēnsūrus sum — dux enim mē iterum vocāvit.&rdquo; Iūlia trīstis: &ldquo;Semper discessūrus es, numquam diū manēns.&rdquo; Lūcius eam amplectitur: &ldquo;Reditūrus sum, prōmittō.&rdquo;</p>",
+      "items": [
+        { "id": "partfut-story1", "prompt": "Quando Lucius proficiscetur?", "options": ["cras", "post multos annos", "numquam"], "answerIndex": 0, "explanation": "'Cras proficiscar.'" },
+        { "id": "partfut-story2", "prompt": "Iamne Lucius navem conscendit?", "options": ["ita, iam in nave est", "nondum — sed mox id faciet", "numquam navigabit"], "answerIndex": 1, "explanation": "'Conscensurus sum' = about to board, nondum factum." },
+        { "id": "partfut-story3", "prompt": "Quid Lucius promittit?", "options": ["se numquam discessurum esse", "se rediturum esse", "se Iuliam oblitum iri"], "answerIndex": 1, "explanation": "'Rediturus sum, promitto.'" }
+      ]
+    },
     {
       "id": "iv-partfut-mc", "type": "multiple-choice", "title": "Participium Futurum: Regulae",
       "instructions": "Elige responsum rectum.",
