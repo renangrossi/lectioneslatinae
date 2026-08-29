@@ -29,17 +29,17 @@ ii-coniunctiones,II,Coniunctiones,grammatica,2,7,1,0.14,False,False,False,False,
 ii-adverbia,II,Adverbia,grammatica,2,7,2,0.29,False,False,False,False,False,3,1,-1,C,curriculum/ii/adverbia.json
 ii-numeri-ordinales-et-cardinales-amplius,II,Numeri Ordinales et Cardinales Amplius,vocabularium,2,5,1,0.2,False,True,False,False,False,4,1,0,B,curriculum/ii/numeri-ordinales-et-cardinales-amplius.json
 iii-declinatio-tertia-consonantes,III,Declinatio Tertia: Consonantes,grammatica,3,9,4,0.44,False,True,False,False,False,3,1,0,B,curriculum/iii/declinatio-tertia-consonantes.json
-iii-declinatio-tertia-i-stems,III,Declinatio Tertia: I-Stems,grammatica,2,7,2,0.29,False,False,False,False,False,5,1,-2,C,curriculum/iii/declinatio-tertia-i-stems.json
-iii-adiectiva-tertiae-declinationis,III,Adiectiva Tertiae Declinationis,grammatica,2,6,3,0.5,False,False,False,False,False,4,1,-3,C,curriculum/iii/adiectiva-tertiae-declinationis.json
-iii-declinatio-quarta,III,Declinatio Quarta,grammatica,2,6,3,0.5,False,False,False,False,False,4,1,-3,C,curriculum/iii/declinatio-quarta.json
-iii-declinatio-quinta,III,Declinatio Quinta,grammatica,2,6,3,0.5,False,False,False,False,False,4,1,-3,C,curriculum/iii/declinatio-quinta.json
-iii-tempus-imperfectum,III,Tempus Imperfectum,grammatica,2,7,2,0.29,False,False,False,False,False,4,1,-2,C,curriculum/iii/tempus-imperfectum.json
-iii-tempus-futurum,III,Tempus Futurum,grammatica,2,7,2,0.29,False,False,False,False,False,4,1,-2,C,curriculum/iii/tempus-futurum.json
-iii-comparatio-adiectivorum,III,Comparatio Adiectivorum,grammatica,2,5,4,0.8,False,True,False,False,False,4,1,-2,C,curriculum/iii/comparatio-adiectivorum.json
+iii-declinatio-tertia-i-stems,III,Declinatio Tertia: I-Stems,grammatica,3,10,2,0.2,True,False,False,False,False,5,2,2,B,curriculum/iii/declinatio-tertia-i-stems.json
+iii-adiectiva-tertiae-declinationis,III,Adiectiva Tertiae Declinationis,grammatica,3,9,3,0.33,True,False,False,False,True,4,2,4,A,curriculum/iii/adiectiva-tertiae-declinationis.json
+iii-declinatio-quarta,III,Declinatio Quarta,grammatica,3,9,3,0.33,True,False,False,False,False,4,2,2,B,curriculum/iii/declinatio-quarta.json
+iii-declinatio-quinta,III,Declinatio Quinta,grammatica,3,9,3,0.33,True,False,False,False,True,4,2,4,A,curriculum/iii/declinatio-quinta.json
+iii-tempus-imperfectum,III,Tempus Imperfectum,grammatica,3,10,2,0.2,True,False,False,False,False,4,2,2,B,curriculum/iii/tempus-imperfectum.json
+iii-tempus-futurum,III,Tempus Futurum,grammatica,3,10,2,0.2,True,False,False,False,True,4,2,4,A,curriculum/iii/tempus-futurum.json
+iii-comparatio-adiectivorum,III,Comparatio Adiectivorum,grammatica,3,8,4,0.5,True,True,False,False,False,4,2,2,B,curriculum/iii/comparatio-adiectivorum.json
 iii-comparatio-adverbiorum,III,Comparatio Adverbiorum,grammatica,2,4,2,0.5,False,True,False,False,False,3,1,0,B,curriculum/iii/comparatio-adverbiorum.json
-iii-vox-passiva-praesens,III,Vox Passiva Praesens,grammatica,2,6,3,0.5,False,False,False,False,False,3,1,-2,C,curriculum/iii/vox-passiva-praesens.json
+iii-vox-passiva-praesens,III,Vox Passiva Praesens,grammatica,3,9,3,0.33,True,False,False,False,False,3,2,3,A,curriculum/iii/vox-passiva-praesens.json
 iii-pronomen-relativum,III,Pronomen Relativum,grammatica,4,9,1,0.11,True,True,False,False,True,3,3,5,A,curriculum/iii/pronomen-relativum.json
-iii-pronomina-reflexiva,III,Pronomina Reflexiva,grammatica,2,5,0,0.0,False,False,False,False,False,3,1,-1,C,curriculum/iii/pronomina-reflexiva.json
+iii-pronomina-reflexiva,III,Pronomina Reflexiva,grammatica,3,8,0,0.0,True,False,False,False,True,3,2,4,A,curriculum/iii/pronomina-reflexiva.json
 iii-numeri-tempus-et-calendarium,III,"Numeri, Tempus et Calendarium",vocabularium,2,5,0,0.0,False,True,False,False,False,4,1,0,B,curriculum/iii/numeri-tempus-et-calendarium.json
 iv-systema-perfectum-activum,IV,Systema Perfectum Activum,grammatica,3,10,2,0.2,True,False,False,False,True,3,2,4,A,curriculum/iv/systema-perfectum-activum.json
 iv-plusquamperfectum-et-futurum-perfectum,IV,Plusquamperfectum et Futurum Perfectum,grammatica,3,8,2,0.25,True,False,False,False,True,3,2,4,A,curriculum/iv/plusquamperfectum-et-futurum-perfectum.json
