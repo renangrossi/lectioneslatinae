@@ -15,8 +15,8 @@
     "Applicare -que ut enclyticum suffixum, non verbum separatum"
   ],
   "content": {
-    "intro": "Coniūnctiōnēs nectunt verba, phrasēs, vel sententiās tōtās. Latīna habet varietātem rīcham, cum nuance quam Anglica saepe āmittit.",
-    "explanation": "<p>Coniūnctiōnēs Latīnae dīviduntur in classēs secundum relātiōnem logicam quam exprimunt: additiō, alternātiō, oppositiō, causa.</p>",
+    "intro": "'Marcus Iuliaque in horto laborant,' narrat magistra. 'Parvus sed fortis est Marcus; fessus erat, tamen laboravit.' '-que, sed, tamen' — verba nectentia, cum nuance quam Anglica saepe amittit.",
+    "explanation": "<p>&ldquo;Mārcus Iūliaque in hortō labōrant,&rdquo; nārrat magistra. &ldquo;Parvus sed fortis est Mārcus; fessus erat, tamen labōrāvit. Aut aquam portat aut rosās plantat — numquam ōtiōsus est.&rdquo;</p><p>Notāvistīne: <em>Mārcus Iūliaque</em> ('-que' suffīxum, nōn verbum sēparātum), <em>parvus sed fortis</em> (contrāstum), <em>fessus erat, tamen labōrāvit</em> (concessiō), <em>aut...aut</em> (optiōnēs sē mūtuō exclūdentēs)? Coniūnctiōnēs nectunt verba, phrasēs, vel sententiās tōtās. Latīna habet varietātem rīcham, cum nuance quam Anglica saepe āmittit.</p>",
     "rules": [
       {
         "heading": "a) Copulativae: Et, -que, Atque/Ac",
@@ -57,6 +57,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "ii-conj-story", "type": "reading-comprehension", "title": "Marcus Iuliaque",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Mārcus Iūliaque in hortō labōrant,&rdquo; nārrat magistra. &ldquo;Parvus sed fortis est Mārcus; fessus erat, tamen labōrāvit. Aut aquam portat aut rosās plantat — numquam ōtiōsus est. Iūlia quoque fortis atque dīligēns est: nam sine eā, hortus numquam tam pulcher esset.&rdquo;</p>",
+      "items": [
+        { "id": "conj-story1", "prompt": "Quid Marcus facit, quamvis fessus esset?", "options": ["laboravit tamen", "statim quievit", "abiit"], "answerIndex": 0, "explanation": "'Fessus erat, tamen laboravit.'" },
+        { "id": "conj-story2", "prompt": "Facitne Marcus ambo simul: aquam portat ET rosas plantat?", "options": ["ita, simul ambo facit", "non — aut unum aut alterum facit, non ambo simul", "neutrum facit"], "answerIndex": 1, "explanation": "'Aut...aut' est exclusivum: unum vel alterum, non ambo." },
+        { "id": "conj-story3", "prompt": "Cur, secundum magistram, hortus tam pulcher est?", "options": ["propter Iuliam quoque, nam sine ea non esset tam pulcher", "sine ratione", "solus Marcus id fecit"], "answerIndex": 0, "explanation": "'Nam sine ea, hortus numquam tam pulcher esset.'" }
+      ]
+    },
     {
       "id": "ii-conj-mc", "type": "multiple-choice", "title": "Coniunctiones: Regulae",
       "instructions": "Elige responsum rectum.",

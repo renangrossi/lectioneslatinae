@@ -15,8 +15,8 @@
     "Distinguere adverbium ab adiectivo per officium in sententia"
   ],
   "content": {
-    "intro": "Adverbium modificat verbum, adiectīvum, vel aliud adverbium — respondēns 'quōmodo?' (how). Multī adverbia dērīvantur regulāriter ab adiectīvīs.",
-    "explanation": "<p>Adverbium, differenter ab adiectīvō, est <strong>indēclīnābile</strong> — nūllam fōrmam mūtat secundum genus/numerus/cāsum.</p>",
+    "intro": "'Iulia bene laborat,' dicit magistra. 'Semper fortiter et feliciter laborat, numquam otiosa.' 'Bene, fortiter, feliciter, semper, numquam' — adverbia, respondentia 'quomodo?' vel 'quando?', indeclinabilia semper.",
+    "explanation": "<p>&ldquo;Iūlia bene labōrat,&rdquo; dīcit magistra. &ldquo;Semper fortiter et fēlīciter labōrat in hortō, numquam ōtiōsa; hodiē, sīcut heri, sōlem oriente surgit.&rdquo;</p><p>Notāvistīne: <em>bene, fortiter, fēlīciter, semper, numquam, hodiē, heri</em> — nūllum eōrum mūtat fōrmam, quamvīs sententia mūtet subiectum vel numerum? Adverbium modificat verbum, adiectīvum, vel aliud adverbium — respondēns 'quōmodo?' (how) vel 'quandō?' (when). Differenter ab adiectīvō, est <strong>indēclīnābile</strong>.</p>",
     "rules": [
       {
         "heading": "a) Formatio: Adiectiva Primae/Secundae Classis",
@@ -53,6 +53,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "ii-adv-story", "type": "reading-comprehension", "title": "Iulia Bene Laborat",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Iūlia bene labōrat,&rdquo; dīcit magistra. &ldquo;Semper fortiter et fēlīciter labōrat in hortō, numquam ōtiōsa; hodiē, sīcut heri, sōle oriente surgit.&rdquo; Mārcus rīdet: &ldquo;Ego rārō tam bene labōrō — sed crās melius labōrābō, prōmittō.&rdquo;</p>",
+      "items": [
+        { "id": "adv-story1", "prompt": "Quomodo Iulia laborat?", "options": ["bene, fortiter, feliciter", "male et raro", "numquam laborat"], "answerIndex": 0, "explanation": "'Iulia bene laborat... semper fortiter et feliciter.'" },
+        { "id": "adv-story2", "prompt": "Estne Iulia umquam otiosa?", "options": ["numquam", "saepe", "semper"], "answerIndex": 0, "explanation": "'Numquam otiosa.'" },
+        { "id": "adv-story3", "prompt": "Quid Marcus de se ipso dicit?", "options": ["se raro tam bene laborare, sed cras melius laboraturum esse", "se semper optime laborare", "se numquam laboraturum esse"], "answerIndex": 0, "explanation": "'Ego raro tam bene laboro — sed cras melius laborabo.'" }
+      ]
+    },
     {
       "id": "ii-adv-fill", "type": "fill-blank", "title": "Forma Adverbium",
       "instructions": "Elige adverbium rectum derivatum ab adiectivo dato.",

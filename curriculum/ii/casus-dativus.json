@@ -15,8 +15,8 @@
     "Distinguere dativum a genetivo in constructionibus similes"
   ],
   "content": {
-    "intro": "Datīvus respondet quaestiōnī 'cui? (to/for whom)' — sed etiam substituit prō verbō 'habēre' in cōnstrūctiōne classicā, et est cāsus quem paucī verba speciālia semper postulant.",
-    "explanation": "<p>Datīvus prīmāriē indicat obiectum indirēctum: <em>Puellae librum dō.</em> ('I give a book to the girl.') Sed duo ūsūs magis surprēndentēs sequuntur.</p>",
+    "intro": "'Mihi est canis,' dicit Marcus. 'Cani cibum do, quia mihi semper paret.' 'Mihi est' (habeo), 'cani do' (obiectum indirectum), 'mihi paret' (verbum speciale) — dativus, tres usus in una historia.",
+    "explanation": "<p>&ldquo;Mihi est canis,&rdquo; dīcit Mārcus. &ldquo;Cānī cibum dō cotīdiē, quia mihi semper pāret et numquam mihi nocet.&rdquo;</p><p>Notāvistīne: <em>mihi est canis</em> ('to me there is a dog' = I have a dog), <em>cānī dō</em> (obiectum indirēctum), <em>mihi pāret, mihi nocet</em> (verba speciālia, dēsīderant datīvum, nōn accūsātīvum)? Datīvus respondet quaestiōnī 'cui? (to/for whom)' — sed etiam substituit prō verbō 'habēre', et est cāsus quem paucī verba speciālia semper postulant.</p>",
     "rules": [
       {
         "heading": "a) Obiectum Indirectum (Recognitio)",
@@ -53,6 +53,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "ii-dat-story", "type": "reading-comprehension", "title": "Mihi Est Canis",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Mihi est canis,&rdquo; dīcit Mārcus. &ldquo;Cānī cibum dō cotīdiē, quia mihi semper pāret et numquam mihi nocet.&rdquo; Iūlia rīdet: &ldquo;Mihi placet canis tuus — semper mihi crēdit et numquam resistit, cum eum vocō.&rdquo;</p>",
+      "items": [
+        { "id": "dat-story1", "prompt": "Habetne Marcus canem?", "options": ["ita — 'mihi est canis'", "non, numquam canem habuit", "canis est Iuliae"], "answerIndex": 0, "explanation": "'Mihi est canis' = 'I have a dog'." },
+        { "id": "dat-story2", "prompt": "Cui Marcus cibum dat?", "options": ["cani suo", "Iuliae", "nemini"], "answerIndex": 0, "explanation": "'Cani cibum do.'" },
+        { "id": "dat-story3", "prompt": "Placetne canis Iuliae?", "options": ["ita", "non, eum timet", "numquam eum vidit"], "answerIndex": 0, "explanation": "'Mihi placet canis tuus.'" }
+      ]
+    },
     {
       "id": "ii-dat-mc", "type": "multiple-choice", "title": "Usus Dativi",
       "instructions": "Elige responsum rectum.",

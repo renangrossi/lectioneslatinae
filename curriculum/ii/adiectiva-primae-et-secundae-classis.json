@@ -15,8 +15,8 @@
     "Intellegere quod concordantia non postulat eandem declinationem, sed eundem genus/numerum/casum"
   ],
   "content": {
-    "intro": "Adiectīvum (adjective) dēscrībit nōmen: <em>puella bona</em> ('good girl'), <em>servus bonus</em> ('good slave'). Fōrma adiectīvī mūtātur secundum nōmen quod dēscrībit — hoc vocātur <strong>concordantia</strong> (agreement).",
-    "explanation": "<p>Adiectīva prīmae/secundae classis (ut <em>bonus, -a, -um</em>) habent tria paradigmata: masculīnum sequitur <em>servus</em>, fēminīnum sequitur <em>rosa</em>, neutrum sequitur <em>bellum</em>. Concordantia significat: <strong>eundem genus, eundem numerum, eundem cāsum</strong> — NŌN eandem dēclīnātiōnem. Sīc <em>rēx bonus</em> ('good king') iungit rēgem (tertiae dēclīnātiōnis, ut in Gradū III discēs) cum bonus (secundae) quia ambō sunt māsculīnī singulārēs nōminātīvī.</p>",
+    "intro": "'Iulia puella bona est,' dicit magistra. 'Rosae eius pulchrae sunt. Servus bonus patri paret.' 'Bona' (fem.), 'pulchrae' (fem. pl.), 'bonus' (masc.) — forma adiectivi mutatur secundum nomen. Hoc vocatur concordantia.",
+    "explanation": "<p>&ldquo;Iūlia puella bona est,&rdquo; dīcit magistra. &ldquo;Rosae eius pulchrae sunt. Servus bonus patrī pāret, et hortus pulcher omnibus placet.&rdquo;</p><p>Notāvistīne: <em>bona</em> (fem., cum puella), <em>pulchrae</em> (fem. pl., cum rosae), <em>bonus</em> (masc., cum servus), <em>pulcher</em> (masc., cum hortus)? Fōrma adiectīvī mūtātur secundum nōmen quod dēscrībit — hoc vocātur <strong>concordantia</strong> (agreement): eundem genus, eundem numerum, eundem cāsum — NŌN eandem dēclīnātiōnem.</p>",
     "rules": [
       {
         "heading": "a) Paradigma: bonus, -a, -um",
@@ -53,6 +53,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "ii-adi-story", "type": "reading-comprehension", "title": "Iulia Puella Bona Est",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Iūlia puella bona est,&rdquo; dīcit magistra. &ldquo;Rosae eius pulchrae sunt. Servus bonus patrī pāret, et hortus pulcher omnibus placet.&rdquo; Mārcus, puer miser hodiē, respondet: &ldquo;Ego quoque bonus sum, sed hortum tam pulchrum nōn habeō.&rdquo;</p>",
+      "items": [
+        { "id": "adi-story1", "prompt": "Qualis puella est Iulia?", "options": ["bona", "mala", "misera"], "answerIndex": 0, "explanation": "'Iulia puella bona est.'" },
+        { "id": "adi-story2", "prompt": "Quales sunt rosae Iuliae?", "options": ["pulchrae", "parvae et malae", "nullae"], "answerIndex": 0, "explanation": "'Rosae eius pulchrae sunt.'" },
+        { "id": "adi-story3", "prompt": "Cur Marcus hodie miser est?", "options": ["quia hortum tam pulchrum non habet", "quia malus est", "sine ratione"], "answerIndex": 0, "explanation": "'Hortum tam pulchrum non habeo.'" }
+      ]
+    },
     {
       "id": "ii-adi-fill", "type": "fill-blank", "title": "Comple Adiectivum",
       "instructions": "Elige formam rectam verbi 'bonus, -a, -um' pro quoque spatio.",

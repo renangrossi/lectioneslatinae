@@ -15,8 +15,8 @@
     "Uti imperativo in sententiis simplicibus"
   ],
   "content": {
-    "intro": "Imperātīvus est modus quō ōrdinēs damus: 'Venī!' ('Come!'), 'Audīte!' ('Listen! [pl.]'). Fōrmātiō est simplicissima inter omnēs modōs Latīnōs.",
-    "explanation": "<p>Imperātīvus singulāris praesentis = rādīx praesentis (invenitur removendō -re ab īnfīnītīvō). Imperātīvus plūrālis = eadem rādīx + <strong>-te</strong>.</p>",
+    "intro": "'Veni huc, Marce!' clamat Iulia. 'Rosas aqua da! Sed noli eas tangere sine cura.' 'Veni, da' (imperativus singularis) — modus quo ordines damus. Formatio est simplicissima inter omnes modos Latinos.",
+    "explanation": "<p>&ldquo;Venī hūc, Mārce!&rdquo; clāmat Iūlia. &ldquo;Rosās aquā dā! Sed nōlī eās tangere sine cūrā.&rdquo; Mārcus rīdet: &ldquo;Audī, Iūlia — ego semper cūram habeō!&rdquo;</p><p>Notāvistīne: <em>venī, dā, audī</em> (imperātīvus singulāris) et <em>nōlī tangere</em> (prohibitiō)? Imperātīvus singulāris praesentis = rādīx praesentis (invenītur removendō -re ab īnfīnītīvō). Imperātīvus plūrālis = eadem rādīx + <strong>-te</strong>.</p>",
     "rules": [
       {
         "heading": "a) Formatio per Coniugationem",
@@ -57,6 +57,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "ii-imp-story", "type": "reading-comprehension", "title": "Veni Huc, Marce!",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Venī hūc, Mārce!&rdquo; clāmat Iūlia. &ldquo;Rosās aquā dā! Sed nōlī eās tangere sine cūrā.&rdquo; Mārcus rīdet: &ldquo;Audī, Iūlia — ego semper cūram habeō! Nōlī timēre.&rdquo; Iūlia adnuit: &ldquo;Bene. Nunc venīte omnēs, discipulī, et spectāte hunc hortum pulchrum!&rdquo;</p>",
+      "items": [
+        { "id": "imp-story1", "prompt": "Quid Iulia Marco imperat de rosis?", "options": ["ut eas aqua det", "ut eas vendat", "ut eas relinquat"], "answerIndex": 0, "explanation": "'Rosas aqua da!'" },
+        { "id": "imp-story2", "prompt": "Quid Iulia Marcum prohibet?", "options": ["ne rosas sine cura tangat", "ne loquatur", "ne in horto ambulet"], "answerIndex": 0, "explanation": "'Noli eas tangere sine cura.'" },
+        { "id": "imp-story3", "prompt": "Quid Iulia in fine omnibus discipulis dicit?", "options": ["venite et spectate hortum", "discedite statim", "nihil dicit"], "answerIndex": 0, "explanation": "'Venite omnes... et spectate hunc hortum pulchrum!'" }
+      ]
+    },
     {
       "id": "ii-imp-mc", "type": "multiple-choice", "title": "Imperativus: Regulae",
       "instructions": "Elige responsum rectum.",

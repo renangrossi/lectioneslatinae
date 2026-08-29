@@ -15,8 +15,8 @@
     "Distinguere genetivum ab aliis casibus formaliter similibus"
   ],
   "content": {
-    "intro": "Genetīvus, saepe versus per 'of' Anglicē, semper describit relātiōnem inter duo nōmina — sed nōn tantum possessiōnem simplicem.",
-    "explanation": "<p>Genetīvus modificat aliud nōmen (numquam verbum dīrēctē), respondēns quaestiōnī 'cuius? (whose/of what)'.</p>",
+    "intro": "'Hortus Iuliae rosis plenus est,' dicit Marcus. 'Pars rosarum iam floret.' 'Iuliae' (possessio), 'rosis plenus' (adiectivum cum genetivo), 'pars rosarum' (partitivus) — genetivus, non semper simplex possessio.",
+    "explanation": "<p>&ldquo;Hortus Iūliae rosīs plēnus est,&rdquo; dīcit Mārcus. &ldquo;Pars rosārum iam flōret, pars nōndum.&rdquo; Iūlia rīdet: &ldquo;Multī cīvium hunc hortum vīsitant — sunt vir magnae sapientiae inter eōs, quī semper mē dē flōribus rogat.&rdquo;</p><p>Notāvistīne: <em>hortus Iūliae</em> (possessiō), <em>rosīs plēnus</em> (adiectīvum + genetīvus), <em>pars rosārum</em> (partitīvus, 'part OF the roses'), <em>vir magnae sapientiae</em> (genetīvus quālitātis)? Genetīvus, saepe versus per 'of' Anglicē, semper dēscrībit relātiōnem inter duo nōmina — sed nōn tantum possessiōnem simplicem.</p>",
     "rules": [
       {
         "heading": "a) Possessio (Recognitio)",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "ii-gen-story", "type": "reading-comprehension", "title": "Hortus Iuliae",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Hortus Iūliae rosīs plēnus est,&rdquo; dīcit Mārcus. &ldquo;Pars rosārum iam flōret, pars nōndum.&rdquo; Iūlia rīdet: &ldquo;Multī cīvium hunc hortum vīsitant — sunt vir magnae sapientiae inter eōs, quī semper mē dē flōribus rogat.&rdquo;</p>",
+      "items": [
+        { "id": "gen-story1", "prompt": "Cuius est hortus?", "options": ["Iuliae", "Marci", "civium"], "answerIndex": 0, "explanation": "'Hortus Iuliae' — possessio." },
+        { "id": "gen-story2", "prompt": "Florentne omnes rosae iam?", "options": ["ita, omnes florent", "non — pars tantum floret", "nulla adhuc floret"], "answerIndex": 1, "explanation": "'Pars rosarum iam floret, pars nondum' — genetivus partitivus." },
+        { "id": "gen-story3", "prompt": "Qualis est vir qui semper de floribus rogat?", "options": ["vir magnae sapientiae", "vir stultus", "vir iratus"], "answerIndex": 0, "explanation": "'Vir magnae sapientiae' — genetivus qualitatis." }
+      ]
+    },
     {
       "id": "ii-gen-mc", "type": "multiple-choice", "title": "Usus Genetivi",
       "instructions": "Elige responsum rectum.",

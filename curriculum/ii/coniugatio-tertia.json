@@ -15,8 +15,8 @@
     "Distinguere auditu inter secundam et tertiam coniugationem"
   ],
   "content": {
-    "intro": "Tertia coniugātiō est māximē irregulāris apparentiā, quia vōcālis thēmatica brevis 'e' variē mūtātur secundum dēsinentiam. Est etiam maxima numerō verbōrum.",
-    "explanation": "<p>Īnfīnītīvus tertiae coniugātiōnis dēsinit in <strong>-ere</strong>, cum e <em>brevī</em>, accentū in antepaenultimā: MIT-te-re (nōn mit-TE-re). Vōcālis thēmatica ipsa mūtātur per persōnās: i, i, i, i, u.</p>",
+    "intro": "'Marcus epistulam mittit,' dicit Iulia. 'Ego librum lego, et puella currit in agro.' 'Mittit, lego, currit' — tertia coniugatio, maxima numero verborum, irregularis apparentia.",
+    "explanation": "<p>&ldquo;Mārcus epistulam mittit,&rdquo; dīcit Iūlia. &ldquo;Ego librum legō, et Claudia currit in agrō — omnēs aliquid agimus.&rdquo;</p><p>Notāvistīne: <em>mittit, legō, currit, agimus</em>? Īnfīnītīvus tertiae coniugātiōnis dēsinit in <strong>-ere</strong>, cum e <em>brevī</em>, accentū in antepaenultimā: MIT-te-re (nōn mit-TE-re). Vōcālis thēmatica ipsa mūtātur per persōnās: i, i, i, i, u. Est haec coniugātiō maxima numerō verbōrum tōtīus linguae.</p>",
     "rules": [
       {
         "heading": "a) Paradigma: mittō, mittere 'to send'",
@@ -53,6 +53,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "ii-con3-story", "type": "reading-comprehension", "title": "Marcus Epistulam Mittit",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Mārcus epistulam mittit,&rdquo; dīcit Iūlia. &ldquo;Ego librum legō, et Claudia currit in agrō — omnēs aliquid agimus.&rdquo; Mārcus respondet: &ldquo;Epistulam avō meō mittō, quia eum vīsere nōn possum hodiē.&rdquo;</p>",
+      "items": [
+        { "id": "con3-story1", "prompt": "Quid Marcus facit?", "options": ["epistulam mittit", "librum legit", "currit"], "answerIndex": 0, "explanation": "'Marcus epistulam mittit.'" },
+        { "id": "con3-story2", "prompt": "Quid Claudia facit?", "options": ["currit in agro", "librum legit", "epistulam scribit"], "answerIndex": 0, "explanation": "'Claudia currit in agro.'" },
+        { "id": "con3-story3", "prompt": "Cui Marcus epistulam mittit?", "options": ["avo suo", "Iuliae", "nemini"], "answerIndex": 0, "explanation": "'Epistulam avo meo mitto.'" }
+      ]
+    },
     {
       "id": "ii-con3-fill", "type": "fill-blank", "title": "Coniuga Mitto",
       "instructions": "Comple cum forma recta verbi 'duco, ducere'.",

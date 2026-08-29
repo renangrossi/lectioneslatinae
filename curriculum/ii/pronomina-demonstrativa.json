@@ -15,8 +15,8 @@
     "Uti pronominibus demonstrativis tam adiective quam substantive"
   ],
   "content": {
-    "intro": "Pronōmina dēmōnstrātīva indicant proximitātem: <strong>hic</strong> ('this', prope loquentem), <strong>ille</strong> ('that', longē). Ambō possunt adhibērī vel sōla (prōnōmina) vel cum nōmine (adiectīva dēmōnstrātīva): <em>hic vir</em> ('this man').",
-    "explanation": "<p>Haec prōnōmina sunt inter irregulāriōra Latīnae — genetīvus singulāris omnium generum semper -ius, datīvus semper -ī, sine respectu dēclīnātiōnis normālis.</p>",
+    "intro": "'Hic liber meus est,' dicit Marcus, librum tenens. 'Illa rosa Iuliae est,' addit, ad hortum procul monstrans. 'Hic' (prope) et 'ille' (longe) — pronomina demonstrativa, indicantia proximitatem.",
+    "explanation": "<p>&ldquo;Hic liber meus est,&rdquo; dīcit Mārcus, librum tenēns. &ldquo;Illa rosa, quam procul vidēs, Iūliae est — sed haec rosa, quam manū teneō, mea est.&rdquo;</p><p>Notāvistīne: <em>hic liber</em> (rem quam Mārcus tenet, prope sē), <em>illa rosa</em> (rem procul, apud Iūliam), <em>haec rosa</em> (rem quam nunc manū tenet)? Prōnōmina dēmōnstrātīva indicant proximitātem: <strong>hic</strong> ('this', prope loquentem), <strong>ille</strong> ('that', longē). Ambō possunt adhibērī vel sōla (prōnōmina) vel cum nōmine (adiectīva dēmōnstrātīva).</p>",
     "rules": [
       {
         "heading": "a) Hic, haec, hoc 'this'",
@@ -53,6 +53,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "ii-dem-story", "type": "reading-comprehension", "title": "Hic Liber, Illa Rosa",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Hic liber meus est,&rdquo; dīcit Mārcus, librum tenēns. &ldquo;Illa rosa, quam procul vidēs, Iūliae est — sed haec rosa, quam manū teneō, mea est.&rdquo; Iūlia rīdet: &ldquo;Huius hortī omnēs rosae pulchrae sunt, sīve tuae sīve illīus vīcīnī.&rdquo;</p>",
+      "items": [
+        { "id": "dem-story1", "prompt": "Cuius est liber quem Marcus tenet?", "options": ["Marci ipsius", "Iuliae", "nullius"], "answerIndex": 0, "explanation": "'Hic liber meus est.'" },
+        { "id": "dem-story2", "prompt": "Ubi est rosa quae Iuliae est?", "options": ["procul, apud Iuliam", "in manu Marci", "nusquam"], "answerIndex": 0, "explanation": "'Illa rosa, quam procul vides, Iuliae est.'" },
+        { "id": "dem-story3", "prompt": "Cuius rosa est illa quam Marcus manu tenet?", "options": ["Marci ipsius", "Iuliae", "vicini"], "answerIndex": 0, "explanation": "'Haec rosa, quam manu teneo, mea est.'" }
+      ]
+    },
     {
       "id": "ii-dem-fill", "type": "fill-blank", "title": "Comple cum Demonstrativo",
       "instructions": "Elige formam rectam.",
