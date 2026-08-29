@@ -15,8 +15,8 @@
     "Vertere sententias inter oratio recta et oratio obliqua"
   ],
   "content": {
-    "intro": "Latīna nōn habet coniūnctiōnem simplicem prō 'that' (ut Anglicum 'I say THAT you are coming'). Prō hōc, tōta clausula subōrdināta trānsformātur in accūsātīvum + īnfīnītīvum.",
-    "explanation": "<p>Post verba dīcendī (dīcō, negō), sentiendī (putō, crēdō, sciō), et percipiendī (videō, audiō), subiectum clausulae subōrdinātae fit ACCŪSĀTĪVUS, et verbum fit ĪNFĪNĪTĪVUS.</p>",
+    "intro": "'Hostes venire!' clamat nuntius currens. Dux non timet: 'Scio nos paratos esse,' dicit. Lucius dicit se numquam fugere solitum esse. Milites putant se victuros esse. Dico, scio, puto — post haec verba, Latina non habet 'that': subiectum fit accusativus, verbum fit infinitivus.",
+    "explanation": "<p>&ldquo;Hostēs venīre!&rdquo; clāmat nūntius currēns ad castra. Dux nōn timet: &ldquo;Sciō nōs parātōs esse,&rdquo; dīcit. Lūcius adiungit: &ldquo;Dīcō mē numquam fugere solitum esse.&rdquo; Mīlitēs putant sē victūrōs esse, quia ducem fortem habent. Posteā, Lūcius nārrāvit hostēs fūgisse — vīcerant enim Rōmānī, sīcut sciēbant sē victūrōs esse.</p><p>Notāvistīne: <em>hostēs venīre</em> (praesēns īnfīnītīvus, simultāneum), <em>mē...solitum esse</em> (perfectum, anterius), <em>sē victūrōs esse</em> (futūrum, posterius), <em>hostēs fūgisse</em> (perfectum)? Post verba dīcendī, sentiendī, et percipiendī, subiectum clausulae subōrdinātae fit ACCŪSĀTĪVUS, et verbum fit ĪNFĪNĪTĪVUS — Latīna nōn habet coniūnctiōnem simplicem prō 'that'.</p>",
     "rules": [
       {
         "heading": "a) Constructio Basica",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iv-aci-story", "type": "reading-comprehension", "title": "Hostes Venire!",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Hostēs venīre!&rdquo; clāmat nūntius currēns ad castra. Dux nōn timet: &ldquo;Sciō nōs parātōs esse,&rdquo; dīcit. Lūcius adiungit: &ldquo;Dīcō mē numquam fugere solitum esse.&rdquo; Mīlitēs putant sē victūrōs esse, quia ducem fortem habent. Posteā, Lūcius nārrāvit hostēs fūgisse — vīcerant enim Rōmānī.</p>",
+      "items": [
+        { "id": "aci-story1", "prompt": "Quid nuntius clamat?", "options": ["hostes venire", "pacem factam esse", "nihil clamat"], "answerIndex": 0, "explanation": "'Hostes venire!' clamat nuntius." },
+        { "id": "aci-story2", "prompt": "Quid dux de se ipso et militibus dicit?", "options": ["se paratos esse", "se timere", "se fugere velle"], "answerIndex": 0, "explanation": "'Scio nos paratos esse,' dicit dux." },
+        { "id": "aci-story3", "prompt": "Quid tandem hostibus evenit?", "options": ["fugerunt, victi a Romanis", "vicerunt", "numquam venerunt"], "answerIndex": 0, "explanation": "'Lucius narravit hostes fugisse — vicerant enim Romani.'" }
+      ]
+    },
     {
       "id": "iv-aci-mc", "type": "multiple-choice", "title": "Accusativus cum Infinitivo: Regulae",
       "instructions": "Elige responsum rectum.",

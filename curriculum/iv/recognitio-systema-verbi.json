@@ -15,8 +15,8 @@
     "Applicare scientiam verbi integram in sententiis complexis"
   ],
   "content": {
-    "intro": "Congratulationes — Gradum IV paene complevisti! Ante Gradum V (coniunctivus plenus et clausulae subordinatae), tempus est omnia systemata verbi discussa colligere in unum conspectum.",
-    "explanation": "<p>Verbum Latīnum habet duo systēmata temporum (praesēns et perfectum), duās vōcēs (āctīva et passīva), et tot modōs quot iam vīdistī (indicātīvus, imperātīvus, coniūnctīvus incipiēns).</p>",
+    "intro": "'Pugno, pugnabam, pugnabo,' narrat Lucius Marco — 'praesens, imperfectum, futurum. Sed pugnavi, pugnaveram, pugnavero — perfectum, plusquamperfectum, futurum perfectum.' Sex tempora, duae voces: congratulationes, Gradum IV paene complevisti!",
+    "explanation": "<p>Lūcius Mārcō tōtam rem nārrat: &ldquo;Pugnō, pugnābam, pugnābō — haec sunt praesēns, imperfectum, futūrum. Sed pugnāvī, pugnāveram, pugnāverō — haec sunt perfectum, plūsquamperfectum, futūrum perfectum. Urbs capitur hodiē; urbs capiēbātur herī, dum pugnābāmus; urbs capiētur crās, sī hostēs nōn resistant. Urbs capta est; urbs capta erat antequam vēnimus; urbs capta erit ante hiemem.&rdquo; Mārcus rīdet: &ldquo;Sex tempora, duae vōcēs — omnia nunc intellegō, Lūcī, propter fābulam tuam.&rdquo;</p><p>Verbum Latīnum habet duo systēmata temporum (praesēns et perfectum), duās vōcēs (āctīva et passīva), et tot modōs quot iam vīdistī (indicātīvus, imperātīvus, coniūnctīvus incipiēns). Ante Gradum V (coniūnctīvus plēnus et clausulae subōrdinātae), tempus est omnia systēmata discussa colligere in ūnum cōnspectum.</p>",
     "rules": [
       {
         "heading": "a) Systema Praesentis: Radix Praesentis",
@@ -56,6 +56,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "iv-recog-story", "type": "reading-comprehension", "title": "Sex Tempora, Duae Voces",
+      "instructions": "Lege — hic Lucius totum systema verbi in una fabula recolligit. Deinde responde.",
+      "passage": "<p>Lūcius Mārcō tōtam rem nārrat: &ldquo;Pugnō, pugnābam, pugnābō — praesēns, imperfectum, futūrum. Sed pugnāvī, pugnāveram, pugnāverō — perfectum, plūsquamperfectum, futūrum perfectum. Urbs capitur hodiē; urbs capiēbātur herī; urbs capiētur crās, sī hostēs nōn resistant. Urbs capta est; urbs capta erat antequam vēnimus; urbs capta erit ante hiemem.&rdquo; Mārcus rīdet: &ldquo;Sex tempora, duae vōcēs — omnia nunc intellegō propter fābulam tuam.&rdquo;</p>",
+      "items": [
+        { "id": "recog-story1", "prompt": "Quot tempora Lucius Marco per exemplum activum monstrat?", "options": ["sex", "tria", "duo"], "answerIndex": 0, "explanation": "Praesens, imperfectum, futurum, perfectum, plusquamperfectum, futurum perfectum — sex tempora." },
+        { "id": "recog-story2", "prompt": "Quo modo Lucius vocem passivam illustrat?", "options": ["cum exemplo 'urbs capitur/capiebatur/capietur' etc.", "non illustrat vocem passivam", "solum cum vi activa"], "answerIndex": 0, "explanation": "'Urbs capitur, capiebatur, capietur... capta est, capta erat, capta erit.'" },
+        { "id": "recog-story3", "prompt": "Intellegitne Marcus tandem totum systema?", "options": ["ita, propter fabulam Lucii", "non, adhuc confusus est", "numquam intellexit"], "answerIndex": 0, "explanation": "'Omnia nunc intellego, Luci, propter fabulam tuam.'" }
+      ]
+    },
     {
       "id": "iv-recog-mc", "type": "multiple-choice", "title": "Systema Verbi: Recognitio Plena",
       "instructions": "Elige responsum rectum.",
