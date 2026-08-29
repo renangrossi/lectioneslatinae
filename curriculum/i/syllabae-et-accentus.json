@@ -57,6 +57,16 @@
   },
   "exercises": [
     {
+      "id": "i-syll-story", "type": "reading-comprehension", "title": "Ubi Cadit Accentus? Lege Alta Voce",
+      "instructions": "Haec verba, cum syllabis divisis, alta voce lege, accentum ponens ubi regula iubet. Deinde responde.",
+      "passage": "<p><em>ro-sa. a-mī-cus. ma-gis-ter. pa-tris. do-mi-nus.</em> Quaeque syllaba paenultima (secunda ā fine) dēcernit ubi accentus cadat.</p>",
+      "items": [
+        { "id": "syll-story1", "prompt": "In 'rosa' (duae syllabae), ubi cadit accentus?", "options": ["in prima: RO-sa", "in ultima: ro-SA", "nusquam, verbum sine accentu est"], "answerIndex": 0, "explanation": "Verba disyllaba semper accentum in prima syllaba habent." },
+        { "id": "syll-story2", "prompt": "In 'amīcus', paenultima 'mī' habet vocalem longam — ergo?", "options": ["accentus in paenultima: a-MĪ-cus", "accentus in antepaenultima: A-mi-cus", "accentus in ultima: a-mi-CUS"], "answerIndex": 0, "explanation": "Paenultima gravis (vocali longa) atrahit accentum: a-MĪ-cus." },
+        { "id": "syll-story3", "prompt": "In 'dominus', paenultima 'mi' est brevis et non clausa — ergo?", "options": ["accentus recedit ad antepaenultimam: DO-mi-nus", "accentus manet in paenultima: do-MI-nus", "accentus in ultima"], "answerIndex": 0, "explanation": "Paenultima levis: accentus recedit ad antepaenultimam." }
+      ]
+    },
+    {
       "id": "i-syll-mc", "type": "multiple-choice", "title": "Ubi Cadit Accentus?",
       "instructions": "Elige positionem rectam accentus.",
       "items": [

@@ -68,6 +68,16 @@
   },
   "exercises": [
     {
+      "id": "i-cons-story", "type": "reading-comprehension", "title": "Cicero et Caesar: Lege Alta Voce",
+      "instructions": "Haec nomina et verba alta voce lege secundum regulas consonantium. Deinde responde.",
+      "passage": "<p><em>Cicerō. Caesar. gemma. aqua. rosa. nātiō. annus.</em> Nōmina Rōmāna maxima, et verba ūsitāta, omnia sonant differenter ac discipulus Anglicē loquēns fortasse exspectat.</p>",
+      "items": [
+        { "id": "cons-story1", "prompt": "Quomodo incipit 'Cicero' in pronuntiatione restituta?", "options": ["sono [k], ut 'kite'", "sono [s], ut Anglicum 'city'", "sono [tʃ], ut Italicum 'ciao'"], "answerIndex": 0, "explanation": "C semper [k], numquam [s] vel [tʃ], in Latinitate Classica." },
+        { "id": "cons-story2", "prompt": "Quot syllabas habet 'aqua'?", "options": ["duas: a-qua", "tres: a-ku-a", "unam"], "answerIndex": 0, "explanation": "Qu est una consonans labiovelaris; 'aqua' habet duas syllabas." },
+        { "id": "cons-story3", "prompt": "In 'rosa', quem sonum habet S?", "options": ["sine voce, ut Anglicum 's' in 'snake'", "cum voce, ut Anglicum 'z' in 'rose'", "non pronuntiatur"], "answerIndex": 0, "explanation": "S Latina classica semper sine voce est, numquam [z]." }
+      ]
+    },
+    {
       "id": "i-cons-mc", "type": "multiple-choice", "title": "Consonantes: C, G, QU, S, TI",
       "instructions": "Elige responsum rectum.",
       "items": [

@@ -58,6 +58,16 @@
   },
   "exercises": [
     {
+      "id": "i-alph-story", "type": "reading-comprehension", "title": "Nomina Romana: Lege Alta Voce",
+      "instructions": "Haec nomina et verba, iam authentica Latina, alta voce lege — deinde responde secundum regulas pronuntiationis, non secundum sensum.",
+      "passage": "<p><em>Rōma. Cicerō. Caesar. Gallia. rosa. puella. vīnum. iam.</em> Omnia haec verba vēra sunt, ā Rōmānīs ipsīs scrīpta — mox eōrum significātiōnem plēnē discēs; hodiē tantum sonōs eōrum discis.</p>",
+      "items": [
+        { "id": "alph-story1", "prompt": "In verbo 'Caesar', quem sonum habet C?", "options": ["[k], ut Anglicum 'k'", "[s], ut Anglicum 's'", "[tʃ], ut Anglicum 'ch'"], "answerIndex": 0, "explanation": "C semper [k] in pronuntiatione restituta, etiam in 'Caesar'." },
+        { "id": "alph-story2", "prompt": "In verbo 'vīnum', quem sonum habet V?", "options": ["ut Anglicum 'v'", "ut Anglicum 'w'", "ut Anglicum 'f'"], "answerIndex": 1, "explanation": "V consonans classica sonat ut Anglicum 'w'." },
+        { "id": "alph-story3", "prompt": "In verbo 'iam', quid est I: vocalis an consonans?", "options": ["vocalis, ut in 'bit'", "consonans, ut Anglicum 'y'", "non pronuntiatur"], "answerIndex": 1, "explanation": "Ante vocalem, I initiale saepe consonans est ('iam' sonat fere ut 'yam')." }
+      ]
+    },
+    {
       "id": "i-alph-mc", "type": "multiple-choice", "title": "Alphabetum Latinum Classicum",
       "instructions": "Elige responsum rectum pro quaque quaestione.",
       "items": [

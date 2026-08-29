@@ -15,8 +15,8 @@
     "Cognoscere formulam epistolarem authenticam S.V.B.E.E.V."
   ],
   "content": {
-    "intro": "Salvē, discipule! ('Hello, student!') Iam pronuntiationem novisti — nunc prima verba vera loquamur, ea ipsa quae Romani in viā, in epistulīs, in convīviīs adhibēbant.",
-    "explanation": "<p><strong>Salvē</strong> (ad unam personam) et <strong>salvēte</strong> (ad plures) sunt imperativa verbi <em>salveō</em> ('valeo, sanus sum' — 'I am well'), adhibita ut salutatio: litteraliter 'esto sanus!' ('be well!'). <strong>Avē</strong> / <strong>avēte</strong> est alia salutatio, minus frequens sed bene attestata (ut in 'Avē Caesar'). Ad valedicendum, <strong>valē</strong> / <strong>valēte</strong> adhibetur — imperativum verbi <em>valeō</em> ('strong/well sum'), litteraliter 'sīs fortis et sānus!' Catullus, poeta, scripsit celeberrimum: <em>'atque in perpetuum, frāter, avē atque valē'</em> ('and forever, brother, hail and farewell').</p>",
+    "intro": "Mane est. Marcus Iuliam in via videt. 'Salve, Iulia!' 'Salve, Marce! Quid agis?' 'Bene ago, gratias. Et tu, ut vales?' 'Bene me habeo.' Iam pronuntiationem novisti — nunc prima verba vera loquamur, ea ipsa quae Romani in via adhibebant.",
+    "explanation": "<p>Māne est. Mārcus Iūliam in viā videt. &ldquo;Salvē, Iūlia!&rdquo; &ldquo;Salvē, Mārce! Quid agis?&rdquo; &ldquo;Bene agō, grātiās. Et tū, ut valēs?&rdquo; &ldquo;Bene mē habeō.&rdquo; Claudia, soror Iūliae, accēdit. &ldquo;Quod tibi nōmen est?&rdquo; rogat Mārcum, quamvīs iam nōvit. &ldquo;Mihi nōmen est Mārcus,&rdquo; respondet ille, rīdēns. &ldquo;Grātiās tibi agō quod nōs salūtāvistī,&rdquo; dīcit Iūlia. &ldquo;Libenter!&rdquo; respondet Mārcus. Tandem discēdunt: &ldquo;Valē, Mārce!&rdquo; &ldquo;Valēte, puellae!&rdquo;</p><p><strong>Salvē</strong> (ad unam persōnam) et <strong>salvēte</strong> (ad plūrēs) sunt imperātīva verbī <em>salveō</em> ('I am well'), adhibita ut salūtātiō: litterāliter 'estō sānus!' <strong>Valē</strong> / <strong>valēte</strong> adhibētur ad valedīcendum — imperātīvum verbī <em>valeō</em>. Catullus, poēta, scrīpsit celeberrimum: <em>'atque in perpetuum, frāter, avē atque valē'</em> ('and forever, brother, hail and farewell').</p>",
     "rules": [
       {
         "heading": "a) Salutare: Salvē / Salvēte",
@@ -66,6 +66,17 @@
     ]
   },
   "exercises": [
+    {
+      "id": "i-sal-story", "type": "reading-comprehension", "title": "Salve, Iulia!",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Māne est. Mārcus Iūliam in viā videt. &ldquo;Salvē, Iūlia!&rdquo; &ldquo;Salvē, Mārce! Quid agis?&rdquo; &ldquo;Bene agō, grātiās. Et tū, ut valēs?&rdquo; &ldquo;Bene mē habeō.&rdquo; Claudia, soror Iūliae, accēdit. &ldquo;Quod tibi nōmen est?&rdquo; rogat Mārcum, quamvīs iam nōvit. &ldquo;Mihi nōmen est Mārcus,&rdquo; respondet ille, rīdēns. &ldquo;Grātiās tibi agō quod nōs salūtāvistī,&rdquo; dīcit Iūlia. &ldquo;Libenter!&rdquo; respondet Mārcus. Tandem discēdunt: &ldquo;Valē, Mārce!&rdquo; &ldquo;Valēte, puellae!&rdquo;</p>",
+      "items": [
+        { "id": "sal-story1", "prompt": "Ubi Marcus Iuliam videt?", "options": ["in via", "domi", "in horto"], "answerIndex": 0, "explanation": "'Marcus Iuliam in via videt.'" },
+        { "id": "sal-story2", "prompt": "Quomodo se habet Iulia hodie?", "options": ["bene", "male", "mediocriter"], "answerIndex": 0, "explanation": "'Bene me habeo.'" },
+        { "id": "sal-story3", "prompt": "Quid Mārcus respondet cum Iūlia eī grātiās agit?", "options": ["'Libenter!'", "'Valē!'", "nihil respondet"], "answerIndex": 0, "explanation": "'Gratias tibi ago... Libenter! respondet Marcus.'" },
+        { "id": "sal-story4", "prompt": "Cui Marcus dicit 'Valete' (plurale), non 'Vale'?", "options": ["Iuliae et Claudiae simul", "soli Iuliae", "soli Claudiae"], "answerIndex": 0, "explanation": "'Valete, puellae!' — plurale, quia duae puellae sunt." }
+      ]
+    },
     {
       "id": "i-sal-match", "type": "matching", "title": "Iunge Salutationem cum Responso",
       "instructions": "Iunge quamque salutationem vel quaestionem cum responso apto.",

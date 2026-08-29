@@ -15,8 +15,8 @@
     "Numerōs Rōmānōs (I, V, X...) cum verbīs Latīnīs iungere"
   ],
   "content": {
-    "intro": "Numerī ubīque sunt: in mercātū, in hōrīs, in annīs. Hodiē prīmōs vīgintī numerōs discēmus — fundāmentum omnium numerōrum maiōrum.",
-    "explanation": "<p>Numerī Latīnī cardinālēs (one, two, three...) plērumque <strong>indēclinābilēs</strong> sunt — id est, formam nōn mūtant secundum cāsum. Sōlī <strong>ūnus, duo, trēs</strong> dēclinantur (et compositī eōrum, ut vīgintī ūnus). Numerī <strong>ōrdinālēs</strong> (first, second, third...) sunt adiectīva normālia prīmae/secundae dēclinātiōnis (ut <em>bonus, -a, -um</em>), dēclinanda plēnē — hanc dēclinātiōnem plēnam in Gradū II discēs.</p>",
+    "intro": "Iulia rosas in horto numerat: 'Una, duae, tres... decem rosae sunt!' Marcus ridet: 'Ego decem amicos habeo, sed tu decem rosas.' 'Quot annos habes?' rogat Iulia. 'Duodeviginti annos habeo,' respondet Marcus. Numeri ubique sunt — hodie primos viginti discemus.",
+    "explanation": "<p>Iūlia rosās in hortō numerat: &ldquo;Ūna, duae, trēs... decem rosae sunt!&rdquo; Mārcus rīdet: &ldquo;Ego decem amīcōs habeō, sed tū decem rosās.&rdquo; &ldquo;Quot annōs habēs, Mārce?&rdquo; rogat Iūlia. &ldquo;Duodēvīgintī annōs habeō,&rdquo; respondet Mārcus. &ldquo;Ego tantum quīndecim,&rdquo; dīcit Iūlia. &ldquo;Sed tū prīmus vēnistī hodiē, ego secunda.&rdquo;</p><p>Notāvistīne: <em>ūna, duae, trēs</em> (fēminīnum, quia rosae fēminīnae sunt) vs. <em>duodēvīgintī, quīndecim</em> (indēclīnābilia)? Numerī Latīnī cardinālēs plērumque <strong>indēclīnābilēs</strong> sunt. Sōlī <strong>ūnus, duo, trēs</strong> dēclinantur. Numerī <strong>ōrdinālēs</strong> (prīmus, secundus...) sunt adiectīva normālia, dēclinanda plēnē — hanc dēclīnātiōnem plēnam in Gradū II discēs.</p>",
     "rules": [
       {
         "heading": "a) Numerī Cardinālēs 1–10",
@@ -60,6 +60,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "i-num-story", "type": "reading-comprehension", "title": "Decem Rosae in Horto",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Iūlia rosās in hortō numerat: &ldquo;Ūna, duae, trēs... decem rosae sunt!&rdquo; Mārcus rīdet: &ldquo;Ego decem amīcōs habeō, sed tū decem rosās.&rdquo; &ldquo;Quot annōs habēs, Mārce?&rdquo; rogat Iūlia. &ldquo;Duodēvīgintī annōs habeō,&rdquo; respondet Mārcus. &ldquo;Ego tantum quīndecim,&rdquo; dīcit Iūlia. &ldquo;Sed tū prīmus vēnistī hodiē, ego secunda.&rdquo;</p>",
+      "items": [
+        { "id": "num-story1", "prompt": "Quot rosas Iulia in horto habet?", "options": ["decem", "duodecim", "quindecim"], "answerIndex": 0, "explanation": "'Decem rosae sunt!'" },
+        { "id": "num-story2", "prompt": "Quot annos Marcus habet?", "options": ["quindecim", "duodeviginti", "decem"], "answerIndex": 1, "explanation": "'Duodeviginti annos habeo,' respondet Marcus." },
+        { "id": "num-story3", "prompt": "Quis prior venit hodie, Marcus an Iulia?", "options": ["Marcus", "Iulia", "ambo simul"], "answerIndex": 0, "explanation": "'Tu primus venisti hodie, ego secunda.'" }
+      ]
+    },
     {
       "id": "i-num-mc", "type": "multiple-choice", "title": "Numerī Cardinālēs",
       "instructions": "Elige numerum Latīnum rectum.",

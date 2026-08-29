@@ -62,6 +62,16 @@
   },
   "exercises": [
     {
+      "id": "i-vd-story", "type": "reading-comprehension", "title": "Mālum an Malum? Lege Alta Voce",
+      "instructions": "Haec verba, cum quantitāte vocālium signātā, alta voce lege. Deinde responde secundum sonum, non secundum sensum sōlum.",
+      "passage": "<p><em>mālum</em> (pōmum, 'apple') — <em>malum</em> (calamitās, 'evil'). <em>vēnit</em> ('vēnit', factum praeteritum) — <em>venit</em> ('venit', factum praesēns). <em>caelum</em>. <em>aurum</em>. <em>poena</em>. Eadem litterae scrīptae, sed vocālis longa vel brevis tōtam significātiōnem mūtat.</p>",
+      "items": [
+        { "id": "vd-story1", "prompt": "Quo differt 'mālum' (apple) ā 'malum' (evil), in sono?", "options": ["nulla differentia sonat", "'mālum' habet ā longam, 'malum' a brevem", "'malum' habet plus litterarum"], "answerIndex": 1, "explanation": "Sola quantitas vocalis (longa vs. brevis) distinguit duo verba prorsus diversa." },
+        { "id": "vd-story2", "prompt": "In 'caelum', quas duas litteras coniunctas audis ut unam syllabam?", "options": ["a-e separatim", "'ae' ut diphthongus, sicut Anglicum 'eye'", "nihil, 'ae' non pronuntiatur"], "answerIndex": 1, "explanation": "'ae' est diphthongus frequentissimus, sonans ut Anglicum 'eye'." },
+        { "id": "vd-story3", "prompt": "In 'aurum', 'au' sonat similiter cui verbo Anglico?", "options": ["'how'", "'boy'", "'eye'"], "answerIndex": 0, "explanation": "'au' sonat ut Anglicum 'ow' in 'how'." }
+      ]
+    },
+    {
       "id": "i-vd-mc", "type": "multiple-choice", "title": "Vocales et Diphthongi",
       "instructions": "Elige responsum rectum.",
       "items": [

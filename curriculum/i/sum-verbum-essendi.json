@@ -15,8 +15,8 @@
     "Sententiās simplicēs cum 'sum' formāre et negāre"
   ],
   "content": {
-    "intro": "Verbum <strong>sum</strong> ('I am') est frequentissimum omnium verbōrum Latīnōrum et, sīcut in multīs linguīs, valdē <em>irregulāre</em>. Discere illud probē fundāmentum est omnis ōrātiōnis Latīnae.",
-    "explanation": "<p>Latīna verba plērumque persōnam agentis in ipsā dēsinentiā (ending) portant — ideō prōnōmen (ego, tū...) plērumque <strong>omittitur</strong>, nisi ēmphasis quaeritur. <em>'Sum discipulus'</em> sufficit prō 'ego sum discipulus'; <em>'ego'</em> additur sōlum sī vīs dīcere <strong>'EGO (nōn aliī) sum discipulus'</strong>.</p>",
+    "intro": "'Marcus discipulus est,' dicit magistra. 'Iulia discipula est.' 'Sumusne amici?' rogat Marcus. 'Sumus!' respondet Iulia. Verbum sum ('I am') est frequentissimum omnium verborum Latinorum. Discere illud probe fundamentum est omnis orationis Latinae.",
+    "explanation": "<p>&ldquo;Mārcus discipulus est,&rdquo; dīcit magistra, &ldquo;et Iūlia discipula est.&rdquo; &ldquo;Sumusne amīcī?&rdquo; rogat Mārcus Iūliam. &ldquo;Sumus!&rdquo; respondet illa. Claudia accēdit: &ldquo;Estisne vōs duo semper hīc in hortō?&rdquo; &ldquo;Nōn semper,&rdquo; dīcit Mārcus, &ldquo;sed hodiē sumus hīc ambō.&rdquo;</p><p>Notāvistīne: <em>est, sumus, estis</em> — nūllum prōnōmen (ego, tū) semper appāret, quia dēsinentia verbī ipsa persōnam indicat. Latīna verba plērumque persōnam agentis in ipsā dēsinentiā portant — ideō prōnōmen plērumque <strong>omittitur</strong>, nisi ēmphasis quaeritur.</p>",
     "rules": [
       {
         "heading": "a) Sum: Tempus Praesēns",
@@ -58,6 +58,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "i-sum-story", "type": "reading-comprehension", "title": "Sumusne Amici?",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>&ldquo;Mārcus discipulus est,&rdquo; dīcit magistra, &ldquo;et Iūlia discipula est.&rdquo; &ldquo;Sumusne amīcī?&rdquo; rogat Mārcus Iūliam. &ldquo;Sumus!&rdquo; respondet illa. Claudia accēdit: &ldquo;Estisne vōs duo semper hīc in hortō?&rdquo; &ldquo;Nōn semper,&rdquo; dīcit Mārcus, &ldquo;sed hodiē sumus hīc ambō.&rdquo;</p>",
+      "items": [
+        { "id": "sum-story1", "prompt": "Quid Marcus est, secundum magistram?", "options": ["discipulus", "magister", "civis"], "answerIndex": 0, "explanation": "'Marcus discipulus est.'" },
+        { "id": "sum-story2", "prompt": "Suntne Marcus et Iulia amici?", "options": ["ita — 'sumus!'", "non", "nescimus"], "answerIndex": 0, "explanation": "'Sumusne amici?' 'Sumus!'" },
+        { "id": "sum-story3", "prompt": "Suntne Marcus et Iulia semper in horto?", "options": ["non semper", "semper", "numquam"], "answerIndex": 0, "explanation": "'Non semper,' dicit Marcus." }
+      ]
+    },
     {
       "id": "i-sum-fill", "type": "fill-blank", "title": "Coniugā Sum",
       "instructions": "Comple spatia cum formā rectā verbī 'sum'.",
