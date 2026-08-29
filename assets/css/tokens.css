@@ -5,27 +5,40 @@
    Every other stylesheet should read from these variables rather than
    hard-coding values, so the whole design system can be tuned from here.
    Adapted from the sibling English-course design system (englishclasses);
-   palette retoned from an American "Old Glory" theme to a Roman one
-   (Pompeian fresco red / Tyrian purple / parchment) — see git history.
+   palette retoned from an American "Old Glory" theme to a Roman one.
+   Second pass (see git history): the first Roman retone kept a cool
+   navy/forest-green skeleton under a Roman veneer — navy reads as
+   "maritime/corporate", forest green as "English countryside", neither
+   distinctly Roman. This pass retones the underlying scales themselves:
+   navy's values became a warm umber/charcoal (bronze patina, old ink on
+   parchment, roof-tile shadow at dusk) and forest's became bronze, so
+   every component already wired to --color-primary /
+   --color-secondary-accent inherits the new hues with no per-component
+   edits needed. Variable NAMES are left as-is (--navy-*, --forest-*)
+   since dark-mode.css and other files reference them directly by name —
+   only their VALUES moved; read "navy"/"forest" below as legacy slot
+   names, not hue descriptions.
    ======================================================================= */
 
 :root {
   /* ---- Brand palette --------------------------------------------------
-     Deep navy (authority / ink), burgundy (wax-seal accent), forest
-     (secondary accent), parchment & ivory (paper), walnut (structure &
-     body text), gold (ornament, focus, honors). Kept restrained: gold
-     and burgundy are used sparingly, as accents rather than fields. */
-  --navy-900: #101b30;
-  --navy-800: #16233d;
-  --navy-700: #1c2d4d;
-  --navy-600: #263a63;
+     Deep umber/charcoal (authority / ink — was navy), terracotta
+     (imperial wax-seal accent — was burgundy), bronze (secondary
+     accent — was forest green), parchment & ivory (paper), walnut
+     (structure & body text), antique gold (ornament, focus, honors).
+     Kept restrained: gold and terracotta are used sparingly, as accents
+     rather than fields. */
+  --navy-900: #1e140c;
+  --navy-800: #271b11;
+  --navy-700: #332415;
+  --navy-600: #4a341c;
 
-  --burgundy-700: #7a1620;
-  --burgundy-600: #9c2430;
-  --burgundy-500: #b8303c;
+  --burgundy-700: #7a2410;
+  --burgundy-600: #a03a1a;
+  --burgundy-500: #bf4a22;
 
-  --forest-700: #1c3128;
-  --forest-600: #244033;
+  --forest-700: #4a3319;
+  --forest-600: #6b4a22;
 
   --gold-600: #a9812d;
   --gold-500: #c49a3f;
@@ -33,11 +46,16 @@
 
   /* Pompeian red — the fresco/cinnabar red seen on Roman wall painting
      and wax seals, used for structural accents (rules, card flags,
-     the laurel-row ornament) distinct from the burgundy brand accent
+     the laurel-row ornament) distinct from the terracotta brand accent
      used on buttons/links/eyebrows. */
   --pompeian-red: #9c2b1b;
   --pompeian-red-dim: #7a2115;
   --tyrian-purple: #3c1a4d;
+
+  /* Silver — muted-metal token for quiet borders/dividers wanting a
+     cooler, less earthy note than walnut/ink (coin silver, a stylus). */
+  --silver-500: #8f8a80;
+  --silver-300: #c9c4b8;
 
   --walnut-800: #3a2c22;
   --walnut-600: #5a4536;
@@ -140,9 +158,9 @@
   --border-hairline: 1px solid var(--color-border);
   --border-gold: 1px solid var(--color-border-strong);
 
-  --shadow-sm: 0 1px 2px rgba(120, 20, 30, 0.10);
-  --shadow-md: 0 6px 20px -8px rgba(120, 20, 30, 0.28);
-  --shadow-lg: 0 18px 45px -18px rgba(120, 20, 30, 0.38);
+  --shadow-sm: 0 1px 2px rgba(122, 36, 16, 0.10);
+  --shadow-md: 0 6px 20px -8px rgba(122, 36, 16, 0.28);
+  --shadow-lg: 0 18px 45px -18px rgba(122, 36, 16, 0.38);
   --shadow-inset-rule: inset 0 1px 0 rgba(255, 255, 255, 0.4);
 
   /* ---- Motion --------------------------------------------------------

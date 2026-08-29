@@ -1,52 +1,57 @@
 /* =======================================================================
    DARK MODE
    Toggled via [data-theme="dark"] on <html>, set by main.js and
-   persisted to localStorage. Deep navy / forest / warm brown, never
-   pure black — kept within the same academic palette as the light theme.
+   persisted to localStorage. Deep warm umber/charcoal — bronze patina,
+   never pure black and never blue-black — kept within the same
+   Roman/parchment palette family as the light theme (see tokens.css's
+   header comment on the second retone pass: this file previously used
+   a deep BLUE dark theme, which read as "night sky", not "Roman
+   charcoal"; every value below was rehued warmer for that reason).
    ======================================================================= */
 
 html[data-theme="dark"] {
-  /* A proper deep blue, not forest green — kept dark enough for contrast
-     but with enough blue chroma to read clearly as "blue", never black. */
-  --color-bg: #0b1526;
-  --color-surface: #101c33;
-  --color-surface-raised: #16233d;
-  --color-border: #2c3f5e;
+  /* A warm charcoal-umber, not blue-black — kept dark enough for
+     contrast but with enough brown chroma to read as "old bronze/
+     burnt umber", never a cool navy-black. */
+  --color-bg: #17110b;
+  --color-surface: #1e160f;
+  --color-surface-raised: #271f16;
+  --color-border: #3d3020;
   --color-border-strong: var(--color-red);
 
-  --color-text: #f1f4f9;
-  --color-text-muted: #b7c2d6;
+  --color-text: #f5f1e7;
+  --color-text-muted: #c9c0b0;
   --color-text-on-dark: #f4eee0;
   --color-text-on-dark-muted: #c9c2b3;
 
-  --color-primary: #0c1526;
-  --color-primary-strong: #08101e;
-  --color-accent: #e0616f;
-  --color-accent-strong: #e8828d;
-  --color-secondary-accent: #6fa78c;
+  --color-primary: #140f09;
+  --color-primary-strong: #0f0b07;
+  --color-accent: #e07752;
+  --color-accent-strong: #e89476;
+  --color-secondary-accent: #c8a069;
   --color-gold: var(--gold-500);
-  --color-red: #d94a52;
-  --color-red-dim: #b23b42;
-  --color-unavailable: #93a1bd;
+  --color-red: #d96a3a;
+  --color-red-dim: #b2531f;
+  --color-unavailable: #a89f8f;
 
   --color-success: #4fae7c;
-  --color-success-bg: #14301f;
-  --color-danger: #e08a93;
-  --color-danger-bg: #3a1720;
+  --color-success-bg: #16301c;
+  --color-danger: #e2988a;
+  --color-danger-bg: #3a1d12;
 
   color-scheme: dark;
 }
 
 html[data-theme="dark"] body {
-  background-image: linear-gradient(180deg, #0d1930 0%, #0b1526 420px);
+  background-image: linear-gradient(180deg, #1c150c 0%, #17110b 420px);
 }
 
 html[data-theme="dark"] .hero {
-  background: radial-gradient(1200px 600px at 15% -10%, rgba(196, 154, 63, 0.14), transparent 60%), var(--color-primary-strong);
+  background: radial-gradient(1200px 600px at 15% -10%, rgba(196, 154, 63, 0.16), transparent 60%), var(--color-primary-strong);
 }
 
 html[data-theme="dark"] .cta-band {
-  background: linear-gradient(160deg, #08101e, #12213a);
+  background: linear-gradient(160deg, #0f0b07, #241a10);
 }
 
 html[data-theme="dark"] .site-footer {
@@ -62,12 +67,12 @@ html[data-theme="dark"] .media-card {
 }
 
 html[data-theme="dark"] .lesson-card.is-unavailable {
-  background: #0e1830;
+  background: #1a1409;
 }
 
 html[data-theme="dark"] ::selection {
   background: var(--gold-600);
-  color: #0b1526;
+  color: #17110b;
 }
 
 /* ---------------------------------------------------------------------
