@@ -9,24 +9,24 @@ i-sum-verbum-essendi,I,Sum: Verbum Essendi,grammatica,3,11,1,0.09,False,True,Fal
 i-pronomina-personalia,I,Prōnōmina Persōnālia,grammatica,3,11,4,0.36,False,True,False,False,False,4,1,-1,C,curriculum/i/pronomina-personalia.json
 i-lectio-et-auditio-prima,I,Lectiō et Audītiō Prīma,lectio,3,11,0,0.0,True,False,True,False,True,2,1,4,A,curriculum/i/lectio-et-auditio-prima.json
 ii-declinatio-prima,II,Declinatio Prima,grammatica,5,18,5,0.28,True,True,False,False,True,3,2,5,A,curriculum/ii/declinatio-prima.json
-ii-declinatio-secunda-masculina,II,Declinatio Secunda: Masculina,grammatica,3,11,5,0.45,False,True,False,False,False,4,1,-1,C,curriculum/ii/declinatio-secunda-masculina.json
+ii-declinatio-secunda-masculina,II,Declinatio Secunda: Masculina,grammatica,4,14,5,0.36,True,True,False,False,True,4,2,4,A,curriculum/ii/declinatio-secunda-masculina.json
 ii-declinatio-secunda-neutra,II,Declinatio Secunda: Neutra,grammatica,3,10,0,0.0,False,True,True,False,False,3,1,2,B,curriculum/ii/declinatio-secunda-neutra.json
-ii-adiectiva-primae-et-secundae-classis,II,Adiectiva Primae et Secundae Classis,grammatica,3,13,3,0.23,False,False,False,False,False,3,1,-1,C,curriculum/ii/adiectiva-primae-et-secundae-classis.json
+ii-adiectiva-primae-et-secundae-classis,II,Adiectiva Primae et Secundae Classis,grammatica,4,16,3,0.19,True,False,False,False,True,3,2,4,A,curriculum/ii/adiectiva-primae-et-secundae-classis.json
 ii-praepositiones-cum-accusativo-et-ablativo,II,Praepositiones cum Accusativo et Ablativo,grammatica,3,11,0,0.0,False,True,False,False,False,4,1,0,B,curriculum/ii/praepositiones-cum-accusativo-et-ablativo.json
 ii-coniugatio-prima,II,Coniugatio Prima,grammatica,5,19,2,0.11,True,False,True,False,True,4,2,5,A,curriculum/ii/coniugatio-prima.json
 ii-coniugatio-secunda,II,Coniugatio Secunda,grammatica,3,11,3,0.27,False,True,False,False,False,3,1,1,B,curriculum/ii/coniugatio-secunda.json
-ii-coniugatio-tertia,II,Coniugatio Tertia,grammatica,3,12,1,0.08,False,False,False,False,False,3,1,-1,C,curriculum/ii/coniugatio-tertia.json
+ii-coniugatio-tertia,II,Coniugatio Tertia,grammatica,4,15,1,0.07,True,False,False,False,True,3,2,4,A,curriculum/ii/coniugatio-tertia.json
 ii-coniugatio-quarta,II,Coniugatio Quarta,grammatica,3,11,4,0.36,False,True,False,False,False,3,1,0,B,curriculum/ii/coniugatio-quarta.json
 ii-casus-accusativus,II,Casus Accusativus,grammatica,4,15,0,0.0,True,False,True,False,True,4,2,5,A,curriculum/ii/casus-accusativus.json
-ii-casus-dativus,II,Casus Dativus,grammatica,2,8,0,0.0,False,False,False,False,False,3,1,-1,C,curriculum/ii/casus-dativus.json
-ii-casus-genitivus,II,Casus Genitivus,grammatica,2,8,1,0.12,False,False,False,False,False,4,1,-2,C,curriculum/ii/casus-genitivus.json
+ii-casus-dativus,II,Casus Dativus,grammatica,3,11,0,0.0,True,False,False,False,True,3,2,4,A,curriculum/ii/casus-dativus.json
+ii-casus-genitivus,II,Casus Genitivus,grammatica,3,11,1,0.09,True,False,False,False,True,4,2,4,A,curriculum/ii/casus-genitivus.json
 ii-casus-ablativus,II,Casus Ablativus,grammatica,2,8,0,0.0,False,False,False,False,True,5,1,0,B,curriculum/ii/casus-ablativus.json
-ii-pronomina-demonstrativa,II,Pronomina Demonstrativa,grammatica,2,8,2,0.25,False,False,False,False,False,3,1,-1,C,curriculum/ii/pronomina-demonstrativa.json
+ii-pronomina-demonstrativa,II,Pronomina Demonstrativa,grammatica,3,11,2,0.18,True,False,False,False,True,3,2,4,A,curriculum/ii/pronomina-demonstrativa.json
 ii-pronomina-possessiva,II,Pronomina Possessiva,grammatica,2,7,2,0.29,False,False,False,False,True,4,1,0,B,curriculum/ii/pronomina-possessiva.json
-ii-imperativus,II,Imperativus,grammatica,2,8,2,0.25,False,False,False,False,False,4,1,-2,C,curriculum/ii/imperativus.json
+ii-imperativus,II,Imperativus,grammatica,3,11,2,0.18,True,False,False,False,True,4,2,4,A,curriculum/ii/imperativus.json
 ii-interrogativa,II,Interrogativa,grammatica,2,6,0,0.0,False,True,False,False,False,3,1,1,B,curriculum/ii/interrogativa.json
-ii-coniunctiones,II,Coniunctiones,grammatica,2,7,1,0.14,False,False,False,False,False,4,1,-2,C,curriculum/ii/coniunctiones.json
-ii-adverbia,II,Adverbia,grammatica,2,7,2,0.29,False,False,False,False,False,3,1,-1,C,curriculum/ii/adverbia.json
+ii-coniunctiones,II,Coniunctiones,grammatica,3,10,1,0.1,True,False,False,False,True,4,2,4,A,curriculum/ii/coniunctiones.json
+ii-adverbia,II,Adverbia,grammatica,3,10,2,0.2,True,False,False,False,True,3,2,4,A,curriculum/ii/adverbia.json
 ii-numeri-ordinales-et-cardinales-amplius,II,Numeri Ordinales et Cardinales Amplius,vocabularium,2,5,1,0.2,False,True,False,False,False,4,1,0,B,curriculum/ii/numeri-ordinales-et-cardinales-amplius.json
 iii-declinatio-tertia-consonantes,III,Declinatio Tertia: Consonantes,grammatica,3,9,4,0.44,False,True,False,False,False,3,1,0,B,curriculum/iii/declinatio-tertia-consonantes.json
 iii-declinatio-tertia-i-stems,III,Declinatio Tertia: I-Stems,grammatica,3,10,2,0.2,True,False,False,False,False,5,2,2,B,curriculum/iii/declinatio-tertia-i-stems.json
