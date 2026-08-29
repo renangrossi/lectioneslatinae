@@ -6,7 +6,7 @@ i-syllabae-et-accentus,I,Syllabae et Accentus,pronuntiatio,3,11,0,0.0,False,True
 i-salutationes,I,Salutationes,functionale,3,9,1,0.11,False,True,False,False,True,6,1,2,B,curriculum/i/salutationes.json
 i-numeri,I,Numerī,vocabularium,3,11,0,0.0,False,True,False,False,False,5,1,0,B,curriculum/i/numeri.json
 i-sum-verbum-essendi,I,Sum: Verbum Essendi,grammatica,3,11,1,0.09,False,True,False,False,True,4,1,2,B,curriculum/i/sum-verbum-essendi.json
-i-pronomina-personalia,I,Prōnōmina Persōnālia,grammatica,3,11,4,0.36,False,True,False,False,False,4,1,-1,C,curriculum/i/pronomina-personalia.json
+i-pronomina-personalia,I,Prōnōmina Persōnālia,grammatica,4,14,4,0.29,True,True,False,False,True,4,2,5,A,curriculum/i/pronomina-personalia.json
 i-lectio-et-auditio-prima,I,Lectiō et Audītiō Prīma,lectio,3,11,0,0.0,True,False,True,False,True,2,1,4,A,curriculum/i/lectio-et-auditio-prima.json
 ii-declinatio-prima,II,Declinatio Prima,grammatica,5,18,5,0.28,True,True,False,False,True,3,2,5,A,curriculum/ii/declinatio-prima.json
 ii-declinatio-secunda-masculina,II,Declinatio Secunda: Masculina,grammatica,4,14,5,0.36,True,True,False,False,True,4,2,4,A,curriculum/ii/declinatio-secunda-masculina.json
@@ -70,15 +70,15 @@ v-gerundium,V,Gerundium,grammatica,3,8,1,0.12,True,False,False,False,True,4,2,4,
 v-gerundivum,V,Gerundivum,grammatica,3,8,1,0.12,True,False,False,False,True,4,2,4,A,curriculum/v/gerundivum.json
 v-supinum,V,Supinum,grammatica,3,8,0,0.0,True,False,False,False,True,4,2,4,A,curriculum/v/supinum.json
 v-ablativus-absolutus-amplius,V,Ablativus Absolutus Amplius et Constructiones Participiales,grammatica,3,8,2,0.25,True,False,False,False,True,4,2,4,A,curriculum/v/ablativus-absolutus-amplius.json
-vi-ordo-verborum-et-stilus,VI,Ordo Verborum et Stilus,grammatica,2,5,1,0.2,False,False,False,False,False,4,1,-2,C,curriculum/vi/ordo-verborum-et-stilus.json
-vi-dativus-usus-provectiores,VI,Dativus: Usus Provectiores,grammatica,2,5,0,0.0,False,False,False,False,False,4,1,-2,C,curriculum/vi/dativus-usus-provectiores.json
-vi-ablativus-usus-provectiores,VI,Ablativus: Usus Provectiores,grammatica,2,5,0,0.0,False,False,False,False,False,4,1,-2,C,curriculum/vi/ablativus-usus-provectiores.json
-vi-oratio-obliqua-systema-plenum,VI,Oratio Obliqua: Systema Plenum,grammatica,2,5,1,0.2,False,False,False,False,False,4,1,-2,C,curriculum/vi/oratio-obliqua-systema-plenum.json
-vi-comparatio-et-correlativa,VI,Comparatio et Correlativa,grammatica,2,5,0,0.0,False,False,False,False,False,4,1,-2,C,curriculum/vi/comparatio-et-correlativa.json
+vi-ordo-verborum-et-stilus,VI,Ordo Verborum et Stilus,grammatica,3,8,1,0.12,True,False,False,False,True,4,2,4,A,curriculum/vi/ordo-verborum-et-stilus.json
+vi-dativus-usus-provectiores,VI,Dativus: Usus Provectiores,grammatica,3,8,0,0.0,True,False,False,False,True,4,2,4,A,curriculum/vi/dativus-usus-provectiores.json
+vi-ablativus-usus-provectiores,VI,Ablativus: Usus Provectiores,grammatica,3,8,0,0.0,True,False,False,False,False,4,2,2,B,curriculum/vi/ablativus-usus-provectiores.json
+vi-oratio-obliqua-systema-plenum,VI,Oratio Obliqua: Systema Plenum,grammatica,3,8,2,0.25,True,False,False,False,True,4,2,4,A,curriculum/vi/oratio-obliqua-systema-plenum.json
+vi-comparatio-et-correlativa,VI,Comparatio et Correlativa,grammatica,3,8,0,0.0,True,False,False,False,True,4,2,4,A,curriculum/vi/comparatio-et-correlativa.json
 vi-numeri-usus-litterarii,VI,Numeri: Usus Litterarii,vocabularium,2,4,0,0.0,False,True,False,False,False,4,1,0,B,curriculum/vi/numeri-usus-litterarii.json
 vi-lectio-adaptata-caesar,VI,Lectio Adaptata: Caesar,lectio,2,7,3,0.43,True,False,False,False,False,2,1,1,B,curriculum/vi/lectio-adaptata-caesar.json
 vi-lectio-adaptata-cicero,VI,Lectio Adaptata: Cicero,lectio,2,7,2,0.29,True,False,False,False,True,2,1,3,A,curriculum/vi/lectio-adaptata-cicero.json
-vi-constructiones-participiales-provectae,VI,Constructiones Participiales Provectae,grammatica,2,5,1,0.2,False,False,False,False,False,4,1,-2,C,curriculum/vi/constructiones-participiales-provectae.json
+vi-constructiones-participiales-provectae,VI,Constructiones Participiales Provectae,grammatica,3,8,1,0.12,True,False,False,False,True,4,2,4,A,curriculum/vi/constructiones-participiales-provectae.json
 vi-recognitio-syntaxis-integra,VI,Recognitio Provectior: Syntaxis Integra,grammatica,2,4,2,0.5,False,True,False,False,False,3,1,0,B,curriculum/vi/recognitio-syntaxis-integra.json
 vii-catullus-carmina-selecta,VII,Catullus: Carmina Selecta,lectio,2,6,0,0.0,True,False,False,False,True,3,1,3,A,curriculum/vii/catullus-carmina-selecta.json
 vii-caesar-de-bello-gallico,VII,Caesar: De Bello Gallico,lectio,2,4,0,0.0,True,False,False,False,True,3,1,3,A,curriculum/vii/caesar-de-bello-gallico.json
@@ -86,7 +86,7 @@ vii-cicero-in-catilinam,VII,Cicero: In Catilinam,lectio,2,4,0,0.0,True,False,Fal
 vii-ovidius-metamorphoses,VII,Ovidius: Metamorphoses,lectio,2,5,1,0.2,True,False,False,False,False,3,1,2,B,curriculum/vii/ovidius-metamorphoses.json
 vii-vergilius-aeneis,VII,Vergilius: Aeneis,lectio,2,5,0,0.0,True,False,False,False,True,3,1,3,A,curriculum/vii/vergilius-aeneis.json
 vii-sallustius-bellum-catilinae,VII,Sallustius: Bellum Catilinae,lectio,2,4,0,0.0,True,False,False,False,True,3,1,3,A,curriculum/vii/sallustius-bellum-catilinae.json
-vii-prosodia-et-metrum,VII,Prosodia et Metrum,pronuntiatio,2,6,0,0.0,False,False,False,False,False,4,1,-2,C,curriculum/vii/prosodia-et-metrum.json
+vii-prosodia-et-metrum,VII,Prosodia et Metrum,pronuntiatio,3,9,0,0.0,True,False,False,False,True,4,2,4,A,curriculum/vii/prosodia-et-metrum.json
 vii-rhetorica-ciceroniana,VII,Rhetorica Ciceroniana: Figurae,lectio,2,5,0,0.0,False,True,False,False,False,6,1,0,B,curriculum/vii/rhetorica-ciceroniana.json
 vii-cicero-de-amicitia,VII,Cicero: De Amicitia,lectio,2,5,2,0.4,True,False,False,False,True,3,1,2,B,curriculum/vii/cicero-de-amicitia.json
 vii-recognitio-finalis,VII,Recognitio Finalis: Lectio Libera,lectio,2,4,0,0.0,True,True,False,False,True,3,1,4,A,curriculum/vii/recognitio-finalis.json
