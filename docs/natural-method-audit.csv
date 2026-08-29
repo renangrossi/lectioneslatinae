@@ -62,14 +62,14 @@ v-coniunctivus-perfectum-et-plusquamperfectum,V,Coniunctivus Perfectum et Plusqu
 v-consecutio-temporum,V,Consecutio Temporum,grammatica,4,9,3,0.33,True,True,False,False,True,3,2,5,A,curriculum/v/consecutio-temporum.json
 v-clausulae-consecutivae,V,Clausulae Consecutivae,grammatica,4,10,2,0.2,True,False,True,False,True,4,2,5,A,curriculum/v/clausulae-consecutivae.json
 v-interrogationes-obliquae,V,Interrogationes Obliquae,grammatica,4,9,2,0.22,True,True,False,False,True,4,2,5,A,curriculum/v/interrogationes-obliquae.json
-v-cum-historicum-causale-concessivum,V,"Cum Historicum, Causale, Concessivum",grammatica,2,5,1,0.2,False,False,False,False,False,4,1,-2,C,curriculum/v/cum-historicum-causale-concessivum.json
-v-condiciones,V,Condiciones,grammatica,2,5,0,0.0,False,False,False,False,False,5,1,-2,C,curriculum/v/condiciones.json
-v-clausulae-timendi,V,Clausulae Timendi,grammatica,2,5,1,0.2,False,False,False,False,False,4,1,-2,C,curriculum/v/clausulae-timendi.json
+v-cum-historicum-causale-concessivum,V,"Cum Historicum, Causale, Concessivum",grammatica,3,8,1,0.12,True,False,False,False,True,4,2,4,A,curriculum/v/cum-historicum-causale-concessivum.json
+v-condiciones,V,Condiciones,grammatica,3,8,0,0.0,True,False,False,False,True,5,2,4,A,curriculum/v/condiciones.json
+v-clausulae-timendi,V,Clausulae Timendi,grammatica,3,8,1,0.12,True,False,False,False,True,4,2,4,A,curriculum/v/clausulae-timendi.json
 v-clausulae-characteristicae,V,Clausulae Characteristicae,grammatica,7,23,2,0.09,True,True,True,True,True,5,4,7,A,curriculum/v/clausulae-characteristicae.json
-v-gerundium,V,Gerundium,grammatica,2,5,1,0.2,False,False,False,False,False,4,1,-2,C,curriculum/v/gerundium.json
-v-gerundivum,V,Gerundivum,grammatica,2,5,1,0.2,False,False,False,False,False,4,1,-2,C,curriculum/v/gerundivum.json
-v-supinum,V,Supinum,grammatica,2,5,0,0.0,False,False,False,False,False,4,1,-2,C,curriculum/v/supinum.json
-v-ablativus-absolutus-amplius,V,Ablativus Absolutus Amplius et Constructiones Participiales,grammatica,2,5,2,0.4,False,False,False,False,False,4,1,-3,C,curriculum/v/ablativus-absolutus-amplius.json
+v-gerundium,V,Gerundium,grammatica,3,8,1,0.12,True,False,False,False,True,4,2,4,A,curriculum/v/gerundium.json
+v-gerundivum,V,Gerundivum,grammatica,3,8,1,0.12,True,False,False,False,True,4,2,4,A,curriculum/v/gerundivum.json
+v-supinum,V,Supinum,grammatica,3,8,0,0.0,True,False,False,False,True,4,2,4,A,curriculum/v/supinum.json
+v-ablativus-absolutus-amplius,V,Ablativus Absolutus Amplius et Constructiones Participiales,grammatica,3,8,2,0.25,True,False,False,False,True,4,2,4,A,curriculum/v/ablativus-absolutus-amplius.json
 vi-ordo-verborum-et-stilus,VI,Ordo Verborum et Stilus,grammatica,2,5,1,0.2,False,False,False,False,False,4,1,-2,C,curriculum/vi/ordo-verborum-et-stilus.json
 vi-dativus-usus-provectiores,VI,Dativus: Usus Provectiores,grammatica,2,5,0,0.0,False,False,False,False,False,4,1,-2,C,curriculum/vi/dativus-usus-provectiores.json
 vi-ablativus-usus-provectiores,VI,Ablativus: Usus Provectiores,grammatica,2,5,0,0.0,False,False,False,False,False,4,1,-2,C,curriculum/vi/ablativus-usus-provectiores.json
