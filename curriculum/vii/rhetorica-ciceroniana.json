@@ -15,8 +15,8 @@
     "Applicare vocabularium technicum rhetoricae in analysi textus novi"
   ],
   "content": {
-    "intro": "Cicerō nōn sōlum ōrāvit, sed etiam scrīpsit tractātūs dē rhētoricā ipsā (Dē Ōrātōre, Brūtus). Hodiē nōmina technica figūrārum quās iam vīdistī (sine nōmināre eās explicitē) discis, ut textūs futūrōs analysāre possīs professiōnāliter.",
-    "explanation": "<p>Figūra rhētorica est structūra verbōrum dēlīberāta, adhibita nōn prō necessitāte grammaticā, sed prō effectū persuāsīvō vel aesthēticō.</p>",
+    "intro": "'Cur Cicero verba sua repetit ter?' rogat Marcus, legens 'Nihil...nihil...nihil.' 'Ut audientes ea numquam obliviscantur,' respondet magister. Nomina Latina figurarum quas iam vidisti in textibus Ciceronis, Sallustii, et Vergilii — sine eas antea nominasse — hodie discis.",
+    "explanation": "<p>&ldquo;Cūr Cicerō verba sua repetit ter?&rdquo; rogat Mārcus, legēns &ldquo;Nihil...nihil...nihil.&rdquo; &ldquo;Ut audientēs ea numquam obliviscantur,&rdquo; respondet magister. &ldquo;Et cūr Cicerō dīcit facinus...scelus...parricīdium, in ōrdine crēscente?&rdquo; rogat Mārcus dē aliō exemplō. &ldquo;Quia gravitās crēscit cum quōque verbō,&rdquo; explicat magister: &ldquo;vincīre est facinus, verberāre est scelus, sed necāre est paene parricīdium — Cicerō tē dūcit gradātim ad indignātiōnem māximam.&rdquo;</p><p>Figūra rhētorica est structūra verbōrum dēlīberāta, adhibita nōn prō necessitāte grammaticā, sed prō effectū persuāsīvō vel aesthēticō. Notāvistīne hās structūrās iam in textibus Cicerōnis, Sallustiī, Caesaris, et Vergiliī? Hodiē nōmina technica eīs damus, ut textūs futūrōs analysāre possīs professiōnāliter.</p>",
     "rules": [
       {
         "heading": "a) Anaphora",
@@ -64,6 +64,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "vii-rhet-story", "type": "reading-comprehension", "title": "Facinus, Scelus, Parricidium",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Cicerō dē scelere Verris dīcit: &ldquo;Facinus est vincīre cīvem Rōmānum, scelus verberāre, prope parricīdium necāre.&rdquo; Trēs verba — vincīre, verberāre, necāre — crēscunt in gravitāte, et trēs nōmina — facinus, scelus, parricīdium — crēscunt pariter. Mārcus rogat magistrum: &ldquo;Quid gravius est, secundum Cicerōnem: vincīre cīvem, an eum necāre?&rdquo; &ldquo;Necāre,&rdquo; respondet magister, &ldquo;id est prope parricīdium — quia cīvis Rōmānus, secundum lēgem, paene sīcut pater patriae aestimātur.&rdquo;</p>",
+      "items": [
+        { "id": "rhet-story1", "prompt": "Quid Cicero dicit esse gravissimum inter tria facta?", "options": ["necare civem Romanum", "vincire civem Romanum", "verberare civem Romanum"], "answerIndex": 0, "explanation": "'Prope parricidium necare' — gravissimum." },
+        { "id": "rhet-story2", "prompt": "Quomodo tria verba (vincire, verberare, necare) inter se ordinantur?", "options": ["crescunt in gravitate", "decrescunt in gravitate", "sunt aequalia"], "answerIndex": 0, "explanation": "Climax: facinus, scelus, prope parricidium — series crescens." },
+        { "id": "rhet-story3", "prompt": "Quid effectus est cum Cicero verbum 'nihil' ter repetit?", "options": ["accumulatio emphatica", "nihil significat aliud", "confusio auditorum"], "answerIndex": 0, "explanation": "Anaphora: repetitio initialis pro emphasi accumulata." }
+      ]
+    },
     {
       "id": "vii-rhet-mc", "type": "multiple-choice", "title": "Figurae Rhetoricae: Recognitio",
       "instructions": "Elige responsum rectum.",

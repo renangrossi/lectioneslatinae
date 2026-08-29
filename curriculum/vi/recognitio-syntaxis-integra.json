@@ -16,7 +16,7 @@
   ],
   "content": {
     "intro": "Congratulationes — Gradum VI paene complevisti! Haec est ultima lectio ante Gradum VII, ubi verba ipsa Caesaris, Ciceronis, Catulli, Ovidii, et Vergilii — sine adaptatione ulla — te exspectant.",
-    "explanation": "<p>Rediit tempus ad omnia colligenda: syntaxis Latina prōvectior nōn est sērēs rēgulārum sēparātārum, sed ūnum systēma cohaerēns quō auctōrēs classicī sententiās longās, ēlegantēs, et praecīsās cōnstruunt.</p>",
+    "explanation": "<p>&ldquo;Hodiē colligimus omnia,&rdquo; dīcit magister Mārcō. &ldquo;Ecce ultima periodus, difficillima omnium quās vīdistī — sed iam omnia scīs quae ad eam intellegendam necessāria sunt.&rdquo; Mārcus respīrat altē: &ldquo;Incipiāmus.&rdquo;</p><p>Rediit tempus ad omnia colligenda: syntaxis Latina prōvectior nōn est sēriēs rēgulārum sēparātārum, sed ūnum systēma cohaerēns quō auctōrēs classicī sententiās longās, ēlegantēs, et praecīsās cōnstruunt.</p>",
     "rules": [
       {
         "heading": "a) Conspectus: Syntaxis Provectior Gradus VI",
@@ -52,6 +52,16 @@
     ]
   },
   "exercises": [
+    {
+      "id": "vi-recog2-story", "type": "reading-comprehension", "title": "Periodus Exemplaris: Cicero contra Catilinam",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Cicerō, cum scīret Catilīnam multōs cīvēs dēspērātōs sibi sociōs fēcisse quantōque magis in diēs perīculum crēsceret, tantō ācrius in senātū contrā eum ōrāvit, dīcēns rem pūblicam, nisi celeriter agerētur, brevī tempore ēversum īrī.</p>",
+      "items": [
+        { "id": "recog2-story1", "prompt": "Quid Catilina fecerat, secundum Ciceronem?", "options": ["multos cives desperatos sibi socios fecerat", "nihil fecerat", "solus in urbe manebat"], "answerIndex": 0, "explanation": "'Catilinam multos cives desperatos sibi socios fecisse.'" },
+        { "id": "recog2-story2", "prompt": "Quid Cicero in senatu fecit, quo magis periculum crescebat?", "options": ["acrius contra Catilinam oravit", "tacuit", "Roma discessit"], "answerIndex": 0, "explanation": "'Quanto...crescerret, tanto acrius...oravit' — correlativum proportionale." },
+        { "id": "recog2-story3", "prompt": "Quid Cicero dixit fore rei publicae, nisi celeriter ageretur?", "options": ["eam brevi tempore eversum iri", "eam semper salvam fore", "nihil mali eventurum"], "answerIndex": 0, "explanation": "'Rem publicam...brevi tempore eversum iri.'" }
+      ]
+    },
     {
       "id": "vi-recog2-mc", "type": "multiple-choice", "title": "Syntaxis Integra: Recognitio Finalis",
       "instructions": "Elige responsum rectum.",

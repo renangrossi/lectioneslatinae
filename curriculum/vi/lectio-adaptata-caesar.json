@@ -16,7 +16,7 @@
   ],
   "content": {
     "intro": "Annō 49 a.C.n., Gāius Iūlius Caesar, dux exercitūs Rōmānī in Galliā, dēcīsiōnem gravissimam fēcit — trānsīre flūmen Rubicōnem, fīnem prōvinciae suae, cum exercitū, quod erat contrā lēgem Rōmānam. Haec nārrātiō, adaptāta ex historiīs antīquīs (Suētōniō, Plūtarchō), tē praeparat ad textūs nōn adaptātōs Gradūs VII.",
-    "explanation": "<p>Legere lentē; nōn omne verbum novum est — id quod discis est LEGERE prōsam dēnsam, cum multīs cōnstrūctiōnibus participiālibus et coniūnctīvīs simul.</p>",
+    "explanation": "<p>&ldquo;Hodiē legēmus dē Caesare, sine ūllā adaptātiōne facilī,&rdquo; dīcit magister Mārcō et Lūciō. &ldquo;Parātī estis?&rdquo; Mārcus respondet: &ldquo;Parātī sumus — cōnstrūctiōnēs iam nōvimus, sōlum vocābula nova nōbīs dēsunt.&rdquo; &ldquo;Optimē,&rdquo; rīdet magister, &ldquo;nam vocābulum novum nōn est perīculum, sī grammatica iam nōta est.&rdquo;</p><p>Legere lentē; nōn omne verbum novum est — id quod discis est LEGERE prōsam dēnsam, cum multīs cōnstrūctiōnibus participiālibus et coniūnctīvīs simul.</p>",
     "rules": [
       {
         "heading": "Textus: Caesar Rubiconem Transit",
@@ -57,6 +57,15 @@
         { "id": "caes2", "prompt": "Cur Caesar timuit Romam sine exercitu redire?", "options": ["quia viam non sciebat", "quia inimici sui potentes in urbe erant", "quia hiems erat"], "answerIndex": 1, "explanation": "'sciret inimīcōs suōs in urbe potentēs esse'." },
         { "id": "caes3", "prompt": "Quid Caesar dixit ad Rubiconem, secundum traditionem?", "options": ["'Veni, vidi, vici'", "'Alea iacta est'", "'Et tu, Brute?'"], "answerIndex": 1, "explanation": "'ut trāditur, dīxit: Ālea iacta est.'" },
         { "id": "caes4", "prompt": "Quid Rubico erat?", "options": ["nomen ducis", "flumen, finis inter Galliam et Italiam", "urbs magna"], "answerIndex": 1, "explanation": "'flūmen Rubicōnem, quod fīnis erat inter Galliam et Ītaliam'." }
+      ]
+    },
+    {
+      "id": "vi-caes-tf", "type": "true-false", "title": "Verum an Falsum",
+      "instructions": "Secundum narrationem supra, dic utrum verum sit an falsum.",
+      "items": [
+        { "id": "caes-tf1", "statement": "Senatus Caesari imperavit ut in Gallia cum exercitu maneret.", "answer": false, "explanation": "'iussus est exercitum dimittere' — dissolvere, non manere." },
+        { "id": "caes-tf2", "statement": "Caesar timuit ne ab inimicis suis interficeretur, si sine exercitu Romam rediret.", "answer": true, "explanation": "'timuit ne... ab eis interficeretur.'" },
+        { "id": "caes-tf3", "statement": "Caesar statim, sine ulla cogitatione, Rubiconem transiit.", "answer": false, "explanation": "'Diu cogitavit utrum...' — diu deliberavit ante decisionem." }
       ]
     },
     {

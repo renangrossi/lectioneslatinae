@@ -15,8 +15,8 @@
     "Recognoscere numeros in usu litterario/poetico"
   ],
   "content": {
-    "intro": "Praeter numerōs cardinālēs et ōrdinālēs (iam nōtōs), Latīna habet duo genera ultima: distribūtīvī ('one each') et multiplicātīvī ('-fold').",
-    "explanation": "<p>Numerī distribūtīvī sunt OBLIGĀTŌRIĪ (nōn optiōnālēs) cum nōminibus <em>plūrālia tantum</em> (verba quae sōlum fōrmam plūrālem habent, ut castra, arma, līterae).</p>",
+    "intro": "'Militibus bina arma data sunt,' dicit magister. 'Cur non duo?' rogat Lucius. 'Quia arma est plurale tantum,' respondet magister. Praeter numeros cardinales et ordinales iam notos, Latina habet duo genera ultima: distributivi ('one each') et multiplicativi ('-fold').",
+    "explanation": "<p>&ldquo;Mīlitibus bīna arma data sunt,&rdquo; dīcit magister. &ldquo;Cūr nōn 'duo arma'?&rdquo; rogat Lūcius. &ldquo;Quia 'arma' est plūrāle tantum,&rdquo; respondet magister, &ldquo;et cum tālibus nōminibus, numerus distribūtīvus est obligātōrius, nōn numerus cardinālis simplex.&rdquo; Mārcus adiungit: &ldquo;Et sī mīles duplex praemium accēpit?&rdquo; &ldquo;Tunc nōn 'bīna praemia' dīcimus,&rdquo; explicat magister, &ldquo;sed 'praemium duplex' — nōn duo praemia distribūta, sed ūnum praemium duplicātum in valōre.&rdquo;</p><p>Notāvistīne differentiam inter <em>bīna</em> (distribūtīvus: 'two sets, one to each') et <em>duplex</em> (multiplicātīvus: 'twofold, doubled')? Numerī distribūtīvī sunt OBLIGĀTŌRIĪ (nōn optiōnālēs) cum nōminibus <em>plūrālia tantum</em> (verba quae sōlum fōrmam plūrālem habent, ut castra, arma, litterae); numerī multiplicātīvī (simplex, duplex, triplex) dēscrībunt multiplicātiōnem in intēnsitāte vel valōre, nōn distribūtiōnem.</p>",
     "rules": [
       {
         "heading": "a) Numeri Distributivi",
@@ -56,6 +56,26 @@
     ]
   },
   "exercises": [
+    {
+      "id": "vi-num3-story", "type": "reading-comprehension", "title": "Bina Castra Prope Flumen",
+      "instructions": "Lege, deinde responde.",
+      "passage": "<p>Duo ducēs, in bīnīs castrīs prope flūmen, exercitūs suōs continēbant. Singulīs mīlitibus bīna arma data sunt — gladius et scūtum — quia mīles sine armīs inūtilis est. Fortissimō mīlitī cuiusque legiōnis praemium duplex dabātur, sed ducī ipsī praemium triplex. Ter in annō dux mīlitēs suōs numerābat, ut scīret quot superessent. Aliquandō, cum hostēs bis in ūnō diē oppugnāvissent, mīlitēs Rōmānī tamen fortiter restitērunt et vīcērunt.</p>",
+      "items": [
+        { "id": "num3-story1", "prompt": "Quot arma singulis militibus data sunt?", "options": ["bina (gladius et scutum)", "tria", "nulla"], "answerIndex": 0, "explanation": "'Singulis militibus bina arma data sunt — gladius et scutum.'" },
+        { "id": "num3-story2", "prompt": "Quale praemium fortissimo militi dabatur?", "options": ["duplex", "simplex", "nullum"], "answerIndex": 0, "explanation": "'Fortissimo militi... praemium duplex dabatur.'" },
+        { "id": "num3-story3", "prompt": "Quotiens in anno dux milites numerabat?", "options": ["ter", "semel", "numquam"], "answerIndex": 0, "explanation": "'Ter in anno dux milites suos numerabat.'" },
+        { "id": "num3-story4", "prompt": "Quotiens hostes in uno die oppugnaverunt, illo casu memorabili?", "options": ["bis", "ter", "semel"], "answerIndex": 0, "explanation": "'Cum hostes bis in uno die oppugnavissent.'" }
+      ]
+    },
+    {
+      "id": "vi-num3-tf", "type": "true-false", "title": "Verum an Falsum",
+      "instructions": "Secundum fabulam supra, dic utrum verum sit an falsum.",
+      "items": [
+        { "id": "num3-tf1", "statement": "'Bina castra' significat duo castra simpliciter, sine ulla distributione.", "answer": false, "explanation": "'Bina' est distributivus: duo castra, unum cuique duci." },
+        { "id": "num3-tf2", "statement": "'Duplex praemium' significat unum praemium duplicatum in valore, non duo praemia data.", "answer": true, "explanation": "Multiplicativus indicat qualitatem/valorem, non distributionem." },
+        { "id": "num3-tf3", "statement": "Numerus distributivus non est necessarius cum nominibus pluralia tantum.", "answer": false, "explanation": "Cum pluralia tantum (arma, castra), distributivus est obligatorius." }
+      ]
+    },
     {
       "id": "vi-num3-mc", "type": "multiple-choice", "title": "Numeri Litterarii: Regulae",
       "instructions": "Elige responsum rectum.",

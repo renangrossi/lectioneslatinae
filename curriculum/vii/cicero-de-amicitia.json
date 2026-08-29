@@ -16,7 +16,7 @@
   ],
   "content": {
     "intro": "Praeter ōrātiōnēs pūblicās, Cicerō scrīpsit tractātūs philosophicōs in fōrmā dialogī, imitāns Platōnem. Dē Amīcitiā, scrīptus post mortem fīliae suae Tulliae, explōrat nātūram vērae amīcitiae per persōnam Gāiī Laeliī, philosophī et amīcī Scīpiōnis Āfricānī Minōris.",
-    "explanation": "<p>Structūra initiālis est complexa: Cicerō (auctor) nārrat quod Q. Mūcius Scaevola (persōna in dialogō) solēbat nārrāre dē C. Laeliō (alia persōna, iam mortua tempore scrīptiōnis) — nārrātiō intrā nārrātiōne, tēchnica classica dialogōrum philosophicōrum.</p>",
+    "explanation": "<p>&ldquo;Hodiē legēmus verba ipsa Cicerōnis dē amīcitiā,&rdquo; dīcit magister Mārcō. &ldquo;Sed Cicerō ipse nōn prīmus dē amīcitiā loquitur — nārrat quod alius vir eī nārrāverat.&rdquo; Mārcus mīrātur: &ldquo;Nārrātiō intrā nārrātiōne? Sīcut fābula avī meī dē fābulā patris suī?&rdquo; &ldquo;Exactē,&rdquo; rīdet magister.</p><p>Structūra initiālis est complexa: Cicerō (auctor) nārrat quod Q. Mūcius Scaevola (persōna in dialogō) solēbat nārrāre dē C. Laeliō (alia persōna, iam mortua tempore scrīptiōnis) — nārrātiō intrā nārrātiōne, tēchnica classica dialogōrum philosophicōrum.</p>",
     "rules": [
       {
         "heading": "Textus: De Amicitia, Caput 1 (initium)",
@@ -60,6 +60,15 @@
         { "id": "amic1", "prompt": "Quis erat socer Q. Mucii Scaevolae?", "options": ["Cicero", "C. Laelius", "Scipio"], "answerIndex": 1, "explanation": "'dē C. Laeliō sōcerō suō'." },
         { "id": "amic2", "prompt": "Quo titulo Scaevola semper Laelium appellabat?", "options": ["consulem", "sapientem", "augurem"], "answerIndex": 1, "explanation": "'appellāre sapientem'." },
         { "id": "amic3", "prompt": "Quando (quo eventu vitae) Cicero coepit sequi Scaevolam?", "options": ["postquam consul factus est", "sumpta toga virili (transitus ad aetatem adultam)", "post mortem patris"], "answerIndex": 1, "explanation": "'sūmptā virīlī togā' — ablativus absolutus." }
+      ]
+    },
+    {
+      "id": "vii-amic-tf", "type": "true-false", "title": "Verum an Falsum",
+      "instructions": "Secundum textum supra, dic utrum verum sit an falsum.",
+      "items": [
+        { "id": "amic-tf1", "statement": "Cicero ipse primus haec de Laelio dixit; nemo ei prius narraverat.", "answer": false, "explanation": "Scaevola narrabat de Laelio; Cicero, iuvenis, id audivit et postea scripsit." },
+        { "id": "amic-tf2", "statement": "Scaevola erat socer Laelii.", "answer": true, "explanation": "'de C. Laelio socero suo' — Scaevola erat gener, Laelius socer." },
+        { "id": "amic-tf3", "statement": "Cicero, iuvenis, numquam a latere Scaevolae discedebat.", "answer": true, "explanation": "'a senis latere numquam discederem.'" }
       ]
     },
     {

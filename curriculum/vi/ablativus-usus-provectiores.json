@@ -15,8 +15,8 @@
     "Uti ablativo originis cum participiis natus/ortus/genitus"
   ],
   "content": {
-    "intro": "'Cicero fuit vir magna eloquentia,' dicit magister, 'nobili familia ortus, et libros parvo pretio numquam vendidit — semper multo maiore quam ceteri.' Ultimi quattuor usus ablativi, frequentes in prosa historica, hodie discimus.",
-    "explanation": "<p>&ldquo;Cicerō fuit vir magnā ēloquentiā,&rdquo; dīcit magister, &ldquo;nōbilī familiā ortus, quī librōs parvō pretiō numquam vendidit — semper multō māiōre pretiō quam cēterī ōrātōrēs suī temporis.&rdquo;</p><p>Notāvistīne quattuor ūsūs ablātīvī? <em>magnā ēloquentiā</em> (quālitās), <em>parvō pretiō, māiōre pretiō</em> (pretium), <em>multō māiōre</em> (mēnsūra differentiae), <em>nōbilī familiā ortus</em> (orīgō). Recordā: ablātīvus cumulat plūrēs cāsūs antīquōs (locātīvum, īnstrūmentālem) — ideō tot ūsūs dīversōs habet.</p>",
+    "intro": "'Cicero fuit vir magna eloquentia,' dicit magister Marco, 'nobili familia ortus, et libros suos numquam parvo pretio vendidit.' 'Quanto maior fuit quam ceteri oratores?' rogat Marcus. Ultimi quattuor usus ablativi, frequentes in prosa historica, hodie discimus.",
+    "explanation": "<p>&ldquo;Cicerō fuit vir magnā ēloquentiā,&rdquo; dīcit magister Mārcō, &ldquo;nōbilī familiā ortus, quī librōs parvō pretiō numquam vendidit — semper multō māiōre pretiō quam cēterī ōrātōrēs suī temporis.&rdquo; &ldquo;Quantō māior fuit quam cēterī?&rdquo; rogat Mārcus. &ldquo;Multō māior,&rdquo; respondet magister, &ldquo;nam paucī ōrātōrēs eius aetātis tantā ēloquentiā fuērunt.&rdquo; Mārcus rīdet: &ldquo;Et Rōmulus? Nōnne ille Marte nātus dīcēbātur?&rdquo; &ldquo;Ita,&rdquo; respondet magister, &ldquo;sed Cicerō, nōbilī familiā ortus, glōriam suam nōn ā deīs, sed ā verbīs suīs, accēpit.&rdquo;</p><p>Notāvistīne quattuor ūsūs ablātīvī in hōc colloquiō? <em>magnā ēloquentiā</em> (quālitās), <em>parvō pretiō, māiōre pretiō</em> (pretium), <em>multō māiōre, quantō māior</em> (mēnsūra differentiae), <em>nōbilī familiā ortus, Marte nātus</em> (orīgō). Recordā: ablātīvus cumulat plūrēs cāsūs antīquōs (locātīvum, īnstrūmentālem) — ideō tot ūsūs dīversōs habet.</p>",
     "rules": [
       {
         "heading": "a) Ablativus Qualitatis",
@@ -59,11 +59,24 @@
     {
       "id": "vi-abl2-story", "type": "reading-comprehension", "title": "Vir Magna Eloquentia",
       "instructions": "Lege, deinde responde.",
-      "passage": "<p>&ldquo;Cicerō fuit vir magnā ēloquentiā,&rdquo; dīcit magister, &ldquo;nōbilī familiā ortus, quī librōs parvō pretiō numquam vendidit — semper multō māiōre pretiō quam cēterī ōrātōrēs suī temporis. Paulō ante mortem suam, ultimam ōrātiōnem scrīpsit.&rdquo;</p>",
+      "passage": "<p>&ldquo;Cicerō fuit vir magnā ēloquentiā,&rdquo; dīcit magister Mārcō, &ldquo;nōbilī familiā ortus, quī librōs parvō pretiō numquam vendidit — semper multō māiōre pretiō quam cēterī ōrātōrēs suī temporis.&rdquo; &ldquo;Quantō māior fuit quam cēterī?&rdquo; rogat Mārcus. &ldquo;Multō māior,&rdquo; respondet magister, &ldquo;nam paucī ōrātōrēs eius aetātis tantā ēloquentiā fuērunt.&rdquo; Mārcus rīdet: &ldquo;Et Rōmulus? Nōnne ille Marte nātus dīcēbātur?&rdquo; &ldquo;Ita,&rdquo; respondet magister, &ldquo;sed Cicerō, nōbilī familiā ortus, glōriam suam nōn ā deīs, sed ā verbīs suīs, accēpit. Paulō ante mortem suam, ultimam ōrātiōnem scrīpsit.&rdquo;</p>",
       "items": [
         { "id": "abl2-story1", "prompt": "Qualis vir fuit Cicero, secundum magistrum?", "options": ["vir magna eloquentia", "vir parvae sapientiae", "vir ignotus"], "answerIndex": 0, "explanation": "'Cicero fuit vir magna eloquentia.'" },
         { "id": "abl2-story2", "prompt": "Vendebatne Cicero libros suos parvo pretio?", "options": ["numquam — semper multo maiore", "ita, semper parvo", "libros numquam vendidit"], "answerIndex": 0, "explanation": "'Parvo pretio numquam vendidit — semper multo maiore.'" },
-        { "id": "abl2-story3", "prompt": "Quando Cicero ultimam orationem scripsit?", "options": ["paulo ante mortem suam", "in iuventute sua", "numquam scripsit"], "answerIndex": 0, "explanation": "'Paulo ante mortem suam, ultimam orationem scripsit.'" }
+        { "id": "abl2-story3", "prompt": "Quomodo, secundum traditionem, Romulus natus dicebatur?", "options": ["Marte natus", "humili familia ortus", "nullo patre natus"], "answerIndex": 0, "explanation": "'Nonne ille Marte natus dicebatur?' — ablativus originis." },
+        { "id": "abl2-story4", "prompt": "Quando Cicero ultimam orationem scripsit?", "options": ["paulo ante mortem suam", "in iuventute sua", "numquam scripsit"], "answerIndex": 0, "explanation": "'Paulo ante mortem suam, ultimam orationem scripsit.'" }
+      ]
+    },
+    {
+      "id": "vi-abl2-match", "type": "matching", "title": "Iunge Phrasim cum Usu Ablativi",
+      "instructions": "Iunge quamque phrasim ex colloquio cum usu ablativi suo.",
+      "items": [
+        { "id": "abl2-match1", "pairs": [
+          { "left": "magna eloquentia", "right": "ablativus qualitatis" },
+          { "left": "parvo pretio", "right": "ablativus pretii" },
+          { "left": "multo maior", "right": "ablativus mensurae" },
+          { "left": "nobili familia ortus", "right": "ablativus originis" }
+        ], "explanation": "Quattuor usus ablativi provectiores, omnes exemplificati in colloquio magistri et Marci." }
       ]
     },
     {
