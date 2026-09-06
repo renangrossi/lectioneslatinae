@@ -82,6 +82,28 @@
         { "id": "impobl4", "prompt": "Te oro ut me ___. (help — adiuves)", "options": ["adiuvas", "adiuves", "adiuvabis"], "answers": ["adiuves"], "explanation": "Coniunctivus praesens: adiuvēs." },
         { "id": "impobl5", "prompt": "Caesar militibus persuasit ut ___. (would fight — pugnarent)", "options": ["pugnant", "pugnarent", "pugnabant"], "answers": ["pugnarent"], "explanation": "Sequentia historica: imperfectum." }
       ]
+    },
+    {
+      "id": "iv-impobl-fill2", "type": "fill-blank", "title": "Amplius Comple Imperativum Obliquum",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "impobl6", "prompt": "Magister discipulis imperat ut ___. (be quiet — taceant)", "options": ["tacent", "taceant", "tacebant"], "answers": ["taceant"], "explanation": "Coniunctivus praesens post verbum principale praesens." },
+        { "id": "impobl7", "prompt": "Matrem monui nē ___. (would fear — timeret)", "options": ["timet", "timeret", "timebit"], "answers": ["timeret"], "explanation": "Sequentia historica: imperfectum post praeteritum." }
+      ]
+    },
+    {
+      "id": "iv-impobl-mc2", "type": "multiple-choice", "title": "Amplius Regulae",
+      "items": [
+        { "id": "impobl8", "prompt": "Quo casu regitur persona post 'impero'?", "options": ["dativo", "accusativo", "genetivo"], "answerIndex": 0, "explanation": "Impero regit dativum personae." },
+        { "id": "impobl9", "prompt": "'Petimus ab eo ne discedat' — 'ab eo' indicat:", "options": ["personam a qua petitur, ablativo cum praepositione", "obiectum directum", "possessorem"], "answerIndex": 0, "explanation": "Peto/oro/rogo regunt personam per ab + ablativo." }
+      ]
+    },
+    {
+      "id": "iv-impobl-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "impobl10", "statement": "Verbum 'peto' regit personam per 'ab' + ablativo.", "answer": true, "explanation": "Petō/ōrō/rogō pattern: ab + abl. persōnae." },
+        { "id": "impobl11", "statement": "'Iubeo' construitur cum ut + coniunctivo, sicut 'impero'.", "answer": false, "explanation": "Iubeo est exceptio, regens accusativum cum infinitivo." }
+      ]
     }
   ],
   "summary": [

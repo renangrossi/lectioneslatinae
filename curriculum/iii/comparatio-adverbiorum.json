@@ -82,6 +82,12 @@
           { "left": "fortiter", "right": "fortius" }
         ], "explanation": "Comparatio adverbiorum reflectit exactamente comparationem adiectivorum." }
       ]
+    },
+    {
+      "id": "iii-compadv-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "compadv5", "statement": "Superlativus adverbii 'multum' est 'plūrimum'.", "answer": true, "explanation": "multum → plūs → plūrimum (irregulare)." }
+      ]
     }
   ],
   "summary": [

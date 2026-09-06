@@ -78,6 +78,12 @@
         { "id": "partp4", "prompt": "Liber ___ in mensa est. (written, m. — scriptus)", "options": ["scriptus", "scripta", "scriptum"], "answers": ["scriptus"], "explanation": "Concordantia masculina: scriptus." },
         { "id": "partp5", "prompt": "Verba ___ non possunt revocari. (spoken, n. pl. — dicta)", "options": ["dictus", "dicta", "dicti"], "answers": ["dicta"], "explanation": "Regula neutra: plurale -a." }
       ]
+    },
+    {
+      "id": "iv-partperf-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "partp6", "statement": "Participium perfectum passivum semper indicat actionem simultaneam cum verbo principali.", "answer": false, "explanation": "Indicat semper anterioritatem, non simultaneitatem." }
+      ]
     }
   ],
   "summary": [

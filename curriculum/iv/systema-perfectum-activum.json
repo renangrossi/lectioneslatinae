@@ -80,6 +80,12 @@
         { "id": "perf6", "prompt": "Caesar Galliam ___. (conquered — vicit, vincere)", "options": ["vincit", "vincebat", "vicit"], "answers": ["vicit"], "explanation": "Perfectum 3a persona sg: vīcit." },
         { "id": "perf7", "prompt": "Nos multa ___. (we have seen — vidimus, videre)", "options": ["videmus", "videbamus", "vidimus"], "answers": ["vidimus"], "explanation": "Perfectum: vīdimus (u-perfectum: videō → vīdī)." }
       ]
+    },
+    {
+      "id": "iv-perf-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "perf8", "statement": "Desinentia tertiae personae pluralis perfecti est '-ērunt'.", "answer": true, "explanation": "amāvērunt, vīcērunt — desinentia universalis 3a pl. perfecti." }
+      ]
     }
   ],
   "summary": [

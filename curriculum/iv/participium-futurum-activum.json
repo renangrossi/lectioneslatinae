@@ -81,6 +81,12 @@
       "items": [
         { "id": "partf4", "prompt": "Nautae ___ sunt. (about to sail — navigaturi, navigare, supinum navigatum)", "options": ["navigantes", "navigaturi", "navigati"], "answers": ["navigaturi"], "explanation": "Participium futurum plurale masc.: nāvigātūrī." }
       ]
+    },
+    {
+      "id": "iv-partfut-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "partf5", "statement": "Participium futurum activum formatur ex radice supini.", "answer": true, "explanation": "Radix supini (quarta forma principalis) + -ūrus." }
+      ]
     }
   ],
   "summary": [

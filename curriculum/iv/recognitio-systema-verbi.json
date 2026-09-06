@@ -97,6 +97,12 @@
           { "left": "amāns", "right": "participium praesens activum" }
         ], "explanation": "Recognitio integra systematis verbi Latini, colligens omnia elementa Gradus II-IV." }
       ]
+    },
+    {
+      "id": "iv-recog-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "recog9", "statement": "Systema perfectum passivum est semper constructio periphrastica (participium + sum).", "answer": true, "explanation": "Perfectum/plusquamperfectum/futurum perfectum passivum semper utuntur participio + sum." }
+      ]
     }
   ],
   "summary": [
