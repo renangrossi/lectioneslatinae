@@ -82,6 +82,27 @@
         { "id": "ablabs4", "prompt": "___ dictis, discessit. (These things — his)", "options": ["Hi", "His", "Haec"], "answers": ["His"], "explanation": "Ablativus plurale neutrum: hīs." },
         { "id": "ablabs5", "prompt": "Hostibus ___, pax facta est. (having been defeated — victis)", "options": ["vincentes", "victis", "victuri"], "answers": ["victis"], "explanation": "Participium perfectum passivum, ablativo plurale." }
       ]
+    },
+    {
+      "id": "iv-ablabs-fill2", "type": "fill-blank", "title": "Amplius Comple Ablativum Absolutum",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "ablabs6", "prompt": "___ imperante, castra posuimus. (duce)", "options": ["Duce", "Ducem", "Duci"], "answers": ["Duce"], "explanation": "Ablativus singulare: duce." },
+        { "id": "ablabs7", "prompt": "Caesare ___, Romani vicerunt. (as leader, no participle — duce)", "options": ["duce", "ducens", "ducente"], "answers": ["duce"], "explanation": "Sine participio: duo nomina, ambo ablativo." }
+      ]
+    },
+    {
+      "id": "iv-ablabs-mc2", "type": "multiple-choice", "title": "Amplius Regulae",
+      "items": [
+        { "id": "ablabs8", "prompt": "Ablativus absolutus subiectum non debet:", "options": ["coincidere cum subiecto/obiecto clausulae principalis", "esse in ablativo", "habere participium"], "answerIndex": 0, "explanation": "Regula centralis huius lectionis." },
+        { "id": "ablabs9", "prompt": "'Vivo patre' significat:", "options": ["while father was alive", "father having died", "if father lives"], "answerIndex": 0, "explanation": "Nomen + adiectivum, ambo ablativo, sine verbo." }
+      ]
+    },
+    {
+      "id": "iv-ablabs-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "ablabs10", "statement": "Ablativus absolutus potest verti temporaliter, causaliter, condicionaliter vel concessive.", "answer": true, "explanation": "Omnes hae versiones sunt possibiles secundum contextum." }
+      ]
     }
   ],
   "summary": [

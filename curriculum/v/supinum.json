@@ -82,6 +82,21 @@
         { "id": "sup4", "prompt": "Legatos pacem ___ misit. (to seek — petitum)", "options": ["petere", "petitum", "petens"], "answers": ["petitum"], "explanation": "Supinum post verbum mittendi/motus." },
         { "id": "sup5", "prompt": "Hoc facile ___ est. (to say — dictu)", "options": ["dicere", "dictum", "dictu"], "answers": ["dictu"], "explanation": "Supinum ablativum, cum adiectivo 'facile'." }
       ]
+    },
+    {
+      "id": "v-sup-fill2", "type": "fill-blank", "title": "Amplius Comple cum Supino",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "sup6", "prompt": "Venatum in silvas ___. (they went — ierunt)", "options": ["ierunt", "eunt", "ibunt"], "answers": ["ierunt"], "explanation": "Perfectum: venatum (supinum) + ierunt." },
+        { "id": "sup7", "prompt": "Hoc ___ difficile est. (to do — factu)", "options": ["facere", "factum", "factu"], "answers": ["factu"], "explanation": "Supinum ablativum, cum adiectivo 'difficile'." }
+      ]
+    },
+    {
+      "id": "v-sup-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "sup8", "statement": "Supinum in -u exprimit propositum post verba motus.", "answer": false, "explanation": "Propositum post verba motus est functio de supino in -um; supinum in -u exprimit respectum cum adiectivis." },
+        { "id": "sup9", "statement": "Supinum est forma defectiva, cum solum duobus casibus.", "answer": true, "explanation": "Solum accusativus (-um) et ablativus (-ū) exsistunt." }
+      ]
     }
   ],
   "summary": [
