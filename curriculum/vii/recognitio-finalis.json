@@ -74,6 +74,38 @@
           { "left": "Seneca", "right": "philosophia stoica (epistulae)" }
         ], "explanation": "Septem auctores, septem genera, unum cursum completum." }
       ]
+    },
+    {
+      "id": "vii-fin-fill", "type": "fill-blank", "title": "Comple cum Verbis Senecae",
+      "instructions": "Elige formam rectam secundum textum.",
+      "items": [
+        { "id": "fin5", "prompt": "___ tē tibi. (Claim — Vindica)", "options": ["Vindica", "Vindicas", "Vindicare"], "answers": ["Vindica"], "explanation": "Imperativus." },
+        { "id": "fin6", "prompt": "Tempus quod adhūc aut auferēbātur aut subripiēbātur aut ___. (was slipping away — excidebat)", "options": ["excidebat", "excidit", "excidere"], "answers": ["excidebat"], "explanation": "Imperfectum, tricolon verborum synonymorum." },
+        { "id": "fin7", "prompt": "Turpissima tamen est ___ quae per neglegentiam fit. (loss — iactura)", "options": ["iactura", "iacturam", "iacturae"], "answers": ["iactura"], "explanation": "Nominativus, subiectum." },
+        { "id": "fin8", "prompt": "Magna pars vitae ___ male agentibus. (slips away — elabitur)", "options": ["elabitur", "elapsa est", "elabi"], "answers": ["elabitur"], "explanation": "Deponens, praesens indicativum." },
+        { "id": "fin9", "prompt": "Seneca fuit praeceptor ___ imperātōris. (of Nero — Neronis)", "options": ["Neronis", "Nero", "Neroni"], "answers": ["Neronis"], "explanation": "Genetivus." },
+        { "id": "fin10", "prompt": "Seneca scrīpsit Epistulās Mōrālēs ad ___. (Lucilius)", "options": ["Lucilium", "Lucilius", "Lucilio"], "answers": ["Lucilium"], "explanation": "Accusativus, destinatarius epistularum." }
+      ]
+    },
+    {
+      "id": "vii-fin-mc", "type": "multiple-choice", "title": "Amplius de Seneca et Recognitione",
+      "items": [
+        { "id": "fin11", "prompt": "'Vindica te tibi' est idioma stoicum significans:", "options": ["claim yourself for yourself", "give yourself to others", "forget yourself"], "answerIndex": 0, "explanation": "Idioma stoicum centrale." },
+        { "id": "fin12", "prompt": "'Elabor' est verbum:", "options": ["deponens", "activum regulare", "irregulare defectivum"], "answerIndex": 0, "explanation": "Forma passiva, significatio activa." },
+        { "id": "fin13", "prompt": "Climax finalis 'magna...maxima...tota vita' progreditur:", "options": ["in gradu crescente", "in gradu decrescente", "sine ordine"], "answerIndex": 0, "explanation": "Intensificatio progressiva." },
+        { "id": "fin14", "prompt": "Seneca vixit:", "options": ["c. 4 a.C.n. - 65 p.C.n.", "100-44 a.C.n.", "43 a.C.n.-17/18 p.C.n."], "answerIndex": 0, "explanation": "Datae biographicae." },
+        { "id": "fin15", "prompt": "Gradus VII tē praeparāvit prō:", "options": ["lectione libera authentica futura, non fine studiorum", "fine completo studiorum Latinorum", "solum examine finali"], "answerIndex": 0, "explanation": "Fundamentum, non finis itineris." },
+        { "id": "fin16", "prompt": "Auctores recommendati pro continuatione studiorum includunt:", "options": ["Livium, Tacitum, Horatium", "solum auctores medii aevi", "nullos, cursus est completus"], "answerIndex": 0, "explanation": "Proximi passus post hunc cursum." }
+      ]
+    },
+    {
+      "id": "vii-fin-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "fin17", "statement": "Textus Senecae hic est lectus sine glossario extenso, applicando scientiam iam collectam.", "answer": true, "explanation": "Ultimus textus novus, sine adaptatione." },
+        { "id": "fin18", "statement": "Vocabulum unicum ignotum semper impedit comprehensionem generalem totius periodi.", "answer": false, "explanation": "Capacitas inferendi sensum ex contextu compensat." },
+        { "id": "fin19", "statement": "Seneca fuit philosophus stoicus.", "answer": true, "explanation": "Praeceptor Neronis, tractatus stoici." },
+        { "id": "fin20", "statement": "Iactura per neglegentiam est, secundum Senecam, minus turpis quam alia genera perditionis.", "answer": false, "explanation": "'Turpissima...est iactura quae per neglegentiam fit' — maxime turpis." }
+      ]
     }
   ],
   "summary": [

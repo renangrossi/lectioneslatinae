@@ -69,6 +69,39 @@
         { "id": "ovid4", "prompt": "'Fert animus' idiomatice significat:", "options": ["the spirit physically carries something", "I am inclined/moved to..."], "answerIndex": 1, "explanation": "Idioma fixum poeticum." },
         { "id": "ovid5", "prompt": "'Mutastis' est forma syncopata pro:", "options": ["mutavistis", "mutabitis", "mutaretis"], "answerIndex": 0, "explanation": "Perfectum contractum, frequens in poesi." }
       ]
+    },
+    {
+      "id": "vii-ovid-fill", "type": "fill-blank", "title": "Comple cum Verbis Ovidii",
+      "instructions": "Elige formam rectam secundum textum.",
+      "items": [
+        { "id": "ovid6", "prompt": "In nova ___ animus mūtātās dīcere fōrmās. (moves — fert)", "options": ["fert", "fero", "ferre"], "answers": ["fert"], "explanation": "Idioma poeticum: fert animus." },
+        { "id": "ovid7", "prompt": "Dī, coeptīs ___ meīs. (breathe favor — adspirate)", "options": ["adspirate", "adspirare", "adspiravi"], "answers": ["adspirate"], "explanation": "Imperativus, invocatio ad deos." },
+        { "id": "ovid8", "prompt": "Ad mea perpetuum dēdūcite tempora ___. (song — carmen)", "options": ["carmen", "carminis", "carmina"], "answers": ["carmen"], "explanation": "Accusativus, obiectum directum." },
+        { "id": "ovid9", "prompt": "Nam vōs ___ et illās. (you changed — mutastis)", "options": ["mutastis", "mutatis", "mutabitis"], "answers": ["mutastis"], "explanation": "Syncope pro mutavistis." },
+        { "id": "ovid10", "prompt": "___ mūtātās dīcere fōrmās corpora. (new — nova)", "options": ["nova", "novas", "novae"], "answers": ["nova"], "explanation": "Neutrum plurale, hyperbaton cum corpora." },
+        { "id": "ovid11", "prompt": "Ovidius scrīpsit Metamorphōsēs, quīndecim ___. (books — libri)", "options": ["libri", "librorum", "libros"], "answers": ["libri"], "explanation": "Nominativus plurale." }
+      ]
+    },
+    {
+      "id": "vii-ovid-mc2", "type": "multiple-choice", "title": "Amplius de Ovidio",
+      "items": [
+        { "id": "ovid12", "prompt": "'Fert animus' est constructio:", "options": ["idioma poeticum fixum", "error grammaticus", "ablativus absolutus"], "answerIndex": 0, "explanation": "'I am inclined/moved to...'" },
+        { "id": "ovid13", "prompt": "Merisma 'ab orīgine mundī ad mea tempora' indicat:", "options": ["totalitatem temporis per extrema indicata", "solum praesens", "solum praeteritum"], "answerIndex": 0, "explanation": "Figura: ab X ad Y = totum." },
+        { "id": "ovid14", "prompt": "Ovidius vixit:", "options": ["43 a.C.n. - 17/18 p.C.n.", "100-44 a.C.n.", "84-54 a.C.n."], "answerIndex": 0, "explanation": "Datae biographicae." },
+        { "id": "ovid15", "prompt": "Metamorphoses tractant de:", "options": ["mutationibus formarum, mythologia", "bello civili", "rhetorica"], "answerIndex": 0, "explanation": "Epos mythologicum." },
+        { "id": "ovid16", "prompt": "'Adspirate' est:", "options": ["imperativus, invocatio ad deos", "indicativus", "infinitivus"], "answerIndex": 0, "explanation": "Imperativus secundae personae pluralis." },
+        { "id": "ovid17", "prompt": "Hyperbaton in 'fōrmās...corpora' significat:", "options": ["separationem deliberatam verborum grammatice coniunctorum", "errorem scribae", "ablativum absolutum"], "answerIndex": 0, "explanation": "Instrumentum stilisticum poeticum." }
+      ]
+    },
+    {
+      "id": "vii-ovid-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "ovid18", "statement": "'Fert animus' significat litteraliter 'the spirit physically carries'.", "answer": false, "explanation": "Est idioma: 'I am inclined to...'" },
+        { "id": "ovid19", "statement": "Syncope perfecti (-avistis → -astis) est frequens in poesi, favente metro.", "answer": true, "explanation": "Forma breviore pro metro." },
+        { "id": "ovid20", "statement": "Ovidius invocat Musas, non deos generales, in his versibus.", "answer": false, "explanation": "Invocat 'di' (the gods), generaliter." },
+        { "id": "ovid21", "statement": "Metamorphoses habent quindecim libros.", "answer": true, "explanation": "Opus completum." },
+        { "id": "ovid22", "statement": "Hi versus praeparant discipulum pro lectione metrica plena (lectio proxima).", "answer": true, "explanation": "Praeparatio directa pro prosodia." }
+      ]
     }
   ],
   "summary": [

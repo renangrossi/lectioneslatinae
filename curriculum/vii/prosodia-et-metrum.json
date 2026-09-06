@@ -83,6 +83,36 @@
         { "id": "metr5", "prompt": "Metrum quantitativum sequitur ___, non accentum tonicum. (quantity — quantitatem)", "options": ["accentum", "quantitatem", "numerum verborum"], "answers": ["quantitatem"], "explanation": "Fundamentum metri classici." },
         { "id": "metr6", "prompt": "Pes quintus hexametri est fere semper ___. (dactylus)", "options": ["spondeus", "dactylus", "trochaeus"], "answers": ["dactylus"], "explanation": "Regula standard hexametri classici." }
       ]
+    },
+    {
+      "id": "vii-metr-fill2", "type": "fill-blank", "title": "Amplius de Prosodia",
+      "instructions": "Elige responsum rectum.",
+      "items": [
+        { "id": "metr7", "prompt": "Spondēus consistit ex duabus syllabis ___. (long — longis)", "options": ["longis", "brevibus", "mixtis"], "answers": ["longis"], "explanation": "— —, duae longae." },
+        { "id": "metr8", "prompt": "___ est pausa naturalis intra pedem. (Caesura)", "options": ["Caesura", "Elisio", "Synizesis"], "answers": ["Caesura"], "explanation": "Distincta ab elisione." },
+        { "id": "metr9", "prompt": "'Omnia vincit amor' habet clausulam frequentem cum ___ finali. (spondee)", "options": ["spondeo", "dactylo", "trochaeo"], "answers": ["spondeo"], "explanation": "Clausula versus frequens." },
+        { "id": "metr10", "prompt": "Numerus syllabarum in versu manet consistens propter regulam ___. (elision)", "options": ["elisionis", "accentus", "rimae"], "answers": ["elisionis"], "explanation": "Vocalis final elisa ante vocalem sequentem." },
+        { "id": "metr11", "prompt": "Caesura frequentissima locus est in pede ___. (third — tertio)", "options": ["tertio", "primo", "sexto"], "answers": ["tertio"], "explanation": "Caesura penthemimeris." }
+      ]
+    },
+    {
+      "id": "vii-metr-mc2", "type": "multiple-choice", "title": "Amplius de Metro",
+      "items": [
+        { "id": "metr12", "prompt": "Pedes 1-4 hexametri possunt esse:", "options": ["dactylus vel spondeus, variabile", "semper dactylus", "semper spondeus"], "answerIndex": 0, "explanation": "Variatio permissa in primis quattuor pedibus." },
+        { "id": "metr13", "prompt": "Caesura penthemimeris locatur:", "options": ["in pede tertio", "in pede primo", "in pede sexto"], "answerIndex": 0, "explanation": "Locus frequentissimus." },
+        { "id": "metr14", "prompt": "Metrum classicum Latinum est fundatum super:", "options": ["quantitatem syllabarum (longa/brevis)", "accentum tonicum solum", "rimam finalem"], "answerIndex": 0, "explanation": "Distinctio ab poesi moderna." },
+        { "id": "metr15", "prompt": "'Tityre, tu patulae recubans sub tegmine fagi' est primus versus:", "options": ["Eclogarum Vergilii", "Aeneidos", "Metamorphoseon"], "answerIndex": 0, "explanation": "Alius exemplum hexametri Vergiliani." },
+        { "id": "metr16", "prompt": "Hexameter dactylicus est metrum:", "options": ["epicum", "lyricum solum", "elegiacum solum"], "answerIndex": 0, "explanation": "Vergilius, Ovidius." }
+      ]
+    },
+    {
+      "id": "vii-metr-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "metr17", "statement": "Metrum Latinum classicum sequitur rimam finalem, sicut poesis moderna.", "answer": false, "explanation": "Sequitur quantitatem, non rimam." },
+        { "id": "metr18", "statement": "Pes sextus hexametri potest esse dactylus plenus.", "answer": false, "explanation": "Semper duae syllabae tantum." },
+        { "id": "metr19", "statement": "Elisio applicatur quando verbum in vocalem desinit et sequens verbum incipit in vocali.", "answer": true, "explanation": "Regula fundamentalis scansionis." },
+        { "id": "metr20", "statement": "Caesura est pausa inter pedes, non intra pedem.", "answer": false, "explanation": "Caesura est intra pedem, per definitionem." }
+      ]
     }
   ],
   "summary": [

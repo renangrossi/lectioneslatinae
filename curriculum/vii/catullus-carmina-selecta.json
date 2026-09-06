@@ -70,6 +70,41 @@
         { "id": "cat5", "prompt": "'Odi et amo' est exemplum figurae:", "options": ["hyperboles", "asyndeti (sine coniunctione expectata)", "anaphorae"], "answerIndex": 1, "explanation": "Duo verba iuxtaposita, sine 'sed' explicito." },
         { "id": "cat6", "prompt": "Carmen 5 est scriptum in metro:", "options": ["hexametro dactylico", "hendecasyllabis"], "answerIndex": 1, "explanation": "Versus undecim syllabarum, metrum favoritum Catulli pro carminibus brevibus." }
       ]
+    },
+    {
+      "id": "vii-cat-fill", "type": "fill-blank", "title": "Comple cum Verbis Catulli",
+      "instructions": "Elige formam rectam secundum textum.",
+      "items": [
+        { "id": "cat7", "prompt": "___ mea Lesbia, atque amēmus. (Let us live — Vivamus)", "options": ["Vivamus", "Vivimus", "Vivemus"], "answers": ["Vivamus"], "explanation": "Hortativus, coniunctivus praesens." },
+        { "id": "cat8", "prompt": "Rūmōrēs senum sevēriōrum omnēs ūnius ___ aestimēmus. (a penny — assis)", "options": ["as", "assis", "asse"], "answers": ["assis"], "explanation": "Genetivus pretii minimi." },
+        { "id": "cat9", "prompt": "Sōlēs occidere et ___ possunt. (to return — redire)", "options": ["redire", "reditus", "redeunt"], "answers": ["redire"], "explanation": "Infinitivus post 'possunt'." },
+        { "id": "cat10", "prompt": "Nōbīs cum semel occidit brevis ___. (light — lux)", "options": ["lux", "lucem", "lucis"], "answers": ["lux"], "explanation": "Nominativus, subiectum." },
+        { "id": "cat11", "prompt": "Nox est perpetua ūna ___. (to be slept — dormienda)", "options": ["dormienda", "dormita", "dormiens"], "answers": ["dormienda"], "explanation": "Gerundivum, coniugatio periphrastica passiva." },
+        { "id": "cat12", "prompt": "___ et amō. (I hate — Odi)", "options": ["Odi", "Odio", "Odero"], "answers": ["Odi"], "explanation": "Perfectum cum vi praesenti, verbum defectivum." }
+      ]
+    },
+    {
+      "id": "vii-cat-mc2", "type": "multiple-choice", "title": "Amplius de Catullo",
+      "items": [
+        { "id": "cat13", "prompt": "'Vivamus atque amemus' est exemplum:", "options": ["hortativus geminatus, pro emphasi", "imperativus obliquus", "interrogatio rhetorica"], "answerIndex": 0, "explanation": "Duo hortativi coniuncti pro intensitate." },
+        { "id": "cat14", "prompt": "'Nescio, sed fieri sentiō' exprimit:", "options": ["antithesim (cognitio vs. sensus)", "causam simplicem", "interrogationem"], "answerIndex": 0, "explanation": "Contrastum inter 'nescire' et 'sentire'." },
+        { "id": "cat15", "prompt": "'Ūnius assis aestimāre' idiomatice significat:", "options": ["to value at a single penny (not to care at all)", "to buy for a penny", "to be worth a fortune"], "answerIndex": 0, "explanation": "Genetivus pretii minimi, idioma." },
+        { "id": "cat16", "prompt": "Catullus fuit poeta:", "options": ["Veronensis", "Romanus natus", "Graecus"], "answerIndex": 0, "explanation": "Natus Veronae." },
+        { "id": "cat17", "prompt": "'Lesbia' est nōmen:", "options": ["fictum, pro amica vera (probabiliter Clodia)", "verum et historicum sine dubio", "dei"], "answerIndex": 0, "explanation": "Pseudonymum poeticum." },
+        { "id": "cat18", "prompt": "Distichon elegiacum (Carmen 85) combinat:", "options": ["hexametrum + pentametrum", "duos hexametros", "duos pentametros"], "answerIndex": 0, "explanation": "Metrum classicum elegiacum." },
+        { "id": "cat19", "prompt": "'Quare id faciam' est:", "options": ["interrogatio obliqua, coniunctivus deliberativus", "interrogatio directa, indicativus", "imperativus"], "answerIndex": 0, "explanation": "Coniunctivus deliberativus intra interrogatione." }
+      ]
+    },
+    {
+      "id": "vii-cat-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "cat20", "statement": "'Occidere' in hoc contextu significat 'to kill'.", "answer": false, "explanation": "Est occidō, -ere: 'to set/fall' (de sole), falsus amicus cum occīdō." },
+        { "id": "cat21", "statement": "Carmen 5 est scriptum in hendecasyllabis.", "answer": true, "explanation": "Metrum favoritum Catulli." },
+        { "id": "cat22", "statement": "Catullus scripsit carmina longa et impersonalia.", "answer": false, "explanation": "Scripsit carmina brevia, intense personalia." },
+        { "id": "cat23", "statement": "Asyndeton est absentia coniunctionis expectatae, pro effectu stilistico.", "answer": true, "explanation": "Instrumentum rhetoricum deliberatum." },
+        { "id": "cat24", "statement": "'Odi et amo' exprimit conflictum emotionale intensum in duobus verbis tantum.", "answer": true, "explanation": "Brevitas extrema est ipsa pars significationis." },
+        { "id": "cat25", "statement": "Textus lecti in hac lectione sunt adaptati, non authentici.", "answer": false, "explanation": "Sunt authentici, verificati contra thelatinlibrary.com." }
+      ]
     }
   ],
   "summary": [
