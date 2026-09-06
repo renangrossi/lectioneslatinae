@@ -92,6 +92,34 @@
         { "id": "c3-11", "prompt": "mittit / epistulam / Iulia", "words": ["Iulia", "epistulam", "mittit"], "explanation": "Subiectum + obiectum + verbum." },
         { "id": "c3-12", "prompt": "urbem / capiunt / Romani", "words": ["Romani", "urbem", "capiunt"], "explanation": "Subiectum + obiectum + verbum mixtum." }
       ]
+    },
+    {
+      "id": "ii-con3-fill2", "type": "fill-blank", "title": "Amplius Coniuga Verba Tertiae",
+      "instructions": "Comple cum forma recta.",
+      "items": [
+        { "id": "c3-13", "prompt": "Vos librum ___. (you all read)", "options": ["legitis", "legimus", "legunt"], "answers": ["legitis"], "explanation": "2a persona pluralis: legitis." },
+        { "id": "c3-14", "prompt": "Ego ex urbe ___. (I flee — mixtum)", "options": ["fugio", "fugis", "fugit"], "answers": ["fugio"], "explanation": "1a persona singularis, verbum mixtum: fugio." },
+        { "id": "c3-15", "prompt": "Milites tela ___. (they throw)", "options": ["iacit", "iaciunt", "iacimus"], "answers": ["iaciunt"], "explanation": "3a persona pluralis, verbum mixtum: iaciunt." },
+        { "id": "c3-16", "prompt": "Rex populum ___. (rules)", "options": ["rego", "regis", "regit"], "answers": ["regit"], "explanation": "3a persona singularis: regit." }
+      ]
+    },
+    {
+      "id": "ii-con3-mc2", "type": "multiple-choice", "title": "Amplius de Coniugatione Tertia",
+      "items": [
+        { "id": "c3-17", "prompt": "'Vincunt' significat:", "options": ["I conquer", "you conquer", "they conquer"], "answerIndex": 2, "explanation": "3a persona pluralis: they conquer." },
+        { "id": "c3-18", "prompt": "Quod verbum significat 'to seek'?", "options": ["peto", "pono", "paro"], "answerIndex": 0, "explanation": "Peto = to seek." },
+        { "id": "c3-19", "prompt": "Vocalis thematica ante '-unt' in coniugatione tertia (non mixta) est:", "options": ["u breve", "i longum", "a"], "answerIndex": 0, "explanation": "mittunt: u breve." },
+        { "id": "c3-20", "prompt": "'Agimus' significat:", "options": ["I do/drive", "we do/drive", "they do/drive"], "answerIndex": 1, "explanation": "1a persona pluralis: we do/drive." }
+      ]
+    },
+    {
+      "id": "ii-con3-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "c3-21", "statement": "Coniugatio tertia est maxima numero verborum totius linguae Latinae.", "answer": true, "explanation": "Continet plurima verba." },
+        { "id": "c3-22", "statement": "Verba mixta habent primam personam in '-iō', sicut quarta coniugatio.", "answer": true, "explanation": "Capiō, faciō, fugiō, iaciō." },
+        { "id": "c3-23", "statement": "'Capiunt' scribitur sine 'i' ante '-unt'.", "answer": false, "explanation": "Verba mixta retinent 'i': capiunt." },
+        { "id": "c3-24", "statement": "Accentus verbi 'mittere' cadit in ultima syllaba.", "answer": false, "explanation": "Cadit in antepaenultima: MIT-te-re." }
+      ]
     }
   ],
   "summary": [

@@ -89,6 +89,38 @@
         { "id": "abl7", "prompt": "___ ex urbe fugiunt. (at night — nocte)", "options": ["Noctem", "Nocte", "Noctis"], "answers": ["Nocte"], "explanation": "Ablativus temporis quo." },
         { "id": "abl8", "prompt": "Leō fortior ___ est. (than the dog — cane)", "options": ["canis", "canem", "cane"], "answers": ["cane"], "explanation": "Ablativus comparationis." }
       ]
+    },
+    {
+      "id": "ii-abl-fill2", "type": "fill-blank", "title": "Amplius Comple cum Ablativo",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "abl9", "prompt": "___ videmus. (with our eyes)", "options": ["oculis", "oculos", "oculorum"], "answers": ["oculis"], "explanation": "Ablativus instrumenti." },
+        { "id": "abl10", "prompt": "___ Roma discedit. (from Rome)", "options": ["A", "In", "Ad"], "answers": ["A"], "explanation": "Ablativus loci unde, cum praepositione." },
+        { "id": "abl11", "prompt": "Magna ___ laborat. (with care, sine 'cum')", "options": ["cura", "curam", "curae"], "answers": ["cura"], "explanation": "Ablativus modi, cum adiectivo." },
+        { "id": "abl12", "prompt": "___ veniet. (within five days)", "options": ["Quinque diebus", "Quinque dies", "Quinque dierum"], "answers": ["Quinque diebus"], "explanation": "Ablativus temporis quo." },
+        { "id": "abl13", "prompt": "Hiems frigidior ___ est. (than summer)", "options": ["aestate", "aestatem", "aestatis"], "answers": ["aestate"], "explanation": "Ablativus comparationis." }
+      ]
+    },
+    {
+      "id": "ii-abl-mc2", "type": "multiple-choice", "title": "Amplius de Ablativo",
+      "items": [
+        { "id": "abl14", "prompt": "'Cum' manet ante ablativum modi quando:", "options": ["nullum adiectivum praesens est", "semper adest adiectivum", "numquam necessarium est"], "answerIndex": 0, "explanation": "Sine adiectivo, cum plerumque manet." },
+        { "id": "abl15", "prompt": "Ablativus loci unde adhibetur cum praepositionibus:", "options": ["ab/a, de, ex/e", "ad, in, per", "cum, sine, pro"], "answerIndex": 0, "explanation": "Praepositiones separationis." },
+        { "id": "abl16", "prompt": "'Oculis videmus' — 'oculis' exprimit:", "options": ["instrumentum", "tempus", "comparationem"], "answerIndex": 0, "explanation": "Ablativus instrumenti." },
+        { "id": "abl17", "prompt": "Ablativus, secundum etymologiam, cumulat:", "options": ["tres casus antiquos", "duos casus tantum", "quattuor casus"], "answerIndex": 0, "explanation": "Nomen venit ab 'auferre', cumulans tres casus antiquos." },
+        { "id": "abl18", "prompt": "Comparatio 'quam + nominativus' potest substitui ab:", "options": ["ablativo solo", "genetivo solo", "dativo solo"], "answerIndex": 0, "explanation": "Ablativus comparationis." },
+        { "id": "abl19", "prompt": "'Domi dormit' significat:", "options": ["He sleeps at home", "He sleeps for a house", "He sleeps without a house"], "answerIndex": 0, "explanation": "Locativus domi = at home." }
+      ]
+    },
+    {
+      "id": "ii-abl-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "abl20", "statement": "Ablativus instrumenti adhibetur cum praepositione 'cum'.", "answer": false, "explanation": "Ablativus instrumenti est sine 'cum'." },
+        { "id": "abl21", "statement": "Ablativus temporis differt ab accusativo durationis.", "answer": true, "explanation": "Ablativus = within/at; accusativus = for how long." },
+        { "id": "abl22", "statement": "Ablativus est casus maxime versatilis Latinae.", "answer": true, "explanation": "Cumulat multos usus diversos." },
+        { "id": "abl23", "statement": "'Cum' semper omittitur in ablativo modi, etiam sine adiectivo.", "answer": false, "explanation": "Sine adiectivo, cum plerumque manet." },
+        { "id": "abl24", "statement": "Comparatio 'Marcus altior Iulia' est identica 'Marcus altior quam Iulia'.", "answer": true, "explanation": "Ablativus comparationis substituit quam + nominativum." }
+      ]
     }
   ],
   "summary": [

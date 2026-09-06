@@ -97,6 +97,35 @@
           { "left": "respondeo", "right": "I respond" }
         ], "explanation": "Vocabularium frequens secundae coniugationis." }
       ]
+    },
+    {
+      "id": "ii-con2-fill2", "type": "fill-blank", "title": "Amplius Coniuga Verba Secundae",
+      "instructions": "Comple cum forma recta.",
+      "items": [
+        { "id": "c2-12", "prompt": "Vos magistro ___. (you all respond)", "options": ["respondetis", "respondemus", "respondent"], "answers": ["respondetis"], "explanation": "2a persona pluralis: respondetis." },
+        { "id": "c2-13", "prompt": "Ego in silva ___. (I remain)", "options": ["maneo", "manes", "manet"], "answers": ["maneo"], "explanation": "1a persona singularis: maneo." },
+        { "id": "c2-14", "prompt": "Nos multum ___. (we owe)", "options": ["debeo", "debes", "debemus"], "answers": ["debemus"], "explanation": "1a persona pluralis: debemus." },
+        { "id": "c2-15", "prompt": "Puer canem ___. (fears)", "options": ["timeo", "times", "timet"], "answers": ["timet"], "explanation": "3a persona singularis: timet." }
+      ]
+    },
+    {
+      "id": "ii-con2-mc2", "type": "multiple-choice", "title": "Amplius de Coniugatione Secunda",
+      "items": [
+        { "id": "c2-16", "prompt": "'Habemus' significat:", "options": ["I have", "we have", "they have"], "answerIndex": 1, "explanation": "1a persona pluralis: we have." },
+        { "id": "c2-17", "prompt": "Quae quantitas vocalis distinguit secundam coniugationem a tertia?", "options": ["ē longum vs. e breve", "ā vs. ē", "nulla differentia"], "answerIndex": 0, "explanation": "monēre (ē longum) vs. mittere (e breve)." },
+        { "id": "c2-18", "prompt": "'Sedeo' significat:", "options": ["I sit", "I stand", "I run"], "answerIndex": 0, "explanation": "Sedeo = I sit." },
+        { "id": "c2-19", "prompt": "'Teneo' significat:", "options": ["I hold", "I see", "I fear"], "answerIndex": 0, "explanation": "Teneo = I hold." },
+        { "id": "c2-20", "prompt": "Accentus verbi 'monēre' cadit in:", "options": ["paenultima syllaba", "ultima syllaba", "antepaenultima syllaba"], "answerIndex": 0, "explanation": "mo-NĒ-re, propter vocalem longam." }
+      ]
+    },
+    {
+      "id": "ii-con2-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "c2-21", "statement": "Desinentiae personales secundae coniugationis sunt identicae primae coniugationi.", "answer": true, "explanation": "Solum vocalis thematica differt." },
+        { "id": "c2-22", "statement": "'Monent' (3a pl.) habet 'e' breve, non longum.", "answer": true, "explanation": "Distinctio de quantitate vocalis in hac forma specifica." },
+        { "id": "c2-23", "statement": "Verba secundae coniugationis habent infinitivum in '-āre'.", "answer": false, "explanation": "Habent infinitivum in -ēre (e longum)." },
+        { "id": "c2-24", "statement": "'Video' pertinet ad secundam coniugationem.", "answer": true, "explanation": "Videō, vidēre." }
+      ]
     }
   ],
   "summary": [

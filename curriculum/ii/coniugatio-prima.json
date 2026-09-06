@@ -106,6 +106,36 @@
         { "id": "c1-9", "prompt": "'Amāsne hortum?' significat:", "options": ["I don't love the garden", "Do you love the garden?", "The garden doesn't love"], "answerIndex": 1, "explanation": "-ne suffixum ad verbum = quaestio simplex." },
         { "id": "c1-10", "prompt": "Radix verbi 'laudo, laudare' est:", "options": ["laud-", "lauda-", "laudar-"], "answerIndex": 0, "explanation": "Radix + vocalis thematica -ā- + desinentia." }
       ]
+    },
+    {
+      "id": "ii-con1-fill2", "type": "fill-blank", "title": "Amplius Coniuga Amo",
+      "instructions": "Comple cum forma recta.",
+      "items": [
+        { "id": "c1-14", "prompt": "Vos hortum ___. (you all love)", "options": ["amatis", "amamus", "amant"], "answers": ["amatis"], "explanation": "2a persona pluralis: amatis." },
+        { "id": "c1-15", "prompt": "Ego librum ___. (I carry — porto)", "options": ["porto", "portas", "portat"], "answers": ["porto"], "explanation": "1a persona singularis: porto." },
+        { "id": "c1-16", "prompt": "Tu semper ___. (you walk — ambulas)", "options": ["ambulo", "ambulas", "ambulat"], "answers": ["ambulas"], "explanation": "2a persona singularis: ambulas." },
+        { "id": "c1-17", "prompt": "Nos in villa ___. (we live/dwell — habitamus)", "options": ["habito", "habitas", "habitamus"], "answers": ["habitamus"], "explanation": "1a persona pluralis: habitamus." },
+        { "id": "c1-18", "prompt": "Magister discipulos ___. (calls — vocat)", "options": ["voco", "vocas", "vocat"], "answers": ["vocat"], "explanation": "3a persona singularis: vocat." }
+      ]
+    },
+    {
+      "id": "ii-con1-mc2", "type": "multiple-choice", "title": "Amplius de Coniugatione Prima",
+      "items": [
+        { "id": "c1-19", "prompt": "'Portamus' significat:", "options": ["I carry", "we carry", "they carry"], "answerIndex": 1, "explanation": "1a persona pluralis: we carry." },
+        { "id": "c1-20", "prompt": "Quae persona indicat desinentia '-t'?", "options": ["tertia singularis", "prima pluralis", "secunda singularis"], "answerIndex": 0, "explanation": "-t = he/she/it." },
+        { "id": "c1-21", "prompt": "'Num amas?' exspectat responsum:", "options": ["negativum", "affirmativum", "neutrum"], "answerIndex": 0, "explanation": "'Num' exspectat responsum negativum." },
+        { "id": "c1-22", "prompt": "Infinitivus verbi 'do, dare' est irregularis quia:", "options": ["vocalis 'a' est brevis, non longa", "non habet infinitivum", "est tertiae coniugationis"], "answerIndex": 0, "explanation": "Dare habet 'a' brevem, unica exceptio in prima coniugatione." },
+        { "id": "c1-23", "prompt": "Quae vocalis thematica definit primam coniugationem?", "options": ["-ā-", "-ē-", "-ī-"], "answerIndex": 0, "explanation": "Radix + -ā- + desinentia." }
+      ]
+    },
+    {
+      "id": "ii-con1-tf2", "type": "true-false", "title": "Amplius Verum an Falsum",
+      "items": [
+        { "id": "c1-24", "statement": "'Amō' contrahit 'ā' thematicum et 'ō' desinentiae in unam vocalem.", "answer": true, "explanation": "Regularis in omnibus verbis primae coniugationis." },
+        { "id": "c1-25", "statement": "Subiectum verbi debet semper explicite scribi in Latina.", "answer": false, "explanation": "Subiectum plerumque omittitur, clarum ex desinentia verbi." },
+        { "id": "c1-26", "statement": "'-ne' suffigitur ultimo verbo sententiae, non primo.", "answer": false, "explanation": "'-ne' suffigitur primo verbo sententiae." },
+        { "id": "c1-27", "statement": "Verba primae coniugationis habent infinitivum in '-āre'.", "answer": true, "explanation": "Sicut amāre, laudāre, vocāre." }
+      ]
     }
   ],
   "summary": [

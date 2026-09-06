@@ -102,6 +102,38 @@
           { "left": "propter", "right": "accusativus" }
         ], "explanation": "Motus/tempus/spatium → accusativus; locus/medium/separatio → ablativus (praeter 'in', quod utrumque accipit)." }
       ]
+    },
+    {
+      "id": "ii-prep-fill2", "type": "fill-blank", "title": "Amplius Elige Praepositionem",
+      "instructions": "Elige praepositionem et casum rectos.",
+      "items": [
+        { "id": "prep12", "prompt": "___ silvam currunt. (across the forest)", "options": ["Trans", "In", "Ab"], "answers": ["Trans"], "explanation": "'trans' + accusativum = across." },
+        { "id": "prep13", "prompt": "Liber ___ mensa est. (under, quies)", "options": ["sub", "super", "trans"], "answers": ["sub"], "explanation": "'sub' + ablativum, sensu quietis." },
+        { "id": "prep14", "prompt": "___ patrem sto. (before my father)", "options": ["Ante", "Post", "Inter"], "answers": ["Ante"], "explanation": "'ante' + accusativum = before." },
+        { "id": "prep15", "prompt": "___ urbe discedimus. (from the city)", "options": ["Ex", "In", "Ad"], "answers": ["Ex"], "explanation": "'ex' + ablativum = out of/from." },
+        { "id": "prep16", "prompt": "___ hoc, laeti sumus. (because of this)", "options": ["Propter", "Contra", "Apud"], "answers": ["Propter"], "explanation": "'propter' + accusativum = because of." },
+        { "id": "prep17", "prompt": "___ amicum sum. (at my friend's house)", "options": ["Apud", "Ab", "De"], "answers": ["Apud"], "explanation": "'apud' + accusativum = at the house of." }
+      ]
+    },
+    {
+      "id": "ii-prep-mc2", "type": "multiple-choice", "title": "Amplius Casus et Praepositiones",
+      "items": [
+        { "id": "prep18", "prompt": "Praepositio 'per' postulat casum:", "options": ["accusativum", "ablativum", "genetivum"], "answerIndex": 0, "explanation": "'per' semper cum accusativo." },
+        { "id": "prep19", "prompt": "Praepositio 'de' postulat casum:", "options": ["ablativum", "accusativum", "dativum"], "answerIndex": 0, "explanation": "'de' semper cum ablativo." },
+        { "id": "prep20", "prompt": "Quae forma adhibetur ante consonantem: 'ex' an 'e'?", "options": ["e (vel ambae, sed e praesertim ante consonantes)", "ex semper", "nulla differentia"], "answerIndex": 0, "explanation": "'e' ante consonantes, 'ex' praesertim ante vocales." },
+        { "id": "prep21", "prompt": "'Trans' significat:", "options": ["across", "under", "behind"], "answerIndex": 0, "explanation": "Trans = across." },
+        { "id": "prep22", "prompt": "'Sub' cum sensu quietis postulat casum:", "options": ["ablativum", "accusativum", "genetivum"], "answerIndex": 0, "explanation": "Sub, sicut in, potest esse bicasuale — quies: ablativum." },
+        { "id": "prep23", "prompt": "'Post' significat:", "options": ["after, behind", "before", "around"], "answerIndex": 0, "explanation": "Post = after/behind." }
+      ]
+    },
+    {
+      "id": "ii-prep-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "prep24", "statement": "Praepositio 'ab' significat 'from, by' et postulat ablativum.", "answer": true, "explanation": "Ab/ā + ablativum." },
+        { "id": "prep25", "statement": "Praepositio 'inter' postulat ablativum.", "answer": false, "explanation": "Inter postulat accusativum." },
+        { "id": "prep26", "statement": "'In' est unica praepositio communis quae utrumque casum (accusativum et ablativum) accipit.", "answer": true, "explanation": "Sub quoque potest esse bicasuale, sed in est exemplum classicum." },
+        { "id": "prep27", "statement": "Praepositiones indicantes motum semper postulant ablativum.", "answer": false, "explanation": "Praepositiones motus postulant accusativum." }
+      ]
     }
   ],
   "summary": [

@@ -97,6 +97,32 @@
           { "left": "audīre", "right": "quarta" }
         ], "explanation": "Infinitivus solus revelat coniugationem cuiusque verbi." }
       ]
+    },
+    {
+      "id": "ii-con4-fill2", "type": "fill-blank", "title": "Amplius Coniuga Verba Quartae",
+      "instructions": "Comple cum forma recta.",
+      "items": [
+        { "id": "c4-12", "prompt": "Vos verum ___. (you all perceive)", "options": ["sentitis", "sentimus", "sentiunt"], "answers": ["sentitis"], "explanation": "2a persona pluralis: sentitis." },
+        { "id": "c4-13", "prompt": "Ego ianuam ___. (I open)", "options": ["aperio", "aperis", "aperit"], "answers": ["aperio"], "explanation": "1a persona singularis: aperio." },
+        { "id": "c4-14", "prompt": "Pueri cito ___. (they finish)", "options": ["finit", "finiunt", "finimus"], "answers": ["finiunt"], "explanation": "3a persona pluralis: finiunt." }
+      ]
+    },
+    {
+      "id": "ii-con4-mc2", "type": "multiple-choice", "title": "Amplius de Coniugatione Quarta",
+      "items": [
+        { "id": "c4-15", "prompt": "'Scimus' significat:", "options": ["I know", "we know", "they know"], "answerIndex": 1, "explanation": "1a persona pluralis: we know." },
+        { "id": "c4-16", "prompt": "Quod verbum significat 'to find'?", "options": ["invenio", "aperio", "punio"], "answerIndex": 0, "explanation": "Invenio = to find." },
+        { "id": "c4-17", "prompt": "3a persona pluralis quartae coniugationis desinit in:", "options": ["-iunt", "-unt", "-ent"], "answerIndex": 0, "explanation": "audiunt, veniunt, sentiunt." }
+      ]
+    },
+    {
+      "id": "ii-con4-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "c4-18", "statement": "Coniugatio quarta habet infinitivum in '-īre', i longum.", "answer": true, "explanation": "audīre, venīre, dormīre." },
+        { "id": "c4-19", "statement": "'Audiō' et 'capiō' sunt ambigua in prima persona singulari, sed infinitivus eas distinguit.", "answer": true, "explanation": "audīre (ī longum) vs. capere (e breve)." },
+        { "id": "c4-20", "statement": "Quarta coniugatio non insertat 'i' ante '-unt' in tertia persona plurali.", "answer": false, "explanation": "Quarta insertat 'i': audiunt." },
+        { "id": "c4-21", "statement": "'Punio' pertinet ad quartam coniugationem.", "answer": true, "explanation": "Puniō, punīre." }
+      ]
     }
   ],
   "summary": [

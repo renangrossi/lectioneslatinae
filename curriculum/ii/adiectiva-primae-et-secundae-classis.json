@@ -93,6 +93,36 @@
         { "id": "adi12", "prompt": "video / bonum / servum", "words": ["Servum", "bonum", "video"], "explanation": "Obiectum + adiectivum + verbum." },
         { "id": "adi13", "prompt": "et / malum / longum / bellum / est", "words": ["Bellum", "longum", "et", "malum", "est"], "explanation": "Subiectum + duo adiectiva coniuncta + verbum." }
       ]
+    },
+    {
+      "id": "ii-adi-fill2", "type": "fill-blank", "title": "Amplius Comple Adiectivum",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "adi14", "prompt": "Rosa ___ est. (beautiful, f. nom.)", "options": ["pulcher", "pulchra", "pulchrum"], "answers": ["pulchra"], "explanation": "Rosa est femininum: pulchra." },
+        { "id": "adi15", "prompt": "Hortus ___ est. (beautiful, m. nom.)", "options": ["pulcher", "pulchra", "pulchrum"], "answers": ["pulcher"], "explanation": "Hortus est masculinum: pulcher." },
+        { "id": "adi16", "prompt": "Vir ___ auxilium petit. (wretched, m. nom.)", "options": ["miser", "misera", "miserum"], "answers": ["miser"], "explanation": "Vir est masculinum: miser." },
+        { "id": "adi17", "prompt": "Puellae ___ sunt. (good, f. pl. nom.)", "options": ["bonae", "boni", "bona"], "answers": ["bonae"], "explanation": "Femininum plurale: bonae." },
+        { "id": "adi18", "prompt": "Regem ___ amamus. (good, m. acc.)", "options": ["bonus", "bonum", "boni"], "answers": ["bonum"], "explanation": "Accusativus masculinum: bonum, concordans cum rex (tertia decl.)." }
+      ]
+    },
+    {
+      "id": "ii-adi-mc2", "type": "multiple-choice", "title": "Amplius de Concordantia",
+      "items": [
+        { "id": "adi19", "prompt": "Adiectivum 'pulcher' amittit 'e' sicut quod nomen?", "options": ["ager", "puer", "vir"], "answerIndex": 0, "explanation": "Sicut ager, amittit e praeter nom./voc. masc. sg." },
+        { "id": "adi20", "prompt": "Adiectivum 'miser' servat 'e' sicut quod nomen?", "options": ["puer", "ager", "liber"], "answerIndex": 0, "explanation": "Sicut puer, servat e per omnem formam." },
+        { "id": "adi21", "prompt": "Neutrum singularis nominativi/accusativi verbi 'bonus' est:", "options": ["bonum", "bona", "bonus"], "answerIndex": 0, "explanation": "Neutrum: bonum." },
+        { "id": "adi22", "prompt": "'Rex bonus' est correctum quamvis 'rex' et 'bonus' sint diversarum declinationum, quia:", "options": ["concordant in genere/numero/casu", "habent easdem litteras", "sunt ambo neutra"], "answerIndex": 0, "explanation": "Concordantia est grammatica, non orthographica." },
+        { "id": "adi23", "prompt": "Ablativus singularis femininus verbi 'bonus' est:", "options": ["bonā", "bono", "bonae"], "answerIndex": 0, "explanation": "Femininum ablativum: bonā (a longa)." }
+      ]
+    },
+    {
+      "id": "ii-adi-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "adi24", "statement": "Adiectivum debet sequi eandem declinationem ac nomen quod modificat.", "answer": false, "explanation": "Concordantia requirit genus/numerum/casum, non eandem declinationem." },
+        { "id": "adi25", "statement": "'Miser, misera, miserum' servat 'e' per omnem formam.", "answer": true, "explanation": "Sicut puer." },
+        { "id": "adi26", "statement": "'Pulcher' amittit 'e' praeter masculinum nominativum/vocativum singularem.", "answer": true, "explanation": "Sicut ager." },
+        { "id": "adi27", "statement": "Concordantia significat quod adiectivum et nomen habent easdem litteras finales semper.", "answer": false, "explanation": "Concordantia est categoriis grammaticis (genus/numerus/casus), non litteris identicis." }
+      ]
     }
   ],
   "summary": [

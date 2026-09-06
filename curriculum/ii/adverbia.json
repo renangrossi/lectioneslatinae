@@ -81,6 +81,36 @@
         { "id": "adv6", "prompt": "Quod verbum significat 'never'?", "options": ["semper", "saepe", "numquam"], "answerIndex": 2, "explanation": "numquam = never." },
         { "id": "adv7", "prompt": "Adverbium ab 'malus' est:", "options": ["malē", "male", "malus"], "answerIndex": 1, "explanation": "male, irregulare sicut bene." }
       ]
+    },
+    {
+      "id": "ii-adv-fill2", "type": "fill-blank", "title": "Amplius Forma Adverbium",
+      "instructions": "Elige adverbium rectum derivatum ab adiectivo dato.",
+      "items": [
+        { "id": "adv8", "prompt": "prūdēns (wise) → ___ (wisely)", "options": ["prudentiter", "prudenter", "prudens"], "answers": ["prudenter"], "explanation": "Radix in -nt: + -er." },
+        { "id": "adv9", "prompt": "līber (free) → ___ (freely)", "options": ["liberē", "liberiter", "liber"], "answers": ["liberē"], "explanation": "Prima/secunda classis: -ē." },
+        { "id": "adv10", "prompt": "celer (swift, 3a classis) → ___ (swiftly)", "options": ["celere", "celeriter", "celerē"], "answers": ["celeriter"], "explanation": "Tertia classis: -iter." },
+        { "id": "adv11", "prompt": "malus (bad) → ___ (badly)", "options": ["malē", "malus", "maliter"], "answers": ["malē"], "explanation": "Irregulare, sicut bene." },
+        { "id": "adv12", "prompt": "facilis (easy) → ___ (easily)", "options": ["facile", "faciliter", "facilis"], "answers": ["facile"], "explanation": "Irregulare: forma neutra adiectivi." },
+        { "id": "adv13", "prompt": "certus (certain) → ___ (certainly)", "options": ["certē", "certus", "certiter"], "answers": ["certē"], "explanation": "Prima/secunda classis: -ē." }
+      ]
+    },
+    {
+      "id": "ii-adv-mc2", "type": "multiple-choice", "title": "Amplius de Adverbiis",
+      "items": [
+        { "id": "adv14", "prompt": "Adverbium ab 'celer' (swift, 3a classis) est:", "options": ["celeriter", "celere", "celerē"], "answerIndex": 0, "explanation": "celeriter." },
+        { "id": "adv15", "prompt": "'Facile' est adverbium irregulare ab adiectivo:", "options": ["facilis", "facile", "facilem"], "answerIndex": 0, "explanation": "facilis → facile (forma neutra)." },
+        { "id": "adv16", "prompt": "Quod verbum significat 'often'?", "options": ["saepe", "rarō", "semper"], "answerIndex": 0, "explanation": "saepe = often." },
+        { "id": "adv17", "prompt": "Quod verbum significat 'sometimes'?", "options": ["interdum", "numquam", "semper"], "answerIndex": 0, "explanation": "interdum = sometimes." },
+        { "id": "adv18", "prompt": "Quod verbum significat 'everywhere'?", "options": ["ubīque", "hīc", "ibi"], "answerIndex": 0, "explanation": "ubique = everywhere." }
+      ]
+    },
+    {
+      "id": "ii-adv-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "adv19", "statement": "'Certus' → 'certē' sequitur regulam standard prīmae/secundae classis.", "answer": true, "explanation": "Radix + -ē." },
+        { "id": "adv20", "statement": "Adverbium potest mutāre formam secundum numerum subiectī.", "answer": false, "explanation": "Adverbium est semper indeclinabile." },
+        { "id": "adv21", "statement": "'Facile' est adverbium irregulare, idem quam forma neutra adiectivi.", "answer": true, "explanation": "facile = forma neutra nominativi/accusativi." }
+      ]
     }
   ],
   "summary": [

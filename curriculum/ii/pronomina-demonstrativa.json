@@ -82,6 +82,32 @@
         { "id": "dem7", "prompt": "'Hic' indicat proximitatem ad:", "options": ["auditorem", "loquentem", "rem tertiam absentem"], "answerIndex": 1, "explanation": "'hic' = 'this', prope loquentem (speaker)." },
         { "id": "dem8", "prompt": "Neutrum nominativum/accusativum singulare verbi 'ille' est:", "options": ["illum", "illa", "illud"], "answerIndex": 2, "explanation": "illud, regula neutra universalis." }
       ]
+    },
+    {
+      "id": "ii-dem-fill2", "type": "fill-blank", "title": "Amplius Comple cum Demonstrativo",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "dem9", "prompt": "___ templum antiquum est. (this, neut.)", "options": ["Hoc", "Hic", "Haec"], "answers": ["Hoc"], "explanation": "Neutrum nominativum singulare: hoc." },
+        { "id": "dem10", "prompt": "___ mulieris nomen scio. (that woman's)", "options": ["illius", "illi", "illam"], "answers": ["illius"], "explanation": "Genetivus, idem in omni genere: illius." },
+        { "id": "dem11", "prompt": "___ pueri student. (these boys)", "options": ["Hi", "Hae", "Haec"], "answers": ["Hi"], "explanation": "Nominativus masculinum plurale: hi." }
+      ]
+    },
+    {
+      "id": "ii-dem-mc2", "type": "multiple-choice", "title": "Amplius de Demonstrativis",
+      "items": [
+        { "id": "dem12", "prompt": "Dativus singularis verbi 'ille' (omni genere) est:", "options": ["illi", "illius", "illo"], "answerIndex": 0, "explanation": "Dativus irregularis: illi." },
+        { "id": "dem13", "prompt": "'Iste' saepe indicat rem propinquam:", "options": ["auditori", "loquenti", "nulli"], "answerIndex": 0, "explanation": "Iste = 'that of yours', propinquum auditori." },
+        { "id": "dem14", "prompt": "Nominativus pluralis neutrum verbi 'hic' est:", "options": ["haec", "hi", "hae"], "answerIndex": 0, "explanation": "Regula neutra: haec." }
+      ]
+    },
+    {
+      "id": "ii-dem-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "dem15", "statement": "'Hic' et 'ille' sunt interscambiabiles sine differentia significationis.", "answer": false, "explanation": "Hic = proximus; ille = remotus, differentia semantica reālis." },
+        { "id": "dem16", "statement": "Genetivus et dativus singularis verbi 'hic' et 'ille' sunt identici in omni genere.", "answer": true, "explanation": "huius/illius, huic/illi — idem in omni genere." },
+        { "id": "dem17", "statement": "'Illud' est forma neutra nominativi/accusativi singularis verbi 'ille'.", "answer": true, "explanation": "Regula neutra universalis." },
+        { "id": "dem18", "statement": "Pronomina demonstrativa possunt adhiberi tam adiective quam substantive.", "answer": true, "explanation": "Vel sola (pronomina) vel cum nomine (adiectiva)." }
+      ]
     }
   ],
   "summary": [
