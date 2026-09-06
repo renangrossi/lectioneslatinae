@@ -95,6 +95,37 @@
           { "left": "lingua, institutis, legibus", "right": "asyndeton" }
         ], "explanation": "Recognitio integra figurarum in textibus authenticis iam lectis." }
       ]
+    },
+    {
+      "id": "vii-rhet-fill", "type": "fill-blank", "title": "Identifica Figuram",
+      "instructions": "Elige figuram rectam.",
+      "items": [
+        { "id": "rhet6", "prompt": "'Facinus...scelus...parricidium' exemplificat figuram ___.", "options": ["anaphora", "climax", "chiasmus"], "answers": ["climax"], "explanation": "Series crescens in gravitate." },
+        { "id": "rhet7", "prompt": "'Animi imperio, corporis servitio' exemplificat ___.", "options": ["chiasmus", "asyndeton", "tricolon"], "answers": ["chiasmus"], "explanation": "Patronus A-B-B-A." },
+        { "id": "rhet8", "prompt": "'Lingua, institutis, legibus' exemplificat ___.", "options": ["asyndeton", "anaphora", "hyperbaton"], "answers": ["asyndeton"], "explanation": "Absentia coniunctionis expectatae." },
+        { "id": "rhet9", "prompt": "'Saevae memorem Iunonis ob iram' exemplificat ___.", "options": ["hyperbaton", "tricolon", "climax"], "answers": ["hyperbaton"], "explanation": "Separatio deliberata verborum coniunctorum." },
+        { "id": "rhet10", "prompt": "'Quid egeris, ubi fueris, quos convocaveris' exemplificat ___.", "options": ["tricolon", "chiasmus", "asyndeton"], "answers": ["tricolon"], "explanation": "Tria membra parallela." }
+      ]
+    },
+    {
+      "id": "vii-rhet-mc2", "type": "multiple-choice", "title": "Amplius de Rhetorica",
+      "items": [
+        { "id": "rhet11", "prompt": "Figura rhetorica est adhibita prō:", "options": ["effectu persuasivo vel aesthetico", "necessitate grammatica stricta", "errore stilistico"], "answerIndex": 0, "explanation": "Structura deliberata, non requisitum grammaticum." },
+        { "id": "rhet12", "prompt": "Chiasmus requirit specifice:", "options": ["patronum A-B-B-A", "tres elementa parallela", "repetitionem verbi initialis"], "answerIndex": 0, "explanation": "Distinctio ab simplici inversione." },
+        { "id": "rhet13", "prompt": "Climax (gradatio) in exemplo Ciceronis progreditur:", "options": ["vincire → verberare → necare, in gravitate crescente", "necare → verberare → vincire", "sine ordine specifico"], "answerIndex": 0, "explanation": "Intensificatio progressiva." },
+        { "id": "rhet14", "prompt": "Analysis figurae rhetoricae debet accompaniari:", "options": ["explicatione propositi stilistici/persuasivi", "sola nominatione technica", "traductione verbum-post-verbum"], "answerIndex": 0, "explanation": "Nomen sine functione est memoria vacua." },
+        { "id": "rhet15", "prompt": "'In Verrem II.5.170' est fons exempli:", "options": ["climacis (facinus, scelus, parricidium)", "anaphorae", "hyperbati"], "answerIndex": 0, "explanation": "Fons verificatus verbatim." },
+        { "id": "rhet16", "prompt": "Sex figurae discussae in hac lectione includunt:", "options": ["anaphora, tricolon, chiasmus, asyndeton, hyperbaton, climax", "solum anaphora et tricolon", "solum climax"], "answerIndex": 0, "explanation": "Conspectus completus huius lectionis." }
+      ]
+    },
+    {
+      "id": "vii-rhet-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "rhet17", "statement": "Chiasmus et simplex inversio ordinis sunt identici, sine patrone specifico requisito.", "answer": false, "explanation": "Chiasmus exigit patronum crucem A-B-B-A." },
+        { "id": "rhet18", "statement": "Asyndeton est absentia coniunctionis expectatae inter elementa parallela.", "answer": true, "explanation": "Effectus: velocitas, accumulatio." },
+        { "id": "rhet19", "statement": "Climax exprimit seriem crescentem in intensitate.", "answer": true, "explanation": "Facinus → scelus → parricidium." },
+        { "id": "rhet20", "statement": "Omnes sex figurae discussae hic sunt exclusivae poesi, non prosae.", "answer": false, "explanation": "Sunt frequentes tam in prosa (Cicero, Caesar, Sallustius) quam in poesi." }
+      ]
     }
   ],
   "summary": [

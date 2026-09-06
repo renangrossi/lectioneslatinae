@@ -68,6 +68,37 @@
         { "id": "caes2-3", "prompt": "Caesar scribit de se ipso in qua persona?", "options": ["prima persona ('ego')", "tertia persona ('Caesar')"], "answerIndex": 1, "explanation": "Technica narrativa distinctiva Commentariorum." },
         { "id": "caes2-4", "prompt": "'Lingua, institutis, legibus' demonstrat figuram:", "options": ["anaphoram", "asyndeton (accumulatio sine coniunctione)"], "answerIndex": 1, "explanation": "Tres ablativi iuxtapositi, sine 'et'." }
       ]
+    },
+    {
+      "id": "vii-caes2-fill", "type": "fill-blank", "title": "Comple cum Verbis Caesaris",
+      "instructions": "Elige formam rectam secundum textum.",
+      "items": [
+        { "id": "caes2-5", "prompt": "Gallia est omnis ___ in partes trēs. (divided — divisa)", "options": ["divisa", "dividens", "dividenda"], "answers": ["divisa"], "explanation": "Participium perfectum passivum." },
+        { "id": "caes2-6", "prompt": "Gallōs ab Aquitānīs Garumna ___ dīvidit. (river — flumen)", "options": ["flumen", "fluminis", "flumini"], "answers": ["flumen"], "explanation": "Nominativus, subiectum." },
+        { "id": "caes2-7", "prompt": "Belgae ___ sunt Germānīs. (nearest — proximi)", "options": ["proximi", "proxime", "proximis"], "answers": ["proximi"], "explanation": "Nominativus, superlativus concordans." },
+        { "id": "caes2-8", "prompt": "Hī omnēs linguā, ___, lēgibus inter sē differunt. (customs — institutis)", "options": ["institutis", "instituta", "institutorum"], "answers": ["institutis"], "explanation": "Ablativus respectus, asyndeton." },
+        { "id": "caes2-9", "prompt": "Belgae ___ bellum cum Germānīs gerunt. (continuously — continenter)", "options": ["continenter", "continens", "continentia"], "answers": ["continenter"], "explanation": "Adverbium." }
+      ]
+    },
+    {
+      "id": "vii-caes2-mc2", "type": "multiple-choice", "title": "Amplius de Caesare",
+      "items": [
+        { "id": "caes2-10", "prompt": "'Gallia est omnis divisa in partes tres' est:", "options": ["definitio geographica, verbum prope initium", "versus poeticus", "interrogatio"], "answerIndex": 0, "explanation": "Sententia introductoria, stilus obiectivus." },
+        { "id": "caes2-11", "prompt": "Caesar praefert:", "options": ["periodos longas sed logice claras", "sententias brevissimas semper", "poesim lyricam"], "answerIndex": 0, "explanation": "Clausulae causales concatenatae." },
+        { "id": "caes2-12", "prompt": "'Quibuscum continenter bellum gerunt' demonstrat:", "options": ["pronomen relativum + cum (quibuscum), ablativus", "AcI", "ablativus absolutus"], "answerIndex": 0, "explanation": "Coniunctio relativi cum praepositione." },
+        { "id": "caes2-13", "prompt": "Caesar comparatus cum Catullo:", "options": ["est prosaicus, obiectivus vs. poeticus, personalis", "sunt identici in stilo", "Caesar est magis emotionalis"], "answerIndex": 0, "explanation": "Genera litteraria distincta." },
+        { "id": "caes2-14", "prompt": "Textus lectus hic est verificatus contra:", "options": ["thelatinlibrary.com", "fontem incognitum", "solum memoriam magistri"], "answerIndex": 0, "explanation": "Fons philologicus standard." }
+      ]
+    },
+    {
+      "id": "vii-caes2-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "caes2-15", "statement": "Caesar scribit de se in tertia persona.", "answer": true, "explanation": "'Caesar' non 'ego', technica obiectivitatis." },
+        { "id": "caes2-16", "statement": "'Lingua, institutis, legibus' est exemplum asyndeti.", "answer": true, "explanation": "Tres ablativi sine coniunctione." },
+        { "id": "caes2-17", "statement": "Belgae sunt, secundum Caesarem, gens debilissima.", "answer": false, "explanation": "'Horum omnium fortissimi sunt Belgae.'" },
+        { "id": "caes2-18", "statement": "Stilus Caesarianus est ornatus excessive, sicut poesis.", "answer": false, "explanation": "Stilus est clarus, praecisus, sine ornamento excessivo." },
+        { "id": "caes2-19", "statement": "Hoc excerptum est initium ipsius operis De Bello Gallico.", "answer": true, "explanation": "Liber I, Caput 1." }
+      ]
     }
   ],
   "summary": [

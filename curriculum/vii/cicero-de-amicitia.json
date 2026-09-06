@@ -78,6 +78,33 @@
         { "id": "amic4", "prompt": "Quot gradus narrativos identificas in hoc passu?", "options": ["unum (narratio directa)", "tres (Cicero narrat de Scaevola, qui narrabat de Laelio)"], "answerIndex": 1, "explanation": "Narratio intra narratione, technica dialogi philosophici." },
         { "id": "amic5", "prompt": "'Sumpta virili toga' est constructio:", "options": ["ablativus absolutus", "genetivus qualitatis"], "answerIndex": 0, "explanation": "Nomen + participium, ambo ablativo." }
       ]
+    },
+    {
+      "id": "vii-amic-fill", "type": "fill-blank", "title": "Comple cum Verbis Ciceronis",
+      "instructions": "Elige formam rectam secundum textum.",
+      "items": [
+        { "id": "amic6", "prompt": "Q. Mūcius augur multa nārrāre dē C. Laeliō ___ suō solēbat. (father-in-law — socero)", "options": ["socero", "socerum", "soceri"], "answers": ["socero"], "explanation": "Ablativus, respectu narrandi." },
+        { "id": "amic7", "prompt": "Ego autem ā patre ita eram ___ ad Scaevolam. (led — deductus)", "options": ["deductus", "ducens", "deducendus"], "answers": ["deductus"], "explanation": "Plusquamperfectum passivum." },
+        { "id": "amic8", "prompt": "Multa ab eō prūdenter ___. (discussed — disputata)", "options": ["disputata", "disputans", "disputanda"], "answers": ["disputata"], "explanation": "Participium perfectum passivum, neutrum plurale." },
+        { "id": "amic9", "prompt": "Fierīque studēbam eius prūdentiā ___. (more learned — doctior)", "options": ["doctior", "doctus", "doctissimus"], "answers": ["doctior"], "explanation": "Comparativus, ablativus mensurae 'prudentia'." }
+      ]
+    },
+    {
+      "id": "vii-amic-mc2", "type": "multiple-choice", "title": "Amplius de Cicerone Philosopho",
+      "items": [
+        { "id": "amic10", "prompt": "'Mandāre memoriae' est idioma significans:", "options": ["to commit to memory", "to forget", "to speak publicly"], "answerIndex": 0, "explanation": "Idioma fixum classicum." },
+        { "id": "amic11", "prompt": "Cicero scripsit De Amicitia post:", "options": ["mortem filiae suae Tulliae", "victoriam bellicam", "exilium suum"], "answerIndex": 0, "explanation": "Contextus biographicus." },
+        { "id": "amic12", "prompt": "Structura 'narratio intra narratione' significat:", "options": ["Cicero narrat quod alius narrabat de tertio", "narratio simplex directa", "dialogus sine narratore"], "answerIndex": 0, "explanation": "Tres gradus narrativi." },
+        { "id": "amic13", "prompt": "Stilus philosophicus Ciceronianus (De Amicitia) comparatus cum stilo oratorio (In Catilinam):", "options": ["est magis reflexivus, minus emphaticus", "est identicus", "est magis emphaticus"], "answerIndex": 0, "explanation": "Differentia de genere/proposito." }
+      ]
+    },
+    {
+      "id": "vii-amic-tf2", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "amic14", "statement": "Laelius fuit amicus intimus Scipionis Africani Minoris.", "answer": true, "explanation": "Contextus historicus." },
+        { "id": "amic15", "statement": "Cicero ipse fuit primus qui de Laelio narravit, sine fonte praevio.", "answer": false, "explanation": "Scaevola narrabat prius; Cicero audivit et postea scripsit." },
+        { "id": "amic16", "statement": "'Sumpta virili toga' indicat transitum ad aetatem adultam.", "answer": true, "explanation": "Momentum vitae, ablativus absolutus." }
+      ]
     }
   ],
   "summary": [
