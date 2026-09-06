@@ -82,6 +82,41 @@
         { "id": "corr4", "prompt": "___ doctior est, tanto modestior. (The more — quanto)", "options": ["Tam", "Quanto", "Quam"], "answers": ["Quanto"], "explanation": "Correlativum proportionale: quantō...tantō." },
         { "id": "corr5", "prompt": "Venite quam ___! (as quickly as possible — celerrime)", "options": ["celeriter", "celerius", "celerrime"], "answers": ["celerrime"], "explanation": "quam + superlativus." }
       ]
+    },
+    {
+      "id": "vi-corr-fill2", "type": "fill-blank", "title": "Amplius Comple cum Correlativo",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "corr6", "prompt": "Discite ___ diligentissimē! (as diligently as possible — quam)", "options": ["quam", "tam", "quanto"], "answers": ["quam"], "explanation": "quam + superlativus." },
+        { "id": "corr7", "prompt": "Tam ___ est quam pater suus. (brave — fortis)", "options": ["fortis", "fortior", "fortissimus"], "answers": ["fortis"], "explanation": "tam...quam: aequalitas, gradus positivus." },
+        { "id": "corr8", "prompt": "Quō plūs habēs, ___ plūs vīs. (the more — eo)", "options": ["eo", "ita", "tam"], "answers": ["eo"], "explanation": "quō...eō, alternativa ad quantō...tantō." },
+        { "id": "corr9", "prompt": "Quam ___ possunt, labōrant. (as much as — plurimum)", "options": ["plurimum", "plus", "multum"], "answers": ["plurimum"], "explanation": "quam + superlativus adverbialis." },
+        { "id": "corr10", "prompt": "Ut fortis in bellō, ___ clēmēns in pāce fuit. (so — ita)", "options": ["ita", "tam", "quam"], "answers": ["ita"], "explanation": "ut...ita: correlativum concessivum." },
+        { "id": "corr11", "prompt": "Tam dīligēns est ___ frāter eius. (as...as — quam)", "options": ["quam", "tam", "ita"], "answers": ["quam"], "explanation": "tam...quam: aequalitas." }
+      ]
+    },
+    {
+      "id": "vi-corr-mc2", "type": "multiple-choice", "title": "Amplius de Correlativis",
+      "items": [
+        { "id": "corr12", "prompt": "'Quō plūs habēs, eō plūs vīs' utitur constructione:", "options": ["quō...eō (idem ac quantō...tantō)", "tam...quam", "ut...ita"], "answerIndex": 0, "explanation": "Alternativa structurali ad quanto...tanto." },
+        { "id": "corr13", "prompt": "'Tam...quam' exprimit:", "options": ["aequalitatem", "comparationem proportionalem", "concessionem"], "answerIndex": 0, "explanation": "As...as, non gradus superior." },
+        { "id": "corr14", "prompt": "'Tam...ut' (Gradus V) differt ab 'tam...quam' quia:", "options": ["introducit clausulam consecutivam cum coniunctivo", "est identicum", "numquam adhibetur"], "answerIndex": 0, "explanation": "Functiones distinctae: consecutiva vs. comparativa." },
+        { "id": "corr15", "prompt": "'Quam plūrimī' significat:", "options": ["as many as possible", "very many", "few"], "answerIndex": 0, "explanation": "quam + superlativus." },
+        { "id": "corr16", "prompt": "'Ut...ita' potest exprimere:", "options": ["concessionem correlatam", "tempus simplex", "causam"], "answerIndex": 0, "explanation": "While/although...yet." },
+        { "id": "corr17", "prompt": "Constructiones correlativae sunt frequentes in:", "options": ["orationibus Ciceronis argumentativis", "solum poesi", "numquam in prosa"], "answerIndex": 0, "explanation": "Frequentissimae apud Ciceronem." },
+        { "id": "corr18", "prompt": "'Quantō...tantō' et 'quō...eō' sunt:", "options": ["synonyma structuralia", "antonyma", "irrelevantia"], "answerIndex": 0, "explanation": "Ambo exprimunt proportionem." }
+      ]
+    },
+    {
+      "id": "vi-corr-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "corr19", "statement": "'Quantō...tantō' combinat duos ablativos mensurae.", "answer": true, "explanation": "Ambo sunt ablativi mensurae/differentiae." },
+        { "id": "corr20", "statement": "'Tam...quam' introducit semper clausulam consecutivam.", "answer": false, "explanation": "Exprimit aequalitatem simplicem, non clausulam consecutivam." },
+        { "id": "corr21", "statement": "'Quam' + superlativus potest significare 'as...as possible'.", "answer": true, "explanation": "quam celerrime, quam plurimi." },
+        { "id": "corr22", "statement": "'Ut...ita' potest exprimere concessionem.", "answer": true, "explanation": "While/although...yet." },
+        { "id": "corr23", "statement": "Correlativa sunt rara in prosa argumentativa Ciceronis.", "answer": false, "explanation": "Sunt frequentissima apud Ciceronem." },
+        { "id": "corr24", "statement": "'Quō...eō' est alternativa ad 'quantō...tantō', cum eōdem sēnsū.", "answer": true, "explanation": "Ambae constructiones sunt sinonymae." }
+      ]
     }
   ],
   "summary": [

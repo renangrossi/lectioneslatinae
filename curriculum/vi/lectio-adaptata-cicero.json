@@ -67,6 +67,41 @@
         { "id": "cic6", "prompt": "'Abūtēre patientiā nostrā' — 'patientiā' est:", "options": ["accusativus", "ablativus, regitur ab abutor (deponens)"], "answerIndex": 1, "explanation": "abūtor regit ablativum." },
         { "id": "cic7", "prompt": "'Quousque tandem...?' est exemplum:", "options": ["interrogationis rhetoricae", "interrogationis obliquae"], "answerIndex": 0, "explanation": "Instrumentum stilisticum, non quaestio genuina." }
       ]
+    },
+    {
+      "id": "vi-cic-fill", "type": "fill-blank", "title": "Comple secundum Textum",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "cic8", "prompt": "Catilīna cōnsilium cēpit rem pūblicam ___. (of overthrowing — evertendi)", "options": ["evertendi", "evertens", "eversurus"], "answers": ["evertendi"], "explanation": "Gerundium, genetivus post 'consilium'." },
+        { "id": "cic9", "prompt": "Multōs cīvēs sibi sociōs ___. (he made — fecit)", "options": ["fecit", "faciebat", "factus est"], "answers": ["fecit"], "explanation": "Perfectum indicativum." },
+        { "id": "cic10", "prompt": "'Quousque tandem ___, Catilīna, patientiā nostrā?' (will you abuse — abutere)", "options": ["abutere", "abutor", "abusus es"], "answers": ["abutere"], "explanation": "Deponens, secunda persona futurum/praesens." },
+        { "id": "cic11", "prompt": "Catilīna, cum sē accūsātum ___, ex urbe fūgit. (he saw — videret)", "options": ["videret", "vidit", "videbat"], "answers": ["videret"], "explanation": "Cum historicum + coniunctivus imperfectus." },
+        { "id": "cic12", "prompt": "Cicerō 'pater patriae' ___ est. (was called — appellatus)", "options": ["appellatus", "appellandus", "appellans"], "answers": ["appellatus"], "explanation": "Participium perfectum passivum." },
+        { "id": "cic13", "prompt": "Hīs verbīs ___, omnēs senātōrēs obstipuērunt. (having been heard — auditis)", "options": ["auditis", "audita", "audientes"], "answers": ["auditis"], "explanation": "Ablativus absolutus." }
+      ]
+    },
+    {
+      "id": "vi-cic-mc2", "type": "multiple-choice", "title": "Amplius de Textu Ciceronis",
+      "items": [
+        { "id": "cic14", "prompt": "'Cōnsilium cēpit rem pūblicam ēvertendī' — 'ēvertendī' est:", "options": ["gerundium, genetivus", "participium", "supinum"], "answerIndex": 0, "explanation": "Genetivus gerundii post 'consilium'." },
+        { "id": "cic15", "prompt": "'Hīs verbīs audītīs' est:", "options": ["ablativus absolutus", "genetivus qualitatis", "dativus finalis"], "answerIndex": 0, "explanation": "Nomen + participium perfectum, ambo ablativo." },
+        { "id": "cic16", "prompt": "'Cum sē accūsātum vidēret' combinat:", "options": ["cum historicum + AcI implicitum", "imperativum obliquum", "interrogationem directam"], "answerIndex": 0, "explanation": "'esse' saepe omittitur intra AcI." },
+        { "id": "cic17", "prompt": "'Abūtere' regit casum:", "options": ["ablativum (deponens)", "accusativum", "genetivum"], "answerIndex": 0, "explanation": "abutor regit ablativum, non accusativum." },
+        { "id": "cic18", "prompt": "'Quousque tandem...?' est instrumentum:", "options": ["rhetoricum, exprimens indignationem", "grammaticale sine valore stilistico", "narrativum simplex"], "answerIndex": 0, "explanation": "Apertura famosissima orationis in Catilinam." },
+        { "id": "cic19", "prompt": "Cicerō coniūrātiōnem Catilīnae dētēxit annō:", "options": ["63 a.C.n.", "49 a.C.n.", "44 a.C.n."], "answerIndex": 0, "explanation": "Eventus historicus authenticus." },
+        { "id": "cic20", "prompt": "Titulus 'pater patriae' fuit datus Ciceroni quia:", "options": ["rem publicam sine sanguine effuso servaverat", "bellum civile vicerat", "rex factus erat"], "answerIndex": 0, "explanation": "Servavit rem publicam sine violentia." }
+      ]
+    },
+    {
+      "id": "vi-cic-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "cic21", "statement": "'Abūtor' est verbum deponens.", "answer": true, "explanation": "Forma passiva, significatio activa." },
+        { "id": "cic22", "statement": "Interrogatio rhetorica exspectat responsum litterale.", "answer": false, "explanation": "Est instrumentum stilisticum, non quaestio genuina." },
+        { "id": "cic23", "statement": "Cicerō, cōnsul annō 63 a.C.n., dētēxit coniūrātiōnem Catilīnae.", "answer": true, "explanation": "Eventus historicus authenticus." },
+        { "id": "cic24", "statement": "Catilīna, postquam accūsātus est, senātuī līberē respondit.", "answer": false, "explanation": "'Nec quicquam respondere posset... ex urbe fugit.'" },
+        { "id": "cic25", "statement": "Stīlus Cicerōniānus nōtus est prō sententiīs longīs et clausulīs concatenātīs.", "answer": true, "explanation": "Trait signaturum stili Ciceroniani." },
+        { "id": "cic26", "statement": "Verba 'Quousque tandem abūtēre, Catilīna, patientiā nostrā?' sunt authentica Cicerōnis.", "answer": true, "explanation": "Apertura ipsius Orationis In Catilinam I." }
+      ]
     }
   ],
   "summary": [
