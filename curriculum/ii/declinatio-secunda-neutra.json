@@ -96,6 +96,36 @@
           { "left": "periculum", "right": "danger" }
         ], "explanation": "Vocabularium neutrum frequens, utile per totum cursum." }
       ]
+    },
+    {
+      "id": "ii-decl3-fill2", "type": "fill-blank", "title": "Amplius Comple cum Casu Recto",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "d3-11", "prompt": "Dono ___ magnum do. (to the town — dativus)", "options": ["oppido", "oppidum", "oppidi"], "answers": ["oppido"], "explanation": "Obiectum indirectum: dativus." },
+        { "id": "d3-12", "prompt": "___ multa timemus. (dangers — accusativus pluralis)", "options": ["Pericula", "Periculum", "Periculorum"], "answers": ["Pericula"], "explanation": "Neutrum plurale: accusativus = nominativus." },
+        { "id": "d3-13", "prompt": "Templa ___ magna sunt. (of the town — genetivus)", "options": ["oppidi", "oppido", "oppida"], "answers": ["oppidi"], "explanation": "Possessio: genetivus." },
+        { "id": "d3-14", "prompt": "Praemia ___ pueris damus. (good — neutrum plurale)", "options": ["bona", "bonus", "bonorum"], "answers": ["bona"], "explanation": "Neutrum plurale: -a." },
+        { "id": "d3-15", "prompt": "In ___ habito. (temple — ablativus)", "options": ["templo", "templum", "templi"], "answers": ["templo"], "explanation": "Ablativus cum 'in'." }
+      ]
+    },
+    {
+      "id": "ii-decl3-mc", "type": "multiple-choice", "title": "Amplius de Neutris",
+      "items": [
+        { "id": "d3-16", "prompt": "Dativus/ablativus pluralis neutrorum secundae declinationis desinit in:", "options": ["-īs", "-a", "-ōrum"], "answerIndex": 0, "explanation": "Identicum masculino/femininio: -īs." },
+        { "id": "d3-17", "prompt": "Quod verbum neutrum significat 'gift'?", "options": ["donum", "bellum", "verbum"], "answerIndex": 0, "explanation": "Donum = gift." },
+        { "id": "d3-18", "prompt": "'Consilium' significat:", "options": ["plan/advice", "danger", "reward"], "answerIndex": 0, "explanation": "Consilium = plan/advice." },
+        { "id": "d3-19", "prompt": "Genetivus pluralis neutrorum secundae declinationis desinit in:", "options": ["-ōrum", "-a", "-īs"], "answerIndex": 0, "explanation": "Identicum masculino: -ōrum." },
+        { "id": "d3-20", "prompt": "Quod significat 'praemium'?", "options": ["reward", "town", "temple"], "answerIndex": 0, "explanation": "Praemium = reward." }
+      ]
+    },
+    {
+      "id": "ii-decl3-tf2", "type": "true-false", "title": "Amplius Verum an Falsum",
+      "items": [
+        { "id": "d3-21", "statement": "Ablativus singularis neutrorum secundae declinationis desinit in '-ō'.", "answer": true, "explanation": "bellō, templō, oppidō." },
+        { "id": "d3-22", "statement": "Nominativus pluralis neutrorum est identicus genetivo singulari.", "answer": false, "explanation": "Nominativus pluralis (-a) differt a genetivo singulari (-ī)." },
+        { "id": "d3-23", "statement": "'Studium' significat 'zeal/study'.", "answer": true, "explanation": "Studium = zeal/study." },
+        { "id": "d3-24", "statement": "In omni declinatione Latina, neutra habent nominativum diversum ab accusativo.", "answer": false, "explanation": "Regula neutra universalis: nominativus = accusativus, semper." }
+      ]
     }
   ],
   "summary": [

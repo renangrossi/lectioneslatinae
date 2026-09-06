@@ -85,6 +85,48 @@
         { "id": "conj6", "prompt": "Fessus erat; ___ laboravit. (nevertheless)", "options": ["nam", "tamen", "vel"], "answers": ["tamen"], "explanation": "Concessio: tamen." },
         { "id": "conj7", "prompt": "Non veniet; aeger ___ est. (for)", "options": ["enim", "sed", "aut"], "answers": ["enim"], "explanation": "Causa, postpositivum: enim." }
       ]
+    },
+    {
+      "id": "ii-conj-fill2", "type": "fill-blank", "title": "Amplius Comple cum Coniunctione",
+      "instructions": "Elige coniunctionem rectam.",
+      "items": [
+        { "id": "conj8", "prompt": "Fortis ___ sapiens erat. (and moreover — atque)", "options": ["et", "atque", "aut"], "answers": ["atque"], "explanation": "Emphasis maior: atque." },
+        { "id": "conj9", "prompt": "Vīnum ___ aquam bibe. (or, either fine — vel)", "options": ["aut", "vel", "et"], "answers": ["vel"], "explanation": "Inclusivum: vel." },
+        { "id": "conj10", "prompt": "Aut vincēs ___ moriēris. (or — exclusivum)", "options": ["aut", "vel", "et"], "answers": ["aut"], "explanation": "Exclusivum, correlatum: aut...aut." },
+        { "id": "conj11", "prompt": "Parvus ___ fortis est. (but)", "options": ["sed", "et", "nam"], "answers": ["sed"], "explanation": "Contrastum: sed." },
+        { "id": "conj12", "prompt": "Fessus erat; ___ labōrāvit. (nevertheless)", "options": ["tamen", "enim", "vel"], "answers": ["tamen"], "explanation": "Concessio: tamen." },
+        { "id": "conj13", "prompt": "Nōn veniet; aeger ___ est. (for, postpositive)", "options": ["enim", "nam", "sed"], "answers": ["enim"], "explanation": "Causa, postpositivum: enim." },
+        { "id": "conj14", "prompt": "Puer et puella lūdunt; magistra ___ eōs spectat. (and, general)", "options": ["et", "aut", "tamen"], "answers": ["et"], "explanation": "Coniunctio generalis: et." },
+        { "id": "conj15", "prompt": "Pater mātr___ veniunt. (and — enclitic -que)", "options": ["-que", "et", "sed"], "answers": ["-que"], "explanation": "-que suffigitur ad finem secundi verbi." },
+        { "id": "conj16", "prompt": "Nōn sōlum fortis ___ etiam sapiēns est. (but also)", "options": ["sed", "et", "aut"], "answers": ["sed"], "explanation": "Nōn sōlum...sed etiam = not only...but also." }
+      ]
+    },
+    {
+      "id": "ii-conj-mc2", "type": "multiple-choice", "title": "Amplius de Coniunctionibus",
+      "items": [
+        { "id": "conj17", "prompt": "'Atque' additur emphasi maiōre quam:", "options": ["et", "aut", "tamen"], "answerIndex": 0, "explanation": "atque = and, cum emphasi maiore." },
+        { "id": "conj18", "prompt": "'Vel' est coniunctio disiunctiva:", "options": ["exclusiva", "inclusiva", "adversativa"], "answerIndex": 1, "explanation": "vel = inclusive or." },
+        { "id": "conj19", "prompt": "'Aut...aut' significat:", "options": ["ambō simul", "ūnum ex duōbus, nōn ambō", "neutrum"], "answerIndex": 1, "explanation": "aut...aut = exclusive or." },
+        { "id": "conj20", "prompt": "'Enim' est particula:", "options": ["prīma in clausulā", "postpositīva", "sōlum interrogātīva"], "answerIndex": 1, "explanation": "enim numquam incohat clausulam." },
+        { "id": "conj21", "prompt": "'Nam' introducit:", "options": ["causam", "consequentiam", "tempus"], "answerIndex": 0, "explanation": "nam = for, causal." },
+        { "id": "conj22", "prompt": "'-que' scribitur:", "options": ["seorsum ante verbum", "suffixum ad fīnem verbī", "sōlum in initiō sententiae"], "answerIndex": 1, "explanation": "-que est enclyticum." },
+        { "id": "conj23", "prompt": "'Tamen' saepe sequitur:", "options": ["clausulam concessīvam", "clausulam causālem", "nūllam clausulam"], "answerIndex": 0, "explanation": "tamen post concessionem." },
+        { "id": "conj24", "prompt": "'Sed' exprimit:", "options": ["contrastum dīrēctum", "causam", "tempus"], "answerIndex": 0, "explanation": "sed = but, direct contrast." },
+        { "id": "conj25", "prompt": "'Nōn sōlum...sed etiam' significat:", "options": ["not only...but also", "neither...nor", "either...or"], "answerIndex": 0, "explanation": "Correlativum: not only...but also." }
+      ]
+    },
+    {
+      "id": "ii-conj-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "conj26", "statement": "'-que' potest scrībī ut verbum sēparātum.", "answer": false, "explanation": "-que est semper enclyticum, suffixum." },
+        { "id": "conj27", "statement": "'Aut' est disiunctiva exclūsiva.", "answer": true, "explanation": "aut exprimit optiones se excludentes." },
+        { "id": "conj28", "statement": "'Vel' permittit ambās optiōnēs simul.", "answer": true, "explanation": "vel est inclusivum." },
+        { "id": "conj29", "statement": "'Enim' potest incohāre clausulam.", "answer": false, "explanation": "enim est postpositivum." },
+        { "id": "conj30", "statement": "'Tamen' exprimit concessiōnem.", "answer": true, "explanation": "tamen = nevertheless." },
+        { "id": "conj31", "statement": "'Atque' est synōnymum perfectum verbī 'et', sine differentiā emphasis.", "answer": false, "explanation": "atque adfert emphasim maiorem." },
+        { "id": "conj32", "statement": "'Nam' et 'enim' ambō intrōdūcunt causam.", "answer": true, "explanation": "Ambo sunt coniunctiones causales." },
+        { "id": "conj33", "statement": "'Sed' et 'tamen' ambō possunt exprimere contrastum.", "answer": true, "explanation": "Ambo signant oppositionem, tamen post concessionem." }
+      ]
     }
   ],
   "summary": [

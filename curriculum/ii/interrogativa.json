@@ -86,6 +86,40 @@
           { "left": "quō?", "right": "to where?" }
         ], "explanation": "Adverbia interrogativa frequentia — nota differentiam inter ubi/unde/quō (loci)." }
       ]
+    },
+    {
+      "id": "ii-int-fill", "type": "fill-blank", "title": "Comple cum Forma Interrogativa",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "int7", "prompt": "___ vocat mē? (Who calls me? — quis)", "options": ["Quis", "Quid", "Cuius"], "answers": ["Quis"], "explanation": "Quis = who, pro personis." },
+        { "id": "int8", "prompt": "___ vidēs? (What do you see? — quid)", "options": ["Quis", "Quid", "Cui"], "answers": ["Quid"], "explanation": "Quid = what, pro rebus." },
+        { "id": "int9", "prompt": "Cum ___ loqueris? (With whom? — abl. quo)", "options": ["quo", "quem", "cui"], "answers": ["quo"], "explanation": "Ablativus post 'cum': quō." },
+        { "id": "int10", "prompt": "___ librum vīs? (Whose book? — cuius)", "options": ["cuius", "cui", "quem"], "answers": ["cuius"], "explanation": "Genetivus: cuius." },
+        { "id": "int11", "prompt": "___ dās hunc librum? (To whom? — dat. cui)", "options": ["cui", "quem", "quo"], "answers": ["cui"], "explanation": "Dativus: cui." },
+        { "id": "int12", "prompt": "___ vocās? (Whom do you call? — acc. quem)", "options": ["quem", "quis", "cui"], "answers": ["quem"], "explanation": "Accusativus: quem." }
+      ]
+    },
+    {
+      "id": "ii-int-mc2", "type": "multiple-choice", "title": "Amplius de Interrogativis",
+      "items": [
+        { "id": "int13", "prompt": "'Quem vidēs?' significat:", "options": ["Who sees?", "Whom do you see?", "What do you see?"], "answerIndex": 1, "explanation": "quem = accusativus, whom." },
+        { "id": "int14", "prompt": "'Ubi' interrogat de:", "options": ["loco (place)", "tempore (time)", "modo (manner)"], "answerIndex": 0, "explanation": "ubi = where." },
+        { "id": "int15", "prompt": "'Quandō' interrogat de:", "options": ["loco", "tempore", "causa"], "answerIndex": 1, "explanation": "quando = when." },
+        { "id": "int16", "prompt": "'Quōmodo' interrogat de:", "options": ["modo (how)", "loco", "numero"], "answerIndex": 0, "explanation": "quomodo = how." },
+        { "id": "int17", "prompt": "Forma genetiva verbi 'quis' est:", "options": ["cuius", "cui", "quem"], "answerIndex": 0, "explanation": "cuius, idem sicut pronomen relativum." },
+        { "id": "int18", "prompt": "Forma dativa verbi 'quis' est:", "options": ["cui", "cuius", "quo"], "answerIndex": 0, "explanation": "cui, idem sicut pronomen relativum." }
+      ]
+    },
+    {
+      "id": "ii-int-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "int19", "statement": "'-ne' semper implicat responsum negativum exspectatum.", "answer": false, "explanation": "'-ne' est neutrum, nullum responsum exspectans." },
+        { "id": "int20", "statement": "'Num' exspectat responsum negativum.", "answer": true, "explanation": "num = expecting 'no'." },
+        { "id": "int21", "statement": "'Nōnne' exspectat responsum affirmativum.", "answer": true, "explanation": "nonne = expecting 'yes'." },
+        { "id": "int22", "statement": "'Quis' declinatur sicut pronomen relativum in genetivo/dativo (cuius/cui).", "answer": true, "explanation": "Formae communes: cuius, cui." },
+        { "id": "int23", "statement": "'Quot' est declinabile secundum casum.", "answer": false, "explanation": "quot est indeclinabile." },
+        { "id": "int24", "statement": "Verba interrogativa semper stant in fine sententiae Latinae.", "answer": false, "explanation": "Plerumque stant in initio sententiae." }
+      ]
     }
   ],
   "summary": [

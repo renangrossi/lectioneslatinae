@@ -95,6 +95,31 @@
         { "id": "acc7", "prompt": "Iulia ___ videt. (Marcus — Marcum)", "options": ["Marcus", "Marcum", "Marco"], "answers": ["Marcum"], "explanation": "Obiectum directum: accusativus." },
         { "id": "acc8", "prompt": "Marcus Iuliam ___ docet. (Greek — Graecam linguam)", "options": ["Graeca lingua", "Graecam linguam", "Graecae linguae"], "answers": ["Graecam linguam"], "explanation": "Secundus accusativus in constructione duplici." }
       ]
+    },
+    {
+      "id": "ii-acc-fill2", "type": "fill-blank", "title": "Amplius Comple cum Accusativo",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "acc9", "prompt": "___ annos Romae habitavit. (for many years)", "options": ["Multos", "Multis", "Multorum"], "answers": ["Multos"], "explanation": "Duratio: accusativus sine praepositione." },
+        { "id": "acc10", "prompt": "Nos ___ ambulamus. (a thousand paces)", "options": ["mille passus", "mille passibus", "mille passuum"], "answers": ["mille passus"], "explanation": "Extensio spatii: accusativus." },
+        { "id": "acc11", "prompt": "Magister discipulum ___ rogat. (a question)", "options": ["sententiam", "sententiae", "sententia"], "answers": ["sententiam"], "explanation": "Secundus accusativus, constructio duplex cum rogo." }
+      ]
+    },
+    {
+      "id": "ii-acc-mc2", "type": "multiple-choice", "title": "Amplius de Accusativo",
+      "items": [
+        { "id": "acc12", "prompt": "Quod verbum, praeter doceo, potest regere obiectum duplex?", "options": ["rogo", "sum", "venio"], "answerIndex": 0, "explanation": "Rogo regit personam et rem, ambo accusativo." },
+        { "id": "acc13", "prompt": "'Multos annos' sine praepositione exprimit:", "options": ["durationem", "locum", "possessionem"], "answerIndex": 0, "explanation": "Duratio temporis: accusativus." },
+        { "id": "acc14", "prompt": "Accusativus extensionis spatii respondet quaestioni:", "options": ["quam longe?", "cuius?", "ubi?"], "answerIndex": 0, "explanation": "Extensio spatii: 'how far?'." }
+      ]
+    },
+    {
+      "id": "ii-acc-tf2", "type": "true-false", "title": "Amplius Verum an Falsum",
+      "items": [
+        { "id": "acc15", "statement": "Duratio temporis in Latina exprimitur accusativo sine praepositione.", "answer": true, "explanation": "Duas horas student — nulla praepositio." },
+        { "id": "acc16", "statement": "'Doceo' regit solum unum accusativum.", "answer": false, "explanation": "Doceo regit duos accusativos: personam et rem." },
+        { "id": "acc17", "statement": "Accusativus potest exprimere obiectum directum, durationem, et extensionem spatii.", "answer": true, "explanation": "Tres usus discussi in hac lectione." }
+      ]
     }
   ],
   "summary": [

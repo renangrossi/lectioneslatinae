@@ -85,6 +85,42 @@
         { "id": "poss6", "prompt": "Puer ___ canem amat. (his own — suum)", "options": ["eius", "suum", "suus"], "answers": ["suum"], "explanation": "Reflexivum, accusativum masculinum singulare: suum." },
         { "id": "poss7", "prompt": "___ patria pulchra est. (Our — nostra)", "options": ["noster", "nostra", "nostrum"], "answers": ["nostra"], "explanation": "Femininum: nostra patria." }
       ]
+    },
+    {
+      "id": "ii-poss-fill2", "type": "fill-blank", "title": "Amplius Comple cum Possessivo",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "poss8", "prompt": "___ pater sapiens est. (Your, sg.)", "options": ["Tuus", "Tua", "Tuum"], "answers": ["Tuus"], "explanation": "Masculinum: tuus pater." },
+        { "id": "poss9", "prompt": "Puella ___ matrem videt. (her own)", "options": ["suam", "eius", "suus"], "answers": ["suam"], "explanation": "Reflexivum, femininum accusativum: suam." },
+        { "id": "poss10", "prompt": "___ liber magnus est. (Our)", "options": ["Noster", "Nostra", "Nostrum"], "answers": ["Noster"], "explanation": "Masculinum: noster liber." },
+        { "id": "poss11", "prompt": "___ amici veniunt. (Your, pl.)", "options": ["Vestri", "Vester", "Vestrum"], "answers": ["Vestri"], "explanation": "Masculinum plurale: vestri amici." },
+        { "id": "poss12", "prompt": "Marcus ___ canem videt. (his own dog)", "options": ["suum", "eius", "suus"], "answers": ["suum"], "explanation": "Reflexivum, masculinum accusativum: suum." },
+        { "id": "poss13", "prompt": "Vidistine ___ librum? (his — of another person)", "options": ["eius", "suum", "suus"], "answers": ["eius"], "explanation": "Non-reflexivum: eius." },
+        { "id": "poss14", "prompt": "___ filii student. (Our)", "options": ["Nostri", "Noster", "Nostrum"], "answers": ["Nostri"], "explanation": "Masculinum plurale: nostri filii." }
+      ]
+    },
+    {
+      "id": "ii-poss-mc2", "type": "multiple-choice", "title": "Amplius de Possessivis",
+      "items": [
+        { "id": "poss15", "prompt": "'Suus' refert semper ad:", "options": ["subiectum sententiae", "obiectum sententiae", "personam tertiam absentem"], "answerIndex": 0, "explanation": "Suus est reflexivum, refert ad subiectum." },
+        { "id": "poss16", "prompt": "'Eius' est declinatum a quo pronomine?", "options": ["is, ea, id", "hic, haec, hoc", "ille, illa, illud"], "answerIndex": 0, "explanation": "Eius = genetivus de is/ea/id." },
+        { "id": "poss17", "prompt": "Nominativus masculinus singularis verbi 'noster' est:", "options": ["noster", "nosterus", "nostrus"], "answerIndex": 0, "explanation": "Noster, sine desinentia -us." },
+        { "id": "poss18", "prompt": "Quae forma amittitur in 'noster' extra nominativum/vocativum masculinum singularem?", "options": ["e", "o", "u"], "answerIndex": 0, "explanation": "Nostra, nostrum — 'e' cadit, sicut ager." },
+        { "id": "poss19", "prompt": "'Puella eius canem videt' significat:", "options": ["The girl sees his/her (someone else's) dog", "The girl sees her own dog", "The girl sees a dog"], "answerIndex": 0, "explanation": "Eius, non-reflexivum." },
+        { "id": "poss20", "prompt": "Latina saepe omittit pronomen possessivum quando:", "options": ["contextus iam clarus est", "numquam, semper explicitum est", "solum in poesi"], "answerIndex": 0, "explanation": "Omissio est communis quando non ambiguum." },
+        { "id": "poss21", "prompt": "'Vester' significat:", "options": ["your (plural)", "your (singular)", "our"], "answerIndex": 0, "explanation": "Vester = your (plural, i.e. of you all)." }
+      ]
+    },
+    {
+      "id": "ii-poss-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "poss22", "statement": "'Suus' et 'eius' sunt interscambiabiles, sine differentia.", "answer": false, "explanation": "Distinctio crucialis: suus (reflexivum) vs. eius (non-reflexivum)." },
+        { "id": "poss23", "statement": "Vocativus verbi 'meus' est 'mī', non 'mee'.", "answer": true, "explanation": "Forma irregularis mī." },
+        { "id": "poss24", "statement": "Noster/vester sequuntur patronum -er cum 'e' servata, ut puer.", "answer": false, "explanation": "Amittunt 'e', sicut ager." },
+        { "id": "poss25", "statement": "Pronomina possessiva declinantur ut bonus, -a, -um.", "answer": true, "explanation": "Sequuntur patronum adiectivorum primae/secundae classis." },
+        { "id": "poss26", "statement": "Latina praefert semper explicitare pronomen possessivum, etiam ubi contextus est clarus.", "answer": false, "explanation": "Latina saepe omittit possessivum ubi non ambiguum." },
+        { "id": "poss27", "statement": "'Eius' refert ad aliam personam, non ad subiectum clausulae.", "answer": true, "explanation": "Distinctio centralis huius lectionis." }
+      ]
     }
   ],
   "summary": [

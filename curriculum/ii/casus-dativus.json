@@ -82,6 +82,35 @@
         { "id": "dat7", "prompt": "Milites duci ___. (obey — pareo)", "options": ["parent", "parant", "parunt"], "answers": ["parent"], "explanation": "3a persona pluralis, secunda coniugatio: parent." },
         { "id": "dat8", "prompt": "___ sunt multi amici. (Marcus has — Marco)", "options": ["Marcus", "Marcum", "Marcō"], "answers": ["Marcō"], "explanation": "Dativus possessionis: Marcō sunt... = Marcus has..." }
       ]
+    },
+    {
+      "id": "ii-dat-fill2", "type": "fill-blank", "title": "Amplius Comple cum Dativo",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "dat9", "prompt": "Puer ___ persuadet. (persuades his mother)", "options": ["matri", "matrem", "matris"], "answers": ["matri"], "explanation": "Persuadeo regit dativum." },
+        { "id": "dat10", "prompt": "___ sunt duo filii. (The father has two sons)", "options": ["Patri", "Pater", "Patrem"], "answers": ["Patri"], "explanation": "Dativus possessionis." },
+        { "id": "dat11", "prompt": "Nemo ___ nocet. (harms us)", "options": ["nobis", "nos", "nostri"], "answers": ["nobis"], "explanation": "Noceo regit dativum." },
+        { "id": "dat12", "prompt": "Ego ___ ignosco. (I forgive you)", "options": ["tibi", "te", "tui"], "answers": ["tibi"], "explanation": "Ignosco regit dativum." }
+      ]
+    },
+    {
+      "id": "ii-dat-mc2", "type": "multiple-choice", "title": "Amplius de Dativo",
+      "items": [
+        { "id": "dat13", "prompt": "'Persuadeo' regit casum:", "options": ["dativum", "accusativum", "genetivum"], "answerIndex": 0, "explanation": "Verbum speciale cum dativo." },
+        { "id": "dat14", "prompt": "'Studeo' regit casum:", "options": ["dativum", "accusativum", "ablativum"], "answerIndex": 0, "explanation": "Studeo regit dativum." },
+        { "id": "dat15", "prompt": "'Faveo' significat:", "options": ["to favor", "to fear", "to forget"], "answerIndex": 0, "explanation": "Faveo = to favor, regit dativum." },
+        { "id": "dat16", "prompt": "'Resisto' regit casum:", "options": ["dativum", "accusativum", "genetivum"], "answerIndex": 0, "explanation": "Resisto regit dativum." },
+        { "id": "dat17", "prompt": "Quod verbum significat 'to command'?", "options": ["impero", "paro", "peto"], "answerIndex": 0, "explanation": "Impero regit dativum." }
+      ]
+    },
+    {
+      "id": "ii-dat-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "dat18", "statement": "Verba speciālia ut pareo, noceo, placeo regunt dativum, non accusativum.", "answer": true, "explanation": "Regula centralis huius lectionis." },
+        { "id": "dat19", "statement": "'Mihi est canis' significat 'the dog is afraid of me'.", "answer": false, "explanation": "Significat 'I have a dog'." },
+        { "id": "dat20", "statement": "'Credo' regit dativum.", "answer": true, "explanation": "Tibi credo = I trust you." },
+        { "id": "dat21", "statement": "Dativus respondet quaestioni 'cui?' (to/for whom).", "answer": true, "explanation": "Functio centralis dativi." }
+      ]
     }
   ],
   "summary": [

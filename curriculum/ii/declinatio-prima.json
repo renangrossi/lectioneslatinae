@@ -110,6 +110,37 @@
         { "id": "d1-9", "prompt": "Quod verbum est exceptio masculina primae declinationis?", "options": ["puella", "agricola", "aqua"], "answerIndex": 1, "explanation": "agricola (farmer) est masculinum propter significationem naturalem." },
         { "id": "d1-10", "prompt": "Genetivus singularis et dativus singularis primae declinationis:", "options": ["semper differunt in forma", "sunt forma identici (rosae)", "numquam exsistunt simul"], "answerIndex": 1, "explanation": "Ambo sunt 'rosae' — contextus distinguit officium, sicut in 'rosae Iuliae sunt' (genetivus) vs. 'Iulia rosae aquam dat' (dativus)." }
       ]
+    },
+    {
+      "id": "ii-decl1-fill2", "type": "fill-blank", "title": "Amplius Comple cum Casu Recto",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "d1-14", "prompt": "___ pulchra est. (The road, nominativus — via)", "options": ["Via", "Viam", "Viae"], "answers": ["Via"], "explanation": "Subiectum: nominativus." },
+        { "id": "d1-15", "prompt": "Magistra ___ librum dat. (to the girls — dativus pluralis)", "options": ["puellae", "puellis", "puellarum"], "answers": ["puellis"], "explanation": "Obiectum indirectum pluralis: dativus." },
+        { "id": "d1-16", "prompt": "___ multi in agro sunt. (Farmers — nominativus pluralis)", "options": ["Agricolae", "Agricolas", "Agricolarum"], "answers": ["Agricolae"], "explanation": "Nominativus pluralis: agricolae, quamvis genus sit masculinum." },
+        { "id": "d1-17", "prompt": "Ego ___ amo. (I love life — accusativus)", "options": ["vita", "vitam", "vitae"], "answers": ["vitam"], "explanation": "Obiectum directum: accusativus." },
+        { "id": "d1-18", "prompt": "Domus ___ magna est. (of the farmer — genetivus)", "options": ["agricola", "agricolae", "agricolam"], "answers": ["agricolae"], "explanation": "Possessio: genetivus." }
+      ]
+    },
+    {
+      "id": "ii-decl1-mc2", "type": "multiple-choice", "title": "Amplius de Declinatione Prima",
+      "items": [
+        { "id": "d1-19", "prompt": "Quod casum indicat desinentia '-ārum' in prima declinatione?", "options": ["genetivus pluralis", "dativus singularis", "accusativus singularis"], "answerIndex": 0, "explanation": "rosārum = genetivus pluralis." },
+        { "id": "d1-20", "prompt": "Quod casum indicat desinentia '-īs' in prima declinatione?", "options": ["dativus/ablativus pluralis", "nominativus singularis", "genetivus singularis"], "answerIndex": 0, "explanation": "rosīs = dativus vel ablativus pluralis." },
+        { "id": "d1-21", "prompt": "'Nauta' (sailor) est genere:", "options": ["masculinum", "femininum", "neutrum"], "answerIndex": 0, "explanation": "Sicut agricola, masculinum propter significationem naturalem." },
+        { "id": "d1-22", "prompt": "Vocativus singularis verbi 'rosa' est:", "options": ["rosa", "rosam", "rosae"], "answerIndex": 0, "explanation": "Vocativus = nominativus in prima declinatione singulari." },
+        { "id": "d1-23", "prompt": "Quot casus habet declinatio Latina?", "options": ["sex", "quattuor", "octo"], "answerIndex": 0, "explanation": "Nominativus, genetivus, dativus, accusativus, ablativus, vocativus." }
+      ]
+    },
+    {
+      "id": "ii-decl1-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "d1-24", "statement": "Genetivus singularis et dativus singularis primae declinationis sunt forma identici.", "answer": true, "explanation": "Ambo sunt 'rosae'." },
+        { "id": "d1-25", "statement": "Omnia nomina primae declinationis sunt feminina, sine ulla exceptione.", "answer": false, "explanation": "Agricola, nauta, poeta sunt exceptiones masculinae." },
+        { "id": "d1-26", "statement": "Accusativus pluralis primae declinationis desinit in '-ās'.", "answer": true, "explanation": "rosa → rosās." },
+        { "id": "d1-27", "statement": "'Puella' est nomen masculinum.", "answer": false, "explanation": "Puella est femininum, sicut fere omnia nomina primae declinationis." },
+        { "id": "d1-28", "statement": "Ablativus singularis 'rosā' differt a nominativo 'rosa' sola quantitate vocalis.", "answer": true, "explanation": "Nominativus habet 'a' brevem, ablativus 'ā' longam." }
+      ]
     }
   ],
   "summary": [
