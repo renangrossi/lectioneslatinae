@@ -97,6 +97,35 @@
           { "left": "bis", "right": "twice" }
         ], "explanation": "Distributivi, multiplicativi, et adverbia numeralia servunt functionibus distinctis." }
       ]
+    },
+    {
+      "id": "vi-num3-fill", "type": "fill-blank", "title": "Comple cum Numero Litterario",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "num3-5", "prompt": "___ militibus praemia data sunt. (one each — singulis)", "options": ["singulis", "uni", "unis"], "answers": ["singulis"], "explanation": "Distributivus: singuli, one each." },
+        { "id": "num3-6", "prompt": "Pretium ___ est. (double — duplum)", "options": ["duplex", "duplum", "bini"], "answers": ["duplum"], "explanation": "Numerus proportionalis: duplus, -a, -um." },
+        { "id": "num3-7", "prompt": "___ in diē ad templum ibat. (three times — ter)", "options": ["ter", "terni", "triplex"], "answers": ["ter"], "explanation": "Adverbium numerale: ter." },
+        { "id": "num3-8", "prompt": "___ castra facta sunt. (two each — bina)", "options": ["duo", "bina", "bis"], "answers": ["bina"], "explanation": "Distributivus obligatorius cum plurale tantum." },
+        { "id": "num3-9", "prompt": "Praemium ___ accepit. (threefold — triplex)", "options": ["triplex", "triplus", "ter"], "answers": ["triplex"], "explanation": "Numerus multiplicativus: triplex." }
+      ]
+    },
+    {
+      "id": "vi-num3-mc2", "type": "multiple-choice", "title": "Amplius de Numeris Litterariis",
+      "items": [
+        { "id": "num3-10", "prompt": "'Semel, bis, ter' sunt:", "options": ["adverbia numeralia", "numeri distributivi", "numeri multiplicativi"], "answerIndex": 0, "explanation": "Modificant actiones repetitas, non nomina." },
+        { "id": "num3-11", "prompt": "'Duplus, triplus' (proportionales) differunt ab 'duplex, triplex' (multiplicativi) quia:", "options": ["duplus/triplus modificant magnitudinem comparate, duplex/triplex intensitatem/qualitatem", "sunt identici", "numquam adhibentur"], "answerIndex": 0, "explanation": "Distinctio semantica subtilis." },
+        { "id": "num3-12", "prompt": "Numerus distributivus est obligatorius cum:", "options": ["pluralia tantum (castra, arma)", "omni nomine plurali", "nullo nomine"], "answerIndex": 0, "explanation": "Regula grammatica fixa." },
+        { "id": "num3-13", "prompt": "'Consules singulis annis creabantur' significat:", "options": ["one pair of consuls elected each year", "two consuls elected only once", "no consuls elected"], "answerIndex": 0, "explanation": "Distributivus: 'each year'." }
+      ]
+    },
+    {
+      "id": "vi-num3-tf2", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "num3-14", "statement": "Numeri multiplicativi significant '-fold' (duplex, triplex).", "answer": true, "explanation": "Twofold, threefold, etc." },
+        { "id": "num3-15", "statement": "Numeri distributivi sunt optionales cum pluralia tantum.", "answer": false, "explanation": "Sunt obligatorii, non optionales." },
+        { "id": "num3-16", "statement": "'Bini' significat 'two each', numerus distributivus.", "answer": true, "explanation": "Distributivus classicus." },
+        { "id": "num3-17", "statement": "Adverbia numeralia (semel, bis, ter) modificant nomina, non actiones.", "answer": false, "explanation": "Modificant verba/actiones repetitas." }
+      ]
     }
   ],
   "summary": [

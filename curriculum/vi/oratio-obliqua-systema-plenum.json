@@ -82,6 +82,41 @@
         { "id": "oo4", "prompt": "Dixit milites, qui fortiter ___, praemium accepturos esse. (had fought — pugnavissent)", "options": ["pugnaverant", "pugnavissent", "pugnabant"], "answers": ["pugnavissent"], "explanation": "Coniunctivus obliquus, plusquamperfectus." },
         { "id": "oo5", "prompt": "Negavit se scire quid ___ essent. (they were going to do — facturi)", "options": ["facturi", "fecissent", "facientes"], "answers": ["facturi"], "explanation": "Coniunctivus obliquus futurus (periphrasticum + essent)." }
       ]
+    },
+    {
+      "id": "vi-oo-fill2", "type": "fill-blank", "title": "Amplius Comple Oratio Obliqua",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "oo6", "prompt": "Dixit urbem, quae diu ___ esset, tandem captam esse. (had been besieged — obsessa)", "options": ["obsessa", "obsessam", "obsessae"], "answers": ["obsessa"], "explanation": "Coniunctivus obliquus, clausula relativa." },
+        { "id": "oo7", "prompt": "Dixit se nescire quō ___ (where they were going — irent)", "options": ["irent", "ierant", "eunt"], "answers": ["irent"], "explanation": "Interrogatio obliqua, coniunctivus imperfectus." },
+        { "id": "oo8", "prompt": "Dixit milites, qui urbem ___, praemium accepturos esse. (had captured — cepissent)", "options": ["ceperant", "cepissent", "capiebant"], "answers": ["cepissent"], "explanation": "Coniunctivus obliquus plusquamperfectus, clausula relativa." },
+        { "id": "oo9", "prompt": "Respondit se, sī hostēs ___, nōn pugnātūrum esse. (if the enemies fled — fugerent)", "options": ["fugerent", "fugerant", "fugiunt"], "answers": ["fugerent"], "explanation": "Clausula condicionalis intra oratione obliqua." },
+        { "id": "oo10", "prompt": "Dixit epistulam statim ___ esse. (must be sent — mittendam)", "options": ["mittenda", "mittendam", "mittendum"], "answers": ["mittendam"], "explanation": "Gerundivum concordans cum 'epistulam' (fem. acc.) intra AcI." },
+        { "id": "oo11", "prompt": "Rogavit ubi ___ (where they were — essent)", "options": ["essent", "sunt", "erant"], "answers": ["essent"], "explanation": "Interrogatio obliqua, coniunctivus." }
+      ]
+    },
+    {
+      "id": "vi-oo-mc2", "type": "multiple-choice", "title": "Amplius de Oratione Obliqua",
+      "items": [
+        { "id": "oo12", "prompt": "In interrogatione obliqua, verbum semper fit:", "options": ["coniunctivus", "indicativus", "imperativus"], "answerIndex": 0, "explanation": "Regula universalis." },
+        { "id": "oo13", "prompt": "'Rogavit ubi essent' exemplificat:", "options": ["interrogationem obliquam", "AcI", "imperativum obliquum"], "answerIndex": 0, "explanation": "Verbum interrogandi + coniunctivus." },
+        { "id": "oo14", "prompt": "Imperativa obliqua vertuntur per:", "options": ["ut/ne + coniunctivus", "infinitivum simplex", "indicativum"], "answerIndex": 0, "explanation": "Ordo/prohibitio reportata." },
+        { "id": "oo15", "prompt": "'Dixit id faciendum esse' combinat AcI cum:", "options": ["coniugatione periphrastica passiva (gerundivum + esse)", "imperativo", "interrogatione obliqua"], "answerIndex": 0, "explanation": "Gerundivum intra AcI." },
+        { "id": "oo16", "prompt": "Clausula relativa intra oratione obliqua fit:", "options": ["coniunctiva (obliqua)", "semper indicativa", "imperativa"], "answerIndex": 0, "explanation": "Regula universalis, sine exceptione." },
+        { "id": "oo17", "prompt": "Strategia lectionis passum longum exigit prīmō:", "options": ["identificare verbum dicendi principale", "tradere verbum ultimum", "ignorare infinitivos"], "answerIndex": 0, "explanation": "Fundamentum interpretationis." },
+        { "id": "oo18", "prompt": "'Caesar dixit se, si Helvetii transirent, bellum facturum esse' combinat:", "options": ["AcI + clausula condicionalis coniunctiva obliqua", "solum AcI simplicem", "solum interrogationem obliquam"], "answerIndex": 0, "explanation": "Combinatio typica in prosa historica." }
+      ]
+    },
+    {
+      "id": "vi-oo-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "oo19", "statement": "Coniunctivus obliquus applicatur universaliter, sine exceptione pro genere clausulae subordinatae.", "answer": true, "explanation": "Regula fundamentalis huius lectionis." },
+        { "id": "oo20", "statement": "Clausulae relativae intra oratione obliqua manent semper in indicativo.", "answer": false, "explanation": "Fiunt coniunctivae, sicut omnis clausula subordinata." },
+        { "id": "oo21", "statement": "Interrogationes obliquae adhibent semper coniunctivum.", "answer": true, "explanation": "Regula standard." },
+        { "id": "oo22", "statement": "Gerundivum non potest intrare AcI.", "answer": false, "explanation": "Intrat normaliter: dicit id faciendum esse." },
+        { "id": "oo23", "statement": "Prosa historica classica saepe non repetit verbum dicendi per omnem sententiam longam.", "answer": true, "explanation": "Structura debet inferri a lectore." },
+        { "id": "oo24", "statement": "Coniunctivus obliquus est phenomenon exclusivum poesi, non prosae historicae.", "answer": false, "explanation": "Frequentissimus apud Caesarem, Livium." }
+      ]
     }
   ],
   "summary": [

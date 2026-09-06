@@ -82,6 +82,41 @@
         { "id": "ordo4", "prompt": "videt / canem / puer", "words": ["Puer", "canem", "videt"], "explanation": "Ordo neutralis: subiectum, obiectum, verbum." },
         { "id": "ordo5", "prompt": "urbem / defendunt / milites", "words": ["Milites", "urbem", "defendunt"], "explanation": "Ordo neutralis: subiectum, obiectum, verbum." }
       ]
+    },
+    {
+      "id": "vi-ordo-fill", "type": "fill-blank", "title": "Comple secundum Stilum",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "ordo6", "prompt": "___ omnia vincit. (Love conquers all — Amor, initiale pro emphasi)", "options": ["Amor", "Amorem", "Amoris"], "answers": ["Amor"], "explanation": "Nominativus, positio initialis pro emphasi." },
+        { "id": "ordo7", "prompt": "Magnam habet ___. (great courage — virtutem, separata pro emphasi)", "options": ["virtus", "virtutem", "virtutis"], "answers": ["virtutem"], "explanation": "Accusativus, separatio ab 'magnam' crea suspensam." },
+        { "id": "ordo8", "prompt": "Gallia est omnis divisa in partes ___. (three)", "options": ["tres", "tria", "trium"], "answers": ["tres"], "explanation": "Accusativus plurale femininum: tres." },
+        { "id": "ordo9", "prompt": "Multis cum ___ rogavit. (tears — hyperbaton)", "options": ["lacrimas", "lacrimis", "lacrimarum"], "answers": ["lacrimis"], "explanation": "Ablativus, separatum ab 'cum' interposito." },
+        { "id": "ordo10", "prompt": "In prosa neutrali, verbum plerumque venit ___. (last)", "options": ["primum", "ultimum", "medium"], "answers": ["ultimum"], "explanation": "Tendentia SOV: verbum ultimum." },
+        { "id": "ordo11", "prompt": "Enclitica (-que, -ne) semper suffiguntur ___ verbo phrasis. (first)", "options": ["primo", "ultimo", "medio"], "answers": ["primo"], "explanation": "Positio fixa, sine respectu ordinis logici." }
+      ]
+    },
+    {
+      "id": "vi-ordo-mc2", "type": "multiple-choice", "title": "Amplius de Ordine Verborum",
+      "items": [
+        { "id": "ordo12", "prompt": "Positio verbi in principio sententiae saepe portat:", "options": ["emphasim specialem", "nullum significatum", "errorem"], "answerIndex": 0, "explanation": "Positio initialis = emphasis thematica." },
+        { "id": "ordo13", "prompt": "Hyperbaton separat:", "options": ["verba grammatice coniuncta, pro effectu", "subiectum a verbo semper", "nihil, est mythus"], "answerIndex": 0, "explanation": "Instrumentum stilisticum deliberatum." },
+        { "id": "ordo14", "prompt": "'Urbem Romam a principio reges habuere' incipit cum:", "options": ["obiecto", "verbo", "coniunctione"], "answerIndex": 0, "explanation": "Obiectum initiale, pro emphasi." },
+        { "id": "ordo15", "prompt": "In 'Omnia vincit amor', ordo est:", "options": ["obiectum-verbum-subiectum", "subiectum-verbum-obiectum", "verbum-subiectum-obiectum"], "answerIndex": 0, "explanation": "Omnia (obiectum) - vincit (verbum) - amor (subiectum)." },
+        { "id": "ordo16", "prompt": "Ordo verborum Latinus reflectit primarie:", "options": ["emphasim et stilum", "regulas fixas sicut Anglica", "nihil, est aleatorius"], "answerIndex": 0, "explanation": "Casus indicat officium; ordo servit stilo." },
+        { "id": "ordo17", "prompt": "'Gallia est omnis divisa...' incipit cum 'Gallia' quia:", "options": ["est thema totius operis", "est error scribae", "non habet ratione"], "answerIndex": 0, "explanation": "Caesar ponit thema principale primum." },
+        { "id": "ordo18", "prompt": "Applicare ordinem Anglicum (SVO) rigide ad Latinam causat errorem quia:", "options": ["casus, non positio, indicat officium in Latina", "Latina non habet casus", "non existit differentia"], "answerIndex": 0, "explanation": "Confusio systematum causat versiones erroneas." }
+      ]
+    },
+    {
+      "id": "vi-ordo-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "ordo19", "statement": "Ordo verborum Latinus est rigidus sicut Anglicus.", "answer": false, "explanation": "Latina est multo flexibilior, quia casus indicat officium." },
+        { "id": "ordo20", "statement": "Hyperbaton est instrumentum stilisticum legitimum in prosa/poesi classica.", "answer": true, "explanation": "Frequens apud Ciceronem, Vergilium." },
+        { "id": "ordo21", "statement": "Enclitica semper suffigitur ultimo verbo phrasis.", "answer": false, "explanation": "Suffigitur primo verbo, non ultimo." },
+        { "id": "ordo22", "statement": "Positio verbi initialis vel finalis potest portare emphasim.", "answer": true, "explanation": "Positio deliberata est instrumentum rhetoricum." },
+        { "id": "ordo23", "statement": "In Latina, casus grammaticus indicat officium syntacticum, non positio.", "answer": true, "explanation": "Fundamentum totius lectionis." },
+        { "id": "ordo24", "statement": "Auctores classici ordinant verba fortuito, sine ratione stilistica.", "answer": false, "explanation": "Ordo servit semper effectui stilistico deliberato." }
+      ]
     }
   ],
   "summary": [

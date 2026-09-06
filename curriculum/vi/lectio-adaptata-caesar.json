@@ -76,6 +76,36 @@
         { "id": "caes6", "prompt": "'Cōnsiliō captō' est:", "options": ["ablativus absolutus", "genetivus qualitatis", "dativus finalis"], "answerIndex": 0, "explanation": "Nomen + participium perfectum, ambo ablativo." },
         { "id": "caes7", "prompt": "'mūtātūrum erat' est:", "options": ["participium futurum + sum, coniugatio periphrastica activa", "perfectum simplex", "coniunctivus imperfectum"], "answerIndex": 0, "explanation": "Intentio/imminentia futura, in tempore praeterito." }
       ]
+    },
+    {
+      "id": "vi-caes-fill", "type": "fill-blank", "title": "Comple secundum Textum",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "caes8", "prompt": "Caesar exercitum ___ iussus est. (to disband — dimittere)", "options": ["dimittere", "dimissurus", "dimittendum"], "answers": ["dimittere"], "explanation": "Infinitivus post 'iussus est'." },
+        { "id": "caes9", "prompt": "Timuit nē ab eīs ___. (he would be killed — interficeretur)", "options": ["interficeretur", "interfecit", "interficiet"], "answers": ["interficeretur"], "explanation": "Clausula timendi, coniunctivus imperfectus passivus." },
+        { "id": "caes10", "prompt": "___ captō, ad flūmen pervēnit. (the plan having been taken — consilio)", "options": ["consilio", "consilium", "consilii"], "answers": ["consilio"], "explanation": "Ablativus absolutus." },
+        { "id": "caes11", "prompt": "Ālea iacta ___. (is — est)", "options": ["est", "erat", "esset"], "answers": ["est"], "explanation": "Praesens indicativum, verba famosa Caesaris." },
+        { "id": "caes12", "prompt": "Bellum quod rem pūblicam ___ erat. (was going to change — mutaturum)", "options": ["mutaturum", "mutatum", "mutans"], "answers": ["mutaturum"], "explanation": "Participium futurum + erat: periphrastica activa." }
+      ]
+    },
+    {
+      "id": "vi-caes-mc2", "type": "multiple-choice", "title": "Amplius de Textu Caesaris",
+      "items": [
+        { "id": "caes13", "prompt": "'Inimicus' differt ab 'hostis' quia:", "options": ["inimicus est enemy personalis, hostis est enemy publicus/status", "sunt identici", "hostis est amicus"], "answerIndex": 0, "explanation": "Distinctio semantica classica." },
+        { "id": "caes14", "prompt": "'Trāditur' in hoc contextu significat:", "options": ["it is handed down / said (passivum impersonale)", "it is given", "it is betrayed"], "answerIndex": 0, "explanation": "Frequens in historiis antiquis." },
+        { "id": "caes15", "prompt": "Strategia recommendata pro lectione prosae densae est:", "options": ["identificare verbum principale, deinde analysare clausulas subordinatas", "vertere verbum post verbum", "ignorare grammaticam"], "answerIndex": 0, "explanation": "Strategia holistica, non literalis." },
+        { "id": "caes16", "prompt": "'Timuit nē interficerētur' post verbum timendi significat:", "options": ["he feared that he WOULD be killed (timor positivus)", "he feared he would NOT be killed", "nullum timorem expressum"], "answerIndex": 0, "explanation": "Regula specialis clausularum timendi." },
+        { "id": "caes17", "prompt": "Caesar Rubiconem transiit anno:", "options": ["49 a.C.n.", "100 a.C.n.", "44 a.C.n."], "answerIndex": 0, "explanation": "Eventus historicus authenticus." }
+      ]
+    },
+    {
+      "id": "vi-caes-tf2", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "caes18", "statement": "'Cum bella gessisset' est ablativus absolutus.", "answer": false, "explanation": "Est cum historicum + coniunctivus plusquamperfectus, non ablativus absolutus." },
+        { "id": "caes19", "statement": "'Consilio capto' est ablativus absolutus.", "answer": true, "explanation": "Nomen + participium perfectum, ambo ablativo." },
+        { "id": "caes20", "statement": "Post verba timendi, 'nē' significat 'that' (timor positivus), inversum ab usu normali.", "answer": true, "explanation": "Regula specialis, Gradus V." },
+        { "id": "caes21", "statement": "Caesar transiit Rubiconem sine ulla deliberatione previa.", "answer": false, "explanation": "'Diu cogitavit' — diu deliberavit ante decisionem." }
+      ]
     }
   ],
   "summary": [

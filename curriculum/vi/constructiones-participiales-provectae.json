@@ -82,6 +82,38 @@
         { "id": "partadv4", "prompt": "Audivi te ___. (singing — cantantem)", "options": ["cantare", "cantantem", "cantavisse"], "answers": ["cantantem"], "explanation": "Participium supplementarium, concordans cum 'te'." },
         { "id": "partadv5", "prompt": "Nemo ___ hoc credidisset. (of the wise — sapientium)", "options": ["sapiens", "sapientium", "sapientes"], "answers": ["sapientium"], "explanation": "Participium substantivum, genetivus plurale, partitivum." }
       ]
+    },
+    {
+      "id": "vi-partadv-fill2", "type": "fill-blank", "title": "Amplius Comple cum Constructione Participiali",
+      "instructions": "Elige formam rectam.",
+      "items": [
+        { "id": "partadv6", "prompt": "Vidimus nāvēs ___. (approaching — appropinquantes)", "options": ["appropinquantes", "appropinquare", "appropinquavisse"], "answers": ["appropinquantes"], "explanation": "Participium supplementarium." },
+        { "id": "partadv7", "prompt": "Audīvī puerum ___. (to have fallen — cecidisse)", "options": ["cadentem", "cecidisse", "casurum"], "answers": ["cecidisse"], "explanation": "AcI: factum reportatum, non perceptio directa." },
+        { "id": "partadv8", "prompt": "___ fortūna adiuvat. (the brave — Fortes, substantivum)", "options": ["Fortes", "Fortiter", "Fortitudo"], "answers": ["Fortes"], "explanation": "Participium/adiectivum ut substantivum." },
+        { "id": "partadv9", "prompt": "Mīlitēs, hostibus ___, urbe captā, domum redierunt. (defeated — victis)", "options": ["victi", "victis", "victos"], "answers": ["victis"], "explanation": "Ablativus absolutus." },
+        { "id": "partadv10", "prompt": "___ vēra sunt. (things said — Dicta, substantivum neutrum)", "options": ["Dicta", "Dicens", "Dicendo"], "answers": ["Dicta"], "explanation": "Participium substantivum neutrum plurale." },
+        { "id": "partadv11", "prompt": "Vīdī puerum ___. (running — currentem)", "options": ["currentem", "cucurrisse", "currere"], "answers": ["currentem"], "explanation": "Participium supplementarium, perceptio directa." }
+      ]
+    },
+    {
+      "id": "vi-partadv-mc2", "type": "multiple-choice", "title": "Amplius de Constructionibus Participialibus",
+      "items": [
+        { "id": "partadv12", "prompt": "'Audīvī puerum cecidisse' est:", "options": ["AcI, factum reportatum", "participium supplementarium", "ablativus absolutus"], "answerIndex": 0, "explanation": "Infinitivus, non participium concordans." },
+        { "id": "partadv13", "prompt": "'Dicta' (neutrum plurale) functionat ut:", "options": ["substantivum ('things said')", "adiectivum modificans nomen", "verbum finitum"], "answerIndex": 0, "explanation": "Usus substantivus participii." },
+        { "id": "partadv14", "prompt": "Participia catenata sunt frequentia in:", "options": ["prosa densa (Tacitus)", "poesi lyrica sola", "numquam adhibentur"], "answerIndex": 0, "explanation": "Stilus historicus, ablativi absoluti sequentes." },
+        { "id": "partadv15", "prompt": "'Vīdī mīlitēs fugientēs' vs 'audīvī mīlitēs fūgisse' differunt quia:", "options": ["primum est perceptio directa, secundum factum reportatum", "sunt identici", "primum est ablativus absolutus"], "answerIndex": 0, "explanation": "Participium supplementarium vs. AcI." },
+        { "id": "partadv16", "prompt": "Quattuor usus participii discussi in hac lectione includunt:", "options": ["concordans, ablativus absolutus, supplementarium, substantivum", "solum ablativus absolutus", "solum concordans"], "answerIndex": 0, "explanation": "Conspectus completus." }
+      ]
+    },
+    {
+      "id": "vi-partadv-tf", "type": "true-false", "title": "Verum an Falsum?",
+      "items": [
+        { "id": "partadv17", "statement": "Participium supplementarium indicat perceptionem directam actus.", "answer": true, "explanation": "Video/audio + acc. + participium." },
+        { "id": "partadv18", "statement": "AcI et participium supplementarium sunt semper interscambiabiles sine differentia.", "answer": false, "explanation": "Distinctio semantica: directa vs. reportata." },
+        { "id": "partadv19", "statement": "Participium substantivum potest stare solum, sine nomine explicito.", "answer": true, "explanation": "sapientes, victi, dicta." },
+        { "id": "partadv20", "statement": "Participia catenata (multiplices ablativi absoluti sequentes) sunt rara in prosa Tacitiana.", "answer": false, "explanation": "Sunt frequentissima apud Tacitum." },
+        { "id": "partadv21", "statement": "'Sapientēs' potest significare 'the wise' sine nomine concomitante.", "answer": true, "explanation": "Usus substantivus." }
+      ]
     }
   ],
   "summary": [
