@@ -6,4 +6,4 @@ compatibility_date = "2026-01-01"
 # printed id below (see README.md, Step 3).
 [[kv_namespaces]]
 binding = "AI_TEACHER_KV"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "e5f8246c4a8544888140f4c29d561f7d"
