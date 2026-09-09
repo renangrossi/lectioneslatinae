@@ -13,6 +13,7 @@
 *.png -filter -diff -merge -text
 *.webp -filter -diff -merge -text
 *.gif -filter -diff -merge -text
+*.ico -filter -diff -merge -text
 *.mp3 -filter -diff -merge -text
 *.wav -filter -diff -merge -text
 *.webm -filter -diff -merge -text
