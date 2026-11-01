@@ -1,7 +1,8 @@
 {
  "progressus/dies-in-foro": {
-  "bytes": 598176,
-  "fingerprint": "d9c4eb5e4f618d58",
+  "bytes": 603092,
+  "fingerprint": "5914b75540c27076",
+  "pacing": "sentencewise-0.60-1.10",
   "rate": "-15%",
   "respell": "2026-11-01-muta-cum-liquida",
   "voice": "it-IT-DiegoNeural"
