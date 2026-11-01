@@ -1,0 +1,171 @@
+{
+  "id": "lectio-altior-theodora-augusta",
+  "level": "altior",
+  "slug": "theodora-augusta",
+  "argumentum": "imperium",
+  "title": "Theodōra Augusta",
+  "subtitle": "Ex scaenā ad purpuram: mulier quae imperium stāre iussit.",
+  "description": "Lectio Gradūs VI: dē Theodōrā Augustā, Iūstīniānī uxōre, cum vīdeō Latīnō et Graecō adiūnctō et exercitātiōnibus.",
+  "provenance": "new",
+  "media": {
+    "kind": "video",
+    "youtube": "1anE6Asss5I",
+    "title": "Byzantine Empire Music — THEODORA! (Latin & Greek)",
+    "transcript": false,
+    "note": "Carmen est opus hodiernum, Latīnē et Graecē cantātum, dē eādem Theodōrā dē quā haec lectio agit. Verba carminis <strong>nōn</strong> sunt verba huius paginae: lectio īnfrā est prōsa nostra, ā nōbīs composita. Audī carmen propter rem et sonum; lege prōsam propter Latīnitātem."
+  },
+  "grammatica": ["ablativus-absolutus", "oratio-obliqua", "coniunctivus-consecutivus", "cum-narrativum", "participia"],
+  "pronuntiatio": "Theodōra saeculō sextō vīxit, quandō Latīnitās iam multum mūtāta erat et Cōnstantīnopolī Graecē plērumque loquēbantur. Haec tamen lectio, sīcut tōtus hīc cursus, pronūntiātiōne classicā legitur — nōn ut saeculum sextum imitēmur, sed ut ūnam pronūntiātiōnem per tōtum cursum teneāmus.",
+  "passage": [
+    "Theodōra, quae Iūstīniānō imperātōrī uxor fuit, nōn ex nōbilī genere orta est. Pater eius ursōs in circō Cōnstantīnopolitānō cūrābat; ipsa, adhūc puella, in scaenā populō placēbat. Nēmō tunc crēdidit eam quondam imperiī sociam futūram esse.",
+    "Iūstīniānus tamen, cum eam vīdisset, adeō amōre captus est ut lēgem veterem, quae virīs ōrdinis senātōriī cum scaenicīs mātrimōnium vetābat, mūtārī iubēret. Paucīs post annīs eam in mātrimōnium dūxit, et ambō Augustī appellātī sunt.",
+    "Nōn sōlum uxor sed etiam cōnsiliārius fuit. Iūstīniānus ipse in lēgibus suīs eam coniugem ā Deō datam nōminat, et sē nihil magnī sine eius cōnsiliō statuere scrīpsit — quod dē nūllā ferē aliā Augustā legimus.",
+    "Annō autem quīngentēsimō trīcēsimō secundō sēditiō ingēns, quae ex clāmōre turbae «Nīka» nōmen accēpit, urbem paene dēlēvit. Pars magna Cōnstantīnopolis ārsit, et turba novum imperātōrem clāmābat.",
+    "Iūstīniānus, timōre perterritus, fugam parābat: nāvēs in portū iam exspectābant, et cōnsiliāriī fugam suādēbant. Omnia perdita vidēbantur.",
+    "Tum Theodōra, ut Procopius nārrat, in cōnsiliō surrēxit et virōs timentēs reprehendit. Melius esse dīxit regnantem morī quam exulem vīvere; purpuram enim optimum esse sepulcrī vestīmentum.",
+    "Hīs verbīs animī virōrum mūtātī sunt. Iūstīniānus mānsit; Bēlisārius cum mīlitibus in circum missus sēditiōnem oppressit. Imperium servātum est — sed multa mīlia hominum eō diē periērunt, et hoc quoque in ratiōnibus pōnendum est.",
+    "Posteā Theodōra lēgēs dē fēminīs tulit: puellās ē servitūte scaenicā redēmit, mātrimōnia contrā voluntātem vetuit, et domūs pro fēminīs pauperibus aedificāvit.",
+    "Morbō tandem periit, Iūstīniānō multōs annōs superstite. In ecclēsiā autem Sānctī Vītālis Ravennae imāgō eius ex tessellīs facta adhūc spectātur: rēgīna purpurāta, corōnā gemmīsque ōrnāta, quae ex mūrō per saecula spectātōrēs suōs aspicit — fīlia ursōrum cūstōdis, facta domina orbis."
+  ],
+  "vocabulary": [
+    { "term": "ortus, -a, -um (ex)", "definition": "nātus ex, orīginem habēns ex" },
+    { "term": "ursus, -ī (m.)", "definition": "fera magna et villōsa silvārum" },
+    { "term": "scaena, -ae (f.)", "definition": "locus ubi histriōnēs agunt; theātrum" },
+    { "term": "socia, -ae (f.)", "definition": "quae cum aliquō partem rēī habet" },
+    { "term": "scaenicus, -a, -um", "definition": "ad scaenam pertinēns; histriō" },
+    { "term": "cōnsiliārius, -iī (m.)", "definition": "quī cōnsilium dat; auctor cōnsiliī" },
+    { "term": "sēditiō, -ōnis (f.)", "definition": "tumultus populī contrā imperium" },
+    { "term": "ārdeō, ārdēre, ārsī", "definition": "flammīs cōnsūmī; flagrāre" },
+    { "term": "perterritus, -a, -um", "definition": "valdē timēns; metū victus" },
+    { "term": "suādeō, suādēre, suāsī", "definition": "cōnsilium dare ut quid fīat" },
+    { "term": "reprehendō, -ere, -prehendī", "definition": "culpāre, vituperāre" },
+    { "term": "exul, exulis (m./f.)", "definition": "quī ex patriā pulsus est" },
+    { "term": "purpura, -ae (f.)", "definition": "color et vestis imperātōria" },
+    { "term": "sepulcrum, -ī (n.)", "definition": "locus ubi mortuus pōnitur" },
+    { "term": "opprimō, -ere, -pressī", "definition": "vī superāre et compescere" },
+    { "term": "superstes, -itis", "definition": "quī post alium vīvit" },
+    { "term": "tessella, -ae (f.)", "definition": "lapillus quadrātus ex quō imāgō fit" },
+    { "term": "cūstōs, -ōdis (m./f.)", "definition": "quī aliquid cūrat et servat" }
+  ],
+  "exercises": [
+    {
+      "id": "lectio-theodora-comprehensio",
+      "type": "reading-comprehension",
+      "title": "Textum Intellegere",
+      "instructions": "Quaestiōnēs aliīs verbīs ūtuntur quam textus. Dē sēnsū cōgitā.",
+      "items": [
+        {
+          "question": "Quid pater Theodōrae agēbat?",
+          "options": ["Ursōs in circō cūrābat.", "Senātor erat.", "Mīles Bēlisāriī erat.", "Lēgēs scrībēbat."],
+          "answer": 0,
+          "explanation": "«Pater eius ursōs in circō Cōnstantīnopolitānō cūrābat» — genus humile, nōn nōbile."
+        },
+        {
+          "question": "Cūr lēx vetus mūtanda erat priusquam Iūstīniānus Theodōram dūceret?",
+          "options": [
+            "Quia virīs ōrdinis senātōriī cum scaenicīs mātrimōnium vetābat.",
+            "Quia imperātōrem uxōrem dūcere omnīnō vetābat.",
+            "Quia Theodōra peregrīna erat.",
+            "Quia Theodōra iam marītum habēbat."
+          ],
+          "answer": 0,
+          "explanation": "Lēx mātrimōnium inter ōrdinem senātōrium et scaenicōs vetābat — ideō mūtāta est."
+        },
+        {
+          "question": "Quid Iūstīniānus in sēditiōne facere cōnstituerat antequam Theodōra loquerētur?",
+          "options": ["Fugere.", "In circum īre.", "Novum imperātōrem creāre.", "Urbem incendere."],
+          "answer": 0,
+          "explanation": "«fugam parābat: nāvēs in portū iam exspectābant»."
+        },
+        {
+          "question": "Quid Theodōra dē purpurā dīxisse nārrātur?",
+          "options": [
+            "Eam optimum esse sepulcrī vestīmentum.",
+            "Eam nimis cāram esse.",
+            "Eam ad fugam aptam esse.",
+            "Eam sine corōnā nihil valēre."
+          ],
+          "answer": 0,
+          "explanation": "Melius regnantem morī quam exulem vīvere — «purpuram enim optimum esse sepulcrī vestīmentum»."
+        },
+        {
+          "question": "Quōmodo textus sēditiōnis exitum aestimat?",
+          "options": [
+            "Imperium servātum est, sed magnō sanguinis pretiō.",
+            "Nihil mūtātum est.",
+            "Turba vīcit et novum imperātōrem creāvit.",
+            "Iūstīniānus tandem fūgit."
+          ],
+          "answer": 0,
+          "explanation": "«Imperium servātum est — sed multa mīlia hominum eō diē periērunt, et hoc quoque in ratiōnibus pōnendum est.»"
+        },
+        {
+          "question": "Ubi imāgō Theodōrae ex tessellīs facta hodiē spectārī potest?",
+          "options": ["Ravennae, in ecclēsiā Sānctī Vītālis.", "Cōnstantīnopolī, in circō.", "Rōmae, in forō.", "Nusquam iam."],
+          "answer": 0,
+          "explanation": "«In ecclēsiā autem Sānctī Vītālis Ravennae imāgō eius ex tessellīs facta adhūc spectātur»."
+        }
+      ]
+    },
+    {
+      "id": "lectio-theodora-grammatica",
+      "type": "multiple-choice",
+      "title": "Grammatica in Contextū",
+      "instructions": "Dē fōrmīs ex textū sūmptīs respondē.",
+      "items": [
+        {
+          "question": "«cum eam vīdisset» — quis est hīc ūsus coniūnctīvī?",
+          "options": [
+            "cum narrātīvum (circumstantiam temporis et causae significāns)",
+            "cum concessīvum",
+            "cum iterātīvum",
+            "cum pūrum temporāle cum indicātīvō"
+          ],
+          "answer": 0,
+          "explanation": "cum + coniūnctīvus plūsquamperfectī in nārrātiōne: circumstantia, nōn tempus merum."
+        },
+        {
+          "question": "«ut lēgem … mūtārī iubēret» — quālis est haec clausula?",
+          "options": ["cōnsecūtīva (post «adeō»)", "fīnālis", "condiciōnālis", "relātīva"],
+          "answer": 0,
+          "explanation": "«adeō … ut» est signum clausulae cōnsecūtīvae: tantus erat amor ut hoc sequerētur."
+        },
+        {
+          "question": "«Melius esse dīxit regnantem morī» — cūr «esse» et «morī» īnfīnītīvī sunt?",
+          "options": [
+            "Quia ōrātiō oblīqua est post verbum dīcendī.",
+            "Quia imperātīvī sunt.",
+            "Quia gerundia sunt.",
+            "Quia supīna sunt."
+          ],
+          "answer": 0,
+          "explanation": "Post «dīxit» sequitur ōrātiō oblīqua: accūsātīvus cum īnfīnītīvō."
+        },
+        {
+          "question": "«Iūstīniānō multōs annōs superstite» — quae est haec cōnstrūctiō?",
+          "options": ["ablātīvus absolūtus", "ablātīvus comparātiōnis", "datīvus possessīvus", "ablātīvus īnstrūmentī"],
+          "answer": 0,
+          "explanation": "Nōmen + participium/adiectīvum in ablātīvō, ā reliquā sententiā solūtum: ablātīvus absolūtus."
+        }
+      ]
+    },
+    {
+      "id": "lectio-theodora-verum-falsum",
+      "type": "true-false",
+      "title": "Vērum an Falsum",
+      "instructions": "Dīc utrum sententia cum textū cōnsentiat.",
+      "items": [
+        { "statement": "Theodōra ex familiā senātōriā orta est.", "answer": false, "explanation": "«nōn ex nōbilī genere orta est» — pater ursōs cūrābat." },
+        { "statement": "Theodōra Augusta appellāta est.", "answer": true, "explanation": "«ambō Augustī appellātī sunt»." },
+        { "statement": "Bēlisārius sēditiōnem oppressit.", "answer": true, "explanation": "«Bēlisārius cum mīlitibus in circum missus sēditiōnem oppressit»." },
+        { "statement": "Theodōra post Iūstīniānum mortua est.", "answer": false, "explanation": "«Iūstīniānō multōs annōs superstite» — Iūstīniānus ei superstes fuit." },
+        { "statement": "Theodōra lēgēs tulit quae fēminās adiuvārent.", "answer": true, "explanation": "Puellās redēmit, mātrimōnia coācta vetuit, domūs aedificāvit." }
+      ]
+    }
+  ],
+  "discussion": [
+    "Theodōra ex humilī genere ad summam potestātem pervēnit. Quae hodiē viae similēs patent, quae clausae sunt?",
+    "Textus dīcit imperium servātum esse, multa tamen mīlia periisse. Potestne ūna sententia tantum pretium valēre?",
+    "Procopius et in Bellīs et in Historiā Arcānā dē Theodōrā scrīpsit, sed valdē dissimiliter. Quōmodo lēctor fontēs inter sē pugnantēs aestimāre dēbet?"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "lectio-progressus-dies-in-foro",
+  "level": "progressus",
+  "slug": "dies-in-foro",
+  "argumentum": "urbs",
+  "title": "Diēs in Forō Rōmānō",
+  "subtitle": "Ūnus diēs in corde urbis, ā prīmā lūce usque ad stēllās.",
+  "description": "Lectio Gradūs III: ūnus diēs in Forō Rōmānō, tempore praesentī narrātus, cum vocābulīs urbis et exercitātiōnibus.",
+  "provenance": "new",
+  "narrator": "male",
+  "media": { "kind": "audio" },
+  "grammatica": ["declinatio-tertia", "praesens", "ablativus-temporis", "praepositiones"],
+  "passage": [
+    "Prīma lūx est. Forum Rōmānum nōndum plēnum est, sed iam mercātōrēs tabernās aperiunt. Puer aquam ad tabernam portat. Canis in viā dormit.",
+    "Mox multī hominēs in forum veniunt. Senātōrēs ad cūriam ambulant; togae eōrum albae sunt. Puerī et puellae magistrōs suōs sub porticū exspectant.",
+    "In mediō forō templum magnum stat. Ante templum est āra, et sacerdōs victimam parat. Fūmus lentē ad caelum ascendit.",
+    "Mercātor clāmat: «Piscēs! Piscēs novī!» Fēmina pretium rogat. Mercātor respondet: «Duo assēs.» Fēmina pecūniam dat et piscēs domum portat.",
+    "Merīdiē sōl altus est et forum calidum. Hominēs in umbrā sedent et aquam bibunt. Amīcī dē rēbus urbis dīcunt: dē lūdīs, dē frūmentō, dē bellō.",
+    "Post merīdiem ōrātor in basilicā ōrātiōnem habet. Multī audiunt, quia vōx eius clāra et fortis est. Aliī tamen dormiunt.",
+    "Vesperī mercātōrēs tabernās claudunt. Forum iterum quiētum est. Sōl post collēs cadit, et stēllae in caelō appārent.",
+    "Sīc diēs in Forō Rōmānō currit: cum lūce incipit, cum tenebrīs fīnem habet."
+  ],
+  "vocabulary": [
+    { "term": "forum, -ī (n.)", "definition": "forum, platea pūblica in mediā urbe" },
+    { "term": "taberna, -ae (f.)", "definition": "locus ubi mercātor mercēs vēndit" },
+    { "term": "mercātor, -ōris (m.)", "definition": "quī mercēs vēndit et emit" },
+    { "term": "cūria, -ae (f.)", "definition": "aedificium ubi senātus convenit" },
+    { "term": "porticus, -ūs (f.)", "definition": "ambulātiō tēcta columnīs sustenta" },
+    { "term": "āra, -ae (f.)", "definition": "mēnsa sacra ubi victima offertur" },
+    { "term": "sacerdōs, -ōtis (m./f.)", "definition": "quī sacra deōrum cūrat" },
+    { "term": "pretium, -iī (n.)", "definition": "quantum pecūniae rēs cōnstat" },
+    { "term": "as, assis (m.)", "definition": "nummus Rōmānus minimus" },
+    { "term": "merīdiēs, -ēī (m.)", "definition": "media diēs, cum sōl altissimus est" },
+    { "term": "basilica, -ae (f.)", "definition": "aedificium magnum ubi iūdicia aguntur" },
+    { "term": "ōrātor, -ōris (m.)", "definition": "quī apud populum dīcit" },
+    { "term": "vesper, -erī (m.)", "definition": "tempus post sōlis occāsum" },
+    { "term": "tenebrae, -ārum (f. pl.)", "definition": "obscūritās, absentia lūcis" }
+  ],
+  "exercises": [
+    {
+      "id": "lectio-dies-in-foro-comprehensio",
+      "type": "reading-comprehension",
+      "title": "Textum Intellegere",
+      "instructions": "Quaestiōnēs aliīs verbīs ūtuntur quam textus. Dē sēnsū cōgitā, nōn dē verbīs ipsīs.",
+      "items": [
+        {
+          "question": "Quid mercātōrēs prīmā lūce faciunt?",
+          "options": ["Tabernās aperiunt.", "Tabernās claudunt.", "In umbrā dormiunt.", "Ad cūriam ambulant."],
+          "answer": 0,
+          "explanation": "«iam mercātōrēs tabernās aperiunt» — prīmā lūce aperiunt, vesperī autem claudunt."
+        },
+        {
+          "question": "Quō senātōrēs eunt?",
+          "options": ["Ad cūriam.", "Ad basilicam.", "Ad tabernam.", "Ad templum."],
+          "answer": 0,
+          "explanation": "«Senātōrēs ad cūriam ambulant» — cūria est aedificium senātūs."
+        },
+        {
+          "question": "Quantum piscēs cōnstant?",
+          "options": ["Duōs assēs.", "Duo templa.", "Nihil.", "Decem assēs."],
+          "answer": 0,
+          "explanation": "Mercātor respondet: «Duo assēs.»"
+        },
+        {
+          "question": "Cūr hominēs merīdiē in umbrā sedent?",
+          "options": ["Quia sōl altus est et forum calidum.", "Quia nox est.", "Quia ōrātor dīcit.", "Quia pluit."],
+          "answer": 0,
+          "explanation": "«Merīdiē sōl altus est et forum calidum» — ideō umbram quaerunt."
+        },
+        {
+          "question": "Quid omnēs in basilicā faciunt dum ōrātor dīcit?",
+          "options": ["Multī audiunt, aliī tamen dormiunt.", "Omnēs audiunt.", "Omnēs dormiunt.", "Omnēs clāmant."],
+          "answer": 0,
+          "explanation": "Textus utrumque dīcit: «Multī audiunt… Aliī tamen dormiunt.»"
+        }
+      ]
+    },
+    {
+      "id": "lectio-dies-in-foro-spatia",
+      "type": "fill-blank",
+      "title": "Spatia Complenda",
+      "instructions": "Vocābulum rēctum ex textū ēlige.",
+      "items": [
+        { "sentence": "Prīmā lūce mercātōrēs _____ aperiunt.", "options": ["tabernās", "togās", "stēllās"], "answer": "tabernās" },
+        { "sentence": "Sacerdōs ante _____ victimam parat.", "options": ["āram", "cūriam", "porticum"], "answer": "āram" },
+        { "sentence": "_____ sōl altus est et forum calidum.", "options": ["Merīdiē", "Vesperī", "Prīmā lūce"], "answer": "Merīdiē" },
+        { "sentence": "Vesperī mercātōrēs tabernās _____.", "options": ["claudunt", "aperiunt", "portant"], "answer": "claudunt" },
+        { "sentence": "Sōl post collēs cadit, et _____ in caelō appārent.", "options": ["stēllae", "piscēs", "togae"], "answer": "stēllae" }
+      ]
+    },
+    {
+      "id": "lectio-dies-in-foro-verum-falsum",
+      "type": "true-false",
+      "title": "Vērum an Falsum",
+      "instructions": "Dīc utrum sententia cum textū cōnsentiat.",
+      "items": [
+        { "statement": "Canis in viā dormit.", "answer": true, "explanation": "«Canis in viā dormit.»" },
+        { "statement": "Togae senātōrum nigrae sunt.", "answer": false, "explanation": "«togae eōrum albae sunt» — albae, nōn nigrae." },
+        { "statement": "Fēmina piscēs emit.", "answer": true, "explanation": "Pecūniam dat et piscēs domum portat." },
+        { "statement": "Vesperī forum plēnius fit quam merīdiē.", "answer": false, "explanation": "«Forum iterum quiētum est» — vesperī vacuātur." },
+        { "statement": "Templum in mediō forō stat.", "answer": true, "explanation": "«In mediō forō templum magnum stat.»" }
+      ]
+    },
+    {
+      "id": "lectio-dies-in-foro-paria",
+      "type": "matching",
+      "title": "Paria Iungenda",
+      "instructions": "Iungē tempus diēī cum rē quae tunc fit.",
+      "items": [
+        { "left": "prīmā lūce", "right": "mercātōrēs tabernās aperiunt" },
+        { "left": "merīdiē", "right": "hominēs in umbrā sedent" },
+        { "left": "post merīdiem", "right": "ōrātor in basilicā dīcit" },
+        { "left": "vesperī", "right": "tabernae clauduntur" }
+      ]
+    }
+  ],
+  "discussion": [
+    "Dēscrībe locum in urbe tuā quī forō Rōmānō similis est. Quid ibi hominēs faciunt?",
+    "In textū aliī ōrātōrem audiunt, aliī dormiunt. Cūr putās hominēs ōrātiōnēs longās nōn semper audīre?",
+    "Mālīsne in forō antīquō mercātor esse an ōrātor? Cūr?"
+  ]
+}

@@ -17,6 +17,41 @@
      (see site_chrome.py's head()) to avoid a flash of the wrong
      theme; this section only wires up the toggle button.
      --------------------------------------------------------------- */
+  /* Nudges a glossary definition box so it cannot open off the side of the
+     screen, and flips it below the word when there is no room above.
+     Ported from the sibling English project's main.js. The CSS alone
+     centres the box on the word, which is wrong at the edge of a narrow
+     viewport; --vt-shift and data-vt-below are what this sets. */
+  function initVocabTooltips() {
+    var terms = document.querySelectorAll(".vocab-term[data-definition]");
+    if (!terms.length || !window.getComputedStyle) return;
+    var PAD = 8;
+
+    function place(term) {
+      term.removeAttribute("data-vt-below");
+      term.style.setProperty("--vt-shift", "0px");
+      var box = window.getComputedStyle(term, "::after");
+      var w = parseFloat(box.width);
+      var h = parseFloat(box.height);
+      if (!w) return;                       // no tooltip laid out; nothing to do
+      var r = term.getBoundingClientRect();
+      var centre = r.left + r.width / 2;
+      var shift = 0;
+      if (centre - w / 2 < PAD) shift = PAD - (centre - w / 2);
+      else if (centre + w / 2 > window.innerWidth - PAD) {
+        shift = (window.innerWidth - PAD) - (centre + w / 2);
+      }
+      if (shift) term.style.setProperty("--vt-shift", shift.toFixed(1) + "px");
+      // Not enough room above -- open downwards instead.
+      if (h && r.top - h < PAD + 12) term.setAttribute("data-vt-below", "");
+    }
+
+    Array.prototype.forEach.call(terms, function (t) {
+      t.addEventListener("pointerenter", function () { place(t); });
+      t.addEventListener("focus", function () { place(t); });
+    });
+  }
+
   function initTheme() {
     var toggle = document.querySelector("[data-theme-toggle]");
     if (!toggle) return;
@@ -218,6 +253,7 @@
   }
 
   document.addEventListener("DOMContentLoaded", function () {
+    initVocabTooltips();
     initTheme();
     initMobileNav();
     initDropdown();
