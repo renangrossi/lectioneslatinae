@@ -125,6 +125,7 @@ def header(rel, active_level_code, breadcrumb_html):
                     {nav_levels_html(rel, active_level_code)}
                     </ul>
                 </li>
+                <li><a href="{rel}lectiones.html">Lectiones</a></li>
                 <li><a href="{rel}exercitationes.html">Exercitationes</a></li>
                 <li><a href="{rel}examina.html">Examina</a></li>
                 <li><a href="{rel}varia.html">Varia</a></li>
@@ -209,6 +210,7 @@ def footer(rel):
                 <h4>Exercitium</h4>
                 <ul>
                     <li><a href="{rel}index.html#grammatica">Compendia Grammatica</a></li>
+                    <li><a href="{rel}lectiones.html">Lectiones &amp; Auditiones</a></li>
                     <li><a href="{rel}exercitationes.html">Lectio &amp; Exercitationes</a></li>
                     <li><a href="{rel}examina.html">Examina Ficta</a></li>
                     <li><a href="{rel}lexicon.html">Lexicon &amp; Fontes</a></li>

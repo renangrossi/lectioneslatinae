@@ -1360,3 +1360,82 @@ audio {
   font-size: var(--step--1);
 }
 .topic-list li::before { content: "📘 "; }
+
+/* ======================================================================
+   Lectiones: the reading library's own furniture.
+   ====================================================================== */
+.reading-title {
+  font-family: var(--font-display);
+  font-size: var(--step-3);
+  line-height: var(--leading-tight);
+  margin-bottom: var(--space-2xs);
+}
+.reading-subtitle {
+  font-size: var(--step-0);
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-bottom: var(--space-sm);
+  max-width: 62ch;
+}
+.reading-intro {
+  font-size: var(--step--1);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-md);
+  max-width: 62ch;
+}
+
+/* The passage is set in the serif display face: a lectio is meant to be
+   read at length, and the macrons -- which carry vowel quantity and so the
+   stress -- are drawn far more clearly by Cardo than by the UI sans. */
+.reading-passage {
+  font-family: var(--font-display);
+  max-width: 68ch;
+}
+
+.lectio-media { margin: 0 0 var(--space-md); }
+.lectio-media audio { width: 100%; max-width: 46rem; display: block; }
+
+/* 16:9 without aspect-ratio, so an older mobile browser still gets a box of
+   the right shape rather than a collapsed iframe. */
+.lectio-video {
+  position: relative;
+  width: 100%;
+  max-width: 46rem;
+  padding-top: 56.25%;
+  background: var(--ink-900);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+.lectio-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.lectio-media__caption {
+  font-size: var(--step--1);
+  color: var(--color-text-muted);
+  margin-top: var(--space-2xs);
+  max-width: 62ch;
+}
+.lectio-media__note { margin-top: var(--space-sm); }
+
+/* Hub: the level heading above each row of cards. */
+.topic-group {
+  font-family: var(--font-display);
+  font-size: var(--step-1);
+  color: var(--color-primary);
+  margin: var(--space-xl) 0 var(--space-sm);
+  padding-bottom: var(--space-3xs);
+  border-bottom: 1px solid var(--color-border);
+}
+.topic-group:first-of-type { margin-top: 0; }
+
+.lesson-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3xs);
+  margin: var(--space-2xs) 0 0;
+}

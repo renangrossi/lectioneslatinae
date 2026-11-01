@@ -136,6 +136,27 @@ def main():
                 entry["lessonUrl"] = url
                 items_index[item_id] = entry
 
+    # The lectiones library indexes itself here rather than in
+    # build_lectio_page.py, because this script REWRITES search-index.json
+    # from scratch -- anything appended elsewhere would be silently dropped
+    # the next time this ran.
+    n_lectiones = 0
+    try:
+        import lectiones_common as lc
+        for lv, slug, d in lc.all_sources():
+            search_index.append({
+                "title": d["title"],
+                "url": f"lectiones/{lv}/{slug}.html",
+                "level": lc.LEVEL_CODE[lv],
+                "type": "lectio",
+                "desc": d.get("subtitle", ""),
+                "keywords": [lc.media_kind(d), d.get("argumentum", ""),
+                             lc.LEVEL_NAME[lv].lower()],
+            })
+            n_lectiones += 1
+    except ImportError:
+        pass
+
     search_index.extend(STATIC_PAGES)
 
     ITEMS_OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -144,7 +165,7 @@ def main():
 
     print(f"Indexed {len(items_index)} reviewable items from {len(files)} lessons "
           f"({skipped_no_answer} self-check-only items excluded) -> {ITEMS_OUT_PATH.relative_to(REPO_ROOT)}")
-    print(f"Search index: {len(search_index)} entries -> {SEARCH_OUT_PATH.relative_to(REPO_ROOT)}")
+    print(f"Search index: {len(search_index)} entries ({n_lectiones} lectiones) -> {SEARCH_OUT_PATH.relative_to(REPO_ROOT)}")
 
     # Per-level exercise-block counts, to keep assets/js/progress.js's
     # LEVEL_EXERCISE_COUNTS honest -- print only; that object is edited

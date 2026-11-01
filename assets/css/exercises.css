@@ -380,3 +380,116 @@ body.is-printing-block #print-overlay {
   padding-left: var(--space-sm);
   color: var(--color-text-muted);
 }
+
+/* ======================================================================
+   Glossary tooltips and the hidden Key Vocabulary list.
+   Ported verbatim from the sibling English project's exercises.css so a
+   lectio behaves exactly as a reading text does there -- including the
+   scale(0) trick that keeps a hidden definition box from widening the
+   page on a phone, which was a real bug fixed there and would otherwise
+   be reintroduced here. The only change is the heading wording below.
+   ====================================================================== */
+/* Glossary words inside a reading passage carry their own definition, so a
+   reader can hover (or tap, or tab to) the word instead of scrolling to a
+   separate list. The definition lives in data-definition and is rendered by
+   ::after, which keeps this dependency-free -- there is no tooltip JS. */
+.reading-passage .vocab-term,
+.exercise-block .vocab-term { position: relative; }
+
+.reading-passage .vocab-term::after,
+.exercise-block .vocab-term::after {
+  content: attr(data-definition);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 0.55em);
+  /* Centred on the word, then nudged by initVocabTooltips() in main.js when
+     that would push the box past the edge of the screen. The custom property
+     defaults to 0, so without JavaScript the behaviour is exactly as before.
+
+     The scale is what keeps the *hidden* box out of the page's scrollable
+     width. `opacity: 0` and `visibility: hidden` below hide the tooltip but
+     leave it in layout, and an absolutely-positioned descendant still counts
+     towards its ancestors' scrollable overflow -- so every glossary word whose
+     invisible definition box reached past the text column was widening the
+     page. On a phone that is a reading text you can scroll sideways, by up to
+     35px, with nothing out there to look at. A transform IS taken into account
+     for that overflow, so collapsing the box to a point while it is hidden
+     removes the contribution; getComputedStyle(term, "::after").width reports
+     the untransformed used width, so initVocabTooltips() still measures and
+     places the box exactly as before. */
+  transform: translateX(calc(-50% + var(--vt-shift, 0px))) scale(var(--vt-scale, 0));
+  z-index: 40;
+  width: max-content;
+  max-width: min(30ch, 78vw);
+  padding: 0.5em 0.75em;
+  border: var(--border-hairline);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  color: var(--color-text);
+  box-shadow: 0 6px 20px rgb(0 0 0 / 18%);
+  font-family: var(--font-body, inherit);
+  font-size: var(--step--1);
+  font-weight: 400;
+  line-height: var(--leading-normal);
+  text-align: left;
+  /* The tooltip sits inside an indented paragraph and would otherwise inherit
+     its 1.5em first-line indent, and inside the opening paragraph it would
+     inherit the small caps from ::first-line. It is a separate box of plain
+     prose, so both are reset here. */
+  text-indent: 0;
+  font-variant-caps: normal;
+  white-space: normal;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 120ms ease;
+  pointer-events: none;
+}
+
+/* A word on the first line has nothing above it to open into, so the box is
+   flipped underneath. Set by initVocabTooltips(); the default stays above. */
+.vocab-term[data-vt-below]::after {
+  bottom: auto;
+  top: calc(100% + 0.55em);
+}
+
+.reading-passage .vocab-term:hover::after,
+.reading-passage .vocab-term:focus-visible::after,
+.reading-passage .vocab-term:focus::after,
+.exercise-block .vocab-term:hover::after,
+.exercise-block .vocab-term:focus-visible::after,
+.exercise-block .vocab-term:focus::after {
+  --vt-scale: 1;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* tabindex makes the word reachable by keyboard and tappable on a phone;
+   it should not draw a focus ring on a plain mouse click. */
+.vocab-term:focus { outline: none; }
+.vocab-term:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+
+/* ---- Key Vocabulary ----------------------------------------------------
+   The highlights in the passage are how a reader meets these words, so the
+   list is not shown on screen -- it would repeat, under the text, what the
+   text already carries.
+
+   It stays in the DOM, hidden the accessible way rather than with
+   display:none, for two readers who cannot use a highlight. A screen reader
+   gets nothing from a CSS tooltip, so every highlighted word carries
+   aria-describedby pointing at its entry here, and that only works if the
+   entry is still in the accessibility tree. And paper has nothing to hover
+   over, so this is what prints (laid out in assets/css/reading-print.css). */
+.reading-glossary {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+/* The dash between a headword and its definition is punctuation, not styling:
+   without it the printed glossary runs the two together. */
+.reading-glossary__def::before { content: "\2014\00a0"; }
