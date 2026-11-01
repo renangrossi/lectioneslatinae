@@ -26,6 +26,37 @@ REL is the relative path prefix from the generated file back to the repo
 root, e.g. "../../" for gradus/{level}/{lesson}.html (two levels deep).
 """
 
+import pathlib as _pathlib
+
+_REPO_ROOT = _pathlib.Path(__file__).resolve().parent.parent
+
+# ---------------------------------------------------------------------------
+# ASSET VERSIONING
+#
+# Every stylesheet and script is linked with ?v=<hash of its contents>, so a
+# visitor's browser fetches the new file the moment one changes instead of
+# serving what it cached. Without this, a CSS edit lands on the server and
+# simply does not reach anyone who has been to the site before -- which is
+# exactly what happened when the vocab-term tooltips were added: the rules
+# were deployed and correct, and returning visitors still saw the old page.
+#
+# The hash is of the file's bytes, so it changes when, and only when, the
+# asset does, and an unchanged asset keeps its cache entry.
+_ASSET_V = {}
+
+
+def asset_v(path):
+    """?v= query for assets/<path>, from a hash of the file's contents."""
+    if path not in _ASSET_V:
+        import hashlib
+        f = _REPO_ROOT / "assets" / path
+        try:
+            _ASSET_V[path] = hashlib.sha256(f.read_bytes()).hexdigest()[:10]
+        except OSError:
+            _ASSET_V[path] = "0"
+    return f"?v={_ASSET_V[path]}"
+
+
 LEVELS = [
     ("I", "Fundamenta", "fundamenta"),
     ("II", "Elementa", "elementa"),
@@ -87,14 +118,14 @@ def head(rel, title, description):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{rel}assets/css/tokens.css">
-<link rel="stylesheet" href="{rel}assets/css/base.css">
-<link rel="stylesheet" href="{rel}assets/css/components.css">
-<link rel="stylesheet" href="{rel}assets/css/layout.css">
-<link rel="stylesheet" href="{rel}assets/css/dark-mode.css">
-<link rel="stylesheet" href="{rel}assets/css/ai-teacher.css">
-<link rel="stylesheet" href="{rel}assets/css/search.css">
-<link rel="stylesheet" href="{rel}assets/css/exercises.css"><link rel="stylesheet" href="{rel}assets/css/lessons.css">
+<link rel="stylesheet" href="{rel}assets/css/tokens.css{asset_v("css/tokens.css")}">
+<link rel="stylesheet" href="{rel}assets/css/base.css{asset_v("css/base.css")}">
+<link rel="stylesheet" href="{rel}assets/css/components.css{asset_v("css/components.css")}">
+<link rel="stylesheet" href="{rel}assets/css/layout.css{asset_v("css/layout.css")}">
+<link rel="stylesheet" href="{rel}assets/css/dark-mode.css{asset_v("css/dark-mode.css")}">
+<link rel="stylesheet" href="{rel}assets/css/ai-teacher.css{asset_v("css/ai-teacher.css")}">
+<link rel="stylesheet" href="{rel}assets/css/search.css{asset_v("css/search.css")}">
+<link rel="stylesheet" href="{rel}assets/css/exercises.css{asset_v("css/exercises.css")}"><link rel="stylesheet" href="{rel}assets/css/lessons.css{asset_v("css/lessons.css")}">
 <script>
 (function(){{try{{var t=localStorage.getItem('theme');if(!t){{t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}}document.documentElement.setAttribute('data-theme',t);}}catch(e){{}}}})();
 </script>
@@ -260,11 +291,11 @@ def footer(rel):
         </form>
         <p class="ai-teacher-panel__hint" data-ai-teacher-hint>Respōnsa ab exemplārī AI veniunt et interdum falsa esse possunt &mdash; semper cum māteriā lēctiōnis tuae cōnfer. Nihil quod scrībis post hanc fenestram clausam servātur.</p>
     </div>
-    <script src="{rel}assets/js/main.js"></script>
-    <script src="{rel}assets/js/search.js"></script>
-    <script src="{rel}assets/js/ai-teacher.js" data-ai-endpoint="https://ai-teacher-la.englishclasses.workers.dev"></script>
-    <script src="{rel}assets/js/dict-widget.js"></script>
-    <script src="{rel}assets/js/progress.js"></script><script src="{rel}assets/js/exercises.js"></script><script src="{rel}assets/js/mastery.js"></script>
+    <script src="{rel}assets/js/main.js{asset_v("js/main.js")}"></script>
+    <script src="{rel}assets/js/search.js{asset_v("js/search.js")}"></script>
+    <script src="{rel}assets/js/ai-teacher.js{asset_v("js/ai-teacher.js")}" data-ai-endpoint="https://ai-teacher-la.englishclasses.workers.dev"></script>
+    <script src="{rel}assets/js/dict-widget.js{asset_v("js/dict-widget.js")}"></script>
+    <script src="{rel}assets/js/progress.js{asset_v("js/progress.js")}"></script><script src="{rel}assets/js/exercises.js{asset_v("js/exercises.js")}"></script><script src="{rel}assets/js/mastery.js{asset_v("js/mastery.js")}"></script>
 </body>
 </html>
 """
